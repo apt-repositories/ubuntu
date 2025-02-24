@@ -1,1 +1,135 @@
-[{"raw":{},"required":["Filename","Size"],"package":"dovecot-core","source":"dovecot","version":"1:2.2.22-1ubuntu2.14","section":"mail","priority":"optional","architecture":"amd64","depends":["libbz2-1.0","libc6 (>= 2.17)","libexttextcat-2.0-0 (>= 3.3.0)","liblz4-1 (>= 0.0~r113)","liblzma5 (>= 5.1.1alpha+20120614)","libpam0g (>= 0.99.7.1)","libssl1.0.0 (>= 1.0.0)","libwrap0 (>= 7.6-4~)","zlib1g (>= 1:1.1.4)","init-system-helpers (>= 1.18~)","lsb-base (>= 4.1+Debian11ubuntu7)","libpam-runtime (>= 0.76-13.1)","openssl","adduser","ucf (>= 2.0020)","ssl-cert"],"recommends":["ntpdate"],"suggests":["ntp","dovecot-gssapi","dovecot-sieve","dovecot-pgsql","dovecot-mysql","dovecot-sqlite","dovecot-ldap","dovecot-imapd","dovecot-pop3d","dovecot-lmtpd","dovecot-managesieved","dovecot-solr","ufw"],"replaces":["dovecot-common (<< 1:2.0.14-2~)","mailavenger (<< 0.8.1-4)"],"breaks":["dovecot-common (<< 1:2.0.14-2~)","mailavenger (<< 0.8.1-4)"],"installedSize":7410,"maintainer":"Ubuntu Developers <ubuntu-devel-discuss@lists.ubuntu.com>","description":"secure POP3/IMAP server - core files","homepage":"http://dovecot.org/","filename":"pool/main/d/dovecot/dovecot-core_2.2.22-1ubuntu2.14_amd64.deb","size":2424560,"md5":"7972107f287d8552ad1d9d6bdd0a3c27","sha1":"f94123da624437ea9b750a39ea8e71c23910db1e","sha256":"9f7fb78b848e7286d9e763d048cabbcafd885fed624aaab452a4b9ed27089eb1","sha512":"01eaf819a3142b32c8641cb8e814aaa959250aa6b5a46b8a88e0aa28f56764ca3c0d4253e13a3639223ec09ab82431078266eb0808c46a21478c33f3c0e8e130","descriptionMd5":"42825422b1ef9e3a592c94dfafed375c"},{"raw":{},"required":["Filename","Size"],"package":"dovecot-core","source":"dovecot","version":"1:2.2.22-1ubuntu2","section":"mail","priority":"optional","architecture":"amd64","depends":["libbz2-1.0","libc6 (>= 2.17)","libexttextcat-2.0-0 (>= 3.3.0)","liblz4-1 (>= 0.0~r113)","liblzma5 (>= 5.1.1alpha+20120614)","libpam0g (>= 0.99.7.1)","libssl1.0.0 (>= 1.0.0)","libwrap0 (>= 7.6-4~)","zlib1g (>= 1:1.1.4)","init-system-helpers (>= 1.18~)","lsb-base (>= 4.1+Debian11ubuntu7)","libpam-runtime (>= 0.76-13.1)","openssl","adduser","ucf (>= 2.0020)","ssl-cert"],"recommends":["ntpdate"],"suggests":["ntp","dovecot-gssapi","dovecot-sieve","dovecot-pgsql","dovecot-mysql","dovecot-sqlite","dovecot-ldap","dovecot-imapd","dovecot-pop3d","dovecot-lmtpd","dovecot-managesieved","dovecot-solr","dovecot-lucene","ufw"],"replaces":["dovecot-common (<< 1:2.0.14-2~)","mailavenger (<< 0.8.1-4)"],"breaks":["dovecot-common (<< 1:2.0.14-2~)","mailavenger (<< 0.8.1-4)"],"installedSize":7410,"maintainer":"Ubuntu Developers <ubuntu-devel-discuss@lists.ubuntu.com>","description":"secure POP3/IMAP server - core files","homepage":"http://dovecot.org/","filename":"pool/main/d/dovecot/dovecot-core_2.2.22-1ubuntu2_amd64.deb","size":2420094,"md5":"f75ce3c784f52c3830853b2b20556991","sha1":"c38bafd94d8ca40f493239564441e95c5eabafe6","sha256":"bac928079eebe858367d2be12db43e27bc7112af5326978cc566bfe3e9fa0ca6","descriptionMd5":"42825422b1ef9e3a592c94dfafed375c"}]
+[{
+	"raw": {},
+	"required": [
+		"Filename",
+		"Size"
+	],
+	"package": "dovecot-core",
+	"source": "dovecot",
+	"version": "1:2.2.22-1ubuntu2.14",
+	"section": "mail",
+	"priority": "optional",
+	"architecture": "amd64",
+	"depends": [
+		"libbz2-1.0",
+		"libc6 (>= 2.17)",
+		"libexttextcat-2.0-0 (>= 3.3.0)",
+		"liblz4-1 (>= 0.0~r113)",
+		"liblzma5 (>= 5.1.1alpha+20120614)",
+		"libpam0g (>= 0.99.7.1)",
+		"libssl1.0.0 (>= 1.0.0)",
+		"libwrap0 (>= 7.6-4~)",
+		"zlib1g (>= 1:1.1.4)",
+		"init-system-helpers (>= 1.18~)",
+		"lsb-base (>= 4.1+Debian11ubuntu7)",
+		"libpam-runtime (>= 0.76-13.1)",
+		"openssl",
+		"adduser",
+		"ucf (>= 2.0020)",
+		"ssl-cert"
+	],
+	"recommends": [
+		"ntpdate"
+	],
+	"suggests": [
+		"ntp",
+		"dovecot-gssapi",
+		"dovecot-sieve",
+		"dovecot-pgsql",
+		"dovecot-mysql",
+		"dovecot-sqlite",
+		"dovecot-ldap",
+		"dovecot-imapd",
+		"dovecot-pop3d",
+		"dovecot-lmtpd",
+		"dovecot-managesieved",
+		"dovecot-solr",
+		"ufw"
+	],
+	"replaces": [
+		"dovecot-common (<< 1:2.0.14-2~)",
+		"mailavenger (<< 0.8.1-4)"
+	],
+	"breaks": [
+		"dovecot-common (<< 1:2.0.14-2~)",
+		"mailavenger (<< 0.8.1-4)"
+	],
+	"installedSize": 7410,
+	"maintainer": "Ubuntu Developers <ubuntu-devel-discuss@lists.ubuntu.com>",
+	"description": "secure POP3/IMAP server - core files",
+	"homepage": "http://dovecot.org/",
+	"filename": "pool/main/d/dovecot/dovecot-core_2.2.22-1ubuntu2.14_amd64.deb",
+	"size": 2424560,
+	"md5": "7972107f287d8552ad1d9d6bdd0a3c27",
+	"sha1": "f94123da624437ea9b750a39ea8e71c23910db1e",
+	"sha256": "9f7fb78b848e7286d9e763d048cabbcafd885fed624aaab452a4b9ed27089eb1",
+	"sha512": "01eaf819a3142b32c8641cb8e814aaa959250aa6b5a46b8a88e0aa28f56764ca3c0d4253e13a3639223ec09ab82431078266eb0808c46a21478c33f3c0e8e130",
+	"descriptionMd5": "42825422b1ef9e3a592c94dfafed375c"
+},{
+	"raw": {},
+	"required": [
+		"Filename",
+		"Size"
+	],
+	"package": "dovecot-core",
+	"source": "dovecot",
+	"version": "1:2.2.22-1ubuntu2",
+	"section": "mail",
+	"priority": "optional",
+	"architecture": "amd64",
+	"depends": [
+		"libbz2-1.0",
+		"libc6 (>= 2.17)",
+		"libexttextcat-2.0-0 (>= 3.3.0)",
+		"liblz4-1 (>= 0.0~r113)",
+		"liblzma5 (>= 5.1.1alpha+20120614)",
+		"libpam0g (>= 0.99.7.1)",
+		"libssl1.0.0 (>= 1.0.0)",
+		"libwrap0 (>= 7.6-4~)",
+		"zlib1g (>= 1:1.1.4)",
+		"init-system-helpers (>= 1.18~)",
+		"lsb-base (>= 4.1+Debian11ubuntu7)",
+		"libpam-runtime (>= 0.76-13.1)",
+		"openssl",
+		"adduser",
+		"ucf (>= 2.0020)",
+		"ssl-cert"
+	],
+	"recommends": [
+		"ntpdate"
+	],
+	"suggests": [
+		"ntp",
+		"dovecot-gssapi",
+		"dovecot-sieve",
+		"dovecot-pgsql",
+		"dovecot-mysql",
+		"dovecot-sqlite",
+		"dovecot-ldap",
+		"dovecot-imapd",
+		"dovecot-pop3d",
+		"dovecot-lmtpd",
+		"dovecot-managesieved",
+		"dovecot-solr",
+		"dovecot-lucene",
+		"ufw"
+	],
+	"replaces": [
+		"dovecot-common (<< 1:2.0.14-2~)",
+		"mailavenger (<< 0.8.1-4)"
+	],
+	"breaks": [
+		"dovecot-common (<< 1:2.0.14-2~)",
+		"mailavenger (<< 0.8.1-4)"
+	],
+	"installedSize": 7410,
+	"maintainer": "Ubuntu Developers <ubuntu-devel-discuss@lists.ubuntu.com>",
+	"description": "secure POP3/IMAP server - core files",
+	"homepage": "http://dovecot.org/",
+	"filename": "pool/main/d/dovecot/dovecot-core_2.2.22-1ubuntu2_amd64.deb",
+	"size": 2420094,
+	"md5": "f75ce3c784f52c3830853b2b20556991",
+	"sha1": "c38bafd94d8ca40f493239564441e95c5eabafe6",
+	"sha256": "bac928079eebe858367d2be12db43e27bc7112af5326978cc566bfe3e9fa0ca6",
+	"descriptionMd5": "42825422b1ef9e3a592c94dfafed375c"
+}]
