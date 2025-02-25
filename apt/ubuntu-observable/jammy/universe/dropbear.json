@@ -5,6 +5,45 @@
 		"Size"
 	],
 	"package": "dropbear",
+	"version": "2020.81-5ubuntu0.1",
+	"section": "universe/net",
+	"priority": "optional",
+	"architecture": "all",
+	"depends": [
+		"dropbear-bin (>= 2020.81-5ubuntu0.1)",
+		"lsb-base (>= 3.0-6)"
+	],
+	"preDepends": [
+		"init-system-helpers (>= 1.54~)"
+	],
+	"suggests": [
+		"dropbear-initramfs",
+		"runit"
+	],
+	"replaces": [
+		"dropbear-run (<< 2019.78-1~)"
+	],
+	"breaks": [
+		"dropbear-run (<< 2019.78-1~)"
+	],
+	"installedSize": 47,
+	"maintainer": "Ubuntu Developers <ubuntu-devel-discuss@lists.ubuntu.com>",
+	"description": "lightweight SSH2 server and client - startup scripts",
+	"homepage": "https://matt.ucc.asn.au/dropbear/dropbear.html",
+	"filename": "pool/universe/d/dropbear/dropbear_2020.81-5ubuntu0.1_all.deb",
+	"size": 8388,
+	"md5": "57e40b206cfc2f6f70633386ef365995",
+	"sha1": "d30c3fc417541cad74407291f17909cd4cae7d8d",
+	"sha256": "c3b92c32e64f6de15a2d9f7be753039273cc942b14648026090788178499370f",
+	"sha512": "f882db48ca525222dac6fa51e78c527e306ba70e5331c11a901709f2bd16a5fa25da697a6afccfd5d7d3855875f435c5fe8bab94f8b3bb71a3f7bbab0c8870f3",
+	"descriptionMd5": "6e452e53572d4eaad28fb343855010d0"
+},{
+	"raw": {},
+	"required": [
+		"Filename",
+		"Size"
+	],
+	"package": "dropbear",
 	"version": "2020.81-5",
 	"section": "universe/net",
 	"priority": "optional",
