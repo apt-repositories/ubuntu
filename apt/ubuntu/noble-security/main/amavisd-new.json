@@ -1,0 +1,83 @@
+{
+	"raw": {},
+	"required": [
+		"Filename",
+		"Size"
+	],
+	"package": "amavisd-new",
+	"version": "1:2.13.0-3ubuntu2",
+	"section": "mail",
+	"priority": "extra",
+	"architecture": "all",
+	"depends": [
+		"debconf | debconf-2.0",
+		"file",
+		"libarchive-tar-perl",
+		"libarchive-zip-perl",
+		"libberkeleydb-perl",
+		"libconvert-tnef-perl",
+		"libconvert-uulib-perl",
+		"libdigest-md5-perl",
+		"libio-stringy-perl",
+		"libmail-dkim-perl",
+		"libmailtools-perl",
+		"libmime-base64-perl",
+		"libmime-tools-perl",
+		"libnet-libidn-perl",
+		"libnet-server-perl",
+		"libtime-hires-perl",
+		"libunix-syslog-perl",
+		"libnet-snmp-perl",
+		"pax",
+		"perl | libcompress-raw-zlib-perl",
+		"systemd | systemd-standalone-sysusers | systemd-sysusers",
+		"perl:any"
+	],
+	"preDepends": [
+		"init-system-helpers (>= 1.54~)"
+	],
+	"recommends": [
+		"libnet-patricia-perl"
+	],
+	"suggests": [
+		"apt-listchanges",
+		"arj",
+		"cabextract",
+		"clamav",
+		"clamav-daemon",
+		"cpio",
+		"lhasa",
+		"libauthen-sasl-perl",
+		"libdbi-perl",
+		"libjson-perl",
+		"liblwp-protocol-https-perl",
+		"libnet-ldap-perl",
+		"libnet-ssleay-perl",
+		"libsnmp-perl",
+		"libwww-perl",
+		"lzop",
+		"nomarch",
+		"p7zip",
+		"rpm",
+		"spamassassin",
+		"unrar",
+		"altermime"
+	],
+	"replaces": [
+		"amavis"
+	],
+	"conflicts": [
+		"amavis"
+	],
+	"installedSize": 2780,
+	"maintainer": "Ubuntu Developers <ubuntu-devel-discuss@lists.ubuntu.com>",
+	"description": "Interface between MTA and virus scanner/content filters",
+	"homepage": "https://www.ijs.si/software/amavisd/",
+	"filename": "pool/main/a/amavisd-new/amavisd-new_2.13.0-3ubuntu2_all.deb",
+	"size": 633170,
+	"md5": "3dd7264bbd86ee79c12708f1139caeab",
+	"sha1": "04f7658b2b40915cc1652fc93cc467aadc3fb94b",
+	"sha256": "5f502aa3da391f46018ab04e3482009dd21b5290e23ba7f5ee947ab70fff1e52",
+	"sha512": "c6a251eb41686ed12fde56d17cae0496e5d157f14d3947b7121c8e831a724a57a69b4972d30bf71b048c35c18f542214886627e027c00cf443f35fb38e685005",
+	"descriptionMd5": "d95fd9c270e69763b2674a7c7629b731"
+}

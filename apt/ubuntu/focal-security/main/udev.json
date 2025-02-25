@@ -1,0 +1,44 @@
+{
+	"raw": {},
+	"required": [
+		"Filename",
+		"Size"
+	],
+	"package": "udev",
+	"source": "systemd",
+	"version": "245.4-4ubuntu3.20",
+	"section": "admin",
+	"priority": "important",
+	"architecture": "amd64",
+	"depends": [
+		"libacl1 (>= 2.2.23)",
+		"libblkid1 (>= 2.24)",
+		"libc6 (>= 2.30)",
+		"libkmod2 (>= 5~)",
+		"libselinux1 (>= 2.1.9)",
+		"adduser",
+		"dpkg (>= 1.19.3) | systemd-sysv",
+		"libudev1 (= 245.4-4ubuntu3.20)",
+		"util-linux (>= 2.27.1)"
+	],
+	"replaces": [
+		"systemd (<< 233-4)"
+	],
+	"breaks": [
+		"systemd (<< 233-4)"
+	],
+	"conflicts": [
+		"hal"
+	],
+	"installedSize": 9191,
+	"maintainer": "Ubuntu Developers <ubuntu-devel-discuss@lists.ubuntu.com>",
+	"description": "/dev/ and hotplug management daemon",
+	"homepage": "https://www.freedesktop.org/wiki/Software/systemd",
+	"filename": "pool/main/s/systemd/udev_245.4-4ubuntu3.20_amd64.deb",
+	"size": 1366028,
+	"md5": "513d66674a33f9eac72b7e469be46f82",
+	"sha1": "8d7c58023e390de5a3b9c387409e99aa4b1642a2",
+	"sha256": "b699ca87c8229c32c35d4a2564c7167f5a754b078600429bf7b0d376310d78f6",
+	"sha512": "986db0890c86840e246bd5fc17c23e8eb4b01fef560d3200a22ef94bd35a3be2f5154c4561a0cbd1a342e41f2830359c29dbd06a72ba8236de3ea77d2c50fea8",
+	"descriptionMd5": "e875ddb09f46f1f7672af537f0c875ca"
+}

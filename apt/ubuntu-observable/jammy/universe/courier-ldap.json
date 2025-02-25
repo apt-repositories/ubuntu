@@ -1,0 +1,42 @@
+[{
+	"raw": {},
+	"required": [
+		"Filename",
+		"Size"
+	],
+	"package": "courier-ldap",
+	"source": "courier",
+	"version": "1.0.16-3build3",
+	"section": "universe/mail",
+	"priority": "optional",
+	"architecture": "amd64",
+	"depends": [
+		"courier-authlib-ldap",
+		"courier-base (= 1.0.16-3build3)",
+		"debconf | debconf-2.0",
+		"sysvinit-utils (>= 2.88dsf-50) | init-d-script",
+		"courier-authlib (>= 0.71)",
+		"libc6 (>= 2.34)",
+		"libldap-2.5-0 (>= 2.5.4)"
+	],
+	"suggests": [
+		"courier-doc"
+	],
+	"replaces": [
+		"courier-imap-authldap"
+	],
+	"conflicts": [
+		"courier-imap-authldap"
+	],
+	"installedSize": 143,
+	"maintainer": "Ubuntu Developers <ubuntu-devel-discuss@lists.ubuntu.com>",
+	"description": "Courier mail server - LDAP support",
+	"homepage": "http://www.courier-mta.org/",
+	"filename": "pool/universe/c/courier/courier-ldap_1.0.16-3build3_amd64.deb",
+	"size": 21076,
+	"md5": "e36747b9df8741d6daf787173184a4a2",
+	"sha1": "9f12ad75aa471012ffd4ade08f910cfba6042e89",
+	"sha256": "6da81665135698643bb365c6e61736565e4cb5aecf1eb907a924ceec51804ee8",
+	"sha512": "8dd24157087c66f6433fa77f156859581b9257fd30f12cea646e6eea72b77bf1c4a964d6763010a35e3d8e4f0bfccdb77695a047f9b726948c610ca6145e4222",
+	"descriptionMd5": "59e644146a903a5cf765b1a1794c77bc"
+}]

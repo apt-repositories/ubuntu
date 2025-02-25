@@ -1,0 +1,37 @@
+{
+	"raw": {},
+	"required": [
+		"Filename",
+		"Size"
+	],
+	"package": "ftpd-ssl",
+	"source": "linux-ftpd-ssl",
+	"version": "0.17.36+0.3-2.2",
+	"section": "universe/net",
+	"priority": "extra",
+	"architecture": "amd64",
+	"depends": [
+		"openbsd-inetd | inet-superserver",
+		"libpam-modules",
+		"openssl",
+		"libc6 (>= 2.28)",
+		"libpam0g (>= 0.99.7.1)",
+		"libssl1.1 (>= 1.1.0)"
+	],
+	"replaces": [
+		"ftpd"
+	],
+	"conflicts": [
+		"ftp-server",
+		"ftpd"
+	],
+	"installedSize": 169,
+	"maintainer": "Ubuntu Developers <ubuntu-devel-discuss@lists.ubuntu.com>",
+	"description": "FTP server with SSL encryption support",
+	"filename": "pool/universe/l/linux-ftpd-ssl/ftpd-ssl_0.17.36+0.3-2.2_amd64.deb",
+	"size": 59892,
+	"md5": "1017ce4c8ce513af3a593454ebc19758",
+	"sha1": "725d848f2357e5487555460e5c852a9eb23a3de3",
+	"sha256": "a38b17721bf79f58e03520fe85db6d119f74be0b11cdf275854accbb741344e5",
+	"descriptionMd5": "ba2bf4433c602ddae15cc6958f4d117e"
+}

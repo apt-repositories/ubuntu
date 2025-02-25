@@ -1,0 +1,43 @@
+{
+	"raw": {},
+	"required": [
+		"Filename",
+		"Size"
+	],
+	"package": "postgresql-common",
+	"version": "173ubuntu0.3",
+	"section": "misc",
+	"priority": "optional",
+	"architecture": "all",
+	"depends": [
+		"postgresql-client-common (>= 173ubuntu0.3)",
+		"procps",
+		"adduser",
+		"debconf (>= 0.5.00) | debconf-2.0",
+		"lsb-base (>= 3.0-3)",
+		"ssl-cert (>= 1.0.11)",
+		"ucf",
+		"init-system-helpers (>= 1.18~)"
+	],
+	"recommends": [
+		"logrotate"
+	],
+	"breaks": [
+		"postgresql-9.1 (<< 9.1.1-3~)",
+		"systemd (<< 204)"
+	],
+	"conflicts": [
+		"postgresql-7.4",
+		"postgresql-8.0"
+	],
+	"installedSize": 599,
+	"maintainer": "Ubuntu Developers <ubuntu-devel-discuss@lists.ubuntu.com>",
+	"description": "PostgreSQL database-cluster manager",
+	"filename": "pool/main/p/postgresql-common/postgresql-common_173ubuntu0.3_all.deb",
+	"size": 154052,
+	"md5": "aa8c9e50049be69ecabca8bb979a22ed",
+	"sha1": "ad41197ffa39a9e86c60628c4f4c53fb569dd808",
+	"sha256": "3e1cceb6f67cc129838f56b3a203e5f56b2bdfcb6b8186bc96e3df106f7e5d06",
+	"sha512": "22516d58b4070725c4ac6ded2df03635646edaf8c343f7ff8027292b78cd8449f6f4f4cf71ea4f0c845095cd1fb9e17822f3a39ec04ebf0a8c01be3b5ee268e2",
+	"descriptionMd5": "1baa00ede83212202318224f2d18d771"
+}

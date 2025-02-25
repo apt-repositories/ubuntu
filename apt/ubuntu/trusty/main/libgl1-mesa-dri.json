@@ -1,0 +1,58 @@
+{
+	"raw": {},
+	"required": [
+		"Filename",
+		"Size"
+	],
+	"package": "libgl1-mesa-dri",
+	"source": "mesa",
+	"version": "10.1.0-4ubuntu5",
+	"section": "libs",
+	"priority": "optional",
+	"architecture": "amd64",
+	"depends": [
+		"libc6 (>= 2.17)",
+		"libdrm-intel1 (>= 2.4.48)",
+		"libdrm-nouveau2 (>= 2.4.38)",
+		"libdrm-radeon1 (>= 2.4.31)",
+		"libdrm2 (>= 2.4.38)",
+		"libelf1 (>= 0.142)",
+		"libexpat1 (>= 2.0.1)",
+		"libgcc1 (>= 1:4.1.1)",
+		"libllvm3.4",
+		"libstdc++6 (>= 4.6)"
+	],
+	"preDepends": [
+		"multiarch-support"
+	],
+	"recommends": [
+		"libtxc-dxtn-s2tc0 | libtxc-dxtn0"
+	],
+	"suggests": [
+		"libglide3"
+	],
+	"replaces": [
+		"libgl1-mesa-dri-experimental (<< 7.11.1)",
+		"xlibmesa-dri (<< 1:7.0.0)"
+	],
+	"breaks": [
+		"libgl1-mesa-dri-experimental (<< 7.11.1)",
+		"libgl1-mesa-glx (<< 7.10.2-4)",
+		"libgl1-mesa-glx-no-multiarch",
+		"xserver-xorg-core (<< 2:1.14.3-5)",
+		"xserver-xorg-core-no-multiarch"
+	],
+	"conflicts": [
+		"xlibmesa-dri (<< 1:7.0.0)"
+	],
+	"installedSize": 32605,
+	"maintainer": "Ubuntu X-SWAT <ubuntu-x@lists.ubuntu.com>",
+	"description": "free implementation of the OpenGL API -- DRI modules",
+	"homepage": "http://mesa3d.sourceforge.net/",
+	"filename": "pool/main/m/mesa/libgl1-mesa-dri_10.1.0-4ubuntu5_amd64.deb",
+	"size": 4912972,
+	"md5": "d0bfead387db128dbe62d19388c09240",
+	"sha1": "c2c68490706c7e6fc7b6048331f7e57a404c95bf",
+	"sha256": "b316b760b730bc90236f096981bcb66dd3f66abca41515aecc05b4ad73c7e2ca",
+	"descriptionMd5": "da6c27328d7c638224ef0acc251a333d"
+}

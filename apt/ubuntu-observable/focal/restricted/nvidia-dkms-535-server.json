@@ -1,0 +1,43 @@
+[{
+	"raw": {},
+	"required": [
+		"Filename",
+		"Size"
+	],
+	"package": "nvidia-dkms-535-server",
+	"source": "nvidia-graphics-drivers-535-server",
+	"version": "535.216.03-0ubuntu0.20.04.1",
+	"section": "restricted/libs",
+	"priority": "optional",
+	"architecture": "amd64",
+	"depends": [
+		"dkms",
+		"nvidia-kernel-source-535-server (<= 535.216.03-1)",
+		"nvidia-kernel-source-535-server (>= 535.216.03)",
+		"nvidia-kernel-common-535-server (<= 535.216.03-1)",
+		"nvidia-kernel-common-535-server (>= 535.216.03)",
+		"nvidia-firmware-535-server-535.216.03"
+	],
+	"replaces": [
+		"nvidia-384 (<< 390.25)",
+		"nvidia-dkms-kernel",
+		"nvidia-kernel-source-535-server (<< 390.25-0ubuntu2~)"
+	],
+	"breaks": [
+		"nvidia-kernel-source-535-server (<< 390.25-0ubuntu2~)"
+	],
+	"conflicts": [
+		"nvidia-dkms-kernel"
+	],
+	"installedSize": 238,
+	"maintainer": "Ubuntu Core Developers <ubuntu-devel-discuss@lists.ubuntu.com>",
+	"description": "NVIDIA DKMS package",
+	"homepage": "http://www.nvidia.com",
+	"filename": "pool/restricted/n/nvidia-graphics-drivers-535-server/nvidia-dkms-535-server_535.216.03-0ubuntu0.20.04.1_amd64.deb",
+	"size": 48244,
+	"md5": "6e8316226d460c615d16cd502a4f53fe",
+	"sha1": "cbc0d1263210c83ad6f3757e3bd5b6feb7a851a8",
+	"sha256": "71fd500a0dd917741a807ad169e2b814c15bb9f2dee082f76d7fa00ba335c71d",
+	"sha512": "0ebc62c67be436be702a6344cba1b4b1920ce3db295de63c5b64f41746cc06bbdd1977d5e7f8e1f81f9c7df85763a7152430f45529f5450f4ac5a39bb1e8ca84",
+	"descriptionMd5": "ec8c193060b5458922cc0bda62df7796"
+}]

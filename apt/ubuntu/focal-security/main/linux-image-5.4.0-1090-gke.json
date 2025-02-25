@@ -1,0 +1,42 @@
+{
+	"raw": {},
+	"required": [
+		"Filename",
+		"Size"
+	],
+	"package": "linux-image-5.4.0-1090-gke",
+	"source": "linux-signed-gke",
+	"version": "5.4.0-1090.97",
+	"section": "kernel",
+	"priority": "optional",
+	"architecture": "amd64",
+	"depends": [
+		"kmod",
+		"linux-base (>= 4.5ubuntu1~16.04.1)",
+		"linux-modules-5.4.0-1090-gke"
+	],
+	"recommends": [
+		"grub-pc | grub-efi-amd64 | grub-efi-ia32 | grub | lilo"
+	],
+	"suggests": [
+		"fdutils",
+		"linux-gke-doc-5.4.0 | linux-gke-source-5.4.0",
+		"linux-gke-tools",
+		"linux-headers-5.4.0-1090-gke",
+		"initramfs-tools | linux-initramfs-tool"
+	],
+	"conflicts": [
+		"linux-image-unsigned-5.4.0-1090-gke"
+	],
+	"installedSize": 13348,
+	"maintainer": "Canonical Kernel Team <kernel-team@lists.ubuntu.com>",
+	"description": "Signed kernel image for GKE",
+	"builtUsing": "linux-gke (= 5.4.0-1090.97)",
+	"filename": "pool/main/l/linux-signed-gke/linux-image-5.4.0-1090-gke_5.4.0-1090.97_amd64.deb",
+	"size": 10492444,
+	"md5": "3a3ca082adefddd2238c1188b6799e89",
+	"sha1": "ad388cde31a1163eed68ac4364397288b41be734",
+	"sha256": "dddda57f540b09f715f1c16a8cef9f8ba47cf0a093f24bdd9b511051d362f7a0",
+	"sha512": "4e32a41cda4fd923eb0460df7c87a08adad77732c05a73d6d4c588351a3354f4cf313c846377ff583c5e24842b33161f857d08f42244bd6ef11342de6377c46d",
+	"descriptionMd5": "c5c0b6720fef9742271d2a4325f2dd7c"
+}

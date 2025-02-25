@@ -1,0 +1,43 @@
+[{
+	"raw": {},
+	"required": [
+		"Filename",
+		"Size"
+	],
+	"package": "linux-image-6.2.0-1010-nvidia",
+	"source": "linux-signed-nvidia-6.2",
+	"version": "6.2.0-1010.10",
+	"section": "kernel",
+	"priority": "optional",
+	"architecture": "amd64",
+	"depends": [
+		"kmod",
+		"linux-base (>= 4.5ubuntu1~16.04.1)",
+		"linux-modules-6.2.0-1010-nvidia"
+	],
+	"recommends": [
+		"grub-pc | grub-efi-amd64 | grub-efi-ia32 | grub | lilo",
+		"initramfs-tools | linux-initramfs-tool"
+	],
+	"suggests": [
+		"fdutils",
+		"linux-doc | linux-nvidia-6.2-source-6.2.0",
+		"linux-nvidia-6.2-tools",
+		"linux-headers-6.2.0-1010-nvidia",
+		"linux-modules-extra-6.2.0-1010-nvidia"
+	],
+	"conflicts": [
+		"linux-image-unsigned-6.2.0-1010-nvidia"
+	],
+	"installedSize": 13475,
+	"maintainer": "Canonical Kernel Team <kernel-team@lists.ubuntu.com>",
+	"description": "Signed kernel image nvidia",
+	"builtUsing": "linux-nvidia-6.2 (= 6.2.0-1010.10)",
+	"filename": "pool/main/l/linux-signed-nvidia-6.2/linux-image-6.2.0-1010-nvidia_6.2.0-1010.10_amd64.deb",
+	"size": 13547976,
+	"md5": "bd4fcb0c86b5c26533fa6b2c32422a4e",
+	"sha1": "f1727b5469a910d0148b2230b80c3cea96a36a13",
+	"sha256": "571a74f58321520d4033cac302bccf265d20344abf355b016a0b411267f2bb17",
+	"sha512": "cd89d2066ed1eae36c2043b3e5cb1551d0aeb6b4466ef1f9f7435e8e43a668c419c62e4e5c9fff93d7db7e0d9181708cc3446d8340b71ffd9ef2b07fdaf3a63e",
+	"descriptionMd5": "b8342c2badb6b6cc1d4c822e4f5bad97"
+}]

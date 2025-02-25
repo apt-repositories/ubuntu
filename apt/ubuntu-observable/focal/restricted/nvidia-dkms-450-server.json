@@ -1,0 +1,41 @@
+[{
+	"raw": {},
+	"required": [
+		"Filename",
+		"Size"
+	],
+	"package": "nvidia-dkms-450-server",
+	"source": "nvidia-graphics-drivers-450-server",
+	"version": "450.248.02-0ubuntu0.20.04.1",
+	"section": "restricted/libs",
+	"priority": "optional",
+	"architecture": "amd64",
+	"depends": [
+		"dkms",
+		"nvidia-kernel-source-450-server",
+		"nvidia-kernel-common-450-server (<= 450.248.02-1)",
+		"nvidia-kernel-common-450-server (>= 450.248.02)"
+	],
+	"replaces": [
+		"nvidia-384 (<< 390.25)",
+		"nvidia-dkms-kernel",
+		"nvidia-kernel-source-450-server (<< 390.25-0ubuntu2~)"
+	],
+	"breaks": [
+		"nvidia-kernel-source-450-server (<< 390.25-0ubuntu2~)"
+	],
+	"conflicts": [
+		"nvidia-dkms-kernel"
+	],
+	"installedSize": 216,
+	"maintainer": "Ubuntu Core Developers <ubuntu-devel-discuss@lists.ubuntu.com>",
+	"description": "NVIDIA DKMS package",
+	"homepage": "http://www.nvidia.com",
+	"filename": "pool/restricted/n/nvidia-graphics-drivers-450-server/nvidia-dkms-450-server_450.248.02-0ubuntu0.20.04.1_amd64.deb",
+	"size": 41336,
+	"md5": "071907b66499ea9309cf880a8782f910",
+	"sha1": "78ef9e2b545ba8c7e3b9d6cb1cf55351556322c0",
+	"sha256": "2035c78c7feb9f10f5bd037e1afefc6d066eec582198c7317ffaf5be67e2f884",
+	"sha512": "64d1165bc2a13127875682f76a4328b98e1ae2c6b96a3bc24ee52c2cbe2e9d9c12d217378866f1588e33c7d6690bbac773f21b1bf2eba16a826fd8e008722a59",
+	"descriptionMd5": "ec8c193060b5458922cc0bda62df7796"
+}]

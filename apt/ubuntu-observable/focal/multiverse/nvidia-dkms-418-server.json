@@ -1,0 +1,41 @@
+[{
+	"raw": {},
+	"required": [
+		"Filename",
+		"Size"
+	],
+	"package": "nvidia-dkms-418-server",
+	"source": "nvidia-graphics-drivers-418-server",
+	"version": "418.226.00-0ubuntu0.20.04.2",
+	"section": "multiverse/libs",
+	"priority": "optional",
+	"architecture": "amd64",
+	"depends": [
+		"dkms",
+		"nvidia-kernel-source-418-server",
+		"nvidia-kernel-common-418-server (<= 418.226.00-1)",
+		"nvidia-kernel-common-418-server (>= 418.226.00)"
+	],
+	"replaces": [
+		"nvidia-384 (<< 390.25)",
+		"nvidia-dkms-kernel",
+		"nvidia-kernel-source-418-server (<< 390.25-0ubuntu2~)"
+	],
+	"breaks": [
+		"nvidia-kernel-source-418-server (<< 390.25-0ubuntu2~)"
+	],
+	"conflicts": [
+		"nvidia-dkms-kernel"
+	],
+	"installedSize": 169,
+	"maintainer": "Ubuntu Core Developers <ubuntu-devel-discuss@lists.ubuntu.com>",
+	"description": "NVIDIA DKMS package",
+	"homepage": "http://www.nvidia.com",
+	"filename": "pool/multiverse/n/nvidia-graphics-drivers-418-server/nvidia-dkms-418-server_418.226.00-0ubuntu0.20.04.2_amd64.deb",
+	"size": 34312,
+	"md5": "ce2f4938c570b3f41d6fd601577ea406",
+	"sha1": "2e13de194daa2dc325a26a4fc9ce85d1c0f67fe2",
+	"sha256": "8862c4dfcc8dd07e34ac887565a96db621293440236e0fe894b161900845f000",
+	"sha512": "39a06f7476920f606b0986a55e6e2016114ea4aa8602415f070730c18a1332d854f17860a90cce2e7c0fdc0378a67ea24d37e2a872a291354a000d858a1c18d1",
+	"descriptionMd5": "ec8c193060b5458922cc0bda62df7796"
+}]

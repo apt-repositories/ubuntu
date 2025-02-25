@@ -1,0 +1,44 @@
+{
+	"raw": {},
+	"required": [
+		"Filename",
+		"Size"
+	],
+	"package": "systemd-resolved",
+	"source": "systemd",
+	"version": "255.4-1ubuntu8.5",
+	"section": "admin",
+	"priority": "important",
+	"architecture": "amd64",
+	"depends": [
+		"libc6 (>= 2.39)",
+		"libssl3t64 (>= 3.0.0)",
+		"libsystemd-shared (= 255.4-1ubuntu8.5)",
+		"systemd (= 255.4-1ubuntu8.5)",
+		"default-dbus-system-bus | dbus-system-bus"
+	],
+	"suggests": [
+		"polkitd"
+	],
+	"replaces": [
+		"resolvconf",
+		"systemd (<< 251.3-2~)"
+	],
+	"breaks": [
+		"systemd (<< 251.3-2~)"
+	],
+	"conflicts": [
+		"resolvconf"
+	],
+	"installedSize": 884,
+	"maintainer": "Ubuntu Developers <ubuntu-devel-discuss@lists.ubuntu.com>",
+	"description": "systemd DNS resolver",
+	"homepage": "https://www.freedesktop.org/wiki/Software/systemd",
+	"filename": "pool/main/s/systemd/systemd-resolved_255.4-1ubuntu8.5_amd64.deb",
+	"size": 296360,
+	"md5": "8a6e9150912309708d3a3d5fd3b52240",
+	"sha1": "ca2c299c6ba599ed2f248150e5951d1448657a21",
+	"sha256": "4993a24e9d869ad71ad0d8f0cddfd062c4f869a092827d7b214d2aa3a1728780",
+	"sha512": "7008306948efd4c82f92f7403ec85b5253cb49c61d7f04204367088fbfaf6fc83ec3f1cca6a4c50a5fc6fe528afb53b2ee56b8619f4ccde251d63b5021e682e9",
+	"descriptionMd5": "846dc3eb3129c6a17b29965b209c161e"
+}

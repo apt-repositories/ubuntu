@@ -1,0 +1,55 @@
+{
+	"raw": {},
+	"required": [
+		"Filename",
+		"Size"
+	],
+	"package": "apache2",
+	"version": "2.4.41-4ubuntu3",
+	"section": "web",
+	"priority": "optional",
+	"architecture": "amd64",
+	"depends": [
+		"apache2-bin (= 2.4.41-4ubuntu3)",
+		"apache2-data (= 2.4.41-4ubuntu3)",
+		"apache2-utils (= 2.4.41-4ubuntu3)",
+		"lsb-base",
+		"mime-support",
+		"perl:any",
+		"procps"
+	],
+	"preDepends": [
+		"dpkg (>= 1.17.14)"
+	],
+	"recommends": [
+		"ssl-cert"
+	],
+	"suggests": [
+		"apache2-doc",
+		"apache2-suexec-pristine | apache2-suexec-custom",
+		"www-browser",
+		"ufw"
+	],
+	"replaces": [
+		"apache2.2-bin",
+		"apache2.2-common",
+		"libapache2-mod-proxy-uwsgi (<< 2.4.33)"
+	],
+	"breaks": [
+		"libapache2-mod-proxy-uwsgi (<< 2.4.33)"
+	],
+	"conflicts": [
+		"apache2.2-bin",
+		"apache2.2-common"
+	],
+	"installedSize": 528,
+	"maintainer": "Ubuntu Developers <ubuntu-devel-discuss@lists.ubuntu.com>",
+	"description": "Apache HTTP Server",
+	"homepage": "https://httpd.apache.org/",
+	"filename": "pool/main/a/apache2/apache2_2.4.41-4ubuntu3_amd64.deb",
+	"size": 95504,
+	"md5": "2d88324bc5128985e8d56e8f4fa31f27",
+	"sha1": "9148fd37cf821d98c29355a3c5a7ec0bd3c33336",
+	"sha256": "b9755bfe66825b53db1371cb163c14ceb7d436a6b5d2bfe09d6ccb8a98746b95",
+	"descriptionMd5": "d02426bc360345e5acd45367716dc35c"
+}

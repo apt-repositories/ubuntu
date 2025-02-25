@@ -1,0 +1,47 @@
+{
+	"raw": {},
+	"required": [
+		"Filename",
+		"Size"
+	],
+	"package": "resource-agents-base",
+	"source": "resource-agents",
+	"version": "1:4.7.0-1ubuntu7.3",
+	"section": "admin",
+	"priority": "optional",
+	"architecture": "all",
+	"depends": [
+		"resource-agents-common (>= 1:4.7.0-1ubuntu7.3)"
+	],
+	"suggests": [
+		"open-iscsi",
+		"targetcli-fb",
+		"dmsetup",
+		"lvm2"
+	],
+	"replaces": [
+		"cluster-agents (<= 1:1.0.4-1)",
+		"resource-agents (<< 1:4.7.0-1ubuntu2)",
+		"resource-agents-extra (<< 1:4.7.0-1ubuntu7)",
+		"rgmanager (<= 3.0.12-2+b1)"
+	],
+	"breaks": [
+		"resource-agents (<< 1:4.7.0-1ubuntu2)",
+		"resource-agents-extra (<< 1:4.7.0-1ubuntu7)"
+	],
+	"conflicts": [
+		"cluster-agents (<= 1:1.0.4-1)",
+		"rgmanager (<= 3.0.12-2+b1)"
+	],
+	"installedSize": 205,
+	"maintainer": "Ubuntu Developers <ubuntu-devel-discuss@lists.ubuntu.com>",
+	"description": "Cluster Resource Agents curated by Ubuntu",
+	"homepage": "https://github.com/ClusterLabs/resource-agents",
+	"filename": "pool/main/r/resource-agents/resource-agents-base_4.7.0-1ubuntu7.3_all.deb",
+	"size": 53740,
+	"md5": "d4e36ffed67bf4ff74f02b708c4b2ca3",
+	"sha1": "624e9fe3c40d3f3bd5e8fbbf3414b8d223ba4cfa",
+	"sha256": "74ce3f08700a0c71454bff28dad27272d51245caf02829e143f419b973f9939e",
+	"sha512": "f32cb9d144f0315bdad468bca5d12580fad1fde0fd0a47149285ef367d58ac1771a47c24c8b6c8c05cbfac2bb04c7f1462fda037ccc9a9b39d86ada91b4d3036",
+	"descriptionMd5": "a8e0ecf1c9448d8c07f4fd12334ab227"
+}

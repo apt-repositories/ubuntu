@@ -1,0 +1,55 @@
+[{
+	"raw": {},
+	"required": [
+		"Filename",
+		"Size"
+	],
+	"package": "man-db",
+	"version": "2.9.1-1",
+	"section": "doc",
+	"priority": "standard",
+	"architecture": "amd64",
+	"depends": [
+		"bsdmainutils",
+		"debconf (>= 1.2.0) | debconf-2.0",
+		"groff-base (>= 1.18.1.1-15)",
+		"libc6 (>= 2.28)",
+		"libgdbm6 (>= 1.16)",
+		"libpipeline1 (>= 1.5.0)",
+		"libseccomp2 (>= 2.1.0)",
+		"zlib1g (>= 1:1.1.4)"
+	],
+	"preDepends": [
+		"dpkg (>= 1.16.1~)"
+	],
+	"suggests": [
+		"apparmor",
+		"groff",
+		"less",
+		"www-browser"
+	],
+	"replaces": [
+		"man",
+		"manpages-de (<< 0.5-4)",
+		"manpages-tr (<< 1.0.5.1-3)",
+		"manpages-zh (<< 1.5.2-1.1)",
+		"nlsutils"
+	],
+	"breaks": [
+		"manpages-tr (<< 1.0.5.1-3)",
+		"manpages-zh (<< 1.5.2-1.1)"
+	],
+	"conflicts": [
+		"man"
+	],
+	"installedSize": 2816,
+	"maintainer": "Colin Watson <cjwatson@debian.org>",
+	"description": "tools for reading manual pages",
+	"homepage": "https://nongnu.org/man-db/",
+	"filename": "pool/main/m/man-db/man-db_2.9.1-1_amd64.deb",
+	"size": 1112368,
+	"md5": "f9b7d0ba136cfdea8e2db21a9e088125",
+	"sha1": "4c822999b199b400a2dd4dd7affe1bb84dd17fa3",
+	"sha256": "07c78ad853aeba7b26a05c05edf0f4a77b4b3a2572eb03d6600f5f501324421a",
+	"descriptionMd5": "fa4d579e45a7d37a797e795644e2648b"
+}]

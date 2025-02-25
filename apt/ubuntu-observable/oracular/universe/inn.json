@@ -1,0 +1,46 @@
+[{
+	"raw": {},
+	"required": [
+		"Filename",
+		"Size"
+	],
+	"package": "inn",
+	"version": "1:1.7.2q-51",
+	"section": "universe/news",
+	"priority": "extra",
+	"architecture": "amd64",
+	"depends": [
+		"libc6 (>= 2.38)",
+		"libcrypt1 (>= 1:4.1.0)",
+		"libperl5.38t64 (>= 5.38.2)",
+		"libsystemd0",
+		"cron | cron-daemon",
+		"default-mta | mail-transport-agent",
+		"bsd-mailx | mailx",
+		"time",
+		"perl",
+		"perlapi-5.38.2"
+	],
+	"preDepends": [
+		"init-system-helpers (>= 1.54~)"
+	],
+	"suggests": [
+		"gnupg1"
+	],
+	"conflicts": [
+		"inn2",
+		"inn2-dev",
+		"inn2-inews",
+		"news-transport-system"
+	],
+	"installedSize": 2143,
+	"maintainer": "Ubuntu Developers <ubuntu-devel-discuss@lists.ubuntu.com>",
+	"description": "News transport system `InterNetNews' by the ISC and Rich Salz",
+	"filename": "pool/universe/i/inn/inn_1.7.2q-51_amd64.deb",
+	"size": 723130,
+	"md5": "dac4ea6b0fcecc3fb22cbf652a8dcbbf",
+	"sha1": "722dd3853722da71144859f5749a7988d93ed504",
+	"sha256": "fd265c05ddb04aba2f1b484c0791961122bb1de3de424442db6507125971367a",
+	"sha512": "49cc8b70f4e2bac15ddb02376900c212cbe884c5637db11e855018c19736bfe80cb305b91d759729406492d9c855ac75d04f6c9eb1da2cce29594130b72a8a04",
+	"descriptionMd5": "94d47a86936a5f450692741671bbbed2"
+}]

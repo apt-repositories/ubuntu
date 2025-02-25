@@ -1,0 +1,64 @@
+{
+	"raw": {},
+	"required": [
+		"Filename",
+		"Size"
+	],
+	"package": "mysql-server-5.5",
+	"source": "mysql-5.5",
+	"version": "5.5.62-0ubuntu0.14.04.1",
+	"section": "database",
+	"priority": "optional",
+	"architecture": "amd64",
+	"depends": [
+		"initscripts (>= 2.88dsf-13.3)",
+		"libdbi-perl",
+		"lsb-base (>= 3.0-10)",
+		"mysql-client-5.5 (>= 5.5.62-0ubuntu0.14.04.1)",
+		"mysql-server-core-5.5 (>= 5.5.62-0ubuntu0.14.04.1)",
+		"passwd",
+		"perl (>= 5.6)",
+		"psmisc",
+		"debconf (>= 0.5) | debconf-2.0",
+		"sysv-rc (>= 2.88dsf-24) | file-rc (>= 0.8.16)",
+		"libc6 (>= 2.17)",
+		"libstdc++6 (>= 4.1.1)",
+		"zlib1g (>= 1:1.1.4)"
+	],
+	"preDepends": [
+		"adduser (>= 3.40)",
+		"debconf",
+		"mysql-common (>= 5.5.62-0ubuntu0.14.04.1)"
+	],
+	"recommends": [
+		"libhtml-template-perl"
+	],
+	"suggests": [
+		"tinyca",
+		"mailx"
+	],
+	"replaces": [
+		"libmysqlclient-dev (<< 5.5.17~)",
+		"mysql-client-5.1",
+		"mysql-server (<< 5.5.62-0ubuntu0.14.04.1)",
+		"mysql-server-5.0",
+		"mysql-server-5.1"
+	],
+	"breaks": [
+		"libmysqlclient-dev (<< 5.5.17~)",
+		"mysql-client-5.1",
+		"mysql-server (<< 5.5.62-0ubuntu0.14.04.1)",
+		"mysql-server-5.1"
+	],
+	"installedSize": 31952,
+	"maintainer": "Ubuntu Developers <ubuntu-devel-discuss@lists.ubuntu.com>",
+	"description": "MySQL database server binaries and system database setup",
+	"homepage": "http://dev.mysql.com/",
+	"filename": "pool/main/m/mysql-5.5/mysql-server-5.5_5.5.62-0ubuntu0.14.04.1_amd64.deb",
+	"size": 1978828,
+	"md5": "f390f66862736a90dbaed816dec97379",
+	"sha1": "40c0097bc45f0f2e2ddfb43cb58957a186d57d18",
+	"sha256": "877927b02355bf8c5a799566b98564e43b50ae1ba7fce5c997d028b222b23e6e",
+	"sha512": "2f87151c875241824bcfd461422d0cf86886c870bcddb156f16638579dccc4e320918a098f923a1ba9061a1c4a91b03145e38bca927309d35c748b633b9f9747",
+	"descriptionMd5": "3ae11e16f793b3ee84f73a5fa268ad9b"
+}

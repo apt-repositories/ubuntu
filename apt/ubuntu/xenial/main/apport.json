@@ -1,0 +1,48 @@
+{
+	"raw": {},
+	"required": [
+		"Filename",
+		"Size"
+	],
+	"package": "apport",
+	"version": "2.20.1-0ubuntu2",
+	"section": "utils",
+	"priority": "optional",
+	"architecture": "all",
+	"depends": [
+		"python3",
+		"python3-apport (>= 2.20.1-0ubuntu2)",
+		"lsb-base (>= 4.1+Debian11ubuntu7)",
+		"python3-gi",
+		"gir1.2-glib-2.0 (>= 1.29.17)",
+		"init-system-helpers (>= 1.18~)"
+	],
+	"recommends": [
+		"apport-symptoms",
+		"policykit-1",
+		"python3-systemd"
+	],
+	"suggests": [
+		"apport-gtk | apport-kde"
+	],
+	"replaces": [
+		"core-dump-handler",
+		"python-apport (<< 2.2-0ubuntu1)"
+	],
+	"breaks": [
+		"python-apport (<< 2.2-0ubuntu1)"
+	],
+	"conflicts": [
+		"core-dump-handler"
+	],
+	"installedSize": 772,
+	"maintainer": "Martin Pitt <martin.pitt@ubuntu.com>",
+	"description": "automatically generate crash reports for debugging",
+	"homepage": "https://wiki.ubuntu.com/Apport",
+	"filename": "pool/main/a/apport/apport_2.20.1-0ubuntu2_all.deb",
+	"size": 119366,
+	"md5": "6021e77585776e40e70014756fc0741f",
+	"sha1": "ccbdf701a2b28b3396c3851e98266e1ccd29ec1a",
+	"sha256": "63615c9961de810f7e4fbb1b0297937a19a87f2df03888063583192c72aeff71",
+	"descriptionMd5": "c04626471654f9246cf5e28b560d262e"
+}

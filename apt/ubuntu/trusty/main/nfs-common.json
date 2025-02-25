@@ -1,0 +1,62 @@
+{
+	"raw": {},
+	"required": [
+		"Filename",
+		"Size"
+	],
+	"package": "nfs-common",
+	"source": "nfs-utils",
+	"version": "1:1.2.8-6ubuntu1",
+	"section": "net",
+	"priority": "optional",
+	"architecture": "amd64",
+	"depends": [
+		"libc6 (>= 2.15)",
+		"libcap2 (>= 2.10)",
+		"libcomerr2 (>= 1.01)",
+		"libdevmapper1.02.1 (>= 2:1.02.20)",
+		"libevent-2.0-5 (>= 2.0.10-stable)",
+		"libgssglue1",
+		"libkeyutils1",
+		"libkrb5-3 (>= 1.6.dfsg.2)",
+		"libmount1 (>= 2.19.1)",
+		"libnfsidmap2",
+		"libtirpc1",
+		"libwrap0 (>= 7.6-4~)",
+		"sysv-rc (>= 2.88dsf-24) | file-rc (>= 0.8.16)",
+		"rpcbind (>= 0.2.0-6ubuntu1)",
+		"adduser",
+		"ucf",
+		"lsb-base (>= 1.3-9ubuntu3)",
+		"initscripts (>= 2.88dsf-13.10ubuntu1)",
+		"mountall (>= 2.41)"
+	],
+	"recommends": [
+		"python"
+	],
+	"suggests": [
+		"open-iscsi",
+		"watchdog"
+	],
+	"replaces": [
+		"mount (<< 2.13~)",
+		"nfs-client",
+		"nfs-kernel-server (<< 1:1.2.8-6~)"
+	],
+	"breaks": [
+		"nfs-kernel-server (<< 1:1.2.8-6~)"
+	],
+	"conflicts": [
+		"nfs-client"
+	],
+	"installedSize": 729,
+	"maintainer": "Ubuntu Developers <ubuntu-devel-discuss@lists.ubuntu.com>",
+	"description": "NFS support files common to client and server",
+	"homepage": "http://nfs.sourceforge.net/",
+	"filename": "pool/main/n/nfs-utils/nfs-common_1.2.8-6ubuntu1_amd64.deb",
+	"size": 182284,
+	"md5": "82b6d52fc28b606bfd3c18e3e2a98723",
+	"sha1": "6bd238772dacb3d251a0bff0f18539f7230737b1",
+	"sha256": "2e9b613e34fdbbe348831361df87acad8e58a16ea08acb2982a5c4ff35d3faa6",
+	"descriptionMd5": "c2f5fd5a7d525f1cc35fbb49cc8628fd"
+}

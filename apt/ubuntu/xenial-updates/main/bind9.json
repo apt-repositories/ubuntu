@@ -1,0 +1,59 @@
+{
+	"raw": {},
+	"required": [
+		"Filename",
+		"Size"
+	],
+	"package": "bind9",
+	"version": "1:9.10.3.dfsg.P4-8ubuntu1.19",
+	"section": "net",
+	"priority": "optional",
+	"architecture": "amd64",
+	"depends": [
+		"libbind9-140 (= 1:9.10.3.dfsg.P4-8ubuntu1.19)",
+		"libc6 (>= 2.14)",
+		"libcap2 (>= 1:2.10)",
+		"libdns162 (= 1:9.10.3.dfsg.P4-8ubuntu1.19)",
+		"libgeoip1",
+		"libirs141",
+		"libisc160 (= 1:9.10.3.dfsg.P4-8ubuntu1.19)",
+		"libisccc140 (= 1:9.10.3.dfsg.P4-8ubuntu1.19)",
+		"libisccfg140 (= 1:9.10.3.dfsg.P4-8ubuntu1.19)",
+		"liblwres141 (= 1:9.10.3.dfsg.P4-8ubuntu1.19)",
+		"libssl1.0.0 (>= 1.0.0)",
+		"libxml2 (>= 2.7.4)",
+		"debconf (>= 0.5) | debconf-2.0",
+		"init-system-helpers (>= 1.18~)",
+		"netbase",
+		"adduser",
+		"lsb-base (>= 3.2-14)",
+		"bind9utils (= 1:9.10.3.dfsg.P4-8ubuntu1.19)",
+		"net-tools"
+	],
+	"suggests": [
+		"dnsutils",
+		"bind9-doc",
+		"resolvconf",
+		"ufw"
+	],
+	"replaces": [
+		"apparmor-profiles (<< 2.1+1075-0ubuntu4)",
+		"bind",
+		"bind9utils (<< 1:9.9.3.dfsg.P2-3)",
+		"dnsutils (<< 1:9.1.0-3)"
+	],
+	"conflicts": [
+		"apparmor-profiles (<< 2.1+1075-0ubuntu4)",
+		"bind"
+	],
+	"installedSize": 1634,
+	"maintainer": "Ubuntu Developers <ubuntu-devel-discuss@lists.ubuntu.com>",
+	"description": "Internet Domain Name Server",
+	"filename": "pool/main/b/bind9/bind9_9.10.3.dfsg.P4-8ubuntu1.19_amd64.deb",
+	"size": 372754,
+	"md5": "59afe19bf85aa01b2b2c98cf2e313a48",
+	"sha1": "88d6f78d5ce76d97082a2d4973f6cb1ce80ccd94",
+	"sha256": "76f1e7ce45ae099963810d666a468dfdc43d1381d0c875fd6dc863f7e84a184a",
+	"sha512": "cbc246b37524cebf6c5fc802744c301123d2f71061e4d95b8024b6833b65e2392b188397da3fa41f40195528b14065d3d357e115d55d1b972a63b13610a1fbdd",
+	"descriptionMd5": "afd61d02df1ec6f856b928dfbf6fd201"
+}

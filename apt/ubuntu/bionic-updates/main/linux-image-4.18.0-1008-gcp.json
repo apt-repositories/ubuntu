@@ -1,0 +1,42 @@
+{
+	"raw": {},
+	"required": [
+		"Filename",
+		"Size"
+	],
+	"package": "linux-image-4.18.0-1008-gcp",
+	"source": "linux-signed-gcp-edge",
+	"version": "4.18.0-1008.9~18.04.1",
+	"section": "kernel",
+	"priority": "optional",
+	"architecture": "amd64",
+	"depends": [
+		"kmod",
+		"linux-base (>= 4.5ubuntu1~16.04.1)",
+		"linux-modules-4.18.0-1008-gcp"
+	],
+	"recommends": [
+		"grub-pc | grub-efi-amd64 | grub-efi-ia32 | grub | lilo"
+	],
+	"suggests": [
+		"fdutils",
+		"linux-gcp-edge-doc-4.18.0 | linux-gcp-edge-source-4.18.0",
+		"linux-gcp-edge-tools",
+		"linux-headers-4.18.0-1008-gcp",
+		"initramfs-tools | linux-initramfs-tool"
+	],
+	"conflicts": [
+		"linux-image-unsigned-4.18.0-1008-gcp"
+	],
+	"installedSize": 8446,
+	"maintainer": "Canonical Kernel Team <kernel-team@lists.ubuntu.com>",
+	"description": "Signed kernel image gcp",
+	"builtUsing": "linux-gcp (= 4.18.0-1008.9~18.04.1)",
+	"filename": "pool/main/l/linux-signed-gcp-edge/linux-image-4.18.0-1008-gcp_4.18.0-1008.9~18.04.1_amd64.deb",
+	"size": 8229116,
+	"md5": "5bc890ab96642f8423a2ddac6926052e",
+	"sha1": "26a0f8c36650a79778af1f799a9f5bf9cb22116e",
+	"sha256": "b8ab31ea30f6814a31104b2ec447583c9bef2668023cb670d95c0cdabfcede0e",
+	"sha512": "7f11a86ba434b2a6df2dd0b835c783412e100d1fb953e728287c0b7d175838ca93439edd2a8bbf35a35775ec03cbd924a4b6c242e8ab5c3631cc2da8780039e5",
+	"descriptionMd5": "a7b304a571398efc4c24189f61ea6f94"
+}

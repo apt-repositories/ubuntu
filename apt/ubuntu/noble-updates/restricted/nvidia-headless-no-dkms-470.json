@@ -1,0 +1,40 @@
+{
+	"raw": {},
+	"required": [
+		"Filename",
+		"Size"
+	],
+	"package": "nvidia-headless-no-dkms-470",
+	"source": "nvidia-graphics-drivers-470",
+	"version": "470.256.02-0ubuntu0.24.04.1",
+	"section": "restricted/libs",
+	"priority": "optional",
+	"architecture": "amd64",
+	"depends": [
+		"nvidia-kernel-common-470 (<= 470.256.02-1)",
+		"nvidia-kernel-common-470 (>= 470.256.02)",
+		"nvidia-kernel-source-470 (= 470.256.02-0ubuntu0.24.04.1)",
+		"libnvidia-compute-470 (= 470.256.02-0ubuntu0.24.04.1)",
+		"nvidia-compute-utils-470 (= 470.256.02-0ubuntu0.24.04.1)",
+		"libnvidia-cfg1-470 (= 470.256.02-0ubuntu0.24.04.1)"
+	],
+	"replaces": [
+		"nvidia-384 (<< 390.25)",
+		"nvidia-390 (<< 390.25-0ubuntu1)"
+	],
+	"conflicts": [
+		"nvidia-384 (<< 390.25)",
+		"nvidia-390 (<< 390.25-0ubuntu1)"
+	],
+	"installedSize": 21,
+	"maintainer": "Ubuntu Core Developers <ubuntu-devel-discuss@lists.ubuntu.com>",
+	"description": "NVIDIA headless metapackage - no DKMS",
+	"homepage": "http://www.nvidia.com",
+	"filename": "pool/restricted/n/nvidia-graphics-drivers-470/nvidia-headless-no-dkms-470_470.256.02-0ubuntu0.24.04.1_amd64.deb",
+	"size": 7072,
+	"md5": "8d035ce87b5b0f2203aa84b53edb21d7",
+	"sha1": "4bb81b1183c233f3b5cb86e9fbf5cfcb813d7f1f",
+	"sha256": "0c0475125b8f10e61c1d908e18c042aa559dfbd12031d0e195468e16ee1c6799",
+	"sha512": "78f2758a73ab488a1dd86b7a3a12f27a6468efc4f3876f975b84a23cd5d73ce97f3ef920ebe130a9781df58ad20ef08d2ca5b9dbcdcc237cfe304a82d0e852df",
+	"descriptionMd5": "b2a4cc4ffbc9dfcd5c8b9b0f930eedef"
+}

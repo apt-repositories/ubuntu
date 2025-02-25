@@ -1,0 +1,44 @@
+[{
+	"raw": {},
+	"required": [
+		"Filename",
+		"Size"
+	],
+	"package": "wine64-tools",
+	"source": "wine",
+	"version": "3.0-1ubuntu1",
+	"section": "universe/libdevel",
+	"priority": "optional",
+	"architecture": "amd64",
+	"depends": [
+		"gcc",
+		"perl:any",
+		"libc6 (>= 2.14)",
+		"libgettextpo0",
+		"libwine-dev (= 3.0-1ubuntu1) | libwine-dev:i386 (= 3.0-1ubuntu1)"
+	],
+	"recommends": [
+		"wine-stable (= 3.0-1ubuntu1)",
+		"g++"
+	],
+	"replaces": [
+		"wine1.6 (<< 1:1.8.4ubuntu1~)"
+	],
+	"breaks": [
+		"wine1.6 (<< 1:1.8.4ubuntu1~)"
+	],
+	"conflicts": [
+		"wine32-tools"
+	],
+	"installedSize": 4347,
+	"maintainer": "Ubuntu Developers <ubuntu-devel-discuss@lists.ubuntu.com>",
+	"description": "Windows API implementation - 64-bit developer tools",
+	"homepage": "https://www.winehq.org",
+	"builtUsing": "khronos-api (= 0~svn33340-0.1), unicode-data (= 10.0.0-3)",
+	"filename": "pool/universe/w/wine/wine64-tools_3.0-1ubuntu1_amd64.deb",
+	"size": 710948,
+	"md5": "3bd407ac5c257f9705fe118076536bed",
+	"sha1": "9936fe8153aeb43256cced75ca66586bea9b3323",
+	"sha256": "be04a510920f76715c599dff890d3551b591065484f7e3829f99ae0cbd42e1d7",
+	"descriptionMd5": "b2d5946494c3617f26f780d6fc0aa407"
+}]

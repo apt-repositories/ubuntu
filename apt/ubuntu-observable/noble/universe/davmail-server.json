@@ -1,0 +1,51 @@
+[{
+	"raw": {},
+	"required": [
+		"Filename",
+		"Size"
+	],
+	"package": "davmail-server",
+	"source": "davmail",
+	"version": "6.2.1.3496-1",
+	"section": "universe/net",
+	"priority": "optional",
+	"architecture": "all",
+	"depends": [
+		"logrotate",
+		"adduser",
+		"default-jre-headless | java8-runtime-headless | java9-runtime-headless | java10-runtime-headless | java11-runtime-headless",
+		"libcommons-codec-java",
+		"libcommons-logging-java",
+		"libhtmlcleaner-java",
+		"libhttpclient-java",
+		"libjackrabbit-java",
+		"libjcifs-java",
+		"libjettison-java",
+		"libjna-java",
+		"liblog4j1.2-java",
+		"libmail-java",
+		"libslf4j-java",
+		"libstax2-api-java",
+		"libwoodstox-java"
+	],
+	"preDepends": [
+		"init-system-helpers (>= 1.54~)"
+	],
+	"replaces": [
+		"davmail (<= 6.0.1.3390-1.1)"
+	],
+	"breaks": [
+		"davmail (<= 6.0.1.3390-1.1)"
+	],
+	"installedSize": 808,
+	"maintainer": "Ubuntu Developers <ubuntu-devel-discuss@lists.ubuntu.com>",
+	"description": "POP/IMAP/SMTP/CalDav/LDAP to Microsoft Exchange gateway - headless",
+	"homepage": "https://davmail.sourceforge.net/",
+	"filename": "pool/universe/d/davmail/davmail-server_6.2.1.3496-1_all.deb",
+	"size": 697444,
+	"md5": "9d1a79a28dd83308f13d0123ef2e1607",
+	"sha1": "d58b3b874435c7bfeb67b56ec4273a602242fd4b",
+	"sha256": "83c3fcb8142e44227f4620f8f7dfd8b1c108c83fd93e3876ae6e1a8b9c7fc18a",
+	"sha512": "4c43724ec5eea34f6c49e63ff04b6d5d7a16352b883028dbfdaafd125aa977c1e964847b17c6d0c56daee216463841d53a536f860431bed7e72eb181cf07150f",
+	"descriptionMd5": "cc360db0a8d2d7792d063d68e4fc5aa8"
+}]

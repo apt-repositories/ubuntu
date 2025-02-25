@@ -1,0 +1,45 @@
+{
+	"raw": {},
+	"required": [
+		"Filename",
+		"Size"
+	],
+	"package": "linux-image-unsigned-3.13.0-170-lowlatency",
+	"source": "linux",
+	"version": "3.13.0-170.220",
+	"section": "kernel",
+	"priority": "optional",
+	"architecture": "amd64",
+	"depends": [
+		"module-init-tools (>= 3.3-pre11-4ubuntu3)",
+		"linux-base (>= 4.5ubuntu1~14.04.1)",
+		"linux-modules-3.13.0-170-lowlatency"
+	],
+	"preDepends": [
+		"dpkg (>= 1.10.24)"
+	],
+	"recommends": [
+		"grub-pc | grub-efi-amd64 | grub-efi-ia32 | grub | lilo (>= 19.1)",
+		"initramfs-tools (>= 0.36ubuntu6)"
+	],
+	"suggests": [
+		"fdutils",
+		"linux-doc-3.13.0 | linux-source-3.13.0",
+		"linux-tools",
+		"linux-headers-3.13.0-170-lowlatency"
+	],
+	"conflicts": [
+		"hotplug (<< 0.0.20040105-1)",
+		"linux-image-3.13.0-170-lowlatency"
+	],
+	"installedSize": 6071,
+	"maintainer": "Ubuntu Kernel Team <kernel-team@lists.ubuntu.com>",
+	"description": "Linux kernel image for version 3.13.0 on 64 bit x86 SMP",
+	"filename": "pool/main/l/linux/linux-image-unsigned-3.13.0-170-lowlatency_3.13.0-170.220_amd64.deb",
+	"size": 5902328,
+	"md5": "53480b710f4e284c457e8d72a4b0312f",
+	"sha1": "a05447f9356721346e26e0e7ac83eb3bd40b88ba",
+	"sha256": "07a10109df67813a090df8876b805bcd06c30d6bf20f1cc1ed55987232046feb",
+	"sha512": "d924f97315d7ab13fcf0dd8777f36aacccb6ead4d7ad20115b616776bd5c82ddfe14602e12695d98c5b623b9d2a47f05e1f0eedf2b33c661fbdb6ae7fee3d02d",
+	"descriptionMd5": "2729fa203088c934f82d5210d5a43257"
+}

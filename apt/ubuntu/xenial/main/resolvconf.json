@@ -1,0 +1,46 @@
+{
+	"raw": {},
+	"required": [
+		"Filename",
+		"Size"
+	],
+	"package": "resolvconf",
+	"version": "1.78ubuntu2",
+	"section": "net",
+	"priority": "important",
+	"architecture": "all",
+	"depends": [
+		"ifupdown",
+		"lsb-base (>= 4.1+Debian11ubuntu7)",
+		"debconf (>= 0.5) | debconf-2.0",
+		"init-system-helpers (>= 1.18~)"
+	],
+	"enhances": [
+		"dhcpcd",
+		"dnsmasq",
+		"ifupdown",
+		"isc-dhcp-client",
+		"libc6",
+		"network-manager",
+		"nscd",
+		"pdnsd",
+		"ppp",
+		"pump",
+		"udhcpc"
+	],
+	"breaks": [
+		"dhcp3-client (<< 4.1.1-P1-15+squeeze1)",
+		"dnscache-run",
+		"sysv-rc (<< 2.88dsf-42)"
+	],
+	"installedSize": 176,
+	"maintainer": "Ubuntu Developers <ubuntu-devel-discuss@lists.ubuntu.com>",
+	"description": "name server information handler",
+	"homepage": "http://alioth.debian.org/projects/resolvconf/",
+	"filename": "pool/main/r/resolvconf/resolvconf_1.78ubuntu2_all.deb",
+	"size": 50516,
+	"md5": "5ea712dd4342b0fbf85ccec8ab43edd9",
+	"sha1": "eeb011b97a61b08e6351d8029f55305096c50cc4",
+	"sha256": "9e4aadff53f80c2c8bc7870b262ac9a59a56fbe40ab08ff3a67ef032588fc284",
+	"descriptionMd5": "e009e7114cd0b15ac6dbe0d813ec9472"
+}

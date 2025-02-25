@@ -1,0 +1,49 @@
+{
+	"raw": {},
+	"required": [
+		"Filename",
+		"Size"
+	],
+	"package": "exim4-daemon-heavy",
+	"source": "exim4",
+	"version": "4.86.2-2ubuntu2.6",
+	"section": "mail",
+	"priority": "optional",
+	"architecture": "amd64",
+	"depends": [
+		"exim4-base (>= 4.86.2)",
+		"libc6 (>= 2.16)",
+		"libdb5.3",
+		"libgnutls30 (>= 3.4.2)",
+		"libldap-2.4-2 (>= 2.4.7)",
+		"libmysqlclient20 (>= 5.7.11)",
+		"libpam0g (>= 0.99.7.1)",
+		"libpcre3",
+		"libperl5.22 (>= 5.22.1)",
+		"libpq5",
+		"libsasl2-2",
+		"libsqlite3-0 (>= 3.5.9)",
+		"debconf (>= 0.5) | debconf-2.0"
+	],
+	"replaces": [
+		"exim4-base (<= 4.61-1)",
+		"mail-transport-agent"
+	],
+	"breaks": [
+		"clamav-daemon (<< 0.95)"
+	],
+	"conflicts": [
+		"mail-transport-agent"
+	],
+	"installedSize": 1311,
+	"maintainer": "Ubuntu Developers <ubuntu-devel-discuss@lists.ubuntu.com>",
+	"description": "Exim MTA (v4) daemon with extended features, including exiscan-acl",
+	"homepage": "http://www.exim.org/",
+	"filename": "pool/main/e/exim4/exim4-daemon-heavy_4.86.2-2ubuntu2.6_amd64.deb",
+	"size": 518344,
+	"md5": "5ba8aa914d4f0b4582e913f0a4d9b9da",
+	"sha1": "a1833fb27df7dd07a97e0b71960f6f149f4fc47a",
+	"sha256": "203893c673bdc4d5c17fa148a8dbb3b4f0210a2f8434c80d9a0c5c88b42ed4b7",
+	"sha512": "949daee7a180c997e3d41f2ac11fdb94b240daa52bdf4a7eaf1cfd724135f55ccee60288cb5d4c78548164516dbfdea15ad1e7c3008abda71b6cc4035f8fef97",
+	"descriptionMd5": "29c4b395a92bdc12932f151c3643a602"
+}

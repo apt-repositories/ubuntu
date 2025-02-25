@@ -1,0 +1,52 @@
+{
+	"raw": {},
+	"required": [
+		"Filename",
+		"Size"
+	],
+	"package": "resource-agents-extra",
+	"source": "resource-agents",
+	"version": "1:4.7.0-1ubuntu7",
+	"section": "universe/admin",
+	"priority": "optional",
+	"architecture": "amd64",
+	"depends": [
+		"libc6 (>= 2.34)",
+		"libplumb2 (>= 1.0.12~)",
+		"cluster-glue",
+		"gawk",
+		"python3",
+		"resource-agents-common (>= 1:4.7.0-1ubuntu7)"
+	],
+	"recommends": [
+		"libxml2-utils",
+		"net-tools",
+		"resource-agents-base (>= 1:4.7.0-1ubuntu7)"
+	],
+	"suggests": [
+		"python3-googleapi"
+	],
+	"replaces": [
+		"cluster-agents (<= 1:1.0.4-1)",
+		"resource-agents (<< 1:4.7.0-1ubuntu2)",
+		"rgmanager (<= 3.0.12-2+b1)"
+	],
+	"breaks": [
+		"resource-agents (<< 1:4.7.0-1ubuntu2)"
+	],
+	"conflicts": [
+		"cluster-agents (<= 1:1.0.4-1)",
+		"rgmanager (<= 3.0.12-2+b1)"
+	],
+	"installedSize": 2135,
+	"maintainer": "Ubuntu Developers <ubuntu-devel-discuss@lists.ubuntu.com>",
+	"description": "Cluster Resource Agents",
+	"homepage": "https://github.com/ClusterLabs/resource-agents",
+	"filename": "pool/universe/r/resource-agents/resource-agents-extra_4.7.0-1ubuntu7_amd64.deb",
+	"size": 524578,
+	"md5": "33668f268dafed8c8e63cd3dba35449e",
+	"sha1": "cf95b043552fa832460404496b192189498f4860",
+	"sha256": "715e065104ad57d882910ebf2bd415698389c483516065f2937d323becb07712",
+	"sha512": "0fb4e410080622da9c624bacdcc2b083a5610a13d728cfcf129666e24792e03ca905807b12b1fe8f061116949d489f401eb1dd1652f1fd1f2b7b238392814e3d",
+	"descriptionMd5": "3d84981fa9e06264124dcee8d7bbb47b"
+}

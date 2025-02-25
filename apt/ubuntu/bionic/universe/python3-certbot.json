@@ -1,0 +1,53 @@
+{
+	"raw": {},
+	"required": [
+		"Filename",
+		"Size"
+	],
+	"package": "python3-certbot",
+	"source": "python-certbot",
+	"version": "0.23.0-1",
+	"section": "universe/python",
+	"priority": "optional",
+	"architecture": "all",
+	"depends": [
+		"python3-acme (>= 0.22.0~)",
+		"python3-requests (>= 2.4.3)",
+		"python3-configargparse (>= 0.10.0)",
+		"python3-configobj",
+		"python3-cryptography (>= 1.2)",
+		"python3-josepy",
+		"python3-mock",
+		"python3-parsedatetime (>= 1.3)",
+		"python3-pkg-resources",
+		"python3-rfc3339",
+		"python3-tz",
+		"python3-zope.component",
+		"python3-zope.interface",
+		"python3:any (>= 3.3.2-2~)"
+	],
+	"recommends": [
+		"certbot"
+	],
+	"suggests": [
+		"python-certbot-doc"
+	],
+	"replaces": [
+		"python-letsencrypt"
+	],
+	"breaks": [
+		"python-certbot-apache (<< 0.20.0)",
+		"python-certbot-nginx (<< 0.20.0)",
+		"python-letsencrypt (<= 0.6.0)"
+	],
+	"installedSize": 1086,
+	"maintainer": "Ubuntu Developers <ubuntu-devel-discuss@lists.ubuntu.com>",
+	"description": "main library for certbot",
+	"homepage": "https://certbot.eff.org/",
+	"filename": "pool/universe/p/python-certbot/python3-certbot_0.23.0-1_all.deb",
+	"size": 187800,
+	"md5": "bb8522ee01b92e9e891f989ed5ff1b13",
+	"sha1": "a9fe2c2c5eea8a633a1ded5fe2644901240d41f1",
+	"sha256": "e761ef24f8cf770a05ce2d27fbab89c169bfab9b2ffba11bc83dca4f1dab7248",
+	"descriptionMd5": "85358386ec4314ac7c0c6d37555b95ff"
+}

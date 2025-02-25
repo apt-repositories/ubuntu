@@ -1,0 +1,50 @@
+{
+	"raw": {},
+	"required": [
+		"Filename",
+		"Size"
+	],
+	"package": "bootcd",
+	"version": "5.04",
+	"section": "universe/utils",
+	"priority": "extra",
+	"architecture": "all",
+	"depends": [
+		"init-system-helpers (>= 1.18~)",
+		"genisoimage",
+		"cpio",
+		"fdutils",
+		"file",
+		"dosfstools",
+		"realpath | coreutils (>= 8.23-1)",
+		"syslinux",
+		"syslinux-common",
+		"initramfs-tools",
+		"busybox | busybox-static | busybox-cvs | busybox-cvs-static"
+	],
+	"recommends": [
+		"wodim",
+		"isolinux"
+	],
+	"suggests": [
+		"ssh",
+		"discover | discover1",
+		"elilo",
+		"aufs-tools"
+	],
+	"conflicts": [
+		"bootcd-backup",
+		"bootcd-i386",
+		"bootcd-ia64",
+		"bootcd-mkinitramfs"
+	],
+	"installedSize": 378,
+	"maintainer": "Ubuntu Developers <ubuntu-devel-discuss@lists.ubuntu.com>",
+	"description": "run your system from cd without need for disks",
+	"filename": "pool/universe/b/bootcd/bootcd_5.04_all.deb",
+	"size": 78282,
+	"md5": "f9012e7ac0ced3e19e68c7417e56ee19",
+	"sha1": "0898ec71a6425e2108970edc9a73e58e522c588f",
+	"sha256": "2ab50a364875ccfff3d9d1dd7b6f53239066446d766213c6f88da5ad5f05df5e",
+	"descriptionMd5": "a6489329b4dc429a928505112ea179ef"
+}

@@ -1,0 +1,57 @@
+{
+	"raw": {},
+	"required": [
+		"Filename",
+		"Size"
+	],
+	"package": "nslcd",
+	"source": "nss-pam-ldapd",
+	"version": "0.9.12-4build1",
+	"section": "universe/admin",
+	"priority": "extra",
+	"architecture": "amd64",
+	"depends": [
+		"libc6 (>= 2.38)",
+		"libgssapi-krb5-2 (>= 1.6.dfsg.2)",
+		"libldap2 (>= 2.6.2)",
+		"adduser",
+		"ca-certificates"
+	],
+	"preDepends": [
+		"init-system-helpers (>= 1.54~)",
+		"debconf (>= 0.5) | debconf-2.0"
+	],
+	"recommends": [
+		"nscd",
+		"libnss-ldapd | libnss-ldap",
+		"libpam-ldapd | libpam-ldap | libpam-krb5 | libpam-heimdal | libpam-sss",
+		"nslcd-utils",
+		"ldap-utils",
+		"bind9-host | host"
+	],
+	"suggests": [
+		"kstart"
+	],
+	"replaces": [
+		"libnss-ldapd (<< 0.7.0)",
+		"nslcd-2"
+	],
+	"breaks": [
+		"libnss-ldapd (<< 0.9.0)",
+		"libpam-ldapd (<< 0.9.0)"
+	],
+	"conflicts": [
+		"nslcd-2"
+	],
+	"installedSize": 394,
+	"maintainer": "Ubuntu Developers <ubuntu-devel-discuss@lists.ubuntu.com>",
+	"description": "daemon for NSS and PAM lookups using LDAP",
+	"homepage": "https://arthurdejong.org/nss-pam-ldapd/",
+	"filename": "pool/universe/n/nss-pam-ldapd/nslcd_0.9.12-4build1_amd64.deb",
+	"size": 159222,
+	"md5": "9810764a9614c1be6f505f395df9590d",
+	"sha1": "e98627fe16afef27365d1d6a4713c04e85279e7c",
+	"sha256": "c2ba2e2f0c26087ac3b3cc695f3cd0dd0638b6353972ce5a30f9e61e790eb9d4",
+	"sha512": "b0c94cee7737ab61b39121e286862ee8315034bb9389254488629b90e3d068c13b56197ec06492bb88a034c1d4f36e5c02c3eb114bcefe70bd10690d8b857a6d",
+	"descriptionMd5": "9d9eb0997c3878afcc05d90074bb2d97"
+}

@@ -1,0 +1,66 @@
+{
+	"raw": {},
+	"required": [
+		"Filename",
+		"Size"
+	],
+	"package": "xserver-xorg-lts-utopic",
+	"source": "xorg-lts-utopic",
+	"version": "1:7.7+7ubuntu2~trusty1",
+	"section": "x11",
+	"priority": "optional",
+	"architecture": "amd64",
+	"depends": [
+		"xserver-xorg-core-lts-utopic (>= 2:1.15.0.901)",
+		"xserver-xorg-video-all-lts-utopic | xorg-driver-video",
+		"xserver-xorg-input-all-lts-utopic | xorg-driver-input",
+		"xserver-xorg-input-evdev-lts-utopic",
+		"libc6 (>= 2.7)",
+		"xkb-data (>= 1.4)",
+		"x11-xkb-utils"
+	],
+	"recommends": [
+		"libgl1-mesa-dri-lts-utopic",
+		"libgl1-mesa-glx-lts-utopic",
+		"linux-generic-lts-utopic",
+		"xserver-xorg-input-all-lts-utopic",
+		"xserver-xorg-video-all-lts-utopic",
+		"libegl1-mesa-lts-utopic",
+		"libegl1-mesa-drivers-lts-utopic",
+		"libgbm1-lts-utopic",
+		"libgles2-mesa-lts-utopic",
+		"libgles1-mesa-lts-utopic"
+	],
+	"replaces": [
+		"xserver-xorg"
+	],
+	"conflicts": [
+		"libegl1-mesa (>= 0~)",
+		"libegl1-mesa-drivers (>= 0~)",
+		"libgl1-mesa-dri (>= 0~)",
+		"libgl1-mesa-dri-experimental (>= 0~)",
+		"libgl1-mesa-glx (>= 0~)",
+		"libglapi-mesa (>= 0~)",
+		"libgles1-mesa (>= 0~)",
+		"libgles2-mesa (>= 0~)",
+		"libopenvg1-mesa (>= 0~)",
+		"libwayland-egl1-mesa (>= 0~)",
+		"libxatracker2 (>= 0~)",
+		"mesa-vdpau-drivers (>= 0~)",
+		"xserver-xorg",
+		"xserver-xorg-core (>= 0~)",
+		"xserver-xorg-dev (>= 0~)",
+		"xserver-xorg-input-all (>= 0~)",
+		"xserver-xorg-video-all (>= 0~)"
+	],
+	"installedSize": 185,
+	"maintainer": "Ubuntu X-SWAT <ubuntu-x@lists.ubuntu.com>",
+	"description": "X.Org X server",
+	"filename": "pool/main/x/xorg-lts-utopic/xserver-xorg-lts-utopic_7.7+7ubuntu2~trusty1_amd64.deb",
+	"size": 15412,
+	"md5": "e678b09582c0fc8017ad72bd84b56268",
+	"sha1": "9f9806862b91d867550d9c3224376e8e7b3a0b52",
+	"sha256": "d472a2b4683c72de807701f4b98470e7db009254d2d460ff60822988c6ef05c5",
+	"sha512": "d4c546a77c4f5f4ac2acce911129842ffefdf8ece7a664c3b13775494f51a7239968badcc980cb38ad9948f214c303a7f5e019b4f416d52266f8fd94b4077f40",
+	"descriptionMd5": "3d8c1d268e8af6b69f54d86fbd5a3939"
+}

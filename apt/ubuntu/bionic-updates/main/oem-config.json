@@ -1,0 +1,41 @@
+{
+	"raw": {},
+	"required": [
+		"Filename",
+		"Size"
+	],
+	"package": "oem-config",
+	"source": "ubiquity",
+	"version": "18.04.14.17",
+	"section": "admin",
+	"priority": "extra",
+	"architecture": "all",
+	"depends": [
+		"debconf (>= 0.5) | debconf-2.0",
+		"ubiquity (= 18.04.14.17)",
+		"oem-config-frontend-18.04.14.17",
+		"procps"
+	],
+	"replaces": [
+		"oem-config-gtk (<< 1.54.13)",
+		"oem-config-kde (<< 1.54.13)",
+		"oem-config-keyboard",
+		"oem-config-locale",
+		"oem-config-timezone"
+	],
+	"conflicts": [
+		"oem-config-keyboard",
+		"oem-config-locale",
+		"oem-config-timezone"
+	],
+	"installedSize": 232,
+	"maintainer": "Ubuntu Installer Team <ubuntu-installer@lists.ubuntu.com>",
+	"description": "Perform end-user configuration after initial OEM installation",
+	"filename": "pool/main/u/ubiquity/oem-config_18.04.14.17_all.deb",
+	"size": 13576,
+	"md5": "4cc5a077397f7d2cf28f7947471399db",
+	"sha1": "c882e4280b18b4e235d259efe4051e471e6963c5",
+	"sha256": "4928f2dae99813ed8378b3f4dcc7e38c46576c198291c34b9b5a01b5183ec6bc",
+	"sha512": "73793b1dba4726d311a71f4f7d128bdce99d5eb3fdc0482a4a20c90922ecd34278db32a42cef2038eeec8875fac496d96c5dee30d1fcb3d05a676cd8ebecc86f",
+	"descriptionMd5": "9380d07ec19991f384138c016b142ce0"
+}

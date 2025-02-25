@@ -1,0 +1,62 @@
+{
+	"raw": {},
+	"required": [
+		"Filename",
+		"Size"
+	],
+	"package": "roundcube-core",
+	"source": "roundcube",
+	"version": "1.3.6+dfsg.1-1",
+	"section": "universe/web",
+	"priority": "extra",
+	"architecture": "all",
+	"depends": [
+		"dbconfig-common",
+		"debconf",
+		"libapache2-mod-php | php",
+		"libmagic1",
+		"php-pear (>= 1:1.10.1)",
+		"php-cli",
+		"php-intl",
+		"php-json",
+		"roundcube-mysql (= 1.3.6+dfsg.1-1) | roundcube-sqlite3 (= 1.3.6+dfsg.1-1) | roundcube-pgsql (= 1.3.6+dfsg.1-1)",
+		"ucf",
+		"debconf (>= 0.5) | debconf-2.0",
+		"php-common",
+		"php-net-socket (>= 1.0.14)",
+		"php-auth-sasl (>= 1.0.6)",
+		"php-mail-mime (>= 1.10.0)",
+		"php-net-smtp (>= 1.7.1)",
+		"php-net-sieve (>= 1.3.4)"
+	],
+	"preDepends": [
+		"dpkg (>= 1.17.14)"
+	],
+	"recommends": [
+		"apache2 | lighttpd | spawn-fcgi | php-fpm | httpd-cgi",
+		"php-gd",
+		"php-pspell"
+	],
+	"suggests": [
+		"roundcube-plugins",
+		"php-net-ldap2 (>= 2.2.0)",
+		"php-crypt-gpg (>= 1.6.0)",
+		"php-net-ldap3"
+	],
+	"replaces": [
+		"roundcube-plugins-extra (<= 0.6-20111030)"
+	],
+	"breaks": [
+		"roundcube-plugins-extra (<= 0.6-20111030)"
+	],
+	"installedSize": 12562,
+	"maintainer": "Ubuntu Developers <ubuntu-devel-discuss@lists.ubuntu.com>",
+	"description": "skinnable AJAX based webmail solution for IMAP servers",
+	"homepage": "https://www.roundcube.net/",
+	"filename": "pool/universe/r/roundcube/roundcube-core_1.3.6+dfsg.1-1_all.deb",
+	"size": 2131196,
+	"md5": "b36a6ff98e15f7a13873b1588b9ff1be",
+	"sha1": "e6c49e3371d8180ee4d1e6817f5f07ae5c7cab83",
+	"sha256": "795c5dc1d37079c837eff8beb00d342c1c34c02e5a5e84ff9238f372c504115c",
+	"descriptionMd5": "070b49746ffa5175d706c57880b405e7"
+}

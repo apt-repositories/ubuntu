@@ -1,0 +1,41 @@
+{
+	"raw": {},
+	"required": [
+		"Filename",
+		"Size"
+	],
+	"package": "clang-tidy-7",
+	"source": "llvm-toolchain-7",
+	"version": "1:7.0.1-12",
+	"section": "universe/devel",
+	"priority": "optional",
+	"architecture": "amd64",
+	"depends": [
+		"libc6 (>= 2.14)",
+		"libgcc-s1 (>= 3.0)",
+		"libllvm7 (= 1:7.0.1-12)",
+		"libstdc++6 (>= 9)",
+		"python2",
+		"libclang-common-7-dev",
+		"clang-tools-7",
+		"python-yaml"
+	],
+	"replaces": [
+		"clang-7 (<< 7~svn250696-1)",
+		"clang-modernize-7"
+	],
+	"breaks": [
+		"clang-7 (<< 7~svn250696-1)",
+		"clang-modernize-7"
+	],
+	"installedSize": 23086,
+	"maintainer": "Ubuntu Developers <ubuntu-devel-discuss@lists.ubuntu.com>",
+	"description": "clang-based C++ linter tool",
+	"homepage": "https://www.llvm.org/",
+	"filename": "pool/universe/l/llvm-toolchain-7/clang-tidy-7_7.0.1-12_amd64.deb",
+	"size": 5709868,
+	"md5": "f921d86d32a635d15b6d85cd14404ceb",
+	"sha1": "94c3e1c68ed9d8ccaf8745bddf06060cf01f29ef",
+	"sha256": "43ddb6b17b3669df7918561185b577a679c1103bd8c90f813fce8f3bb922d68a",
+	"descriptionMd5": "239d974b460ce0b6a914aa94c05888ad"
+}

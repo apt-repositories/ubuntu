@@ -1,0 +1,50 @@
+[{
+	"raw": {},
+	"required": [
+		"Filename",
+		"Size"
+	],
+	"package": "open-infrastructure-system-config",
+	"version": "20161101-lts1-2",
+	"section": "universe/admin",
+	"priority": "optional",
+	"architecture": "all",
+	"depends": [
+		"systemd",
+		"init-system-helpers (>= 1.18~)"
+	],
+	"recommends": [
+		"dbus",
+		"iproute2 | iproute",
+		"keyboard-configuration",
+		"locales | locales-all",
+		"sudo",
+		"user-setup"
+	],
+	"suggests": [
+		"pciutils",
+		"wget"
+	],
+	"replaces": [
+		"live-config",
+		"live-config-doc",
+		"live-config-systemd",
+		"live-config-sysvinit"
+	],
+	"conflicts": [
+		"live-config",
+		"live-config-doc",
+		"live-config-systemd",
+		"live-config-sysvinit"
+	],
+	"installedSize": 152,
+	"maintainer": "Ubuntu Developers <ubuntu-devel-discuss@lists.ubuntu.com>",
+	"description": "System integration for configuring a read-only root filesystem",
+	"homepage": "https://open-infrastructure.net/software/system-config",
+	"filename": "pool/universe/o/open-infrastructure-system-config/open-infrastructure-system-config_20161101-lts1-2_all.deb",
+	"size": 44410,
+	"md5": "e6cbc52f16511684e929e810bae67ceb",
+	"sha1": "f9c579bf000ca47e307bfb0e1a3e554ee1ebc195",
+	"sha256": "c5c8d0a0ce7b8ad10ce34af55febd01afdeb0b142cf7ef5f81537a85ab429dd6",
+	"descriptionMd5": "863034f13ee609bfd233e588702eaff6"
+}]

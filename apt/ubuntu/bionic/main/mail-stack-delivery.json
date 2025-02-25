@@ -1,0 +1,35 @@
+{
+	"raw": {},
+	"required": [
+		"Filename",
+		"Size"
+	],
+	"package": "mail-stack-delivery",
+	"source": "dovecot",
+	"version": "1:2.2.33.2-1ubuntu4",
+	"section": "mail",
+	"priority": "optional",
+	"architecture": "all",
+	"depends": [
+		"dovecot-imapd",
+		"dovecot-pop3d",
+		"dovecot-managesieved",
+		"postfix"
+	],
+	"preDepends": [
+		"dovecot-core (>= 1:2.2.33.2-1ubuntu4)"
+	],
+	"replaces": [
+		"dovecot-postfix (<< 1:1.2.12-0ubuntu1~)"
+	],
+	"installedSize": 76,
+	"maintainer": "Ubuntu Developers <ubuntu-devel-discuss@lists.ubuntu.com>",
+	"description": "mail server delivery agent stack provided by Ubuntu server team",
+	"homepage": "http://dovecot.org/",
+	"filename": "pool/main/d/dovecot/mail-stack-delivery_2.2.33.2-1ubuntu4_all.deb",
+	"size": 10408,
+	"md5": "1f098711e092cb4a8ea6f09f1b71c819",
+	"sha1": "935d55d74c13abe187e5f1e2b5caa403d400a285",
+	"sha256": "601498bd178716702f7d5bec3e16bdecc3b99109c6f6c9ef6836e7a75e5a82e1",
+	"descriptionMd5": "66dc59ce6cc06ae2193237ef1f865a88"
+}

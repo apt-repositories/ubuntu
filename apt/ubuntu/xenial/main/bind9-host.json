@@ -1,0 +1,38 @@
+{
+	"raw": {},
+	"required": [
+		"Filename",
+		"Size"
+	],
+	"package": "bind9-host",
+	"source": "bind9",
+	"version": "1:9.10.3.dfsg.P4-8",
+	"section": "net",
+	"priority": "standard",
+	"architecture": "amd64",
+	"depends": [
+		"libbind9-140 (= 1:9.10.3.dfsg.P4-8)",
+		"libc6 (>= 2.4)",
+		"libdns162 (= 1:9.10.3.dfsg.P4-8)",
+		"libisc160 (= 1:9.10.3.dfsg.P4-8)",
+		"libisccfg140 (= 1:9.10.3.dfsg.P4-8)",
+		"liblwres141 (= 1:9.10.3.dfsg.P4-8)"
+	],
+	"replaces": [
+		"dnsutils (<< 1:9.0.0)",
+		"host (<< 1:9.7.0)"
+	],
+	"conflicts": [
+		"dnsutils (<< 1:9.0.0)",
+		"host (<< 1:9.7.0)"
+	],
+	"installedSize": 127,
+	"maintainer": "LaMont Jones <lamont@debian.org>",
+	"description": "Version of 'host' bundled with BIND 9.X",
+	"filename": "pool/main/b/bind9/bind9-host_9.10.3.dfsg.P4-8_amd64.deb",
+	"size": 38346,
+	"md5": "c5a8ff67ee7e0354f04e3c55fbe1febf",
+	"sha1": "6dcdd613d24e67ae0ae98e9673c46790c329a859",
+	"sha256": "24ecb8e5d7d9c523db43a161f76934dbbbc2143a86cf620d884653c1ba6fec95",
+	"descriptionMd5": "acdae162c721f5d2986f557bdefa1e70"
+}

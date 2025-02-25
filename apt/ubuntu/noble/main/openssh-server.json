@@ -1,0 +1,71 @@
+{
+	"raw": {},
+	"required": [
+		"Filename",
+		"Size"
+	],
+	"package": "openssh-server",
+	"source": "openssh",
+	"version": "1:9.6p1-3ubuntu13",
+	"section": "net",
+	"priority": "optional",
+	"architecture": "amd64",
+	"depends": [
+		"adduser",
+		"libpam-modules",
+		"libpam-runtime",
+		"lsb-base",
+		"openssh-client (= 1:9.6p1-3ubuntu13)",
+		"openssh-sftp-server",
+		"procps",
+		"ucf",
+		"debconf (>= 0.5) | debconf-2.0",
+		"libaudit1 (>= 1:2.2.1)",
+		"libc6 (>= 2.38)",
+		"libcom-err2 (>= 1.43.9)",
+		"libcrypt1 (>= 1:4.1.0)",
+		"libgssapi-krb5-2 (>= 1.17)",
+		"libkrb5-3 (>= 1.13~alpha1+dfsg)",
+		"libpam0g (>= 0.99.7.1)",
+		"libselinux1 (>= 3.1~)",
+		"libssl3t64 (>= 3.0.13)",
+		"libwrap0 (>= 7.6-4~)",
+		"zlib1g (>= 1:1.1.4)"
+	],
+	"preDepends": [
+		"init-system-helpers (>= 1.54~)"
+	],
+	"recommends": [
+		"default-logind | logind | libpam-systemd",
+		"ncurses-term",
+		"xauth",
+		"ssh-import-id"
+	],
+	"suggests": [
+		"molly-guard",
+		"monkeysphere",
+		"ssh-askpass",
+		"ufw"
+	],
+	"replaces": [
+		"openssh-client (<< 1:7.9p1-8)",
+		"ssh",
+		"ssh-krb5"
+	],
+	"conflicts": [
+		"sftp",
+		"ssh-socks",
+		"ssh2"
+	],
+	"installedSize": 2101,
+	"maintainer": "Ubuntu Developers <ubuntu-devel-discuss@lists.ubuntu.com>",
+	"description": "secure shell (SSH) server, for secure access from remote machines",
+	"homepage": "https://www.openssh.com/",
+	"filename": "pool/main/o/openssh/openssh-server_9.6p1-3ubuntu13_amd64.deb",
+	"size": 509904,
+	"md5": "0f845fefb57feaf1855a623e314df13c",
+	"sha1": "e9670d0cdc26d3e702999d0c25a09497a9a45d0c",
+	"sha256": "6fe2467aff7aa8ed1cbe91a3521df69a41b90122143392f94037d4225a7098cb",
+	"sha512": "ef0440af9af602ec320c503babc11381aab58754c0d84a6f7db404be348c622c060cbf0523d687e67988acb289d391c2683aabb0ff5d84f9b3046e80d93d3987",
+	"descriptionMd5": "842cc998cae371b9d8106c1696373919"
+}

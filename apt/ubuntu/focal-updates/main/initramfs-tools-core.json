@@ -1,0 +1,44 @@
+{
+	"raw": {},
+	"required": [
+		"Filename",
+		"Size"
+	],
+	"package": "initramfs-tools-core",
+	"source": "initramfs-tools",
+	"version": "0.136ubuntu6.7",
+	"section": "utils",
+	"priority": "optional",
+	"architecture": "all",
+	"depends": [
+		"busybox-initramfs (>= 1:1.30.1-4ubuntu5~)",
+		"initramfs-tools-bin (= 0.136ubuntu6.7)",
+		"klibc-utils (>= 2.0.4-8~)",
+		"cpio (>= 2.12)",
+		"lz4",
+		"kmod",
+		"udev",
+		"coreutils (>= 8.24)",
+		"logsave | e2fsprogs (<< 1.45.3-1~)"
+	],
+	"suggests": [
+		"bash-completion"
+	],
+	"replaces": [
+		"initramfs-tools (<< 0.121~)"
+	],
+	"breaks": [
+		"busybox-initramfs (<< 1:1.30.1-4ubuntu5~)",
+		"initramfs-tools (<< 0.121~)"
+	],
+	"installedSize": 275,
+	"maintainer": "Ubuntu Developers <ubuntu-devel-discuss@lists.ubuntu.com>",
+	"description": "generic modular initramfs generator (core tools)",
+	"filename": "pool/main/i/initramfs-tools/initramfs-tools-core_0.136ubuntu6.7_all.deb",
+	"size": 47776,
+	"md5": "8b0850bf909085bbb2fd45d10c2139cb",
+	"sha1": "2e6f386a7d9dae692fc37f88f35a0f7b6850e6c7",
+	"sha256": "3f5abbc587ca7d5ce37440ff1bd2be9866bd1218c1d944fe4350b0fe3404d667",
+	"sha512": "f2c632c768f67dcf91a6bc6858fe4f3b679670881f58e9e2a19bc9c7fc1f9863faaefac81fed639d54564825751d2e0eac5f3b4000206ea0cdcd8ef420c0e49e",
+	"descriptionMd5": "8d2ce4976ab4fb33b898ed3006a086fa"
+}

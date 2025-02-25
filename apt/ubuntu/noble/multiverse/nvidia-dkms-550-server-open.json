@@ -1,0 +1,42 @@
+{
+	"raw": {},
+	"required": [
+		"Filename",
+		"Size"
+	],
+	"package": "nvidia-dkms-550-server-open",
+	"source": "nvidia-graphics-drivers-550-server",
+	"version": "550.54.15-0ubuntu2",
+	"section": "multiverse/libs",
+	"priority": "optional",
+	"architecture": "amd64",
+	"depends": [
+		"dkms",
+		"nvidia-kernel-source-550-server-open (<= 550.54.15-1)",
+		"nvidia-kernel-source-550-server-open (>= 550.54.15)",
+		"nvidia-kernel-common-550-server (<= 550.54.15-1)",
+		"nvidia-kernel-common-550-server (>= 550.54.15)"
+	],
+	"replaces": [
+		"nvidia-384 (<< 390.25)",
+		"nvidia-dkms-kernel",
+		"nvidia-kernel-source-550-server (<< 390.25-0ubuntu2~)"
+	],
+	"breaks": [
+		"nvidia-kernel-source-550-server (<< 390.25-0ubuntu2~)"
+	],
+	"conflicts": [
+		"nvidia-dkms-kernel"
+	],
+	"installedSize": 48,
+	"maintainer": "Ubuntu Core Developers <ubuntu-devel-discuss@lists.ubuntu.com>",
+	"description": "NVIDIA DKMS package (open kernel module)",
+	"homepage": "http://www.nvidia.com",
+	"filename": "pool/multiverse/n/nvidia-graphics-drivers-550-server/nvidia-dkms-550-server-open_550.54.15-0ubuntu2_amd64.deb",
+	"size": 14582,
+	"md5": "1843317ffd695570f446b26cb89053d8",
+	"sha1": "e967d9d9011f252deaf13af5f09961981ebbe582",
+	"sha256": "9fd4841ba1a6060fecad3e06b9690f516fe374b7793e9dd09bc7b76020215184",
+	"sha512": "34cec8e9aab445da76f4571a7e0c58b25a7cb70b5d7fe1168fe749e829e3c6e94bdbc5e90bd70176d9fcdb39c1d1b6fc1ba63dcbe1bd784d64ec85d64bc1167f",
+	"descriptionMd5": "dafa8f35853882b3010cba056bb022d0"
+}

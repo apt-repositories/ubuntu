@@ -1,0 +1,48 @@
+[{
+	"raw": {},
+	"required": [
+		"Filename",
+		"Size"
+	],
+	"package": "openmpi-bin",
+	"source": "openmpi",
+	"version": "4.0.3-0ubuntu1",
+	"section": "universe/net",
+	"priority": "optional",
+	"architecture": "amd64",
+	"depends": [
+		"libc6 (>= 2.8)",
+		"libevent-2.1-7 (>= 2.1.8-stable)",
+		"libopenmpi3 (>= 4.0.3)",
+		"openmpi-common (>= 4.0.3-0ubuntu1)",
+		"openssh-client | ssh-client"
+	],
+	"recommends": [
+		"libopenmpi-dev"
+	],
+	"suggests": [
+		"gfortran | fortran-compiler"
+	],
+	"replaces": [
+		"libopenmpi-dev (<< 3.0.1~rc2-2)"
+	],
+	"breaks": [
+		"lam4-dev (<< 7.1.4-4)",
+		"libmpich-dev (<< 3.3~b1-5)",
+		"libopenmpi-dev (<< 3.0.1~rc2-2)",
+		"mpich (<< 3.3~b1-5)"
+	],
+	"conflicts": [
+		"openmpi-bin"
+	],
+	"installedSize": 361,
+	"maintainer": "Ubuntu Developers <ubuntu-devel-discuss@lists.ubuntu.com>",
+	"description": "high performance message passing library -- binaries",
+	"homepage": "https://www.open-mpi.org/",
+	"filename": "pool/universe/o/openmpi/openmpi-bin_4.0.3-0ubuntu1_amd64.deb",
+	"size": 67384,
+	"md5": "8b8a964feb588b65a70df9b677f30b08",
+	"sha1": "d05f68e6fcfdcc0777917717bbfcc34208448601",
+	"sha256": "e7015765293c6c86ca96a2c4ce6eb2b3738a814e0a7e84e6a0f70ff9e24029f0",
+	"descriptionMd5": "1a00d4dd7be41a0a9fd2a922b4135736"
+}]

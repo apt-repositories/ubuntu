@@ -1,0 +1,42 @@
+{
+	"raw": {},
+	"required": [
+		"Filename",
+		"Size"
+	],
+	"package": "linux-image-5.15.0-1033-gkeop",
+	"source": "linux-signed-gkeop-5.15",
+	"version": "5.15.0-1033.39~20.04.1",
+	"section": "kernel",
+	"priority": "optional",
+	"architecture": "amd64",
+	"depends": [
+		"kmod",
+		"linux-base (>= 4.5ubuntu1~16.04.1)",
+		"linux-modules-5.15.0-1033-gkeop"
+	],
+	"recommends": [
+		"grub-pc | grub-efi-amd64 | grub-efi-ia32 | grub | lilo",
+		"initramfs-tools | linux-initramfs-tool"
+	],
+	"suggests": [
+		"fdutils",
+		"linux-gkeop-5.15-doc-5.15.0 | linux-gkeop-5.15-source-5.15.0",
+		"linux-gkeop-5.15-tools",
+		"linux-headers-5.15.0-1033-gkeop"
+	],
+	"conflicts": [
+		"linux-image-unsigned-5.15.0-1033-gkeop"
+	],
+	"installedSize": 11261,
+	"maintainer": "Canonical Kernel Team <kernel-team@lists.ubuntu.com>",
+	"description": "Signed kernel image gkeop",
+	"builtUsing": "linux-gkeop-5.15 (= 5.15.0-1033.39~20.04.1)",
+	"filename": "pool/main/l/linux-signed-gkeop-5.15/linux-image-5.15.0-1033-gkeop_5.15.0-1033.39~20.04.1_amd64.deb",
+	"size": 11335436,
+	"md5": "860127da2bffd65ba74cb342c8fbfb15",
+	"sha1": "4fe3b27793881098a5342215c928659dcddfe8df",
+	"sha256": "8ded12f9315296f42a40c0c2a0beddcef2eaf8609c829a0f37fbb4324884bfc4",
+	"sha512": "75f8513764131c9d1bcaa556f755252ec56b5f36ea809af22981632ba158bd60a331ecee5af26b601d73a81e6d649fccf471a46acb91fad71e7a40f940879b39",
+	"descriptionMd5": "d6de8ee6f7aa44321c96cf74885ca44e"
+}

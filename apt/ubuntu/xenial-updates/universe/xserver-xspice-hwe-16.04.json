@@ -1,0 +1,44 @@
+{
+	"raw": {},
+	"required": [
+		"Filename",
+		"Size"
+	],
+	"package": "xserver-xspice-hwe-16.04",
+	"source": "xserver-xorg-video-qxl-hwe-16.04",
+	"version": "0.1.5-2build1~16.04.1",
+	"section": "universe/x11",
+	"priority": "optional",
+	"architecture": "amd64",
+	"depends": [
+		"libc6 (>= 2.14)",
+		"libspice-server1 (>= 0.12.5)",
+		"libxfont2 (>= 1:2.0.1)",
+		"python:any",
+		"xserver-xorg-hwe-16.04",
+		"xorg-video-abi-23",
+		"xserver-xorg-core-hwe-16.04 (>= 2:1.18.99.901)",
+		"python-argparse"
+	],
+	"replaces": [
+		"xserver-xorg-video-qxl-hwe-16.04 (<< 0.1.4-2~)",
+		"xserver-xspice"
+	],
+	"breaks": [
+		"xserver-xorg-video-qxl-hwe-16.04 (<< 0.1.4-2~)"
+	],
+	"conflicts": [
+		"xserver-xspice"
+	],
+	"installedSize": 248,
+	"maintainer": "Ubuntu Developers <ubuntu-devel-discuss@lists.ubuntu.com>",
+	"description": "Xspice X server",
+	"homepage": "https://www.spice-space.org/",
+	"filename": "pool/universe/x/xserver-xorg-video-qxl-hwe-16.04/xserver-xspice-hwe-16.04_0.1.5-2build1~16.04.1_amd64.deb",
+	"size": 93934,
+	"md5": "a2a1ece5679b6579ff8df2c02f34463c",
+	"sha1": "42a8b993df236a181f8ec7d9da7c8813aaaa1289",
+	"sha256": "dffd68bfbc0d0e628a97a687dc980362b08da67e3681737dcea01ee78f75ceec",
+	"sha512": "40f527ce8668e884c7937b95d1af53994b0ff73294a1f2f7755830a38f0219e5f792e3157c18ffb95c8bce250222efe9868eed87fcef6074647df76405cc5cef",
+	"descriptionMd5": "67b8ba3a04acd461e301e3ba4a166346"
+}

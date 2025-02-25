@@ -1,0 +1,49 @@
+{
+	"raw": {},
+	"required": [
+		"Filename",
+		"Size"
+	],
+	"package": "courier-base",
+	"source": "courier",
+	"version": "1.0.16-3build3",
+	"section": "universe/mail",
+	"priority": "optional",
+	"architecture": "amd64",
+	"depends": [
+		"adduser",
+		"courier-authdaemon",
+		"courier-authlib (>= 0.66.1)",
+		"courier-authlib-userdb",
+		"debconf (>= 0.5) | debconf-2.0",
+		"gnutls-bin",
+		"lsb-base",
+		"sysvinit-utils (>= 2.88dsf-50)",
+		"perl:any",
+		"libc6 (>= 2.34)",
+		"libcourier-unicode4 (>= 2.1.2)",
+		"libgamin0 | libfam0",
+		"libgdbm6 (>= 1.16)",
+		"libgnutls30 (>= 3.7.2)",
+		"libidn12 (>= 1.13)",
+		"libpcre3"
+	],
+	"replaces": [
+		"courier-ssl (<< 0.75.0-1)"
+	],
+	"breaks": [
+		"courier-authdaemon (<< 0.66.4-4~)",
+		"courier-ssl (<< 0.75.0-1)"
+	],
+	"installedSize": 718,
+	"maintainer": "Ubuntu Developers <ubuntu-devel-discuss@lists.ubuntu.com>",
+	"description": "Courier mail server - base system",
+	"homepage": "http://www.courier-mta.org/",
+	"filename": "pool/universe/c/courier/courier-base_1.0.16-3build3_amd64.deb",
+	"size": 213232,
+	"md5": "2f93a07c4cce4d6bdb2bb019962986bc",
+	"sha1": "cce168e5f7200b8489085b3429cf1c1aee05e337",
+	"sha256": "3bf016de4aeb440ab079534836990705f1488de7747a23c4ed5cd0911e21e691",
+	"sha512": "05dca8cd408e3b7e4234c6980e53113018da4c458c123f467e15fbb9da93db6b98a1682d1fd3842b7f639a0989794ef700984c0736c9968c5eef29fb00faffae",
+	"descriptionMd5": "555818a698d6dfec6122cd45f5263ef2"
+}

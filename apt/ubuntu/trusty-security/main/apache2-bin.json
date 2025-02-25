@@ -1,0 +1,60 @@
+{
+	"raw": {},
+	"required": [
+		"Filename",
+		"Size"
+	],
+	"package": "apache2-bin",
+	"source": "apache2",
+	"version": "2.4.7-1ubuntu4.22",
+	"section": "httpd",
+	"priority": "optional",
+	"architecture": "amd64",
+	"depends": [
+		"libapr1 (>= 1.5.0)",
+		"libaprutil1 (>= 1.5.0)",
+		"libaprutil1-dbd-sqlite3 | libaprutil1-dbd-mysql | libaprutil1-dbd-odbc | libaprutil1-dbd-pgsql | libaprutil1-dbd-freetds",
+		"libaprutil1-ldap",
+		"libc6 (>= 2.14)",
+		"libldap-2.4-2 (>= 2.4.7)",
+		"libpcre3",
+		"libssl1.0.0 (>= 1.0.1)",
+		"libxml2 (>= 2.7.4)",
+		"zlib1g (>= 1:1.1.4)",
+		"perl"
+	],
+	"suggests": [
+		"www-browser",
+		"apache2-doc",
+		"apache2-suexec-pristine | apache2-suexec-custom"
+	],
+	"replaces": [
+		"apache2-mpm-event (<< 2.3~)",
+		"apache2-mpm-itk (<< 2.3~)",
+		"apache2-mpm-prefork (<< 2.3~)",
+		"apache2-mpm-worker (<< 2.3~)",
+		"apache2.2-bin (<< 2.3~)",
+		"apache2.2-common",
+		"libapache2-mod-macro (<< 1:2.4.6-1~)",
+		"libapache2-mod-proxy-html (<< 1:2.4.4-2~)"
+	],
+	"breaks": [
+		"libapache2-mod-macro (<< 1:2.4.6-1~)",
+		"libapache2-mod-proxy-html (<< 1:2.4.4-2~)"
+	],
+	"conflicts": [
+		"apache2.2-bin (<< 2.3~)",
+		"apache2.2-common"
+	],
+	"installedSize": 3324,
+	"maintainer": "Ubuntu Developers <ubuntu-devel-discuss@lists.ubuntu.com>",
+	"description": "Apache HTTP Server (binary files and modules)",
+	"homepage": "http://httpd.apache.org/",
+	"filename": "pool/main/a/apache2/apache2-bin_2.4.7-1ubuntu4.22_amd64.deb",
+	"size": 844734,
+	"md5": "c9e7ff548dd8efb41289a4ca0b042967",
+	"sha1": "a9211f82a52fdff70660ca141e2e61657f3b8e08",
+	"sha256": "f473393599b352dae9e6493a0eb38c16b876bc74aeb4f0f15652f53879e7e7d9",
+	"sha512": "10a8c350940f40fdd19b369657af47cdd4f83183b1cefede2dd945aa3c0c49395111b8b3a633b117a74d1302f7c0c85f17170a39979891a5926b354d81906f23",
+	"descriptionMd5": "768126d098ab290dd8fd72553414fb1c"
+}

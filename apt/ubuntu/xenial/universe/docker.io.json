@@ -1,0 +1,54 @@
+{
+	"raw": {},
+	"required": [
+		"Filename",
+		"Size"
+	],
+	"package": "docker.io",
+	"version": "1.10.3-0ubuntu6",
+	"section": "universe/admin",
+	"priority": "optional",
+	"architecture": "amd64",
+	"depends": [
+		"adduser",
+		"iptables",
+		"init-system-helpers (>= 1.18~)",
+		"lsb-base (>= 4.1+Debian11ubuntu7)",
+		"libapparmor1 (>= 2.6~devel)",
+		"libc6 (>= 2.14)",
+		"libdevmapper1.02.1 (>= 2:1.02.97)"
+	],
+	"recommends": [
+		"ca-certificates",
+		"cgroupfs-mount | cgroup-lite",
+		"git",
+		"ubuntu-fan",
+		"xz-utils",
+		"apparmor"
+	],
+	"suggests": [
+		"aufs-tools",
+		"btrfs-tools",
+		"debootstrap",
+		"lxc",
+		"rinse",
+		"zfs-fuse | zfsutils"
+	],
+	"replaces": [
+		"docker (<< 1.5~)"
+	],
+	"breaks": [
+		"docker (<< 1.5~)"
+	],
+	"installedSize": 44042,
+	"maintainer": "Ubuntu Developers <ubuntu-devel-discuss@lists.ubuntu.com>",
+	"description": "Linux container runtime",
+	"homepage": "https://dockerproject.org",
+	"builtUsing": "glibc (= 2.23-0ubuntu3), golang-1.6 (= 1.6.1-0ubuntu1)",
+	"filename": "pool/universe/d/docker.io/docker.io_1.10.3-0ubuntu6_amd64.deb",
+	"size": 9222246,
+	"md5": "b9aaa87b1b87078db05e4f4dfeafb293",
+	"sha1": "a8a3741d545c6e3ece99a933406931615fec3304",
+	"sha256": "fa77f4f245679b39f0e94eeea240b6ac79680b8cea9ed36aa1391e4946f48094",
+	"descriptionMd5": "05dc9eba68f3bf418e6a0cf29d555878"
+}

@@ -1,0 +1,54 @@
+{
+	"raw": {},
+	"required": [
+		"Filename",
+		"Size"
+	],
+	"package": "schroot",
+	"version": "1.6.10-12ubuntu3",
+	"section": "admin",
+	"priority": "optional",
+	"architecture": "amd64",
+	"depends": [
+		"lsb-base",
+		"libboost-filesystem1.74.0 (>= 1.74.0)",
+		"libboost-iostreams1.74.0 (>= 1.74.0)",
+		"libboost-program-options1.74.0 (>= 1.74.0)",
+		"libc6 (>= 2.34)",
+		"libgcc-s1 (>= 3.3.1)",
+		"libpam0g (>= 0.99.7.1)",
+		"libstdc++6 (>= 11)",
+		"libuuid1 (>= 2.16)",
+		"schroot-common (= 1.6.10-12ubuntu3)"
+	],
+	"suggests": [
+		"debootstrap",
+		"lvm2",
+		"btrfs-progs",
+		"zfsutils-linux",
+		"aufs-tools | unionfs-fuse",
+		"qemu-user-static"
+	],
+	"replaces": [
+		"buildd (<< 0.62.3-1)",
+		"sbuild (<< 0.62.3-1)"
+	],
+	"enhances": [
+		"sbuild"
+	],
+	"breaks": [
+		"binfmt-support (<< 2.0.1)",
+		"sbuild (<< 0.62.6)"
+	],
+	"installedSize": 2112,
+	"maintainer": "Ubuntu Developers <ubuntu-devel-discuss@lists.ubuntu.com>",
+	"description": "Execute commands in a chroot environment",
+	"homepage": "https://gitlab.com/codelibre/schroot",
+	"filename": "pool/main/s/schroot/schroot_1.6.10-12ubuntu3_amd64.deb",
+	"size": 585554,
+	"md5": "100dd8e41e0a7ff9d235147923ce9862",
+	"sha1": "ddb5921b0f5b1a56457419839ec6f7f750ef91ca",
+	"sha256": "fc3c81d649af734f110e35fff99dba52bf1e846db9a46251879b2a9e3d409f73",
+	"sha512": "92e882ab1fb67c5d2f4f2ff94373fd56daa753513840a26fa588cee383122ccbec409824863755f7be46f26adc015aeaa2c1a369e53037c6d1d1635f8ec5449d",
+	"descriptionMd5": "05ddeddba4df3515093084851a978b95"
+}

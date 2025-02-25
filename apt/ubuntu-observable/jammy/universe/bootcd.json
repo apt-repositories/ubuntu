@@ -1,0 +1,56 @@
+[{
+	"raw": {},
+	"required": [
+		"Filename",
+		"Size"
+	],
+	"package": "bootcd",
+	"version": "6.5",
+	"section": "universe/utils",
+	"priority": "extra",
+	"architecture": "all",
+	"depends": [
+		"busybox | busybox-static | busybox-cvs | busybox-cvs-static",
+		"cpio",
+		"dosfstools",
+		"e2fsprogs",
+		"fdisk | util-linux (<< 2.29.2-3~)",
+		"file",
+		"genisoimage",
+		"initramfs-tools",
+		"grub-efi-amd64-bin",
+		"isolinux",
+		"lsb-base (>= 3.0-6)",
+		"rsync",
+		"shellia (>= 5.6.5)",
+		"syslinux",
+		"syslinux-common",
+		"xorriso",
+		"uuid-runtime"
+	],
+	"recommends": [
+		"wodim"
+	],
+	"suggests": [
+		"ssh",
+		"discover | discover1",
+		"elilo",
+		"aufs-tools"
+	],
+	"conflicts": [
+		"bootcd-backup",
+		"bootcd-i386",
+		"bootcd-ia64",
+		"bootcd-mkinitramfs"
+	],
+	"installedSize": 449,
+	"maintainer": "Ubuntu Developers <ubuntu-devel-discuss@lists.ubuntu.com>",
+	"description": "bootcd tools can copy a running or mounted Debian system.",
+	"filename": "pool/universe/b/bootcd/bootcd_6.5_all.deb",
+	"size": 86258,
+	"md5": "dd39f4cb21993a5f60026fe605896dd7",
+	"sha1": "a9021584f49cc22d4dc7e0fb64567e4b11d05e5f",
+	"sha256": "82396eb5eb20082a317464e663cd44b1b541f9b74b1ae57ae88d06be1864a960",
+	"sha512": "95c1912fb340a5c198d60c4cfda62f922d859997f0441f41bef59c514bc293f0421c810d5e4dc178da2d701e60302cdc360a0b3206380f105b403fc952d2f313",
+	"descriptionMd5": "c11b117611c2ea47e742119e6f9df8d2"
+}]

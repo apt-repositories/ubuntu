@@ -1,0 +1,41 @@
+{
+	"raw": {},
+	"required": [
+		"Filename",
+		"Size"
+	],
+	"package": "libapache2-mod-webauthldap",
+	"source": "webauth",
+	"version": "4.7.0-3build1",
+	"section": "universe/httpd",
+	"priority": "optional",
+	"architecture": "amd64",
+	"depends": [
+		"libc6 (>= 2.14)",
+		"libkrb5-3 (>= 1.6.dfsg.2)",
+		"libldap-2.4-2 (>= 2.4.7)",
+		"apache2-api-20120211",
+		"apache2-bin (>= 2.4.16)",
+		"apache2 (>= 2.4.4)",
+		"libapache2-mod-webauth",
+		"libsasl2-modules-gssapi-mit | libsasl2-modules-gssapi-heimdal"
+	],
+	"replaces": [
+		"libapache2-mod-webauth (<< 4.5.3-3~)",
+		"libapache2-webauth (<< 4.2.0)"
+	],
+	"breaks": [
+		"libapache2-mod-webauth (<< 4.5.3-3~)",
+		"libapache2-webauth (<< 4.2.0)"
+	],
+	"installedSize": 191,
+	"maintainer": "Ubuntu Developers <ubuntu-devel-discuss@lists.ubuntu.com>",
+	"description": "Apache module for WebAuth LDAP lookup and authorization",
+	"homepage": "http://webauth.stanford.edu/",
+	"filename": "pool/universe/w/webauth/libapache2-mod-webauthldap_4.7.0-3build1_amd64.deb",
+	"size": 32294,
+	"md5": "c0b1dc61f7fb99b0e1f016da1304e69b",
+	"sha1": "de688b63f576dc9b7509d3ae4dea63872cc17311",
+	"sha256": "bd01742783c153eb0356c18418cb899c1b0e7b8659441c6eea84c3a822544ebe",
+	"descriptionMd5": "a1a555c3766f3f02f663af7dd5177177"
+}

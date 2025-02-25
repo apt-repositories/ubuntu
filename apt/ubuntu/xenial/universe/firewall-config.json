@@ -1,0 +1,42 @@
+{
+	"raw": {},
+	"required": [
+		"Filename",
+		"Size"
+	],
+	"package": "firewall-config",
+	"source": "firewalld",
+	"version": "0.4.0-1",
+	"section": "universe/net",
+	"priority": "optional",
+	"architecture": "all",
+	"depends": [
+		"firewalld (= 0.4.0-1)",
+		"gir1.2-glib-2.0",
+		"gir1.2-gtk-3.0",
+		"gir1.2-networkmanager-1.0",
+		"gir1.2-pango-1.0",
+		"python3-dbus",
+		"python3-gi",
+		"dconf-gsettings-backend | gsettings-backend",
+		"python3:any (>= 3.2~)"
+	],
+	"replaces": [
+		"firewall-applet (<< 0.3.14)",
+		"firewalld (<< 0.3.14.2-1~)"
+	],
+	"breaks": [
+		"firewall-applet (<< 0.3.14)",
+		"firewalld (<< 0.3.14.2-1~)"
+	],
+	"installedSize": 951,
+	"maintainer": "Ubuntu Developers <ubuntu-devel-discuss@lists.ubuntu.com>",
+	"description": "graphical configuration tool to change the firewall settings",
+	"homepage": "https://fedorahosted.org/firewalld/",
+	"filename": "pool/universe/f/firewalld/firewall-config_0.4.0-1_all.deb",
+	"size": 67036,
+	"md5": "8f6ef3517b8cd23966663e606644f706",
+	"sha1": "d4603b2caa8129524db1f613e9a1eac56511eab4",
+	"sha256": "a9754a6277c30064a799c27b8892ab16b78d5c8827331c6cd1208681106d36fd",
+	"descriptionMd5": "fdfc2fe07040bda2da06003e744fea18"
+}

@@ -1,0 +1,62 @@
+{
+	"raw": {},
+	"required": [
+		"Filename",
+		"Size"
+	],
+	"package": "lighttpd",
+	"version": "1.4.63-1ubuntu3",
+	"section": "universe/web",
+	"priority": "optional",
+	"architecture": "amd64",
+	"depends": [
+		"libc6 (>= 2.34)",
+		"libcrypt1 (>= 1:4.1.0)",
+		"libnettle8",
+		"libpcre2-8-0 (>= 10.22)",
+		"libxxhash0 (>= 0.6.5)",
+		"media-types | mime-support",
+		"systemd-sysv | lsb-base"
+	],
+	"preDepends": [
+		"init-system-helpers (>= 1.54~)"
+	],
+	"recommends": [
+		"spawn-fcgi",
+		"perl:any",
+		"lighttpd-mod-deflate",
+		"lighttpd-mod-openssl"
+	],
+	"suggests": [
+		"openssl",
+		"rrdtool",
+		"php-cgi",
+		"php-fpm (>= 2:7.4)",
+		"apache2-utils",
+		"lighttpd-doc",
+		"lighttpd-mod-authn-gssapi",
+		"lighttpd-mod-authn-pam",
+		"lighttpd-mod-authn-sasl",
+		"lighttpd-mod-geoip",
+		"lighttpd-mod-maxminddb",
+		"lighttpd-mod-trigger-b4-dl",
+		"lighttpd-mod-vhostdb-pgsql",
+		"lighttpd-mod-webdav",
+		"lighttpd-modules-dbi",
+		"lighttpd-modules-ldap",
+		"lighttpd-modules-lua",
+		"lighttpd-modules-mysql",
+		"ufw"
+	],
+	"installedSize": 1266,
+	"maintainer": "Ubuntu Developers <ubuntu-devel-discuss@lists.ubuntu.com>",
+	"description": "fast webserver with minimal memory footprint",
+	"homepage": "https://www.lighttpd.net/",
+	"filename": "pool/universe/l/lighttpd/lighttpd_1.4.63-1ubuntu3_amd64.deb",
+	"size": 389306,
+	"md5": "6adad3c50e675a30693b148a889e4695",
+	"sha1": "20d507c890e957ad6b62d7529d4c66bcd6d6664a",
+	"sha256": "8404c70a334c0f3e735767b9749189a288b8fbd628b1bf33c49fa9bc30c2b07a",
+	"sha512": "d9005944f927d7645504a348cf82f35aaeae759a0d12076f380b473380938e90eb6a725de6516f3a7c29c689f8b8f0c9d5468a1828e8e8ad770a5b36cce9c3e3",
+	"descriptionMd5": "3cbd5b2dae1802558158d8c2aae494ab"
+}

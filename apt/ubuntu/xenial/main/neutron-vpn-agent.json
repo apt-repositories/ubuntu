@@ -1,0 +1,46 @@
+{
+	"raw": {},
+	"required": [
+		"Filename",
+		"Size"
+	],
+	"package": "neutron-vpn-agent",
+	"source": "neutron-vpnaas",
+	"version": "2:8.0.0-0ubuntu2",
+	"section": "net",
+	"priority": "optional",
+	"architecture": "all",
+	"depends": [
+		"conntrack",
+		"iputils-arping",
+		"keepalived",
+		"neutron-common",
+		"neutron-metadata-agent",
+		"python-neutron-fwaas",
+		"python-neutron-vpnaas (= 2:8.0.0-0ubuntu2)",
+		"radvd",
+		"strongswan (>= 5.1) | openswan",
+		"init-system-helpers (>= 1.18~)",
+		"lsb-base (>= 4.1+Debian11ubuntu7)",
+		"python:any"
+	],
+	"replaces": [
+		"neutron-common (<< 1:2015.1~b1-0ubuntu4~)"
+	],
+	"breaks": [
+		"neutron-common (<< 1:2015.1~b1-0ubuntu4~)"
+	],
+	"conflicts": [
+		"neutron-l3-agent"
+	],
+	"installedSize": 37,
+	"maintainer": "Ubuntu Developers <ubuntu-devel-discuss@lists.ubuntu.com>",
+	"description": "Neutron is a virtual network service for Openstack - VPN agent",
+	"homepage": "http://github.com/openstack/neutron-vpnaas",
+	"filename": "pool/main/n/neutron-vpnaas/neutron-vpn-agent_8.0.0-0ubuntu2_all.deb",
+	"size": 6330,
+	"md5": "b04228d4bf8bcf824bfb8cc4a39efefb",
+	"sha1": "75e26677466ae4b75c725ce2e7115bdc7f9b7754",
+	"sha256": "2ac7b6ee58e8d0e87d07c660c0fa015b936a133f0a90067ccf43f01a90aec055",
+	"descriptionMd5": "b2683ce6d31282bb243d19254e058605"
+}

@@ -1,0 +1,45 @@
+{
+	"raw": {},
+	"required": [
+		"Filename",
+		"Size"
+	],
+	"package": "libc6",
+	"source": "eglibc",
+	"version": "2.19-0ubuntu6.15",
+	"section": "libs",
+	"priority": "required",
+	"architecture": "amd64",
+	"depends": [
+		"libgcc1"
+	],
+	"suggests": [
+		"glibc-doc",
+		"debconf | debconf-2.0",
+		"locales"
+	],
+	"replaces": [
+		"libc6-amd64"
+	],
+	"breaks": [
+		"hurd (<< 1:0.5.git20140203-1)",
+		"lsb-core (<= 3.2-27)",
+		"nscd (<< 2.19)"
+	],
+	"conflicts": [
+		"prelink (<= 0.0.20090311-1)",
+		"tzdata (<< 2007k-1)",
+		"tzdata-etch"
+	],
+	"installedSize": 10508,
+	"maintainer": "Ubuntu Developers <ubuntu-devel-discuss@lists.ubuntu.com>",
+	"description": "Embedded GNU C Library: Shared libraries",
+	"homepage": "http://www.eglibc.org",
+	"filename": "pool/main/e/eglibc/libc6_2.19-0ubuntu6.15_amd64.deb",
+	"size": 4726736,
+	"md5": "1f455f94c2d20ecc6a2274e948a19d3c",
+	"sha1": "f0844c2d92d5af044c017ef05952acdc0b9f704d",
+	"sha256": "b10b75ad73cadb9930b65f7744c59290f68d01d6819656895e326df481904755",
+	"sha512": "9fe812d8823ed9473fb59cba81e1a48ea846b098b0207702dc044d2bb10713d6dddc39a3515bc3934dc027af980245cfb4f918a3830a99b0bd2fa6496dc5c957",
+	"descriptionMd5": "5089b4da6684d7432ab618fb5b79cec5"
+}

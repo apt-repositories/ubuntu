@@ -1,0 +1,43 @@
+{
+	"raw": {},
+	"required": [
+		"Filename",
+		"Size"
+	],
+	"package": "dnsutils",
+	"source": "bind9",
+	"version": "1:9.11.3+dfsg-1ubuntu1",
+	"section": "net",
+	"priority": "standard",
+	"architecture": "amd64",
+	"depends": [
+		"bind9-host | host",
+		"libbind9-160 (= 1:9.11.3+dfsg-1ubuntu1)",
+		"libdns1100 (= 1:9.11.3+dfsg-1ubuntu1)",
+		"libisc169 (= 1:9.11.3+dfsg-1ubuntu1)",
+		"libisccfg160 (= 1:9.11.3+dfsg-1ubuntu1)",
+		"liblwres160 (= 1:9.11.3+dfsg-1ubuntu1)",
+		"libc6 (>= 2.4)",
+		"libirs160 (>= 1:9.10.6+dfsg)",
+		"libkrb5-3 (>= 1.6.dfsg.2)"
+	],
+	"suggests": [
+		"rblcheck"
+	],
+	"replaces": [
+		"bind9 (<< 1:9.11.2+dfsg-6)"
+	],
+	"breaks": [
+		"bind9 (<< 1:9.11.2+dfsg-6~)"
+	],
+	"installedSize": 501,
+	"maintainer": "Ubuntu Developers <ubuntu-devel-discuss@lists.ubuntu.com>",
+	"description": "Clients provided with BIND",
+	"homepage": "https://www.isc.org/downloads/bind/",
+	"filename": "pool/main/b/bind9/dnsutils_9.11.3+dfsg-1ubuntu1_amd64.deb",
+	"size": 145288,
+	"md5": "b40f4256e6df9e2a5d762c41af6421a7",
+	"sha1": "c3132b54db1e13cc3201b3d11e0dab4faea0faae",
+	"sha256": "031f0fb48c871f2b0af06e167ac7e2a0c2af18f1d3048f241f165d5a58970bbd",
+	"descriptionMd5": "11090f3795381e992a73710a1cc4118b"
+}

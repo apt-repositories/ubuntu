@@ -1,0 +1,63 @@
+{
+	"raw": {},
+	"required": [
+		"Filename",
+		"Size"
+	],
+	"package": "netdata-core",
+	"source": "netdata",
+	"version": "1.43.2-1build2",
+	"section": "universe/net",
+	"priority": "optional",
+	"architecture": "amd64",
+	"depends": [
+		"libcap2-bin",
+		"lsb-base",
+		"passwd",
+		"libc6 (>= 2.38)",
+		"libcap2 (>= 1:2.10)",
+		"libgcc-s1 (>= 3.0)",
+		"libjson-c5 (>= 0.15)",
+		"liblz4-1 (>= 1.8.2)",
+		"libmnl0 (>= 1.0.3-4~)",
+		"libnetfilter-acct1 (>= 1.0.3)",
+		"libssl3t64 (>= 3.0.0)",
+		"libstdc++6 (>= 11)",
+		"libuuid1 (>= 2.16)",
+		"libuv1t64 (>= 1.4.2)",
+		"zlib1g (>= 1:1.1.4)"
+	],
+	"recommends": [
+		"curl"
+	],
+	"suggests": [
+		"apcupsd",
+		"iproute2",
+		"iw",
+		"lm-sensors",
+		"nc"
+	],
+	"replaces": [
+		"netdata-core-no-sse",
+		"netdata-plugins-bash (<< 1.19.0-2~)",
+		"netdata-plugins-python (<< 1.17.0-1~)"
+	],
+	"breaks": [
+		"netdata-plugins-bash (<< 1.19.0-2~)",
+		"netdata-plugins-python (<< 1.17.0-1~)"
+	],
+	"conflicts": [
+		"netdata-core-no-sse"
+	],
+	"installedSize": 5107,
+	"maintainer": "Ubuntu Developers <ubuntu-devel-discuss@lists.ubuntu.com>",
+	"description": "real-time performance monitoring (core)",
+	"homepage": "https://github.com/netdata/netdata",
+	"filename": "pool/universe/n/netdata/netdata-core_1.43.2-1build2_amd64.deb",
+	"size": 1844010,
+	"md5": "b1a737304848425ed2da4b2782d86054",
+	"sha1": "ded983a18ec85819749e01b4018ea0bfc5a56086",
+	"sha256": "32949920ef6e550619cc1b626d0cf08eb74dd2abbce9a8f47168186032a528da",
+	"sha512": "3bf5cb204cc0367ff1b1223532544a8b5920e44b1169ce8cec1e7781d297b706edd14796aa747adf46f71f0ade234e7fb639e8daf786a6be7af7397539440f30",
+	"descriptionMd5": "87b39f1a30af62cc8cd399fb0a356478"
+}

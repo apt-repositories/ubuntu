@@ -1,0 +1,47 @@
+{
+	"raw": {},
+	"required": [
+		"Filename",
+		"Size"
+	],
+	"package": "globus-gram-job-manager-fork",
+	"version": "3.1-1",
+	"section": "universe/net",
+	"priority": "optional",
+	"architecture": "amd64",
+	"depends": [
+		"libc6 (>= 2.14)",
+		"libglobus-common0 (>= 17)",
+		"libglobus-gram-protocol3 (>= 11)",
+		"libglobus-xio0 (>= 5)",
+		"perl",
+		"globus-gram-job-manager-scripts (>= 4)",
+		"globus-gass-cache-program (>= 5)",
+		"globus-gatekeeper (>= 9)"
+	],
+	"recommends": [
+		"globus-gram-job-manager-fork-setup-poll | globus-gram-job-manager-fork-setup-seg"
+	],
+	"replaces": [
+		"globus-gram-job-manager-fork-setup-seg (<< 1.5-3~)",
+		"globus-gram-job-manager-setup-fork (<< 4.3)",
+		"globus-gram-job-manager-setup-fork-doc (<< 4.3)"
+	],
+	"breaks": [
+		"globus-gram-job-manager-fork-setup-seg (<< 1.5-3~)"
+	],
+	"conflicts": [
+		"globus-gram-job-manager-setup-fork (<< 4.3)",
+		"globus-gram-job-manager-setup-fork-doc (<< 4.3)"
+	],
+	"installedSize": 75,
+	"maintainer": "Ubuntu Developers <ubuntu-devel-discuss@lists.ubuntu.com>",
+	"description": "Grid Community Toolkit - Fork Job Manager Support",
+	"homepage": "https://github.com/gridcf/gct/",
+	"filename": "pool/universe/g/globus-gram-job-manager-fork/globus-gram-job-manager-fork_3.1-1_amd64.deb",
+	"size": 18260,
+	"md5": "84d3d2fbba93099881c6286a9dda4a8c",
+	"sha1": "1c85738d308070e5b9fd6106740580f826eda1fb",
+	"sha256": "1a633f3862b53a6673f78130d16a21014426c9c843e87447bf920b6f9d56011d",
+	"descriptionMd5": "9c0ea12dd714b7d42e72dfa51bc3b2c2"
+}

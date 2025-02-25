@@ -1,0 +1,48 @@
+{
+	"raw": {},
+	"required": [
+		"Filename",
+		"Size"
+	],
+	"package": "netplan.io",
+	"version": "0.99-0ubuntu3~18.04.5",
+	"section": "net",
+	"priority": "important",
+	"architecture": "amd64",
+	"depends": [
+		"libc6 (>= 2.27)",
+		"libglib2.0-0 (>= 2.33.14)",
+		"libnetplan0 (>= 0.99-0ubuntu3~18.04.5)",
+		"libsystemd0 (>= 221)",
+		"libuuid1 (>= 2.16)",
+		"iproute2",
+		"python3",
+		"python3-yaml",
+		"python3-netifaces",
+		"systemd (>= 235-3ubuntu3)"
+	],
+	"suggests": [
+		"network-manager | wpasupplicant"
+	],
+	"replaces": [
+		"nplan (<< 0.34~)"
+	],
+	"breaks": [
+		"network-manager (<< 1.2.2-0ubuntu4~)",
+		"nplan (<< 0.34~)"
+	],
+	"conflicts": [
+		"netplan"
+	],
+	"installedSize": 288,
+	"maintainer": "Ubuntu Developers <ubuntu-devel-discuss@lists.ubuntu.com>",
+	"description": "YAML network configuration abstraction for various backends",
+	"homepage": "https://netplan.io/",
+	"filename": "pool/main/n/netplan.io/netplan.io_0.99-0ubuntu3~18.04.5_amd64.deb",
+	"size": 71064,
+	"md5": "e602ab8e830298c605dbc266f217d0d2",
+	"sha1": "f0dfcb5ecb5352d815bc5f94153a1f2212c5e0a0",
+	"sha256": "349dc2a25939c3ea6459ec883118a7998f06c39ddcaadec329b02f32cfaa6850",
+	"sha512": "23df45b5838f68d9b420b88983e834e5a892ea57828277b13f8183df0b94db948e3806f49e428285dcd6b07dc8ad49e8c61f995c33f1b1c169376c1ef1f3bb76",
+	"descriptionMd5": "171990596b9adbbde53590d783767a6d"
+}

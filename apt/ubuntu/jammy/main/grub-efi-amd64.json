@@ -1,0 +1,50 @@
+{
+	"raw": {},
+	"required": [
+		"Filename",
+		"Size"
+	],
+	"package": "grub-efi-amd64",
+	"source": "grub2-unsigned",
+	"version": "2.06-2ubuntu7",
+	"section": "admin",
+	"priority": "extra",
+	"architecture": "amd64",
+	"depends": [
+		"debconf (>= 0.5) | debconf-2.0",
+		"grub-efi-amd64-bin (= 2.06-2ubuntu7)",
+		"grub2-common (>= 2.02~beta2-9)",
+		"ucf"
+	],
+	"replaces": [
+		"grub",
+		"grub-common (<= 1.97~beta2-1)",
+		"grub-coreboot",
+		"grub-efi-ia32",
+		"grub-ieee1275",
+		"grub-legacy",
+		"grub-pc",
+		"grub2 (<< 2.06-2ubuntu7)"
+	],
+	"conflicts": [
+		"elilo",
+		"grub",
+		"grub-coreboot",
+		"grub-efi-ia32",
+		"grub-ieee1275",
+		"grub-legacy",
+		"grub-pc",
+		"grub-xen"
+	],
+	"installedSize": 187,
+	"maintainer": "Ubuntu Developers <ubuntu-devel-discuss@lists.ubuntu.com>",
+	"description": "GRand Unified Bootloader, version 2 (EFI-AMD64 version)",
+	"homepage": "https://www.gnu.org/software/grub/",
+	"filename": "pool/main/g/grub2-unsigned/grub-efi-amd64_2.06-2ubuntu7_amd64.deb",
+	"size": 50062,
+	"md5": "279e8baa545efd0d7023a8e5c780d07d",
+	"sha1": "71b238991fb6b38a730873c30b35f00ff254c109",
+	"sha256": "9054a943ee654f256559ea431e87f1288d40a8c7aec74478f79f20d013616998",
+	"sha512": "c1ec57b677942db29998c7cd3b39f0ac655c197ae581a9a57f227a8f2d1947ce8ef867be99d17f91a63c28ffd06e1c66b888dac6ce6a78cb973c016e81ba7da6",
+	"descriptionMd5": "1718e7ac8c2b19e7fc9fd6edaaa9c56e"
+}

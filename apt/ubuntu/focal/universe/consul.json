@@ -1,0 +1,30 @@
+{
+	"raw": {},
+	"required": [
+		"Filename",
+		"Size"
+	],
+	"package": "consul",
+	"version": "1.5.2+dfsg2-14",
+	"section": "universe/devel",
+	"priority": "extra",
+	"architecture": "amd64",
+	"depends": [
+		"init-system-helpers (>= 1.51)",
+		"libc6 (>= 2.4)",
+		"adduser",
+		"pipexec",
+		"procps"
+	],
+	"installedSize": 62620,
+	"maintainer": "Ubuntu Developers <ubuntu-devel-discuss@lists.ubuntu.com>",
+	"description": "tool for service discovery, monitoring and configuration",
+	"homepage": "https://github.com/hashicorp/consul",
+	"builtUsing": "golang-1.13 (= 1.13.5-1ubuntu1), golang-github-armon-circbuf (= 0.0~git20150827.0.bbbad09-2), golang-github-armon-go-metrics (= 0.3.0-1), golang-github-armon-go-radix (= 1.0.0-1), golang-github-aws-aws-sdk-go (= 1.21.6+dfsg-2), golang-github-beorn7-perks (= 0.0~git20160804.0.4c0e845-1), golang-github-bgentry-speakeasy (= 0.1.0-1), golang-github-boltdb-bolt (= 1.3.1-6), golang-github-circonus-labs-circonus-gometrics (= 2.3.1-2), golang-github-circonus-labs-circonusllhist (= 0.0~git20160526.0.d724266-2), golang-github-datadog-datadog-go (= 2.1.0-2), golang-github-davecgh-go-spew (= 1.1.1-2), golang-github-denverdino-aliyungo (= 0.0~git20180921.13fa8aa-2), golang-github-docker-go-connections (= 0.4.0-1), golang-github-elazarl-go-bindata-assetfs (= 1.0.0-1), golang-github-fatih-color (= 1.7.0-1), golang-github-ghodss-yaml (= 1.0.0-1), golang-github-gogo-googleapis (= 1.2.0-1), golang-github-golang-snappy (= 0.0+git20160529.d9eb7a3-3), golang-github-google-btree (= 1.0.0-1), golang-github-google-gofuzz (= 0.0~git20170612.24818f7-1), golang-github-googleapis-gnostic (= 0.2.0-1), golang-github-gophercloud-gophercloud (= 0.6.0-1), golang-github-gregjones-httpcache (= 0.0~git20180305.9cad4c3-1), golang-github-hashicorp-errwrap (= 1.0.0-1), golang-github-hashicorp-go-checkpoint (= 0.0~git20171009.1545e56-2), golang-github-hashicorp-go-cleanhttp (= 0.5.1-1), golang-github-hashicorp-go-discover (= 0.0+git20190905.34a6505-2), golang-github-hashicorp-go-hclog (= 0.10.1-1), golang-github-hashicorp-go-immutable-radix (= 1.1.0-1), golang-github-hashicorp-go-memdb (= 0.0~git20180224.1289e7ff-1), golang-github-hashicorp-go-msgpack (= 0.5.5-1), golang-github-hashicorp-go-multierror (= 1.0.0-1), golang-github-hashicorp-go-plugin (= 1.0.1-1), golang-github-hashicorp-go-retryablehttp (= 0.6.4-1), golang-github-hashicorp-go-rootcerts (= 0.0~git20160503.0.6bb64b3-1), golang-github-hashicorp-go-sockaddr (= 0.0~git20170627.41949a1+ds-2), golang-github-hashicorp-go-syslog (= 0.0~git20150218.0.42a2b57-1), golang-github-hashicorp-go-uuid (= 1.0.1-2), golang-github-hashicorp-go-version (= 1.2.0-1), golang-github-hashicorp-golang-lru (= 0.5.3-1), golang-github-hashicorp-hcl (= 1.0.0-1), golang-github-hashicorp-hil (= 0.0~git20160711.1e86c6b-1), golang-github-hashicorp-logutils (= 0.0~git20150609.0.0dc08b1-1), golang-github-hashicorp-mdns (= 1.0.1-1), golang-github-hashicorp-memberlist (= 0.1.5-2), golang-github-hashicorp-net-rpc-msgpackrpc (= 0.0~git20151116.0.a14192a-1), golang-github-hashicorp-raft (= 1.1.1-5), golang-github-hashicorp-raft-boltdb (= 0.0~git20171010.6e5ba93-3), golang-github-hashicorp-serf (= 0.8.5~ds1-1), golang-github-hashicorp-yamux (= 0.0+git20190923.df201c7-1), golang-github-imdario-mergo (= 0.3.8-1), golang-github-jmespath-go-jmespath (= 0.2.2-3), golang-github-json-iterator-go (= 1.1.4-1), golang-github-mattn-go-colorable (= 0.0.9-3), golang-github-mattn-go-isatty (= 0.0.8-2), golang-github-miekg-dns (= 1.0.4+ds-1ubuntu1), golang-github-mitchellh-cli (= 1.0.0-1), golang-github-mitchellh-copystructure (= 0.0~git20161013.0.5af94ae-2), golang-github-mitchellh-go-testing-interface (= 1.0.0-1), golang-github-mitchellh-hashstructure (= 1.0.0-1), golang-github-mitchellh-mapstructure (= 1.1.2-1), golang-github-mitchellh-reflectwalk (= 0.0~git20170726.63d60e9-4), golang-github-modern-go-concurrent (= 1.0.3-1), golang-github-modern-go-reflect2 (= 1.0.0-1), golang-github-nytimes-gziphandler (= 1.1.1-1), golang-github-oklog-run (= 1.0.0-2), golang-github-packethost-packngo (= 0.2.0-2), golang-github-peterbourgon-diskv (= 3.0.0-1), golang-github-pkg-errors (= 0.8.1-1), golang-github-pmezard-go-difflib (= 1.0.0-2), golang-github-posener-complete (= 1.2.3-1), golang-github-prometheus-client-golang (= 0.9.2-0ubuntu3), golang-github-prometheus-client-model (= 0.0.2+git20171117.99fa1f4-1), golang-github-prometheus-common (= 0.7.0-1), golang-github-ryanuber-columnize (= 2.1.1-1), golang-github-ryanuber-go-glob (= 1.0.0-2), golang-github-shirou-gopsutil (= 2.19.11-1), golang-github-tv42-httpunix (= 0.0~git20150427.b75d861-2), golang-glog (= 0.0~git20160126.23def4e-3), golang-go.crypto (= 1:0.0~git20190701.4def268-2), golang-go.opencensus (= 0.22.0-1), golang-gogoprotobuf (= 1.2.1+git20190611.dadb6258-1), golang-golang-x-net (= 1:0.0+git20191112.2180aed+dfsg-3), golang-golang-x-oauth2 (= 0.0~git20190604.0f29369-2), golang-golang-x-sync (= 0.0~git20190423.1122301-1), golang-golang-x-sys (= 0.0~git20190726.fc99dfb-1ubuntu2), golang-golang-x-text (= 0.3.2-3), golang-golang-x-time (= 0.0~git20161028.0.f51c127-2), golang-google-api (= 0.7.0-2build4), golang-google-cloud (= 0.43.0-1build4), golang-google-genproto (= 0.0~git20190801.fa694d8-2build4), golang-google-grpc (= 1.22.1-1ubuntu1), golang-gopkg-inf.v0 (= 0.9.0-3), golang-gopkg-square-go-jose.v2 (= 2.4.1-1), golang-goprotobuf (= 1.3.2-2), golang-objx (= 0.1.1+git20180825.ef50b0d-1), golang-procfs (= 0.0.3-1), golang-protobuf-extensions (= 1.0.1-1), golang-testify (= 1.4.0+ds-1), golang-text (= 0.1.0-1), golang-yaml.v2 (= 2.2.2-1)",
+	"filename": "pool/universe/c/consul/consul_1.5.2+dfsg2-14_amd64.deb",
+	"size": 13745444,
+	"md5": "f155b2d3fad642ddb20c3fe7c7e75f05",
+	"sha1": "72e0e72c97c202a2e50de90fc76c0358d2d543b1",
+	"sha256": "b83fa6b5739de51e1e09cc3999c3e392a999ef44c1e999f297d8057bb7d32b80",
+	"descriptionMd5": "c0e304cd76acda4eed1b6cbfa0ce44f8"
+}

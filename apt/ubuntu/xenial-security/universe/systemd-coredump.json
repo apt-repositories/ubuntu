@@ -1,0 +1,46 @@
+{
+	"raw": {},
+	"required": [
+		"Filename",
+		"Size"
+	],
+	"package": "systemd-coredump",
+	"source": "systemd",
+	"version": "229-4ubuntu21.27",
+	"section": "universe/admin",
+	"priority": "optional",
+	"architecture": "amd64",
+	"depends": [
+		"libacl1 (>= 2.2.51-8)",
+		"libc6 (>= 2.17)",
+		"libcap2 (>= 1:2.10)",
+		"libdw1 (>= 0.158)",
+		"libelf1 (>= 0.131)",
+		"libgcrypt20 (>= 1.6.1)",
+		"liblzma5 (>= 5.1.1alpha+20120614)",
+		"libselinux1 (>= 1.32)",
+		"adduser",
+		"systemd"
+	],
+	"replaces": [
+		"core-dump-handler",
+		"systemd (<< 229-2)"
+	],
+	"breaks": [
+		"systemd (<< 229-2)"
+	],
+	"conflicts": [
+		"core-dump-handler"
+	],
+	"installedSize": 366,
+	"maintainer": "Ubuntu Developers <ubuntu-devel-discuss@lists.ubuntu.com>",
+	"description": "tools for storing and retrieving coredumps",
+	"homepage": "http://www.freedesktop.org/wiki/Software/systemd",
+	"filename": "pool/universe/s/systemd/systemd-coredump_229-4ubuntu21.27_amd64.deb",
+	"size": 107032,
+	"md5": "213b3a1a7488f3387408ca5ffcb64181",
+	"sha1": "a7f1d5901540e390734f846cc0ed7741c5187312",
+	"sha256": "58ce552dc9b92c0e2c1491eed42e98a5802c2e4594967528ab574e5748c6abaf",
+	"sha512": "a172b757d843577cb9e0b9185b7145d3768ba7c7506321741ca0589137e3d7f7c7f4becc234b98555b5e4107ea6cfc5b282292a1ec8525ae9162f63d8087f694",
+	"descriptionMd5": "149b22bdf2366b7d731957d1b710e54f"
+}

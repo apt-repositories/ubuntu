@@ -1,0 +1,43 @@
+[{
+	"raw": {},
+	"required": [
+		"Filename",
+		"Size"
+	],
+	"package": "linux-image-6.8.0-36-lowlatency",
+	"source": "linux-signed-lowlatency",
+	"version": "6.8.0-36.36.1",
+	"section": "kernel",
+	"priority": "optional",
+	"architecture": "amd64",
+	"depends": [
+		"kmod",
+		"linux-base (>= 4.5ubuntu1~16.04.1)",
+		"linux-modules-6.8.0-36-lowlatency"
+	],
+	"recommends": [
+		"grub-pc | grub-efi-amd64 | grub-efi-ia32 | grub | lilo",
+		"initramfs-tools | linux-initramfs-tool"
+	],
+	"suggests": [
+		"fdutils",
+		"linux-doc | linux-lowlatency-source-6.8.0",
+		"linux-lowlatency-tools",
+		"linux-headers-6.8.0-36-lowlatency",
+		"linux-modules-extra-6.8.0-36-lowlatency"
+	],
+	"conflicts": [
+		"linux-image-unsigned-6.8.0-36-lowlatency"
+	],
+	"installedSize": 14614,
+	"maintainer": "Canonical Kernel Team <kernel-team@lists.ubuntu.com>",
+	"description": "Signed kernel image lowlatency",
+	"builtUsing": "linux-lowlatency (= 6.8.0-36.36.1)",
+	"filename": "pool/main/l/linux-signed-lowlatency/linux-image-6.8.0-36-lowlatency_6.8.0-36.36.1_amd64.deb",
+	"size": 14697712,
+	"md5": "e637a096f2cbf3113d7f89a2df97cd5c",
+	"sha1": "cafd61a124654ed921c874d060f8962fc2a0e1cf",
+	"sha256": "5c981700983afc5aa569e0f284bfbf617523429a792e6a8041c5ac25d290528c",
+	"sha512": "792098cba39da89b6bd22b0eef9db85fcb630bc9503757a43dd811b47e1765b75a1edec356f0d6a30ed5ee10fac61a686e2d2f83be0404f033c17ddfa806d5ae",
+	"descriptionMd5": "de4cdf77422a3e81607ec9185ceee49b"
+}]

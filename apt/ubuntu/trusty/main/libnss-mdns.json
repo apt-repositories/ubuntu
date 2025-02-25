@@ -1,0 +1,39 @@
+{
+	"raw": {},
+	"required": [
+		"Filename",
+		"Size"
+	],
+	"package": "libnss-mdns",
+	"source": "nss-mdns",
+	"version": "0.10-6",
+	"section": "admin",
+	"priority": "optional",
+	"architecture": "amd64",
+	"depends": [
+		"libc6 (>= 2.14)",
+		"base-files (>= 3.1.10)",
+		"avahi-daemon (>= 0.6.16-1)"
+	],
+	"preDepends": [
+		"multiarch-support"
+	],
+	"suggests": [
+		"avahi-autoipd | zeroconf"
+	],
+	"replaces": [
+		"lib32nss-mdns (<< 0.10-6)"
+	],
+	"breaks": [
+		"lib32nss-mdns (<< 0.10-6)"
+	],
+	"installedSize": 142,
+	"maintainer": "Ubuntu Developers <ubuntu-devel-discuss@lists.ubuntu.com>",
+	"description": "NSS module for Multicast DNS name resolution",
+	"filename": "pool/main/n/nss-mdns/libnss-mdns_0.10-6_amd64.deb",
+	"size": 21442,
+	"md5": "ad11f2a2c33d32cdacfc1133461429d8",
+	"sha1": "66686835dae0ecefdfb5db8718c998159e8c65fc",
+	"sha256": "82ca83f714603a2e0653ed5d39d8d2e0b8cb05abccb0f5540fc1c49a77dfda80",
+	"descriptionMd5": "444ce9bf0bb23eb51ed79b00c0d6d796"
+}

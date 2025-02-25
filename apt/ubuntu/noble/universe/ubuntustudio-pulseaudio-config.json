@@ -1,0 +1,39 @@
+{
+	"raw": {},
+	"required": [
+		"Filename",
+		"Size"
+	],
+	"package": "ubuntustudio-pulseaudio-config",
+	"source": "ubuntustudio-default-settings",
+	"version": "24.04.26",
+	"section": "universe/x11",
+	"priority": "optional",
+	"architecture": "all",
+	"depends": [
+		"pulseaudio",
+		"pulseaudio-module-jack",
+		"pulseaudio-module-bluetooth",
+		"studio-controls"
+	],
+	"preDepends": [
+		"dpkg (>= 1.15.7.2~)"
+	],
+	"breaks": [
+		"pipewire-jack",
+		"pipewire-pulse",
+		"ubuntustudio-pipewire-config",
+		"wireplumber"
+	],
+	"installedSize": 35,
+	"maintainer": "Ubuntu Studio Developers <ubuntu-studio-devel@lists.ubuntu.com>",
+	"description": "Replaces PipeWire with PulseAudio on Ubuntu Studio",
+	"homepage": "https://launchpad.net/ubuntustudio-default-settings",
+	"filename": "pool/universe/u/ubuntustudio-default-settings/ubuntustudio-pulseaudio-config_24.04.26_all.deb",
+	"size": 16200,
+	"md5": "b58c4f3d166a23e5f0debe6254a9428e",
+	"sha1": "fa4352e2492e62c09cb6b86a17cf987ca666a669",
+	"sha256": "2c48fc23c850bca7f9ae4ea00f26e4f0716c4de8b4c5d077ecd1db9e645ebaac",
+	"sha512": "bd618129e60ffcba0008a9d8fb1610b61e8445dd98c68bc588c9bbd20912b0c108d164d1adda741f63f3ffd2e9e4c4dfde2042fba5f90c446debd1f479062c55",
+	"descriptionMd5": "c064a829027c3752627d8e15766ca778"
+}

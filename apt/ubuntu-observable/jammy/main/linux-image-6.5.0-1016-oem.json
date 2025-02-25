@@ -1,0 +1,41 @@
+[{
+	"raw": {},
+	"required": [
+		"Filename",
+		"Size"
+	],
+	"package": "linux-image-6.5.0-1016-oem",
+	"source": "linux-signed-oem-6.5",
+	"version": "6.5.0-1016.17",
+	"section": "kernel",
+	"priority": "optional",
+	"architecture": "amd64",
+	"depends": [
+		"kmod",
+		"linux-base (>= 4.5ubuntu1~16.04.1)",
+		"linux-modules-6.5.0-1016-oem"
+	],
+	"recommends": [
+		"grub-pc | grub-efi-amd64 | grub-efi-ia32 | grub | lilo",
+		"initramfs-tools | linux-initramfs-tool"
+	],
+	"suggests": [
+		"fdutils",
+		"linux-oem-6.5-tools",
+		"linux-headers-6.5.0-1016-oem"
+	],
+	"conflicts": [
+		"linux-image-unsigned-6.5.0-1016-oem"
+	],
+	"installedSize": 13922,
+	"maintainer": "Canonical Kernel Team <kernel-team@lists.ubuntu.com>",
+	"description": "Signed kernel image oem",
+	"builtUsing": "linux-oem-6.5 (= 6.5.0-1016.17)",
+	"filename": "pool/main/l/linux-signed-oem-6.5/linux-image-6.5.0-1016-oem_6.5.0-1016.17_amd64.deb",
+	"size": 13996904,
+	"md5": "4dad0835395e3849817cae2402328253",
+	"sha1": "fe340502214b5d21533ac8fa98c195c57a089ae2",
+	"sha256": "f578f0a44fc632b1172117b955bb160c1a746e6d187353d1ba568661fe2dd74c",
+	"sha512": "0899e42c8259468eb1c935c8e5718ba0c17e811db33e1e7012c0ef31c3adaca591410dbbcf948ed3dfbc7827a193553b5a1e8d58b819147e9a8e03fd6f974ea1",
+	"descriptionMd5": "bafd5807c3ddc6cc29e676a6a91f37f3"
+}]

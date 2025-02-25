@@ -1,0 +1,43 @@
+{
+	"raw": {},
+	"required": [
+		"Filename",
+		"Size"
+	],
+	"package": "libgcc-13-dev-sparc64-cross",
+	"source": "gcc-13-cross-ports (16ubuntu3)",
+	"version": "13.2.0-23ubuntu4cross1",
+	"section": "universe/libdevel",
+	"priority": "optional",
+	"architecture": "all",
+	"depends": [
+		"gcc-13-cross-base-ports (= 13.2.0-23ubuntu4cross1)",
+		"libgcc-s1-sparc64-cross (>= 13.2.0-23ubuntu4cross1)",
+		"libgomp1-sparc64-cross (>= 13.2.0-23ubuntu4cross1)",
+		"libitm1-sparc64-cross (>= 13.2.0-23ubuntu4cross1)",
+		"libatomic1-sparc64-cross (>= 13.2.0-23ubuntu4cross1)",
+		"libasan8-sparc64-cross (>= 13.2.0-23ubuntu4cross1)",
+		"libubsan1-sparc64-cross (>= 13.2.0-23ubuntu4cross1)"
+	],
+	"recommends": [
+		"libc6-dev-sparc64-cross (>= 2.13-0ubuntu6)"
+	],
+	"replaces": [
+		"libtsan2-sparc64-cross (<< 12-20211113-2~)"
+	],
+	"breaks": [
+		"libtsan2-sparc64-cross (<< 12-20211113-2~)"
+	],
+	"installedSize": 6219,
+	"maintainer": "Ubuntu Core developers <ubuntu-devel-discuss@lists.ubuntu.com>",
+	"description": "GCC support library (development files)",
+	"homepage": "http://gcc.gnu.org/",
+	"builtUsing": "gcc-13 (= 13.2.0-23ubuntu4)",
+	"filename": "pool/universe/g/gcc-13-cross-ports/libgcc-13-dev-sparc64-cross_13.2.0-23ubuntu4cross1_all.deb",
+	"size": 830532,
+	"md5": "3f3cd932033c76dabbd6bef7136d850e",
+	"sha1": "e28ccdbc3faa46b123cc2c5d9235b138d9077681",
+	"sha256": "41b818783e5d9f19ec1794ddd9b0af02132dbe9f5d96a606ff42bfcf1c36dc33",
+	"sha512": "66746af279132d3516a8153e69ae3b3fd1409899016e62ee8156a77a8fda7b2934e5128b38da7ab3f49a86c0dc07a554618bd522610170bdbe936ec61fe2b77b",
+	"descriptionMd5": "4ab7cb439b47e1d0796fbaf8447229ac"
+}

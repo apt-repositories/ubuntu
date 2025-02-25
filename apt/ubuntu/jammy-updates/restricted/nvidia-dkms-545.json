@@ -1,0 +1,43 @@
+{
+	"raw": {},
+	"required": [
+		"Filename",
+		"Size"
+	],
+	"package": "nvidia-dkms-545",
+	"source": "nvidia-graphics-drivers-545",
+	"version": "545.29.06-0ubuntu0.22.04.2",
+	"section": "restricted/libs",
+	"priority": "optional",
+	"architecture": "amd64",
+	"depends": [
+		"dkms",
+		"nvidia-kernel-source-545 (<= 545.29.06-1)",
+		"nvidia-kernel-source-545 (>= 545.29.06)",
+		"nvidia-kernel-common-545 (<= 545.29.06-1)",
+		"nvidia-kernel-common-545 (>= 545.29.06)",
+		"nvidia-firmware-545-545.29.06"
+	],
+	"replaces": [
+		"nvidia-384 (<< 390.25)",
+		"nvidia-dkms-kernel",
+		"nvidia-kernel-source-545 (<< 390.25-0ubuntu2~)"
+	],
+	"breaks": [
+		"nvidia-kernel-source-545 (<< 390.25-0ubuntu2~)"
+	],
+	"conflicts": [
+		"nvidia-dkms-kernel"
+	],
+	"installedSize": 150,
+	"maintainer": "Ubuntu Core Developers <ubuntu-devel-discuss@lists.ubuntu.com>",
+	"description": "NVIDIA DKMS package",
+	"homepage": "http://www.nvidia.com",
+	"filename": "pool/restricted/n/nvidia-graphics-drivers-545/nvidia-dkms-545_545.29.06-0ubuntu0.22.04.2_amd64.deb",
+	"size": 35262,
+	"md5": "16e27a62fac2049b79ddc2402a790785",
+	"sha1": "564b6f23f46a28295042d97285c5349c98019d71",
+	"sha256": "f4ab42379c75ca8032339582ac903f50d55047110b889e0eb6fdd8948cde7a56",
+	"sha512": "b0d5df26e8232f312b6d619e8b91d1e0319ea2a51186cfa4153e59a30a87c44adbef791425681b3e798664605b5296e14fef8f08ada81ef8b2ed717ce754c5b9",
+	"descriptionMd5": "ec8c193060b5458922cc0bda62df7796"
+}

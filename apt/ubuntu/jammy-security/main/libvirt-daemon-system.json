@@ -1,0 +1,55 @@
+{
+	"raw": {},
+	"required": [
+		"Filename",
+		"Size"
+	],
+	"package": "libvirt-daemon-system",
+	"source": "libvirt",
+	"version": "8.0.0-1ubuntu7.10",
+	"section": "admin",
+	"priority": "optional",
+	"architecture": "amd64",
+	"depends": [
+		"adduser",
+		"gettext-base",
+		"iptables | firewalld",
+		"libvirt-clients (= 8.0.0-1ubuntu7.10)",
+		"libvirt-daemon (= 8.0.0-1ubuntu7.10)",
+		"libvirt-daemon-config-network (= 8.0.0-1ubuntu7.10)",
+		"libvirt-daemon-config-nwfilter (= 8.0.0-1ubuntu7.10)",
+		"libvirt-daemon-system-systemd (= 8.0.0-1ubuntu7.10) | libvirt-daemon-system-sysv (= 8.0.0-1ubuntu7.10)",
+		"logrotate",
+		"policykit-1",
+		"debconf (>= 0.5) | debconf-2.0"
+	],
+	"recommends": [
+		"dmidecode",
+		"dnsmasq-base",
+		"iproute2",
+		"mdevctl",
+		"parted",
+		"swtpm-tools"
+	],
+	"suggests": [
+		"apparmor",
+		"auditd",
+		"nfs-common",
+		"open-iscsi",
+		"pm-utils",
+		"systemd",
+		"systemtap",
+		"zfsutils"
+	],
+	"installedSize": 524,
+	"maintainer": "Ubuntu Developers <ubuntu-devel-discuss@lists.ubuntu.com>",
+	"description": "Libvirt daemon configuration files",
+	"homepage": "https://libvirt.org/",
+	"filename": "pool/main/libv/libvirt/libvirt-daemon-system_8.0.0-1ubuntu7.10_amd64.deb",
+	"size": 52276,
+	"md5": "e525b6f0bf68f8c5f3194ff02fdb00a5",
+	"sha1": "ffbc6e5aa50a03eb9a24da314c48725fd78e72e8",
+	"sha256": "3a555aa500049ae9d1806a4a66f6bcb786b68c6669eb78017c85549cc709474e",
+	"sha512": "230450c637166e551b9f6e558a8ad638397400fb5f738589dd45882a599b9678165f0ba13b9647849409e8cb7db171b3f4f69a32c29a1b261f5600fc8a7bade6",
+	"descriptionMd5": "da7cc4d36dd1ad0862cb38e713552e24"
+}

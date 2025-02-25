@@ -1,0 +1,44 @@
+{
+	"raw": {},
+	"required": [
+		"Filename",
+		"Size"
+	],
+	"package": "python3-ykman",
+	"source": "yubikey-manager",
+	"version": "5.2.1-1",
+	"section": "universe/python",
+	"priority": "optional",
+	"architecture": "all",
+	"depends": [
+		"python3-click (>= 8.0)",
+		"python3-cryptography (>= 3.0.0)",
+		"python3-cryptography (<< 44)",
+		"python3-fido2 (>= 0.9)",
+		"python3-keyring (>= 23.4)",
+		"python3-pyscard (>= 2.0)",
+		"python3:any",
+		"python3-fido2 (<< 2.0)"
+	],
+	"recommends": [
+		"pcscd"
+	],
+	"replaces": [
+		"python3-yubikey-manager (<= 3.1.1-1)"
+	],
+	"breaks": [
+		"python3-yubikey-manager (<= 3.1.1-1)",
+		"yubioath-desktop (<< 5.0.4+post1)"
+	],
+	"installedSize": 444,
+	"maintainer": "Ubuntu Developers <ubuntu-devel-discuss@lists.ubuntu.com>",
+	"description": "Python 3 library for configuring a YubiKey",
+	"homepage": "https://developers.yubico.com/yubikey-manager/",
+	"filename": "pool/universe/y/yubikey-manager/python3-ykman_5.2.1-1_all.deb",
+	"size": 75134,
+	"md5": "06a190430fb4c70cf3c67be30e9d35a6",
+	"sha1": "e307004c4ffeab6ce3f6ebcdff87b4a6db29e202",
+	"sha256": "67957fc9397c5a3b6c7ac1d8bc63b2e84bf1342d2767b5bddfef1f24014cc91a",
+	"sha512": "f65cf1564437c512c35403004538b02a54a9ad5e699543fffa35cc439e0a3f69ad554115e70800c3fd65e2b963a36b121dd4a9b64330d127bfc070da4a997d07",
+	"descriptionMd5": "1d76704d852c542c832b9333ef73296a"
+}

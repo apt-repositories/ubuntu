@@ -1,0 +1,42 @@
+{
+	"raw": {},
+	"required": [
+		"Filename",
+		"Size"
+	],
+	"package": "linux-image-5.3.0-19-lowlatency",
+	"source": "linux-signed-hwe-edge",
+	"version": "5.3.0-19.20~18.04.2+2",
+	"section": "kernel",
+	"priority": "optional",
+	"architecture": "amd64",
+	"depends": [
+		"kmod",
+		"linux-base (>= 4.5ubuntu1~16.04.1)",
+		"linux-modules-5.3.0-19-lowlatency"
+	],
+	"recommends": [
+		"grub-pc | grub-efi-amd64 | grub-efi-ia32 | grub | lilo",
+		"initramfs-tools | linux-initramfs-tool"
+	],
+	"suggests": [
+		"fdutils",
+		"linux-hwe-edge-doc-5.3.0 | linux-hwe-edge-source-5.3.0",
+		"linux-hwe-edge-tools",
+		"linux-headers-5.3.0-19-lowlatency"
+	],
+	"conflicts": [
+		"linux-image-unsigned-5.3.0-19-lowlatency"
+	],
+	"installedSize": 9006,
+	"maintainer": "Canonical Kernel Team <kernel-team@lists.ubuntu.com>",
+	"description": "Signed kernel image lowlatency",
+	"builtUsing": "linux-hwe-edge (= 5.3.0-19.20~18.04.2)",
+	"filename": "pool/main/l/linux-signed-hwe-edge/linux-image-5.3.0-19-lowlatency_5.3.0-19.20~18.04.2+2_amd64.deb",
+	"size": 8788416,
+	"md5": "1028d1aa7034d5397565bb20777e5fb4",
+	"sha1": "ce61dbabc10ae90e3b462d9b4212b0009957d536",
+	"sha256": "f063816354430ed9669d54160ad6ea668c6f98124541f9938bf2709adb4d2d5e",
+	"sha512": "59aede9debf5d19bc5644711c8622795ba16d2395434110ddc9719b4314d0339ecfec9c4432b48dc2ebb5a767c6f9d8b91c4a6a267f5bc088cb7ed7811da277f",
+	"descriptionMd5": "d033c93139790e893a4e35936dd49bc8"
+}

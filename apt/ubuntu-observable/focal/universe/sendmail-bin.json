@@ -1,0 +1,52 @@
+[{
+	"raw": {},
+	"required": [
+		"Filename",
+		"Size"
+	],
+	"package": "sendmail-bin",
+	"source": "sendmail",
+	"version": "8.15.2-18",
+	"section": "universe/mail",
+	"priority": "extra",
+	"architecture": "amd64",
+	"depends": [
+		"sendmail-base (= 8.15.2-18)",
+		"sendmail-cf (= 8.15.2-18)",
+		"procps",
+		"lsb-base (>= 3.0-6)",
+		"libc6 (>= 2.15)",
+		"libdb5.3",
+		"libldap-2.4-2 (>= 2.4.7)",
+		"liblockfile1 (>= 1.0)",
+		"libsasl2-2 (>= 2.1.27+dfsg)",
+		"libssl1.1 (>= 1.1.0)",
+		"libwrap0 (>= 7.6-4~)"
+	],
+	"preDepends": [
+		"debconf",
+		"init-system-helpers (>= 1.54~)"
+	],
+	"suggests": [
+		"sendmail-doc",
+		"sasl2-bin",
+		"libsasl2-modules",
+		"openssl"
+	],
+	"replaces": [
+		"mail-transport-agent"
+	],
+	"conflicts": [
+		"mail-transport-agent"
+	],
+	"installedSize": 1881,
+	"maintainer": "Ubuntu Developers <ubuntu-devel-discuss@lists.ubuntu.com>",
+	"description": "powerful, efficient, and scalable Mail Transport Agent",
+	"homepage": "http://www.sendmail.org",
+	"filename": "pool/universe/s/sendmail/sendmail-bin_8.15.2-18_amd64.deb",
+	"size": 489520,
+	"md5": "c09ad238c5b7ea7b77fabd84a663c40b",
+	"sha1": "75d4e2e1ca28482096c96382ead8a2a801340200",
+	"sha256": "5a6508788c6e6bdf8152a23d68844b64668d10b4535682b7ff822a32ae51048b",
+	"descriptionMd5": "bedc851ae968a6d7605e8cd4d9ae887d"
+}]

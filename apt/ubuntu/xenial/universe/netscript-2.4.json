@@ -1,0 +1,55 @@
+{
+	"raw": {},
+	"required": [
+		"Filename",
+		"Size"
+	],
+	"package": "netscript-2.4",
+	"version": "5.4.11ubuntu1",
+	"section": "universe/net",
+	"priority": "optional",
+	"architecture": "all",
+	"depends": [
+		"iproute2 | iproute (>= 20001007)",
+		"bridge-utils (>= 0.9.3)",
+		"iptables",
+		"netbase",
+		"bash (>= 2.03)",
+		"isc-dhcp-client | dhcpcd | pump",
+		"init-system-helpers (>= 1.18~)",
+		"lsb-base (>= 4.1+Debian11ubuntu7)"
+	],
+	"suggests": [
+		"whereami",
+		"dnsmasq",
+		"resolvconf",
+		"wpasupplicant",
+		"wicd",
+		"quagga",
+		"radvd",
+		"bird"
+	],
+	"replaces": [
+		"ifupdown",
+		"netscript",
+		"netscript-2.4-upstart (<< 5.4.10)"
+	],
+	"breaks": [
+		"netscript-2.4-upstart (<< 5.4.10)"
+	],
+	"conflicts": [
+		"ifupdown",
+		"netscript",
+		"netscript-2.2",
+		"netscript-ipfilter"
+	],
+	"installedSize": 194,
+	"maintainer": "Ubuntu Developers <ubuntu-devel-discuss@lists.ubuntu.com>",
+	"description": "Linux 2.4/2.6/3.x router/firewall/VM host network config system.",
+	"filename": "pool/universe/n/netscript-2.4/netscript-2.4_5.4.11ubuntu1_all.deb",
+	"size": 45840,
+	"md5": "a3ef9a8d3af7fa6dcbf38c626050ae2e",
+	"sha1": "f2dcbb50e6a9fc7c68337c77de7a453a85d8d327",
+	"sha256": "8d4898ada0c6afd7921a592a54fb8a5ef1caa6365c9bf0cb8016060078deb202",
+	"descriptionMd5": "8f1b4bd74df5cbf776b45ac5e717abe1"
+}

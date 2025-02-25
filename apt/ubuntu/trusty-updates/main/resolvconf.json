@@ -1,0 +1,49 @@
+{
+	"raw": {},
+	"required": [
+		"Filename",
+		"Size"
+	],
+	"package": "resolvconf",
+	"version": "1.69ubuntu1.4",
+	"section": "net",
+	"priority": "important",
+	"architecture": "all",
+	"depends": [
+		"lsb-base",
+		"debconf (>= 0.5) | debconf-2.0",
+		"sysv-rc (>= 2.88dsf-24) | file-rc (>= 0.8.16)"
+	],
+	"preDepends": [
+		"initscripts (>= 2.88dsf-13.10)"
+	],
+	"enhances": [
+		"dhcpcd",
+		"dnsmasq",
+		"ifupdown",
+		"isc-dhcp-client",
+		"libc6",
+		"network-manager",
+		"nscd",
+		"pdnsd",
+		"ppp",
+		"pump",
+		"totd",
+		"udhcpc"
+	],
+	"breaks": [
+		"dhcp3-client (<< 4.1.1-P1-15+squeeze1)",
+		"dnscache-run"
+	],
+	"installedSize": 257,
+	"maintainer": "Ubuntu Developers <ubuntu-devel-discuss@lists.ubuntu.com>",
+	"description": "name server information handler",
+	"homepage": "http://alioth.debian.org/projects/resolvconf/",
+	"filename": "pool/main/r/resolvconf/resolvconf_1.69ubuntu1.4_all.deb",
+	"size": 55098,
+	"md5": "6e4a0e3d25de8e10ecfc2daf3f6ea3ff",
+	"sha1": "f6feabb949a51b7e75b0d52d999e040ec960c721",
+	"sha256": "4061377043a8ba2bac1567a00e6411b6bb52b45935f30642459624f9e5414075",
+	"sha512": "f9d6d0f6c1c78ef29a8f4f2cc08e307696b7a47c394e2bac48c26f158c9e4a482ebafade2f3ea0db4fd2418a380d36ec6c63bfacf0396a74890f9ad9a46c98ae",
+	"descriptionMd5": "e009e7114cd0b15ac6dbe0d813ec9472"
+}

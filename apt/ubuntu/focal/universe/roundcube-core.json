@@ -1,0 +1,70 @@
+{
+	"raw": {},
+	"required": [
+		"Filename",
+		"Size"
+	],
+	"package": "roundcube-core",
+	"source": "roundcube",
+	"version": "1.4.3+dfsg.1-1",
+	"section": "universe/web",
+	"priority": "extra",
+	"architecture": "all",
+	"depends": [
+		"dbconfig-common",
+		"debconf",
+		"libapache2-mod-php | php",
+		"libjs-bootstrap4 (>= 4.3.1~)",
+		"libjs-codemirror (>= 5.46.0~)",
+		"libjs-jquery (>= 3.3.1~)",
+		"libjs-jquery-minicolors (>= 2.2.6~)",
+		"libjs-jquery-ui (>= 1.12.0~)",
+		"libjs-jstimezonedetect (>= 1.0.6~)",
+		"libmagic1",
+		"php-cli",
+		"php-intl",
+		"php-json",
+		"php-mbstring",
+		"php-pear (>= 1:1.10.1)",
+		"roundcube-mysql (= 1.4.3+dfsg.1-1) | roundcube-sqlite3 (= 1.4.3+dfsg.1-1) | roundcube-pgsql (= 1.4.3+dfsg.1-1)",
+		"ucf",
+		"debconf (>= 0.5) | debconf-2.0",
+		"php-common",
+		"php-masterminds-html5 (>= 2.5.0)",
+		"php-net-socket (>= 1.0.14)",
+		"php-auth-sasl (>= 1.0.6)",
+		"php-mail-mime (>= 1.10.0)",
+		"php-net-smtp (>= 1.8.0)",
+		"php-net-sieve (>= 1.4.1)"
+	],
+	"preDepends": [
+		"dpkg (>= 1.17.14)"
+	],
+	"recommends": [
+		"apache2 | lighttpd | spawn-fcgi | php-fpm | httpd-cgi",
+		"php-gd",
+		"php-pspell"
+	],
+	"suggests": [
+		"roundcube-plugins",
+		"php-net-ldap3 (>= 1.1.1)",
+		"php-crypt-gpg (>= 1.6.0)",
+		"php-mkopinsky-zxcvbn-php"
+	],
+	"replaces": [
+		"roundcube-plugins-extra (<= 0.6-20111030)"
+	],
+	"breaks": [
+		"roundcube-plugins-extra (<= 0.6-20111030)"
+	],
+	"installedSize": 14015,
+	"maintainer": "Ubuntu Developers <ubuntu-devel-discuss@lists.ubuntu.com>",
+	"description": "skinnable AJAX based webmail solution for IMAP servers",
+	"homepage": "https://www.roundcube.net/",
+	"filename": "pool/universe/r/roundcube/roundcube-core_1.4.3+dfsg.1-1_all.deb",
+	"size": 2865852,
+	"md5": "f6baf4908fc2263f20e6d338f80f6d9b",
+	"sha1": "e42ca4ab4756422ece24de3353a9e305d6e2e576",
+	"sha256": "a7f1bb13329beb54117be2346ced9cf361950b45cb37d54df58ae2da21066ca1",
+	"descriptionMd5": "070b49746ffa5175d706c57880b405e7"
+}

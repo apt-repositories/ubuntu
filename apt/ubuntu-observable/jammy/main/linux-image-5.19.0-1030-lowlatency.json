@@ -1,0 +1,43 @@
+[{
+	"raw": {},
+	"required": [
+		"Filename",
+		"Size"
+	],
+	"package": "linux-image-5.19.0-1030-lowlatency",
+	"source": "linux-signed-lowlatency-hwe-5.19",
+	"version": "5.19.0-1030.30",
+	"section": "kernel",
+	"priority": "optional",
+	"architecture": "amd64",
+	"depends": [
+		"kmod",
+		"linux-base (>= 4.5ubuntu1~16.04.1)",
+		"linux-modules-5.19.0-1030-lowlatency"
+	],
+	"recommends": [
+		"grub-pc | grub-efi-amd64 | grub-efi-ia32 | grub | lilo",
+		"initramfs-tools | linux-initramfs-tool"
+	],
+	"suggests": [
+		"fdutils",
+		"linux-doc | linux-lowlatency-hwe-5.19-source-5.19.0",
+		"linux-lowlatency-hwe-5.19-tools",
+		"linux-headers-5.19.0-1030-lowlatency",
+		"linux-modules-extra-5.19.0-1030-lowlatency"
+	],
+	"conflicts": [
+		"linux-image-unsigned-5.19.0-1030-lowlatency"
+	],
+	"installedSize": 11961,
+	"maintainer": "Canonical Kernel Team <kernel-team@lists.ubuntu.com>",
+	"description": "Signed kernel image lowlatency",
+	"builtUsing": "linux-lowlatency-hwe-5.19 (= 5.19.0-1030.30)",
+	"filename": "pool/main/l/linux-signed-lowlatency-hwe-5.19/linux-image-5.19.0-1030-lowlatency_5.19.0-1030.30_amd64.deb",
+	"size": 12022062,
+	"md5": "fe8f80cdf628725fef35656ca8ca450c",
+	"sha1": "c0b53fcf70f500d0c5663d53c3f360626ad335ee",
+	"sha256": "2949601ed4b29c926fef0189ef2aebdffcd2b929fa77be3b6c83757d35776fcf",
+	"sha512": "2f7be443922ee3730a67b9a664a5674f69970f4e1b3fe925574f5f98e7a37592159d10220db3cbc40361006deefa35a8aa5efe0916b589217e28058d518f352c",
+	"descriptionMd5": "de4cdf77422a3e81607ec9185ceee49b"
+}]

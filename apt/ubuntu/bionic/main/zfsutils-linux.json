@@ -1,0 +1,53 @@
+{
+	"raw": {},
+	"required": [
+		"Filename",
+		"Size"
+	],
+	"package": "zfsutils-linux",
+	"source": "zfs-linux",
+	"version": "0.7.5-1ubuntu15",
+	"section": "admin",
+	"priority": "extra",
+	"architecture": "amd64",
+	"depends": [
+		"libblkid1 (>= 2.16)",
+		"libc6 (>= 2.14)",
+		"libnvpair1linux (>= 0.7.5)",
+		"libuuid1 (>= 2.16)",
+		"libuutil1linux (>= 0.7.5)",
+		"libzfs2linux (>= 0.7.5)",
+		"libzpool2linux (>= 0.7.5)",
+		"python3:any",
+		"python3"
+	],
+	"recommends": [
+		"lsb-base",
+		"zfs-zed"
+	],
+	"suggests": [
+		"nfs-kernel-server",
+		"samba-common-bin (>= 3.0.23)",
+		"zfs-initramfs | zfs-dracut",
+		"zfs-modules | zfs-dkms"
+	],
+	"breaks": [
+		"zfs-dkms (>> 0.7.5-1ubuntu15)",
+		"zfs-dkms (<< 0.7.5-1ubuntu15)"
+	],
+	"conflicts": [
+		"zfs",
+		"zfs-fuse",
+		"zutils"
+	],
+	"installedSize": 1108,
+	"maintainer": "Ubuntu Developers <ubuntu-devel-discuss@lists.ubuntu.com>",
+	"description": "command-line tools to manage OpenZFS filesystems",
+	"homepage": "http://www.zfsonlinux.org/",
+	"filename": "pool/main/z/zfs-linux/zfsutils-linux_0.7.5-1ubuntu15_amd64.deb",
+	"size": 341532,
+	"md5": "86abdabde6c997f180f21aba51a3b904",
+	"sha1": "bac26095653138a4fba25952a8b0c4d2fc882df2",
+	"sha256": "ae05fe85adbf5ee3f57e2d2f6e4a6d0cf4174c3cb3507b222761d60113670eb6",
+	"descriptionMd5": "3b2c00b92882937cb7252c01e41d8975"
+}

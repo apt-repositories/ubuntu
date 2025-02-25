@@ -1,0 +1,43 @@
+[{
+	"raw": {},
+	"required": [
+		"Filename",
+		"Size"
+	],
+	"package": "linux-image-5.15.0-133-lowlatency",
+	"source": "linux-signed-lowlatency-hwe-5.15",
+	"version": "5.15.0-133.143~20.04.1",
+	"section": "kernel",
+	"priority": "optional",
+	"architecture": "amd64",
+	"depends": [
+		"kmod",
+		"linux-base (>= 4.5ubuntu1~16.04.1)",
+		"linux-modules-5.15.0-133-lowlatency"
+	],
+	"recommends": [
+		"grub-pc | grub-efi-amd64 | grub-efi-ia32 | grub | lilo",
+		"initramfs-tools | linux-initramfs-tool"
+	],
+	"suggests": [
+		"fdutils",
+		"linux-doc | linux-lowlatency-hwe-5.15-source-5.15.0",
+		"linux-lowlatency-hwe-5.15-tools",
+		"linux-headers-5.15.0-133-lowlatency",
+		"linux-modules-extra-5.15.0-133-lowlatency"
+	],
+	"conflicts": [
+		"linux-image-unsigned-5.15.0-133-lowlatency"
+	],
+	"installedSize": 11374,
+	"maintainer": "Canonical Kernel Team <kernel-team@lists.ubuntu.com>",
+	"description": "Signed kernel image lowlatency",
+	"builtUsing": "linux-lowlatency-hwe-5.15 (= 5.15.0-133.143~20.04.1)",
+	"filename": "pool/main/l/linux-signed-lowlatency-hwe-5.15/linux-image-5.15.0-133-lowlatency_5.15.0-133.143~20.04.1_amd64.deb",
+	"size": 11454988,
+	"md5": "01041085c830c4dd31f4b0fe6229c43d",
+	"sha1": "a6ce11b09eb1affb993f82b1b6ffed4fa39d8a9a",
+	"sha256": "b217baa6b8aba4ca449db7a8b28aafb8e104079863e657bae9f5011e20cfd65b",
+	"sha512": "ac3afacd9db2f823dc56f03d529dc1ea20c63763fff5175db716f944eff090768c1cd1e257570c671cb24d9e567f2ce7c303568fb178e570a2573bdbf8f8849f",
+	"descriptionMd5": "de4cdf77422a3e81607ec9185ceee49b"
+}]

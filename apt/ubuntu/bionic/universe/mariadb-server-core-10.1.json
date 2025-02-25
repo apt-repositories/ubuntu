@@ -1,0 +1,64 @@
+{
+	"raw": {},
+	"required": [
+		"Filename",
+		"Size"
+	],
+	"package": "mariadb-server-core-10.1",
+	"source": "mariadb-10.1",
+	"version": "1:10.1.29-6",
+	"section": "universe/database",
+	"priority": "optional",
+	"architecture": "amd64",
+	"depends": [
+		"mariadb-common (>= 1:10.1.29-6)",
+		"libaio1 (>= 0.3.93)",
+		"libc6 (>= 2.17)",
+		"libjemalloc1 (>= 2.1.1)",
+		"libpcre3",
+		"libstdc++6 (>= 5.2)",
+		"libsystemd0",
+		"zlib1g (>= 1:1.2.0)"
+	],
+	"replaces": [
+		"mariadb-client-10.1 (<< 1:10.1.29-6)",
+		"mariadb-server-10.1 (<< 1:10.1.29-6)",
+		"mariadb-server-core-10.0",
+		"mariadb-server-core-5.5",
+		"mysql-client-5.5",
+		"mysql-client-5.6",
+		"mysql-client-5.7",
+		"mysql-server-core-5.5",
+		"mysql-server-core-5.6",
+		"mysql-server-core-5.7",
+		"virtual-mysql-server-core"
+	],
+	"breaks": [
+		"mariadb-client-10.1 (<< 1:10.1.29-6)",
+		"mariadb-server-10.1 (<< 1:10.1.29-6)",
+		"mariadb-server-core-10.0",
+		"mariadb-server-core-5.5",
+		"mysql-client-5.5",
+		"mysql-client-5.6",
+		"mysql-server-core-5.5",
+		"mysql-server-core-5.6",
+		"mysql-server-core-5.7"
+	],
+	"conflicts": [
+		"mariadb-galera-server-5.5",
+		"mysql-server-5.5",
+		"mysql-server-5.6",
+		"mysql-server-5.7",
+		"virtual-mysql-server-core"
+	],
+	"installedSize": 25161,
+	"maintainer": "Ubuntu Developers <ubuntu-devel-discuss@lists.ubuntu.com>",
+	"description": "MariaDB database core server files",
+	"homepage": "https://mariadb.org/",
+	"filename": "pool/universe/m/mariadb-10.1/mariadb-server-core-10.1_10.1.29-6_amd64.deb",
+	"size": 4929076,
+	"md5": "6fff1ec62324f03fe819f13da668b6c7",
+	"sha1": "99fdbaf09029a55b6525cea958a48698656bf93c",
+	"sha256": "b0ce01516465e66a51fc9897682542d45b2e7bdfb28ee7b9dddfe81868eb472a",
+	"descriptionMd5": "a01f76260dfbedfdfbfcd8ff440b8a4c"
+}

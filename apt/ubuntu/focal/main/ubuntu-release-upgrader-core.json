@@ -1,0 +1,39 @@
+{
+	"raw": {},
+	"required": [
+		"Filename",
+		"Size"
+	],
+	"package": "ubuntu-release-upgrader-core",
+	"source": "ubuntu-release-upgrader",
+	"version": "1:20.04.18",
+	"section": "admin",
+	"priority": "standard",
+	"architecture": "all",
+	"depends": [
+		"python3:any",
+		"python3-distupgrade (= 1:20.04.18)",
+		"ca-certificates"
+	],
+	"recommends": [
+		"libpam-modules (>= 1.0.1-9ubuntu3)"
+	],
+	"replaces": [
+		"update-manager (<< 1:0.165)",
+		"update-manager-core (<< 1:0.165)"
+	],
+	"breaks": [
+		"software-properties (<< 0.9.27)",
+		"update-manager (<< 1:0.165)",
+		"update-manager-core (<< 1:0.165)"
+	],
+	"installedSize": 332,
+	"maintainer": "Ubuntu Developers <ubuntu-devel-discuss@lists.ubuntu.com>",
+	"description": "manage release upgrades",
+	"filename": "pool/main/u/ubuntu-release-upgrader/ubuntu-release-upgrader-core_20.04.18_all.deb",
+	"size": 23524,
+	"md5": "a0a21b3f31457f6b9a4acd391f0dd43c",
+	"sha1": "d78f458ac040fcb094c5133fc59f4d9e0c41c861",
+	"sha256": "85925a6cbbca1945845f6e4c121aca432e80e938fc0a309b04d033ed71a1bd94",
+	"descriptionMd5": "9b6ae3ba71aff05989e4c93c17227206"
+}

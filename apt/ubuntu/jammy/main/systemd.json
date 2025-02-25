@@ -1,0 +1,70 @@
+{
+	"raw": {},
+	"required": [
+		"Filename",
+		"Size"
+	],
+	"package": "systemd",
+	"version": "249.11-0ubuntu3",
+	"section": "admin",
+	"priority": "important",
+	"architecture": "amd64",
+	"depends": [
+		"libacl1 (>= 2.2.23)",
+		"libapparmor1 (>= 2.13)",
+		"libaudit1 (>= 1:2.2.1)",
+		"libcrypt1 (>= 1:4.4.0)",
+		"libcryptsetup12 (>= 2:2.4)",
+		"libgnutls30 (>= 3.7.2)",
+		"libgpg-error0 (>= 1.14)",
+		"libip4tc2 (>= 1.8.3)",
+		"libkmod2 (>= 5~)",
+		"liblz4-1 (>= 0.0~r130)",
+		"libmount1 (>= 2.30)",
+		"libpam0g (>= 0.99.7.1)",
+		"libseccomp2 (>= 2.4.1)",
+		"libsystemd0 (= 249.11-0ubuntu3)",
+		"util-linux (>= 2.27.1)",
+		"mount (>= 2.26)",
+		"adduser"
+	],
+	"preDepends": [
+		"libblkid1 (>= 2.24)",
+		"libc6 (>= 2.34)",
+		"libcap2 (>= 1:2.24-9~)",
+		"libgcrypt20 (>= 1.9.0)",
+		"liblz4-1 (>= 0.0~r122)",
+		"liblzma5 (>= 5.1.1alpha+20120614)",
+		"libselinux1 (>= 3.1~)",
+		"libzstd1 (>= 1.4.0)"
+	],
+	"recommends": [
+		"default-dbus-system-bus | dbus-system-bus",
+		"networkd-dispatcher",
+		"systemd-timesyncd | time-daemon"
+	],
+	"suggests": [
+		"systemd-container",
+		"policykit-1"
+	],
+	"breaks": [
+		"resolvconf (<< 1.83~)",
+		"udev (<< 247~)"
+	],
+	"conflicts": [
+		"consolekit",
+		"libpam-ck-connector",
+		"systemd-shim"
+	],
+	"installedSize": 16236,
+	"maintainer": "Ubuntu Developers <ubuntu-devel-discuss@lists.ubuntu.com>",
+	"description": "system and service manager",
+	"homepage": "https://www.freedesktop.org/wiki/Software/systemd",
+	"filename": "pool/main/s/systemd/systemd_249.11-0ubuntu3_amd64.deb",
+	"size": 4554204,
+	"md5": "dcc539bed0e44fd867064c2a18293614",
+	"sha1": "d2d4964657ba5ffbcdf893639a9df8a73fc26d64",
+	"sha256": "363df880bbf0ab8587ac6c4cb70aea5e76700eca9beec0ba86163a2df34105f3",
+	"sha512": "989cb1abb2c2c383decd7bba906cbe75e0ee1be1d309324cf35c4ce4b03187ee6888a75e82a9f314a45d017d4f5e52bc249e0f5226f86158a8c1cb006c666a75",
+	"descriptionMd5": "19399579cbc0c47a303288bf15eadcd4"
+}

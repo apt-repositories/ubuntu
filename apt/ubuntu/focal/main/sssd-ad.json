@@ -1,0 +1,49 @@
+{
+	"raw": {},
+	"required": [
+		"Filename",
+		"Size"
+	],
+	"package": "sssd-ad",
+	"source": "sssd",
+	"version": "2.2.3-3",
+	"section": "utils",
+	"priority": "extra",
+	"architecture": "amd64",
+	"depends": [
+		"libsss-idmap0 (= 2.2.3-3)",
+		"sssd-ad-common (= 2.2.3-3)",
+		"sssd-common (= 2.2.3-3)",
+		"sssd-krb5-common (= 2.2.3-3)",
+		"libc6 (>= 2.28)",
+		"libdhash1 (>= 0.4.0)",
+		"libini-config5 (>= 0.4.0)",
+		"libldap-2.4-2 (>= 2.4.7)",
+		"libldb2 (>= 0.9.21)",
+		"libpopt0 (>= 1.14)",
+		"libsasl2-2 (>= 2.1.27+dfsg)",
+		"libsmbclient (>= 2:4.0.3+dfsg1)",
+		"libtalloc2 (>= 2.0.4~git20101213)",
+		"libtevent0 (>= 0.9.9)",
+		"samba-libs (>= 2:4.11.6+dfsg)"
+	],
+	"suggests": [
+		"adcli"
+	],
+	"replaces": [
+		"sssd (<< 1.10.0~beta2-1)"
+	],
+	"breaks": [
+		"sssd (<< 1.10.0~beta2-1)"
+	],
+	"installedSize": 366,
+	"maintainer": "Ubuntu Developers <ubuntu-devel-discuss@lists.ubuntu.com>",
+	"description": "System Security Services Daemon -- Active Directory back end",
+	"homepage": "https://github.com/SSSD/sssd",
+	"filename": "pool/main/s/sssd/sssd-ad_2.2.3-3_amd64.deb",
+	"size": 115524,
+	"md5": "7d00f53cfb083a4d243b167772c1950d",
+	"sha1": "6e1592f9ad6079f3cf65085a009e3830813e14d4",
+	"sha256": "4d2efcef36490fd88db2ceccc90d316d77c940b1073735ed1c357847b54564cb",
+	"descriptionMd5": "4273ee06e2ffa001b1fbe0a4de26f278"
+}

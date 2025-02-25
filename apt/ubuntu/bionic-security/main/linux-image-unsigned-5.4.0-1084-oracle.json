@@ -1,0 +1,44 @@
+{
+	"raw": {},
+	"required": [
+		"Filename",
+		"Size"
+	],
+	"package": "linux-image-unsigned-5.4.0-1084-oracle",
+	"source": "linux-oracle-5.4",
+	"version": "5.4.0-1084.92~18.04.1",
+	"section": "kernel",
+	"priority": "optional",
+	"architecture": "amd64",
+	"depends": [
+		"kmod",
+		"linux-base (>= 4.5ubuntu1~16.04.1)",
+		"linux-modules-5.4.0-1084-oracle"
+	],
+	"recommends": [
+		"grub-pc | grub-efi-amd64 | grub-efi-ia32 | grub | lilo",
+		"initramfs-tools | linux-initramfs-tool"
+	],
+	"suggests": [
+		"fdutils",
+		"linux-oracle-5.4-doc-5.4.0 | linux-oracle-5.4-source-5.4.0",
+		"linux-oracle-5.4-tools",
+		"linux-headers-5.4.0-1084-oracle"
+	],
+	"breaks": [
+		"initramfs-tools (<< 0.130ubuntu3.6)"
+	],
+	"conflicts": [
+		"linux-image-5.4.0-1084-oracle"
+	],
+	"installedSize": 11892,
+	"maintainer": "Ubuntu Kernel Team <kernel-team@lists.ubuntu.com>",
+	"description": "Oracle Linux kernel image for version 5.4.0 on 64 bit x86 SMP",
+	"filename": "pool/main/l/linux-oracle-5.4/linux-image-unsigned-5.4.0-1084-oracle_5.4.0-1084.92~18.04.1_amd64.deb",
+	"size": 11332556,
+	"md5": "0de010242abd76b3adcb412bae89b147",
+	"sha1": "5a323d684f5f1a7bda8bb8bf13d95587e7e24ebe",
+	"sha256": "e286ed4849c060af25a530c1d5636433b3187654cf8bb84cf0cfd04f55f4aba5",
+	"sha512": "175cfc7bbbe2b967c2c268fbfc47dead6425f5cf52fbbc2e30737ef04d3256b4cd447fd37c3e03d8c26ab23edf8ccd5b2d5cbaa15f5bf4454a43740ac7cc9496",
+	"descriptionMd5": "46c14428a0a1455cf13c9b398a9fd3f5"
+}

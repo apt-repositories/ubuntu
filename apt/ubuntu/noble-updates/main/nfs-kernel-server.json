@@ -1,0 +1,54 @@
+{
+	"raw": {},
+	"required": [
+		"Filename",
+		"Size"
+	],
+	"package": "nfs-kernel-server",
+	"source": "nfs-utils",
+	"version": "1:2.6.4-3ubuntu5.1",
+	"section": "net",
+	"priority": "optional",
+	"architecture": "amd64",
+	"depends": [
+		"libblkid1 (>= 2.16)",
+		"libc6 (>= 2.38)",
+		"libcap2 (>= 1:2.10)",
+		"libevent-core-2.1-7t64 (>= 2.1.8-stable)",
+		"libsqlite3-0 (>= 3.7.15)",
+		"libtirpc3t64 (>= 1.0.2)",
+		"libuuid1 (>= 2.31.1)",
+		"libwrap0 (>= 7.6-4~)",
+		"libxml2 (>= 2.7.4)",
+		"nfs-common (= 1:2.6.4-3ubuntu5.1)",
+		"ucf",
+		"netbase",
+		"keyutils"
+	],
+	"recommends": [
+		"python3",
+		"python3-yaml"
+	],
+	"suggests": [
+		"procps"
+	],
+	"replaces": [
+		"knfs",
+		"nfs-server"
+	],
+	"conflicts": [
+		"knfs",
+		"nfs-server"
+	],
+	"installedSize": 592,
+	"maintainer": "Ubuntu Developers <ubuntu-devel-discuss@lists.ubuntu.com>",
+	"description": "support for NFS kernel server",
+	"homepage": "https://linux-nfs.org/",
+	"filename": "pool/main/n/nfs-utils/nfs-kernel-server_2.6.4-3ubuntu5.1_amd64.deb",
+	"size": 169308,
+	"md5": "818d59307d5a3c16093ed827136ed259",
+	"sha1": "47d22687fcb9423df20fcb613bf3a5164f4c32b4",
+	"sha256": "1f5167d38fc64be869ebe14e3fad60c63f43a1633c60cffe820bf5891ead2934",
+	"sha512": "9b15f99c2f7602ffe0e56fc067b71c5474bd414530d98ce9c508aac6b38407cd4b6f24e5ee190d68580633d419c6ddcf43536e9942ab3ce5ffc66136cac7fa1b",
+	"descriptionMd5": "899bf536fe9edad1d8a30a8fada5180d"
+}

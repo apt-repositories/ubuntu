@@ -1,0 +1,49 @@
+[{
+	"raw": {},
+	"required": [
+		"Filename",
+		"Size"
+	],
+	"package": "globus-gram-job-manager-fork",
+	"version": "1.5-4",
+	"section": "universe/net",
+	"priority": "optional",
+	"architecture": "amd64",
+	"depends": [
+		"libc6 (>= 2.14)",
+		"libglobus-common0 (>= 14)",
+		"libglobus-gram-protocol3 (>= 11)",
+		"libglobus-xio0 (>= 3)",
+		"perl",
+		"globus-gram-job-manager (>= 13)",
+		"globus-gram-job-manager-scripts (>= 4)",
+		"globus-gass-cache-program (>= 5)",
+		"globus-common-progs (>= 14)",
+		"globus-gatekeeper (>= 9)"
+	],
+	"recommends": [
+		"globus-gram-job-manager-fork-setup-poll | globus-gram-job-manager-fork-setup-seg"
+	],
+	"replaces": [
+		"globus-gram-job-manager-fork-setup-seg (<< 1.5-3~)",
+		"globus-gram-job-manager-setup-fork (<< 4.3)",
+		"globus-gram-job-manager-setup-fork-doc (<< 4.3)"
+	],
+	"breaks": [
+		"globus-gram-job-manager-fork-setup-seg (<< 1.5-3~)"
+	],
+	"conflicts": [
+		"globus-gram-job-manager-setup-fork (<< 4.3)",
+		"globus-gram-job-manager-setup-fork-doc (<< 4.3)"
+	],
+	"installedSize": 125,
+	"maintainer": "Ubuntu Developers <ubuntu-devel-discuss@lists.ubuntu.com>",
+	"description": "Globus Toolkit - Fork Job Manager Support",
+	"homepage": "http://www.globus.org/",
+	"filename": "pool/universe/g/globus-gram-job-manager-fork/globus-gram-job-manager-fork_1.5-4_amd64.deb",
+	"size": 17660,
+	"md5": "22005c2b1b9e3d5eeefd8974168aacd9",
+	"sha1": "63f0df2352c5289c50ba37af454b333705a377a9",
+	"sha256": "706c238c9caeae00894ade2e745ead28fb406274848dde7fb937de79fcd152dc",
+	"descriptionMd5": "7fbe1a4fb1d1f61ed3b4f8ceeaaaa7cf"
+}]

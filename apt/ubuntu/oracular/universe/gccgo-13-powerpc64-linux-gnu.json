@@ -1,0 +1,52 @@
+{
+	"raw": {},
+	"required": [
+		"Filename",
+		"Size"
+	],
+	"package": "gccgo-13-powerpc64-linux-gnu",
+	"source": "gcc-13-cross-ports (18ubuntu2)",
+	"version": "13.3.0-6ubuntu2cross1",
+	"section": "universe/devel",
+	"priority": "optional",
+	"architecture": "amd64",
+	"depends": [
+		"gcc-13-powerpc64-linux-gnu-base (= 13.3.0-6ubuntu2cross1)",
+		"gcc-13-powerpc64-linux-gnu (= 13.3.0-6ubuntu2cross1)",
+		"libgo-13-dev-ppc64-cross (>= 13)",
+		"libc6-dev-ppc64-cross (>= 2.13-0ubuntu6)",
+		"libc6 (>= 2.38)",
+		"libgmp10 (>= 2:6.3.0+dfsg)",
+		"libisl23 (>= 0.15)",
+		"libmpc3 (>= 1.1.0)",
+		"libmpfr6 (>= 3.1.3)",
+		"libzstd1 (>= 1.5.5)",
+		"zlib1g (>= 1:1.1.4)"
+	],
+	"suggests": [
+		"gccgo-13-doc"
+	],
+	"replaces": [
+		"gccgo-13 (<< 13.2.0-11)",
+		"libgo12-ppc64-cross (<< 8-20171209-2)"
+	],
+	"breaks": [
+		"gccgo-13 (<< 13.2.0-11)",
+		"libgo12-ppc64-cross (<< 8-20171209-2)"
+	],
+	"conflicts": [
+		"golang-go (<< 2:1.3.3-1ubuntu2)"
+	],
+	"installedSize": 30106,
+	"maintainer": "Ubuntu Core developers <ubuntu-devel-discuss@lists.ubuntu.com>",
+	"description": "GNU Go compiler for the powerpc64-linux-gnu architecture",
+	"homepage": "http://gcc.gnu.org/",
+	"builtUsing": "gcc-13 (= 13.3.0-6ubuntu2)",
+	"filename": "pool/universe/g/gcc-13-cross-ports/gccgo-13-powerpc64-linux-gnu_13.3.0-6ubuntu2cross1_amd64.deb",
+	"size": 10378760,
+	"md5": "b400def1c91823b44bd630f6430a35e6",
+	"sha1": "a3149274374d7e33ba9f6bf2c4e4df6c55dc5ea0",
+	"sha256": "10bb1cf0617f280eb2b3a8a305ae32e3b4774b51402e785d27797d036b005804",
+	"sha512": "f444a15631c654b7f1881b4717f9e2548f531f3db60eb1e533457d5ca761a3c69bdec136ed8b87d28b539d7f85eb53c38688c525d5e033f6d888604522ab2bdb",
+	"descriptionMd5": "2dd70841ca190a75431fd85b1bc4c918"
+}

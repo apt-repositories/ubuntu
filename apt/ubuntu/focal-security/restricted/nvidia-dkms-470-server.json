@@ -1,0 +1,42 @@
+{
+	"raw": {},
+	"required": [
+		"Filename",
+		"Size"
+	],
+	"package": "nvidia-dkms-470-server",
+	"source": "nvidia-graphics-drivers-470-server",
+	"version": "470.256.02-0ubuntu0.20.04.1",
+	"section": "restricted/libs",
+	"priority": "optional",
+	"architecture": "amd64",
+	"depends": [
+		"dkms",
+		"nvidia-kernel-source-470-server (<= 470.256.02-1)",
+		"nvidia-kernel-source-470-server (>= 470.256.02)",
+		"nvidia-kernel-common-470-server (<= 470.256.02-1)",
+		"nvidia-kernel-common-470-server (>= 470.256.02)"
+	],
+	"replaces": [
+		"nvidia-384 (<< 390.25)",
+		"nvidia-dkms-kernel",
+		"nvidia-kernel-source-470-server (<< 390.25-0ubuntu2~)"
+	],
+	"breaks": [
+		"nvidia-kernel-source-470-server (<< 390.25-0ubuntu2~)"
+	],
+	"conflicts": [
+		"nvidia-dkms-kernel"
+	],
+	"installedSize": 35,
+	"maintainer": "Ubuntu Core Developers <ubuntu-devel-discuss@lists.ubuntu.com>",
+	"description": "NVIDIA DKMS package",
+	"homepage": "http://www.nvidia.com",
+	"filename": "pool/restricted/n/nvidia-graphics-drivers-470-server/nvidia-dkms-470-server_470.256.02-0ubuntu0.20.04.1_amd64.deb",
+	"size": 9888,
+	"md5": "4ba451781f641980edf7a98cef2bb265",
+	"sha1": "d398d5e6f43098e23ad95a81c8d5b56cb9ac8dd5",
+	"sha256": "96dde23abe5aa470234565f990abc3a454f29922cd5c4e082c0886b7b7cb6271",
+	"sha512": "6721d91073ba1c912f3931e50fa13d8dc9aeacc03d740b14fd30a70d199f9a3fbdab4ec117a997999f480e83f59031ef28f8799b91746f55b7772d130f8d0e66",
+	"descriptionMd5": "ec8c193060b5458922cc0bda62df7796"
+}

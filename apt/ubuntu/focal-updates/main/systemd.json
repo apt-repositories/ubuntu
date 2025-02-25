@@ -1,0 +1,73 @@
+{
+	"raw": {},
+	"required": [
+		"Filename",
+		"Size"
+	],
+	"package": "systemd",
+	"version": "245.4-4ubuntu3.24",
+	"section": "admin",
+	"priority": "important",
+	"architecture": "amd64",
+	"depends": [
+		"libacl1 (>= 2.2.23)",
+		"libapparmor1 (>= 2.9.0-3+exp2)",
+		"libaudit1 (>= 1:2.2.1)",
+		"libcap2 (>= 1:2.24-9~)",
+		"libcrypt1 (>= 1:4.4.0)",
+		"libcryptsetup12 (>= 2:2.0.1)",
+		"libgnutls30 (>= 3.6.12)",
+		"libgpg-error0 (>= 1.14)",
+		"libidn2-0 (>= 2.0.0)",
+		"libip4tc2 (>= 1.8.3)",
+		"libkmod2 (>= 5~)",
+		"liblz4-1 (>= 0.0~r130)",
+		"libmount1 (>= 2.30)",
+		"libpam0g (>= 0.99.7.1)",
+		"libpcre2-8-0 (>= 10.22)",
+		"libseccomp2 (>= 2.4.1)",
+		"libsystemd0 (= 245.4-4ubuntu3.24)",
+		"systemd-timesyncd | time-daemon",
+		"util-linux (>= 2.27.1)",
+		"mount (>= 2.26)",
+		"adduser"
+	],
+	"preDepends": [
+		"libblkid1 (>= 2.24)",
+		"libc6 (>= 2.30)",
+		"libgcrypt20 (>= 1.8.0)",
+		"liblz4-1 (>= 0.0~r122)",
+		"liblzma5 (>= 5.1.1alpha+20120614)",
+		"libselinux1 (>= 2.1.9)"
+	],
+	"recommends": [
+		"dbus",
+		"networkd-dispatcher"
+	],
+	"suggests": [
+		"systemd-container",
+		"policykit-1"
+	],
+	"breaks": [
+		"python-dbusmock (<< 0.18)",
+		"python3-dbusmock (<< 0.18)",
+		"systemd-shim (<< 10-4~)"
+	],
+	"conflicts": [
+		"consolekit",
+		"libpam-ck-connector",
+		"systemd-shim",
+		"upstart"
+	],
+	"installedSize": 15332,
+	"maintainer": "Ubuntu Developers <ubuntu-devel-discuss@lists.ubuntu.com>",
+	"description": "system and service manager",
+	"homepage": "https://www.freedesktop.org/wiki/Software/systemd",
+	"filename": "pool/main/s/systemd/systemd_245.4-4ubuntu3.24_amd64.deb",
+	"size": 3814788,
+	"md5": "ba921e747f7671ee66125d2510a633fd",
+	"sha1": "0464e3b412ba71d4359a2f9a4b88dbdda1f2a5f8",
+	"sha256": "d66c8c0316b7c5269a151c797a27ed32ecd75a3a048ddec34e61ceb3df9a3331",
+	"sha512": "a498d0d65a137693f1422bd312a1283cf6db2ae7246e890faf73299829295c368194267677b1baf495a0445d13b4ebf4f9a348afc1afe85a048b59e8663f6041",
+	"descriptionMd5": "19399579cbc0c47a303288bf15eadcd4"
+}

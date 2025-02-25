@@ -1,0 +1,41 @@
+{
+	"raw": {},
+	"required": [
+		"Filename",
+		"Size"
+	],
+	"package": "xserver-xorg-legacy-hwe-18.04",
+	"source": "xorg-server-hwe-18.04",
+	"version": "2:1.20.8-2ubuntu2.2~18.04.11",
+	"section": "x11",
+	"priority": "optional",
+	"architecture": "amd64",
+	"depends": [
+		"xserver-common",
+		"libc6 (>= 2.3.4)",
+		"debconf (>= 0.5) | debconf-2.0"
+	],
+	"replaces": [
+		"x11-common (<< 1:7.7+10~)",
+		"xserver-xorg-core-hwe-18.04 (<< 2:1.17.2-3~)",
+		"xserver-xorg-legacy"
+	],
+	"breaks": [
+		"x11-common (<< 1:7.7+10~)",
+		"xserver-xorg-core-hwe-18.04 (<< 2:1.17.2-3~)"
+	],
+	"conflicts": [
+		"xserver-xorg-legacy"
+	],
+	"installedSize": 265,
+	"maintainer": "Ubuntu X-SWAT <ubuntu-x@lists.ubuntu.com>",
+	"description": "setuid root Xorg server wrapper",
+	"homepage": "https://www.x.org/",
+	"filename": "pool/main/x/xorg-server-hwe-18.04/xserver-xorg-legacy-hwe-18.04_1.20.8-2ubuntu2.2~18.04.11_amd64.deb",
+	"size": 32900,
+	"md5": "59ca77925ff87956df0348ab983951d6",
+	"sha1": "7263523108e4e744ebb614f714df3eaff164de4f",
+	"sha256": "35874158d9c599fc9c33dcd037b941099d188650df9ba4e55f565f9aa5804488",
+	"sha512": "c97c0b1abfe278e36354d992068b97c4280ae85262d62ae6ce06f87d90b9147f4f50ca1c465a6c81fcb1cc51c30622561bc24fd6a4ee4c3c72cd888b1d77c978",
+	"descriptionMd5": "a49fa8443df84effdf1fd36e26ad0f94"
+}

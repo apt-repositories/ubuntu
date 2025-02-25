@@ -1,0 +1,43 @@
+{
+	"raw": {},
+	"required": [
+		"Filename",
+		"Size"
+	],
+	"package": "linux-image-5.15.0-73-generic",
+	"source": "linux-signed",
+	"version": "5.15.0-73.80",
+	"section": "kernel",
+	"priority": "optional",
+	"architecture": "amd64",
+	"depends": [
+		"kmod",
+		"linux-base (>= 4.5ubuntu1~16.04.1)",
+		"linux-modules-5.15.0-73-generic"
+	],
+	"recommends": [
+		"grub-pc | grub-efi-amd64 | grub-efi-ia32 | grub | lilo",
+		"initramfs-tools | linux-initramfs-tool"
+	],
+	"suggests": [
+		"fdutils",
+		"linux-doc | linux-source-5.15.0",
+		"linux-tools",
+		"linux-headers-5.15.0-73-generic",
+		"linux-modules-extra-5.15.0-73-generic"
+	],
+	"conflicts": [
+		"linux-image-unsigned-5.15.0-73-generic"
+	],
+	"installedSize": 11337,
+	"maintainer": "Canonical Kernel Team <kernel-team@lists.ubuntu.com>",
+	"description": "Signed kernel image generic",
+	"builtUsing": "linux (= 5.15.0-73.80)",
+	"filename": "pool/main/l/linux-signed/linux-image-5.15.0-73-generic_5.15.0-73.80_amd64.deb",
+	"size": 11418734,
+	"md5": "44a254885e85b4a420b04e2600d43521",
+	"sha1": "66911a240fd94767345d5cb90151e8426766c1ca",
+	"sha256": "35d7ff4ab38e310dcfee7fa2e62ef8d864a1869c29438b06844178c2296179ee",
+	"sha512": "ea23e9a2910d7bda4c82985258b646bf6b147589f98581f4ec648c657be2bc6ef6b141f1e2481b71c764fd3ec8f4ada56531ba1ce0b65f24a027e72212b7ad32",
+	"descriptionMd5": "b0fd0df88b1cd31408007b00d2458952"
+}

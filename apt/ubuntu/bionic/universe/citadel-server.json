@@ -1,0 +1,56 @@
+{
+	"raw": {},
+	"required": [
+		"Filename",
+		"Size"
+	],
+	"package": "citadel-server",
+	"source": "citadel",
+	"version": "917-2",
+	"section": "universe/mail",
+	"priority": "extra",
+	"architecture": "amd64",
+	"depends": [
+		"libc6 (>= 2.15)",
+		"libcitadel4 (>= 917)",
+		"libcurl4 (>= 7.16.2)",
+		"libdb5.3",
+		"libexpat1 (>= 2.0.1)",
+		"libical3 (>= 3.0.0)",
+		"libpam0g (>= 0.99.7.1)",
+		"libsieve2-1",
+		"libssl1.1 (>= 1.1.0)",
+		"zlib1g (>= 1:1.1.4)",
+		"debconf (>= 0.5) | debconf-2.0",
+		"adduser",
+		"openssl",
+		"patch",
+		"lsb-base (>= 3.0-6)"
+	],
+	"recommends": [
+		"db4.6-util",
+		"shared-mime-info"
+	],
+	"replaces": [
+		"citadel-common",
+		"citadel-mta",
+		"mail-transport-agent"
+	],
+	"conflicts": [
+		"citadel-common",
+		"citadel-mta",
+		"imap-server",
+		"mail-transport-agent",
+		"pop3-server"
+	],
+	"installedSize": 1388,
+	"maintainer": "Ubuntu Developers <ubuntu-devel-discuss@lists.ubuntu.com>",
+	"description": "complete and feature-rich groupware server",
+	"homepage": "http://www.citadel.org/",
+	"filename": "pool/universe/c/citadel/citadel-server_917-2_amd64.deb",
+	"size": 331524,
+	"md5": "25265a1040d8f8bc45603529779d8c47",
+	"sha1": "e406943f5893de00db9359c4a3ed345b4f06515a",
+	"sha256": "47f4bc4f3a6209f4b57e2a071d03705167373e4a0817c14ad01c22b6561d7b81",
+	"descriptionMd5": "1faf865b0bebdfe23dac182993a86359"
+}

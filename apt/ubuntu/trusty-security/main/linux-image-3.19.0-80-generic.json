@@ -1,0 +1,41 @@
+{
+	"raw": {},
+	"required": [
+		"Filename",
+		"Size"
+	],
+	"package": "linux-image-3.19.0-80-generic",
+	"source": "linux-lts-vivid",
+	"version": "3.19.0-80.88~14.04.1",
+	"section": "kernel",
+	"priority": "optional",
+	"architecture": "amd64",
+	"depends": [
+		"initramfs-tools (>= 0.36ubuntu6) | linux-initramfs-tools",
+		"module-init-tools (>= 3.3-pre11-4ubuntu3)"
+	],
+	"preDepends": [
+		"dpkg (>= 1.10.24)"
+	],
+	"recommends": [
+		"grub-pc | grub-efi-amd64 | grub-efi-ia32 | grub | lilo (>= 19.1)"
+	],
+	"suggests": [
+		"fdutils",
+		"linux-lts-vivid-tools",
+		"linux-headers-3.19.0-80-generic"
+	],
+	"conflicts": [
+		"hotplug (<< 0.0.20040105-1)"
+	],
+	"installedSize": 46664,
+	"maintainer": "Ubuntu Kernel Team <kernel-team@lists.ubuntu.com>",
+	"description": "Linux kernel image for version 3.19.0 on 64 bit x86 SMP",
+	"filename": "pool/main/l/linux-lts-vivid/linux-image-3.19.0-80-generic_3.19.0-80.88~14.04.1_amd64.deb",
+	"size": 16777370,
+	"md5": "065167354ba3efef7dfab69daecb1b2d",
+	"sha1": "e3ecf161fd05b6a5897614e06b5e953a4144fd92",
+	"sha256": "7578816493b687f27ed20d370300a16c0832d739f1d19259e991cdf9cd7f9d50",
+	"sha512": "f486e9b3cbe9d7b2bf59be2c58ebbcce5e22ea80219375592e04784a5d73a85aa449c2f426513d9592ae670db6bd0c118e4eab6313362cfd7c518b0845dd6c00",
+	"descriptionMd5": "822b1490c0cb4876a8aa177d1b95c470"
+}

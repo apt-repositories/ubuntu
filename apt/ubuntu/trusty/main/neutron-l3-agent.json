@@ -1,0 +1,35 @@
+{
+	"raw": {},
+	"required": [
+		"Filename",
+		"Size"
+	],
+	"package": "neutron-l3-agent",
+	"source": "neutron",
+	"version": "1:2014.1-0ubuntu1",
+	"section": "net",
+	"priority": "optional",
+	"architecture": "all",
+	"depends": [
+		"iputils-arping",
+		"neutron-common (= 1:2014.1-0ubuntu1)",
+		"neutron-metadata-agent (= 1:2014.1-0ubuntu1)",
+		"sysv-rc (>= 2.88dsf-24) | file-rc (>= 0.8.16)",
+		"python:any"
+	],
+	"replaces": [
+		"quantum-l3-agent (<< 1:2013.2~b2-0ubuntu1~)"
+	],
+	"breaks": [
+		"quantum-l3-agent (<< 1:2013.2~b2-0ubuntu1~)"
+	],
+	"installedSize": 53,
+	"maintainer": "Ubuntu Developers <ubuntu-devel-discuss@lists.ubuntu.com>",
+	"description": "Neutron is a virtual network service for Openstack - l3 agent",
+	"filename": "pool/main/n/neutron/neutron-l3-agent_2014.1-0ubuntu1_all.deb",
+	"size": 3116,
+	"md5": "275a822d95a174a4e84be1f8a5984c22",
+	"sha1": "9ac72a90481136cde143e195ec6fe99941437d9c",
+	"sha256": "cce2d140a2f52e71c89e7fdbbd25f1d535728e4eba8187c717e0910d10a99395",
+	"descriptionMd5": "7dc64a3d701aa413a40358ba3069904a"
+}

@@ -1,0 +1,61 @@
+{
+	"raw": {},
+	"required": [
+		"Filename",
+		"Size"
+	],
+	"package": "puppet-agent",
+	"version": "8.4.0-1",
+	"section": "universe/admin",
+	"priority": "optional",
+	"architecture": "all",
+	"depends": [
+		"adduser",
+		"facter (>= 4.3.0)",
+		"ruby",
+		"ruby-augeas",
+		"ruby-concurrent",
+		"ruby-deep-merge",
+		"ruby-puppet-resource-api",
+		"ruby-semantic-puppet",
+		"ruby-shadow",
+		"ruby-sorted-set",
+		"debconf (>= 0.5) | debconf-2.0"
+	],
+	"preDepends": [
+		"init-system-helpers (>= 1.54~)"
+	],
+	"recommends": [
+		"augeas-tools",
+		"debconf-utils",
+		"lsb-release",
+		"ruby-selinux"
+	],
+	"suggests": [
+		"hiera-eyaml",
+		"ruby-hocon",
+		"ruby-msgpack"
+	],
+	"replaces": [
+		"puppet (<< 7.16.0)",
+		"puppet-common (<< 4.5.1-1)"
+	],
+	"breaks": [
+		"puppet (<< 7.16.0)",
+		"puppet-common (<< 4.5.1-1)",
+		"puppet-master (<< 7.9.3)",
+		"puppet-master-passenger (<< 7.9.3)",
+		"puppetserver (<< 8)"
+	],
+	"installedSize": 8381,
+	"maintainer": "Ubuntu Developers <ubuntu-devel-discuss@lists.ubuntu.com>",
+	"description": "configuration management system, agent",
+	"homepage": "https://github.com/puppetlabs/puppet",
+	"filename": "pool/universe/p/puppet-agent/puppet-agent_8.4.0-1_all.deb",
+	"size": 1396290,
+	"md5": "709a914278a5281306c00bb7f8c5a377",
+	"sha1": "a2cca3b6d4e9c65586e90f8567fd8cf263d1d5dc",
+	"sha256": "e76b55a3f09bd95db1f50c526f0a66e27b7b88b14225fb02d0ade8840d7601e8",
+	"sha512": "1ad6cf2b821d750ac3e6ab656c4731d5395b7d6400a191843078934cf31c19b2c584c94f4e6493d871a6ea54d9da17c5d5c8f2bba98b629e5c5fe4b12405b424",
+	"descriptionMd5": "9c11faacf3d08afaeacee81d1e4a7435"
+}

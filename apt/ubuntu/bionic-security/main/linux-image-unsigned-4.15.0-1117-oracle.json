@@ -1,0 +1,44 @@
+{
+	"raw": {},
+	"required": [
+		"Filename",
+		"Size"
+	],
+	"package": "linux-image-unsigned-4.15.0-1117-oracle",
+	"source": "linux-oracle",
+	"version": "4.15.0-1117.128",
+	"section": "kernel",
+	"priority": "optional",
+	"architecture": "amd64",
+	"depends": [
+		"kmod",
+		"linux-base (>= 4.5ubuntu1~16.04.1)",
+		"linux-modules-4.15.0-1117-oracle"
+	],
+	"recommends": [
+		"grub-pc | grub-efi-amd64 | grub-efi-ia32 | grub | lilo",
+		"initramfs-tools | linux-initramfs-tool"
+	],
+	"suggests": [
+		"fdutils",
+		"linux-oracle-doc-4.15.0 | linux-oracle-source-4.15.0",
+		"linux-oracle-tools",
+		"linux-headers-4.15.0-1117-oracle"
+	],
+	"breaks": [
+		"initramfs-tools (<< 0.130ubuntu3.6)"
+	],
+	"conflicts": [
+		"linux-image-4.15.0-1117-oracle"
+	],
+	"installedSize": 9004,
+	"maintainer": "Ubuntu Kernel Team <kernel-team@lists.ubuntu.com>",
+	"description": "Oracle Linux kernel image for version 4.15.0 on 64 bit x86 SMP",
+	"filename": "pool/main/l/linux-oracle/linux-image-unsigned-4.15.0-1117-oracle_4.15.0-1117.128_amd64.deb",
+	"size": 8135380,
+	"md5": "78c6b028867692a4b24e4983b7a8e450",
+	"sha1": "db15e5ebd79718dc70f72765f8a07b988da35f04",
+	"sha256": "146ce2542b6b5f69b65bd169e08616748df9443f8edee3f8d62dc74e4e527e83",
+	"sha512": "698c87c4be83b33405ee461101c86bd612c88892a4ebeb7c6b0eba910901dbeb25bc44dab52c3bcfcce9c86fa10888a05cdd9aac3f2f2ca1ea7107e9a8cf2001",
+	"descriptionMd5": "c54abeefa130a057fcf5255783b60d59"
+}

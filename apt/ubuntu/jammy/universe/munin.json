@@ -1,0 +1,63 @@
+{
+	"raw": {},
+	"required": [
+		"Filename",
+		"Size"
+	],
+	"package": "munin",
+	"version": "2.0.57-1ubuntu2",
+	"section": "universe/net",
+	"priority": "optional",
+	"architecture": "all",
+	"depends": [
+		"debconf (>= 0.5) | debconf-2.0",
+		"perl:any",
+		"lsb-base (>= 4.1)",
+		"cron | cron-daemon | systemd-sysv",
+		"fonts-dejavu-core",
+		"libdate-manip-perl",
+		"libdigest-md5-perl",
+		"libfile-copy-recursive-perl",
+		"libhtml-template-perl",
+		"libio-socket-inet6-perl",
+		"liblog-log4perl-perl",
+		"librrds-perl",
+		"libstorable-perl",
+		"libtime-hires-perl",
+		"liburi-perl",
+		"munin-common (>= 2.0.57-1ubuntu2)",
+		"netbase",
+		"rrdtool"
+	],
+	"preDepends": [
+		"init-system-helpers (>= 1.54~)"
+	],
+	"recommends": [
+		"munin-node",
+		"munin-doc",
+		"libcgi-fast-perl"
+	],
+	"suggests": [
+		"www-browser",
+		"httpd",
+		"libnet-ssleay-perl",
+		"libapache2-mod-fcgid"
+	],
+	"replaces": [
+		"munin-doc (<< 2.0.37-3)"
+	],
+	"breaks": [
+		"munin-doc (<< 2.0.37-3)"
+	],
+	"installedSize": 611,
+	"maintainer": "Ubuntu Developers <ubuntu-devel-discuss@lists.ubuntu.com>",
+	"description": "network-wide graphing framework (grapher/gatherer)",
+	"homepage": "http://munin-monitoring.org",
+	"filename": "pool/universe/m/munin/munin_2.0.57-1ubuntu2_all.deb",
+	"size": 135150,
+	"md5": "f9e8781768fda9324a4fb9576fe77f03",
+	"sha1": "a291027be76c1ed681c7b8ddd0aa77aca5e536ac",
+	"sha256": "16d8e001ef382202ca21639959a95d3cd162291f260fad3933c239f2af3b119d",
+	"sha512": "6331602b7ef2ab5b87a24c7fbd2f22ea221c7e16898a7bf93105e52d56f1a781d44c6370b110b7cde5bb3d88324cb73a697982d510a455e8bdcd0465700940dc",
+	"descriptionMd5": "397739392252923095c5812dbaad0fdf"
+}

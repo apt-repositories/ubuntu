@@ -1,0 +1,37 @@
+{
+	"raw": {},
+	"required": [
+		"Filename",
+		"Size"
+	],
+	"package": "inetutils-telnetd",
+	"source": "inetutils",
+	"version": "2:1.9.2-1",
+	"section": "universe/net",
+	"priority": "optional",
+	"architecture": "amd64",
+	"depends": [
+		"libc6 (>= 2.15)",
+		"libshishi0 (>= 0.0.30)",
+		"libtinfo5",
+		"netbase",
+		"inetutils-syslogd | system-log-daemon",
+		"inetutils-inetd | inet-superserver"
+	],
+	"replaces": [
+		"telnetd-hurd"
+	],
+	"conflicts": [
+		"telnet-server"
+	],
+	"installedSize": 335,
+	"maintainer": "Ubuntu Developers <ubuntu-devel-discuss@lists.ubuntu.com>",
+	"description": "telnet server",
+	"homepage": "http://www.gnu.org/software/inetutils/",
+	"filename": "pool/universe/i/inetutils/inetutils-telnetd_1.9.2-1_amd64.deb",
+	"size": 62652,
+	"md5": "8ea6844145527a9a7ba0a95b73fc58b6",
+	"sha1": "9e97bd2e82cd2429af453a300d0d6600cf3f610f",
+	"sha256": "2daa3741b846e7a5c36e4168f126ab883f28886c470f7fdb854cec188cfb7a82",
+	"descriptionMd5": "307eb7852949929b7d82313556f3dc78"
+}

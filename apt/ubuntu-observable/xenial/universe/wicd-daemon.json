@@ -1,0 +1,55 @@
+[{
+	"raw": {},
+	"required": [
+		"Filename",
+		"Size"
+	],
+	"package": "wicd-daemon",
+	"source": "wicd",
+	"version": "1.7.4+tb2-1",
+	"section": "universe/net",
+	"priority": "optional",
+	"architecture": "all",
+	"depends": [
+		"adduser",
+		"dbus",
+		"dhcpcd | isc-dhcp-client | pump | udhcpc",
+		"iputils-ping | inetutils-ping",
+		"lsb-base (>= 3.2-13)",
+		"net-tools | ethtool",
+		"net-tools | iproute2",
+		"psmisc",
+		"python-dbus",
+		"python-gobject",
+		"python-wicd (= 1.7.4+tb2-1)",
+		"wireless-tools",
+		"wpasupplicant",
+		"python:any (>= 2.7.5-5~)"
+	],
+	"preDepends": [
+		"debconf (>= 1.5.34)"
+	],
+	"recommends": [
+		"rfkill",
+		"wicd-gtk (= 1.7.4+tb2-1) | wicd-curses (= 1.7.4+tb2-1) | wicd-cli (= 1.7.4+tb2-1) | wicd-client"
+	],
+	"suggests": [
+		"pm-utils"
+	],
+	"replaces": [
+		"wicd (<= 1.6.2.2-4)"
+	],
+	"breaks": [
+		"wicd (<= 1.6.2.2-4)"
+	],
+	"installedSize": 943,
+	"maintainer": "Ubuntu Developers <ubuntu-devel-discuss@lists.ubuntu.com>",
+	"description": "wired and wireless network manager - daemon",
+	"homepage": "https://launchpad.net/wicd",
+	"filename": "pool/universe/w/wicd/wicd-daemon_1.7.4+tb2-1_all.deb",
+	"size": 142136,
+	"md5": "91c16c685be5aeaf1f2119a0bde890c3",
+	"sha1": "d1426c0e80aca3b64ba3b462c716ee7708bf712e",
+	"sha256": "c4de094678c27ebf7677170aedeeefdbc0afe4e7101a34fcace31e19410e6373",
+	"descriptionMd5": "94ed455d343896c99920ce326979ff92"
+}]

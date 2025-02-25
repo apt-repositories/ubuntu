@@ -1,0 +1,47 @@
+{
+	"raw": {},
+	"required": [
+		"Filename",
+		"Size"
+	],
+	"package": "printer-driver-hpijs",
+	"source": "hplip",
+	"version": "3.16.3+repack0-1",
+	"section": "text",
+	"priority": "optional",
+	"architecture": "amd64",
+	"depends": [
+		"libhpmud0 (= 3.16.3+repack0-1)",
+		"libc6 (>= 2.14)",
+		"libdbus-1-3 (>= 1.9.14)",
+		"libgcc1 (>= 1:3.0)",
+		"libjpeg8 (>= 8c)",
+		"libstdc++6 (>= 4.1.1)"
+	],
+	"recommends": [
+		"cups (>= 1.4.0) | cupsddk | hpijs-ppds",
+		"cups-filters (>= 1.0.42) | foomatic-filters",
+		"ghostscript"
+	],
+	"suggests": [
+		"hpijs-ppds",
+		"hplip",
+		"hplip-doc"
+	],
+	"replaces": [
+		"hpijs (<< 3.11.10-1ubuntu2)"
+	],
+	"breaks": [
+		"hpijs (<< 3.11.10-1ubuntu2)"
+	],
+	"installedSize": 2016,
+	"maintainer": "Ubuntu Developers <ubuntu-devel-discuss@lists.ubuntu.com>",
+	"description": "HP Linux Printing and Imaging - printer driver (hpijs)",
+	"homepage": "http://hplipopensource.com/hplip-web/index.html",
+	"filename": "pool/main/h/hplip/printer-driver-hpijs_3.16.3+repack0-1_amd64.deb",
+	"size": 288096,
+	"md5": "f4c67288febb9e36609bf3f44d0edd13",
+	"sha1": "88a515c558b90f14496b9639f72ab05fd04376ca",
+	"sha256": "389cf07fdeee3e9fa1b4efa128858cfdc8dfe7a1eea39869169b81a2dbc063ad",
+	"descriptionMd5": "a4e5debc05f7a32d2cd372505ee6118a"
+}

@@ -1,0 +1,32 @@
+{
+	"raw": {},
+	"required": [
+		"Filename",
+		"Size"
+	],
+	"package": "ubuntu-system-service",
+	"version": "0.3.1",
+	"section": "admin",
+	"priority": "optional",
+	"architecture": "all",
+	"depends": [
+		"python3:any (>= 3.3.2-2~)",
+		"python3-apt",
+		"python3-dbus",
+		"python3-gi",
+		"policykit-1"
+	],
+	"breaks": [
+		"gnome-settings-daemon (<< 3.6.4-0ubuntu8)",
+		"indicator-datetime (<< 12.10.3daily13.03.07)"
+	],
+	"installedSize": 54,
+	"maintainer": "Michael Vogt <mvo@ubuntu.com>",
+	"description": "Dbus service to set various system-wide configurations",
+	"filename": "pool/main/u/ubuntu-system-service/ubuntu-system-service_0.3.1_all.deb",
+	"size": 9128,
+	"md5": "f567b503a19c44d7c922655e4ba9fd16",
+	"sha1": "b4d7d30bb7e532cddb3fb4845f5f244efe39d29e",
+	"sha256": "2e3eb8a84348a4603520f0f38cd0b45baabdf816c2689db52c92411c6ee8687c",
+	"descriptionMd5": "8cf38bb8f33a85cc1effac46d40ae28f"
+}

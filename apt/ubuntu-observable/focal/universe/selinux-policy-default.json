@@ -1,0 +1,44 @@
+[{
+	"raw": {},
+	"required": [
+		"Filename",
+		"Size"
+	],
+	"package": "selinux-policy-default",
+	"source": "refpolicy",
+	"version": "2:2.20190201-8",
+	"section": "universe/admin",
+	"priority": "optional",
+	"architecture": "all",
+	"depends": [
+		"libselinux1 (>= 2.8)",
+		"libsemanage1 (>= 2.8)",
+		"libsepol1 (>= 2.8)",
+		"policycoreutils (>= 2.8)",
+		"selinux-utils (>= 2.8)"
+	],
+	"recommends": [
+		"checkpolicy",
+		"setools"
+	],
+	"suggests": [
+		"logcheck",
+		"syslog-summary"
+	],
+	"breaks": [
+		"selinux-basics (<< 0.5.2~)"
+	],
+	"conflicts": [
+		"mcstrans"
+	],
+	"installedSize": 4683,
+	"maintainer": "Ubuntu Developers <ubuntu-devel-discuss@lists.ubuntu.com>",
+	"description": "Strict and Targeted variants of the SELinux policy",
+	"homepage": "https://github.com/SELinuxProject/refpolicy/releases",
+	"filename": "pool/universe/r/refpolicy/selinux-policy-default_2.20190201-8_all.deb",
+	"size": 3313656,
+	"md5": "cec7b02ddad567de6e8ea37340274a8a",
+	"sha1": "6e56f96d6c61dbdc9c1a7a8759f4ed47be691743",
+	"sha256": "c98ddc6c36d34531dffe1bc845594ac33939eca50b9d0633176375160f620105",
+	"descriptionMd5": "325e1ecabb3986761a584eae753fa7e7"
+}]

@@ -1,0 +1,41 @@
+{
+	"raw": {},
+	"required": [
+		"Filename",
+		"Size"
+	],
+	"package": "buildbot-worker",
+	"source": "buildbot",
+	"version": "2.6.0-1",
+	"section": "universe/devel",
+	"priority": "optional",
+	"architecture": "all",
+	"depends": [
+		"python3-future",
+		"python3-twisted (>= 17.9.0)",
+		"python3:any",
+		"passwd",
+		"lsb-base"
+	],
+	"recommends": [
+		"bzr | subversion | cvs | mercurial | darcs | git"
+	],
+	"replaces": [
+		"buildbot-slave (<< 1.0)",
+		"python3-buildbot-worker (<< 1.7.0)"
+	],
+	"breaks": [
+		"buildbot-slave (<< 1.0)",
+		"python3-buildbot-worker (<< 1.7.0)"
+	],
+	"installedSize": 276,
+	"maintainer": "Ubuntu Developers <ubuntu-devel-discuss@lists.ubuntu.com>",
+	"description": "System to automate the compile/test cycle (worker agent)",
+	"homepage": "https://buildbot.net",
+	"filename": "pool/universe/b/buildbot/buildbot-worker_2.6.0-1_all.deb",
+	"size": 56672,
+	"md5": "17324ae57a10f74ef1c48d3fe3c40341",
+	"sha1": "eeeae932b28d9b669cf7ee1bcd010b6efc11c9c1",
+	"sha256": "722eee7918b46d48af152c0f578eb5e74cb9efeb169ab6721c4434f5a974682e",
+	"descriptionMd5": "b6738df3137c94f3611025766ef92ec5"
+}

@@ -1,0 +1,40 @@
+{
+	"raw": {},
+	"required": [
+		"Filename",
+		"Size"
+	],
+	"package": "libc++-17-dev",
+	"source": "llvm-toolchain-17",
+	"version": "1:17.0.6-9ubuntu1",
+	"section": "universe/libdevel",
+	"priority": "optional",
+	"architecture": "amd64",
+	"depends": [
+		"libc++1-17t64 (= 1:17.0.6-9ubuntu1)",
+		"libc++abi-17-dev (= 1:17.0.6-9ubuntu1)",
+		"libunwind-17-dev"
+	],
+	"replaces": [
+		"libc++-x.y-dev",
+		"libc++abi-17-dev (<< 1:17.0.6~++20231206041259)"
+	],
+	"breaks": [
+		"libc++-dev (<< 44)",
+		"libc++abi-17-dev (<< 1:17.0.6~++20231206041259)"
+	],
+	"conflicts": [
+		"libc++-x.y-dev"
+	],
+	"installedSize": 11383,
+	"maintainer": "Ubuntu Developers <ubuntu-devel-discuss@lists.ubuntu.com>",
+	"description": "LLVM C++ Standard library (development files)",
+	"homepage": "https://www.llvm.org/",
+	"filename": "pool/universe/l/llvm-toolchain-17/libc++-17-dev_17.0.6-9ubuntu1_amd64.deb",
+	"size": 1183872,
+	"md5": "f876f014a84034610dbce57f998fb796",
+	"sha1": "dc7321ed3c076a506e800497aaf9715a9bf247b3",
+	"sha256": "560e4629518b132585761fbfb26b4a1df837a9eacca277900ea249165cb8e343",
+	"sha512": "ef5e673d40361ca609b3e82f77dc25320ae5cdbbebb876503d13a01543a128fde6d5518669c1fe9ce972339ea57f01bec7bfad94ec172354f955ec220132ba2e",
+	"descriptionMd5": "8cd44d2ae4969ab1c95a30917ddc69e7"
+}

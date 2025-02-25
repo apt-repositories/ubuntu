@@ -1,0 +1,45 @@
+{
+	"raw": {},
+	"required": [
+		"Filename",
+		"Size"
+	],
+	"package": "courier-pop",
+	"source": "courier",
+	"version": "0.78.0-2ubuntu2",
+	"section": "universe/mail",
+	"priority": "extra",
+	"architecture": "amd64",
+	"depends": [
+		"courier-base (= 0.78.0-2ubuntu2)",
+		"debconf | debconf-2.0",
+		"default-mta | mail-transport-agent",
+		"sysvinit-utils (>= 2.88dsf-50) | init-d-script",
+		"courier-authlib (>= 0.66.4-5~)",
+		"libc6 (>= 2.15)"
+	],
+	"suggests": [
+		"courier-doc",
+		"mail-reader"
+	],
+	"replaces": [
+		"courier-pop-ssl (<< 0.75.0-1~)",
+		"pop3-server"
+	],
+	"breaks": [
+		"courier-pop-ssl (<< 0.75.0-1~)"
+	],
+	"conflicts": [
+		"pop3-server"
+	],
+	"installedSize": 176,
+	"maintainer": "Ubuntu Developers <ubuntu-devel-discuss@lists.ubuntu.com>",
+	"description": "Courier mail server - POP3 server",
+	"homepage": "http://www.courier-mta.org/",
+	"filename": "pool/universe/c/courier/courier-pop_0.78.0-2ubuntu2_amd64.deb",
+	"size": 41896,
+	"md5": "2bb244aa0ed5a3b542535d719123c7fe",
+	"sha1": "078b04fdf6b7336271def9ff8d8a1fd56a5af9da",
+	"sha256": "2f626f0b816dfb1946a93b58426e3f7ce023b392b8404558397d24d0f95da5f6",
+	"descriptionMd5": "89ea9794c711647b9c31923297fd27c5"
+}

@@ -1,0 +1,42 @@
+{
+	"raw": {},
+	"required": [
+		"Filename",
+		"Size"
+	],
+	"package": "linux-image-5.4.0-65-lowlatency",
+	"source": "linux-signed-hwe-5.4",
+	"version": "5.4.0-65.73~18.04.1",
+	"section": "kernel",
+	"priority": "optional",
+	"architecture": "amd64",
+	"depends": [
+		"kmod",
+		"linux-base (>= 4.5ubuntu1~16.04.1)",
+		"linux-modules-5.4.0-65-lowlatency"
+	],
+	"recommends": [
+		"grub-pc | grub-efi-amd64 | grub-efi-ia32 | grub | lilo",
+		"initramfs-tools | linux-initramfs-tool"
+	],
+	"suggests": [
+		"fdutils",
+		"linux-hwe-5.4-doc-5.4.0 | linux-hwe-5.4-source-5.4.0",
+		"linux-hwe-5.4-tools",
+		"linux-headers-5.4.0-65-lowlatency"
+	],
+	"conflicts": [
+		"linux-image-unsigned-5.4.0-65-lowlatency"
+	],
+	"installedSize": 9255,
+	"maintainer": "Canonical Kernel Team <kernel-team@lists.ubuntu.com>",
+	"description": "Signed kernel image lowlatency",
+	"builtUsing": "linux-hwe-5.4 (= 5.4.0-65.73~18.04.1)",
+	"filename": "pool/main/l/linux-signed-hwe-5.4/linux-image-5.4.0-65-lowlatency_5.4.0-65.73~18.04.1_amd64.deb",
+	"size": 9044620,
+	"md5": "25bb2c0954e710a3466915243599a0c1",
+	"sha1": "9cb20dfba97b7af69c00fa9f6eb089ba3fe95fe8",
+	"sha256": "8a5a61658c2a09844154078d31beb0dcb83ad8b7e3a4a04b032995299bd36768",
+	"sha512": "53b13575a3d074d5816a23fd50f4c7a8ef4e3eee9d4d54ba82861f2737c616bb87fa2aee57cb1345708349a1800f57a4b0198546c5ec823430c5926862eb1a43",
+	"descriptionMd5": "d033c93139790e893a4e35936dd49bc8"
+}

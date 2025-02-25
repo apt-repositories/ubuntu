@@ -1,0 +1,44 @@
+[{
+	"raw": {},
+	"required": [
+		"Filename",
+		"Size"
+	],
+	"package": "linux-image-unsigned-5.8.0-1038-oracle",
+	"source": "linux-oracle-5.8",
+	"version": "5.8.0-1038.39~20.04.1",
+	"section": "kernel",
+	"priority": "optional",
+	"architecture": "amd64",
+	"depends": [
+		"kmod",
+		"linux-base (>= 4.5ubuntu1~16.04.1)",
+		"linux-modules-5.8.0-1038-oracle"
+	],
+	"recommends": [
+		"grub-pc | grub-efi-amd64 | grub-efi-ia32 | grub | lilo",
+		"initramfs-tools | linux-initramfs-tool"
+	],
+	"suggests": [
+		"fdutils",
+		"linux-oracle-5.8-doc-5.8.0 | linux-oracle-5.8-source-5.8.0",
+		"linux-oracle-5.8-tools",
+		"linux-headers-5.8.0-1038-oracle"
+	],
+	"breaks": [
+		"initramfs-tools (<< 0.130ubuntu3.6)"
+	],
+	"conflicts": [
+		"linux-image-5.8.0-1038-oracle"
+	],
+	"installedSize": 13592,
+	"maintainer": "Ubuntu Kernel Team <kernel-team@lists.ubuntu.com>",
+	"description": "Oracle Linux kernel image for version 5.8.0 on 64 bit x86 SMP",
+	"filename": "pool/main/l/linux-oracle-5.8/linux-image-unsigned-5.8.0-1038-oracle_5.8.0-1038.39~20.04.1_amd64.deb",
+	"size": 10205204,
+	"md5": "3df4bec5ad4166137b52d0fe75b72278",
+	"sha1": "9f0720549eaf255a5def29610d46a579746c2c2c",
+	"sha256": "214dfba9c78b43f0c2a392e6186aa5815529b3962aa17b4c4b9c06fa7fec9354",
+	"sha512": "efe279539e04d0fa54cdfeb3bb39731814dc5e31043f22b6b9cfdde2e865627c9072135fc1709c16b951d7b6fa986ef1e41a6395238a7c7e4389ae9df68e7084",
+	"descriptionMd5": "859c188dae60877faddb837fe6efcab9"
+}]

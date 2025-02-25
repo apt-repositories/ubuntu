@@ -1,0 +1,33 @@
+[{
+	"raw": {},
+	"required": [
+		"Filename",
+		"Size"
+	],
+	"package": "prometheus-ipmi-exporter",
+	"version": "1.8.0-1",
+	"section": "universe/net",
+	"priority": "optional",
+	"architecture": "amd64",
+	"depends": [
+		"adduser",
+		"daemon | systemd-sysv",
+		"freeipmi-tools",
+		"libc6 (>= 2.34)"
+	],
+	"preDepends": [
+		"init-system-helpers (>= 1.54~)"
+	],
+	"installedSize": 9958,
+	"maintainer": "Ubuntu Developers <ubuntu-devel-discuss@lists.ubuntu.com>",
+	"description": "Prometheus exporter for IPMI devices",
+	"homepage": "https://github.com/prometheus-community/ipmi_exporter",
+	"builtUsing": "golang-1.21 (= 1.21.6-1), golang-github-alecthomas-units (= 0.0~git20211218.b94a6e3-1), golang-github-beorn7-perks (= 1.0.1-1), golang-github-cespare-xxhash (= 2.1.1-2), golang-github-coreos-go-systemd (= 22.3.2-1), golang-github-go-kit-log (= 0.2.1-1), golang-github-go-logfmt-logfmt (= 0.5.0-2), golang-github-jpillora-backoff (= 1.0.0-1.1), golang-github-mwitkow-go-conntrack (= 0.0~git20190716.2f06839-3), golang-github-prometheus-client-golang (= 1.18.0-1), golang-github-prometheus-client-model (= 0.5.0-1), golang-github-prometheus-common (= 0.46.0-1), golang-github-prometheus-exporter-toolkit (= 0.11.0-1), golang-github-prometheus-procfs (= 0.12.0-1), golang-go.crypto (= 1:0.17.0-1), golang-golang-x-net (= 1:0.19.0+dfsg-1), golang-golang-x-oauth2 (= 0.15.0-1), golang-golang-x-sync (= 0.5.0-1), golang-golang-x-sys (= 0.15.0-1), golang-golang-x-text (= 0.14.0-1), golang-google-protobuf (= 1.32.0-1), golang-gopkg-alecthomas-kingpin.v2 (= 2.2.6-4), golang-yaml.v2 (= 2.4.0-4)",
+	"filename": "pool/universe/p/prometheus-ipmi-exporter/prometheus-ipmi-exporter_1.8.0-1_amd64.deb",
+	"size": 3379474,
+	"md5": "a25fed9c0e9d0d27bcc198ed1a353da2",
+	"sha1": "457f508b7316de211eb43b7b2ce7ca507f2d151a",
+	"sha256": "22b5a630bc6bfda5505650ae002d3093397913bd5fa54369096846ba8d113028",
+	"sha512": "87c9127e10eec787dc980083b21a32d30fa2ed8848d9c5bdb90138b0560d9dec2b6807b872a24ca5f30f45916ec0b913c8fc8b033e3467c3ba8b2d133acd7fb8",
+	"descriptionMd5": "5a7234af932b452f2884a49a9f7f0385"
+}]

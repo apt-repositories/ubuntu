@@ -1,0 +1,40 @@
+{
+	"raw": {},
+	"required": [
+		"Filename",
+		"Size"
+	],
+	"package": "selinux-basics",
+	"version": "0.5.7",
+	"section": "universe/admin",
+	"priority": "optional",
+	"architecture": "all",
+	"depends": [
+		"checkpolicy",
+		"policycoreutils (>= 2.4)",
+		"selinux-utils",
+		"perl:any",
+		"python3:any"
+	],
+	"recommends": [
+		"policycoreutils-python-utils (>= 2.4)",
+		"selinux-policy-default",
+		"setools"
+	],
+	"suggests": [
+		"logcheck",
+		"syslog-summary"
+	],
+	"breaks": [
+		"selinux-policy-default (<= 2:0.2.20100524-4)"
+	],
+	"installedSize": 51,
+	"maintainer": "Ubuntu Developers <ubuntu-devel-discuss@lists.ubuntu.com>",
+	"description": "SELinux basic support",
+	"filename": "pool/universe/s/selinux-basics/selinux-basics_0.5.7_all.deb",
+	"size": 13420,
+	"md5": "7224b6362c7bb9c0e61a9495c18bbf5e",
+	"sha1": "0b72f332a2c3d01bd9eb83de8fa90d1c81e0e75d",
+	"sha256": "373433750186810d36006385a7f352d2efc4021590605fbbf3b38bec43691fae",
+	"descriptionMd5": "dca2ca41603c7b932fd8870763cff243"
+}

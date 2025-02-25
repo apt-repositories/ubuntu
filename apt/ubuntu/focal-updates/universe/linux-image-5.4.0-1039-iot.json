@@ -1,0 +1,42 @@
+{
+	"raw": {},
+	"required": [
+		"Filename",
+		"Size"
+	],
+	"package": "linux-image-5.4.0-1039-iot",
+	"source": "linux-signed-iot",
+	"version": "5.4.0-1039.40",
+	"section": "universe/kernel",
+	"priority": "optional",
+	"architecture": "amd64",
+	"depends": [
+		"kmod",
+		"linux-base (>= 4.5ubuntu1~16.04.1)",
+		"linux-modules-5.4.0-1039-iot"
+	],
+	"recommends": [
+		"grub-pc | grub-efi-amd64 | grub-efi-ia32 | grub | lilo",
+		"initramfs-tools | linux-initramfs-tool"
+	],
+	"suggests": [
+		"fdutils",
+		"linux-doc | linux-iot-source-5.4.0",
+		"linux-iot-tools",
+		"linux-headers-5.4.0-1039-iot"
+	],
+	"conflicts": [
+		"linux-image-unsigned-5.4.0-1039-iot"
+	],
+	"installedSize": 13392,
+	"maintainer": "Canonical Kernel Team <kernel-team@lists.ubuntu.com>",
+	"description": "Signed kernel image iot",
+	"builtUsing": "linux-iot (= 5.4.0-1039.40)",
+	"filename": "pool/universe/l/linux-signed-iot/linux-image-5.4.0-1039-iot_5.4.0-1039.40_amd64.deb",
+	"size": 10484696,
+	"md5": "d0e7cd7a9255e7a47621a0f7127cacc1",
+	"sha1": "ce6af884be9b38e5687e6cebac4198f648086670",
+	"sha256": "31f80d90bbeda1dd0e49dcff63f47755268bcff578c79948f8e723e6ec965c39",
+	"sha512": "3056547475abecbc1b73953f07afd1e77122fd412055f9c7dc677dee99728b4290be7c2557c5d1ed40e4f64b2323bbe2165c4bd1d60eb18b801aa118a7e59a63",
+	"descriptionMd5": "49c48fb695f04413edec9a2bf639e45c"
+}

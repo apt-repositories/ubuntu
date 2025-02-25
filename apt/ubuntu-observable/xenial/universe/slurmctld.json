@@ -1,0 +1,41 @@
+[{
+	"raw": {},
+	"required": [
+		"Filename",
+		"Size"
+	],
+	"package": "slurmctld",
+	"source": "slurm-llnl",
+	"version": "15.08.7-1build1",
+	"section": "universe/admin",
+	"priority": "extra",
+	"architecture": "amd64",
+	"depends": [
+		"libc6 (>= 2.15)",
+		"init-system-helpers (>= 1.18~)",
+		"slurm-client (= 15.08.7-1build1)",
+		"openssl (>= 0.9.8g-9)",
+		"slurm-wlm-basic-plugins (= 15.08.7-1build1)",
+		"adduser",
+		"ucf",
+		"munge",
+		"openssl-blacklist",
+		"lsb-base (>= 3.2-12)"
+	],
+	"replaces": [
+		"slurm-llnl (<< 14.03)"
+	],
+	"breaks": [
+		"slurm-llnl (<< 14.03)"
+	],
+	"installedSize": 2419,
+	"maintainer": "Ubuntu Developers <ubuntu-devel-discuss@lists.ubuntu.com>",
+	"description": "SLURM central management daemon",
+	"homepage": "http://slurm.schedmd.com",
+	"filename": "pool/universe/s/slurm-llnl/slurmctld_15.08.7-1build1_amd64.deb",
+	"size": 830806,
+	"md5": "487f3365e8eacfc71e98f6f45d34b278",
+	"sha1": "f7e206d858117a9e0882cfd7505b276e165f763d",
+	"sha256": "f3cf0a9318913838591e4584f5f99fa6cdf096afd36d4ad75de18d5b4d5688ed",
+	"descriptionMd5": "3603740f3ec02c3a327a69a609446f61"
+}]

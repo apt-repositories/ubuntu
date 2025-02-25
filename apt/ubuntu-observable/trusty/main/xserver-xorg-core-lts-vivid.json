@@ -1,0 +1,87 @@
+[{
+	"raw": {},
+	"required": [
+		"Filename",
+		"Size"
+	],
+	"package": "xserver-xorg-core-lts-vivid",
+	"source": "xorg-server-lts-vivid",
+	"version": "2:1.17.1-0ubuntu3.1~trusty1.1",
+	"section": "x11",
+	"priority": "optional",
+	"architecture": "amd64",
+	"depends": [
+		"xserver-common",
+		"keyboard-configuration",
+		"udev (>= 149)",
+		"libegl1-mesa | libegl1",
+		"libc6 (>= 2.17)",
+		"libdrm2 (>= 2.3.1)",
+		"libepoxy0 (>= 1.0)",
+		"libgbm1-lts-vivid (>= 8.1~0)",
+		"libgcrypt11 (>= 1.5.1)",
+		"libgl1-mesa-glx-lts-vivid | libgl1",
+		"libpciaccess0 (>= 0.12.902)",
+		"libpixman-1-0 (>= 0.30.0)",
+		"libudev1 (>= 183)",
+		"libxau6",
+		"libxdmcp6",
+		"libxfont1 (>= 1:1.4.2)",
+		"libxshmfence1"
+	],
+	"recommends": [
+		"libgl1-mesa-dri-lts-vivid (>= 7.10.2-4)"
+	],
+	"suggests": [
+		"xfonts-100dpi | xfonts-75dpi",
+		"xfonts-scalable"
+	],
+	"replaces": [
+		"xserver-xorg-core",
+		"xserver-xorg-video-modesetting"
+	],
+	"breaks": [
+		"libgl1-mesa-dri-experimental (<< 7.10.2-4)",
+		"libgl1-mesa-dri-lts-vivid (<< 7.10.2-4)",
+		"xserver-xorg-input",
+		"xserver-xorg-input-2",
+		"xserver-xorg-input-2.1",
+		"xserver-xorg-input-4",
+		"xserver-xorg-input-7",
+		"xserver-xorg-input-joystick (<= 1:1.5.0-3)",
+		"xserver-xorg-input-synaptics (<= 1.2.2-1ubuntu4)",
+		"xserver-xorg-input-tslib (<= 0.0.6-3)",
+		"xserver-xorg-input-vmmouse-lts-vivid (<= 1:12.6.5-4ubuntu2)",
+		"xserver-xorg-input-wacom-lts-vivid (<= 0.10.5+20100415-1)",
+		"xserver-xorg-video",
+		"xserver-xorg-video-1.0",
+		"xserver-xorg-video-1.9",
+		"xserver-xorg-video-2",
+		"xserver-xorg-video-4",
+		"xserver-xorg-video-5",
+		"xserver-xorg-video-6",
+		"xserver-xorg-video-cyrix (<= 1:1.1.0-8)",
+		"xserver-xorg-video-i810 (<< 2:2.4)",
+		"xserver-xorg-video-imstt (<= 1:1.1.0-7)",
+		"xserver-xorg-video-nsc (<= 1:2.8.3-4)",
+		"xserver-xorg-video-sunbw2 (<= 1:1.1.0-5)",
+		"xserver-xorg-video-v4l (<< 1:0.2.0)",
+		"xserver-xorg-video-vga (<= 1:4.1.0-8)"
+	],
+	"conflicts": [
+		"xorg-renamed-package-lts-utopic",
+		"xserver-xorg-core",
+		"xserver-xorg-input-evtouch",
+		"xserver-xorg-video-modesetting"
+	],
+	"installedSize": 3826,
+	"maintainer": "Ubuntu X-SWAT <ubuntu-x@lists.ubuntu.com>",
+	"description": "Xorg X server - core server",
+	"filename": "pool/main/x/xorg-server-lts-vivid/xserver-xorg-core-lts-vivid_1.17.1-0ubuntu3.1~trusty1.1_amd64.deb",
+	"size": 1291522,
+	"md5": "ff5f2779844f0d88bef2b54ed3270568",
+	"sha1": "bd7546b05d90c0b80fac8bd4cd06cda96868d5c9",
+	"sha256": "4252d4738d421bf8d696068cb3b3120a8e07151752375ef5b87c5f130cc66ca2",
+	"sha512": "e4d9ddab92e002fbb41224fdd9970de3c69243892dc02b7c628f67995bbe0a0d02de8135e07c8f01a978a68768a30067d30178b3ae39538c4997c10144a2b0e8",
+	"descriptionMd5": "e3826a765918b79dee4b90ec97f9302c"
+}]

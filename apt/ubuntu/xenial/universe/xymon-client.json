@@ -1,0 +1,44 @@
+{
+	"raw": {},
+	"required": [
+		"Filename",
+		"Size"
+	],
+	"package": "xymon-client",
+	"source": "xymon",
+	"version": "4.3.25-1",
+	"section": "universe/net",
+	"priority": "extra",
+	"architecture": "amd64",
+	"depends": [
+		"adduser",
+		"lsb-base",
+		"procps",
+		"libc6 (>= 2.17)"
+	],
+	"preDepends": [
+		"debconf (>= 0.5) | debconf-2.0"
+	],
+	"suggests": [
+		"xymon-plugins | hobbit-plugins"
+	],
+	"replaces": [
+		"hobbit-client (<< 4.2.2)"
+	],
+	"breaks": [
+		"hobbit (<= 4.2.0-1)",
+		"hobbit-client (<< 4.2.2)",
+		"hobbit-plugins (<< 20140519~)",
+		"xymon (<< 4.3.7-1~)"
+	],
+	"installedSize": 1106,
+	"maintainer": "Ubuntu Developers <ubuntu-devel-discuss@lists.ubuntu.com>",
+	"description": "client for the Xymon network monitor",
+	"homepage": "http://xymon.sourceforge.net/",
+	"filename": "pool/universe/x/xymon/xymon-client_4.3.25-1_amd64.deb",
+	"size": 215986,
+	"md5": "181589f7b19327480f6f02a4b00271c7",
+	"sha1": "8a87dbc453be19c6bd5c06e98ad6dff41bd41a02",
+	"sha256": "7f5204d8b94253b76b466a2f12663b3d4766618025aaa31a82cd7f11276e1971",
+	"descriptionMd5": "aecf1eddbb24018dd8eecc814af80e94"
+}

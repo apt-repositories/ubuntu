@@ -1,0 +1,46 @@
+{
+	"raw": {},
+	"required": [
+		"Filename",
+		"Size"
+	],
+	"package": "bareos-director",
+	"source": "bareos",
+	"version": "14.2.6-3",
+	"section": "universe/admin",
+	"priority": "optional",
+	"architecture": "amd64",
+	"depends": [
+		"bareos-common (= 14.2.6-3)",
+		"bareos-database-common (= 14.2.6-3)",
+		"bareos-database-tools",
+		"lsb-base (>= 3.2-13)",
+		"lsof",
+		"bsd-mailx | mailx",
+		"libc6 (>= 2.14)",
+		"libstdc++6 (>= 4.1.1)"
+	],
+	"preDepends": [
+		"debconf (>= 1.4.30) | debconf-2.0",
+		"adduser"
+	],
+	"recommends": [
+		"logrotate"
+	],
+	"replaces": [
+		"bacula-director"
+	],
+	"conflicts": [
+		"bacula-director"
+	],
+	"installedSize": 770,
+	"maintainer": "Ubuntu Developers <ubuntu-devel-discuss@lists.ubuntu.com>",
+	"description": "Backup Archiving Recovery Open Sourced - director daemon",
+	"homepage": "http://www.bareos.org/",
+	"filename": "pool/universe/b/bareos/bareos-director_14.2.6-3_amd64.deb",
+	"size": 259634,
+	"md5": "622d2c8235ed042decf12b008373da04",
+	"sha1": "f63ce69dba35708490fe8dc9564ee5b95ba6da53",
+	"sha256": "a8987c414f44e13d57aeec17864aed5981a8d20820b5f15858e3319f7cebc9b9",
+	"descriptionMd5": "c51130377b533fb1776f45279359cc7e"
+}

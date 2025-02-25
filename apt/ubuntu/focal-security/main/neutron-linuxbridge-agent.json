@@ -1,0 +1,38 @@
+{
+	"raw": {},
+	"required": [
+		"Filename",
+		"Size"
+	],
+	"package": "neutron-linuxbridge-agent",
+	"source": "neutron",
+	"version": "2:16.4.2-0ubuntu6.2",
+	"section": "net",
+	"priority": "optional",
+	"architecture": "all",
+	"depends": [
+		"bridge-utils",
+		"conntrack",
+		"ebtables",
+		"python3-neutron (= 2:16.4.2-0ubuntu6.2)"
+	],
+	"replaces": [
+		"neutron-plugin-linuxbridge-agent (<< 2:8.0.0~b2-0ubuntu5~)",
+		"neutron-plugin-ml2 (<< 2:8.0.0~b2-0ubuntu5~)"
+	],
+	"breaks": [
+		"neutron-plugin-linuxbirdge-agent (<< 2:8.0.0~b2-0ubuntu5~)",
+		"neutron-plugin-ml2 (<< 2:8.0.0~b2-0ubuntu5~)"
+	],
+	"installedSize": 59,
+	"maintainer": "Ubuntu Developers <ubuntu-devel-discuss@lists.ubuntu.com>",
+	"description": "Neutron is a virtual network service for Openstack - linuxbridge agent",
+	"homepage": "https://docs.openstack.org/neutron",
+	"filename": "pool/main/n/neutron/neutron-linuxbridge-agent_16.4.2-0ubuntu6.2_all.deb",
+	"size": 5544,
+	"md5": "d73fe94b1cdcb7884752d3babf14999d",
+	"sha1": "4f98b3b692fa8d0563a2f378d0ccb58f5b784641",
+	"sha256": "1dc85ff79818002a539da35aa66fd3316357dede414100ca3c4277119e788e85",
+	"sha512": "eb173a1a8de406dfa9df3164d5fef373364935182af2c16c0bd39f75848ec7de5e684624faa5f89a2caa854b833d3c8aa4956727a74adbf2968c40b3d026bd4c",
+	"descriptionMd5": "7438b6586091536457c1094f075e5bfb"
+}

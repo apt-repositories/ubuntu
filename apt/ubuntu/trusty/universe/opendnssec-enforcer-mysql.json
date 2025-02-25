@@ -1,0 +1,50 @@
+{
+	"raw": {},
+	"required": [
+		"Filename",
+		"Size"
+	],
+	"package": "opendnssec-enforcer-mysql",
+	"source": "opendnssec",
+	"version": "1:1.4.3-3",
+	"section": "universe/admin",
+	"priority": "extra",
+	"architecture": "amd64",
+	"depends": [
+		"libc6 (>= 2.14)",
+		"libldns1 (>= 1.6.0)",
+		"libmysqlclient18 (>= 5.5.13-1)",
+		"libxml2 (>= 2.7.4)",
+		"opendnssec-enforcer",
+		"opendnssec-common (= 1:1.4.3-3)",
+		"mysql-client",
+		"libdbd-mysql-perl"
+	],
+	"preDepends": [
+		"dpkg (>= 1.15.7.2~) | dpkg-maintscript-helper"
+	],
+	"suggests": [
+		"opendnssec",
+		"softhsm"
+	],
+	"replaces": [
+		"opendnssec-auditor (<< 1:1.4.0~)",
+		"opendnssec-enforcer-backend"
+	],
+	"breaks": [
+		"opendnssec-auditor (<< 1:1.4.0~)"
+	],
+	"conflicts": [
+		"opendnssec-enforcer-backend"
+	],
+	"installedSize": 505,
+	"maintainer": "Ubuntu Developers <ubuntu-devel-discuss@lists.ubuntu.com>",
+	"description": "tool to prepare DNSSEC keys (mysql backend)",
+	"homepage": "http://www.opendnssec.org/",
+	"filename": "pool/universe/o/opendnssec/opendnssec-enforcer-mysql_1.4.3-3_amd64.deb",
+	"size": 122818,
+	"md5": "c9d84ab0078177258e0501c4a9ad8eb4",
+	"sha1": "86216fac29b57d69b3e26b183d8aec83d3e11653",
+	"sha256": "88f86100a4f3fd4e37a91457737a789426fc35f7a18d5fd2365e5c2ade5af84e",
+	"descriptionMd5": "50c378aa759946e3fdbc7dece3b9b6cd"
+}

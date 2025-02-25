@@ -1,0 +1,44 @@
+{
+	"raw": {},
+	"required": [
+		"Filename",
+		"Size"
+	],
+	"package": "nginx-light",
+	"source": "nginx",
+	"version": "1.17.10-0ubuntu1",
+	"section": "universe/httpd",
+	"priority": "optional",
+	"architecture": "amd64",
+	"depends": [
+		"libnginx-mod-http-echo (= 1.17.10-0ubuntu1)",
+		"nginx-common (= 1.17.10-0ubuntu1)",
+		"iproute2",
+		"libc6 (>= 2.28)",
+		"libcrypt1 (>= 1:4.1.0)",
+		"libpcre3",
+		"libssl1.1 (>= 1.1.1)",
+		"zlib1g (>= 1:1.1.4)"
+	],
+	"suggests": [
+		"nginx-doc (= 1.17.10-0ubuntu1)"
+	],
+	"breaks": [
+		"nginx (<< 1.4.5-1)"
+	],
+	"conflicts": [
+		"nginx-core",
+		"nginx-extras",
+		"nginx-full"
+	],
+	"installedSize": 1157,
+	"maintainer": "Ubuntu Developers <ubuntu-devel-discuss@lists.ubuntu.com>",
+	"description": "nginx web/proxy server (basic version)",
+	"homepage": "http://nginx.net",
+	"filename": "pool/universe/n/nginx/nginx-light_1.17.10-0ubuntu1_amd64.deb",
+	"size": 402260,
+	"md5": "ef9a2a48a798018e619bb5193598823f",
+	"sha1": "c45d1f5733892c5404ffb27b0463f91a96d1c563",
+	"sha256": "6d50c152163c5fb45625c71fb568f49043ee17ec87c90b405c2a20e1a058f726",
+	"descriptionMd5": "dc750c339c49ba7f8f24198d00333f02"
+}

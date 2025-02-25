@@ -1,0 +1,63 @@
+{
+	"raw": {},
+	"required": [
+		"Filename",
+		"Size"
+	],
+	"package": "nginx-extras",
+	"source": "nginx",
+	"version": "1.18.0-6ubuntu14",
+	"section": "universe/httpd",
+	"priority": "optional",
+	"architecture": "amd64",
+	"depends": [
+		"libnginx-mod-http-auth-pam (= 1.18.0-6ubuntu14)",
+		"libnginx-mod-http-cache-purge (= 1.18.0-6ubuntu14)",
+		"libnginx-mod-http-dav-ext (= 1.18.0-6ubuntu14)",
+		"libnginx-mod-http-echo (= 1.18.0-6ubuntu14)",
+		"libnginx-mod-http-fancyindex (= 1.18.0-6ubuntu14)",
+		"libnginx-mod-http-geoip (= 1.18.0-6ubuntu14)",
+		"libnginx-mod-http-geoip2 (= 1.18.0-6ubuntu14)",
+		"libnginx-mod-http-headers-more-filter (= 1.18.0-6ubuntu14)",
+		"libnginx-mod-http-image-filter (= 1.18.0-6ubuntu14)",
+		"libnginx-mod-http-perl (= 1.18.0-6ubuntu14)",
+		"libnginx-mod-http-subs-filter (= 1.18.0-6ubuntu14)",
+		"libnginx-mod-http-uploadprogress (= 1.18.0-6ubuntu14)",
+		"libnginx-mod-http-upstream-fair (= 1.18.0-6ubuntu14)",
+		"libnginx-mod-http-xslt-filter (= 1.18.0-6ubuntu14)",
+		"libnginx-mod-mail (= 1.18.0-6ubuntu14)",
+		"libnginx-mod-nchan (= 1.18.0-6ubuntu14)",
+		"libnginx-mod-stream (= 1.18.0-6ubuntu14)",
+		"libnginx-mod-stream-geoip (= 1.18.0-6ubuntu14)",
+		"libnginx-mod-stream-geoip2 (= 1.18.0-6ubuntu14)",
+		"nginx-common (= 1.18.0-6ubuntu14)",
+		"iproute2",
+		"libc6 (>= 2.34)",
+		"libcrypt1 (>= 1:4.1.0)",
+		"libpcre3",
+		"libssl3 (>= 3.0.0~~alpha1)",
+		"zlib1g (>= 1:1.1.4)"
+	],
+	"suggests": [
+		"nginx-doc (= 1.18.0-6ubuntu14)"
+	],
+	"breaks": [
+		"libnginx-mod-http-lua (<< 1.18.0-6ubuntu5)",
+		"nginx (<< 1.4.5-1)"
+	],
+	"conflicts": [
+		"nginx-core",
+		"nginx-light"
+	],
+	"installedSize": 1312,
+	"maintainer": "Ubuntu Developers <ubuntu-devel-discuss@lists.ubuntu.com>",
+	"description": "nginx web/proxy server (extended version)",
+	"homepage": "https://nginx.net",
+	"filename": "pool/universe/n/nginx/nginx-extras_1.18.0-6ubuntu14_amd64.deb",
+	"size": 499084,
+	"md5": "12647c586769502b8269f4bbd8c498a8",
+	"sha1": "49cbc6445b35e00e5d398b72f13b555bb06397cf",
+	"sha256": "910ee9e09a4a22365d807654fd449c0dfa42d090ad388198652bd833657f78d5",
+	"sha512": "05b54b146b482e0070d8b2cb2b62f1dd0536cfdd6fafe94d901a82eee1f31f9e0d9d3855a5046a6fd7170531efcd522d163d13e0bf91a9c237d043d5ec24e80d",
+	"descriptionMd5": "29cf2b49f0b9a924cda3b3a67701259a"
+}

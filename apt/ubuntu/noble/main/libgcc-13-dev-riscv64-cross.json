@@ -1,0 +1,42 @@
+{
+	"raw": {},
+	"required": [
+		"Filename",
+		"Size"
+	],
+	"package": "libgcc-13-dev-riscv64-cross",
+	"source": "gcc-13-cross (14ubuntu4)",
+	"version": "13.2.0-23ubuntu4cross1",
+	"section": "libdevel",
+	"priority": "optional",
+	"architecture": "all",
+	"depends": [
+		"gcc-13-cross-base (>= 13.2.0-23ubuntu4)",
+		"libgcc-s1-riscv64-cross (>= 13.2.0-23ubuntu4cross1)",
+		"libgomp1-riscv64-cross (>= 13.2.0-23ubuntu4cross1)",
+		"libatomic1-riscv64-cross (>= 13.2.0-23ubuntu4cross1)",
+		"libasan8-riscv64-cross (>= 13.2.0-23ubuntu4cross1)",
+		"libubsan1-riscv64-cross (>= 13.2.0-23ubuntu4cross1)"
+	],
+	"recommends": [
+		"libc6-dev-riscv64-cross (>= 2.13-0ubuntu6)"
+	],
+	"replaces": [
+		"libtsan2-riscv64-cross (<< 12-20211113-2~)"
+	],
+	"breaks": [
+		"libtsan2-riscv64-cross (<< 12-20211113-2~)"
+	],
+	"installedSize": 30537,
+	"maintainer": "Ubuntu Core developers <ubuntu-devel-discuss@lists.ubuntu.com>",
+	"description": "GCC support library (development files)",
+	"homepage": "http://gcc.gnu.org/",
+	"builtUsing": "gcc-13 (= 13.2.0-23ubuntu4)",
+	"filename": "pool/main/g/gcc-13-cross/libgcc-13-dev-riscv64-cross_13.2.0-23ubuntu4cross1_all.deb",
+	"size": 3859774,
+	"md5": "998fc10b3589d00ab546e62d029d4834",
+	"sha1": "f199455ad1ca99dc5f039c54f1b8b37f8040d420",
+	"sha256": "1a3ebffd6c023eea75100ddf0357ecfd8486a461893e949dffe6c9b2f0488b44",
+	"sha512": "98b263171c4fce13686afacbcc1b4a1d779e387ddfd8d771aa06f88ba4688cd785c0b18ab463f173452908e02aaffd6ae4e646d3c1300d69ad9129d92952ec15",
+	"descriptionMd5": "4ab7cb439b47e1d0796fbaf8447229ac"
+}

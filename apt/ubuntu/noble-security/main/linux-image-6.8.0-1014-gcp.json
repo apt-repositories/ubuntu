@@ -1,0 +1,42 @@
+{
+	"raw": {},
+	"required": [
+		"Filename",
+		"Size"
+	],
+	"package": "linux-image-6.8.0-1014-gcp",
+	"source": "linux-signed-gcp",
+	"version": "6.8.0-1014.16",
+	"section": "kernel",
+	"priority": "optional",
+	"architecture": "amd64",
+	"depends": [
+		"kmod",
+		"linux-base (>= 4.5ubuntu1~16.04.1)",
+		"linux-modules-6.8.0-1014-gcp"
+	],
+	"recommends": [
+		"grub-pc | grub-efi-amd64 | grub-efi-ia32 | grub | lilo"
+	],
+	"suggests": [
+		"fdutils",
+		"linux-gcp-doc-6.8.0 | linux-gcp-source-6.8.0",
+		"linux-gcp-tools",
+		"linux-headers-6.8.0-1014-gcp",
+		"initramfs-tools | linux-initramfs-tool"
+	],
+	"conflicts": [
+		"linux-image-unsigned-6.8.0-1014-gcp"
+	],
+	"installedSize": 14717,
+	"maintainer": "Canonical Kernel Team <kernel-team@lists.ubuntu.com>",
+	"description": "Signed kernel image gcp",
+	"builtUsing": "linux-gcp (= 6.8.0-1014.16)",
+	"filename": "pool/main/l/linux-signed-gcp/linux-image-6.8.0-1014-gcp_6.8.0-1014.16_amd64.deb",
+	"size": 14806784,
+	"md5": "983d721cdf567cf5fdd9bdb8ded93cef",
+	"sha1": "9f5beeccb7ad71ecc64c051f0f75633cac0bf018",
+	"sha256": "cffdac6a8187c645299eeee17463468d70efee1c3ded3195eb192259e1f971e6",
+	"sha512": "6c61cb51ad42fd794269a587c32c82c2301ff04978d678847421e44e19455af44f1b76d57b65b2f090348b95755536be68ce79233110de07222c97ee9da306df",
+	"descriptionMd5": "a52bd552458b3033736aca335b4c7a2c"
+}

@@ -1,0 +1,41 @@
+{
+	"raw": {},
+	"required": [
+		"Filename",
+		"Size"
+	],
+	"package": "linux-image-4.15.0-1009-azure",
+	"source": "linux-signed-azure",
+	"version": "4.15.0-1009.9",
+	"section": "kernel",
+	"priority": "optional",
+	"architecture": "amd64",
+	"depends": [
+		"kmod",
+		"linux-base",
+		"linux-modules-4.15.0-1009-azure"
+	],
+	"recommends": [
+		"grub-pc | grub-efi-amd64 | grub-efi-ia32 | grub"
+	],
+	"suggests": [
+		"fdutils",
+		"linux-azure-doc-4.15.0 | linux-azure-source-4.15.0",
+		"linux-azure-tools",
+		"linux-headers-4.15.0-1009-azure",
+		"initramfs-tools | linux-initramfs-tool"
+	],
+	"conflicts": [
+		"linux-image-unsigned-4.15.0-1009-azure"
+	],
+	"installedSize": 7942,
+	"maintainer": "Canonical Kernel Team <kernel-team@lists.ubuntu.com>",
+	"description": "Signed kernel image azure",
+	"builtUsing": "linux-azure (= 4.15.0-1009.9)",
+	"filename": "pool/main/l/linux-signed-azure/linux-image-4.15.0-1009-azure_4.15.0-1009.9_amd64.deb",
+	"size": 7747288,
+	"md5": "6bd6c60383523983beabcfc0845e839c",
+	"sha1": "7f50a9c597b3695e03c89c23114b1b8ff3ac6085",
+	"sha256": "acb68353eadece34b6f23c227f748ef6ce20ba605bd150db8a2cf0ccd853fa8b",
+	"descriptionMd5": "4f10ee54ba011a7f5b60c437e681a38d"
+}

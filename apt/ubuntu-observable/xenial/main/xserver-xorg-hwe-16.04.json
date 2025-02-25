@@ -1,0 +1,46 @@
+[{
+	"raw": {},
+	"required": [
+		"Filename",
+		"Size"
+	],
+	"package": "xserver-xorg-hwe-16.04",
+	"source": "xorg-hwe-16.04",
+	"version": "1:7.7+16ubuntu3~16.04.1",
+	"section": "x11",
+	"priority": "optional",
+	"architecture": "amd64",
+	"depends": [
+		"xserver-xorg-core-hwe-16.04 (>= 2:1.17.2-2)",
+		"xserver-xorg-input-all-hwe-16.04 | xorg-driver-input",
+		"xkb-data (>= 1.4)",
+		"x11-xkb-utils"
+	],
+	"recommends": [
+		"libgl1-mesa-dri",
+		"linux-generic-hwe-16.04",
+		"xserver-xorg-legacy-hwe-16.04",
+		"xserver-xorg-video-all-hwe-16.04"
+	],
+	"replaces": [
+		"xserver-xorg"
+	],
+	"conflicts": [
+		"xserver-xorg",
+		"xserver-xorg-core (>= 0~)",
+		"xserver-xorg-dev (>= 0~)",
+		"xserver-xorg-input-all (>= 0~)",
+		"xserver-xorg-video-all (>= 0~)"
+	],
+	"installedSize": 60,
+	"maintainer": "Ubuntu X-SWAT <ubuntu-x@lists.ubuntu.com>",
+	"description": "X.Org X server",
+	"homepage": "http://www.x.org/",
+	"filename": "pool/main/x/xorg-hwe-16.04/xserver-xorg-hwe-16.04_7.7+16ubuntu3~16.04.1_amd64.deb",
+	"size": 4794,
+	"md5": "3741fb8c2ee6a90e649569fbb8bf2819",
+	"sha1": "2075ff5a459eecb454733ec5e09c210afaf3b4fd",
+	"sha256": "3d2383e56ffd2ed129b0bc15bd04022c6623a4a09214f78b4106a205fe0daae1",
+	"sha512": "8a19f377eb240b1b56c0a2442a3e2eea40a916451b25926ced4deb7218dd72c74855064f312074d94e7f3b36b98972464e153cc92fe8b659d6ce417a7e14f6a0",
+	"descriptionMd5": "3d8c1d268e8af6b69f54d86fbd5a3939"
+}]

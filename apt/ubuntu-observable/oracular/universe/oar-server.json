@@ -1,0 +1,50 @@
+[{
+	"raw": {},
+	"required": [
+		"Filename",
+		"Size"
+	],
+	"package": "oar-server",
+	"source": "oar",
+	"version": "2.5.10-2",
+	"section": "universe/science",
+	"priority": "extra",
+	"architecture": "amd64",
+	"depends": [
+		"libc6 (>= 2.34)",
+		"perl:any",
+		"openssh-client",
+		"cron",
+		"libsort-versions-perl",
+		"libdbi-perl",
+		"oar-common (= 2.5.10-2)",
+		"oar-server-pgsql (= 2.5.10-2) | oar-server-mysql (= 2.5.10-2)",
+		"perl (<< 5.17) | libterm-ui-perl"
+	],
+	"recommends": [
+		"libxml-dumper-perl",
+		"libyaml-perl",
+		"libyaml-syck-perl"
+	],
+	"suggests": [
+		"taktuk",
+		"phpmyadmin",
+		"oar-node",
+		"oar-doc",
+		"openssh-server"
+	],
+	"breaks": [
+		"oar-admin"
+	],
+	"installedSize": 997,
+	"maintainer": "Ubuntu Developers <ubuntu-devel-discuss@lists.ubuntu.com>",
+	"description": "OAR batch scheduler server package",
+	"homepage": "http://oar.imag.fr/",
+	"filename": "pool/universe/o/oar/oar-server_2.5.10-2_amd64.deb",
+	"size": 131394,
+	"md5": "5ef9ca9eb238373ff654b81f88073069",
+	"sha1": "8214b06a3c5c311365267a200360b2d7a8792dba",
+	"sha256": "70305dbcccb5bfdcdb253a879ff2dfa3af7e74dd2503da42fd2d5db5254ef2c9",
+	"sha512": "f36b0c7e56803e0764d11ec682c64f088b2475ebf5e5eeaf6c13304e0bdbb4eec295c0c2a876d34c26d12df365ab9d731b59b8278e82dd09e02dbd99c4f24f36",
+	"descriptionMd5": "5575b7bbd1e7d4eee4987123585f17ad"
+}]

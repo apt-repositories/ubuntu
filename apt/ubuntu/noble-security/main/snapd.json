@@ -1,0 +1,64 @@
+{
+	"raw": {},
+	"required": [
+		"Filename",
+		"Size"
+	],
+	"package": "snapd",
+	"version": "2.63+24.04ubuntu0.1",
+	"section": "devel",
+	"priority": "optional",
+	"architecture": "amd64",
+	"depends": [
+		"adduser",
+		"apparmor (>= 2.10.95-0ubuntu2.2)",
+		"ca-certificates",
+		"fuse3 (>= 3.10.5-1) | fuse",
+		"openssh-client",
+		"squashfs-tools",
+		"systemd",
+		"udev",
+		"default-dbus-session-bus | dbus-session-bus",
+		"libc6 (>= 2.38)",
+		"libfuse3-3 (>= 3.12.0)",
+		"liblzma5 (>= 5.1.1alpha+20120614)",
+		"liblzo2-2 (>= 2.02)",
+		"libudev1 (>= 183)",
+		"zlib1g (>= 1:1.1.4)"
+	],
+	"recommends": [
+		"gnupg"
+	],
+	"suggests": [
+		"zenity | kdialog"
+	],
+	"replaces": [
+		"snap-confine (<< 2.23)",
+		"snapd-xdg-open (<= 0.0.0)",
+		"ubuntu-core-launcher (<< 2.22)",
+		"ubuntu-snappy (<< 1.9)",
+		"ubuntu-snappy-cli (<< 1.9)"
+	],
+	"breaks": [
+		"snap-confine (<< 2.23)",
+		"snapd-xdg-open (<= 0.0.0)",
+		"ubuntu-core-launcher (<< 2.22)",
+		"ubuntu-snappy (<< 1.9)",
+		"ubuntu-snappy-cli (<< 1.9)"
+	],
+	"conflicts": [
+		"snap (<< 2013-11-29-1ubuntu1)"
+	],
+	"installedSize": 107780,
+	"maintainer": "Ubuntu Developers <ubuntu-devel-discuss@lists.ubuntu.com>",
+	"description": "Daemon and tooling that enable snap packages",
+	"homepage": "https://github.com/snapcore/snapd",
+	"builtUsing": "apparmor (= 4.0.0-beta3-0ubuntu3), libcap2 (= 1:2.66-5ubuntu2), libseccomp (= 2.5.5-1ubuntu3)",
+	"filename": "pool/main/s/snapd/snapd_2.63+24.04ubuntu0.1_amd64.deb",
+	"size": 28028750,
+	"md5": "c55a12d98f96f24db3d4e6b9af4ef879",
+	"sha1": "49739bcd63996380244c571e9d0bd5a45ff56043",
+	"sha256": "8a9b530eed708741f3e5a9faba0208caa50c24297a32e4fc56dda669a21e7819",
+	"sha512": "c27eb9a460da2af107855f0ce8bb13b6c1e9084d773db66c3b3459511fd8a5acca2aae84560af5a600112f3892cdf38d777b08e3874305ee5f936ee429e9a68e",
+	"descriptionMd5": "4f57b9592309b3006720058df2b8dad3"
+}

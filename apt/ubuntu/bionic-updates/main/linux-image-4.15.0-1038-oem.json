@@ -1,0 +1,41 @@
+{
+	"raw": {},
+	"required": [
+		"Filename",
+		"Size"
+	],
+	"package": "linux-image-4.15.0-1038-oem",
+	"source": "linux-signed-oem",
+	"version": "4.15.0-1038.43",
+	"section": "kernel",
+	"priority": "optional",
+	"architecture": "amd64",
+	"depends": [
+		"kmod",
+		"linux-base (>= 4.5ubuntu1~16.04.1)",
+		"linux-modules-4.15.0-1038-oem"
+	],
+	"recommends": [
+		"grub-pc | grub-efi-amd64 | grub-efi-ia32 | grub | lilo",
+		"initramfs-tools | linux-initramfs-tool"
+	],
+	"suggests": [
+		"fdutils",
+		"linux-oem-tools",
+		"linux-headers-4.15.0-1038-oem"
+	],
+	"conflicts": [
+		"linux-image-unsigned-4.15.0-1038-oem"
+	],
+	"installedSize": 8181,
+	"maintainer": "Canonical Kernel Team <kernel-team@lists.ubuntu.com>",
+	"description": "Signed kernel image oem",
+	"builtUsing": "linux (= 4.15.0-1038.43)",
+	"filename": "pool/main/l/linux-signed-oem/linux-image-4.15.0-1038-oem_4.15.0-1038.43_amd64.deb",
+	"size": 7968600,
+	"md5": "c8b1190d5e1aff8a91a9317da2954db7",
+	"sha1": "fe9dcc9e2a76402e9c7814b9ac645c5315771cbb",
+	"sha256": "977c1b0f58ba038976150d781ec7bd7f34405c1c73b364d8f68348e482d3abec",
+	"sha512": "01c95c5bccd4a706b203adddb5a3f0ac7ff4f3f863fbf5e91121bea1f4ff46007ce54615554a86d323264d135adfe9bc9573d27f22e763787a034aa3929906da",
+	"descriptionMd5": "5dc01de5fa314f0696e8cd7dde9b887b"
+}

@@ -1,0 +1,40 @@
+{
+	"raw": {},
+	"required": [
+		"Filename",
+		"Size"
+	],
+	"package": "slurm-wlm-torque",
+	"source": "slurm-llnl",
+	"version": "15.08.7-1build1",
+	"section": "universe/admin",
+	"priority": "extra",
+	"architecture": "all",
+	"depends": [
+		"libslurm-perl (>= 15.08.7-1build1)",
+		"libslurmdb-perl (>= 15.08.7-1build1)",
+		"perl",
+		"slurm-client (>= 15.08.7-1build1)"
+	],
+	"replaces": [
+		"slurm-llnl-torque (<< 14.03)"
+	],
+	"breaks": [
+		"slurm-llnl-torque (<< 14.03)"
+	],
+	"conflicts": [
+		"gridengine-client",
+		"torque-client",
+		"torque-client-x11"
+	],
+	"installedSize": 118,
+	"maintainer": "Ubuntu Developers <ubuntu-devel-discuss@lists.ubuntu.com>",
+	"description": "Torque compatibility wrappers for SLURM",
+	"homepage": "http://slurm.schedmd.com",
+	"filename": "pool/universe/s/slurm-llnl/slurm-wlm-torque_15.08.7-1build1_all.deb",
+	"size": 34516,
+	"md5": "b3d1ac0341b880c6b2ce0d9871268bb0",
+	"sha1": "663526e5fa094554ac1004667c43c6bd42f4fc0f",
+	"sha256": "255bd5692387d4b0e6cb2241349204333a6b9f66b6f58f5e9f976f00dd5214eb",
+	"descriptionMd5": "05c03041cf906aa2e5734a0cc1992f20"
+}

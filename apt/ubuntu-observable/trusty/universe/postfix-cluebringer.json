@@ -1,0 +1,41 @@
+[{
+	"raw": {},
+	"required": [
+		"Filename",
+		"Size"
+	],
+	"package": "postfix-cluebringer",
+	"version": "2.0.10-1",
+	"section": "universe/mail",
+	"priority": "optional",
+	"architecture": "all",
+	"depends": [
+		"adduser (>= 3.34)",
+		"libnet-server-perl (>= 0.96)",
+		"libnet-cidr-perl",
+		"libconfig-inifiles-perl",
+		"libcache-fastmmap-perl",
+		"libmail-spf-perl",
+		"postfix-cluebringer-pgsql (>= 2.0.10-1) | postfix-cluebringer-mysql (>= 2.0.10-1) | postfix-cluebringer-sqlite3 (>= 2.0.10-1)",
+		"perl"
+	],
+	"preDepends": [
+		"debconf"
+	],
+	"recommends": [
+		"postfix-cluebringer-webui"
+	],
+	"conflicts": [
+		"postfix-policyd"
+	],
+	"installedSize": 436,
+	"maintainer": "Ubuntu Developers <ubuntu-devel-discuss@lists.ubuntu.com>",
+	"description": "anti-spam plugin for Postfix",
+	"homepage": "http://www.policyd.org/",
+	"filename": "pool/universe/p/postfix-cluebringer/postfix-cluebringer_2.0.10-1_all.deb",
+	"size": 59156,
+	"md5": "abffb5a7aabd1ba3e7cbd28f3cdf038d",
+	"sha1": "78b06f6b598c8f5734852ad578725984117dcc63",
+	"sha256": "8bbea71b4307bf0ea43025cbc79530ac16140923b76dc8cdf18b3547c5cd6e1b",
+	"descriptionMd5": "b885f97a7d5ea183d9a46a87a603eda3"
+}]

@@ -1,0 +1,42 @@
+{
+	"raw": {},
+	"required": [
+		"Filename",
+		"Size"
+	],
+	"package": "linux-image-5.15.0-1015-gke",
+	"source": "linux-signed-gke-5.15",
+	"version": "5.15.0-1015.18~20.04.1",
+	"section": "kernel",
+	"priority": "optional",
+	"architecture": "amd64",
+	"depends": [
+		"kmod",
+		"linux-base (>= 4.5ubuntu1~16.04.1)",
+		"linux-modules-5.15.0-1015-gke"
+	],
+	"recommends": [
+		"grub-pc | grub-efi-amd64 | grub-efi-ia32 | grub | lilo"
+	],
+	"suggests": [
+		"fdutils",
+		"linux-doc | linux-gke-5.15-source-5.15.0",
+		"linux-gke-5.15-tools",
+		"linux-headers-5.15.0-1015-gke",
+		"linux-modules-extra-5.15.0-1015-gke"
+	],
+	"conflicts": [
+		"linux-image-unsigned-5.15.0-1015-gke"
+	],
+	"installedSize": 11282,
+	"maintainer": "Canonical Kernel Team <kernel-team@lists.ubuntu.com>",
+	"description": "Signed kernel image gke",
+	"builtUsing": "linux-gke-5.15 (= 5.15.0-1015.18~20.04.1)",
+	"filename": "pool/main/l/linux-signed-gke-5.15/linux-image-5.15.0-1015-gke_5.15.0-1015.18~20.04.1_amd64.deb",
+	"size": 11357040,
+	"md5": "819122f5443b943dedcfe93ebae5ee52",
+	"sha1": "c66dda4bf00947ccf69af98ced46465721fd12bd",
+	"sha256": "21cee5df59bfb324a188b9e8fde3866bdab13f344a103917805597532a83fb24",
+	"sha512": "1217c78f9c72d2ab9ec6cc8dad1d0faa09c967572e39383ecf2017b2073dd398fb4a88cd1a9377f98afc1dba6a9d82f188dc17ef4df9a5f7641edd1cc63f4a28",
+	"descriptionMd5": "c0c476f3263359816fef56cf9b701fee"
+}

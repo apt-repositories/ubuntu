@@ -1,0 +1,56 @@
+{
+	"raw": {},
+	"required": [
+		"Filename",
+		"Size"
+	],
+	"package": "firebird3.0-server",
+	"source": "firebird3.0",
+	"version": "3.0.5.33220.ds4-1build2",
+	"section": "universe/database",
+	"priority": "optional",
+	"architecture": "amd64",
+	"depends": [
+		"adduser",
+		"libc6 (>= 2.28)",
+		"libfbclient2 (>= 3.0.0~svn20110219r52404.ds3)",
+		"libgcc-s1 (>= 3.0)",
+		"libstdc++6 (>= 4.1.1)",
+		"libtommath1 (>= 1.1.0)",
+		"firebird3.0-common (= 3.0.5.33220.ds4-1build2)",
+		"firebird3.0-server-core (= 3.0.5.33220.ds4-1build2)",
+		"firebird3.0-utils (= 3.0.5.33220.ds4-1build2)",
+		"lsb-base (>= 3.0-6)",
+		"debconf (>= 1.4.69)",
+		"firebird3.0-common-doc (= 3.0.5.33220.ds4-1build2)"
+	],
+	"preDepends": [
+		"init-system-helpers (>= 1.54~)"
+	],
+	"recommends": [
+		"libib-util"
+	],
+	"suggests": [
+		"firebird3.0-doc"
+	],
+	"replaces": [
+		"firebird3.0-server-core (<< 3.0.3.32900.ds4-3~)"
+	],
+	"conflicts": [
+		"firebird-server",
+		"firebird2.1-classic",
+		"firebird2.1-server-common",
+		"firebird2.1-super",
+		"firebird2.5-server-common"
+	],
+	"installedSize": 1521,
+	"maintainer": "Ubuntu Developers <ubuntu-devel-discuss@lists.ubuntu.com>",
+	"description": "Firebird Server - an RDBMS based on InterBase 6.0 code",
+	"homepage": "http://firebirdsql.org/",
+	"filename": "pool/universe/f/firebird3.0/firebird3.0-server_3.0.5.33220.ds4-1build2_amd64.deb",
+	"size": 409788,
+	"md5": "004460ff78f8724f4fe81d0e08cac8a4",
+	"sha1": "82c543a999fd7ad194afd7868d97d2bc9456add0",
+	"sha256": "b9ecb2f2882429c6a0ab9abebc5d741c9f745ee697ca03bd1e442f72bd32d251",
+	"descriptionMd5": "2134827313e90e2003de2a24bcb319ef"
+}

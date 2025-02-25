@@ -1,0 +1,41 @@
+[{
+	"raw": {},
+	"required": [
+		"Filename",
+		"Size"
+	],
+	"package": "linux-image-5.10.0-1008-oem",
+	"source": "linux-signed-oem-5.10",
+	"version": "5.10.0-1008.9",
+	"section": "universe/kernel",
+	"priority": "optional",
+	"architecture": "amd64",
+	"depends": [
+		"kmod",
+		"linux-base (>= 4.5ubuntu1~16.04.1)",
+		"linux-modules-5.10.0-1008-oem"
+	],
+	"recommends": [
+		"grub-pc | grub-efi-amd64 | grub-efi-ia32 | grub | lilo",
+		"initramfs-tools | linux-initramfs-tool"
+	],
+	"suggests": [
+		"fdutils",
+		"linux-oem-5.10-tools",
+		"linux-headers-5.10.0-1008-oem"
+	],
+	"conflicts": [
+		"linux-image-unsigned-5.10.0-1008-oem"
+	],
+	"installedSize": 12184,
+	"maintainer": "Canonical Kernel Team <kernel-team@lists.ubuntu.com>",
+	"description": "Signed kernel image oem",
+	"builtUsing": "linux-oem-5.10 (= 5.10.0-1008.9)",
+	"filename": "pool/universe/l/linux-signed-oem-5.10/linux-image-5.10.0-1008-oem_5.10.0-1008.9_amd64.deb",
+	"size": 9597320,
+	"md5": "88c6ba62d97523f4a97b47d78c5e4ed8",
+	"sha1": "6cee8d859105c4c00a92b2a1424f368051ec510d",
+	"sha256": "73d121daccaa3bdd16cf649f775febfe205d1aeb8c0e8c1272fd6cf342b25b2d",
+	"sha512": "5419ead409730d15eabfec8245bf50d1d7c3a525c169a0c25007c011098734af789c3a369cc2f612f976f9b29393976bfd846354ab84ddf1f073a2f88c67d845",
+	"descriptionMd5": "76e637dc8928f9fb4900412b910081e3"
+}]

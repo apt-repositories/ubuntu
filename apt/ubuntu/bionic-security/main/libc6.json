@@ -1,0 +1,45 @@
+{
+	"raw": {},
+	"required": [
+		"Filename",
+		"Size"
+	],
+	"package": "libc6",
+	"source": "glibc",
+	"version": "2.27-3ubuntu1.5",
+	"section": "libs",
+	"priority": "required",
+	"architecture": "amd64",
+	"depends": [
+		"libgcc1"
+	],
+	"suggests": [
+		"glibc-doc",
+		"debconf | debconf-2.0",
+		"locales"
+	],
+	"replaces": [
+		"libc6-amd64"
+	],
+	"breaks": [
+		"hurd (<< 1:0.5.git20140203-1)",
+		"libtirpc1 (<< 0.2.3)",
+		"locales (<< 2.27)",
+		"locales-all (<< 2.27)",
+		"nscd (<< 2.27)"
+	],
+	"conflicts": [
+		"openrc (<< 0.27-2~)"
+	],
+	"installedSize": 11887,
+	"maintainer": "Ubuntu Developers <ubuntu-devel-discuss@lists.ubuntu.com>",
+	"description": "GNU C Library: Shared libraries",
+	"homepage": "https://www.gnu.org/software/libc/libc.html",
+	"filename": "pool/main/g/glibc/libc6_2.27-3ubuntu1.5_amd64.deb",
+	"size": 2829792,
+	"md5": "aef43cd3a8359820eb9a027c19a056c8",
+	"sha1": "47e5405d0f9c7ff40daff7ec010ff816d901f35e",
+	"sha256": "c4af07dc8a2fdc9c4f25f103cd03bcca7231c19d9ac9171fa7eb5eecb7fc46d7",
+	"sha512": "84869a5cf0903b1045c7e7e58c6bfcf9800c40fdc8b651087fa448ea2af1c18158df29b92af6dd0113ea77e627a23d7a4da4bae683db6d33f8d9104f044f207f",
+	"descriptionMd5": "fc3001b0b90a1c8e6690b283a619d57f"
+}

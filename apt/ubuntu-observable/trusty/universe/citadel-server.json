@@ -1,0 +1,58 @@
+[{
+	"raw": {},
+	"required": [
+		"Filename",
+		"Size"
+	],
+	"package": "citadel-server",
+	"source": "citadel",
+	"version": "8.24-1",
+	"section": "universe/mail",
+	"priority": "extra",
+	"architecture": "amd64",
+	"depends": [
+		"libc-ares2 (>= 1.7.3)",
+		"libc6 (>= 2.15)",
+		"libcitadel4 (>= 8.24)",
+		"libcurl3 (>= 7.16.3)",
+		"libdb5.3",
+		"libev4 (>= 1:4.04)",
+		"libexpat1 (>= 2.0.1)",
+		"libical1 (>= 1.0)",
+		"libldap-2.4-2 (>= 2.4.7)",
+		"libpam0g (>= 0.99.7.1)",
+		"libsieve2-1",
+		"libssl1.0.0 (>= 1.0.0)",
+		"zlib1g (>= 1:1.1.4)",
+		"debconf (>= 0.5) | debconf-2.0",
+		"adduser",
+		"openssl",
+		"patch"
+	],
+	"recommends": [
+		"db4.6-util",
+		"shared-mime-info"
+	],
+	"suggests": [
+		"postfix | exim4 | citadel-mta | mail-transport-agent"
+	],
+	"replaces": [
+		"citadel-common",
+		"citadel-mta"
+	],
+	"conflicts": [
+		"citadel-common",
+		"imap-server",
+		"pop3-server"
+	],
+	"installedSize": 1584,
+	"maintainer": "Ubuntu Developers <ubuntu-devel-discuss@lists.ubuntu.com>",
+	"description": "complete and feature-rich groupware server",
+	"homepage": "http://www.citadel.org/",
+	"filename": "pool/universe/c/citadel/citadel-server_8.24-1_amd64.deb",
+	"size": 347982,
+	"md5": "d3dbb2ea5ebd4674d86e94eabf2bb7a7",
+	"sha1": "35edafdb1d0f2ed182901932493c7503713991d2",
+	"sha256": "f4c34ca06b87e905ac5a31f40829efff88cefd275c291c9e67e4976daaf27fa1",
+	"descriptionMd5": "1faf865b0bebdfe23dac182993a86359"
+}]

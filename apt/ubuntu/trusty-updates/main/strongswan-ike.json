@@ -1,0 +1,69 @@
+{
+	"raw": {},
+	"required": [
+		"Filename",
+		"Size"
+	],
+	"package": "strongswan-ike",
+	"source": "strongswan",
+	"version": "5.1.2-0ubuntu2.11",
+	"section": "net",
+	"priority": "optional",
+	"architecture": "amd64",
+	"depends": [
+		"libc6 (>= 2.15)",
+		"libstrongswan (= 5.1.2-0ubuntu2.11)",
+		"strongswan-starter | strongswan-nm",
+		"strongswan-plugin-openssl | strongswan-plugin-gcrypt | strongswan-plugin-gmp",
+		"bsdmainutils",
+		"debianutils (>= 1.7)",
+		"host",
+		"iproute2 | iproute"
+	],
+	"preDepends": [
+		"debconf | debconf-2.0"
+	],
+	"suggests": [
+		"strongswan-plugin-agent",
+		"strongswan-plugin-certexpire",
+		"strongswan-plugin-coupling",
+		"strongswan-plugin-curl",
+		"strongswan-plugin-dnscert",
+		"strongswan-plugin-dnskey",
+		"strongswan-plugin-duplicheck",
+		"strongswan-plugin-error-notify",
+		"strongswan-plugin-ipseckey",
+		"strongswan-plugin-ldap",
+		"strongswan-plugin-led",
+		"strongswan-plugin-lookip",
+		"strongswan-plugin-ntru",
+		"strongswan-plugin-pkcs11",
+		"strongswan-plugin-radattr",
+		"strongswan-plugin-sql",
+		"strongswan-plugin-soup",
+		"strongswan-plugin-unity",
+		"strongswan-plugin-whitelist",
+		"strongswan-tnc-client",
+		"strongswan-tnc-server"
+	],
+	"replaces": [
+		"strongswan-ikev1",
+		"strongswan-ikev2"
+	],
+	"conflicts": [
+		"freeswan (<< 2.04-12)",
+		"openswan",
+		"strongswan (<< 4.2.12-1)"
+	],
+	"installedSize": 5494,
+	"maintainer": "Ubuntu Developers <ubuntu-devel-discuss@lists.ubuntu.com>",
+	"description": "strongSwan Internet Key Exchange (v2) daemon",
+	"homepage": "http://www.strongswan.org",
+	"filename": "pool/main/s/strongswan/strongswan-ike_5.1.2-0ubuntu2.11_amd64.deb",
+	"size": 1198938,
+	"md5": "63da03bf2055a7b53d1d1bae7adc71a6",
+	"sha1": "96a0c36b5ef239082f736663b9839ba71f11b553",
+	"sha256": "189112a190ce5e804819fbee65c17ec82d20612fb0236c74141416f2d23f4270",
+	"sha512": "85a339eb20107a6f4e85a3a9a55b0f5a8eeecc10e6d3a2f0c5e885d6cc15487452c4bda4df6355ff406e21e6be5e284ce923d3c1916a4da1f5153b4d21e03993",
+	"descriptionMd5": "c79a031d7401b6bca17cec8cb59118bb"
+}

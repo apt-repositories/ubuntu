@@ -1,0 +1,44 @@
+{
+	"raw": {},
+	"required": [
+		"Filename",
+		"Size"
+	],
+	"package": "iptables",
+	"version": "1.8.4-3ubuntu2",
+	"section": "net",
+	"priority": "standard",
+	"architecture": "amd64",
+	"depends": [
+		"libip4tc2 (= 1.8.4-3ubuntu2)",
+		"libip6tc2 (= 1.8.4-3ubuntu2)",
+		"libxtables12 (= 1.8.4-3ubuntu2)",
+		"netbase (>= 6.0)",
+		"libc6 (>= 2.29)",
+		"libmnl0 (>= 1.0.3-4~)",
+		"libnetfilter-conntrack3 (>= 1.0.7)",
+		"libnfnetlink0",
+		"libnftnl11 (>= 1.1.5)"
+	],
+	"suggests": [
+		"firewalld",
+		"kmod",
+		"nftables"
+	],
+	"replaces": [
+		"iptables-nftables-compat (<< 1.6.2~)"
+	],
+	"breaks": [
+		"iptables-nftables-compat (<< 1.6.2~)"
+	],
+	"installedSize": 2639,
+	"maintainer": "Ubuntu Developers <ubuntu-devel-discuss@lists.ubuntu.com>",
+	"description": "administration tools for packet filtering and NAT",
+	"homepage": "https://www.netfilter.org/",
+	"filename": "pool/main/i/iptables/iptables_1.8.4-3ubuntu2_amd64.deb",
+	"size": 390328,
+	"md5": "c32776e7c01397f7b15961ad6ae41b4e",
+	"sha1": "aae1567929d0bf523768e965cf618727e28a39a8",
+	"sha256": "6ba39e76d54130ac42c391fc4ee6ec4c94a4a6ecf4b9343d2155eaa2aa750af6",
+	"descriptionMd5": "36afb86c9baa5ee22ce73b982a9e4bf0"
+}

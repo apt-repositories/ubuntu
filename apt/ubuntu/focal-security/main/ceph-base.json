@@ -1,0 +1,68 @@
+{
+	"raw": {},
+	"required": [
+		"Filename",
+		"Size"
+	],
+	"package": "ceph-base",
+	"source": "ceph",
+	"version": "15.2.17-0ubuntu0.20.04.6",
+	"section": "admin",
+	"priority": "optional",
+	"architecture": "amd64",
+	"depends": [
+		"binutils",
+		"ceph-common (= 15.2.17-0ubuntu0.20.04.6)",
+		"cryptsetup-bin | cryptsetup",
+		"gdisk",
+		"hdparm | sdparm",
+		"parted",
+		"uuid-runtime",
+		"xfsprogs",
+		"python3:any",
+		"libaio1 (>= 0.3.93)",
+		"libc6 (>= 2.29)",
+		"libgcc-s1 (>= 3.4)",
+		"libgoogle-perftools4",
+		"libleveldb1d",
+		"liblz4-1 (>= 0.0~r130)",
+		"librados2 (>= 12.1.4)",
+		"libsnappy1v5 (>= 1.1.8)",
+		"libssl1.1 (>= 1.1.0)",
+		"libstdc++6 (>= 9)",
+		"zlib1g (>= 1:1.1.4)"
+	],
+	"recommends": [
+		"ceph-mds (= 15.2.17-0ubuntu0.20.04.6)",
+		"chrony | time-daemon | ntp",
+		"librados2 (= 15.2.17-0ubuntu0.20.04.6)",
+		"librbd1 (= 15.2.17-0ubuntu0.20.04.6)"
+	],
+	"suggests": [
+		"btrfs-tools",
+		"logrotate"
+	],
+	"replaces": [
+		"ceph (<< 12.2.8+dfsg1-1~)",
+		"ceph-common (<< 9.2.0-0~)",
+		"ceph-test (<< 12.2.8+dfsg1-1~)",
+		"python-ceph (<< 0.94.1-1~)"
+	],
+	"breaks": [
+		"ceph (<< 10.2.2-0ubuntu2~)",
+		"ceph-common (<< 9.2.0-0~)",
+		"ceph-test (<< 12.2.8+dfsg1-1~)",
+		"python-ceph (<< 0.94.1-1~)"
+	],
+	"installedSize": 21073,
+	"maintainer": "Ubuntu Developers <ubuntu-devel-discuss@lists.ubuntu.com>",
+	"description": "common ceph daemon libraries and management tools",
+	"homepage": "http://ceph.com/",
+	"filename": "pool/main/c/ceph/ceph-base_15.2.17-0ubuntu0.20.04.6_amd64.deb",
+	"size": 4173324,
+	"md5": "26a1d332ba0ec804a8af1370d2e1a1b2",
+	"sha1": "7658b0432674a8ab8bda716660a9e1a9bc0cb31a",
+	"sha256": "69d0205c7e20f4a37e55ece11fcfceec3197e392e7a51a6e1e35e0b2a1105ca3",
+	"sha512": "925d7633faf1cb5bad7ca023475f14c7d27cc51c204807f6a5c48855de954227601fc2192d68925a1482696f48c7130fb9ba6fea7634ed5f72c414d5458c0776",
+	"descriptionMd5": "38862c56180e1d3d93a838a6386f82bc"
+}

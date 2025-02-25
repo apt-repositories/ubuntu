@@ -1,0 +1,46 @@
+{
+	"raw": {},
+	"required": [
+		"Filename",
+		"Size"
+	],
+	"package": "gce-compute-image-packages",
+	"version": "20190315-0ubuntu1~14.04.0",
+	"section": "universe/admin",
+	"priority": "extra",
+	"architecture": "all",
+	"depends": [
+		"init-system-helpers (>= 1.13~)",
+		"sysv-rc (>= 2.88dsf-24) | file-rc (>= 0.8.16)",
+		"google-compute-engine-oslogin (= 20190315-0ubuntu1~14.04.0)",
+		"python-google-compute-engine (= 20190315-0ubuntu1~14.04.0)",
+		"cloud-init"
+	],
+	"recommends": [
+		"rsyslog | system-log-daemon"
+	],
+	"suggests": [
+		"libpam-cracklib"
+	],
+	"replaces": [
+		"gce-cloud-config",
+		"gce-daemon",
+		"gce-startup-scripts"
+	],
+	"conflicts": [
+		"gce-cloud-config",
+		"gce-daemon",
+		"gce-startup-scripts"
+	],
+	"installedSize": 199,
+	"maintainer": "Ubuntu Developers <ubuntu-devel-discuss@lists.ubuntu.com>",
+	"description": "GCE's compute-image-packages for use in their guest environment",
+	"homepage": "https://github.com/GoogleCloudPlatform/compute-image-packages",
+	"filename": "pool/universe/g/gce-compute-image-packages/gce-compute-image-packages_20190315-0ubuntu1~14.04.0_all.deb",
+	"size": 18096,
+	"md5": "f76be47ae510d88237570cf9a4072222",
+	"sha1": "1f367dd49f9d1350f65eae24b4d80cb2bea104f8",
+	"sha256": "0a4c155169d04750e91906f42c4374b305af1343cc6d8360ae015aa52540856f",
+	"sha512": "ac52f9302c9cd7a073eb75ac8d9f326f078403603d55e3d29c2bcdae8164917b6d0a4197acfbe5b9273f2be6b3b9603e0e5e7ebd29b6a10f2ba5db07ad065082",
+	"descriptionMd5": "64267a6e545764bf58dc230b691df688"
+}

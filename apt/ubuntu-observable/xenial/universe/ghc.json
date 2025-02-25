@@ -1,0 +1,81 @@
+[{
+	"raw": {},
+	"required": [
+		"Filename",
+		"Size"
+	],
+	"package": "ghc",
+	"version": "7.10.3-7",
+	"section": "universe/haskell",
+	"priority": "extra",
+	"architecture": "amd64",
+	"depends": [
+		"gcc",
+		"libgmp-dev",
+		"libffi-dev",
+		"libbsd-dev",
+		"libc6-dev",
+		"libncurses5-dev",
+		"libc6 (>= 2.14)",
+		"libffi6 (>= 3.0.4)",
+		"libgmp10",
+		"libtinfo5 (>= 6)"
+	],
+	"preDepends": [
+		"dpkg (>= 1.16.1)"
+	],
+	"suggests": [
+		"perl",
+		"ghc-prof",
+		"ghc-doc",
+		"haskell-doc",
+		"llvm-3.5"
+	],
+	"replaces": [
+		"ghc-dynamic (<< 7.8)",
+		"ghc-haddock (<< 7.10)",
+		"ghc6 (<< 7)"
+	],
+	"breaks": [
+		"cabal-install (<< 1.22)",
+		"ghc-doc (<< 7.10)",
+		"ghc-haddock (<< 7.10)",
+		"haskell-devscripts (<< 0.8.13)"
+	],
+	"conflicts": [
+		"ghc-dynamic (<< 7.8)",
+		"ghc6 (<< 7)",
+		"libghc-array-dev",
+		"libghc-base-dev",
+		"libghc-bin-package-db-dev",
+		"libghc-binary-dev",
+		"libghc-bytestring-dev",
+		"libghc-containers-dev",
+		"libghc-deepseq-dev",
+		"libghc-directory-dev",
+		"libghc-filepath-dev",
+		"libghc-ghc-prim-dev",
+		"libghc-haskeline-dev",
+		"libghc-hoopl-dev",
+		"libghc-hpc-dev",
+		"libghc-integer-gmp-dev",
+		"libghc-pretty-dev",
+		"libghc-process-dev",
+		"libghc-template-haskell-dev",
+		"libghc-terminfo-dev",
+		"libghc-time-dev",
+		"libghc-transformers-dev",
+		"libghc-unix-dev",
+		"libghc-xhtml-dev"
+	],
+	"installedSize": 452406,
+	"maintainer": "Ubuntu Developers <ubuntu-devel-discuss@lists.ubuntu.com>",
+	"description": "The Glasgow Haskell Compilation system",
+	"homepage": "http://haskell.org/ghc/",
+	"filename": "pool/universe/g/ghc/ghc_7.10.3-7_amd64.deb",
+	"size": 39826118,
+	"md5": "56a1aabc91c272472a50c6e984f6ce79",
+	"sha1": "87a5bb73eae6bba8ba20fc8dca3ca956e6f2ad56",
+	"sha256": "68f5daad6177e2563209d6aefaeb181ad56cd2b769c063df04ea411d221e3903",
+	"descriptionMd5": "d696780bb03e075568c919469ec4c73c"
+}]

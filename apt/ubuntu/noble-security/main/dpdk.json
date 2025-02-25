@@ -1,0 +1,71 @@
+{
+	"raw": {},
+	"required": [
+		"Filename",
+		"Size"
+	],
+	"package": "dpdk",
+	"version": "23.11-1ubuntu0.1",
+	"section": "devel",
+	"priority": "optional",
+	"architecture": "amd64",
+	"depends": [
+		"pci.ids | hwdata",
+		"pciutils",
+		"procps",
+		"python3:any"
+	],
+	"recommends": [
+		"librte-mempool24",
+		"librte-mempool-ring24",
+		"librte-net-af-packet24",
+		"librte-net-bond24",
+		"librte-net-e1000-24",
+		"librte-net-fm10k24",
+		"librte-net-i40e24",
+		"librte-net-ixgbe24",
+		"librte-net-mlx4-24",
+		"librte-net-mlx5-24",
+		"librte-net-netvsc24",
+		"librte-net-pcap24",
+		"librte-net-tap24",
+		"librte-net-thunderx24",
+		"librte-net-vdev-netvsc24",
+		"librte-net-vhost24",
+		"librte-net-virtio24",
+		"librte-net-vmxnet3-24",
+		"python3-pyelftools"
+	],
+	"suggests": [
+		"dpdk-doc",
+		"dpdk-kmods-dkms",
+		"librte-meta-baseband",
+		"librte-meta-bus",
+		"librte-meta-common",
+		"librte-meta-compress",
+		"librte-meta-crypto",
+		"librte-meta-dma",
+		"librte-meta-event",
+		"librte-meta-mempool",
+		"librte-meta-net",
+		"librte-meta-raw",
+		"librte-meta-allpmds"
+	],
+	"replaces": [
+		"dpdk-dev (<< 18.11)"
+	],
+	"breaks": [
+		"dpdk-dev (<< 18.11-4~)"
+	],
+	"installedSize": 106,
+	"maintainer": "Ubuntu Developers <ubuntu-devel-discuss@lists.ubuntu.com>",
+	"description": "Data Plane Development Kit (runtime)",
+	"homepage": "https://www.dpdk.org",
+	"filename": "pool/main/d/dpdk/dpdk_23.11-1ubuntu0.1_amd64.deb",
+	"size": 30870,
+	"md5": "c760e8e64a34cfabe79e19250c00e853",
+	"sha1": "02f4366a0d458a25235209226764ab5bf860f61c",
+	"sha256": "e2e2b3f668de27b5ae4f6c6522939afb87df0106984e752faf0a9c114eddbdf2",
+	"sha512": "db62e31959317dbd0452cb1ed5e4dd450823fba588ab08b21f0eacba49cf00b092d6fe0ff28c0e9244c59c8c3ed6447ca2b2a1c2f02772bb0832f622d03d4594",
+	"descriptionMd5": "cb8a15fa900de86d21d3a722f3b66d95"
+}

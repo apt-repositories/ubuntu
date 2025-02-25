@@ -1,0 +1,48 @@
+[{
+	"raw": {},
+	"required": [
+		"Filename",
+		"Size"
+	],
+	"package": "lprng",
+	"version": "3.8.B-5",
+	"section": "universe/net",
+	"priority": "extra",
+	"architecture": "amd64",
+	"depends": [
+		"lsb-base (>= 2.0)",
+		"libc6 (>= 2.15)",
+		"libcom-err2 (>= 1.43.9)",
+		"libk5crypto3 (>= 1.6.dfsg.2)",
+		"libkrb5-3 (>= 1.16)",
+		"debconf (>= 0.5) | debconf-2.0"
+	],
+	"preDepends": [
+		"init-system-helpers (>= 1.54~)",
+		"debconf | debconf-2.0"
+	],
+	"suggests": [
+		"magicfilter",
+		"lprng-doc"
+	],
+	"replaces": [
+		"lpr"
+	],
+	"conflicts": [
+		"apsfilter (<< 4.9.1-10)",
+		"cupsys-bsd",
+		"lpr",
+		"suidmanager (<< 0.50)"
+	],
+	"installedSize": 3080,
+	"maintainer": "Ubuntu Developers <ubuntu-devel-discuss@lists.ubuntu.com>",
+	"description": "lpr/lpd printer spooling system",
+	"homepage": "http://lprng.sourceforge.net/",
+	"filename": "pool/universe/l/lprng/lprng_3.8.B-5_amd64.deb",
+	"size": 540328,
+	"md5": "bd09e9c67da003c29f4b8114b01c2ea8",
+	"sha1": "102de608b3743aa7d6562a7679b15974d7cfada8",
+	"sha256": "6dcfc5d7539dbd48757525327132936322ede6dcebcbca9627291f63d2381b9e",
+	"sha512": "c49a7945b55b9653680ae9b25c5274ea486ac2c16920908820abbd7e4c7d1533c1b272c47df0e5aa4dc3ff3eed67088cc02ef9aae8c0fd7d582806da042bf4be",
+	"descriptionMd5": "47d742863c1b0d7c17930026e04f3553"
+}]

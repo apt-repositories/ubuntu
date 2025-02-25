@@ -1,0 +1,44 @@
+{
+	"raw": {},
+	"required": [
+		"Filename",
+		"Size"
+	],
+	"package": "strongswan-charon",
+	"source": "strongswan",
+	"version": "5.3.5-1ubuntu3.8",
+	"section": "net",
+	"priority": "optional",
+	"architecture": "amd64",
+	"depends": [
+		"libc6 (>= 2.4)",
+		"libstrongswan (= 5.3.5-1ubuntu3.8)",
+		"strongswan-libcharon",
+		"strongswan-starter",
+		"iproute2 | iproute"
+	],
+	"preDepends": [
+		"debconf | debconf-2.0"
+	],
+	"replaces": [
+		"libstrongswan (<= 5.1.1-1)",
+		"strongswan-ike (<= 5.1.1-1)",
+		"strongswan-ikev1",
+		"strongswan-ikev2"
+	],
+	"breaks": [
+		"libstrongswan (<= 5.1.1-1)",
+		"strongswan-ike (<= 5.1.1-1)"
+	],
+	"installedSize": 297,
+	"maintainer": "Ubuntu Developers <ubuntu-devel-discuss@lists.ubuntu.com>",
+	"description": "strongSwan Internet Key Exchange daemon",
+	"homepage": "http://www.strongswan.org",
+	"filename": "pool/main/s/strongswan/strongswan-charon_5.3.5-1ubuntu3.8_amd64.deb",
+	"size": 55514,
+	"md5": "2a05ecf571aa045bbe4803d41974e355",
+	"sha1": "1eabc452b2bb46117ba492516619b7d0057df05d",
+	"sha256": "f0d118876962ea0ae0bf3cbfec50f5343ffdf9b9f2674ea6a2409bab56a96874",
+	"sha512": "22ae31e01de906d62f3473d4052bd83f2cdf5c78e56244edb0a6110ea7054ab251ce30282907900b250cbead6c9e4c0fa094026aa8fc6326b85f3d69e261f665",
+	"descriptionMd5": "3f55915d17f7e36d9b31e2c4da5c11d2"
+}

@@ -1,0 +1,45 @@
+{
+	"raw": {},
+	"required": [
+		"Filename",
+		"Size"
+	],
+	"package": "quagga",
+	"version": "0.99.24.1-2ubuntu1",
+	"section": "net",
+	"priority": "optional",
+	"architecture": "amd64",
+	"depends": [
+		"libc6 (>= 2.15)",
+		"libcap2 (>= 1:2.10)",
+		"libpam0g (>= 0.99.7.1)",
+		"libreadline6 (>= 6.0)",
+		"logrotate (>= 3.2-11)",
+		"iproute2",
+		"debconf (>= 0.5) | debconf-2.0"
+	],
+	"preDepends": [
+		"adduser"
+	],
+	"suggests": [
+		"snmpd"
+	],
+	"replaces": [
+		"zebra",
+		"zebra-pj"
+	],
+	"conflicts": [
+		"zebra",
+		"zebra-pj"
+	],
+	"installedSize": 6428,
+	"maintainer": "Ubuntu Developers <ubuntu-devel-discuss@lists.ubuntu.com>",
+	"description": "BGP/OSPF/RIP routing daemon",
+	"homepage": "http://www.quagga.net/",
+	"filename": "pool/main/q/quagga/quagga_0.99.24.1-2ubuntu1_amd64.deb",
+	"size": 1321408,
+	"md5": "f1bbaceb5788992e101466e045de7877",
+	"sha1": "31cd327e9c97b5e4093fd606f3d92a4302951808",
+	"sha256": "fa5170e917b6eed9f38c23c1904e154c9c02e587b0c2c9de224377ff4d805ff6",
+	"descriptionMd5": "156e956921717778c003a1086883af2b"
+}

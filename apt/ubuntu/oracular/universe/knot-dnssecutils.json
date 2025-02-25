@@ -1,0 +1,41 @@
+{
+	"raw": {},
+	"required": [
+		"Filename",
+		"Size"
+	],
+	"package": "knot-dnssecutils",
+	"source": "knot",
+	"version": "3.3.8-1",
+	"section": "universe/net",
+	"priority": "optional",
+	"architecture": "amd64",
+	"depends": [
+		"libdnssec9t64 (= 3.3.8-1)",
+		"libknot14t64 (= 3.3.8-1)",
+		"libzscanner4t64 (= 3.3.8-1)",
+		"libc6 (>= 2.38)",
+		"liblmdb0 (>= 0.9.7)",
+		"libsystemd0 (>= 221)",
+		"liburcu8t64 (>= 0.13.0)"
+	],
+	"replaces": [
+		"knot (<< 3.2.0-1)",
+		"knot-dnsutils (<< 3.2.0-1)"
+	],
+	"breaks": [
+		"knot (<< 3.2.0-1)",
+		"knot-dnsutils (<< 3.2.0-1)"
+	],
+	"installedSize": 825,
+	"maintainer": "Ubuntu Developers <ubuntu-devel-discuss@lists.ubuntu.com>",
+	"description": "DNSSEC tools provided with Knot DNS (kzonecheck, kzonesign, knsec3hash)",
+	"homepage": "https://www.knot-dns.cz/",
+	"filename": "pool/universe/k/knot/knot-dnssecutils_3.3.8-1_amd64.deb",
+	"size": 268124,
+	"md5": "371b479b12443d35d9d2f6c2dd2a68d9",
+	"sha1": "321515db70ed9826622f53ecb0bbda57fd6816b9",
+	"sha256": "7a30807d36500455731d4c03d76a9751ad7dd1b15522c070598178165998ac21",
+	"sha512": "b52eece4eab07e09e768432fa902338bb90ce08ad906336837a10a86db6ea486053659f83bbd16bd837339bae3930bcd35a21636c786d5a2a648cfe0f6ad6a05",
+	"descriptionMd5": "438b6998f4318263fbd1d4036a45b384"
+}

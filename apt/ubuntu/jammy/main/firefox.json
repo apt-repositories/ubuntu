@@ -1,0 +1,41 @@
+{
+	"raw": {},
+	"required": [
+		"Filename",
+		"Size"
+	],
+	"package": "firefox",
+	"version": "1:1snap1-0ubuntu2",
+	"section": "web",
+	"priority": "optional",
+	"architecture": "amd64",
+	"depends": [
+		"debconf (>= 0.5) | debconf-2.0"
+	],
+	"preDepends": [
+		"debconf",
+		"snapd"
+	],
+	"replaces": [
+		"firefox-dbg (<< 1:1snap1)",
+		"firefox-dev (<< 1:1snap1)",
+		"firefox-geckodriver (<< 1:1snap1)",
+		"firefox-mozsymbols (<< 1:1snap1)"
+	],
+	"breaks": [
+		"firefox-dbg (<< 1:1snap1)",
+		"firefox-dev (<< 1:1snap1)",
+		"firefox-geckodriver (<< 1:1snap1)",
+		"firefox-mozsymbols (<< 1:1snap1)"
+	],
+	"installedSize": 255,
+	"maintainer": "Ubuntu Mozilla Team <ubuntu-mozillateam@lists.ubuntu.com>",
+	"description": "Transitional package - firefox -> firefox snap",
+	"filename": "pool/main/f/firefox/firefox_1snap1-0ubuntu2_amd64.deb",
+	"size": 72292,
+	"md5": "4cfb8522595425213edbd3440dfaab6c",
+	"sha1": "ec27ebd8fca2d918add69c94f1163b593fd4fb66",
+	"sha256": "ddccd2ef5cc7291364ab4998e57d684aac993488ae561bb67ed31ddb617659cc",
+	"sha512": "35cb18af47666668b77357132f7786946fe2f90abba2fc5abd55f73124de672645a07ac97a6e12ca66b77d892f07356f3a69d8c321b5b657b39419b146681f2a",
+	"descriptionMd5": "28593f0f24b1284477e30b88c6717ba4"
+}

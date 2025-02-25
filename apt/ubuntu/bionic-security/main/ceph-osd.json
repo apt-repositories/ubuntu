@@ -1,0 +1,54 @@
+{
+	"raw": {},
+	"required": [
+		"Filename",
+		"Size"
+	],
+	"package": "ceph-osd",
+	"source": "ceph",
+	"version": "12.2.13-0ubuntu0.18.04.11",
+	"section": "admin",
+	"priority": "optional",
+	"architecture": "amd64",
+	"depends": [
+		"ceph-base (= 12.2.13-0ubuntu0.18.04.11)",
+		"python-pkg-resources",
+		"python2.7:any",
+		"python:any (<< 2.8)",
+		"python:any (>= 2.7.5-5~)",
+		"libaio1 (>= 0.3.93)",
+		"libblkid1 (>= 2.17.2)",
+		"libc6 (>= 2.16)",
+		"libfuse2 (>= 2.8)",
+		"libgcc1 (>= 1:3.0)",
+		"libgoogle-perftools4",
+		"libibverbs1 (>= 1.1.6)",
+		"libleveldb1v5",
+		"libnspr4 (>= 2:4.9-2~)",
+		"libnss3 (>= 2:3.13.4-2~)",
+		"librados2 (>= 12.1.4)",
+		"libsnappy1v5",
+		"libstdc++6 (>= 6)",
+		"zlib1g (>= 1:1.1.4)"
+	],
+	"preDepends": [
+		"ceph-common (= 12.2.13-0ubuntu0.18.04.11)"
+	],
+	"replaces": [
+		"ceph (<< 10.2.2-0ubuntu2~)"
+	],
+	"breaks": [
+		"ceph (<< 10.2.2-0ubuntu2~)"
+	],
+	"installedSize": 46556,
+	"maintainer": "Ubuntu Developers <ubuntu-devel-discuss@lists.ubuntu.com>",
+	"description": "OSD server for the ceph storage system",
+	"homepage": "http://ceph.com/",
+	"filename": "pool/main/c/ceph/ceph-osd_12.2.13-0ubuntu0.18.04.11_amd64.deb",
+	"size": 13068020,
+	"md5": "87b7a1e59ece0be45f73fd0bfbc06523",
+	"sha1": "96dcd73c3a9f26ab0c86e86b3bbd244c6dd9006b",
+	"sha256": "4f2dee94504581e38787a33dba692d3a5436eb6b88b0b9821569e6f508c707fc",
+	"sha512": "607b23b0cb4d47a7d351172f1512d0543172856261e3b8f13433ec84b90800c90b6cd2a32c3ea6fb999a1c77ae4bc25eecf6fef17d4fd39f68ee316dd9af62cc",
+	"descriptionMd5": "fb08b00d788b505eb4bb23072221ce43"
+}

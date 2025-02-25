@@ -1,0 +1,58 @@
+{
+	"raw": {},
+	"required": [
+		"Filename",
+		"Size"
+	],
+	"package": "bind9",
+	"version": "1:9.18.1-1ubuntu1",
+	"section": "net",
+	"priority": "optional",
+	"architecture": "amd64",
+	"depends": [
+		"adduser",
+		"bind9-libs (= 1:9.18.1-1ubuntu1)",
+		"bind9-utils (= 1:9.18.1-1ubuntu1)",
+		"debconf | debconf-2.0",
+		"dns-root-data",
+		"iproute2",
+		"lsb-base (>= 3.2-14)",
+		"netbase",
+		"libc6 (>= 2.34)",
+		"libcap2 (>= 1:2.10)",
+		"libjson-c5 (>= 0.15)",
+		"liblmdb0 (>= 0.9.7)",
+		"libmaxminddb0 (>= 1.3.0)",
+		"libnghttp2-14 (>= 1.3.0)",
+		"libssl3 (>= 3.0.0~~alpha1)",
+		"libuv1 (>= 1.4.2)",
+		"libxml2 (>= 2.7.4)",
+		"zlib1g (>= 1:1.1.4)"
+	],
+	"preDepends": [
+		"init-system-helpers (>= 1.54~)"
+	],
+	"suggests": [
+		"bind-doc",
+		"dnsutils",
+		"resolvconf",
+		"ufw"
+	],
+	"replaces": [
+		"bind (<< 1:9.13.6~)"
+	],
+	"breaks": [
+		"bind (<< 1:9.13.6~)"
+	],
+	"installedSize": 905,
+	"maintainer": "Ubuntu Developers <ubuntu-devel-discuss@lists.ubuntu.com>",
+	"description": "Internet Domain Name Server",
+	"homepage": "https://www.isc.org/downloads/bind/",
+	"filename": "pool/main/b/bind9/bind9_9.18.1-1ubuntu1_amd64.deb",
+	"size": 250792,
+	"md5": "8dd03dbe5c0d91bc52aa983974bee9ff",
+	"sha1": "0fb02eba2fcac69f74730d6ce9aabf0926f912ab",
+	"sha256": "5b9b327359bbf8e0137eec4cc3689c5a308a37d27b361b385b95cc8b136b2399",
+	"sha512": "5c11e8ac77f3b0624147aa32959f8746b533704a2933992db8fd55fa12dbf6fcfe3a189a40624f5484890d70c471aad29b6ac93608d457b388632b58a5305f20",
+	"descriptionMd5": "2cdf89d501b5ca6fe55e945de47cc047"
+}

@@ -1,0 +1,43 @@
+{
+	"raw": {},
+	"required": [
+		"Filename",
+		"Size"
+	],
+	"package": "isc-dhcp-client",
+	"source": "isc-dhcp",
+	"version": "4.2.4-7ubuntu12.12",
+	"section": "net",
+	"priority": "important",
+	"architecture": "amd64",
+	"depends": [
+		"libc6 (>= 2.15)",
+		"debianutils (>= 2.8.2)",
+		"isc-dhcp-common (= 4.2.4-7ubuntu12.12)",
+		"iproute2"
+	],
+	"suggests": [
+		"resolvconf",
+		"avahi-autoipd",
+		"apparmor"
+	],
+	"replaces": [
+		"dhcp3-client"
+	],
+	"conflicts": [
+		"dhcp-client (<< 3.0)",
+		"ifupdown (<< 0.6.8+nmu3)",
+		"resolvconf (<= 1.45)",
+		"samba-common (<< 3.0.0beta1-2)"
+	],
+	"installedSize": 1825,
+	"maintainer": "Ubuntu Developers <ubuntu-devel-discuss@lists.ubuntu.com>",
+	"description": "ISC DHCP client",
+	"filename": "pool/main/i/isc-dhcp/isc-dhcp-client_4.2.4-7ubuntu12.12_amd64.deb",
+	"size": 639762,
+	"md5": "c0396ffbcae3607b24d84dd65ed93dc2",
+	"sha1": "5033bcba9e8430e4d8452ef992da21251a941f7e",
+	"sha256": "e5c8756a7b1bcdf4a11328b26c0f72b9a2d79ea72501d00c98ecd2838291f71c",
+	"sha512": "4fa14359a40d1616685d7480372a5622f414e7526b6436306a695ff233313769e3a61b675dca7dd56b19b539993bf74465d5ee6735c3a81efd45c5d673ebe83b",
+	"descriptionMd5": "7d48c04c85ad9235ca7273ba8da51bbc"
+}

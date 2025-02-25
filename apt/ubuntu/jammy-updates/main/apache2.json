@@ -1,0 +1,52 @@
+{
+	"raw": {},
+	"required": [
+		"Filename",
+		"Size"
+	],
+	"package": "apache2",
+	"version": "2.4.52-1ubuntu4.13",
+	"section": "web",
+	"priority": "optional",
+	"architecture": "amd64",
+	"depends": [
+		"apache2-bin (= 2.4.52-1ubuntu4.13)",
+		"apache2-data (= 2.4.52-1ubuntu4.13)",
+		"apache2-utils (= 2.4.52-1ubuntu4.13)",
+		"lsb-base",
+		"mime-support",
+		"perl:any",
+		"procps"
+	],
+	"preDepends": [
+		"init-system-helpers (>= 1.54~)"
+	],
+	"recommends": [
+		"ssl-cert"
+	],
+	"suggests": [
+		"apache2-doc",
+		"apache2-suexec-pristine | apache2-suexec-custom",
+		"www-browser",
+		"ufw"
+	],
+	"replaces": [
+		"apache2.2-bin",
+		"apache2.2-common"
+	],
+	"conflicts": [
+		"apache2.2-bin",
+		"apache2.2-common"
+	],
+	"installedSize": 535,
+	"maintainer": "Ubuntu Developers <ubuntu-devel-discuss@lists.ubuntu.com>",
+	"description": "Apache HTTP Server",
+	"homepage": "https://httpd.apache.org/",
+	"filename": "pool/main/a/apache2/apache2_2.4.52-1ubuntu4.13_amd64.deb",
+	"size": 97882,
+	"md5": "ce6c3e8bfeeac29b0a228184fbd5ab12",
+	"sha1": "9dc055999b13db1d808ce2bae2a9aff0ccc1e611",
+	"sha256": "d9ead520a877cd43fb312087b4816510475c621f1f4e1575e2243b26cea78106",
+	"sha512": "2f2e43539a1cdc046390a5f981bb127036c08da499b008bc7e4cdf1ae014fac6569c4d85c59ac61e0f6238d04c1a6cc09f7e9f9db543eb19dcb55a5cc14ed6cb",
+	"descriptionMd5": "d02426bc360345e5acd45367716dc35c"
+}

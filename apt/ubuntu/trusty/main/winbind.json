@@ -1,0 +1,55 @@
+{
+	"raw": {},
+	"required": [
+		"Filename",
+		"Size"
+	],
+	"package": "winbind",
+	"source": "samba",
+	"version": "2:4.1.6+dfsg-1ubuntu2",
+	"section": "net",
+	"priority": "optional",
+	"architecture": "amd64",
+	"depends": [
+		"samba (= 2:4.1.6+dfsg-1ubuntu2)",
+		"sysv-rc (>= 2.88dsf-24) | file-rc (>= 0.8.16)",
+		"libbsd0 (>= 0.3.0)",
+		"libc6 (>= 2.14)",
+		"libcomerr2 (>= 1.01)",
+		"libkrb5-26-heimdal (>= 1.4.0+git20110226)",
+		"libldap-2.4-2 (>= 2.4.7)",
+		"libpopt0 (>= 1.14)",
+		"libtalloc2 (>= 2.0.4~git20101213)",
+		"libtdb1 (>= 1.2.7+git20101214)",
+		"libtevent0 (>= 0.9.12)",
+		"libwbclient0 (= 2:4.1.6+dfsg-1ubuntu2)",
+		"samba-libs (= 2:4.1.6+dfsg-1ubuntu2)"
+	],
+	"preDepends": [
+		"multiarch-support"
+	],
+	"suggests": [
+		"libnss-winbind",
+		"libpam-winbind"
+	],
+	"replaces": [
+		"samba-doc (<< 2:4.0.5~)",
+		"winbind4"
+	],
+	"enhances": [
+		"libkrb5-26-heimdal"
+	],
+	"conflicts": [
+		"samba-doc (<< 2:4.0.5~)"
+	],
+	"installedSize": 1797,
+	"maintainer": "Ubuntu Developers <ubuntu-devel-discuss@lists.ubuntu.com>",
+	"description": "service to resolve user and group information from Windows NT servers",
+	"homepage": "http://www.samba.org",
+	"filename": "pool/main/s/samba/winbind_4.1.6+dfsg-1ubuntu2_amd64.deb",
+	"size": 399588,
+	"md5": "e231cf9449873d3bfcf5de71adbd65bf",
+	"sha1": "d556049ed4a0390a80d7e3c04c2e34a54ac067c1",
+	"sha256": "a375e3a35213c22c06df5f72147e35aab64c48e17dd87204429ce95b4b5f37a1",
+	"descriptionMd5": "7716bdbd49ef007f51760bb859065b02"
+}

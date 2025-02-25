@@ -1,0 +1,38 @@
+{
+	"raw": {},
+	"required": [
+		"Filename",
+		"Size"
+	],
+	"package": "linux-image-lowlatency-lts-xenial",
+	"source": "linux-meta-lts-xenial",
+	"version": "4.4.0.148.130",
+	"section": "kernel",
+	"priority": "optional",
+	"architecture": "amd64",
+	"depends": [
+		"linux-image-4.4.0-148-lowlatency | linux-unsigned-image-4.4.0-148-lowlatency",
+		"linux-firmware",
+		"intel-microcode",
+		"amd64-microcode"
+	],
+	"recommends": [
+		"thermald"
+	],
+	"breaks": [
+		"nvidia-304 (<< 304.135-0ubuntu0.14.04.2~)",
+		"nvidia-340 (<< 340.107-0ubuntu0.14.04.1~)",
+		"nvidia-384 (<< 384.130-0ubuntu0.14.04.2)",
+		"virtualbox-guest-dkms-lts-xenial (<< 4.3.36-dfsg-1+deb8u1ubuntu1.14.04.1~14.04.5~)"
+	],
+	"installedSize": 30,
+	"maintainer": "Ubuntu Kernel Team <kernel-team@lists.ubuntu.com>",
+	"description": "lowlatency Linux kernel image",
+	"filename": "pool/main/l/linux-meta-lts-xenial/linux-image-lowlatency-lts-xenial_4.4.0.148.130_amd64.deb",
+	"size": 2792,
+	"md5": "f958f634d05cb9be5b115f581555a7bb",
+	"sha1": "f5b476343331ed66542a69ec37c3f697e121c58b",
+	"sha256": "b5b78d5c4092ebf4e50a93a6e9f9188050bf32f602d548255593e365e768ca7f",
+	"sha512": "9d291d80f05ec36cb97513381cdc043572997ab80869a9fec8c513cf18bc9603f32f8488c423e250ebf149d3f9e8b19dd0708e66b7b0b2a6ed8cd507fdde387f",
+	"descriptionMd5": "81c6fc6425f7566aa856ff1be6d8b320"
+}

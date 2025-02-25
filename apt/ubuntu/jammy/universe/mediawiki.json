@@ -1,0 +1,67 @@
+{
+	"raw": {},
+	"required": [
+		"Filename",
+		"Size"
+	],
+	"package": "mediawiki",
+	"version": "1:1.35.6-1",
+	"section": "universe/web",
+	"priority": "optional",
+	"architecture": "all",
+	"depends": [
+		"apache2 | httpd",
+		"php (>= 2:7.3~)",
+		"php-mysql | php-pgsql | php-sqlite3 | php-mysqlnd",
+		"php-mbstring",
+		"php-xml",
+		"mediawiki-classes (= 1:1.35.6-1)"
+	],
+	"recommends": [
+		"default-mysql-server | virtual-mysql-server | postgresql-contrib | php-sqlite3",
+		"php-cli",
+		"php-apcu",
+		"php-intl",
+		"php-curl",
+		"php-gmp",
+		"php-gd",
+		"php-readline",
+		"php-yaml",
+		"php-wikidiff2",
+		"python3",
+		"php-luasandbox | lua5.1"
+	],
+	"suggests": [
+		"memcached",
+		"clamav",
+		"firejail"
+	],
+	"replaces": [
+		"mediawiki-extensions-base",
+		"mediawiki-extensions-confirmedit",
+		"mediawiki-extensions-geshi"
+	],
+	"breaks": [
+		"fusionforge-plugin-mediawiki (<< 5.2~rc1+1~)",
+		"mediawiki-extensions (<< 2.8~)",
+		"mediawiki-extensions-base",
+		"mediawiki-extensions-collection (<< 2.8~)",
+		"mediawiki-extensions-confirmedit",
+		"mediawiki-extensions-fckeditor",
+		"mediawiki-extensions-geshi",
+		"mediawiki-extensions-graphviz (<< 2.8~)",
+		"mediawiki-extensions-ldapauth (<< 2.8~)",
+		"mediawiki-extensions-openid (<< 2.8~)"
+	],
+	"installedSize": 186686,
+	"maintainer": "Ubuntu Developers <ubuntu-devel-discuss@lists.ubuntu.com>",
+	"description": "website engine for collaborative work",
+	"homepage": "https://www.mediawiki.org/",
+	"filename": "pool/universe/m/mediawiki/mediawiki_1.35.6-1_all.deb",
+	"size": 31256468,
+	"md5": "59df4157e32dc1caefbcd4ec14793ee9",
+	"sha1": "87af5ade18403a9a6979dbdf3e2686dff97c15d3",
+	"sha256": "c5118e7489e4729bb3aa68b8ed7f08b06c4763e937d7dca5fe679fc9b12183ff",
+	"sha512": "1d844812efb74fe535f0f63686959fd40a8997e335cd620e1b178dd3af1614e214fad89c0ba103fd7f68d28c3e8d17ef95faf35ef536e2e93e2092898e60f661",
+	"descriptionMd5": "ddcc60dd7124e88ede95f0010ec0906b"
+}

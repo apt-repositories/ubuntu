@@ -1,0 +1,57 @@
+{
+	"raw": {},
+	"required": [
+		"Filename",
+		"Size"
+	],
+	"package": "torrus-common",
+	"source": "torrus",
+	"version": "3.00-2",
+	"section": "universe/net",
+	"priority": "extra",
+	"architecture": "all",
+	"depends": [
+		"adduser",
+		"rrdtool",
+		"perl",
+		"redis",
+		"libredis-fast-perl",
+		"libgit-objectstore-perl",
+		"libjson-perl",
+		"libcache-ref-perl",
+		"libxml-libxml-perl",
+		"libnet-snmp-perl",
+		"libproc-daemon-perl",
+		"librrds-perl",
+		"libcgi-fast-perl",
+		"libapache-session-perl",
+		"libtemplate-perl",
+		"libtimedate-perl"
+	],
+	"preDepends": [
+		"dpkg (>= 1.15.7.2)"
+	],
+	"suggests": [
+		"libapache2-mod-fcgid | libapache2-mod-fastcgi | lighttpd",
+		"libcrypt-des-perl",
+		"libdigest-hmac-perl",
+		"libio-socket-inet6-perl"
+	],
+	"replaces": [
+		"torrus-apache2"
+	],
+	"conflicts": [
+		"torrus-apache2"
+	],
+	"installedSize": 3262,
+	"maintainer": "Ubuntu Developers <ubuntu-devel-discuss@lists.ubuntu.com>",
+	"description": "Universal front-end for Round-Robin Databases (common files)",
+	"homepage": "http://torrus.org/",
+	"filename": "pool/universe/t/torrus/torrus-common_3.00-2_all.deb",
+	"size": 526514,
+	"md5": "fc92adb1fb1a717415335edeb11bc90a",
+	"sha1": "3af320e7f3ec9ec91e34a88928fa561babfe13ff",
+	"sha256": "ddc12af203a808f83903ba567ccb3948b30252d6d19def495ff190137531a690",
+	"sha512": "a648f18a911af2e62228cbaad50b784e860432a305a36455fec99688727580f9e65d2d869f07d66b121c15c257fd733be575003437552bd2f4cc60d1a5d36da7",
+	"descriptionMd5": "45b428cecbbe43e98408ebb3c5bd1f5b"
+}

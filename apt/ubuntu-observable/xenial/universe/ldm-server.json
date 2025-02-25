@@ -1,0 +1,42 @@
+[{
+	"raw": {},
+	"required": [
+		"Filename",
+		"Size"
+	],
+	"package": "ldm-server",
+	"source": "ldm",
+	"version": "2:2.2.18-1",
+	"section": "universe/misc",
+	"priority": "optional",
+	"architecture": "all",
+	"depends": [
+		"python",
+		"x11-common",
+		"openssh-server",
+		"update-inetd",
+		"openbsd-inetd | inet-superserver"
+	],
+	"recommends": [
+		"gnome-session | mate-desktop-environment | x-session-manager | x-window-manager",
+		"ltspfs",
+		"libasound2-plugins",
+		"xauth"
+	],
+	"replaces": [
+		"ltsp-server (<= 5.1.62)"
+	],
+	"breaks": [
+		"ltsp-server (<= 5.1.62)"
+	],
+	"installedSize": 36,
+	"maintainer": "Ubuntu Developers <ubuntu-devel-discuss@lists.ubuntu.com>",
+	"description": "server components for LTSP display manager",
+	"homepage": "http://ltsp.org/",
+	"filename": "pool/universe/l/ldm/ldm-server_2.2.18-1_all.deb",
+	"size": 8702,
+	"md5": "210af3ade307df055daac4f7430f2c8c",
+	"sha1": "1588d58da793d7df322317bd27015b150458c681",
+	"sha256": "2f5c5e40b1a8a2490b0b798251bff16df1c2505757d19db1d018cc47688c777f",
+	"descriptionMd5": "83333381bb32c5d4cb09d85c656d4009"
+}]

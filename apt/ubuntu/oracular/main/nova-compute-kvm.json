@@ -1,0 +1,34 @@
+{
+	"raw": {},
+	"required": [
+		"Filename",
+		"Size"
+	],
+	"package": "nova-compute-kvm",
+	"source": "nova",
+	"version": "3:30.0.0-0ubuntu1",
+	"section": "net",
+	"priority": "extra",
+	"architecture": "all",
+	"depends": [
+		"adduser",
+		"ipxe-qemu",
+		"ipxe-qemu-256k-compat-efi-roms",
+		"nova-compute-libvirt (= 3:30.0.0-0ubuntu1)",
+		"qemu-kvm | qemu-system (>= 1.3.0)"
+	],
+	"conflicts": [
+		"nova-compute-hypervisor"
+	],
+	"installedSize": 21,
+	"maintainer": "Ubuntu Developers <ubuntu-devel-discuss@lists.ubuntu.com>",
+	"description": "OpenStack Compute - compute node (KVM)",
+	"homepage": "https://launchpad.net/nova",
+	"filename": "pool/main/n/nova/nova-compute-kvm_30.0.0-0ubuntu1_all.deb",
+	"size": 2820,
+	"md5": "e74b8c1d4dde0d02204f130cfd574a0a",
+	"sha1": "7344cf543c8ba0875ef7e36217c2acf8aba49341",
+	"sha256": "c99a3195994f60af4e3e1dc2249faa9e65182710c666c3c2efff73e2f26e277b",
+	"sha512": "c2bbccf7c860e0f8132d1e8ca683266e8efb616c2a435aa691e13b1af0fbb85394a37057871f995f64cbc9d4b5cb5507421d870b1a68158cd3f4211d0710ffbe",
+	"descriptionMd5": "3a3f4fc6eb0e0d1a1a52636f4a84daa1"
+}

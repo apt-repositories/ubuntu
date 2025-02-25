@@ -1,0 +1,43 @@
+{
+	"raw": {},
+	"required": [
+		"Filename",
+		"Size"
+	],
+	"package": "linux-image-5.15.0-1039-intel-iotg",
+	"source": "linux-signed-intel-iotg",
+	"version": "5.15.0-1039.45",
+	"section": "kernel",
+	"priority": "optional",
+	"architecture": "amd64",
+	"depends": [
+		"kmod",
+		"linux-base (>= 4.5ubuntu1~16.04.1)",
+		"linux-modules-5.15.0-1039-intel-iotg"
+	],
+	"recommends": [
+		"grub-pc | grub-efi-amd64 | grub-efi-ia32 | grub | lilo",
+		"initramfs-tools | linux-initramfs-tool"
+	],
+	"suggests": [
+		"fdutils",
+		"linux-doc | linux-intel-iotg-source-5.15.0",
+		"linux-intel-iotg-tools",
+		"linux-headers-5.15.0-1039-intel-iotg",
+		"linux-modules-extra-5.15.0-1039-intel-iotg"
+	],
+	"conflicts": [
+		"linux-image-unsigned-5.15.0-1039-intel-iotg"
+	],
+	"installedSize": 11381,
+	"maintainer": "Canonical Kernel Team <kernel-team@lists.ubuntu.com>",
+	"description": "Signed kernel image intel-iotg",
+	"builtUsing": "linux-intel-iotg (= 5.15.0-1039.45)",
+	"filename": "pool/main/l/linux-signed-intel-iotg/linux-image-5.15.0-1039-intel-iotg_5.15.0-1039.45_amd64.deb",
+	"size": 11463656,
+	"md5": "7ac7c83e74bad54806e1345ab81e12af",
+	"sha1": "68bfa444866f564a3f58977a3f272f43bb7030d1",
+	"sha256": "119ee583860e11367bceaa9e0586345d7397dabc0f7b0a631da0cc52b96b60d1",
+	"sha512": "d5ebefff73e178143e9ab9cef533df32b41da5d34e151d06b8546c095af359c500135d320aee26e1a2a273d1b069dba741d3f1c5e6d395c8b3bed116a652ad7a",
+	"descriptionMd5": "e98d735279efef092e106f9edc113b25"
+}

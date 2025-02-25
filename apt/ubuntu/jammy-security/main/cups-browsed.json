@@ -1,0 +1,50 @@
+{
+	"raw": {},
+	"required": [
+		"Filename",
+		"Size"
+	],
+	"package": "cups-browsed",
+	"source": "cups-filters",
+	"version": "1.28.15-0ubuntu1.4",
+	"section": "net",
+	"priority": "optional",
+	"architecture": "amd64",
+	"depends": [
+		"cups-daemon",
+		"lsb-base",
+		"libavahi-client3 (>= 0.6.16)",
+		"libavahi-common3 (>= 0.6.16)",
+		"libavahi-glib1 (>= 0.6.16)",
+		"libc6 (>= 2.34)",
+		"libcups2 (>= 2.2.2)",
+		"libcupsfilters1 (>= 1.27.0)",
+		"libglib2.0-0 (>= 2.37.3)"
+	],
+	"preDepends": [
+		"init-system-helpers (>= 1.54~)"
+	],
+	"recommends": [
+		"avahi-daemon"
+	],
+	"replaces": [
+		"cups-filters (<< 1.4.0~)"
+	],
+	"enhances": [
+		"cups"
+	],
+	"breaks": [
+		"cups-filters (<< 1.4.0~)"
+	],
+	"installedSize": 357,
+	"maintainer": "Ubuntu Developers <ubuntu-devel-discuss@lists.ubuntu.com>",
+	"description": "OpenPrinting CUPS Filters - cups-browsed",
+	"homepage": "http://www.openprinting.org/",
+	"filename": "pool/main/c/cups-filters/cups-browsed_1.28.15-0ubuntu1.4_amd64.deb",
+	"size": 106500,
+	"md5": "dba8f135b9c6b4934934e876bd6e9da8",
+	"sha1": "5fa3dea59f8d974aab83f55695b6ed3e7bb96944",
+	"sha256": "e841a995e98dd59bd8d648b16396ec91452fa36dcb256293b5dd3840adbf4985",
+	"sha512": "6e90759f2ac2be048460a4ec5ef428d32be0a6d66cd86239d0b59c879386598f4b1016272e9d2b81ade102d6c551c555987ec76492a7c8b6a07e56e94fe9ca70",
+	"descriptionMd5": "6841b0cfd74741276406b0948b8f9867"
+}

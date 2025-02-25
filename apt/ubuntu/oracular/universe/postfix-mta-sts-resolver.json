@@ -1,0 +1,42 @@
+{
+	"raw": {},
+	"required": [
+		"Filename",
+		"Size"
+	],
+	"package": "postfix-mta-sts-resolver",
+	"version": "1.1.2-1.2",
+	"section": "universe/mail",
+	"priority": "optional",
+	"architecture": "all",
+	"depends": [
+		"python3-aiodns",
+		"python3-aiohttp",
+		"python3-yaml",
+		"python3:any",
+		"adduser",
+		"ca-certificates",
+		"python3-aiosqlite",
+		"python3-aioredis"
+	],
+	"preDepends": [
+		"init-system-helpers (>= 1.54~)"
+	],
+	"recommends": [
+		"python3-uvloop"
+	],
+	"enhances": [
+		"postfix"
+	],
+	"installedSize": 137,
+	"maintainer": "Ubuntu Developers <ubuntu-devel-discuss@lists.ubuntu.com>",
+	"description": "Daemon providing MTA-STS map to Postfix",
+	"homepage": "https://github.com/Snawoot/postfix-mta-sts-resolver",
+	"filename": "pool/universe/p/postfix-mta-sts-resolver/postfix-mta-sts-resolver_1.1.2-1.2_all.deb",
+	"size": 34414,
+	"md5": "b2d8e775c41e939f4a79adff091293e7",
+	"sha1": "cfb7b0eb10066d0a449e78b10ec9154c1de03b90",
+	"sha256": "b416791c4d31283ffa4eb34545baa26b1a63fd90ccc4c8ee75080e622a419f6c",
+	"sha512": "82b96bd69ad1b1ffd940d21888da4b678f7ef0010fc63055b54f59406b1e4c00ea7794530de23349bf9057b0665d12d6e1b2b37e0075d1c2061d8f91c3c93e75",
+	"descriptionMd5": "41f80f5aacee2c642d3b99898d2fade1"
+}

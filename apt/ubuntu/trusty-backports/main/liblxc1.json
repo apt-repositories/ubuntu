@@ -1,0 +1,52 @@
+{
+	"raw": {},
+	"required": [
+		"Filename",
+		"Size"
+	],
+	"package": "liblxc1",
+	"source": "lxc",
+	"version": "2.0.8-0ubuntu1~14.04.1",
+	"section": "admin",
+	"priority": "optional",
+	"architecture": "amd64",
+	"depends": [
+		"cgroup-lite (>= 1.11~ubuntu14.04.2) | systemd",
+		"lxc-common (= 2.0.8-0ubuntu1~14.04.1)",
+		"rsync",
+		"libapparmor1 (>= 2.6~devel)",
+		"libc6 (>= 2.17)",
+		"libcap2 (>= 2.10)",
+		"libgnutls28 (>= 3.2.10-0)",
+		"libseccomp2 (>= 1.0.1)",
+		"libselinux1 (>= 1.32)"
+	],
+	"preDepends": [
+		"multiarch-support"
+	],
+	"recommends": [
+		"lxcfs",
+		"uidmap"
+	],
+	"replaces": [
+		"liblxc0",
+		"lxc (<< 0.9.0~alpha3-0ubuntu1~)"
+	],
+	"breaks": [
+		"lxc (<< 0.9.0~alpha3-0ubuntu1~)"
+	],
+	"conflicts": [
+		"liblxc0"
+	],
+	"installedSize": 677,
+	"maintainer": "Ubuntu Developers <ubuntu-devel-discuss@lists.ubuntu.com>",
+	"description": "Linux Containers userspace tools (library)",
+	"homepage": "https://linuxcontainers.org",
+	"filename": "pool/main/l/lxc/liblxc1_2.0.8-0ubuntu1~14.04.1_amd64.deb",
+	"size": 211300,
+	"md5": "3e2d0f50f208dbbaa462b3dded05af61",
+	"sha1": "820da8b7334d4093abdb7326688dbac26067ded6",
+	"sha256": "693fa5de1ea3d621f88744aa664c248d813e130e203bed068a004daf0bb444e8",
+	"sha512": "a0e64385d12a91be222a14e02e7cf170378566ea369a122539b028ac4b559d753ffd0b55e8e03bc0a8e967d0e2d8933fa60bde2f65466865d364b2fbbe8292d3",
+	"descriptionMd5": "d757397b1a93a5bea5c72032f3ef485d"
+}

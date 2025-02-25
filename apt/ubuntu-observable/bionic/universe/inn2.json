@@ -1,0 +1,59 @@
+[{
+	"raw": {},
+	"required": [
+		"Filename",
+		"Size"
+	],
+	"package": "inn2",
+	"version": "2.6.1-4build1",
+	"section": "universe/news",
+	"priority": "extra",
+	"architecture": "amd64",
+	"depends": [
+		"libc6 (>= 2.15)",
+		"libdb5.3",
+		"libpam0g (>= 0.99.7.1)",
+		"libperl5.26 (>= 5.26.0~rc1)",
+		"libsasl2-2",
+		"libssl1.1 (>= 1.1.0)",
+		"zlib1g (>= 1:1.1.4)",
+		"cron",
+		"default-mta | mail-transport-agent",
+		"time",
+		"procps",
+		"perl",
+		"perlapi-5.26.1",
+		"libmime-tools-perl",
+		"lsb-base"
+	],
+	"preDepends": [
+		"inn2-inews"
+	],
+	"suggests": [
+		"gnupg",
+		"wget",
+		"libgd-perl",
+		"libcomerr2 (>= 1.01)",
+		"libkrb5-3 (>= 1.6.dfsg.2)"
+	],
+	"replaces": [
+		"inn",
+		"inn2-dev",
+		"inn2-lfs",
+		"innfeed"
+	],
+	"conflicts": [
+		"inn",
+		"innfeed"
+	],
+	"installedSize": 3212,
+	"maintainer": "Ubuntu Developers <ubuntu-devel-discuss@lists.ubuntu.com>",
+	"description": "'InterNetNews' news server",
+	"homepage": "https://www.eyrie.org/~eagle/software/inn/",
+	"filename": "pool/universe/i/inn2/inn2_2.6.1-4build1_amd64.deb",
+	"size": 1189152,
+	"md5": "c566b1f69f18cd3cb814199af93927c6",
+	"sha1": "ec7169149ddd1faea39c312df50fab57d1f15f01",
+	"sha256": "de526f0c63985611a075ccf298361caecac61712e1a90b10c9302070ddd06749",
+	"descriptionMd5": "63e9cfa94e4a7e41032459586c02d0fb"
+}]

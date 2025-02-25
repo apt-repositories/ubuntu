@@ -1,0 +1,35 @@
+{
+	"raw": {},
+	"required": [
+		"Filename",
+		"Size"
+	],
+	"package": "ureadahead",
+	"version": "0.100.0-20",
+	"section": "admin",
+	"priority": "standard",
+	"architecture": "amd64",
+	"depends": [
+		"e2fslibs (>= 1.37)",
+		"libblkid1 (>= 2.16)",
+		"libc6 (>= 2.4)",
+		"libnih1 (>= 1.0.0)",
+		"init-system-helpers (>= 1.18~)"
+	],
+	"replaces": [
+		"readahead"
+	],
+	"conflicts": [
+		"readahead",
+		"systemd (<< 217)"
+	],
+	"installedSize": 73,
+	"maintainer": "Scott James Remnant <scott@ubuntu.com>",
+	"description": "Read required files in advance",
+	"filename": "pool/main/u/ureadahead/ureadahead_0.100.0-20_amd64.deb",
+	"size": 19320,
+	"md5": "6b8d1bb2e6732264d9e9bd2c4216538b",
+	"sha1": "7df851e9e2cd19f9e8880ed68467cb5bc4248667",
+	"sha256": "8fd738ce727c64c4ead0ca43bb5bd959fcb72abf9f8df284dfbadd920ee1c9ef",
+	"descriptionMd5": "f28f31b10525897dede5f830e42ea144"
+}

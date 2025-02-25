@@ -1,0 +1,43 @@
+{
+	"raw": {},
+	"required": [
+		"Filename",
+		"Size"
+	],
+	"package": "checksecurity",
+	"version": "2.0.16+nmu1ubuntu1",
+	"section": "admin",
+	"priority": "optional",
+	"architecture": "all",
+	"depends": [
+		"cron (>= 3.0pl1-74) | anacron",
+		"debconf (>= 0.5) | debconf-2.0",
+		"perl (>= 5.8.0)",
+		"util-linux (>= 2.15~rc1-1)"
+	],
+	"recommends": [
+		"logcheck"
+	],
+	"suggests": [
+		"apt-watch | cron-apt",
+		"lockfile-progs",
+		"tiger",
+		"tripwire | integrit | aide | samhain | fcheck",
+		"debsecan"
+	],
+	"replaces": [
+		"cron"
+	],
+	"conflicts": [
+		"lockfile-progs (<< 0.1.7)"
+	],
+	"installedSize": 83,
+	"maintainer": "Ubuntu Developers <ubuntu-devel-discuss@lists.ubuntu.com>",
+	"description": "basic system security checks",
+	"filename": "pool/main/c/checksecurity/checksecurity_2.0.16+nmu1ubuntu1_all.deb",
+	"size": 22234,
+	"md5": "fbd66dc4ea9a04f94c05532e43e5cc5e",
+	"sha1": "048cb8157252caa9010698aecfd640e965b864cb",
+	"sha256": "d25a0228f3b164f814903e244b6720ab79a2349ec226cddf1df1e403b6f5b257",
+	"descriptionMd5": "81ea96b9f33049c4587fcadd8e3ec385"
+}

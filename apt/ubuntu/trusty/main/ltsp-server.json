@@ -1,0 +1,61 @@
+{
+	"raw": {},
+	"required": [
+		"Filename",
+		"Size"
+	],
+	"package": "ltsp-server",
+	"source": "ltsp",
+	"version": "5.5.1-1ubuntu2",
+	"section": "misc",
+	"priority": "optional",
+	"architecture": "all",
+	"depends": [
+		"debconf (>= 0.5) | debconf-2.0",
+		"debconf-utils",
+		"debootstrap (>= 1.0.30)",
+		"gettext-base",
+		"iproute | freebsd-net-tools",
+		"lsb-release",
+		"openssh-client",
+		"python (>= 2.4)",
+		"tcpd"
+	],
+	"recommends": [
+		"nbd-server (>= 1:2.9.25-2)",
+		"openbsd-inetd | inet-superserver",
+		"openssh-server",
+		"squashfs-tools",
+		"tftpd-hpa | atftpd | dnsmasq (>= 2.41)"
+	],
+	"suggests": [
+		"audiooss",
+		"gnome-session | x-session-manager | x-window-manager",
+		"isc-dhcp-server | dhcp3-server | dnsmasq",
+		"ldm-server",
+		"libasound2-plugins",
+		"ltsp-docs",
+		"ltspfs",
+		"pulseaudio",
+		"qemu-user-static",
+		"sdm",
+		"x11-utils",
+		"xauth"
+	],
+	"replaces": [
+		"ltsp-utils"
+	],
+	"conflicts": [
+		"ltsp-utils"
+	],
+	"installedSize": 1200,
+	"maintainer": "Ubuntu Developers <ubuntu-devel-discuss@lists.ubuntu.com>",
+	"description": "basic LTSP server environment",
+	"homepage": "http://ltsp.org",
+	"filename": "pool/main/l/ltsp/ltsp-server_5.5.1-1ubuntu2_all.deb",
+	"size": 76166,
+	"md5": "2c576672919270363ffcc233ec0ab2c6",
+	"sha1": "90b3c05f11ebb14d513f67d1f122ba3bd060aeb3",
+	"sha256": "6d1b1858a93b1a46cfa74f6242e1f735b7f910e57d5e15b93ab6f53c827bb2d4",
+	"descriptionMd5": "8aa681f078049435e41b11312b34ff78"
+}

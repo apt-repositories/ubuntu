@@ -1,0 +1,43 @@
+{
+	"raw": {},
+	"required": [
+		"Filename",
+		"Size"
+	],
+	"package": "ldap-utils",
+	"source": "openldap",
+	"version": "2.5.18+dfsg-0ubuntu0.22.04.3",
+	"section": "net",
+	"priority": "optional",
+	"architecture": "amd64",
+	"depends": [
+		"libc6 (>= 2.34)",
+		"libldap-2.5-0 (= 2.5.18+dfsg-0ubuntu0.22.04.3)",
+		"libsasl2-2 (>= 2.1.27+dfsg2)"
+	],
+	"suggests": [
+		"libsasl2-modules",
+		"libsasl2-modules-gssapi-mit | libsasl2-modules-gssapi-heimdal"
+	],
+	"replaces": [
+		"openldap-utils",
+		"openldapd",
+		"slapd (<< 2.2.23-0.pre6)"
+	],
+	"conflicts": [
+		"ldap-client",
+		"openldap-utils",
+		"umich-ldap-utils"
+	],
+	"installedSize": 695,
+	"maintainer": "Ubuntu Developers <ubuntu-devel-discuss@lists.ubuntu.com>",
+	"description": "OpenLDAP utilities",
+	"homepage": "https://www.openldap.org/",
+	"filename": "pool/main/o/openldap/ldap-utils_2.5.18+dfsg-0ubuntu0.22.04.3_amd64.deb",
+	"size": 146954,
+	"md5": "14247b7600a626e48fc82b7a5b86c617",
+	"sha1": "8a82409cec5970d3657b7e07f5848d319d23a7ce",
+	"sha256": "82ca6a5c41bd692df3fe9ee473b0562e169bf1a476ef7f87205bc141386b488e",
+	"sha512": "42e4915808927173faef0ce15cda2e75f4902720409e2b0fa63716b389a36816c79fc609568708e20b9f4f15db2924c7f205b9d7f850a920e9aa63c219bec916",
+	"descriptionMd5": "f5d300156245ae8fa5972cf30bf60206"
+}

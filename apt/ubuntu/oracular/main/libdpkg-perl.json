@@ -1,0 +1,53 @@
+{
+	"raw": {},
+	"required": [
+		"Filename",
+		"Size"
+	],
+	"package": "libdpkg-perl",
+	"source": "dpkg",
+	"version": "1.22.11ubuntu1",
+	"section": "perl",
+	"priority": "optional",
+	"architecture": "all",
+	"depends": [
+		"perl:any",
+		"dpkg (>= 1.18.11)"
+	],
+	"recommends": [
+		"libfile-fcntllock-perl",
+		"liblocale-gettext-perl",
+		"bzip2",
+		"xz-utils (>= 5.4.0)"
+	],
+	"suggests": [
+		"debian-keyring",
+		"gnupg | sq | sqop | pgpainless-cli | sequoia-chameleon-gnupg",
+		"gpgv | sq | sqop | pgpainless-cli | sequoia-chameleon-gnupg",
+		"gcc | c-compiler",
+		"binutils",
+		"patch",
+		"sensible-utils",
+		"git",
+		"bzr"
+	],
+	"breaks": [
+		"dgit (<< 3.13~)",
+		"libsop-java-java (<< 4.0.7~)",
+		"pgpainless-cli (<< 1.3.13~)",
+		"pkg-kde-tools (<< 0.15.28~)",
+		"sq (<< 0.33.0~)",
+		"sqop (<< 0.27.2~)"
+	],
+	"installedSize": 1688,
+	"maintainer": "Ubuntu Developers <ubuntu-devel-discuss@lists.ubuntu.com>",
+	"description": "Dpkg perl modules",
+	"homepage": "https://wiki.debian.org/Teams/Dpkg",
+	"filename": "pool/main/d/dpkg/libdpkg-perl_1.22.11ubuntu1_all.deb",
+	"size": 278506,
+	"md5": "20b12232f74ad98b5172dc45d2544084",
+	"sha1": "9e8e43f7cbbced0c30673cd20d63ae2f2e06a0b1",
+	"sha256": "c5f686522a210e838929da389edebe298391329c2d32527108dbff284e1a60b6",
+	"sha512": "ca65fee80fda87e1e223db74a466f45469180f97e3f337cd1b59b6efd600e259b0c50b9f14e32558dabcc1c673c4d25a5609e3ed59dd234bba6534e27a39bf2a",
+	"descriptionMd5": "5011cce9f04b116d18e831b42d79c4a1"
+}

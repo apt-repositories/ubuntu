@@ -1,0 +1,42 @@
+{
+	"raw": {},
+	"required": [
+		"Filename",
+		"Size"
+	],
+	"package": "sssd-krb5-common",
+	"source": "sssd",
+	"version": "1.13.4-1ubuntu1.10",
+	"section": "utils",
+	"priority": "extra",
+	"architecture": "amd64",
+	"depends": [
+		"sssd-common (= 1.13.4-1ubuntu1.10)",
+		"libc6 (>= 2.14)",
+		"libdhash1 (>= 0.4.0)",
+		"libkrb5-3 (>= 1.11+dfsg)",
+		"libpopt0 (>= 1.14)",
+		"libsystemd0",
+		"libtalloc2 (>= 2.0.4~git20101213)"
+	],
+	"recommends": [
+		"libsasl2-modules-gssapi-mit | libsasl2-modules-gssapi-heimdal"
+	],
+	"replaces": [
+		"sssd (<< 1.10.0~beta2-1)"
+	],
+	"breaks": [
+		"sssd (<< 1.10.0~beta2-1)"
+	],
+	"installedSize": 224,
+	"maintainer": "Ubuntu Developers <ubuntu-devel-discuss@lists.ubuntu.com>",
+	"description": "System Security Services Daemon -- Kerberos helpers",
+	"homepage": "https://fedorahosted.org/sssd/",
+	"filename": "pool/main/s/sssd/sssd-krb5-common_1.13.4-1ubuntu1.10_amd64.deb",
+	"size": 61138,
+	"md5": "6b9481f38862da1a63f6e0acacc76d00",
+	"sha1": "2534932ad4ac9baac8bbf97726eef901506ba3f4",
+	"sha256": "c78bb9a0f0dd8fff3df143ee40e5fa60334afe4aecddf77d04f602cad7a91234",
+	"sha512": "b22f2e834ecda64e444b79677d31961d89141ab358f4bccc5493b50857c875bf4818f1e63ab47a2025319018015cc82039136f6bdee4487fe38b9ee430d7c556",
+	"descriptionMd5": "0db76966892b1b9d99a4e13589fa35db"
+}

@@ -1,0 +1,45 @@
+{
+	"raw": {},
+	"required": [
+		"Filename",
+		"Size"
+	],
+	"package": "xserver-xorg-input-wacom-hwe-16.04",
+	"source": "xf86-input-wacom-hwe-16.04",
+	"version": "1:0.34.0-0ubuntu2~16.04.1",
+	"section": "x11",
+	"priority": "optional",
+	"architecture": "amd64",
+	"depends": [
+		"xorg-input-abi-24",
+		"xserver-xorg-core-hwe-16.04 (>= 2:1.18.99.901)",
+		"libc6 (>= 2.14)",
+		"libudev1 (>= 183)",
+		"libx11-6",
+		"libxi6 (>= 2:1.2.0)",
+		"libxinerama1",
+		"libxrandr2 (>= 2:1.2.0)"
+	],
+	"suggests": [
+		"xinput"
+	],
+	"replaces": [
+		"wacom-tools (<< 0.10.0)",
+		"xserver-xorg-input-wacom"
+	],
+	"conflicts": [
+		"wacom-tools (<< 0.10.0)",
+		"xserver-xorg-input-wacom"
+	],
+	"installedSize": 277,
+	"maintainer": "Ubuntu X-SWAT <ubuntu-x@lists.ubuntu.com>",
+	"description": "X.Org X server -- Wacom input driver",
+	"homepage": "http://linuxwacom.sf.net",
+	"filename": "pool/main/x/xf86-input-wacom-hwe-16.04/xserver-xorg-input-wacom-hwe-16.04_0.34.0-0ubuntu2~16.04.1_amd64.deb",
+	"size": 85598,
+	"md5": "72856179ac4f9038c1ef46e40dbd98c3",
+	"sha1": "3a4909e4883302b6bbcc02764162eafb189a2de1",
+	"sha256": "177c28c5bf686da0f2c4dc017a973103a5792c5c163ad1a4a834d72d685232dc",
+	"sha512": "d8238b36fb9a1a22f98afab8acea8ddf53a049025fecef49126018fcc263deca9a2345822c2fa4ac8fee548cda9af6f6fbc0f71f89dec9c01658e342c4bfc99d",
+	"descriptionMd5": "990a6fd67780d38db31b26b3018b5519"
+}

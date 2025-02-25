@@ -1,0 +1,45 @@
+{
+	"raw": {},
+	"required": [
+		"Filename",
+		"Size"
+	],
+	"package": "libgcc-12-dev",
+	"source": "gcc-12",
+	"version": "12-20220319-1ubuntu1",
+	"section": "libdevel",
+	"priority": "optional",
+	"architecture": "amd64",
+	"depends": [
+		"gcc-12-base (= 12-20220319-1ubuntu1)",
+		"libgcc-s1 (>= 12-20220319-1ubuntu1)",
+		"libgomp1 (>= 12-20220319-1ubuntu1)",
+		"libitm1 (>= 12-20220319-1ubuntu1)",
+		"libatomic1 (>= 12-20220319-1ubuntu1)",
+		"libasan8 (>= 12-20220319-1ubuntu1)",
+		"liblsan0 (>= 12-20220319-1ubuntu1)",
+		"libtsan2 (>= 12-20220319-1ubuntu1)",
+		"libubsan1 (>= 12-20220319-1ubuntu1)",
+		"libquadmath0 (>= 12-20220319-1ubuntu1)"
+	],
+	"recommends": [
+		"libc6-dev (>= 2.13-0ubuntu6)"
+	],
+	"replaces": [
+		"libtsan2 (<< 12-20211113-2~)"
+	],
+	"breaks": [
+		"libtsan2 (<< 12-20211113-2~)"
+	],
+	"installedSize": 14446,
+	"maintainer": "Ubuntu Core developers <ubuntu-devel-discuss@lists.ubuntu.com>",
+	"description": "GCC support library (development files)",
+	"homepage": "http://gcc.gnu.org/",
+	"filename": "pool/main/g/gcc-12/libgcc-12-dev_12-20220319-1ubuntu1_amd64.deb",
+	"size": 2617330,
+	"md5": "0519e13e6562256b673ad17ce8b3107c",
+	"sha1": "67a75ebcc7c15bcb1fcb4bdd424e9861ae091629",
+	"sha256": "a83374135068a144b49e9a3e518c6efc3a8f566b67a63610086318a17b299ccc",
+	"sha512": "e8e4ce5cba9280c3219187f7a582bfd6a50ba6e6e9d9027399b8380ef709ac48fc583bf6f4161a642d69966fe003ec31475d70a05b3664c7e1a1be1d734b8703",
+	"descriptionMd5": "4ab7cb439b47e1d0796fbaf8447229ac"
+}

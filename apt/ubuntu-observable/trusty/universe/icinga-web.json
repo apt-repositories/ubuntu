@@ -1,0 +1,45 @@
+[{
+	"raw": {},
+	"required": [
+		"Filename",
+		"Size"
+	],
+	"package": "icinga-web",
+	"version": "1.10.0-2",
+	"section": "universe/php",
+	"priority": "extra",
+	"architecture": "all",
+	"depends": [
+		"dbconfig-common",
+		"php5",
+		"php5-cli",
+		"php5-gd",
+		"php5-mysql | php5-pgsql",
+		"php5-xsl",
+		"php5-json",
+		"ucf",
+		"debconf (>= 0.5) | debconf-2.0"
+	],
+	"recommends": [
+		"icinga-idoutils",
+		"apache2 | httpd",
+		"mysql-client | postgresql-client"
+	],
+	"suggests": [
+		"icinga-doc",
+		"nagios-images"
+	],
+	"breaks": [
+		"icinga-idoutils (<< 1.10)"
+	],
+	"installedSize": 29056,
+	"maintainer": "Ubuntu Developers <ubuntu-devel-discuss@lists.ubuntu.com>",
+	"description": "host and network monitoring system - modern web interface",
+	"homepage": "http://www.icinga.org",
+	"filename": "pool/universe/i/icinga-web/icinga-web_1.10.0-2_all.deb",
+	"size": 4911572,
+	"md5": "db0ae0d811810aedff16a65112526df2",
+	"sha1": "88ccd31b6a18da83cc9cd05d43308824fa593444",
+	"sha256": "c4169520d500dbf0ae9e23d34c43656065a768056b97327589fec0630acb17e8",
+	"descriptionMd5": "59ab338e80f9bf4206141c4568f2beac"
+}]

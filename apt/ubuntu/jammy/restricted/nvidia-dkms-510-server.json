@@ -1,0 +1,42 @@
+{
+	"raw": {},
+	"required": [
+		"Filename",
+		"Size"
+	],
+	"package": "nvidia-dkms-510-server",
+	"source": "nvidia-graphics-drivers-510-server",
+	"version": "510.47.03-0ubuntu3",
+	"section": "restricted/libs",
+	"priority": "optional",
+	"architecture": "amd64",
+	"depends": [
+		"dkms",
+		"nvidia-kernel-source-510-server (<= 510.47.03-1)",
+		"nvidia-kernel-source-510-server (>= 510.47.03)",
+		"nvidia-kernel-common-510-server (<= 510.47.03-1)",
+		"nvidia-kernel-common-510-server (>= 510.47.03)"
+	],
+	"replaces": [
+		"nvidia-384 (<< 390.25)",
+		"nvidia-dkms-kernel",
+		"nvidia-kernel-source-510-server (<< 390.25-0ubuntu2~)"
+	],
+	"breaks": [
+		"nvidia-kernel-source-510-server (<< 390.25-0ubuntu2~)"
+	],
+	"conflicts": [
+		"nvidia-dkms-kernel"
+	],
+	"installedSize": 224,
+	"maintainer": "Ubuntu Core Developers <ubuntu-devel-discuss@lists.ubuntu.com>",
+	"description": "NVIDIA DKMS package",
+	"homepage": "http://www.nvidia.com",
+	"filename": "pool/restricted/n/nvidia-graphics-drivers-510-server/nvidia-dkms-510-server_510.47.03-0ubuntu3_amd64.deb",
+	"size": 45796,
+	"md5": "d81b2a394138611495f9035246c7f8a8",
+	"sha1": "3273ade48283325707a0bacf84386ca10b054eb7",
+	"sha256": "8365e6459d9e0b9b3453d9f7a38746b188c47b39d9a80dc64299f8f3d4fc29dc",
+	"sha512": "b2929c3a1d21a4437f43b22e9de122fda7d302f3cf6a841d93e0e8d337c4fe8250795396439b6d51269910824205c9910f41f85a59492dd0ec4495af70a3e15c",
+	"descriptionMd5": "ec8c193060b5458922cc0bda62df7796"
+}

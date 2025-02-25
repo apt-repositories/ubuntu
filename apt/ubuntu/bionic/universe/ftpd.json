@@ -1,0 +1,35 @@
+{
+	"raw": {},
+	"required": [
+		"Filename",
+		"Size"
+	],
+	"package": "ftpd",
+	"source": "linux-ftpd",
+	"version": "0.17-36",
+	"section": "universe/net",
+	"priority": "extra",
+	"architecture": "amd64",
+	"depends": [
+		"openbsd-inetd | inet-superserver",
+		"libpam-modules",
+		"libc6 (>= 2.14)",
+		"libpam0g (>= 0.99.7.1)"
+	],
+	"replaces": [
+		"netstd"
+	],
+	"conflicts": [
+		"ftp-server"
+	],
+	"installedSize": 123,
+	"maintainer": "Ubuntu Developers <ubuntu-devel-discuss@lists.ubuntu.com>",
+	"description": "File Transfer Protocol (FTP) server",
+	"homepage": "http://ftp.uk.linux.org/pub/linux/Networking/netkit/",
+	"filename": "pool/universe/l/linux-ftpd/ftpd_0.17-36_amd64.deb",
+	"size": 46168,
+	"md5": "cc1048f94b7b665048a965dae9693232",
+	"sha1": "658f25e0f29e4afd51b966ef22167cf1de24b5d2",
+	"sha256": "e1ff70b38e117e153e73aaa4e421f762160bf29c961e3e4aeb954d8586029b49",
+	"descriptionMd5": "c8a3d27dbf865e8912a8563dd06a336c"
+}

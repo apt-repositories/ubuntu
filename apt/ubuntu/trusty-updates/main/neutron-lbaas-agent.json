@@ -1,0 +1,35 @@
+{
+	"raw": {},
+	"required": [
+		"Filename",
+		"Size"
+	],
+	"package": "neutron-lbaas-agent",
+	"source": "neutron",
+	"version": "1:2014.1.5-0ubuntu8",
+	"section": "net",
+	"priority": "optional",
+	"architecture": "all",
+	"depends": [
+		"haproxy",
+		"neutron-common (= 1:2014.1.5-0ubuntu8)",
+		"sysv-rc (>= 2.88dsf-24) | file-rc (>= 0.8.16)",
+		"python:any"
+	],
+	"replaces": [
+		"quantum-lbass-agent (<< 1:2013.2~b2-0ubuntu1~)"
+	],
+	"breaks": [
+		"quantum-lbaas-agent (<< 1:2013.2~b2-0ubuntu1~)"
+	],
+	"installedSize": 69,
+	"maintainer": "Ubuntu Developers <ubuntu-devel-discuss@lists.ubuntu.com>",
+	"description": "Neutron is a virtual network service for Openstack - LBaaS agent",
+	"filename": "pool/main/n/neutron/neutron-lbaas-agent_2014.1.5-0ubuntu8_all.deb",
+	"size": 4082,
+	"md5": "3984664e0f89605e1f43f8fb1307d384",
+	"sha1": "2d53cd8ff8f32c566b1545f12cd4f2c4602f3bc6",
+	"sha256": "3ef19541c70466e498db7a6a13c5f740ceb482ee4315d14319316584ce6524a6",
+	"sha512": "8310ceaafcbf0447d9fdd08fcb7e55aaeed4c28810c796209046de9d6f66e29a2caff42cf1649d2fc0cfb545d0a86f36a4f4eb0b807f815eefe4059c992282e7",
+	"descriptionMd5": "d83e4461d001c52fe3847b97d170869c"
+}

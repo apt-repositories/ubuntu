@@ -1,0 +1,60 @@
+[{
+	"raw": {},
+	"required": [
+		"Filename",
+		"Size"
+	],
+	"package": "389-ds-base",
+	"version": "1.3.4.9-1",
+	"section": "universe/net",
+	"priority": "optional",
+	"architecture": "amd64",
+	"depends": [
+		"389-ds-base-libs (= 1.3.4.9-1)",
+		"adduser",
+		"ldap-utils",
+		"libmozilla-ldap-perl",
+		"libnetaddr-ip-perl",
+		"libperl4-corelibs-perl | perl (<< 5.12.3-7)",
+		"libsasl2-modules-gssapi-mit",
+		"libsocket-getaddrinfo-perl",
+		"python",
+		"systemd",
+		"init-system-helpers (>= 1.18~)",
+		"libc6 (>= 2.14)",
+		"libdb5.3",
+		"libicu55 (>= 55.1-1~)",
+		"libldap-2.4-2 (>= 2.4.39)",
+		"libnspr4 (>= 2:4.9-2~) | libnspr4-0d (>= 1.8.0.10)",
+		"libnss3 (>= 2:3.14)",
+		"libpam0g (>= 0.99.7.1)",
+		"libsasl2-2",
+		"libsnmp30 (>= 5.7.3+dfsg-1ubuntu4~dfsg)"
+	],
+	"preDepends": [
+		"debconf (>= 0.5) | debconf-2.0"
+	],
+	"replaces": [
+		"dirsrv",
+		"libdirsrv-dev",
+		"libdirsrv0"
+	],
+	"breaks": [
+		"dirsrv",
+		"libdirsrv-dev",
+		"libdirsrv0"
+	],
+	"conflicts": [
+		"slapd"
+	],
+	"installedSize": 5655,
+	"maintainer": "Ubuntu Developers <ubuntu-devel-discuss@lists.ubuntu.com>",
+	"description": "389 Directory Server suite - server",
+	"homepage": "http://directory.fedoraproject.org",
+	"filename": "pool/universe/3/389-ds-base/389-ds-base_1.3.4.9-1_amd64.deb",
+	"size": 1463314,
+	"md5": "a3405b03cf805d2a23b21378003a6ed8",
+	"sha1": "7221be503032d62866272e900f2ec5df579ca18f",
+	"sha256": "f8d90bb2f3977c7eea5a090e88081d59581595fba6e12d9e656332c08825bc71",
+	"descriptionMd5": "9c56eb26e44476f95f66b09921fcbf22"
+}]

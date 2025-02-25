@@ -1,0 +1,43 @@
+{
+	"raw": {},
+	"required": [
+		"Filename",
+		"Size"
+	],
+	"package": "libldb1",
+	"source": "ldb",
+	"version": "2:1.2.3-1",
+	"section": "libs",
+	"priority": "optional",
+	"architecture": "amd64",
+	"depends": [
+		"libc6 (>= 2.14)",
+		"libldap-2.4-2 (>= 2.4.7)",
+		"libtalloc2 (>= 2.0.4~git20101213)",
+		"libtdb1 (>= 1.2.7+git20101214)",
+		"libtevent0 (>= 0.9.9)"
+	],
+	"replaces": [
+		"libldb0"
+	],
+	"breaks": [
+		"ldb-tools (<< 1.1.30~)",
+		"libldb0",
+		"libsamdb0 (<< 4.0.0~alpha17~git20110724.dfsg1-1)",
+		"python-samba (<< 2:4.7.0~)",
+		"samba (<< 2:4.7.0~)",
+		"samba-dsdb-modules (<< 2:4.7.0~)",
+		"samba-libs (<< 2:4.7.0~)",
+		"samba-testsuite (<< 2:4.7.0~)"
+	],
+	"installedSize": 388,
+	"maintainer": "Ubuntu Developers <ubuntu-devel-discuss@lists.ubuntu.com>",
+	"description": "LDAP-like embedded database - shared library",
+	"homepage": "http://ldb.samba.org/",
+	"filename": "pool/main/l/ldb/libldb1_1.2.3-1_amd64.deb",
+	"size": 113560,
+	"md5": "079f769b81dccdd13d95e2f3c847b0f0",
+	"sha1": "3b78952c803f3c5c0ad4e1df8f6a0ec645bbbd5b",
+	"sha256": "9f3dac3245a8c48d00c8292ce3c5bc5ac6608cb436b055e2f7efd5b94fc39f3e",
+	"descriptionMd5": "afbf2b86552adbf8b69bb702e5773247"
+}

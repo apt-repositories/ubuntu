@@ -1,0 +1,82 @@
+[{
+	"raw": {},
+	"required": [
+		"Filename",
+		"Size"
+	],
+	"package": "ejabberd",
+	"version": "18.01-2",
+	"section": "universe/net",
+	"priority": "optional",
+	"architecture": "amd64",
+	"depends": [
+		"adduser",
+		"ucf",
+		"debconf (>= 0.5) | debconf-2.0",
+		"lsb-base (>= 3.0-6)",
+		"erlang-base (>= 1:19.2) | erlang-abi-17.0",
+		"erlang-asn1 (>= 1:20.2.2+dfsg)",
+		"erlang-base (>= 1:20.2.2+dfsg) | erlang-base-hipe (>= 1:20.2.2+dfsg)",
+		"erlang-crypto (>= 1:20.2.2+dfsg)",
+		"erlang-inets (>= 1:20.2.2+dfsg)",
+		"erlang-mnesia (>= 1:20.2.2+dfsg)",
+		"erlang-odbc (>= 1:20.2.2+dfsg)",
+		"erlang-public-key (>= 1:20.2.2+dfsg)",
+		"erlang-ssl (>= 1:20.2.2+dfsg)",
+		"erlang-syntax-tools (>= 1:20.2.2+dfsg)",
+		"erlang-fs-listener (>= 2.12.0-3~)",
+		"erlang-jiffy (>= 0.14.8)",
+		"erlang-jose",
+		"erlang-lager (>= 3.4.2)",
+		"erlang-os-mon (>= 1:19.2)",
+		"erlang-p1-cache-tab (>= 1.0.12)",
+		"erlang-p1-eimp (>= 1.0.2)",
+		"erlang-p1-iconv (>= 1.0.6)",
+		"erlang-p1-stringprep (>= 1.0.10)",
+		"erlang-p1-tls (>= 1.0.20)",
+		"erlang-p1-utils (>= 1.0.10)",
+		"erlang-p1-xml (>= 1.1.28)",
+		"erlang-p1-xmpp (>= 1.1.19)",
+		"erlang-p1-yaml (>= 1.0.12)",
+		"erlang-p1-zlib (>= 1.0.3)",
+		"erlang-xmerl (>= 1:19.2)"
+	],
+	"preDepends": [
+		"openssl"
+	],
+	"suggests": [
+		"apparmor",
+		"apparmor-utils",
+		"libunix-syslog-perl",
+		"imagemagick",
+		"yamllint",
+		"ejabberd-contrib (>> 0.2017.07)",
+		"erlang-luerl",
+		"erlang-p1-oauth2 (>= 0.6.2)",
+		"erlang-p1-mysql (>= 1.0.4)",
+		"erlang-p1-pam (>= 1.0.3)",
+		"erlang-p1-pgsql (>= 1.1.4)",
+		"erlang-p1-sip (>= 1.0.21)",
+		"erlang-p1-stun (>= 1.0.20)",
+		"erlang-p1-sqlite3 (>= 1.1.5~dfsg0)",
+		"erlang-redis-client (>= 1.0.8)"
+	],
+	"replaces": [
+		"ejabberd-contrib (<= 0.2015.08)",
+		"ejabberd-mod-http-upload"
+	],
+	"breaks": [
+		"ejabberd-contrib (<= 0.2017.07)",
+		"ejabberd-mod-http-upload"
+	],
+	"installedSize": 10036,
+	"maintainer": "Ubuntu Developers <ubuntu-devel-discuss@lists.ubuntu.com>",
+	"description": "distributed, fault-tolerant Jabber/XMPP server",
+	"homepage": "https://www.ejabberd.im",
+	"filename": "pool/universe/e/ejabberd/ejabberd_18.01-2_amd64.deb",
+	"size": 5474000,
+	"md5": "6cbe7053132ad89c73038663df3c7be5",
+	"sha1": "56fcba34cedfcb9c2558ecbf64e1e547435db6a9",
+	"sha256": "84e5280910164a669d91c6279c5fac85b50bcd713de30ff2a6a163df0fc23e44",
+	"descriptionMd5": "1aa2e21d74dacca9a4f85ce42b67f149"
+}]

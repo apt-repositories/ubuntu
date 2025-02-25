@@ -1,0 +1,33 @@
+{
+	"raw": {},
+	"required": [
+		"Filename",
+		"Size"
+	],
+	"package": "prometheus-ipmi-exporter",
+	"version": "1.4.0+ds-3",
+	"section": "universe/net",
+	"priority": "optional",
+	"architecture": "amd64",
+	"depends": [
+		"adduser",
+		"daemon | systemd-sysv",
+		"freeipmi-tools",
+		"libc6 (>= 2.34)"
+	],
+	"preDepends": [
+		"init-system-helpers (>= 1.54~)"
+	],
+	"installedSize": 7775,
+	"maintainer": "Ubuntu Developers <ubuntu-devel-discuss@lists.ubuntu.com>",
+	"description": "Prometheus exporter for IPMI devices",
+	"homepage": "https://github.com/soundcloud/ipmi_exporter",
+	"builtUsing": "golang-1.17 (= 1.17.3-1ubuntu1), golang-github-alecthomas-units (= 0.0~git20211218.b94a6e3-1), golang-github-beorn7-perks (= 1.0.1-1), golang-github-cespare-xxhash (= 2.1.1-2), golang-github-go-kit-log (= 0.2.0-2), golang-github-go-logfmt-logfmt (= 0.5.0-2), golang-github-pkg-errors (= 0.9.1-2), golang-github-prometheus-client-golang (= 1.11.0-3), golang-github-prometheus-client-model (= 0.2.0-3), golang-github-prometheus-common (= 0.32.1-5), golang-github-prometheus-procfs (= 0.7.3-1), golang-golang-x-sys (= 0.0~git20211216.1d35b9e-1), golang-gopkg-alecthomas-kingpin.v2 (= 2.2.6-3), golang-goprotobuf (= 1.3.4-2), golang-protobuf-extensions (= 1.0.1-1), golang-yaml.v2 (= 2.4.0-1)",
+	"filename": "pool/universe/p/prometheus-ipmi-exporter/prometheus-ipmi-exporter_1.4.0+ds-3_amd64.deb",
+	"size": 2610536,
+	"md5": "0460dd186cf08b3191d554f3697c8714",
+	"sha1": "ece534fb7e3443256595f96d5cc2c15ca358654b",
+	"sha256": "bc5140206e799d650333c30cb91428c8765c60435b94c2e91648abdb4ae7a99d",
+	"sha512": "054c35a167f9b2e09e1c1d9235eed372490ef44b2f616635c7d9adc324c401448b0c3a46f945e2071aa47075c5a5252ed7d89c57ee465c16744a0125f56a10eb",
+	"descriptionMd5": "5a7234af932b452f2884a49a9f7f0385"
+}

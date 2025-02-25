@@ -1,0 +1,56 @@
+{
+	"raw": {},
+	"required": [
+		"Filename",
+		"Size"
+	],
+	"package": "schroot",
+	"version": "1.6.8-1ubuntu1.1",
+	"section": "admin",
+	"priority": "optional",
+	"architecture": "amd64",
+	"depends": [
+		"libboost-filesystem1.54.0",
+		"libboost-iostreams1.54.0",
+		"libboost-program-options1.54.0",
+		"libboost-regex1.54.0",
+		"libboost-system1.54.0",
+		"libc6 (>= 2.14)",
+		"libgcc1 (>= 1:4.1.1)",
+		"libpam0g (>= 0.99.7.1)",
+		"libstdc++6 (>= 4.6)",
+		"libuuid1 (>= 2.16)",
+		"schroot-common (= 1.6.8-1ubuntu1.1)"
+	],
+	"suggests": [
+		"debootstrap",
+		"lvm2",
+		"btrfs-tools",
+		"aufs-modules | unionfs-modules",
+		"qemu-user-static"
+	],
+	"replaces": [
+		"buildd (<< 0.62.3-1)",
+		"sbuild (<< 0.62.3-1)"
+	],
+	"enhances": [
+		"sbuild"
+	],
+	"breaks": [
+		"binfmt-support (<< 2.0.1)",
+		"sbuild (<< 0.62.6)"
+	],
+	"conflicts": [
+		"dchroot (<< 0.13)"
+	],
+	"installedSize": 2767,
+	"maintainer": "Ubuntu Developers <ubuntu-devel-discuss@lists.ubuntu.com>",
+	"description": "Execute commands in a chroot environment",
+	"filename": "pool/main/s/schroot/schroot_1.6.8-1ubuntu1.1_amd64.deb",
+	"size": 553984,
+	"md5": "aeab7af31aa468a0925505c86bae3135",
+	"sha1": "f8c5e2056c6078c4d4e0335547e001b228975f29",
+	"sha256": "1b625c0eb1f0bc89515e59dc4398391732ab174b528131e17aedb07e077ffa82",
+	"sha512": "fba7fa3f490140c4b517c19fee4f9ab327fc5ebc183550c44c68ddcf549bd98313b2a333808c67aa6e5cd2273f3b0ea20a4a383523a7aefa54c558e581f519e3",
+	"descriptionMd5": "1d09f5907fa9b9f0626b53bc7ffd21a4"
+}

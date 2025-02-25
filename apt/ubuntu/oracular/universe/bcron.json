@@ -1,0 +1,57 @@
+{
+	"raw": {},
+	"required": [
+		"Filename",
+		"Size"
+	],
+	"package": "bcron",
+	"version": "0.11-22",
+	"section": "universe/admin",
+	"priority": "optional",
+	"architecture": "amd64",
+	"depends": [
+		"ucspi-unix",
+		"systemd | systemd-standalone-sysusers | systemd-sysusers",
+		"libbg2 (>= 2.03)",
+		"libc6 (>= 2.38)",
+		"daemon"
+	],
+	"preDepends": [
+		"init-system-helpers (>= 1.54~)",
+		"cron-daemon-common",
+		"acl"
+	],
+	"recommends": [
+		"default-mta | mail-transport-agent",
+		"runit"
+	],
+	"suggests": [
+		"anacron",
+		"runit-init"
+	],
+	"replaces": [
+		"bcron",
+		"bcron-run",
+		"cron",
+		"cronie",
+		"systemd-cron"
+	],
+	"conflicts": [
+		"bcron (<< 0.11-10)",
+		"bcron-run (<< 0.11-3~)",
+		"cron",
+		"cronie",
+		"systemd-cron"
+	],
+	"installedSize": 242,
+	"maintainer": "Ubuntu Developers <ubuntu-devel-discuss@lists.ubuntu.com>",
+	"description": "Bruce cron system",
+	"homepage": "https://untroubled.org/bcron",
+	"filename": "pool/universe/b/bcron/bcron_0.11-22_amd64.deb",
+	"size": 56372,
+	"md5": "180d78dd54c1b2ce2128d87506ec20af",
+	"sha1": "a27566f9ac767800a6efd5d10199d8bfc6b860b3",
+	"sha256": "c415adb50b4ec8590aeac726a03dc7195fe70d416d11d873773f127353066109",
+	"sha512": "257fd247d6106db6c1c5db614851c40ea81db0f28beba9d4edd93c4c4335342705fcbeeb5ad020051ba028ed9b519d57fa1b4c0820a5fc18fdb7671588ee2f45",
+	"descriptionMd5": "2bb678838c137c5e549837603fced6d7"
+}

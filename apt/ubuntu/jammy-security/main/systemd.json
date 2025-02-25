@@ -1,0 +1,75 @@
+{
+	"raw": {},
+	"required": [
+		"Filename",
+		"Size"
+	],
+	"package": "systemd",
+	"version": "249.11-0ubuntu3.7",
+	"section": "admin",
+	"priority": "important",
+	"architecture": "amd64",
+	"depends": [
+		"libacl1 (>= 2.2.23)",
+		"libapparmor1 (>= 2.13)",
+		"libaudit1 (>= 1:2.2.1)",
+		"libcrypt1 (>= 1:4.4.0)",
+		"libcryptsetup12 (>= 2:2.4)",
+		"libgnutls30 (>= 3.7.2)",
+		"libgpg-error0 (>= 1.14)",
+		"libip4tc2 (>= 1.8.3)",
+		"libkmod2 (>= 5~)",
+		"liblz4-1 (>= 0.0~r130)",
+		"libmount1 (>= 2.30)",
+		"libpam0g (>= 0.99.7.1)",
+		"libseccomp2 (>= 2.4.1)",
+		"libssl3 (>= 3.0.0~~alpha1)",
+		"libsystemd0 (= 249.11-0ubuntu3.7)",
+		"util-linux (>= 2.27.1)",
+		"mount (>= 2.26)",
+		"adduser"
+	],
+	"preDepends": [
+		"libblkid1 (>= 2.24)",
+		"libc6 (>= 2.34)",
+		"libcap2 (>= 1:2.24-9~)",
+		"libgcrypt20 (>= 1.9.0)",
+		"liblz4-1 (>= 0.0~r122)",
+		"liblzma5 (>= 5.1.1alpha+20120614)",
+		"libselinux1 (>= 3.1~)",
+		"libzstd1 (>= 1.4.0)"
+	],
+	"recommends": [
+		"default-dbus-system-bus | dbus-system-bus",
+		"networkd-dispatcher",
+		"systemd-timesyncd | time-daemon"
+	],
+	"suggests": [
+		"systemd-container",
+		"libfido2-1",
+		"libtss2-esys-3.0.2-0",
+		"libtss2-mu0",
+		"libtss2-rc0",
+		"policykit-1"
+	],
+	"breaks": [
+		"resolvconf (<< 1.83~)",
+		"udev (<< 247~)"
+	],
+	"conflicts": [
+		"consolekit",
+		"libpam-ck-connector",
+		"systemd-shim"
+	],
+	"installedSize": 16288,
+	"maintainer": "Ubuntu Developers <ubuntu-devel-discuss@lists.ubuntu.com>",
+	"description": "system and service manager",
+	"homepage": "https://www.freedesktop.org/wiki/Software/systemd",
+	"filename": "pool/main/s/systemd/systemd_249.11-0ubuntu3.7_amd64.deb",
+	"size": 4580476,
+	"md5": "1b4eccf754a7b4ccd5df82c6455c6a12",
+	"sha1": "203b7cbdf1f5dc35e3578452c35e423843d6816c",
+	"sha256": "d5578c3e2e117c33f8fd910a975d91d0bdf25b0130f5312e87aee2036edaf14f",
+	"sha512": "de7ed71ae5aa7a8e0d1bb469e48f82b2784e806983cbdfabccc895d9fee7ceee240302c799dbccb49aea240288053a8135f4a75b42bf80eb26847da3f7f15dbd",
+	"descriptionMd5": "19399579cbc0c47a303288bf15eadcd4"
+}

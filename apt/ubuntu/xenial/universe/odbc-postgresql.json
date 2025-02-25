@@ -1,0 +1,43 @@
+{
+	"raw": {},
+	"required": [
+		"Filename",
+		"Size"
+	],
+	"package": "odbc-postgresql",
+	"source": "psqlodbc",
+	"version": "1:09.03.0300-1",
+	"section": "universe/libs",
+	"priority": "optional",
+	"architecture": "amd64",
+	"depends": [
+		"libc6 (>= 2.14)",
+		"libpq5 (>= 9.0~)",
+		"libssl1.0.0 (>= 1.0.0)",
+		"odbcinst1debian2 (>= 2.3.1)"
+	],
+	"preDepends": [
+		"multiarch-support"
+	],
+	"suggests": [
+		"unixodbc-bin"
+	],
+	"enhances": [
+		"unixodbc"
+	],
+	"breaks": [
+		"libiodbc2 (<= 3.52.7-2)",
+		"odbcinst1debian2 (<< 2.2.14p2-3)",
+		"unixodbc (<< 2.2.14p2-3)"
+	],
+	"installedSize": 1176,
+	"maintainer": "Ubuntu Developers <ubuntu-devel-discuss@lists.ubuntu.com>",
+	"description": "ODBC driver for PostgreSQL",
+	"homepage": "http://psqlodbc.projects.postgresql.org/",
+	"filename": "pool/universe/p/psqlodbc/odbc-postgresql_09.03.0300-1_amd64.deb",
+	"size": 299898,
+	"md5": "e4ea1c25cd57916925943f4dd89497a3",
+	"sha1": "19e839f545c6240f2c5a63bd2f696baeeb4793cb",
+	"sha256": "b381d8c309d54062694ff0be2a26a0e18a8a1ed44119b65f38dbe3c3a78e136c",
+	"descriptionMd5": "ca9991df6514508e654fa440ff1560cd"
+}

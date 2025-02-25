@@ -1,0 +1,42 @@
+{
+	"raw": {},
+	"required": [
+		"Filename",
+		"Size"
+	],
+	"package": "shim-signed",
+	"source": "shim-signed (1.51.3)",
+	"version": "1.51.3+15.7-0ubuntu1",
+	"section": "utils",
+	"priority": "optional",
+	"architecture": "amd64",
+	"depends": [
+		"debconf (>= 0.5) | debconf-2.0",
+		"grub-efi-amd64-signed (>= 1.191~) | grub-efi-arm64-signed (>= 1.191~) | base-files (<< 12.3)",
+		"grub-efi-amd64-signed (>= 1.187.2~) | grub-efi-arm64-signed (>= 1.187.2~)",
+		"grub2-common (>= 2.04-1ubuntu24)",
+		"mokutil (>= 0.3.0+1538710437.fb6250f-0ubuntu2)",
+		"sbsigntool"
+	],
+	"recommends": [
+		"secureboot-db"
+	],
+	"replaces": [
+		"shim (<< 15.3)"
+	],
+	"breaks": [
+		"fwupd-signed (<< 1.44.1~)",
+		"shim (<< 15.3)"
+	],
+	"installedSize": 4728,
+	"maintainer": "Steve Langasek <steve.langasek@ubuntu.com>",
+	"description": "Secure Boot chain-loading bootloader (Microsoft-signed binary)",
+	"builtUsing": "shim (= 15.7-0ubuntu1)",
+	"filename": "pool/main/s/shim-signed/shim-signed_1.51.3+15.7-0ubuntu1_amd64.deb",
+	"size": 666700,
+	"md5": "f7b93e902f69c2bd003060891105460c",
+	"sha1": "13c110cd05f68ac9dfe8278141b568c6d7262a1d",
+	"sha256": "40515392f647205aad81c0bb53129a71935f9a82aad4636251393a7440bb8735",
+	"sha512": "cfd5129953970f3e9bef2f74caa93ccac0edbf1709e220c15dae0a1264a98d078c8306e310f7abf8d6988ab67c3d35a8480eace39f8cdd3f4ee0c50f01e10aff",
+	"descriptionMd5": "a481805ba65b750cfdd6438a7d8539a2"
+}

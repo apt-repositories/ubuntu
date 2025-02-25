@@ -1,0 +1,52 @@
+{
+	"raw": {},
+	"required": [
+		"Filename",
+		"Size"
+	],
+	"package": "dracut-core",
+	"source": "dracut",
+	"version": "047-2",
+	"section": "universe/utils",
+	"priority": "optional",
+	"architecture": "amd64",
+	"depends": [
+		"cpio",
+		"kmod",
+		"udev",
+		"kpartx",
+		"util-linux (>= 2.20)",
+		"pkg-config",
+		"libkmod2 (>= 22~)",
+		"e2fsprogs",
+		"libc6 (>= 2.14)"
+	],
+	"recommends": [
+		"cryptsetup",
+		"dmsetup",
+		"dmraid",
+		"lvm2",
+		"mdadm",
+		"console-setup",
+		"binutils",
+		"systemd"
+	],
+	"replaces": [
+		"dracut (<< 044+3-2~)",
+		"dracut-network (<< 043-2)"
+	],
+	"breaks": [
+		"dracut (<< 044+3-2~)",
+		"dracut-network (<< 043-2)"
+	],
+	"installedSize": 1125,
+	"maintainer": "Ubuntu Developers <ubuntu-devel-discuss@lists.ubuntu.com>",
+	"description": "Low-level tool for generating an initramfs image (core tools)",
+	"homepage": "http://www.kernel.org/pub/linux/utils/boot/dracut/dracut.html",
+	"filename": "pool/universe/d/dracut/dracut-core_047-2_amd64.deb",
+	"size": 246736,
+	"md5": "a0c56e0e3b7bc4db8658338688b0f8bc",
+	"sha1": "ddd33f6ccf34e8334d972112393047eba994f017",
+	"sha256": "6e39a78c892853dc9f2fdaa169579e1008ab49bfc5d4d8830b8d1e4696f44743",
+	"descriptionMd5": "98024a77845fcbe63b4aa34393838029"
+}

@@ -1,0 +1,61 @@
+{
+	"raw": {},
+	"required": [
+		"Filename",
+		"Size"
+	],
+	"package": "zabbix-server-pgsql",
+	"source": "zabbix",
+	"version": "1:5.0.17+dfsg-1",
+	"section": "universe/net",
+	"priority": "optional",
+	"architecture": "amd64",
+	"depends": [
+		"libc6 (>= 2.34)",
+		"libcurl3-gnutls (>= 7.28.0)",
+		"libevent-2.1-7 (>= 2.1.8-stable)",
+		"libgnutls30 (>= 3.7.2)",
+		"libldap-2.5-0 (>= 2.5.4)",
+		"libodbc1 (>= 2.3.1)",
+		"libopenipmi0 (>= 2.0.29)",
+		"libpcre3",
+		"libpq5 (>= 9.0~)",
+		"libsnmp40 (>= 5.9+dfsg)",
+		"libssh2-1 (>= 1.0)",
+		"libxml2 (>= 2.7.4)",
+		"zlib1g (>= 1:1.2.0)",
+		"ucf",
+		"fping",
+		"adduser",
+		"lsb-base"
+	],
+	"recommends": [
+		"postgresql",
+		"snmpd",
+		"nmap",
+		"traceroute"
+	],
+	"suggests": [
+		"zabbix-frontend-php",
+		"logrotate",
+		"sudo",
+		"snmp-mibs-downloader"
+	],
+	"conflicts": [
+		"zabbix-proxy-mysql",
+		"zabbix-proxy-pgsql",
+		"zabbix-proxy-sqlite3",
+		"zabbix-server-mysql"
+	],
+	"installedSize": 6628,
+	"maintainer": "Ubuntu Developers <ubuntu-devel-discuss@lists.ubuntu.com>",
+	"description": "network monitoring solution - server (using PostgreSQL)",
+	"homepage": "http://zabbix.com",
+	"filename": "pool/universe/z/zabbix/zabbix-server-pgsql_5.0.17+dfsg-1_amd64.deb",
+	"size": 3296600,
+	"md5": "474e1c4446653ac52875d7b4c6fe9a0f",
+	"sha1": "b72c96103364429f86fe2ba031e2929bed3e0303",
+	"sha256": "7f6eeb3c1eac655348da97bca29682c068e20bc023cbce2d291d9d470c432137",
+	"sha512": "eeb8a715ad4ba9c9a181bd3b7878fac8e01a1b367986444efa6c2182e12375a9283f49ec1b9a843826df8ee4cd9443858a3b2978935a3a1b32cb60d7c45cec95",
+	"descriptionMd5": "cadbb0c0ef272ba662fa7d04372e834b"
+}

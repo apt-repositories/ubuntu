@@ -1,0 +1,40 @@
+[{
+	"raw": {},
+	"required": [
+		"Filename",
+		"Size"
+	],
+	"package": "python3-networking-l2gw",
+	"source": "networking-l2gw",
+	"version": "1:18.0.0+git2021120909.6872c3b-0ubuntu1",
+	"section": "universe/python",
+	"priority": "optional",
+	"architecture": "all",
+	"depends": [
+		"networking-l2gw-common (= 1:18.0.0+git2021120909.6872c3b-0ubuntu1)",
+		"python3-babel (>= 2.3.4)",
+		"python3-neutron (>= 2:16.0.0)",
+		"python3-neutron-lib (>= 1.29.0)",
+		"python3-neutronclient (>= 1:6.7.0)",
+		"python3-ovsdbapp (>= 0.10.0)",
+		"python3-pbr (>= 2.0.0)",
+		"python3:any"
+	],
+	"replaces": [
+		"neutron-l2gateway-agent (<< 1:13.0.0~a1~git2018062108.5517dc2-0ubuntu1~)"
+	],
+	"breaks": [
+		"neutron-l2gateway-agent (<< 1:13.0.0~a1~git2018062108.5517dc2-0ubuntu1~)"
+	],
+	"installedSize": 847,
+	"maintainer": "Ubuntu Developers <ubuntu-devel-discuss@lists.ubuntu.com>",
+	"description": "OpenStack virtual network service - L2 gateway extension",
+	"homepage": "https://opendev.org/openstack/networking-l2gw",
+	"filename": "pool/universe/n/networking-l2gw/python3-networking-l2gw_18.0.0+git2021120909.6872c3b-0ubuntu1_all.deb",
+	"size": 91402,
+	"md5": "86bcceffdc081e3cad2dcb29131f5988",
+	"sha1": "d3a5aaf2629ff4fe91021c43765d0a2b7f3364a0",
+	"sha256": "6f6d2aaa85077eba6fcdc00df3f89c35113b0c49d13dc0dde4cf56bc72300e0a",
+	"sha512": "41e4a59c700be1db954b3c2c891924e671e59b34007660169b3985593525eb5eb65136a2c248394e887dc3c4d4de7c6f3fdc64ff49f9f0bbbd6396aa4fd4600d",
+	"descriptionMd5": "4f6371090ef49fd18becc33b0ca90aab"
+}]

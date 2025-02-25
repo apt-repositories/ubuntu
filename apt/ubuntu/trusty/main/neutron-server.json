@@ -1,0 +1,37 @@
+{
+	"raw": {},
+	"required": [
+		"Filename",
+		"Size"
+	],
+	"package": "neutron-server",
+	"source": "neutron",
+	"version": "1:2014.1-0ubuntu1",
+	"section": "net",
+	"priority": "optional",
+	"architecture": "all",
+	"depends": [
+		"adduser",
+		"neutron-common (= 1:2014.1-0ubuntu1)",
+		"sysv-rc (>= 2.88dsf-24) | file-rc (>= 0.8.16)",
+		"python:any"
+	],
+	"recommends": [
+		"neutron-plugin-ml2"
+	],
+	"replaces": [
+		"quantum-server (<< 1:2013.2~b2-0ubuntu1~)"
+	],
+	"breaks": [
+		"quantum-server (<< 1:2013.2~b2-0ubuntu1~)"
+	],
+	"installedSize": 65,
+	"maintainer": "Ubuntu Developers <ubuntu-devel-discuss@lists.ubuntu.com>",
+	"description": "Neutron is a virtual network service for Openstack - server",
+	"filename": "pool/main/n/neutron/neutron-server_2014.1-0ubuntu1_all.deb",
+	"size": 3596,
+	"md5": "b855821e3e985ad789ef4865ddea0f3a",
+	"sha1": "9b0ce7aabde501aa4199bf6ffe9af931cf78e383",
+	"sha256": "cef254455d4a1fe5ec371d89caea14e09112e2ca85c8f68c5308cfceca125349",
+	"descriptionMd5": "1b00fccfd02ac8a9014e7ee4bfb0ddd5"
+}

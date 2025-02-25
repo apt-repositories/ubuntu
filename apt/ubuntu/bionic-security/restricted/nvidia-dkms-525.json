@@ -1,0 +1,42 @@
+{
+	"raw": {},
+	"required": [
+		"Filename",
+		"Size"
+	],
+	"package": "nvidia-dkms-525",
+	"source": "nvidia-graphics-drivers-525",
+	"version": "525.105.17-0ubuntu0.18.04.1",
+	"section": "restricted/libs",
+	"priority": "optional",
+	"architecture": "amd64",
+	"depends": [
+		"dkms",
+		"nvidia-kernel-source-525 (<= 525.105.17-1)",
+		"nvidia-kernel-source-525 (>= 525.105.17)",
+		"nvidia-kernel-common-525 (<= 525.105.17-1)",
+		"nvidia-kernel-common-525 (>= 525.105.17)"
+	],
+	"replaces": [
+		"nvidia-384 (<< 390.25)",
+		"nvidia-dkms-kernel",
+		"nvidia-kernel-source-525 (<< 390.25-0ubuntu2~)"
+	],
+	"breaks": [
+		"nvidia-kernel-source-525 (<< 390.25-0ubuntu2~)"
+	],
+	"conflicts": [
+		"nvidia-dkms-kernel"
+	],
+	"installedSize": 131,
+	"maintainer": "Ubuntu Core Developers <ubuntu-devel-discuss@lists.ubuntu.com>",
+	"description": "NVIDIA DKMS package",
+	"homepage": "http://www.nvidia.com",
+	"filename": "pool/restricted/n/nvidia-graphics-drivers-525/nvidia-dkms-525_525.105.17-0ubuntu0.18.04.1_amd64.deb",
+	"size": 29276,
+	"md5": "499b1aba26eff422cdc5ef378849e7ba",
+	"sha1": "19dcd26e8a63d5f1f69a10e17c563c957220e2d8",
+	"sha256": "f757a6841c1f70950387ba7f5e7a1463a830a049b0db6557193110fdfb909e6c",
+	"sha512": "fb58a3085e3c6d9de50d488ce62eb4be475ead0b2f474a8dd4cafbb287b035f4ea19bb80ded86e94b358bc1627cd1519bc9eac156f31fac798a5562b5694c283",
+	"descriptionMd5": "ec8c193060b5458922cc0bda62df7796"
+}

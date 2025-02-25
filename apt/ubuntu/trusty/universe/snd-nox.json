@@ -1,0 +1,56 @@
+{
+	"raw": {},
+	"required": [
+		"Filename",
+		"Size"
+	],
+	"package": "snd-nox",
+	"source": "snd",
+	"version": "11.7-3",
+	"section": "universe/sound",
+	"priority": "optional",
+	"architecture": "amd64",
+	"depends": [
+		"snd (>= 11.7-3)",
+		"libasound2 (>= 1.0.16)",
+		"libc6 (>= 2.14)",
+		"libfftw3-double3",
+		"libgmp10",
+		"libgsl0ldbl (>= 1.9)",
+		"libmpc3",
+		"libmpfr4 (>= 3.1.1)"
+	],
+	"replaces": [
+		"snd (<< 5.10)",
+		"snd-dmotif",
+		"snd-dmotif-alsa",
+		"snd-gtk (<< 11-3)",
+		"snd-gtk-alsa",
+		"snd-gtk-jack",
+		"snd-gtk-pulse",
+		"snd-nox-alsa (<< 11.2-2)",
+		"snd-smotif"
+	],
+	"breaks": [
+		"snd-gtk (<< 11-3)",
+		"snd-nox-alsa (<< 11.2-2)"
+	],
+	"conflicts": [
+		"snd-dmotif",
+		"snd-dmotif-alsa",
+		"snd-gtk-alsa",
+		"snd-gtk-jack",
+		"snd-gtk-pulse",
+		"snd-smotif"
+	],
+	"installedSize": 2560,
+	"maintainer": "Ubuntu Developers <ubuntu-devel-discuss@lists.ubuntu.com>",
+	"description": "Sound file editor (without X support)",
+	"homepage": "http://ccrma.stanford.edu/software/snd/",
+	"filename": "pool/universe/s/snd/snd-nox_11.7-3_amd64.deb",
+	"size": 1009738,
+	"md5": "6eccf82d2f7e29c07186d5ab9063a025",
+	"sha1": "101c66d4aee01a79a0f16c00ee52e3ad5a44d60a",
+	"sha256": "50cf241a24eed5df0b6fb860ee1482b7443857ba3c4c40a41c9e916c12d418e3",
+	"descriptionMd5": "cc10616339788445068fe5f24c825271"
+}

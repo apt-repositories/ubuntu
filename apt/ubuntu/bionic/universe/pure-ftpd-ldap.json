@@ -1,0 +1,41 @@
+{
+	"raw": {},
+	"required": [
+		"Filename",
+		"Size"
+	],
+	"package": "pure-ftpd-ldap",
+	"source": "pure-ftpd",
+	"version": "1.0.46-1build1",
+	"section": "universe/net",
+	"priority": "optional",
+	"architecture": "amd64",
+	"depends": [
+		"lsb-base (>= 3.2-14)",
+		"pure-ftpd-common (= 1.0.46-1build1)",
+		"libc6 (>= 2.25)",
+		"libcap2 (>= 1:2.10)",
+		"libldap-2.4-2 (>= 2.4.7)",
+		"libpam0g (>= 0.99.7.1)",
+		"libssl1.1 (>= 1.1.0)",
+		"openbsd-inetd | inet-superserver"
+	],
+	"replaces": [
+		"ftp-server",
+		"pure-ftpd"
+	],
+	"conflicts": [
+		"ftp-server",
+		"pure-ftpd"
+	],
+	"installedSize": 564,
+	"maintainer": "Ubuntu Developers <ubuntu-devel-discuss@lists.ubuntu.com>",
+	"description": "Secure and efficient FTP server with LDAP user authentication",
+	"homepage": "http://www.pureftpd.org/",
+	"filename": "pool/universe/p/pure-ftpd/pure-ftpd-ldap_1.0.46-1build1_amd64.deb",
+	"size": 135316,
+	"md5": "c51966e33664d836f6092e752c27dd41",
+	"sha1": "618b15642f9573b6aee10a4518f7dafd0962413d",
+	"sha256": "d00a7447a463a68591d5797b62229abb3514159727266ff7cd4639db7ce1d4f8",
+	"descriptionMd5": "477968a296072683c2fab03f6540b60e"
+}

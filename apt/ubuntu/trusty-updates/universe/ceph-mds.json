@@ -1,0 +1,48 @@
+{
+	"raw": {},
+	"required": [
+		"Filename",
+		"Size"
+	],
+	"package": "ceph-mds",
+	"source": "ceph",
+	"version": "0.80.11-0ubuntu1.14.04.4",
+	"section": "universe/admin",
+	"priority": "optional",
+	"architecture": "amd64",
+	"depends": [
+		"ceph",
+		"sysv-rc (>= 2.88dsf-24) | file-rc (>= 0.8.16)",
+		"libboost-system1.54.0",
+		"libboost-thread1.54.0",
+		"libc6 (>= 2.16)",
+		"libgcc1 (>= 1:4.1.1)",
+		"libgoogle-perftools4",
+		"libnspr4 (>= 2:4.9-2~) | libnspr4-0d (>= 1.8.0.10)",
+		"libnss3 (>= 2:3.13.4-2~) | libnss3-1d (>= 3.12.0~1.9b1)",
+		"libstdc++6 (>= 4.6)",
+		"libuuid1 (>= 2.16)"
+	],
+	"recommends": [
+		"ceph-fs-common",
+		"ceph-fuse",
+		"libcephfs1"
+	],
+	"replaces": [
+		"ceph (<< 0.67.3-1)"
+	],
+	"breaks": [
+		"ceph (<< 0.67.3-1)"
+	],
+	"installedSize": 7640,
+	"maintainer": "Ubuntu Developers <ubuntu-devel-discuss@lists.ubuntu.com>",
+	"description": "metadata server for the ceph distributed file system",
+	"homepage": "http://ceph.com/",
+	"filename": "pool/universe/c/ceph/ceph-mds_0.80.11-0ubuntu1.14.04.4_amd64.deb",
+	"size": 2117564,
+	"md5": "4f58368d78e17fee64f2ff4f1f2e6ee0",
+	"sha1": "36a51c7526095a43d939dfa2fbec13530a7446b8",
+	"sha256": "d0e5cecae4b28b2d7141d11d5a0eaa72eb872cbc068cc4c61f089b7dc6557c76",
+	"sha512": "3458d4f066d7f86383e4805d8e2b529f3007c40f735b84c106de195f19e1dc3df04dbb54d6e9ef0364f297d3e024c56f7fd66a5b9b17f5e709e4737aca7c84ec",
+	"descriptionMd5": "d37d51a4735a093f21799c80f707168f"
+}

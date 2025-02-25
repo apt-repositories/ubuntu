@@ -1,0 +1,59 @@
+{
+	"raw": {},
+	"required": [
+		"Filename",
+		"Size"
+	],
+	"package": "libreoffice-base-nogui",
+	"source": "libreoffice",
+	"version": "1:6.4.7-0ubuntu0.20.04.13",
+	"section": "universe/database",
+	"priority": "optional",
+	"architecture": "amd64",
+	"depends": [
+		"libreoffice-base-core (= 1:6.4.7-0ubuntu0.20.04.13)",
+		"libreoffice-base-drivers (= 1:6.4.7-0ubuntu0.20.04.13)",
+		"libreoffice-common (>= 1:6.4.0~beta1-2~)",
+		"libreoffice-core-nogui (= 1:6.4.7-0ubuntu0.20.04.13) | libreoffice-core (= 1:6.4.7-0ubuntu0.20.04.13)",
+		"libc6 (>= 2.14)",
+		"libgcc-s1 (>= 3.0)",
+		"libstdc++6 (>= 5)",
+		"libuno-cppu3 (>= 4.4.0~alpha)",
+		"libuno-cppuhelpergcc3-3 (>= 4.0.0~alpha)",
+		"libuno-sal3 (>= 4.1.0~alpha)",
+		"libuno-salhelpergcc3-3 (>= 1.4.0)",
+		"uno-libs-private",
+		"ure"
+	],
+	"recommends": [
+		"libreoffice-writer",
+		"libreoffice-java-common (>= 1:6.4.7~)",
+		"default-jre (>= 2:1.8) | java8-runtime | jre"
+	],
+	"suggests": [
+		"libreoffice-report-builder",
+		"python3-uno",
+		"unixodbc"
+	],
+	"replaces": [
+		"libreoffice-base",
+		"libreoffice-common (<< 1:6.4.2~rc1~)"
+	],
+	"breaks": [
+		"libreoffice-common (<< 1:6.4.2~rc1~)"
+	],
+	"conflicts": [
+		"libreoffice-base"
+	],
+	"installedSize": 1234,
+	"maintainer": "Ubuntu Developers <ubuntu-devel-discuss@lists.ubuntu.com>",
+	"description": "office productivity suite -- database (no GUI variant)",
+	"homepage": "http://www.libreoffice.org",
+	"filename": "pool/universe/libr/libreoffice/libreoffice-base-nogui_6.4.7-0ubuntu0.20.04.13_amd64.deb",
+	"size": 238768,
+	"md5": "5445d83faf586efe13666e934fd643f5",
+	"sha1": "e09ce90322cab772dd11784f5ff4e9ddd02e4576",
+	"sha256": "3a105ad4bd747a66efb5cc272fe93b48c1267e1e190bac7143d33923febe0aa1",
+	"sha512": "b964746a56e60f734dcf1d0fb25ae8fe5f5979e775fe5dc2b9ded23fe4735482c1fb7eaaf5440be206161dffc9d40805a46af876d32f1a9ffc332b0f83808301",
+	"descriptionMd5": "e83dd6cdb7c67ccb13c0407fd6a32ebc"
+}

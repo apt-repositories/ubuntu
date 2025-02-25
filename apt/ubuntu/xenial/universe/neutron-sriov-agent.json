@@ -1,0 +1,34 @@
+{
+	"raw": {},
+	"required": [
+		"Filename",
+		"Size"
+	],
+	"package": "neutron-sriov-agent",
+	"source": "neutron",
+	"version": "2:8.0.0-0ubuntu1",
+	"section": "universe/net",
+	"priority": "optional",
+	"architecture": "all",
+	"depends": [
+		"neutron-common (= 2:8.0.0-0ubuntu1)",
+		"init-system-helpers (>= 1.18~)",
+		"lsb-base (>= 4.1+Debian11ubuntu7)",
+		"python:any (>= 2.6~)"
+	],
+	"replaces": [
+		"neutron-plugin-ml2 (<< 2:8.0.0~b2-0ubuntu5~)"
+	],
+	"breaks": [
+		"neutron-plugin-ml2 (<< 2:8.0.0~b2-0ubuntu5~)"
+	],
+	"installedSize": 53,
+	"maintainer": "Ubuntu Developers <ubuntu-devel-discuss@lists.ubuntu.com>",
+	"description": "Neutron is a virtual network service for Openstack - SR-IOV agent",
+	"filename": "pool/universe/n/neutron/neutron-sriov-agent_8.0.0-0ubuntu1_all.deb",
+	"size": 6844,
+	"md5": "4e98783a41872fbee2592272ab493e2a",
+	"sha1": "f41472004164d6f1c670c4a048771a3059094028",
+	"sha256": "1391d3234a97b40f259fd4f35a832d88fac519d95d9554dcfa85e2178fb9bd68",
+	"descriptionMd5": "42989299f1b85c4fc6eccec9138ca534"
+}

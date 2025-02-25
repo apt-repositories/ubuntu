@@ -1,0 +1,43 @@
+{
+	"raw": {},
+	"required": [
+		"Filename",
+		"Size"
+	],
+	"package": "nvidia-primus-vk-wrapper",
+	"source": "primus-vk",
+	"version": "1.6.4-2",
+	"section": "multiverse/libs",
+	"priority": "optional",
+	"architecture": "amd64",
+	"depends": [
+		"nvidia-primus-vk-common",
+		"libvulkan1",
+		"bumblebee-nvidia",
+		"libc6 (>= 2.34)",
+		"libgcc-s1 (>= 3.0)",
+		"libglx0",
+		"libstdc++6 (>= 13.1)",
+		"libx11-6"
+	],
+	"recommends": [
+		"nvidia-primus-vk-wrapper:i386 (= 1.6.4-2)"
+	],
+	"replaces": [
+		"libnv-vulkan-wrapper1 (>= 0)"
+	],
+	"breaks": [
+		"libnv-vulkan-wrapper1 (>= 0)"
+	],
+	"installedSize": 40,
+	"maintainer": "Ubuntu Developers <ubuntu-devel-discuss@lists.ubuntu.com>",
+	"description": "thin wrapper for using the NVIDIA binary Vulkan ICD with bumblebee",
+	"homepage": "https://github.com/felixdoerre/primus_vk",
+	"filename": "pool/multiverse/p/primus-vk/nvidia-primus-vk-wrapper_1.6.4-2_amd64.deb",
+	"size": 9120,
+	"md5": "424ba6ee3c51b01de235b4ad9de91fe5",
+	"sha1": "4bcf4617e4c701b1b550dcd646c8e53c002e1a8c",
+	"sha256": "10e49a09248535a979ce691b2d4fbac85a8a577bad7d5e6f084d835a74f0f6a3",
+	"sha512": "9c8124f8e132d335dd4d1aef26142d1da9033557b800f6fa95917aeb01a006ec7231cdb80e8816e734a1cf6e2df556a8eab61e07561a49ee36142d7d9264d682",
+	"descriptionMd5": "b56d29bdf2a2c1ac493d1c61f63daef4"
+}

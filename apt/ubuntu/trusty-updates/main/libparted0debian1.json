@@ -1,0 +1,52 @@
+{
+	"raw": {},
+	"required": [
+		"Filename",
+		"Size"
+	],
+	"package": "libparted0debian1",
+	"source": "parted",
+	"version": "2.3-19ubuntu1.14.04.1",
+	"section": "libs",
+	"priority": "standard",
+	"architecture": "amd64",
+	"depends": [
+		"libblkid1 (>= 2.17.2)",
+		"libc6 (>= 2.14)",
+		"libdevmapper1.02.1 (>= 2:1.02.36)",
+		"libuuid1 (>= 2.16)"
+	],
+	"preDepends": [
+		"multiarch-support"
+	],
+	"suggests": [
+		"parted | nparted",
+		"libparted0-dev",
+		"libparted0-i18n (= 2.3-19ubuntu1.14.04.1)"
+	],
+	"replaces": [
+		"libparted0 (<< 2.2-4)",
+		"libparted1 (<< 2.2)",
+		"libparted1.4 (<< 1.4.24-2)",
+		"libparted2 (<< 2.2)"
+	],
+	"breaks": [
+		"python-parted (<< 3.6-5)"
+	],
+	"conflicts": [
+		"libparted1 (<< 2.2)",
+		"libparted2 (<< 2.2)",
+		"parted (<< 1.4.13+14pre1)"
+	],
+	"installedSize": 571,
+	"maintainer": "Ubuntu Developers <ubuntu-devel-discuss@lists.ubuntu.com>",
+	"description": "disk partition manipulator - shared library",
+	"homepage": "http://www.gnu.org/software/parted",
+	"filename": "pool/main/p/parted/libparted0debian1_2.3-19ubuntu1.14.04.1_amd64.deb",
+	"size": 203450,
+	"md5": "ea688053c46f3d7654ac528787cd155e",
+	"sha1": "9fdbd326a3569f04a4a75ed55849e6fd5fc1e46c",
+	"sha256": "4148200f8e92bb1ba14a6457328fd47378ce364d5c42c3d3ff4d5d7375519aef",
+	"sha512": "a169020ae47ee65886f257aef1a796cdf35a72802c06bbbc00d12ea3560bd171173c8d8643b154baf86a856a4a9d058f070367328dce8094ca9be9e5e72090d0",
+	"descriptionMd5": "8351c24350acd1cda567a096a68bf6b7"
+}

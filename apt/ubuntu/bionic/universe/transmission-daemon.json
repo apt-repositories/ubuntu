@@ -1,0 +1,47 @@
+{
+	"raw": {},
+	"required": [
+		"Filename",
+		"Size"
+	],
+	"package": "transmission-daemon",
+	"source": "transmission",
+	"version": "2.92-3ubuntu2",
+	"section": "universe/net",
+	"priority": "optional",
+	"architecture": "amd64",
+	"depends": [
+		"lsb-base (>= 3.0)",
+		"transmission-common (= 2.92-3ubuntu2)",
+		"libc6 (>= 2.14)",
+		"libcurl3-gnutls (>= 7.18.0)",
+		"libevent-2.1-6 (>= 2.1.8-stable)",
+		"libminiupnpc10 (>= 1.9.20140610)",
+		"libnatpmp1 (>= 20101211)",
+		"libssl1.1 (>= 1.1.0)",
+		"libsystemd0",
+		"zlib1g (>= 1:1.1.4)"
+	],
+	"preDepends": [
+		"adduser"
+	],
+	"recommends": [
+		"transmission-cli (>= 1.50-1)"
+	],
+	"replaces": [
+		"transmission-cli (<< 1.40-1)"
+	],
+	"breaks": [
+		"transmission-cli (<< 1.40-1)"
+	],
+	"installedSize": 559,
+	"maintainer": "Ubuntu Developers <ubuntu-devel-discuss@lists.ubuntu.com>",
+	"description": "lightweight BitTorrent client (daemon)",
+	"homepage": "http://www.transmissionbt.com/",
+	"filename": "pool/universe/t/transmission/transmission-daemon_2.92-3ubuntu2_amd64.deb",
+	"size": 220604,
+	"md5": "9f8ffcfa69eecf677d5af4ce1fe3c331",
+	"sha1": "ea4cfb57c33993a61117b3ecbf89c40cdd419e62",
+	"sha256": "1f8283d3fb40972cc9871915d7d39380818a974be0ebb318e337833acf864bf9",
+	"descriptionMd5": "c5796eb91f75285b9af0fb5f16136e5d"
+}

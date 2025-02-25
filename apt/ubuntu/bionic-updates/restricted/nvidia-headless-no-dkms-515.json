@@ -1,0 +1,40 @@
+{
+	"raw": {},
+	"required": [
+		"Filename",
+		"Size"
+	],
+	"package": "nvidia-headless-no-dkms-515",
+	"source": "nvidia-graphics-drivers-515",
+	"version": "515.105.01-0ubuntu0.18.04.1",
+	"section": "restricted/libs",
+	"priority": "optional",
+	"architecture": "amd64",
+	"depends": [
+		"nvidia-kernel-common-515 (<= 515.105.01-1)",
+		"nvidia-kernel-common-515 (>= 515.105.01)",
+		"nvidia-kernel-source-515 (= 515.105.01-0ubuntu0.18.04.1)",
+		"libnvidia-compute-515 (= 515.105.01-0ubuntu0.18.04.1)",
+		"nvidia-compute-utils-515 (= 515.105.01-0ubuntu0.18.04.1)",
+		"libnvidia-cfg1-515 (= 515.105.01-0ubuntu0.18.04.1)"
+	],
+	"replaces": [
+		"nvidia-384 (<< 390.25)",
+		"nvidia-390 (<< 390.25-0ubuntu1)"
+	],
+	"conflicts": [
+		"nvidia-384 (<< 390.25)",
+		"nvidia-390 (<< 390.25-0ubuntu1)"
+	],
+	"installedSize": 20,
+	"maintainer": "Ubuntu Core Developers <ubuntu-devel-discuss@lists.ubuntu.com>",
+	"description": "NVIDIA headless metapackage - no DKMS",
+	"homepage": "http://www.nvidia.com",
+	"filename": "pool/restricted/n/nvidia-graphics-drivers-515/nvidia-headless-no-dkms-515_515.105.01-0ubuntu0.18.04.1_amd64.deb",
+	"size": 7360,
+	"md5": "8b93af69916a8f143dbf217375dc2d5a",
+	"sha1": "e0a886aeb2c16c9e159fbb87006bca50b2414f0c",
+	"sha256": "45d18a580329212dc0e7b07bb35c2aa76292c1260648e9100867777d3db23194",
+	"sha512": "9c6d64486c879dd4cf97a5d4969a0765d717562cdba9c5e24967ad7d4c4f4b1bb167b53ecc9e6612eaa4748950be140ed3c443fd445ed2482bf051370b429bf2",
+	"descriptionMd5": "3901768a3fcf72b085afc6d9ec3c0db0"
+}

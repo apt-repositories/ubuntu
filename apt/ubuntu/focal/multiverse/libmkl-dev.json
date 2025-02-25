@@ -1,0 +1,44 @@
+{
+	"raw": {},
+	"required": [
+		"Filename",
+		"Size"
+	],
+	"package": "libmkl-dev",
+	"source": "intel-mkl",
+	"version": "2020.0.166-1",
+	"section": "multiverse/libdevel",
+	"priority": "optional",
+	"architecture": "amd64",
+	"depends": [
+		"debconf (>= 0.5) | debconf-2.0",
+		"libmkl-rt (= 2020.0.166-1)",
+		"libmkl-interface-dev (= 2020.0.166-1)",
+		"libmkl-threading-dev (= 2020.0.166-1)",
+		"libmkl-computational-dev (= 2020.0.166-1)",
+		"pkg-config",
+		"libblas-dev | libblas.so",
+		"liblapack-dev | liblapack.so",
+		"libomp-dev | libomp-7-dev | libomp-8-dev",
+		"libgcc-5-dev | libgcc-6-dev | libgcc-7-dev | libgcc-8-dev | libtbb-dev"
+	],
+	"suggests": [
+		"intel-mkl-doc (= 2020.0.166-1)"
+	],
+	"enhances": [
+		"libblas.so",
+		"libblas64.so",
+		"liblapack.so",
+		"liblapack64.so"
+	],
+	"installedSize": 12139,
+	"maintainer": "Ubuntu Developers <ubuntu-devel-discuss@lists.ubuntu.com>",
+	"description": "Intel® Math Kernel Library (Intel® MKL) (Dev)",
+	"homepage": "https://software.intel.com/en-us/mkl",
+	"filename": "pool/multiverse/i/intel-mkl/libmkl-dev_2020.0.166-1_amd64.deb",
+	"size": 519208,
+	"md5": "789b2e4f7f30494a326eaac4dfaa04b0",
+	"sha1": "76094def4057784e2812f13ec4b9d771a989dc35",
+	"sha256": "238d8ca2bea926b16c0b08577a2900819d33672da5de7a0af894a1de9a53ca67",
+	"descriptionMd5": "a4830f8505012cf0194bf10a110252e8"
+}

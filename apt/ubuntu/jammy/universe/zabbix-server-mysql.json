@@ -1,0 +1,61 @@
+{
+	"raw": {},
+	"required": [
+		"Filename",
+		"Size"
+	],
+	"package": "zabbix-server-mysql",
+	"source": "zabbix",
+	"version": "1:5.0.17+dfsg-1",
+	"section": "universe/net",
+	"priority": "optional",
+	"architecture": "amd64",
+	"depends": [
+		"libc6 (>= 2.34)",
+		"libcurl3-gnutls (>= 7.28.0)",
+		"libevent-2.1-7 (>= 2.1.8-stable)",
+		"libgnutls30 (>= 3.7.2)",
+		"libldap-2.5-0 (>= 2.5.4)",
+		"libmysqlclient21 (>= 8.0.11)",
+		"libodbc1 (>= 2.3.1)",
+		"libopenipmi0 (>= 2.0.29)",
+		"libpcre3",
+		"libsnmp40 (>= 5.9+dfsg)",
+		"libssh2-1 (>= 1.0)",
+		"libxml2 (>= 2.7.4)",
+		"zlib1g (>= 1:1.2.0)",
+		"ucf",
+		"fping",
+		"adduser",
+		"lsb-base"
+	],
+	"recommends": [
+		"default-mysql-server | virtual-mysql-server",
+		"snmpd",
+		"nmap",
+		"traceroute"
+	],
+	"suggests": [
+		"zabbix-frontend-php",
+		"logrotate",
+		"sudo",
+		"snmp-mibs-downloader"
+	],
+	"conflicts": [
+		"zabbix-proxy-mysql",
+		"zabbix-proxy-pgsql",
+		"zabbix-proxy-sqlite3",
+		"zabbix-server-pgsql"
+	],
+	"installedSize": 6639,
+	"maintainer": "Ubuntu Developers <ubuntu-devel-discuss@lists.ubuntu.com>",
+	"description": "network monitoring solution - server (using MySQL)",
+	"homepage": "http://zabbix.com",
+	"filename": "pool/universe/z/zabbix/zabbix-server-mysql_5.0.17+dfsg-1_amd64.deb",
+	"size": 3317016,
+	"md5": "a41526f67177a4e7f0b0b3538527bbe6",
+	"sha1": "bce61791e98f7110ff8b8ed9253a3cd16129cafb",
+	"sha256": "a8004d02baf970d23e353f29800a2ae9e77789f1dc09d7ec83aea47ab07d88b7",
+	"sha512": "ad3f6c9e9f4c8fe2c03ec4a933bf4a1930a9803b25dfd77743cef1c0f4a33005702d2ef192506e79b75e1ca02cca72f7153c0f48cd282ba125ce3ee62a4d4241",
+	"descriptionMd5": "47873543449b5d6688721f179370dff6"
+}

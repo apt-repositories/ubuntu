@@ -1,0 +1,40 @@
+{
+	"raw": {},
+	"required": [
+		"Filename",
+		"Size"
+	],
+	"package": "globus-gram-job-manager-pbs",
+	"version": "3.1-1",
+	"section": "universe/net",
+	"priority": "optional",
+	"architecture": "all",
+	"depends": [
+		"perl",
+		"globus-gram-job-manager (>= 13)",
+		"globus-gram-job-manager-scripts (>= 4)",
+		"globus-gass-cache-program (>= 5)",
+		"globus-gatekeeper (>= 9)"
+	],
+	"recommends": [
+		"globus-gram-job-manager-pbs-setup-poll | globus-gram-job-manager-pbs-setup-seg"
+	],
+	"replaces": [
+		"globus-gram-job-manager-setup-pbs (<< 4.5)",
+		"globus-gram-job-manager-setup-pbs-doc (<< 4.5)"
+	],
+	"conflicts": [
+		"globus-gram-job-manager-setup-pbs (<< 4.5)",
+		"globus-gram-job-manager-setup-pbs-doc (<< 4.5)"
+	],
+	"installedSize": 48,
+	"maintainer": "Ubuntu Developers <ubuntu-devel-discuss@lists.ubuntu.com>",
+	"description": "Grid Community Toolkit - PBS Job Manager Support",
+	"homepage": "https://github.com/gridcf/gct/",
+	"filename": "pool/universe/g/globus-gram-job-manager-pbs/globus-gram-job-manager-pbs_3.1-1_all.deb",
+	"size": 8628,
+	"md5": "f1715f20066691ec666c986e07773c10",
+	"sha1": "79b229ba36f3edba8d419ee592c322fde5ec2e24",
+	"sha256": "95598876b9e8d33c5ad2271f0d392f51c927a3a2924d1491374a779fcef9b319",
+	"descriptionMd5": "123570d0b5d7fc29d088b6f696063809"
+}

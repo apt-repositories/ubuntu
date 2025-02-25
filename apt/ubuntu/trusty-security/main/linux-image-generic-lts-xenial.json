@@ -1,0 +1,39 @@
+{
+	"raw": {},
+	"required": [
+		"Filename",
+		"Size"
+	],
+	"package": "linux-image-generic-lts-xenial",
+	"source": "linux-meta-lts-xenial",
+	"version": "4.4.0.148.130",
+	"section": "kernel",
+	"priority": "optional",
+	"architecture": "amd64",
+	"depends": [
+		"linux-image-4.4.0-148-generic | linux-unsigned-image-4.4.0-148-generic",
+		"linux-modules-extra-4.4.0-148-generic",
+		"linux-firmware",
+		"intel-microcode",
+		"amd64-microcode"
+	],
+	"recommends": [
+		"thermald"
+	],
+	"breaks": [
+		"nvidia-304 (<< 304.135-0ubuntu0.14.04.2~)",
+		"nvidia-340 (<< 340.107-0ubuntu0.14.04.1~)",
+		"nvidia-384 (<< 384.130-0ubuntu0.14.04.2)",
+		"virtualbox-guest-dkms-lts-xenial (<< 4.3.36-dfsg-1+deb8u1ubuntu1.14.04.1~14.04.5~)"
+	],
+	"installedSize": 30,
+	"maintainer": "Ubuntu Kernel Team <kernel-team@lists.ubuntu.com>",
+	"description": "Generic Linux kernel image",
+	"filename": "pool/main/l/linux-meta-lts-xenial/linux-image-generic-lts-xenial_4.4.0.148.130_amd64.deb",
+	"size": 2792,
+	"md5": "075b53223046e58d1021ac2200b2d0b3",
+	"sha1": "b41216026ade5f9ed928488dddd169d42615d1e5",
+	"sha256": "b1380ab63d1cb1477b7a502c6a3e022de0a4c9277453d832f7620f64943640a8",
+	"sha512": "6c574c2a2b4ac86bbd3f2c2d918be74f5a32ba4378b535465bd6d0059b397fca8824d0c5e6c47e78135c473f8778abe48ab6d8ec7631cc01b484f088296559b3",
+	"descriptionMd5": "6d632579c673704f44b290b16e7dbfd1"
+}

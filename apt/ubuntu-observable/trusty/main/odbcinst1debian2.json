@@ -1,0 +1,44 @@
+[{
+	"raw": {},
+	"required": [
+		"Filename",
+		"Size"
+	],
+	"package": "odbcinst1debian2",
+	"source": "unixodbc",
+	"version": "2.2.14p2-5ubuntu5",
+	"section": "libs",
+	"priority": "optional",
+	"architecture": "amd64",
+	"depends": [
+		"libc6 (>= 2.14)",
+		"libltdl7 (>= 2.4.2)",
+		"odbcinst"
+	],
+	"preDepends": [
+		"multiarch-support"
+	],
+	"replaces": [
+		"unixodbc (<< 2.1.1-2)"
+	],
+	"breaks": [
+		"libiodbc2",
+		"libmyodbc (<< 5.1.6-2)",
+		"odbc-postgresql (<< 1:09.00.0310-1.1)",
+		"tdsodbc (<< 0.82-8)"
+	],
+	"conflicts": [
+		"odbcinst1",
+		"odbcinst1debian1"
+	],
+	"installedSize": 242,
+	"maintainer": "Ubuntu Developers <ubuntu-devel-discuss@lists.ubuntu.com>",
+	"description": "Support library for accessing odbc ini files",
+	"homepage": "http://www.unixodbc.org/",
+	"filename": "pool/main/u/unixodbc/odbcinst1debian2_2.2.14p2-5ubuntu5_amd64.deb",
+	"size": 40600,
+	"md5": "66b432d9bc5fbe3c1bb2cb898ec220d5",
+	"sha1": "7877c97b51eff24ff59d5884628ba1bd55d3370c",
+	"sha256": "b4a0bc74bccc8d0423ab170239f6447cfb83ec3ed0bd46d891cf95b78a40eb4c",
+	"descriptionMd5": "b24fb287c5629b7e3832794ea97e5473"
+}]

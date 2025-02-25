@@ -1,0 +1,52 @@
+{
+	"raw": {},
+	"required": [
+		"Filename",
+		"Size"
+	],
+	"package": "foomatic-db-compressed-ppds",
+	"source": "foomatic-db",
+	"version": "20140410-0ubuntu1",
+	"section": "text",
+	"priority": "optional",
+	"architecture": "all",
+	"depends": [
+		"python3",
+		"xz-utils"
+	],
+	"recommends": [
+		"cups-filters (>= 1.0.42) | foomatic-filters (>= 4.0)",
+		"ghostscript",
+		"cups",
+		"cups-client"
+	],
+	"suggests": [
+		"hplip",
+		"hplip-cups",
+		"cups-filters",
+		"openprinting-ppds",
+		"printer-driver-all (>= 0.20111206)"
+	],
+	"replaces": [
+		"foomatic-db",
+		"foomatic-db-hpijs"
+	],
+	"breaks": [
+		"cups (<< 1.5.0-3~)",
+		"foomatic-db"
+	],
+	"conflicts": [
+		"foomatic-db",
+		"foomatic-db-hpijs"
+	],
+	"installedSize": 609,
+	"maintainer": "Ubuntu Developers <ubuntu-devel-discuss@lists.ubuntu.com>",
+	"description": "OpenPrinting printer support - Compressed PPDs derived from the database",
+	"homepage": "http://www.openprinting.org/",
+	"filename": "pool/main/f/foomatic-db/foomatic-db-compressed-ppds_20140410-0ubuntu1_all.deb",
+	"size": 423966,
+	"md5": "a9ed7ae2222aece292c1ab37055ae6b2",
+	"sha1": "6686c0f00bc702e51e2f6dd2c97d2c92e4661052",
+	"sha256": "af18142593b93ab3bee8db57017e55eacd3caea6f16e279774d1bbfc2911713f",
+	"descriptionMd5": "fb3b03f43036d62b4dc6ed630144d256"
+}

@@ -1,0 +1,76 @@
+{
+	"raw": {},
+	"required": [
+		"Filename",
+		"Size"
+	],
+	"package": "cyrus-common",
+	"source": "cyrus-imapd",
+	"version": "2.5.10-3ubuntu1",
+	"section": "universe/mail",
+	"priority": "extra",
+	"architecture": "amd64",
+	"depends": [
+		"adduser",
+		"db-upgrade-util",
+		"db-util",
+		"default-mta | mail-transport-agent",
+		"gawk",
+		"libsasl2-modules",
+		"netbase (>= 4.07)",
+		"debconf (>= 0.5) | debconf-2.0",
+		"perl:any",
+		"libc6 (>= 2.15)",
+		"libdb5.3",
+		"libical3 (>= 3.0.0)",
+		"libjansson4 (>= 2.3)",
+		"libkrb5-3 (>= 1.6.dfsg.2)",
+		"libldap-2.4-2 (>= 2.4.7)",
+		"libpcre3",
+		"libsasl2-2",
+		"libsnmp30 (>= 5.7.3+dfsg-1.8ubuntu3~dfsg)",
+		"libsqlite3-0 (>= 3.6.0)",
+		"libssl1.1 (>= 1.1.0)",
+		"libwrap0 (>= 7.6-4~)",
+		"libxml2 (>= 2.8.0)",
+		"libzephyr4",
+		"zlib1g (>= 1:1.2.0)"
+	],
+	"preDepends": [
+		"dpkg (>= 1.17.14~)"
+	],
+	"recommends": [
+		"cyrus-imapd | cyrus-pop3d | cyrus-murder | cyrus-nntpd | cyrus-admin | cyrus-caldav"
+	],
+	"suggests": [
+		"apt-listchanges (>= 2.35)",
+		"cyrus-admin",
+		"cyrus-caldav",
+		"cyrus-clients",
+		"cyrus-doc",
+		"cyrus-imapd",
+		"cyrus-murder",
+		"cyrus-nntpd",
+		"cyrus-pop3d",
+		"cyrus-replication",
+		"sasl2-bin"
+	],
+	"replaces": [
+		"cyrus-common-2.2",
+		"cyrus-common-2.4 (<< 2.4.17+caldav~beta10-2~)"
+	],
+	"breaks": [
+		"cyrus-common-2.2",
+		"cyrus-common-2.4 (<< 2.4.17+caldav~beta10-2~)"
+	],
+	"installedSize": 3539,
+	"maintainer": "Ubuntu Developers <ubuntu-devel-discuss@lists.ubuntu.com>",
+	"description": "Cyrus mail system - common files",
+	"homepage": "http://www.cyrusimap.org/",
+	"filename": "pool/universe/c/cyrus-imapd/cyrus-common_2.5.10-3ubuntu1_amd64.deb",
+	"size": 836784,
+	"md5": "448d09dca24cf6240ad78b7b547048dc",
+	"sha1": "a2e19fc0807c8ae05dd178f584d0cb3e3a95f461",
+	"sha256": "20c43ae9dc80c488c3b5762e846d368c2d1ba709d646efca6bc9fc1f262b6479",
+	"descriptionMd5": "ce477374fcdec4eb4b04c5e339e4a360"
+}

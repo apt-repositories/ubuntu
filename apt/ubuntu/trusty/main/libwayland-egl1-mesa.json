@@ -1,0 +1,43 @@
+{
+	"raw": {},
+	"required": [
+		"Filename",
+		"Size"
+	],
+	"package": "libwayland-egl1-mesa",
+	"source": "mesa",
+	"version": "10.1.0-4ubuntu5",
+	"section": "libs",
+	"priority": "optional",
+	"architecture": "amd64",
+	"depends": [
+		"libc6 (>= 2.2.5)",
+		"libegl1-mesa (= 10.1.0-4ubuntu5)"
+	],
+	"preDepends": [
+		"multiarch-support"
+	],
+	"recommends": [
+		"libegl1-mesa-drivers"
+	],
+	"replaces": [
+		"libegl1-mesa-drivers (<< 10.1.0-2)",
+		"libwayland-egl1"
+	],
+	"breaks": [
+		"libegl1-mesa-drivers (<< 10.1.0-2)"
+	],
+	"conflicts": [
+		"libwayland-egl1"
+	],
+	"installedSize": 90,
+	"maintainer": "Ubuntu X-SWAT <ubuntu-x@lists.ubuntu.com>",
+	"description": "implementation of the Wayland EGL platform -- runtime",
+	"homepage": "http://mesa3d.sourceforge.net/",
+	"filename": "pool/main/m/mesa/libwayland-egl1-mesa_10.1.0-4ubuntu5_amd64.deb",
+	"size": 6496,
+	"md5": "6a7d595e3465146e45e837effa48ac1f",
+	"sha1": "bb0a981644d78d01a073fca31f433c6369016eeb",
+	"sha256": "b92b1958fdf59c6a437f829bbbbba23aae1fb6bfeef35b8db8202415f5e5aba0",
+	"descriptionMd5": "2aac0a30c09ae3fa55df222fecf9d1cf"
+}

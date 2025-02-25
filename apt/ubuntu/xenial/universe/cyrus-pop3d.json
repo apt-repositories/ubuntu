@@ -1,0 +1,48 @@
+{
+	"raw": {},
+	"required": [
+		"Filename",
+		"Size"
+	],
+	"package": "cyrus-pop3d",
+	"source": "cyrus-imapd-2.4",
+	"version": "2.4.18-3",
+	"section": "universe/mail",
+	"priority": "extra",
+	"architecture": "amd64",
+	"depends": [
+		"cyrus-common (= 2.4.18-3)",
+		"libc6 (>= 2.15)",
+		"libcomerr2 (>= 1.01)",
+		"libdb5.3",
+		"libkrb5-3 (>= 1.6.dfsg.2)",
+		"libsasl2-2",
+		"libssl1.0.0 (>= 1.0.0)",
+		"libwrap0 (>= 7.6-4~)",
+		"zlib1g (>= 1:1.1.4)"
+	],
+	"preDepends": [
+		"dpkg (>= 1.17.14)"
+	],
+	"replaces": [
+		"cyrus-pop3d-2.2",
+		"cyrus-pop3d-2.4 (<< 2.4.17+caldav~beta10-2~)"
+	],
+	"breaks": [
+		"cyrus-pop3d-2.2",
+		"cyrus-pop3d-2.4 (<< 2.4.17+caldav~beta10-2~)"
+	],
+	"conflicts": [
+		"pop3-server"
+	],
+	"installedSize": 1518,
+	"maintainer": "Ubuntu Developers <ubuntu-devel-discuss@lists.ubuntu.com>",
+	"description": "Cyrus mail system - POP3 support",
+	"homepage": "http://www.cyrusimap.org/",
+	"filename": "pool/universe/c/cyrus-imapd-2.4/cyrus-pop3d_2.4.18-3_amd64.deb",
+	"size": 250012,
+	"md5": "39797aa271804e93058b178cb0139a10",
+	"sha1": "93666f15daaa2da5377b54ccc8d5f9a96e8a3eec",
+	"sha256": "3ff99fdc1e70dc5e7b08d7970b75a56832a5a9baf57ffb3dd9ae4bfe49593e4c",
+	"descriptionMd5": "7d2376c85f708110f5c77b617f3139b5"
+}

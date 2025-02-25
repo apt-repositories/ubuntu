@@ -1,0 +1,77 @@
+{
+	"raw": {},
+	"required": [
+		"Filename",
+		"Size"
+	],
+	"package": "fwupd",
+	"version": "1.7.9-1~20.04.3",
+	"section": "admin",
+	"priority": "optional",
+	"architecture": "amd64",
+	"depends": [
+		"libfwupd2 (= 1.7.9-1~20.04.3)",
+		"libfwupdplugin5 (= 1.7.9-1~20.04.3)",
+		"libc6 (>= 2.28)",
+		"libcurl3-gnutls (>= 7.63.0)",
+		"libefiboot1 (>= 37)",
+		"libglib2.0-0 (>= 2.63.3)",
+		"libgnutls30 (>= 3.6.12)",
+		"libgudev-1.0-0 (>= 165)",
+		"libgusb2 (>= 0.3.4)",
+		"libjcat1 (>= 0.1.4)",
+		"libjson-glib-1.0-0 (>= 1.4.2)",
+		"libmbim-glib4 (>= 1.26.0)",
+		"libmbim-proxy",
+		"libmm-glib0 (>= 1.18)",
+		"libpolkit-gobject-1-0 (>= 0.99)",
+		"libqmi-glib5 (>= 1.18.0)",
+		"libqmi-proxy",
+		"libsmbios-c2",
+		"libsqlite3-0 (>= 3.6.1)",
+		"libsystemd0",
+		"libtss2-esys0 (>= 2.3.1)",
+		"libxmlb2 (>= 0.3.2)",
+		"shared-mime-info"
+	],
+	"recommends": [
+		"python3",
+		"bolt",
+		"dbus",
+		"secureboot-db",
+		"udisks2",
+		"fwupd-signed"
+	],
+	"suggests": [
+		"gir1.2-fwupd-2.0"
+	],
+	"replaces": [
+		"fwupdate (<< 12-7)",
+		"gir1.2-dfu-1.0 (<< 0.9.7-1)",
+		"libdfu-dev (<< 0.9.7-1)",
+		"libdfu1 (<< 0.9.7-1)"
+	],
+	"breaks": [
+		"fwupdate (<< 12-7)",
+		"gir1.2-dfu-1.0 (<< 0.9.7-1)",
+		"libdfu-dev (<< 0.9.7-1)",
+		"libdfu1 (<< 0.9.7-1)"
+	],
+	"conflicts": [
+		"fwupdate-amd64-signed",
+		"fwupdate-arm64-signed",
+		"fwupdate-armhf-signed",
+		"fwupdate-i386-signed"
+	],
+	"installedSize": 6684,
+	"maintainer": "Ubuntu Developers <ubuntu-devel-discuss@lists.ubuntu.com>",
+	"description": "Firmware update daemon",
+	"homepage": "https://github.com/fwupd/fwupd",
+	"filename": "pool/main/f/fwupd/fwupd_1.7.9-1~20.04.3_amd64.deb",
+	"size": 2453504,
+	"md5": "d3b4fc17778dbd81c7c52a9b2d59d341",
+	"sha1": "4474bd5405036b8954f027730ad6b1e2f6356d7a",
+	"sha256": "88850f0fe2cddf189d5a1a0c7669df8bda3525d2c00f23568e3761b39d4c983d",
+	"sha512": "5b4087715c04553d7559fb4d4dcdded5d7ab33c6678e1b6cc6342cf467e49dd92a7117c3404055dfbd958b182cfdadbfbeecb8ade584e4817d43ca7b60f1a8af",
+	"descriptionMd5": "cdd6fee34520bc38e3f317c22bf0694b"
+}

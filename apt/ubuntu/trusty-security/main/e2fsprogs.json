@@ -1,0 +1,48 @@
+{
+	"raw": {},
+	"required": [
+		"Filename",
+		"Size"
+	],
+	"package": "e2fsprogs",
+	"version": "1.42.9-3ubuntu1.2",
+	"section": "admin",
+	"priority": "required",
+	"architecture": "amd64",
+	"preDepends": [
+		"e2fslibs (= 1.42.9-3ubuntu1.2)",
+		"libblkid1 (>= 2.17.2)",
+		"libc6 (>= 2.14)",
+		"libcomerr2 (>= 1.42~WIP-2011-10-05-1)",
+		"libss2 (>= 1.34-1)",
+		"libuuid1 (>= 2.16)",
+		"util-linux (>= 2.15~rc1-1)"
+	],
+	"suggests": [
+		"gpart",
+		"parted",
+		"e2fsck-static"
+	],
+	"replaces": [
+		"hurd (<= 20040301-1)",
+		"libblkid1 (<< 1.38+1.39-WIP-2005.12.10-2)",
+		"libuuid1 (<< 1.38+1.39-WIP-2005.12.10-2)"
+	],
+	"conflicts": [
+		"dump (<< 0.4b4-4)",
+		"initscripts (<< 2.85-4)",
+		"quota (<< 1.55-8.1)",
+		"sysvinit (<< 2.85-4)"
+	],
+	"installedSize": 2440,
+	"maintainer": "Ubuntu Developers <ubuntu-devel-discuss@lists.ubuntu.com>",
+	"description": "ext2/ext3/ext4 file system utilities",
+	"homepage": "http://e2fsprogs.sourceforge.net",
+	"filename": "pool/main/e/e2fsprogs/e2fsprogs_1.42.9-3ubuntu1.2_amd64.deb",
+	"size": 667952,
+	"md5": "a73368527ad861cb1be8171d8ca70459",
+	"sha1": "ad46ab9e2f53aa4b5b9c7a20bb5c4cfcf74d74d7",
+	"sha256": "2c787e957b97c0741d909274c65049cc49c12aa8a6e3c0b75d0b157df5c3c0a3",
+	"sha512": "5fa51007fadadb7897bd054ddc3e8c34ec95157ed84ae9b93f05f6026b0086ebb553a09388ea2534bbf618876214a54289948f533c00873b2baae8fa2050502f",
+	"descriptionMd5": "3cc82e29372f2405b28e6171db1e687d"
+}

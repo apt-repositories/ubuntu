@@ -1,0 +1,44 @@
+[{
+	"raw": {},
+	"required": [
+		"Filename",
+		"Size"
+	],
+	"package": "libomp-15-dev",
+	"source": "llvm-toolchain-15",
+	"version": "1:15.0.7-14build3",
+	"section": "universe/libdevel",
+	"priority": "optional",
+	"architecture": "amd64",
+	"depends": [
+		"libomp5-15t64 (= 1:15.0.7-14build3)",
+		"libc6 (>= 2.38)",
+		"libgcc-s1 (>= 3.0)",
+		"libllvm15t64",
+		"libstdc++6 (>= 13.1)"
+	],
+	"suggests": [
+		"libomp-15-doc"
+	],
+	"replaces": [
+		"libomp-x.y-dev"
+	],
+	"breaks": [
+		"libiomp-dev (<< 3.7-1)",
+		"libomp-dev (<< 44)"
+	],
+	"conflicts": [
+		"libomp-x.y-dev"
+	],
+	"installedSize": 12445,
+	"maintainer": "Ubuntu Developers <ubuntu-devel-discuss@lists.ubuntu.com>",
+	"description": "LLVM OpenMP runtime - dev package",
+	"homepage": "https://www.llvm.org/",
+	"filename": "pool/universe/l/llvm-toolchain-15/libomp-15-dev_15.0.7-14build3_amd64.deb",
+	"size": 391780,
+	"md5": "0163cdeda7c0be18b20c1a655386fa0d",
+	"sha1": "bb8e67787cf132a643e3060db5ca0bc94cafee1e",
+	"sha256": "2bdbf4342b09251bd54d51ffc3b2e05778a97a5cd797b1fa82cfde876bcf9593",
+	"sha512": "4a13a310203cd2452f51424c72002c28919a5ec6205641ffac791270136c9a5675dd73b81875cdaa0e96e4068dd7dd0f5d518fb5409e1ec2647993d995a4e8a4",
+	"descriptionMd5": "6f692a0e089a2d4587b533b4f246db62"
+}]

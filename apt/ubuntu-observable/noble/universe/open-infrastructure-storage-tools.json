@@ -1,0 +1,48 @@
+[{
+	"raw": {},
+	"required": [
+		"Filename",
+		"Size"
+	],
+	"package": "open-infrastructure-storage-tools",
+	"version": "20190301-lts1-5",
+	"section": "universe/admin",
+	"priority": "optional",
+	"architecture": "all",
+	"depends": [
+		"debconf (>= 0.5) | debconf-2.0"
+	],
+	"recommends": [
+		"ceph-common | ceph-fs-common",
+		"apache2 | httpd",
+		"fonts-font-awesome",
+		"libjs-bootstrap",
+		"libjs-jquery",
+		"logrotate",
+		"jq"
+	],
+	"suggests": [
+		"ceph-fuse",
+		"irker"
+	],
+	"replaces": [
+		"open-infrastructure-ceph-tools (<< 20190301-lts1-4)"
+	],
+	"enhances": [
+		"ceph"
+	],
+	"breaks": [
+		"open-infrastructure-ceph-tools (<< 20190301-lts1-4)"
+	],
+	"installedSize": 127,
+	"maintainer": "Ubuntu Developers <ubuntu-devel-discuss@lists.ubuntu.com>",
+	"description": "Additional utilities to manage Ceph",
+	"homepage": "https://open-infrastructure.net/software/storage-tools",
+	"filename": "pool/universe/o/open-infrastructure-storage-tools/open-infrastructure-storage-tools_20190301-lts1-5_all.deb",
+	"size": 24206,
+	"md5": "a90fcc2c3f961b2506e0e572cdcba7f3",
+	"sha1": "54589bc108638508f1f8799ac823d690d2a58c82",
+	"sha256": "2f1b6de162a852e6fa1733a45f1c4d96508c75c976e5db74a5fb04e477497879",
+	"sha512": "3304de25d6d41c1471a7df9bc69563e4a07055018b5fe88696c2cc267627fd667749745629c016fc21480d2a349cf15b0639e20ba7ffafd54b3d02b5524b9813",
+	"descriptionMd5": "ffe4b90640933cabbe3668f7a7715266"
+}]

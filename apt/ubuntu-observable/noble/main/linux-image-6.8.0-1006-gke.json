@@ -1,0 +1,42 @@
+[{
+	"raw": {},
+	"required": [
+		"Filename",
+		"Size"
+	],
+	"package": "linux-image-6.8.0-1006-gke",
+	"source": "linux-signed-gke",
+	"version": "6.8.0-1006.9",
+	"section": "kernel",
+	"priority": "optional",
+	"architecture": "amd64",
+	"depends": [
+		"kmod",
+		"linux-base (>= 4.5ubuntu1~16.04.1)",
+		"linux-modules-6.8.0-1006-gke"
+	],
+	"recommends": [
+		"grub-pc | grub-efi-amd64 | grub-efi-ia32 | grub | lilo"
+	],
+	"suggests": [
+		"fdutils",
+		"linux-gke-doc-6.8.0 | linux-gke-source-6.8.0",
+		"linux-gke-tools",
+		"linux-headers-6.8.0-1006-gke",
+		"initramfs-tools | linux-initramfs-tool"
+	],
+	"conflicts": [
+		"linux-image-unsigned-6.8.0-1006-gke"
+	],
+	"installedSize": 14704,
+	"maintainer": "Canonical Kernel Team <kernel-team@lists.ubuntu.com>",
+	"description": "Signed kernel image gke",
+	"builtUsing": "linux-gke (= 6.8.0-1006.9)",
+	"filename": "pool/main/l/linux-signed-gke/linux-image-6.8.0-1006-gke_6.8.0-1006.9_amd64.deb",
+	"size": 14789892,
+	"md5": "8131cc940536763cb82ee3d76f67575b",
+	"sha1": "b628f4790f0f483f74e801b91fe1973d6b46df20",
+	"sha256": "327dd5a60cc3cbbc802605c5a48c0c7ef526a5bef40828e20f69878a2d2dceea",
+	"sha512": "7c9a7c670b49bab0a99b7020e46b12506fb199de1ea0fee0f3057f45dc94d76cb481bd8bc2ac96818741930cbc5e86f8f745e44cd0e94f75f6b21816caa21f00",
+	"descriptionMd5": "c0a4c57bf94318c2d05e1f183cd82742"
+}]

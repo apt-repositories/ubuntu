@@ -1,0 +1,43 @@
+[{
+	"raw": {},
+	"required": [
+		"Filename",
+		"Size"
+	],
+	"package": "linux-image-5.13.0-22-generic",
+	"source": "linux-signed-hwe-5.13",
+	"version": "5.13.0-22.22~20.04.1",
+	"section": "kernel",
+	"priority": "optional",
+	"architecture": "amd64",
+	"depends": [
+		"kmod",
+		"linux-base (>= 4.5ubuntu1~16.04.1)",
+		"linux-modules-5.13.0-22-generic"
+	],
+	"recommends": [
+		"grub-pc | grub-efi-amd64 | grub-efi-ia32 | grub | lilo",
+		"initramfs-tools | linux-initramfs-tool"
+	],
+	"suggests": [
+		"fdutils",
+		"linux-doc | linux-hwe-5.13-source-5.13.0",
+		"linux-hwe-5.13-tools",
+		"linux-headers-5.13.0-22-generic",
+		"linux-modules-extra-5.13.0-22-generic"
+	],
+	"conflicts": [
+		"linux-image-unsigned-5.13.0-22-generic"
+	],
+	"installedSize": 9954,
+	"maintainer": "Canonical Kernel Team <kernel-team@lists.ubuntu.com>",
+	"description": "Signed kernel image generic",
+	"builtUsing": "linux-hwe-5.13 (= 5.13.0-22.22~20.04.1)",
+	"filename": "pool/main/l/linux-signed-hwe-5.13/linux-image-5.13.0-22-generic_5.13.0-22.22~20.04.1_amd64.deb",
+	"size": 10020904,
+	"md5": "d10b554895a86a311a7cb7ad08dd5094",
+	"sha1": "8803551d9512942dd0e91b8f181e8d33d80e0c4e",
+	"sha256": "bb14ac5ec92444c43c5db74685bacb3a88d5dfba1bc7999e454b7f4caf33f72d",
+	"sha512": "b5e0041a9cf1636c6b0ba6fc697af4d96165809aec38199ee014fbb76f9b9e08b4e7e846ab4be20adc36748a09eb68ee4b594804de82e2675b62a2ece09203b2",
+	"descriptionMd5": "54a18b1adebc179da3c9e59a5db5fe77"
+}]

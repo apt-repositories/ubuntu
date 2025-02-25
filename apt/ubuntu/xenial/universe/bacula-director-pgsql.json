@@ -1,0 +1,49 @@
+{
+	"raw": {},
+	"required": [
+		"Filename",
+		"Size"
+	],
+	"package": "bacula-director-pgsql",
+	"source": "bacula",
+	"version": "7.0.5+dfsg-4build1",
+	"section": "universe/admin",
+	"priority": "optional",
+	"architecture": "amd64",
+	"depends": [
+		"bacula-common-pgsql (>= 7.0.5+dfsg-4build1)",
+		"bacula-director-common (= 7.0.5+dfsg-4build1)",
+		"dbconfig-common",
+		"postgresql-client (>= 7.4)",
+		"ucf",
+		"bacula-common (= 7.0.5+dfsg-4build1)",
+		"debconf (>= 0.5) | debconf-2.0",
+		"libc6 (>= 2.14)",
+		"libstdc++6 (>= 4.1.1)"
+	],
+	"recommends": [
+		"postgresql (>= 7.4)"
+	],
+	"suggests": [
+		"gawk",
+		"postgresql-contrib",
+		"postgresql-doc",
+		"perl"
+	],
+	"replaces": [
+		"bacula-director"
+	],
+	"conflicts": [
+		"bacula-director"
+	],
+	"installedSize": 752,
+	"maintainer": "Ubuntu Developers <ubuntu-devel-discuss@lists.ubuntu.com>",
+	"description": "network backup service - PostgreSQL storage for Director",
+	"homepage": "http://www.bacula.org/",
+	"filename": "pool/universe/b/bacula/bacula-director-pgsql_7.0.5+dfsg-4build1_amd64.deb",
+	"size": 233816,
+	"md5": "823f9377dced709e1f0db6085d1a4a9b",
+	"sha1": "1cc42d0d629c2d38f1c66bba6824fa23696b1c45",
+	"sha256": "d42a762a1175c2d0c973a0280b1170ed2b440a620a5d3b097e1bccf135e45215",
+	"descriptionMd5": "db7ac39ef41b2e5d6739d980eccc213a"
+}

@@ -1,0 +1,42 @@
+{
+	"raw": {},
+	"required": [
+		"Filename",
+		"Size"
+	],
+	"package": "ifupdown-extra",
+	"version": "0.33",
+	"section": "universe/admin",
+	"priority": "optional",
+	"architecture": "all",
+	"depends": [
+		"lsb-base",
+		"iproute2",
+		"iputils-ping | ping",
+		"netcat-openbsd | ncat",
+		"iputils-arping | arping",
+		"net-tools",
+		"host",
+		"curl"
+	],
+	"preDepends": [
+		"dpkg (>= 1.15.7.2)"
+	],
+	"recommends": [
+		"ethtool",
+		"ndisc6"
+	],
+	"conflicts": [
+		"debian-goodies (<< 0.39)"
+	],
+	"installedSize": 107,
+	"maintainer": "Ubuntu Developers <ubuntu-devel-discuss@lists.ubuntu.com>",
+	"description": "Network scripts for ifupdown",
+	"filename": "pool/universe/i/ifupdown-extra/ifupdown-extra_0.33_all.deb",
+	"size": 25892,
+	"md5": "a3943afa0efaec992d052885d14086d7",
+	"sha1": "67fa86c8f21ebc176ebe047b8aef1db72f373994",
+	"sha256": "c99873b5235c6200c7d90d07e4eb77dcee96eaabc37a74847c151fd77955714f",
+	"sha512": "5cd20309a9f7053be389c9ecfa864d1adc56dd14cfd68c13c3c96f993f31b58c227a4f239d8690fad6f075c084953d8b51bdc7e44f4ebe5b039361d567021ae2",
+	"descriptionMd5": "c953dc7fe8401eca495e66e61ccf450f"
+}

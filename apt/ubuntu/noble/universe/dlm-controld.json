@@ -1,0 +1,46 @@
+{
+	"raw": {},
+	"required": [
+		"Filename",
+		"Size"
+	],
+	"package": "dlm-controld",
+	"source": "dlm",
+	"version": "4.2.0-3build1",
+	"section": "universe/admin",
+	"priority": "optional",
+	"architecture": "amd64",
+	"depends": [
+		"corosync",
+		"kmod",
+		"libc6 (>= 2.38)",
+		"libcfg7 (>= 2.99.5)",
+		"libcmap4 (>= 1.99.9)",
+		"libcpg4 (>= 1.99)",
+		"libdlm3 (>= 3.0.2)",
+		"libdlmcontrol3 (>= 4.1.1)",
+		"libquorum5 (>= 3.1.0)",
+		"libsystemd0",
+		"libuuid1 (>= 2.16)"
+	],
+	"preDepends": [
+		"init-system-helpers (>= 1.54~)"
+	],
+	"replaces": [
+		"cman"
+	],
+	"breaks": [
+		"cman"
+	],
+	"installedSize": 234,
+	"maintainer": "Ubuntu Developers <ubuntu-devel-discuss@lists.ubuntu.com>",
+	"description": "Distributed Lock Manager control daemon",
+	"homepage": "https://pagure.io/dlm",
+	"filename": "pool/universe/d/dlm/dlm-controld_4.2.0-3build1_amd64.deb",
+	"size": 83958,
+	"md5": "3a691cccc09454fcb7075221dd2cc106",
+	"sha1": "293bf425d26ed5e9db9d875a56e9c972731e0372",
+	"sha256": "efa26aee7ba5b0b384b1e3b1bc5e53c5b2804cf19a4b5213710778bfb3bb4d09",
+	"sha512": "573494f6a5f015f4f27c90643d06032799b22a6aa32500845770c468f644e003d6ad66ed46ae15dbb44906a4a7847e99d3aff438611d7e9002047c35d6f34f7b",
+	"descriptionMd5": "dd409c7bccaa2f38aca2408fd22c80b3"
+}

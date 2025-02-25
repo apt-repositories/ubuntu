@@ -1,0 +1,48 @@
+{
+	"raw": {},
+	"required": [
+		"Filename",
+		"Size"
+	],
+	"package": "nginx-core",
+	"source": "nginx",
+	"version": "1.14.0-0ubuntu1.11",
+	"section": "httpd",
+	"priority": "optional",
+	"architecture": "amd64",
+	"depends": [
+		"iproute2",
+		"libnginx-mod-http-geoip (= 1.14.0-0ubuntu1.11)",
+		"libnginx-mod-http-image-filter (= 1.14.0-0ubuntu1.11)",
+		"libnginx-mod-http-xslt-filter (= 1.14.0-0ubuntu1.11)",
+		"libnginx-mod-mail (= 1.14.0-0ubuntu1.11)",
+		"libnginx-mod-stream (= 1.14.0-0ubuntu1.11)",
+		"nginx-common (= 1.14.0-0ubuntu1.11)",
+		"libc6 (>= 2.27)",
+		"libpcre3",
+		"libssl1.1 (>= 1.1.0)",
+		"zlib1g (>= 1:1.1.4)"
+	],
+	"suggests": [
+		"nginx-doc (= 1.14.0-0ubuntu1.11)"
+	],
+	"breaks": [
+		"nginx (<< 1.4.5-1)"
+	],
+	"conflicts": [
+		"nginx-extras",
+		"nginx-full",
+		"nginx-light"
+	],
+	"installedSize": 1176,
+	"maintainer": "Ubuntu Developers <ubuntu-devel-discuss@lists.ubuntu.com>",
+	"description": "nginx web/proxy server (standard version)",
+	"homepage": "http://nginx.net",
+	"filename": "pool/main/n/nginx/nginx-core_1.14.0-0ubuntu1.11_amd64.deb",
+	"size": 412704,
+	"md5": "a4d728c0eeea22d37e326b53280d6bbb",
+	"sha1": "2409625e577682f43a79a9b1ffb05688e1ab7399",
+	"sha256": "4cfb73270dc7cec3e35a523f4a68f897264ddabe35e88c38a87838ce52a9c09c",
+	"sha512": "8332456cb287787ed2d699adc35cb6391985e3bbd036032e6a02f3bdffe77ee0bd1a1d40aa7341b1d5df8a8ebb204a501ad7b3d845afcb61ef38325e6e1df5f7",
+	"descriptionMd5": "4dbed1c59ceec34dc2c909adb11cca6b"
+}

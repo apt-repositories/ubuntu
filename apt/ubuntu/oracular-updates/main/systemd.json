@@ -1,0 +1,76 @@
+{
+	"raw": {},
+	"required": [
+		"Filename",
+		"Size"
+	],
+	"package": "systemd",
+	"version": "256.5-2ubuntu3.1",
+	"section": "admin",
+	"priority": "important",
+	"architecture": "amd64",
+	"depends": [
+		"libacl1 (>= 2.2.23)",
+		"libapparmor1 (>= 2.13)",
+		"libaudit1 (>= 1:2.2.1)",
+		"libpam0g (>= 0.99.7.1)",
+		"libseccomp2 (>= 2.3.1)",
+		"libsystemd-shared (= 256.5-2ubuntu3.1)",
+		"libsystemd0 (= 256.5-2ubuntu3.1)",
+		"mount"
+	],
+	"preDepends": [
+		"libblkid1 (>= 2.30.2)",
+		"libc6 (>= 2.39)",
+		"libcap2 (>= 1:2.10)",
+		"libmount1 (>= 2.30)",
+		"libselinux1 (>= 3.1~)",
+		"libssl3t64 (>= 3.0.0)"
+	],
+	"recommends": [
+		"default-dbus-system-bus | dbus-system-bus",
+		"linux-sysctl-defaults",
+		"networkd-dispatcher",
+		"systemd-timesyncd | time-daemon",
+		"systemd-resolved",
+		"systemd-cryptsetup",
+		"libzstd1"
+	],
+	"suggests": [
+		"systemd-container",
+		"systemd-homed",
+		"systemd-userdbd",
+		"systemd-boot",
+		"systemd-repart",
+		"libtss2-tcti-device0",
+		"polkitd",
+		"libcryptsetup12",
+		"libgcrypt20",
+		"libidn2-0",
+		"liblz4-1",
+		"liblzma5",
+		"libtss2-rc0t64"
+	],
+	"breaks": [
+		"dracut-core (<< 102-2~)",
+		"less (<< 563)",
+		"sicherboot (<< 0.1.6)"
+	],
+	"conflicts": [
+		"consolekit",
+		"libpam-ck-connector",
+		"opensysusers",
+		"systemd-shim"
+	],
+	"installedSize": 11552,
+	"maintainer": "Ubuntu Developers <ubuntu-devel-discuss@lists.ubuntu.com>",
+	"description": "system and service manager",
+	"homepage": "https://systemd.io",
+	"filename": "pool/main/s/systemd/systemd_256.5-2ubuntu3.1_amd64.deb",
+	"size": 3419542,
+	"md5": "43c886eeebdb63180ea4b68f28b2fc75",
+	"sha1": "36a87da1f97a0a35760430540c083a784a5bdc2b",
+	"sha256": "fbed0dff069c785a1efdbbb536c76ea62122205ae9f2829bf9d9c8c6ac9cabc8",
+	"sha512": "9beafe03d5a96f1d63e58d8e6954e07b06564690ba8f3258d5addde765333277346f3e2f0e6a1985238c5b4c5dd429dc7e2839fafd7eb0c870da1f280da2be37",
+	"descriptionMd5": "2728f00e9cb47f195aa39097a3afbc42"
+}

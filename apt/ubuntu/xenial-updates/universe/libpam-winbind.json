@@ -1,0 +1,52 @@
+{
+	"raw": {},
+	"required": [
+		"Filename",
+		"Size"
+	],
+	"package": "libpam-winbind",
+	"source": "samba",
+	"version": "2:4.3.11+dfsg-0ubuntu0.16.04.34",
+	"section": "universe/net",
+	"priority": "optional",
+	"architecture": "amd64",
+	"depends": [
+		"libpam-runtime (>= 1.0.1-6)",
+		"libpam0g (>= 1.1.3-2~)",
+		"samba-common (= 2:4.3.11+dfsg-0ubuntu0.16.04.34)",
+		"winbind (= 2:4.3.11+dfsg-0ubuntu0.16.04.34)",
+		"libbsd0 (>= 0.0)",
+		"libc6 (>= 2.14)",
+		"libtalloc2 (>= 2.0.4~git20101213)",
+		"libwbclient0 (>= 2:4.0.3+dfsg1)"
+	],
+	"preDepends": [
+		"dpkg (>= 1.15.6~)"
+	],
+	"suggests": [
+		"libnss-winbind"
+	],
+	"replaces": [
+		"samba (<= 2.2.3-2)",
+		"samba-doc (<< 2:4.0.5~)",
+		"winbind (<< 2:3.5.11~dfsg-3)",
+		"winbind4"
+	],
+	"breaks": [
+		"winbind (<< 2:3.5.11~dfsg-3)"
+	],
+	"conflicts": [
+		"samba-doc (<< 2:4.0.5~)"
+	],
+	"installedSize": 179,
+	"maintainer": "Ubuntu Developers <ubuntu-devel-discuss@lists.ubuntu.com>",
+	"description": "Windows domain authentication integration plugin",
+	"homepage": "http://www.samba.org",
+	"filename": "pool/universe/s/samba/libpam-winbind_4.3.11+dfsg-0ubuntu0.16.04.34_amd64.deb",
+	"size": 28246,
+	"md5": "c31e511797985654cb9483aed102eb7e",
+	"sha1": "6716d48f71ea58aca412ca02e5f281750e370f25",
+	"sha256": "54f8c36e5fb7eb19c7ea19c5436995037a2c3f7f3a70138512a9f34127cd0406",
+	"sha512": "1707aa942572c50150f5840425dae2a7a6de0c292c2bec75e096e6e9bb4382144aa082b52ac648d5712081128169b656be22067bea774e72d2b3f037e5afba5f",
+	"descriptionMd5": "fba9076429d270720a91324cff071fed"
+}

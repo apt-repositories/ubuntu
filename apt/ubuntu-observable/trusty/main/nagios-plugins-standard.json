@@ -1,0 +1,51 @@
+[{
+	"raw": {},
+	"required": [
+		"Filename",
+		"Size"
+	],
+	"package": "nagios-plugins-standard",
+	"source": "nagios-plugins",
+	"version": "1.5-3ubuntu1",
+	"section": "net",
+	"priority": "extra",
+	"architecture": "amd64",
+	"depends": [
+		"libc6 (>= 2.15)",
+		"ucf",
+		"nagios-plugins-basic (>= 1.4.5-2)"
+	],
+	"recommends": [
+		"libdbi1 (>= 0.8.4)",
+		"libldap-2.4-2 (>= 2.4.7)",
+		"libmysqlclient18 (>= 5.5.24+dfsg-1)",
+		"libpq5",
+		"snmp",
+		"libnet-snmp-perl",
+		"dnsutils",
+		"bind9-host | host",
+		"smbclient",
+		"whois",
+		"rpcbind"
+	],
+	"suggests": [
+		"nagios3 | icinga",
+		"postfix | sendmail-bin | exim4-daemon-heavy | exim4-daemon-light"
+	],
+	"replaces": [
+		"nagios-plugins"
+	],
+	"conflicts": [
+		"nagios-plugins (<= 1.4.2-3)"
+	],
+	"installedSize": 664,
+	"maintainer": "Ubuntu Developers <ubuntu-devel-discuss@lists.ubuntu.com>",
+	"description": "Plugins for nagios compatible monitoring systems",
+	"homepage": "https://www.monitoring-plugins.org",
+	"filename": "pool/main/n/nagios-plugins/nagios-plugins-standard_1.5-3ubuntu1_amd64.deb",
+	"size": 109148,
+	"md5": "2d3023b7d9f050ebdd9acff469fb596f",
+	"sha1": "69a5372438d3d1f6569a8026636430d54ff61fec",
+	"sha256": "56571564b69bfe7696ff819faf6426918837b7423a681821c7526c47ed1a6481",
+	"descriptionMd5": "eae03bcd7203fd7747ae52ea0f54ffdd"
+}]

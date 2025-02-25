@@ -1,0 +1,44 @@
+{
+	"raw": {},
+	"required": [
+		"Filename",
+		"Size"
+	],
+	"package": "libblacs-openmpi1",
+	"source": "blacs-mpi",
+	"version": "1.1-40build1",
+	"section": "universe/libs",
+	"priority": "extra",
+	"architecture": "amd64",
+	"depends": [
+		"mpi-default-bin",
+		"libc6 (>= 2.4)",
+		"libopenmpi2"
+	],
+	"replaces": [
+		"blacs1-lam",
+		"blacs1-mpich",
+		"blacs1gf-lam",
+		"blacs1gf-mpich",
+		"libblacs-mpi1 (<< 1.1-31.2)"
+	],
+	"breaks": [
+		"libblacs-mpi1 (<< 1.1-31.2)"
+	],
+	"conflicts": [
+		"blacs1-lam",
+		"blacs1-mpich",
+		"blacs1gf-lam",
+		"blacs1gf-mpich"
+	],
+	"installedSize": 249,
+	"maintainer": "Ubuntu Developers <ubuntu-devel-discuss@lists.ubuntu.com>",
+	"description": "Basic Linear Algebra Comm. Subprograms - Shared libs. for OpenMPI",
+	"homepage": "http://www.netlib.org/blacs/",
+	"filename": "pool/universe/b/blacs-mpi/libblacs-openmpi1_1.1-40build1_amd64.deb",
+	"size": 52950,
+	"md5": "a0061f8d40d83668078c84dc337d1385",
+	"sha1": "9d0cee47540698c85ec0d4e3758aa59edb1720a4",
+	"sha256": "aa05e5303b4e45bd393efccb13a5d3f8a817e92f12e0248980be22ca267b1f5c",
+	"descriptionMd5": "854903ab04d9c0cdd80668bc31a13c53"
+}

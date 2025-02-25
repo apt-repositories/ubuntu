@@ -1,0 +1,46 @@
+{
+	"raw": {},
+	"required": [
+		"Filename",
+		"Size"
+	],
+	"package": "sssd-ipa",
+	"source": "sssd",
+	"version": "2.2.3-3",
+	"section": "utils",
+	"priority": "extra",
+	"architecture": "amd64",
+	"depends": [
+		"libipa-hbac0 (= 2.2.3-3)",
+		"libsss-idmap0 (= 2.2.3-3)",
+		"sssd-ad-common (= 2.2.3-3)",
+		"sssd-common (= 2.2.3-3)",
+		"sssd-krb5-common (= 2.2.3-3)",
+		"libc6 (>= 2.28)",
+		"libdhash1 (>= 0.4.0)",
+		"libldap-2.4-2 (>= 2.4.7)",
+		"libldb2 (>= 0.9.21)",
+		"libpopt0 (>= 1.14)",
+		"libselinux1 (>= 1.32)",
+		"libsemanage1 (>= 2.0.3)",
+		"libtalloc2 (>= 2.0.4~git20101213)",
+		"libtevent0 (>= 0.9.9)",
+		"samba-libs (>= 2:4.11.6+dfsg)"
+	],
+	"replaces": [
+		"sssd (<< 1.10.0~beta2-1)"
+	],
+	"breaks": [
+		"sssd (<< 1.10.0~beta2-1)"
+	],
+	"installedSize": 708,
+	"maintainer": "Ubuntu Developers <ubuntu-devel-discuss@lists.ubuntu.com>",
+	"description": "System Security Services Daemon -- IPA back end",
+	"homepage": "https://github.com/SSSD/sssd",
+	"filename": "pool/main/s/sssd/sssd-ipa_2.2.3-3_amd64.deb",
+	"size": 210744,
+	"md5": "64af36678ac2b36d52959e3cdd1f2315",
+	"sha1": "df695c43eba5d773e61f2931b24cc1c535904507",
+	"sha256": "8886d7e59c95d3a6c906212c3b7eb83093d92f8954f7f09ee34996c8925e989e",
+	"descriptionMd5": "2038cf62aa379855c7c1db16c87a719d"
+}

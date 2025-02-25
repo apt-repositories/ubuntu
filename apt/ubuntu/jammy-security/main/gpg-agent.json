@@ -1,0 +1,49 @@
+{
+	"raw": {},
+	"required": [
+		"Filename",
+		"Size"
+	],
+	"package": "gpg-agent",
+	"source": "gnupg2",
+	"version": "2.2.27-3ubuntu2.1",
+	"section": "utils",
+	"priority": "optional",
+	"architecture": "amd64",
+	"depends": [
+		"gpgconf (= 2.2.27-3ubuntu2.1)",
+		"pinentry-curses | pinentry",
+		"init-system-helpers (>= 1.52)",
+		"libassuan0 (>= 2.5.1)",
+		"libc6 (>= 2.34)",
+		"libgcrypt20 (>= 1.9.0)",
+		"libgpg-error0 (>= 1.42)",
+		"libnpth0 (>= 0.90)"
+	],
+	"recommends": [
+		"gnupg (= 2.2.27-3ubuntu2.1)"
+	],
+	"suggests": [
+		"dbus-user-session",
+		"libpam-systemd",
+		"pinentry-gnome3",
+		"scdaemon"
+	],
+	"replaces": [
+		"gnupg-agent (<< 2.1.21-4)"
+	],
+	"breaks": [
+		"gnupg-agent (<< 2.1.21-4)"
+	],
+	"installedSize": 595,
+	"maintainer": "Ubuntu Developers <ubuntu-devel-discuss@lists.ubuntu.com>",
+	"description": "GNU privacy guard - cryptographic agent",
+	"homepage": "https://www.gnupg.org/",
+	"filename": "pool/main/g/gnupg2/gpg-agent_2.2.27-3ubuntu2.1_amd64.deb",
+	"size": 208646,
+	"md5": "460b2a8314dd8d064110b1628ee03cdd",
+	"sha1": "0326a9bc2bb4f9ff9da8cdca9ba7643def662464",
+	"sha256": "e67a6cc0e94e013c32126d1f7eb53b07feace8ee1b081df76b5f808034b613bc",
+	"sha512": "93700f5b9af3c95cf2a352ce50eee16f84d354a5ab709b942adf904c26337f29f97c7efbb29e361d8392730ffb9c2806d23ca3f0a8a0cf7884551bacd7afcb6e",
+	"descriptionMd5": "6c5c3942a5ec2e08c337466bd44b6cde"
+}

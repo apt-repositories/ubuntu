@@ -1,0 +1,53 @@
+{
+	"raw": {},
+	"required": [
+		"Filename",
+		"Size"
+	],
+	"package": "chrony",
+	"version": "4.5-3ubuntu3",
+	"section": "admin",
+	"priority": "extra",
+	"architecture": "amd64",
+	"depends": [
+		"adduser (>= 3.130)",
+		"debconf (>= 0.5)",
+		"iproute2",
+		"tzdata-legacy",
+		"libcap2-bin (>= 1:2.32-1)",
+		"ucf",
+		"libc6 (>= 2.38)",
+		"libcap2 (>= 1:2.10)",
+		"libedit2 (>= 2.11-20080614-0)",
+		"libgnutls30t64 (>= 3.8.1)",
+		"libnettle8t64 (>= 3.9~)",
+		"libseccomp2 (>= 2.4.3-1~)"
+	],
+	"preDepends": [
+		"init-system-helpers (>= 1.54~)"
+	],
+	"suggests": [
+		"dnsutils",
+		"networkd-dispatcher"
+	],
+	"replaces": [
+		"time-daemon"
+	],
+	"breaks": [
+		"network-manager (<< 1.20.0-1~)"
+	],
+	"conflicts": [
+		"time-daemon"
+	],
+	"installedSize": 647,
+	"maintainer": "Ubuntu Developers <ubuntu-devel-discuss@lists.ubuntu.com>",
+	"description": "Versatile implementation of the Network Time Protocol",
+	"homepage": "https://chrony-project.org",
+	"filename": "pool/main/c/chrony/chrony_4.5-3ubuntu3_amd64.deb",
+	"size": 320176,
+	"md5": "dfceeea6fb9fbe1c94e5d720894b0f2b",
+	"sha1": "b567f778917f3a21a56bb6d7fa128031e5ef4bac",
+	"sha256": "9d9246b77f615ddcdc971e6809955a3585b09bc7696a028641333cc9db394af6",
+	"sha512": "830ef3da52a32e353be69b36919422a63d8b6673cc0253e59de2038db6c23a8ac1809dd83d55236a3c8254072865dffab8f39515f730ed0353028d49f22f0c77",
+	"descriptionMd5": "f0bbbeab28dbc2e9fe201d3d79df8c96"
+}

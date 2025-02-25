@@ -1,0 +1,65 @@
+{
+	"raw": {},
+	"required": [
+		"Filename",
+		"Size"
+	],
+	"package": "mailman3",
+	"version": "3.2.2-1",
+	"section": "universe/web",
+	"priority": "optional",
+	"architecture": "all",
+	"depends": [
+		"dbconfig-sqlite3 | dbconfig-pgsql | dbconfig-mysql | dbconfig-no-thanks",
+		"logrotate",
+		"lsb-base",
+		"python3-falcon (>> 1.0.0)",
+		"python3-psycopg2 | python3-pymysql",
+		"ucf",
+		"debconf (>= 0.5) | debconf-2.0",
+		"python3-aiosmtpd",
+		"python3-alembic",
+		"python3-click",
+		"python3-dnspython",
+		"python3-flufl.bounce",
+		"python3-flufl.i18n",
+		"python3-flufl.lock",
+		"python3-lazr.config",
+		"python3-passlib",
+		"python3-public",
+		"python3-requests",
+		"python3-sqlalchemy (>= 1.2.3)",
+		"python3-zope.component",
+		"python3-zope.configuration",
+		"python3-zope.event",
+		"python3-zope.interface",
+		"python3:any"
+	],
+	"preDepends": [
+		"init-system-helpers (>= 1.54~)"
+	],
+	"recommends": [
+		"default-mta | mail-transport-agent"
+	],
+	"suggests": [
+		"lynx | www-browser",
+		"mailman3-doc",
+		"postgresql | default-mysql-server | virtual-mysql-server"
+	],
+	"replaces": [
+		"mailman3-core"
+	],
+	"breaks": [
+		"mailman3-core"
+	],
+	"installedSize": 3176,
+	"maintainer": "Ubuntu Developers <ubuntu-devel-discuss@lists.ubuntu.com>",
+	"description": "Mailing list management system",
+	"homepage": "http://www.list.org/",
+	"filename": "pool/universe/m/mailman3/mailman3_3.2.2-1_all.deb",
+	"size": 438832,
+	"md5": "2eb0141f4d5faff3a45a55fd5640de62",
+	"sha1": "61e0d08c6858633a3c5e96f2eac70c0d7aa73f1b",
+	"sha256": "6d0e97716b9d2e55665fd2615e804e8b3a9efcad1f8b9b37c5bc47143a8fede6",
+	"descriptionMd5": "95b97bca3cff0fc59636c61614f81160"
+}

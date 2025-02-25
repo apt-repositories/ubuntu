@@ -1,0 +1,42 @@
+{
+	"raw": {},
+	"required": [
+		"Filename",
+		"Size"
+	],
+	"package": "linux-image-unsigned-5.19.0-1025-lowlatency",
+	"source": "linux-lowlatency-hwe-5.19",
+	"version": "5.19.0-1025.26~22.04.1",
+	"section": "kernel",
+	"priority": "optional",
+	"architecture": "amd64",
+	"depends": [
+		"kmod",
+		"linux-base (>= 4.5ubuntu1~16.04.1)",
+		"linux-modules-5.19.0-1025-lowlatency"
+	],
+	"recommends": [
+		"grub-pc | grub-efi-amd64 | grub-efi-ia32 | grub | lilo",
+		"initramfs-tools | linux-initramfs-tool"
+	],
+	"suggests": [
+		"fdutils",
+		"linux-doc | linux-lowlatency-hwe-5.19-source-5.19.0",
+		"linux-lowlatency-hwe-5.19-tools",
+		"linux-headers-5.19.0-1025-lowlatency",
+		"linux-modules-extra-5.19.0-1025-lowlatency"
+	],
+	"conflicts": [
+		"linux-image-5.19.0-1025-lowlatency"
+	],
+	"installedSize": 12064,
+	"maintainer": "Ubuntu Kernel Team <kernel-team@lists.ubuntu.com>",
+	"description": "Linux kernel image for version 5.19.0 on 64 bit x86 SMP",
+	"filename": "pool/main/l/linux-lowlatency-hwe-5.19/linux-image-unsigned-5.19.0-1025-lowlatency_5.19.0-1025.26~22.04.1_amd64.deb",
+	"size": 12370112,
+	"md5": "8c4c04cfd376669ff5b99d66f1c66393",
+	"sha1": "01f29ea8c5ec1efd7cb93d5738cc31862ee7f928",
+	"sha256": "c2151b841c84db9bd6f92223cf7517797397fe8b7649ce87936760ba136ea16d",
+	"sha512": "edf91c0e918bbbc24e75037659cfb61204c3c136edceae9c9bed33cfb8fb4f6993e60f58407637037ae11784ba1dad56b595ad728fd89263dd9d8c7525cfb7e1",
+	"descriptionMd5": "889aba0ffcef2ace87b42abec31aa0fc"
+}

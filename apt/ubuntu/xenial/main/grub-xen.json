@@ -1,0 +1,42 @@
+{
+	"raw": {},
+	"required": [
+		"Filename",
+		"Size"
+	],
+	"package": "grub-xen",
+	"source": "grub2",
+	"version": "2.02~beta2-36ubuntu3",
+	"section": "admin",
+	"priority": "extra",
+	"architecture": "amd64",
+	"depends": [
+		"debconf (>= 0.5) | debconf-2.0",
+		"grub-common (= 2.02~beta2-36ubuntu3)",
+		"grub2-common (= 2.02~beta2-36ubuntu3)",
+		"grub-xen-bin (= 2.02~beta2-36ubuntu3)",
+		"ucf"
+	],
+	"preDepends": [
+		"dpkg (>= 1.17.13)"
+	],
+	"conflicts": [
+		"grub (<< 0.97-54)",
+		"grub-coreboot",
+		"grub-efi-amd64",
+		"grub-efi-ia32",
+		"grub-ieee1275",
+		"grub-legacy",
+		"grub-pc"
+	],
+	"installedSize": 190,
+	"maintainer": "Ubuntu Developers <ubuntu-devel-discuss@lists.ubuntu.com>",
+	"description": "GRand Unified Bootloader, version 2 (Xen version)",
+	"homepage": "http://www.gnu.org/software/grub/",
+	"filename": "pool/main/g/grub2/grub-xen_2.02~beta2-36ubuntu3_amd64.deb",
+	"size": 66498,
+	"md5": "56cb0b3c68d83b22ab4a6062456c2cfa",
+	"sha1": "d917267e9cca272c585d8d5b0f1c9823610eeaa9",
+	"sha256": "aa3950bb2a1b16f61e1167f85421866143bdc626e754858448c584e5b81d9d9f",
+	"descriptionMd5": "e5f5bd7dbe07e28d8c9a50b4c9b49ada"
+}

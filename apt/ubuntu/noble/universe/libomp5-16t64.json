@@ -1,0 +1,41 @@
+{
+	"raw": {},
+	"required": [
+		"Filename",
+		"Size"
+	],
+	"package": "libomp5-16t64",
+	"source": "llvm-toolchain-16",
+	"version": "1:16.0.6-23ubuntu4",
+	"section": "universe/devel",
+	"priority": "optional",
+	"architecture": "amd64",
+	"depends": [
+		"libc6 (>= 2.38)",
+		"libffi8 (>= 3.4)",
+		"libllvm16t64",
+		"libstdc++6 (>= 11)"
+	],
+	"replaces": [
+		"libomp-x.y",
+		"libomp5-16"
+	],
+	"breaks": [
+		"libomp5 (<< 44)",
+		"libomp5-16 (<< 1:16.0.6-23ubuntu4)"
+	],
+	"conflicts": [
+		"libomp-x.y"
+	],
+	"installedSize": 3347,
+	"maintainer": "Ubuntu Developers <ubuntu-devel-discuss@lists.ubuntu.com>",
+	"description": "LLVM OpenMP runtime",
+	"homepage": "https://www.llvm.org/",
+	"filename": "pool/universe/l/llvm-toolchain-16/libomp5-16t64_16.0.6-23ubuntu4_amd64.deb",
+	"size": 598844,
+	"md5": "6dad5ca99cc4d0e380f1b3f40d74b605",
+	"sha1": "4d64cf23a1b6cb0e4e1f2ca9ea217933d799a3ac",
+	"sha256": "c87f75a590eb9103d3728d4510f67698254df6dbd14a06546011cdf17d0bf59c",
+	"sha512": "c7b1d7d8074e3c6427da2d40262ddcf161a27d7a7b12ae91675337992d2408ae9cd2fc0dcd69305784fc23127dd6a678c4c1a696a67dc9b6c191f2aafe88a2bf",
+	"descriptionMd5": "e28f50eb4beb8e316b69da2c1c0194c3"
+}

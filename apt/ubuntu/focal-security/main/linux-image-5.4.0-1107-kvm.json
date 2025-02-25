@@ -1,0 +1,42 @@
+{
+	"raw": {},
+	"required": [
+		"Filename",
+		"Size"
+	],
+	"package": "linux-image-5.4.0-1107-kvm",
+	"source": "linux-signed-kvm",
+	"version": "5.4.0-1107.114",
+	"section": "kernel",
+	"priority": "optional",
+	"architecture": "amd64",
+	"depends": [
+		"kmod",
+		"linux-base (>= 4.5ubuntu1~16.04.1)",
+		"linux-modules-5.4.0-1107-kvm"
+	],
+	"recommends": [
+		"grub-pc | grub-efi-amd64 | grub-efi-ia32 | grub | lilo",
+		"initramfs-tools | linux-initramfs-tool"
+	],
+	"suggests": [
+		"fdutils",
+		"linux-kvm-doc-5.4.0 | linux-kvm-source-5.4.0",
+		"linux-kvm-tools",
+		"linux-headers-5.4.0-1107-kvm"
+	],
+	"conflicts": [
+		"linux-image-unsigned-5.4.0-1107-kvm"
+	],
+	"installedSize": 7748,
+	"maintainer": "Canonical Kernel Team <kernel-team@lists.ubuntu.com>",
+	"description": "Signed kernel image kvm",
+	"builtUsing": "linux-kvm (= 5.4.0-1107.114)",
+	"filename": "pool/main/l/linux-signed-kvm/linux-image-5.4.0-1107-kvm_5.4.0-1107.114_amd64.deb",
+	"size": 6396632,
+	"md5": "ec2504abdf665c40b24932e04a8e96ef",
+	"sha1": "8a52d6f2e013c8a38a46d64486125d0533ab95ba",
+	"sha256": "7c1276570089dd3016a5a785b745f1baec0d623b9e5e4925d96173a7c96e452f",
+	"sha512": "7f15ac8ace8b22ab7ebe4a2c7e6775ed1194cd43609823e9be04584a9402ed47e5fed77adc782bf803eb784db530fb8cd39dde338bc1a88702c39b7ee32f2850",
+	"descriptionMd5": "a274e067cfee43d836e3e2404e4eecf9"
+}

@@ -1,0 +1,44 @@
+{
+	"raw": {},
+	"required": [
+		"Filename",
+		"Size"
+	],
+	"package": "exim4-daemon-light",
+	"source": "exim4",
+	"version": "4.97-4ubuntu4.2",
+	"section": "mail",
+	"priority": "extra",
+	"architecture": "amd64",
+	"depends": [
+		"exim4-base (>= 4.97)",
+		"debconf (>= 0.5) | debconf-2.0",
+		"libc6 (>= 2.38)",
+		"libcrypt1 (>= 1:4.1.0)",
+		"libdb5.3t64",
+		"libgnutls-dane0t64 (>= 3.7.0)",
+		"libgnutls30t64 (>= 3.8.2)",
+		"libidn12 (>= 1.13)",
+		"libidn2-0 (>= 0.6)",
+		"libnsl2 (>= 1.0)",
+		"libpcre2-8-0 (>= 10.22)"
+	],
+	"replaces": [
+		"exim4-base (<= 4.61-1)",
+		"mail-transport-agent"
+	],
+	"conflicts": [
+		"mail-transport-agent"
+	],
+	"installedSize": 1600,
+	"maintainer": "Ubuntu Developers <ubuntu-devel-discuss@lists.ubuntu.com>",
+	"description": "lightweight Exim MTA (v4) daemon",
+	"homepage": "https://www.exim.org/",
+	"filename": "pool/main/e/exim4/exim4-daemon-light_4.97-4ubuntu4.2_amd64.deb",
+	"size": 636566,
+	"md5": "8d046421c45a63a9460dff7b3d953811",
+	"sha1": "e5c33156759136af914933aff6fcf2d450083b4a",
+	"sha256": "59ce8a08123a768c12eab157378eece09d8c7eef2cb141bb1179db940d139ef0",
+	"sha512": "961d76db37d9e2926c56cdcb92b4776e876bacaef6460339657b3883ae4172f87f32406832143ec1a20fb82d0790a2ca7d75d41304a78bc0b419bfd0c4fca896",
+	"descriptionMd5": "3f5190a801cb3e11718c951f768c4d54"
+}

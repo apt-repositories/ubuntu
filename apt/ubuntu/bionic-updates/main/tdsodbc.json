@@ -1,0 +1,52 @@
+{
+	"raw": {},
+	"required": [
+		"Filename",
+		"Size"
+	],
+	"package": "tdsodbc",
+	"source": "freetds",
+	"version": "1.00.82-2ubuntu0.1",
+	"section": "libs",
+	"priority": "optional",
+	"architecture": "amd64",
+	"depends": [
+		"libc6 (>= 2.17)",
+		"libgmp10",
+		"libgnutls30 (>= 3.5.6)",
+		"libgssapi-krb5-2 (>= 1.14+dfsg)",
+		"libhogweed4",
+		"libnettle6",
+		"odbcinst1debian2 (>= 2.3.1)",
+		"debconf (>= 0.5) | debconf-2.0",
+		"freetds-common"
+	],
+	"recommends": [
+		"libodbc1"
+	],
+	"replaces": [
+		"freetds0",
+		"libct0",
+		"libct1"
+	],
+	"breaks": [
+		"libiodbc2 (<< 3.52.7-3~)",
+		"odbcinst1debian2 (<< 2.2.14p2-3)",
+		"unixodbc (<< 2.2.14p2-3)"
+	],
+	"conflicts": [
+		"freetds0",
+		"libct0"
+	],
+	"installedSize": 468,
+	"maintainer": "Ubuntu Developers <ubuntu-devel-discuss@lists.ubuntu.com>",
+	"description": "ODBC driver for connecting to MS SQL and Sybase SQL servers",
+	"homepage": "http://www.freetds.org/",
+	"filename": "pool/main/f/freetds/tdsodbc_1.00.82-2ubuntu0.1_amd64.deb",
+	"size": 183192,
+	"md5": "e82ba2b57b2dde773ec4e44fc177e887",
+	"sha1": "fb2a604b1e349dd2ae0c71caf35bed377bea6412",
+	"sha256": "d5753ed73c5bf2bafc8d8ffa36d9198aca7432775733cbb44c427f1b4773dc60",
+	"sha512": "1eb6fae52de3acba01f2076a8d5fc5e2c92eceef0fb35c1bde4291294cdd4aa270500e45999dc1626b721e653b5bc2c8cb9deeb822af7021bffe77a3b47f319a",
+	"descriptionMd5": "0fecf9617c4dc2509f73a437bea0f895"
+}

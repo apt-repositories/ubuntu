@@ -1,0 +1,51 @@
+{
+	"raw": {},
+	"required": [
+		"Filename",
+		"Size"
+	],
+	"package": "openssh-client",
+	"source": "openssh",
+	"version": "1:7.6p1-4",
+	"section": "net",
+	"priority": "standard",
+	"architecture": "amd64",
+	"depends": [
+		"adduser (>= 3.10)",
+		"dpkg (>= 1.7.0)",
+		"passwd",
+		"libbsd0 (>= 0.7.0)",
+		"libc6 (>= 2.26)",
+		"libedit2 (>= 2.11-20080614)",
+		"libgssapi-krb5-2 (>= 1.14+dfsg)",
+		"libselinux1 (>= 1.32)",
+		"libssl1.0.0 (>= 1.0.2)",
+		"zlib1g (>= 1:1.1.4)"
+	],
+	"recommends": [
+		"xauth"
+	],
+	"suggests": [
+		"keychain",
+		"libpam-ssh",
+		"monkeysphere",
+		"ssh-askpass"
+	],
+	"replaces": [
+		"ssh",
+		"ssh-krb5"
+	],
+	"conflicts": [
+		"sftp"
+	],
+	"installedSize": 4064,
+	"maintainer": "Ubuntu Developers <ubuntu-devel-discuss@lists.ubuntu.com>",
+	"description": "secure shell (SSH) client, for secure access to remote machines",
+	"homepage": "http://www.openssh.com/",
+	"filename": "pool/main/o/openssh/openssh-client_7.6p1-4_amd64.deb",
+	"size": 610812,
+	"md5": "1003d1f72c5998fad3bab1b266143874",
+	"sha1": "244f2f2b038571f6e501d25d6dbe7c5ae9602cdf",
+	"sha256": "2d7decfded66403931939338d610bf26ded453546208271f28f7b49d5a712e11",
+	"descriptionMd5": "8cde3280ebad71c16b3e8c661dae6c6d"
+}

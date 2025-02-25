@@ -1,0 +1,43 @@
+{
+	"raw": {},
+	"required": [
+		"Filename",
+		"Size"
+	],
+	"package": "xserver-xorg-input-synaptics",
+	"version": "1.7.4-0ubuntu1",
+	"section": "x11",
+	"priority": "optional",
+	"architecture": "amd64",
+	"depends": [
+		"udev",
+		"libc6 (>= 2.14)",
+		"libmtdev1 (>= 1.1.0)",
+		"libx11-6",
+		"libxi6 (>= 2:1.2.0)",
+		"xorg-input-abi-20",
+		"xserver-xorg-core (>= 2:1.14.99.902)"
+	],
+	"suggests": [
+		"gpointing-device-settings",
+		"touchfreeze"
+	],
+	"replaces": [
+		"xorg-driver-synaptics"
+	],
+	"breaks": [
+		"kde-config-touchpad (<< 0.8.1-2~)"
+	],
+	"conflicts": [
+		"xorg-driver-synaptics"
+	],
+	"installedSize": 228,
+	"maintainer": "Ubuntu X-SWAT <ubuntu-x@lists.ubuntu.com>",
+	"description": "Synaptics TouchPad driver for X.Org server",
+	"filename": "pool/main/x/xserver-xorg-input-synaptics/xserver-xorg-input-synaptics_1.7.4-0ubuntu1_amd64.deb",
+	"size": 59152,
+	"md5": "86faaee7f90b86e8b14ad3c448f6d031",
+	"sha1": "7e00b7474ff1c5dd1ca30a8c8a56d28eb1844d51",
+	"sha256": "1c512ed6d52c6a3e16ef3447a3ba7150188d8c06ce11cd5cf242eb182353b1c6",
+	"descriptionMd5": "6f7a84d9a52f4dc44fd0ad7cc265853b"
+}

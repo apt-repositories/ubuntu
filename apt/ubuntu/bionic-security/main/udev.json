@@ -1,0 +1,48 @@
+{
+	"raw": {},
+	"required": [
+		"Filename",
+		"Size"
+	],
+	"package": "udev",
+	"source": "systemd",
+	"version": "237-3ubuntu10.57",
+	"section": "admin",
+	"priority": "important",
+	"architecture": "amd64",
+	"depends": [
+		"libacl1 (>= 2.2.51-8)",
+		"libblkid1 (>= 2.19.1)",
+		"libc6 (>= 2.27)",
+		"libkmod2 (>= 5~)",
+		"libselinux1 (>= 2.1.9)",
+		"adduser",
+		"libudev1 (= 237-3ubuntu10.57)",
+		"lsb-base (>= 3.0-6)",
+		"util-linux (>= 2.27.1)",
+		"procps"
+	],
+	"replaces": [
+		"systemd (<< 233-4)"
+	],
+	"breaks": [
+		"ifplugd (<< 0.28-19.1~)",
+		"ifupdown (<< 0.8.5~)",
+		"joystick (<< 1:1.4.9-1~)",
+		"systemd (<< 233-4)"
+	],
+	"conflicts": [
+		"hal"
+	],
+	"installedSize": 7740,
+	"maintainer": "Ubuntu Developers <ubuntu-devel-discuss@lists.ubuntu.com>",
+	"description": "/dev/ and hotplug management daemon",
+	"homepage": "https://www.freedesktop.org/wiki/Software/systemd",
+	"filename": "pool/main/s/systemd/udev_237-3ubuntu10.57_amd64.deb",
+	"size": 1099872,
+	"md5": "7e46cbf796f4b054af1ba8bffb697f3a",
+	"sha1": "b7328cf116f4cbe0fd886a845bd8005804c18229",
+	"sha256": "9e68de2a18d4536fd8931d45e6027b3733c5842988ace9e5d6b9693264525d33",
+	"sha512": "1a9faefd3cc9e458fa620bd4833114c566db6ecef0e4bc9e22707adc3915c4536464062cfc88105313938675eb030c4642d821f7962ba1259043177e83fe1ee6",
+	"descriptionMd5": "e875ddb09f46f1f7672af537f0c875ca"
+}

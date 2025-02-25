@@ -1,0 +1,62 @@
+[{
+	"raw": {},
+	"required": [
+		"Filename",
+		"Size"
+	],
+	"package": "syslog-ng-core",
+	"source": "syslog-ng",
+	"version": "3.5.3-1",
+	"section": "universe/admin",
+	"priority": "extra",
+	"architecture": "amd64",
+	"depends": [
+		"libc6 (>= 2.14)",
+		"libcap2 (>= 2.10)",
+		"libevtlog0 (>= 0.2.12)",
+		"libglib2.0-0 (>= 2.31.8)",
+		"libivykis0 (>= 0.30)",
+		"libnet1 (>= 1.1.2.1)",
+		"libpcre3",
+		"libssl1.0.0 (>= 1.0.0)",
+		"libsystemd-daemon0 (>= 31)",
+		"libwrap0 (>= 7.6-4~)",
+		"init-system-helpers (>= 1.13~)",
+		"util-linux (>= 2.12-10)"
+	],
+	"recommends": [
+		"logrotate"
+	],
+	"suggests": [
+		"syslog-ng-mod-sql",
+		"syslog-ng-mod-mongodb",
+		"syslog-ng-mod-json",
+		"syslog-ng-mod-smtp",
+		"syslog-ng-mod-amqp",
+		"syslog-ng-mod-geoip",
+		"syslog-ng-mod-redis",
+		"syslog-ng-mod-stomp"
+	],
+	"replaces": [
+		"libsyslog-ng-dev",
+		"syslog-ng (<< 3.3.0~)"
+	],
+	"breaks": [
+		"libsyslog-ng-dev",
+		"syslog-ng (<< 3.3.0~)"
+	],
+	"conflicts": [
+		"linux-kernel-log-daemon",
+		"system-log-daemon"
+	],
+	"installedSize": 1614,
+	"maintainer": "Ubuntu Developers <ubuntu-devel-discuss@lists.ubuntu.com>",
+	"description": "Enhanced system logging daemon (core)",
+	"homepage": "http://www.balabit.com/network-security/syslog-ng/opensource-logging-system",
+	"filename": "pool/universe/s/syslog-ng/syslog-ng-core_3.5.3-1_amd64.deb",
+	"size": 510282,
+	"md5": "fa9c9b5aaa422365133add25e9b419be",
+	"sha1": "4b96b113e9fdd57e1cc35c401eb15524e7ef9b7d",
+	"sha256": "63785a3f7dbd1f98fe3c0c6c84219cbdd30f56895ecedf52b29b173f79cf6da0",
+	"descriptionMd5": "0ce4da37b4a4b9d3162b79edaffeccba"
+}]

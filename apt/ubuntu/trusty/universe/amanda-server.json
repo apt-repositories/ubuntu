@@ -1,0 +1,42 @@
+{
+	"raw": {},
+	"required": [
+		"Filename",
+		"Size"
+	],
+	"package": "amanda-server",
+	"source": "amanda",
+	"version": "1:3.3.3-2ubuntu1",
+	"section": "universe/utils",
+	"priority": "optional",
+	"architecture": "amd64",
+	"depends": [
+		"libc6 (>= 2.14)",
+		"libcurl3 (>= 7.16.2)",
+		"libglib2.0-0 (>= 2.28.0)",
+		"amanda-common (= 1:3.3.3-2ubuntu1)",
+		"bsd-mailx | mailx"
+	],
+	"suggests": [
+		"perl5",
+		"gnuplot",
+		"amanda-client (= 1:3.3.3-2ubuntu1)",
+		"cpio | mt-st"
+	],
+	"replaces": [
+		"amanda-common (<< 1:2.5.2p1-3)"
+	],
+	"conflicts": [
+		"amanda",
+		"amanda-common (<< 1:2.5.2p1-3)"
+	],
+	"installedSize": 904,
+	"maintainer": "Ubuntu Developers <ubuntu-devel-discuss@lists.ubuntu.com>",
+	"description": "Advanced Maryland Automatic Network Disk Archiver (Server)",
+	"filename": "pool/universe/a/amanda/amanda-server_3.3.3-2ubuntu1_amd64.deb",
+	"size": 268588,
+	"md5": "5300a70b86bb1704a79be4281bae8433",
+	"sha1": "a20cfc0e99ff3100b997546e8ccc8ea03a06f9ab",
+	"sha256": "2dded0a937f607e49ed63386de1cf3cb3772cab072d8868e40121b7b4b90e69e",
+	"descriptionMd5": "62cdb25a2f07b372036cf0d0dedd1b00"
+}

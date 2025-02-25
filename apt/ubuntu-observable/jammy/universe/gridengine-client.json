@@ -1,0 +1,57 @@
+[{
+	"raw": {},
+	"required": [
+		"Filename",
+		"Size"
+	],
+	"package": "gridengine-client",
+	"source": "gridengine",
+	"version": "8.1.9+dfsg-10build1",
+	"section": "universe/utils",
+	"priority": "optional",
+	"architecture": "amd64",
+	"depends": [
+		"libc6 (>= 2.34)",
+		"libcrypt1 (>= 1:4.1.0)",
+		"libdb5.3",
+		"libhwloc15 (>= 2.6.0)",
+		"libjemalloc2 (>= 2.1.1)",
+		"libmunge2 (>= 0.5.8)",
+		"libpam0g (>= 0.99.7.1)",
+		"libssl3 (>= 3.0.0~~alpha1)",
+		"libtinfo6 (>= 6)",
+		"libtirpc3 (>= 1.0.2)",
+		"debconf (>= 0.5) | debconf-2.0",
+		"gridengine-common (= 8.1.9+dfsg-10build1)",
+		"openssl",
+		"sensible-utils"
+	],
+	"suggests": [
+		"ssh-client",
+		"gridengine-qmon"
+	],
+	"replaces": [
+		"gridengine-exec (<< 6.2u5-8)",
+		"gridengine-master (<< 6.2u5-8)",
+		"libdrmaa-java"
+	],
+	"breaks": [
+		"gridengine-exec (<< 6.2u5-8)",
+		"gridengine-master (<< 6.2u5-8)",
+		"libdrmaa-java"
+	],
+	"conflicts": [
+		"torque-client"
+	],
+	"installedSize": 39703,
+	"maintainer": "Ubuntu Developers <ubuntu-devel-discuss@lists.ubuntu.com>",
+	"description": "Utilities for Grid Engine queue management",
+	"homepage": "https://arc.liv.ac.uk/trac/SGE/",
+	"filename": "pool/universe/g/gridengine/gridengine-client_8.1.9+dfsg-10build1_amd64.deb",
+	"size": 6149514,
+	"md5": "0aed731b701789b72c211ad879f2b7c1",
+	"sha1": "07fd8d67daf7bdab52190128149cecc0762aefed",
+	"sha256": "a364eea752db7f5c19aca3d691bff69edbfca3ab9d76678d3e7de3439e69c3b3",
+	"sha512": "0730c6f10eec6efbe8fd1c2560642ac13ade50a10a1225045787990698b2391477a515a7089320c5655c838c4e6e411d546bd8d6d16593443c13d888b9ee8161",
+	"descriptionMd5": "53498ca1a6859f13dd4042c1f0a68669"
+}]

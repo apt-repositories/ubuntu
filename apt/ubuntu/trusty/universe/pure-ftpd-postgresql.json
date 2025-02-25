@@ -1,0 +1,41 @@
+{
+	"raw": {},
+	"required": [
+		"Filename",
+		"Size"
+	],
+	"package": "pure-ftpd-postgresql",
+	"source": "pure-ftpd",
+	"version": "1.0.36-1.1",
+	"section": "universe/net",
+	"priority": "optional",
+	"architecture": "amd64",
+	"depends": [
+		"lsb-base (>= 3.2-14)",
+		"pure-ftpd-common (= 1.0.36-1.1)",
+		"libc6 (>= 2.14)",
+		"libcap2 (>= 2.10)",
+		"libpam0g (>= 0.99.7.1)",
+		"libpq5",
+		"libssl1.0.0 (>= 1.0.0)",
+		"openbsd-inetd | inet-superserver"
+	],
+	"replaces": [
+		"ftp-server",
+		"pure-ftpd"
+	],
+	"conflicts": [
+		"ftp-server",
+		"pure-ftpd"
+	],
+	"installedSize": 673,
+	"maintainer": "Ubuntu Developers <ubuntu-devel-discuss@lists.ubuntu.com>",
+	"description": "Secure and efficient FTP server with PostgreSQL user authentication",
+	"homepage": "http://www.pureftpd.org/",
+	"filename": "pool/universe/p/pure-ftpd/pure-ftpd-postgresql_1.0.36-1.1_amd64.deb",
+	"size": 224674,
+	"md5": "2c6c4c2bdec843ea35b1e68f08b39b2f",
+	"sha1": "387806d1773b9e4e66ff4799d3a0ef2802d0bdce",
+	"sha256": "146f2d62bc65474f7fbb9a3964489bcdc5fd5017629dbecb91ae95f99367a316",
+	"descriptionMd5": "10ce8669d0de227b915f7794f62f9f07"
+}

@@ -1,0 +1,56 @@
+{
+	"raw": {},
+	"required": [
+		"Filename",
+		"Size"
+	],
+	"package": "libvirt-daemon-system",
+	"source": "libvirt",
+	"version": "10.0.0-2ubuntu8",
+	"section": "admin",
+	"priority": "optional",
+	"architecture": "amd64",
+	"depends": [
+		"adduser",
+		"gettext-base",
+		"iptables | firewalld",
+		"libvirt-clients (= 10.0.0-2ubuntu8)",
+		"libvirt-daemon (= 10.0.0-2ubuntu8)",
+		"libvirt-daemon-config-network (= 10.0.0-2ubuntu8)",
+		"libvirt-daemon-config-nwfilter (= 10.0.0-2ubuntu8)",
+		"libvirt-daemon-system-systemd (= 10.0.0-2ubuntu8) | libvirt-daemon-system-sysv (= 10.0.0-2ubuntu8)",
+		"libvirt0 (<< 10.0.0-2ubuntu8.1~)",
+		"libvirt0 (>= 10.0.0-2ubuntu8)",
+		"logrotate",
+		"polkitd (>= 121+compat0.1-2)",
+		"debconf (>= 0.5) | debconf-2.0"
+	],
+	"recommends": [
+		"dmidecode",
+		"dnsmasq-base",
+		"iproute2",
+		"mdevctl",
+		"parted"
+	],
+	"suggests": [
+		"apparmor",
+		"auditd",
+		"nfs-common",
+		"open-iscsi",
+		"pm-utils",
+		"systemd",
+		"systemtap",
+		"zfsutils"
+	],
+	"installedSize": 335,
+	"maintainer": "Ubuntu Developers <ubuntu-devel-discuss@lists.ubuntu.com>",
+	"description": "Libvirt daemon configuration files",
+	"homepage": "https://libvirt.org/",
+	"filename": "pool/main/libv/libvirt/libvirt-daemon-system_10.0.0-2ubuntu8_amd64.deb",
+	"size": 49546,
+	"md5": "cbf04f3757042903b0f82f62d182ff5b",
+	"sha1": "d2aecffc5bb1f6bb2f74a23c8537bffb76346a39",
+	"sha256": "b74961f5be300417072defac6be067034a7763676d9374d9057e9ae9e717bbb1",
+	"sha512": "5a0361dc27d81b71a6ca7ce012c35afb9137f123788197543c38c31821a1431fa163e83de6370dc606d666b970c3ee2b1d8095d549a9467adca60e9914389eac",
+	"descriptionMd5": "da7cc4d36dd1ad0862cb38e713552e24"
+}

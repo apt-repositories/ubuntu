@@ -1,0 +1,39 @@
+{
+	"raw": {},
+	"required": [
+		"Filename",
+		"Size"
+	],
+	"package": "slapd-contrib",
+	"source": "openldap",
+	"version": "2.6.7+dfsg-1~exp1ubuntu8.2",
+	"section": "universe/net",
+	"priority": "optional",
+	"architecture": "amd64",
+	"depends": [
+		"slapd (= 2.6.7+dfsg-1~exp1ubuntu8.2)",
+		"libc6 (>= 2.38)",
+		"libkadm5srv8t64-heimdal (>= 1.4.0+git20110226)",
+		"libkrb5-26t64-heimdal (>= 1.4.0+git20110226)",
+		"libldap2 (>= 2.6.2)",
+		"libnettle8t64"
+	],
+	"replaces": [
+		"slapd-smbk5pwd (<< 2.4.47+dfsg-2~)"
+	],
+	"breaks": [
+		"slapd (<< 2.5.4+dfsg-1~)",
+		"slapd-smbk5pwd (<< 2.4.47+dfsg-2~)"
+	],
+	"installedSize": 183,
+	"maintainer": "Ubuntu Developers <ubuntu-devel-discuss@lists.ubuntu.com>",
+	"description": "contributed plugins for OpenLDAP slapd",
+	"homepage": "https://www.openldap.org/",
+	"filename": "pool/universe/o/openldap/slapd-contrib_2.6.7+dfsg-1~exp1ubuntu8.2_amd64.deb",
+	"size": 31116,
+	"md5": "c5610106e07f2ff9937135ec4dffbabb",
+	"sha1": "11b6aa690291c6fd6aa0d75b1092b356fa1fe17e",
+	"sha256": "bca10f8f182f6835479dca81a8f796242ff1a91538e7963f8c6164579b34ff8c",
+	"sha512": "2b090abdcde0fc6e65e9d2ef2aae193ba7de4683955da44758ab50b5475ad837f67daaec43846113f9df1ea14ba454893ffa06ce843c8f21e687a36f6c387074",
+	"descriptionMd5": "ff6e572efbbb94ce9953af67807dabd9"
+}

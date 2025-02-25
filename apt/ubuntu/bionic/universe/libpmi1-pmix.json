@@ -1,0 +1,38 @@
+{
+	"raw": {},
+	"required": [
+		"Filename",
+		"Size"
+	],
+	"package": "libpmi1-pmix",
+	"source": "pmix",
+	"version": "2.1.1~rc1-1",
+	"section": "universe/libs",
+	"priority": "optional",
+	"architecture": "amd64",
+	"depends": [
+		"libc6 (>= 2.15)",
+		"libevent-2.1-6 (>= 2.1.8-stable)",
+		"libevent-pthreads-2.1-6 (>= 2.1.8-stable)",
+		"zlib1g (>= 1:1.2.0)",
+		"libhwloc-plugins"
+	],
+	"replaces": [
+		"libpmi-pmix",
+		"libpmix2 (<< 2.1.0~rc1-2)"
+	],
+	"breaks": [
+		"libpmi-pmix",
+		"libpmix2 (<< 2.1.0~rc1-2)"
+	],
+	"installedSize": 648,
+	"maintainer": "Ubuntu Developers <ubuntu-devel-discuss@lists.ubuntu.com>",
+	"description": "OpenMPI implementation of the PMI v1 library",
+	"homepage": "https://github.com/pmix/pmix",
+	"filename": "pool/universe/p/pmix/libpmi1-pmix_2.1.1~rc1-1_amd64.deb",
+	"size": 214880,
+	"md5": "b565f052c4513e3bdce1cf5102f04c6b",
+	"sha1": "0cb07ee3590d1d8d182fae2a9b6071387788b2d3",
+	"sha256": "39d0ed08eac1fd1cc2fcd055a2439e818783748888ccc5d91a362f5eb422dbc1",
+	"descriptionMd5": "ec307fae9fb172af77b2f3eb62614849"
+}

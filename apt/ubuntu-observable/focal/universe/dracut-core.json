@@ -1,0 +1,52 @@
+[{
+	"raw": {},
+	"required": [
+		"Filename",
+		"Size"
+	],
+	"package": "dracut-core",
+	"source": "dracut",
+	"version": "048+80-2",
+	"section": "universe/utils",
+	"priority": "optional",
+	"architecture": "amd64",
+	"depends": [
+		"cpio",
+		"kmod",
+		"udev",
+		"kpartx",
+		"util-linux (>= 2.20)",
+		"pkg-config",
+		"libkmod2 (>= 22~)",
+		"e2fsprogs",
+		"libc6 (>= 2.14)"
+	],
+	"recommends": [
+		"cryptsetup",
+		"dmsetup",
+		"dmraid",
+		"lvm2",
+		"mdadm",
+		"console-setup",
+		"binutils",
+		"systemd"
+	],
+	"replaces": [
+		"dracut (<< 044+3-2~)",
+		"dracut-network (<< 043-2)"
+	],
+	"breaks": [
+		"dracut (<< 044+3-2~)",
+		"dracut-network (<< 043-2)"
+	],
+	"installedSize": 1147,
+	"maintainer": "Ubuntu Developers <ubuntu-devel-discuss@lists.ubuntu.com>",
+	"description": "dracut is an event driven initramfs infrastructure (core tools)",
+	"homepage": "http://www.kernel.org/pub/linux/utils/boot/dracut/dracut.html",
+	"filename": "pool/universe/d/dracut/dracut-core_048+80-2_amd64.deb",
+	"size": 251300,
+	"md5": "0b51d9d0346e9092e10472f844f4c23a",
+	"sha1": "f44668d51193d83090529a79e8626dcdabb8e78b",
+	"sha256": "196dde2e3efa8571e96caffb58548e4e307853d3183335182519e91324d9a172",
+	"descriptionMd5": "5df7edfd996e6db7e65cd0435ed243c3"
+}]

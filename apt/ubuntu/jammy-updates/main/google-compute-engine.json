@@ -1,0 +1,49 @@
+{
+	"raw": {},
+	"required": [
+		"Filename",
+		"Size"
+	],
+	"package": "google-compute-engine",
+	"source": "gce-compute-image-packages",
+	"version": "20241010.00-0ubuntu1~22.04.0",
+	"section": "admin",
+	"priority": "optional",
+	"architecture": "all",
+	"depends": [
+		"google-compute-engine-oslogin (>> 20190801)",
+		"google-guest-agent",
+		"jq",
+		"networkd-dispatcher",
+		"nvme-cli"
+	],
+	"recommends": [
+		"rsyslog | system-log-daemon"
+	],
+	"suggests": [
+		"libpam-cracklib"
+	],
+	"replaces": [
+		"gce-cloud-config",
+		"gce-compute-image-packages (<< 20191115)",
+		"gce-daemon",
+		"gce-startup-scripts"
+	],
+	"conflicts": [
+		"gce-cloud-config",
+		"gce-compute-image-packages (<< 20191115)",
+		"gce-daemon",
+		"gce-startup-scripts"
+	],
+	"installedSize": 79,
+	"maintainer": "Ubuntu Developers <ubuntu-devel-discuss@lists.ubuntu.com>",
+	"description": "Google Compute Engine guest environment.",
+	"homepage": "https://github.com/GoogleCloudPlatform/compute-image-packages",
+	"filename": "pool/main/g/gce-compute-image-packages/google-compute-engine_20241010.00-0ubuntu1~22.04.0_all.deb",
+	"size": 14768,
+	"md5": "acd6717779b5c6a00b196c667be82c71",
+	"sha1": "acc90a23833c874282b86f2dec5a1b6ed8bb044d",
+	"sha256": "637de4fd77f8ad10af40382814c1a5dce18a23bb42125a56d1fc86e734c0992d",
+	"sha512": "4d4380634c95b54b74444d89a6e6e618a21d7c1e14e2dc0c2abf87f9727cd1635d59ebf7991f3af32e18bbc9b4f51f4b1b45170d07d28b96c1edd39dda023e99",
+	"descriptionMd5": "3d02273d24f60afb7027868edacd1b20"
+}

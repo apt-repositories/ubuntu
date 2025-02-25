@@ -1,0 +1,38 @@
+[{
+	"raw": {},
+	"required": [
+		"Filename",
+		"Size"
+	],
+	"package": "slurm-wlm-hdf5-plugin",
+	"source": "slurm-wlm",
+	"version": "23.11.4-1.2ubuntu5",
+	"section": "universe/admin",
+	"priority": "optional",
+	"architecture": "amd64",
+	"depends": [
+		"libc6 (>= 2.38)",
+		"libhdf5-103-1t64",
+		"libhdf5-hl-100t64",
+		"slurm-wlm-basic-plugins (= 23.11.4-1.2ubuntu5)"
+	],
+	"replaces": [
+		"slurm-client (<< 22.05.7-1)",
+		"slurm-wlm-basic-plugins (<< 22.05.7-1)"
+	],
+	"breaks": [
+		"slurm-client (<< 22.05.7-1)",
+		"slurm-wlm-basic-plugins (<< 22.05.7-1)"
+	],
+	"installedSize": 152,
+	"maintainer": "Ubuntu Developers <ubuntu-devel-discuss@lists.ubuntu.com>",
+	"description": "Slurm HDF5 plugin",
+	"homepage": "http://slurm.schedmd.com",
+	"filename": "pool/universe/s/slurm-wlm/slurm-wlm-hdf5-plugin_23.11.4-1.2ubuntu5_amd64.deb",
+	"size": 37200,
+	"md5": "a747132a5c2274f3a7867ae4fca916ec",
+	"sha1": "918cd4a4f255e7a7727ef98b76f69e6692d21566",
+	"sha256": "7cbeb30083d8132a5d7c169e5db4b81a92cf630b7e024cff09c94bb4785d47bd",
+	"sha512": "4cbcd3e1f3aeb85a5913ce6c924836ba77b194081920fd7ffafa5c7503d630e008a6466145018203316623cc3377999c49a018a5175d69b4a7f18b8a480c9629",
+	"descriptionMd5": "a8bbdd24e4e112c35314584a6ef5a3eb"
+}]

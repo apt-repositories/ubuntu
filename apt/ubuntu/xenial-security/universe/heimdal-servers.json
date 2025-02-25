@@ -1,0 +1,48 @@
+{
+	"raw": {},
+	"required": [
+		"Filename",
+		"Size"
+	],
+	"package": "heimdal-servers",
+	"source": "heimdal",
+	"version": "1.7~git20150920+dfsg-4ubuntu1.16.04.1",
+	"section": "universe/net",
+	"priority": "extra",
+	"architecture": "amd64",
+	"depends": [
+		"krb5-config",
+		"openbsd-inetd | inet-superserver",
+		"libc6 (>= 2.15)",
+		"libgssapi3-heimdal (>= 1.5~pre2+git20110720)",
+		"libkafs0-heimdal (>= 1.4.0+git20110226)",
+		"libkrb5-26-heimdal (>= 1.4.0+git20110226)",
+		"libotp0-heimdal (>= 1.4.0+git20110226)",
+		"libroken18-heimdal (>= 1.7~git20150920)"
+	],
+	"suggests": [
+		"heimdal-docs"
+	],
+	"replaces": [
+		"heimdal-clients (<< 0.2l-2)"
+	],
+	"conflicts": [
+		"ftp-server",
+		"heimdal-clients (<< 0.2l-2)",
+		"kerberos4kth-services",
+		"netstd",
+		"pop3-server",
+		"wu-ftpd-academ (<< 2.5.0)"
+	],
+	"installedSize": 196,
+	"maintainer": "Ubuntu Developers <ubuntu-devel-discuss@lists.ubuntu.com>",
+	"description": "Heimdal Kerberos - server programs",
+	"homepage": "http://www.h5l.org/",
+	"filename": "pool/universe/h/heimdal/heimdal-servers_1.7~git20150920+dfsg-4ubuntu1.16.04.1_amd64.deb",
+	"size": 63334,
+	"md5": "3ff8c22a6e79092b338e871f0a157a0f",
+	"sha1": "7247f1adb7063be6ace8cefd7a7a1a422d225f3a",
+	"sha256": "a9ecef78af0fc4bf0161f225b0300067f33752513d3f9b8c5e5091d6bf99b398",
+	"sha512": "ce945dfc3d3f09aac60b443c8c0e1493773a2c335430c368a33b784dcbf49083b18ed5133a5598ea253f2be30bc049fb16c3d526ff35650322cad4d9f7966b82",
+	"descriptionMd5": "3774566bbfa9885e93e9b67e2f0d5f5a"
+}

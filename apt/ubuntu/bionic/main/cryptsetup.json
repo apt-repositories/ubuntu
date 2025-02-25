@@ -1,0 +1,50 @@
+{
+	"raw": {},
+	"required": [
+		"Filename",
+		"Size"
+	],
+	"package": "cryptsetup",
+	"version": "2:2.0.2-1ubuntu1",
+	"section": "admin",
+	"priority": "optional",
+	"architecture": "amd64",
+	"depends": [
+		"cryptsetup-bin (>= 2:1.6.0)",
+		"dmsetup",
+		"debconf (>= 0.5) | debconf-2.0",
+		"libc6 (>= 2.15)"
+	],
+	"recommends": [
+		"busybox-static | busybox",
+		"console-setup",
+		"initramfs-tools (>= 0.129) | linux-initramfs-tool",
+		"kbd",
+		"plymouth"
+	],
+	"suggests": [
+		"dosfstools",
+		"keyutils",
+		"liblocale-gettext-perl"
+	],
+	"replaces": [
+		"cryptsetup-luks",
+		"hashalot (<< 0.3-2)"
+	],
+	"breaks": [
+		"hashalot (<< 0.3-2)"
+	],
+	"conflicts": [
+		"cryptsetup-luks"
+	],
+	"installedSize": 393,
+	"maintainer": "Ubuntu Developers <ubuntu-devel-discuss@lists.ubuntu.com>",
+	"description": "disk encryption support - startup scripts",
+	"homepage": "https://gitlab.com/cryptsetup/cryptsetup",
+	"filename": "pool/main/c/cryptsetup/cryptsetup_2.0.2-1ubuntu1_amd64.deb",
+	"size": 151108,
+	"md5": "510332ef022741219d7d1494dcbeb969",
+	"sha1": "1a7ca5ade22ff584364520dc76d61e28f4ae2342",
+	"sha256": "0fdffc51dba8137a30b3e18c48dcbf3da6cb5ae8f47da330798762b1c375f483",
+	"descriptionMd5": "7d16ff8049ac55b58d616e4fc3a33f99"
+}

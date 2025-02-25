@@ -1,0 +1,56 @@
+{
+	"raw": {},
+	"required": [
+		"Filename",
+		"Size"
+	],
+	"package": "lighttpd",
+	"version": "1.4.74-1ubuntu3",
+	"section": "universe/web",
+	"priority": "optional",
+	"architecture": "amd64",
+	"depends": [
+		"libc6 (>= 2.38)",
+		"libcrypt1 (>= 1:4.1.0)",
+		"libnettle8t64",
+		"libpcre2-8-0 (>= 10.22)",
+		"libxxhash0 (>= 0.6.5)",
+		"media-types | mime-support",
+		"systemd-sysv | lsb-base"
+	],
+	"preDepends": [
+		"init-system-helpers (>= 1.54~)"
+	],
+	"recommends": [
+		"spawn-fcgi",
+		"perl:any",
+		"lighttpd-mod-deflate",
+		"lighttpd-mod-openssl"
+	],
+	"suggests": [
+		"openssl",
+		"php-cgi",
+		"php-fpm (>= 2:7.4)",
+		"apache2-utils",
+		"lighttpd-doc",
+		"lighttpd-mod-webdav",
+		"lighttpd-modules-dbi",
+		"lighttpd-modules-lua",
+		"ufw"
+	],
+	"conflicts": [
+		"lighttpd-mod-geoip",
+		"lighttpd-mod-trigger-b4-dl"
+	],
+	"installedSize": 1042,
+	"maintainer": "Ubuntu Developers <ubuntu-devel-discuss@lists.ubuntu.com>",
+	"description": "fast webserver with minimal memory footprint",
+	"homepage": "https://www.lighttpd.net/",
+	"filename": "pool/universe/l/lighttpd/lighttpd_1.4.74-1ubuntu3_amd64.deb",
+	"size": 393108,
+	"md5": "5f035ecd87a839f921dc913e1003acab",
+	"sha1": "69b10229624211bb6c563654c25c40f83c3b3774",
+	"sha256": "b5ee113f92a17ed568538ca3cd62a05067e2a80dc060f25daa0767643e273824",
+	"sha512": "5f660cb7b9f78671a28e441343de4c8ce34c2ad8f6f105e6b0ded85976b272e084db9aef95fdb4dba4867207f6a0c90e73f93ce4a51a9001e0a29c9f7356278a",
+	"descriptionMd5": "3cbd5b2dae1802558158d8c2aae494ab"
+}

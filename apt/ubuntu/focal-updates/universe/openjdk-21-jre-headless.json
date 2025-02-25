@@ -1,0 +1,62 @@
+{
+	"raw": {},
+	"required": [
+		"Filename",
+		"Size"
+	],
+	"package": "openjdk-21-jre-headless",
+	"source": "openjdk-21",
+	"version": "21.0.6+7-1~20.04.1",
+	"section": "universe/java",
+	"priority": "optional",
+	"architecture": "amd64",
+	"depends": [
+		"ca-certificates-java (>= 20190405~)",
+		"java-common (>= 0.28)",
+		"liblcms2-2 (>= 2.8)",
+		"libjpeg8 (>= 8c)",
+		"libnss3 (>= 2:3.17.1)",
+		"util-linux (>= 2.26.2-4)",
+		"libc6 (>= 2.29)",
+		"libgcc-s1 (>= 3.0)",
+		"libpcsclite1 (>= 1.3.0)",
+		"libstdc++6 (>= 5)",
+		"zlib1g (>= 1:1.2.2)"
+	],
+	"recommends": [
+		"libcups2",
+		"libfontconfig1",
+		"libfreetype6 (>= 2.3.5)",
+		"libharfbuzz0b (>= 1.2.6)",
+		"libasound2 (>= 1.0.16)"
+	],
+	"suggests": [
+		"libnss-mdns",
+		"fonts-dejavu-extra",
+		"fonts-ipafont-gothic",
+		"fonts-ipafont-mincho",
+		"fonts-wqy-microhei | fonts-wqy-zenhei",
+		"fonts-indic"
+	],
+	"replaces": [
+		"openjdk-11-jdk-headless (<< 11~18-2)"
+	],
+	"breaks": [
+		"clojure1.8 (<= 1.8.0-7ubuntu1~)"
+	],
+	"conflicts": [
+		"openjdk-11-jdk-headless (<< 11~18-2)",
+		"oracle-java11-installer"
+	],
+	"installedSize": 197719,
+	"maintainer": "OpenJDK Team <openjdk-21@packages.debian.org>",
+	"description": "OpenJDK Java runtime, using Hotspot JIT (headless)",
+	"homepage": "https://openjdk.java.net/",
+	"filename": "pool/universe/o/openjdk-21/openjdk-21-jre-headless_21.0.6+7-1~20.04.1_amd64.deb",
+	"size": 41614536,
+	"md5": "9edb8ad8169892b0187081ec38b55635",
+	"sha1": "730749e6755a5c7772577f88ea57ff28391a3f1c",
+	"sha256": "2f591cf9425cb72aae7c152dcb43f3c971ae346ec3ea8fb07d16d7fe0d3eee72",
+	"sha512": "11428a02a8b77b2aacb844ddca7d577db3f8868dfe936c68042aa2747494ce0fcedd07dd7aa2829d24aa0a6aca4aca7804c0f028563a6e64793fbd0c7842628d",
+	"descriptionMd5": "62c2c9689e617c48cc4480926d2ca785"
+}

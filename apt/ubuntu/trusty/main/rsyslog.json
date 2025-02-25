@@ -1,0 +1,50 @@
+{
+	"raw": {},
+	"required": [
+		"Filename",
+		"Size"
+	],
+	"package": "rsyslog",
+	"version": "7.4.4-1ubuntu2",
+	"section": "admin",
+	"priority": "important",
+	"architecture": "amd64",
+	"depends": [
+		"libc6 (>= 2.17)",
+		"libestr0 (>= 0.1.4)",
+		"libjson-c2 (>= 0.10)",
+		"libuuid1 (>= 2.16)",
+		"zlib1g (>= 1:1.1.4)",
+		"init-system-helpers (>= 1.13~)",
+		"sysv-rc (>= 2.88dsf-24) | file-rc (>= 0.8.16)",
+		"lsb-base (>= 4.1+Debian3)",
+		"initscripts (>= 2.88dsf-13.3)",
+		"adduser",
+		"ucf"
+	],
+	"recommends": [
+		"logrotate"
+	],
+	"suggests": [
+		"rsyslog-mysql | rsyslog-pgsql",
+		"rsyslog-doc",
+		"rsyslog-gnutls",
+		"rsyslog-gssapi",
+		"rsyslog-relp",
+		"apparmor (>= 2.3)"
+	],
+	"conflicts": [
+		"linux-kernel-log-daemon",
+		"system-log-daemon"
+	],
+	"installedSize": 1541,
+	"maintainer": "Ubuntu Developers <ubuntu-devel-discuss@lists.ubuntu.com>",
+	"description": "reliable system and kernel logging daemon",
+	"homepage": "http://www.rsyslog.com/",
+	"filename": "pool/main/r/rsyslog/rsyslog_7.4.4-1ubuntu2_amd64.deb",
+	"size": 355140,
+	"md5": "200ad2847fc9df9a3265cba8426db2ba",
+	"sha1": "a2af31d7b67d7aa3aa6b1708343c48d6701b8744",
+	"sha256": "96642f8f8e26b4d6fa87f101d5006529eb4c4653fe5181b885148238d2e02eaf",
+	"descriptionMd5": "c25fbd9bcc88ab95bcc33eea4228fd42"
+}

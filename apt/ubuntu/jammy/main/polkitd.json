@@ -1,0 +1,41 @@
+{
+	"raw": {},
+	"required": [
+		"Filename",
+		"Size"
+	],
+	"package": "polkitd",
+	"source": "policykit-1",
+	"version": "0.105-33",
+	"section": "admin",
+	"priority": "optional",
+	"architecture": "amd64",
+	"depends": [
+		"dbus",
+		"default-logind | logind",
+		"libc6 (>= 2.34)",
+		"libexpat1 (>= 2.0.1)",
+		"libglib2.0-0 (>= 2.37.3)",
+		"libpam0g (>= 0.99.7.1)",
+		"libpolkit-agent-1-0 (= 0.105-33)",
+		"libpolkit-gobject-1-0 (= 0.105-33)",
+		"libsystemd0 (>= 213)"
+	],
+	"replaces": [
+		"policykit-1 (<< 0.105-32~)"
+	],
+	"breaks": [
+		"policykit-1 (<< 0.105-32~)"
+	],
+	"installedSize": 520,
+	"maintainer": "Ubuntu Developers <ubuntu-devel-discuss@lists.ubuntu.com>",
+	"description": "framework for managing administrative policies and privileges",
+	"homepage": "https://www.freedesktop.org/wiki/Software/polkit/",
+	"filename": "pool/main/p/policykit-1/polkitd_0.105-33_amd64.deb",
+	"size": 79980,
+	"md5": "231bbd08d6172838ec4ddc1a44ee215b",
+	"sha1": "be9b1a15c8dd75f234ef0037beb1a448e8222237",
+	"sha256": "f604cc6654316cc257ade1bbd873f88ca4003afe43ed380e168c2d8c161847ad",
+	"sha512": "6616d16f49a283068d1a11585cf5cf72a4c1c6941d0e15a3d089979322594f1f2f79e76b3f9036a814cd6661946bf110204071f5353e0f7e1fbba05b7e0ec2e9",
+	"descriptionMd5": "b0cd8ea42c7f06870c9f6957c3284e2d"
+}

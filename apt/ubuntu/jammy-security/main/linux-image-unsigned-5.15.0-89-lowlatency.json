@@ -1,0 +1,42 @@
+{
+	"raw": {},
+	"required": [
+		"Filename",
+		"Size"
+	],
+	"package": "linux-image-unsigned-5.15.0-89-lowlatency",
+	"source": "linux-lowlatency",
+	"version": "5.15.0-89.99",
+	"section": "kernel",
+	"priority": "optional",
+	"architecture": "amd64",
+	"depends": [
+		"kmod",
+		"linux-base (>= 4.5ubuntu1~16.04.1)",
+		"linux-modules-5.15.0-89-lowlatency"
+	],
+	"recommends": [
+		"grub-pc | grub-efi-amd64 | grub-efi-ia32 | grub | lilo",
+		"initramfs-tools | linux-initramfs-tool"
+	],
+	"suggests": [
+		"fdutils",
+		"linux-doc | linux-lowlatency-source-5.15.0",
+		"linux-lowlatency-tools",
+		"linux-headers-5.15.0-89-lowlatency",
+		"linux-modules-extra-5.15.0-89-lowlatency"
+	],
+	"conflicts": [
+		"linux-image-5.15.0-89-lowlatency"
+	],
+	"installedSize": 12003,
+	"maintainer": "Ubuntu Kernel Team <kernel-team@lists.ubuntu.com>",
+	"description": "Linux kernel image for version 5.15.0 on 64 bit x86 SMP",
+	"filename": "pool/main/l/linux-lowlatency/linux-image-unsigned-5.15.0-89-lowlatency_5.15.0-89.99_amd64.deb",
+	"size": 11765952,
+	"md5": "3ba0a6e2dd9fe0d4bc27269f3cc18473",
+	"sha1": "e983b45ab2f8df8cdd850026e9a6507808ada2c1",
+	"sha256": "1b14ce7178c5bfacb28fcfae55a4834625c878d7831e48a68b4b6616ca46c8d8",
+	"sha512": "371e8bdca5b012d1240a6e5882a5cc260eb547ab4c3c4fb8e6db9b9949aba220b210117b29be1a308992960e22003281673d1b0c6ad811ccd105031569e3467b",
+	"descriptionMd5": "835296a3ad2aeec9d251947e328577f0"
+}
