@@ -1,0 +1,74 @@
+{
+	"raw": {},
+	"required": [
+		"Filename",
+		"Size"
+	],
+	"package": "proftpd-core",
+	"source": "proftpd-dfsg",
+	"version": "1.3.7c+dfsg-1ubuntu0.1",
+	"section": "universe/net",
+	"priority": "optional",
+	"architecture": "amd64",
+	"depends": [
+		"adduser",
+		"libpam-runtime (>= 0.76-13.1)",
+		"netbase",
+		"ucf",
+		"lsb-base (>= 3.0-6)",
+		"libacl1 (>= 2.2.23)",
+		"libc6 (>= 2.34)",
+		"libcap2 (>= 1:2.10)",
+		"libcrypt1 (>= 1:4.1.0)",
+		"libhiredis0.14 (>= 0.14.0)",
+		"libmemcached11",
+		"libmemcachedutil2",
+		"libncursesw6 (>= 6)",
+		"libpam0g (>= 0.99.7.1)",
+		"libpcre3",
+		"libssl3 (>= 3.0.0~~alpha1)",
+		"libtinfo6 (>= 6)",
+		"zlib1g (>= 1:1.1.4)"
+	],
+	"preDepends": [
+		"init-system-helpers (>= 1.54~)"
+	],
+	"recommends": [
+		"proftpd-doc"
+	],
+	"suggests": [
+		"openbsd-inetd | inet-superserver",
+		"openssl",
+		"proftpd-mod-ldap",
+		"proftpd-mod-mysql",
+		"proftpd-mod-odbc",
+		"proftpd-mod-pgsql",
+		"proftpd-mod-sqlite",
+		"proftpd-mod-geoip",
+		"proftpd-mod-snmp",
+		"proftpd-mod-crypto",
+		"proftpd-mod-wrap"
+	],
+	"replaces": [
+		"proftpd (<< 1.3.2)",
+		"proftpd-mod-dnsbl"
+	],
+	"breaks": [
+		"proftpd (<< 1.3.2)"
+	],
+	"conflicts": [
+		"ftp-server",
+		"proftpd-mod-dnsbl"
+	],
+	"installedSize": 4842,
+	"maintainer": "Ubuntu Developers <ubuntu-devel-discuss@lists.ubuntu.com>",
+	"description": "Versatile, virtual-hosting FTP daemon - binaries",
+	"homepage": "http://www.proftpd.org/",
+	"filename": "pool/universe/p/proftpd-dfsg/proftpd-core_1.3.7c+dfsg-1ubuntu0.1_amd64.deb",
+	"size": 2193866,
+	"md5": "9bc4ceeac7d0711b1668cc3e247701ce",
+	"sha1": "45aa876b5637002c15654ca33da3a1fbfd876c7b",
+	"sha256": "5d2ea81e4c4fb06c47c372c4c67b9988a618315a43f4b81d31cb2dc9e1cf8e18",
+	"sha512": "b343061cbd5749175bb08e31d6b52afc40a9a62eb33add84bab63381bc1bfee4a14b648b8b7227d878306ee711aaae2fa2d26c4e8612e03b3f7bb8c6ba50e668",
+	"descriptionMd5": "4ded3a58e7e7b81b4793dab6f2b1d63d"
+}
