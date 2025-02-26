@@ -6,6 +6,72 @@
 	],
 	"package": "proftpd-core",
 	"source": "proftpd-dfsg",
+	"version": "1.3.8.b+dfsg-1ubuntu0.1",
+	"section": "universe/net",
+	"priority": "optional",
+	"architecture": "amd64",
+	"depends": [
+		"adduser",
+		"libpam-runtime",
+		"netbase",
+		"ucf",
+		"libacl1 (>= 2.2.23)",
+		"libc6 (>= 2.38)",
+		"libcap2 (>= 1:2.10)",
+		"libcrypt1 (>= 1:4.1.0)",
+		"libhiredis1.1.0 (>= 1.2.0)",
+		"libidn2-0 (>= 2.0.0)",
+		"libmemcached11t64 (>= 1.1.4)",
+		"libmemcachedutil2t64 (>= 1.1.4)",
+		"libncursesw6 (>= 6)",
+		"libpam0g (>= 0.99.7.1)",
+		"libpcre2-8-0 (>= 10.32)",
+		"libpcre2-posix3 (>= 10.34)",
+		"libssl3t64 (>= 3.0.0)",
+		"libtinfo6 (>= 6)",
+		"zlib1g (>= 1:1.1.4)"
+	],
+	"preDepends": [
+		"init-system-helpers (>= 1.54~)"
+	],
+	"recommends": [
+		"proftpd-doc"
+	],
+	"suggests": [
+		"openbsd-inetd | inet-superserver",
+		"openssl",
+		"proftpd-mod-ldap",
+		"proftpd-mod-mysql",
+		"proftpd-mod-odbc",
+		"proftpd-mod-pgsql",
+		"proftpd-mod-sqlite",
+		"proftpd-mod-geoip",
+		"proftpd-mod-snmp",
+		"proftpd-mod-crypto",
+		"proftpd-mod-wrap"
+	],
+	"conflicts": [
+		"ftp-server"
+	],
+	"installedSize": 4830,
+	"maintainer": "Ubuntu Developers <ubuntu-devel-discuss@lists.ubuntu.com>",
+	"description": "Versatile, virtual-hosting FTP daemon - binaries",
+	"homepage": "http://www.proftpd.org/",
+	"filename": "pool/universe/p/proftpd-dfsg/proftpd-core_1.3.8.b+dfsg-1ubuntu0.1_amd64.deb",
+	"size": 2196656,
+	"md5": "68b306b2f7b74daab851373197de5528",
+	"sha1": "5da5d30412d240a33a4726cb722341d179ceec5e",
+	"sha256": "f3407144f18451c658eb3ca0d800caa24b78e2ad2a2bcc2cb66189f35ba98f45",
+	"sha512": "2d98778f5e854970e394d5030a4bdc4ee6fa43b48dc65cb196e85e5e5facdf75f2c407b74f8a8c9396fb7a1faf28accb90d712c4de887398cf74c6ad0f8558b7",
+	"descriptionMd5": "4ded3a58e7e7b81b4793dab6f2b1d63d"
+},{
+	"raw": {},
+	"required": [
+		"Filename",
+		"Size"
+	],
+	"package": "proftpd-core",
+	"source": "proftpd-dfsg",
 	"version": "1.3.8.b+dfsg-1build3",
 	"section": "universe/net",
 	"priority": "optional",
