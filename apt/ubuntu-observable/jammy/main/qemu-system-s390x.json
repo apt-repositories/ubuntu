@@ -64,6 +64,64 @@
 	],
 	"package": "qemu-system-s390x",
 	"source": "qemu",
+	"version": "1:6.2+dfsg-2ubuntu6.25",
+	"section": "otherosfs",
+	"priority": "optional",
+	"architecture": "amd64",
+	"depends": [
+		"libaio1 (>= 0.3.93)",
+		"libc6 (>= 2.34)",
+		"libfdt1 (>= 1.6.1)",
+		"libfuse3-3 (>= 3.2.3)",
+		"libgcc-s1 (>= 4.7)",
+		"libglib2.0-0 (>= 2.67.3)",
+		"libgnutls30 (>= 3.7.2)",
+		"libibverbs1 (>= 1.1.6)",
+		"libjpeg8 (>= 8c)",
+		"libnettle8",
+		"libnuma1 (>= 2.0.11)",
+		"libpixman-1-0 (>= 0.19.6)",
+		"libpmem1 (>= 1.4)",
+		"libpng16-16 (>= 1.6.2-1)",
+		"librdmacm1 (>= 1.0.15)",
+		"libsasl2-2 (>= 2.1.27+dfsg2)",
+		"libseccomp2 (>= 2.1.0)",
+		"libslirp0 (>= 4.0.0)",
+		"liburing2 (>= 2.0)",
+		"libzstd1 (>= 1.4.0)",
+		"zlib1g (>= 1:1.2.0)",
+		"qemu-system-common (= 1:6.2+dfsg-2ubuntu6.25)",
+		"qemu-system-data (>> 1:6.2+dfsg-2ubuntu6.25~)"
+	],
+	"recommends": [
+		"qemu-utils",
+		"qemu-block-extra (= 1:6.2+dfsg-2ubuntu6.25)"
+	],
+	"replaces": [
+		"qemu-system-misc (<< 1:2.5+dfsg-5ubuntu8~)"
+	],
+	"breaks": [
+		"qemu-system-misc (<< 1:2.5+dfsg-5ubuntu8~)"
+	],
+	"installedSize": 9923,
+	"maintainer": "Ubuntu Developers <ubuntu-devel-discuss@lists.ubuntu.com>",
+	"description": "QEMU full system emulation binaries (s390x)",
+	"homepage": "http://www.qemu.org/",
+	"filename": "pool/main/q/qemu/qemu-system-s390x_6.2+dfsg-2ubuntu6.25_amd64.deb",
+	"size": 2868970,
+	"md5": "4d0d1ac35b697bbf5fd79593acf965b9",
+	"sha1": "b398474846df9747bf9d45308658ea5e6e9048ba",
+	"sha256": "c2c790a5e00bdcca497a45dc4a975f06f7484a5c77557e869dbae422a6662e6e",
+	"sha512": "1bd89cc303adb5304e09088267765a63efda0f1750d935b2b825e658614e004aaabd01f497abacaa5df670f18f3c812917ec0faa10ef84d3db2ac2b9b80a5fba",
+	"descriptionMd5": "c7d304a37d60d43052b950818bd7c1d8"
+},{
+	"raw": {},
+	"required": [
+		"Filename",
+		"Size"
+	],
+	"package": "qemu-system-s390x",
+	"source": "qemu",
 	"version": "1:6.2+dfsg-2ubuntu6",
 	"section": "otherosfs",
 	"priority": "optional",

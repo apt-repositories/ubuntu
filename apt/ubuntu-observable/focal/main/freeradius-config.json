@@ -44,6 +44,44 @@
 	],
 	"package": "freeradius-config",
 	"source": "freeradius",
+	"version": "3.0.20+dfsg-3ubuntu0.5",
+	"section": "net",
+	"priority": "optional",
+	"architecture": "amd64",
+	"depends": [
+		"freeradius-common (>= 3)",
+		"openssl",
+		"make",
+		"ca-certificates",
+		"ssl-cert",
+		"adduser"
+	],
+	"replaces": [
+		"freeradius (<< 3.0.11+dfsg-1)"
+	],
+	"breaks": [
+		"freeradius (<< 3.0.11+dfsg-1)",
+		"freeradius-config"
+	],
+	"installedSize": 958,
+	"maintainer": "Ubuntu Developers <ubuntu-devel-discuss@lists.ubuntu.com>",
+	"description": "FreeRADIUS default config files",
+	"homepage": "http://www.freeradius.org/",
+	"filename": "pool/main/f/freeradius/freeradius-config_3.0.20+dfsg-3ubuntu0.5_amd64.deb",
+	"size": 166280,
+	"md5": "85e1a190ddb44dcccf7c7e70aab4dbc8",
+	"sha1": "feb59c6786280ca2f631ba4e344e1b34961f30fe",
+	"sha256": "6f45ab2a817bee43d0a9d9ef434d597050924454b29435ab4e3ef85b751638be",
+	"sha512": "4a58fd9c2f9f756e89f3c51fe43ec4610678c756426303feff6ae65911450f10f7d7c2b87b934248791315bc3239de0423a62b402804b111d6b729fa6f03d21c",
+	"descriptionMd5": "ac5463a5cccad417d59c5cd9a88dd876"
+},{
+	"raw": {},
+	"required": [
+		"Filename",
+		"Size"
+	],
+	"package": "freeradius-config",
+	"source": "freeradius",
 	"version": "3.0.20+dfsg-3build1",
 	"section": "net",
 	"priority": "optional",

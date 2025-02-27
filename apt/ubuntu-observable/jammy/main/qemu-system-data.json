@@ -49,6 +49,49 @@
 	],
 	"package": "qemu-system-data",
 	"source": "qemu",
+	"version": "1:6.2+dfsg-2ubuntu6.25",
+	"section": "otherosfs",
+	"priority": "optional",
+	"architecture": "all",
+	"replaces": [
+		"openbios-ppc",
+		"openbios-sparc",
+		"qemu-slof",
+		"qemu-system-common (<< 1:2.12+dfsg-2~)",
+		"qemu-system-ppc (<< 1:6.1-4~)",
+		"qemu-system-s390x (<< 1:3.1+dfsg-2ubuntu1~)",
+		"qemu-system-sparc (<< 1:4.2-4~)",
+		"sgabios"
+	],
+	"breaks": [
+		"qemu-system-s390x (<< 1:3.1+dfsg-2ubuntu1~)"
+	],
+	"conflicts": [
+		"openbios-ppc",
+		"openbios-sparc",
+		"qemu-skiboot",
+		"qemu-slof",
+		"sgabios"
+	],
+	"installedSize": 8065,
+	"maintainer": "Ubuntu Developers <ubuntu-devel-discuss@lists.ubuntu.com>",
+	"description": "QEMU full system emulation (data files)",
+	"homepage": "http://www.qemu.org/",
+	"filename": "pool/main/q/qemu/qemu-system-data_6.2+dfsg-2ubuntu6.25_all.deb",
+	"size": 1430798,
+	"md5": "22f3d9f9408404d8ef0753ea894ebd77",
+	"sha1": "94889bb546477a04194cbc68440114a6ff641728",
+	"sha256": "9592b95469d43e1ae693bf22db88976e324426941773bc7a9e539673ee778752",
+	"sha512": "c88524884a91ad40d0d17208de57530d2166b9f3e4b54dc4e17c315c96d08a81324af718b96e0d588531b93a9cae88ccb05490949e2b74e37b5e6acedcbb7fd7",
+	"descriptionMd5": "c61105eaa5edddd1459bc7ebfd8348d6"
+},{
+	"raw": {},
+	"required": [
+		"Filename",
+		"Size"
+	],
+	"package": "qemu-system-data",
+	"source": "qemu",
 	"version": "1:6.2+dfsg-2ubuntu6",
 	"section": "otherosfs",
 	"priority": "optional",

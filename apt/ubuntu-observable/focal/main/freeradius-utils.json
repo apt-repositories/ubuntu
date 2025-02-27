@@ -50,6 +50,50 @@
 	],
 	"package": "freeradius-utils",
 	"source": "freeradius",
+	"version": "3.0.20+dfsg-3ubuntu0.5",
+	"section": "net",
+	"priority": "optional",
+	"architecture": "amd64",
+	"depends": [
+		"libc6 (>= 2.14)",
+		"libgdbm6 (>= 1.16)",
+		"libpcap0.8 (>= 0.9.8)",
+		"libpcre3",
+		"libssl1.1 (>= 1.1.1)",
+		"libtalloc2 (>= 2.0.4~git20101213)",
+		"freeradius-common",
+		"freeradius-config",
+		"libfreeradius3 (= 3.0.20+dfsg-3ubuntu0.5)"
+	],
+	"recommends": [
+		"libdbi-perl"
+	],
+	"replaces": [
+		"freeradius (<< 3)"
+	],
+	"conflicts": [
+		"radiusd-livingston",
+		"yardradius"
+	],
+	"installedSize": 363,
+	"maintainer": "Ubuntu Developers <ubuntu-devel-discuss@lists.ubuntu.com>",
+	"description": "FreeRADIUS client utilities",
+	"homepage": "http://www.freeradius.org/",
+	"filename": "pool/main/f/freeradius/freeradius-utils_3.0.20+dfsg-3ubuntu0.5_amd64.deb",
+	"size": 92688,
+	"md5": "cc5ea82be6cc9751866e601d46b8ddfb",
+	"sha1": "ca9c1936995847afb92ada04ab14713d466b23db",
+	"sha256": "6f7287257fc25cf3266be7fd1b8a8358f384fcd229fe891aee0adf2937983c9f",
+	"sha512": "ae13c7ac1bfaca66505ff944e95af971ae3a267073fecd275ec4adf73bb948a8341783460b52f2adcdce09b14f38341df79f3c156322a71cbef2ae8bb6a4ba8d",
+	"descriptionMd5": "24b3cb63eaad19ed5b58df947d58078e"
+},{
+	"raw": {},
+	"required": [
+		"Filename",
+		"Size"
+	],
+	"package": "freeradius-utils",
+	"source": "freeradius",
 	"version": "3.0.20+dfsg-3build1",
 	"section": "net",
 	"priority": "optional",

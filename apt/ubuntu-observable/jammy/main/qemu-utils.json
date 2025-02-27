@@ -50,6 +50,50 @@
 	],
 	"package": "qemu-utils",
 	"source": "qemu",
+	"version": "1:6.2+dfsg-2ubuntu6.25",
+	"section": "misc",
+	"priority": "optional",
+	"architecture": "amd64",
+	"depends": [
+		"libaio1 (>= 0.3.93)",
+		"libc6 (>= 2.34)",
+		"libfuse3-3 (>= 3.2.3)",
+		"libglib2.0-0 (>= 2.37.1)",
+		"libgnutls30 (>= 3.7.2)",
+		"libnettle8",
+		"libselinux1 (>= 3.1~)",
+		"liburing2 (>= 2.0)",
+		"libzstd1 (>= 1.4.0)",
+		"zlib1g (>= 1:1.1.4)"
+	],
+	"recommends": [
+		"qemu-block-extra (= 1:6.2+dfsg-2ubuntu6.25)"
+	],
+	"suggests": [
+		"debootstrap"
+	],
+	"breaks": [
+		"qemu-system-common (<< 1:3.1+dfsg-3~)"
+	],
+	"installedSize": 7073,
+	"maintainer": "Ubuntu Developers <ubuntu-devel-discuss@lists.ubuntu.com>",
+	"description": "QEMU utilities",
+	"homepage": "http://www.qemu.org/",
+	"filename": "pool/main/q/qemu/qemu-utils_6.2+dfsg-2ubuntu6.25_amd64.deb",
+	"size": 1527696,
+	"md5": "a2e0687e15ce0cfafdc1a759a6235675",
+	"sha1": "4aaaed0f149b6c948605dfcba4bc3b4e6e516d04",
+	"sha256": "0f1efa97e9b3e5abe23afeaa4f0fa336fcd884fdff7ad1668a041762096b2a78",
+	"sha512": "72ceeb9fd01100cd72d14306a654b5d7771a8d23a9779aeb559a0747f32ae456b74f21c951f0997e647ee7d6074e2d12d23f447099f0176a8d3e9a9d1ee8f55e",
+	"descriptionMd5": "2c65298afe6300be7b1ce793bdf9fb81"
+},{
+	"raw": {},
+	"required": [
+		"Filename",
+		"Size"
+	],
+	"package": "qemu-utils",
+	"source": "qemu",
 	"version": "1:6.2+dfsg-2ubuntu6",
 	"section": "misc",
 	"priority": "optional",

@@ -6,6 +6,54 @@
 	],
 	"package": "binutils-x86-64-linux-gnu",
 	"source": "binutils",
+	"version": "2.43.1-4ubuntu1.1",
+	"section": "devel",
+	"priority": "extra",
+	"architecture": "amd64",
+	"depends": [
+		"binutils-common (= 2.43.1-4ubuntu1.1)",
+		"libbinutils (= 2.43.1-4ubuntu1.1)",
+		"libc6 (>= 2.38)",
+		"libctf-nobfd0 (>= 2.36)",
+		"libctf0 (>= 2.36)",
+		"libgcc-s1 (>= 4.2)",
+		"libgprofng0 (>= 2.41)",
+		"libjansson4 (>= 2.14)",
+		"libsframe1 (>= 2.41)",
+		"libstdc++6 (>= 13.1)",
+		"libzstd1 (>= 1.5.5)",
+		"zlib1g (>= 1:1.1.4)"
+	],
+	"suggests": [
+		"binutils-doc (= 2.43.1-4ubuntu1.1)"
+	],
+	"replaces": [
+		"binutils (<< 2.29-6)",
+		"binutils-dev (<< 2.38.50.20220609-2)"
+	],
+	"breaks": [
+		"binutils (<< 2.29-6)",
+		"binutils-dev (<< 2.38.50.20220609-2)"
+	],
+	"installedSize": 12477,
+	"maintainer": "Ubuntu Developers <ubuntu-devel-discuss@lists.ubuntu.com>",
+	"description": "GNU binary utilities, for x86-64-linux-gnu target",
+	"homepage": "https://www.gnu.org/software/binutils/",
+	"filename": "pool/main/b/binutils/binutils-x86-64-linux-gnu_2.43.1-4ubuntu1.1_amd64.deb",
+	"size": 2506808,
+	"md5": "df74a5a9637fc4b2946ec2a35f5a576a",
+	"sha1": "ca27c1993fdafe611b298b540fff8c1adbda6168",
+	"sha256": "fa4f44a381bfc3207cbf63acf71d9df919c2f691ec05b7610f28a8e5d50c7ac1",
+	"sha512": "c839696df54f067534ab409612ed6cbfc9257aa2c3ae50fbe865dd6871b72025012c4e8a9aa87f8c08e91407d1cbb8195581497a70fac08ed1c527fa95285c50",
+	"descriptionMd5": "f1a6cb2c801dffeb3efc5a51449d0072"
+},{
+	"raw": {},
+	"required": [
+		"Filename",
+		"Size"
+	],
+	"package": "binutils-x86-64-linux-gnu",
+	"source": "binutils",
 	"version": "2.43.1-4ubuntu1",
 	"section": "devel",
 	"priority": "extra",
