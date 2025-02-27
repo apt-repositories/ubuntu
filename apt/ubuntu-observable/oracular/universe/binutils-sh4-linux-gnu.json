@@ -6,6 +6,48 @@
 	],
 	"package": "binutils-sh4-linux-gnu",
 	"source": "binutils",
+	"version": "2.43.1-4ubuntu1.1",
+	"section": "universe/devel",
+	"priority": "extra",
+	"architecture": "amd64",
+	"depends": [
+		"binutils-common (= 2.43.1-4ubuntu1.1)",
+		"libc6 (>= 2.38)",
+		"libjansson4 (>= 2.14)",
+		"libsframe1 (>= 2.41)",
+		"libzstd1 (>= 1.5.5)",
+		"zlib1g (>= 1:1.1.4)"
+	],
+	"suggests": [
+		"binutils-doc (= 2.43.1-4ubuntu1.1)"
+	],
+	"replaces": [
+		"binutils (<< 2.29-6)",
+		"binutils-dev (<< 2.38.50.20220609-2)"
+	],
+	"breaks": [
+		"binutils (<< 2.29-6)",
+		"binutils-dev (<< 2.38.50.20220609-2)"
+	],
+	"installedSize": 5613,
+	"maintainer": "Ubuntu Developers <ubuntu-devel-discuss@lists.ubuntu.com>",
+	"description": "GNU binary utilities, for sh4-linux-gnu target",
+	"homepage": "https://www.gnu.org/software/binutils/",
+	"filename": "pool/universe/b/binutils/binutils-sh4-linux-gnu_2.43.1-4ubuntu1.1_amd64.deb",
+	"size": 1345580,
+	"md5": "231dad9fc7217f6bdc2da9e65a51e50a",
+	"sha1": "a0eddb90e2dc4e08ca74b1dd30942e14b26d7866",
+	"sha256": "caab00465cd71f9ea4444d4efe561d56749247a10b39df1d6b44afba1a3661e7",
+	"sha512": "e19e205286722d2259fed2e2f66c8dd5a7724852c853d27c51a687f4f9e8ddbae72b150e67d9a1be6fcd9064ed4db1a0af91e8dccfa51c65cb7b2654935b6563",
+	"descriptionMd5": "f825034fec7a76f7251bee2c8e9a9eca"
+},{
+	"raw": {},
+	"required": [
+		"Filename",
+		"Size"
+	],
+	"package": "binutils-sh4-linux-gnu",
+	"source": "binutils",
 	"version": "2.43.1-4ubuntu1",
 	"section": "universe/devel",
 	"priority": "extra",

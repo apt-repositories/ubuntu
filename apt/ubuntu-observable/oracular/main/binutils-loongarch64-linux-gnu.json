@@ -6,6 +6,48 @@
 	],
 	"package": "binutils-loongarch64-linux-gnu",
 	"source": "binutils",
+	"version": "2.43.1-4ubuntu1.1",
+	"section": "devel",
+	"priority": "optional",
+	"architecture": "amd64",
+	"depends": [
+		"binutils-common (= 2.43.1-4ubuntu1.1)",
+		"libc6 (>= 2.38)",
+		"libjansson4 (>= 2.14)",
+		"libsframe1 (>= 2.41)",
+		"libzstd1 (>= 1.5.5)",
+		"zlib1g (>= 1:1.1.4)"
+	],
+	"suggests": [
+		"binutils-doc (= 2.43.1-4ubuntu1.1)"
+	],
+	"replaces": [
+		"binutils (<< 2.29-6)",
+		"binutils-dev (<< 2.38.50.20220609-2)"
+	],
+	"breaks": [
+		"binutils (<< 2.29-6)",
+		"binutils-dev (<< 2.38.50.20220609-2)"
+	],
+	"installedSize": 5555,
+	"maintainer": "Ubuntu Developers <ubuntu-devel-discuss@lists.ubuntu.com>",
+	"description": "GNU binary utilities, for loongarch64-linux-gnu target",
+	"homepage": "https://www.gnu.org/software/binutils/",
+	"filename": "pool/main/b/binutils/binutils-loongarch64-linux-gnu_2.43.1-4ubuntu1.1_amd64.deb",
+	"size": 1387310,
+	"md5": "e732a2e50b5ca8d0916ad0c271cc80b6",
+	"sha1": "07f15bb2b6067307ef703d496710c96f24189d85",
+	"sha256": "9010e5c607ec37e6922c17e630302ee782b0a266e339d757acb2c8ec5f6077f4",
+	"sha512": "755f94622f20eb493e7b70043f855cc5b11ec8a3852b1708e1baba25fba75a8145e68b5594e5ee2f500531d37951427c054b6fd0fa5f81452a160505f6bb12d7",
+	"descriptionMd5": "e12630a1ca99aee76f281ee7cbe918cc"
+},{
+	"raw": {},
+	"required": [
+		"Filename",
+		"Size"
+	],
+	"package": "binutils-loongarch64-linux-gnu",
+	"source": "binutils",
 	"version": "2.43.1-4ubuntu1",
 	"section": "devel",
 	"priority": "optional",

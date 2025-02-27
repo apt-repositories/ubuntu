@@ -39,6 +39,39 @@
 	],
 	"package": "qemu-user-binfmt",
 	"source": "qemu",
+	"version": "1:6.2+dfsg-2ubuntu6.25",
+	"section": "universe/otherosfs",
+	"priority": "optional",
+	"architecture": "amd64",
+	"depends": [
+		"qemu-user (= 1:6.2+dfsg-2ubuntu6.25)",
+		"binfmt-support"
+	],
+	"breaks": [
+		"binfmt-support (<< 2.1.7~)"
+	],
+	"conflicts": [
+		"qemu-user-static"
+	],
+	"installedSize": 68,
+	"maintainer": "Ubuntu Developers <ubuntu-devel-discuss@lists.ubuntu.com>",
+	"description": "QEMU user mode binfmt registration for qemu-user",
+	"homepage": "http://www.qemu.org/",
+	"filename": "pool/universe/q/qemu/qemu-user-binfmt_6.2+dfsg-2ubuntu6.25_amd64.deb",
+	"size": 3586,
+	"md5": "5ad9e4ee65dd4874548aca0f19fc92f0",
+	"sha1": "43bcdd020fd8d3eb77e3a62753c868890b36cd88",
+	"sha256": "e154c7e2e3ce8ee3013795f2e217636360bc7ba6a7c99cc447f75855d8706133",
+	"sha512": "6a2cc87df7df4437ede70fcccd4a9301f142f88792c8fe4ecc763981adf7969a3b69535a2bbe2c104da09d6f1f042ee9f010c89e6b8091809d4be49ab5d91fe4",
+	"descriptionMd5": "b9d172841422ce933839d1a34cce7b20"
+},{
+	"raw": {},
+	"required": [
+		"Filename",
+		"Size"
+	],
+	"package": "qemu-user-binfmt",
+	"source": "qemu",
 	"version": "1:6.2+dfsg-2ubuntu6",
 	"section": "universe/otherosfs",
 	"priority": "optional",
