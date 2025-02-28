@@ -5,6 +5,47 @@
 		"Size"
 	],
 	"package": "open-iscsi",
+	"version": "2.1.5-1ubuntu1.1",
+	"section": "net",
+	"priority": "optional",
+	"architecture": "amd64",
+	"depends": [
+		"debconf (>= 0.5) | debconf-2.0",
+		"init-system-helpers (>= 1.51)",
+		"libc6 (>= 2.34)",
+		"libisns0",
+		"libkmod2 (>= 5~)",
+		"libmount1 (>= 2.24.2)",
+		"libopeniscsiusr (>= 2.1.5)",
+		"libssl3 (>= 3.0.0~~alpha1)",
+		"libsystemd0",
+		"udev"
+	],
+	"preDepends": [
+		"debconf | debconf-2.0"
+	],
+	"recommends": [
+		"busybox-initramfs",
+		"finalrd (>= 3)"
+	],
+	"installedSize": 1225,
+	"maintainer": "Ubuntu Developers <ubuntu-devel-discuss@lists.ubuntu.com>",
+	"description": "iSCSI initiator tools",
+	"homepage": "https://www.open-iscsi.com/",
+	"filename": "pool/main/o/open-iscsi/open-iscsi_2.1.5-1ubuntu1.1_amd64.deb",
+	"size": 323308,
+	"md5": "5b189d165f24a242d0bfb8791e03c232",
+	"sha1": "e31c10cbeb7785fe2368b8e8c02d2f2361595d25",
+	"sha256": "59129f84ade3068b2a0e6ad86dd0dc4c1b3a8563e586722615184a5513e79075",
+	"sha512": "9f2ae910e51383ba104edc5abc2d8f21bb502b348baf3acde3274ca959f4c7196ee355b8588852b4d8603879a552024b330f2d755caffa7fdb2e7cd30b432ff0",
+	"descriptionMd5": "067891012a9e049900724bddbc58bf8f"
+},{
+	"raw": {},
+	"required": [
+		"Filename",
+		"Size"
+	],
+	"package": "open-iscsi",
 	"version": "2.1.5-1ubuntu1",
 	"section": "net",
 	"priority": "optional",
