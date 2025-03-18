@@ -37,6 +37,37 @@
 	],
 	"package": "nova-api-os-compute",
 	"source": "nova",
+	"version": "3:29.2.0-0ubuntu1",
+	"section": "universe/net",
+	"priority": "extra",
+	"architecture": "all",
+	"depends": [
+		"apache2 | httpd",
+		"libapache2-mod-wsgi-py3",
+		"python3-nova (= 3:29.2.0-0ubuntu1)"
+	],
+	"conflicts": [
+		"nova-api"
+	],
+	"installedSize": 29,
+	"maintainer": "Ubuntu Developers <ubuntu-devel-discuss@lists.ubuntu.com>",
+	"description": "OpenStack Compute - OpenStack Compute API frontend",
+	"homepage": "https://launchpad.net/nova",
+	"filename": "pool/universe/n/nova/nova-api-os-compute_29.2.0-0ubuntu1_all.deb",
+	"size": 5552,
+	"md5": "39f683a0a61e780a9e7795f918c0923b",
+	"sha1": "f133c4f9ff6dc98f04ca46b3f386ebdf480713cf",
+	"sha256": "fd759c656b2b4de715b98fda045cd9efad154a39479289c13ea08773adf9eda8",
+	"sha512": "44de937bdd9427b3380d8e20fcb1aaff53d261a6f2f1171db9b7bce5f8c4e85bae6d19d1063b5ef6a461650e3b9ffa6dcd7028f0b4b25023789acc2c1bfb80a9",
+	"descriptionMd5": "32fe3c17415adfec970c371f4bdff9b6"
+},{
+	"raw": {},
+	"required": [
+		"Filename",
+		"Size"
+	],
+	"package": "nova-api-os-compute",
+	"source": "nova",
 	"version": "3:29.0.1-0ubuntu1",
 	"section": "universe/net",
 	"priority": "extra",

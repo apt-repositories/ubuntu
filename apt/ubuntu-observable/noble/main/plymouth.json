@@ -5,6 +5,55 @@
 		"Size"
 	],
 	"package": "plymouth",
+	"version": "24.004.60-1ubuntu7.1",
+	"section": "x11",
+	"priority": "standard",
+	"architecture": "amd64",
+	"depends": [
+		"init-system-helpers (>= 1.18)",
+		"sysvinit-utils (>= 3.05-4)",
+		"systemd (>= 232-8~) | elogind",
+		"udev (>= 232-8~)",
+		"libc6 (>= 2.38)",
+		"libdrm2 (>= 2.4.47)",
+		"libplymouth5 (>= 23.360.11)"
+	],
+	"recommends": [
+		"plymouth-theme-ubuntu-text | plymouth-theme"
+	],
+	"suggests": [
+		"desktop-base",
+		"plymouth-themes"
+	],
+	"replaces": [
+		"plymouth-drm (<< 0.9.0-6~)",
+		"plymouth-themes (<< 0.9.0-8~)"
+	],
+	"breaks": [
+		"plymouth-drm (<< 0.9.0-6~)",
+		"plymouth-themes (<< 0.9.0-8~)"
+	],
+	"conflicts": [
+		"console-common"
+	],
+	"installedSize": 892,
+	"maintainer": "Ubuntu Developers <ubuntu-devel-discuss@lists.ubuntu.com>",
+	"description": "boot animation, logger and I/O multiplexer",
+	"homepage": "https://www.freedesktop.org/wiki/Software/Plymouth",
+	"filename": "pool/main/p/plymouth/plymouth_24.004.60-1ubuntu7.1_amd64.deb",
+	"size": 133868,
+	"md5": "1327e354a009a4858bde37c275887e6a",
+	"sha1": "58358fac801f3c2bb6190c17c0bf57b6d06ec10e",
+	"sha256": "1ebfeb0887a2ad9ab3c48b5121b8287855aefa2702c54efc17250bc19c1fb86c",
+	"sha512": "5e5c5330fb1c8a99b0607ac74fc95633cee8c1791bdf671b81944a5a035dd10473fc02e1dae912f67235e884be9a9716fe45da1ba7cde58997444d86f4a69c03",
+	"descriptionMd5": "3bdea2047eb9e9c5a5a0546b4dbac457"
+},{
+	"raw": {},
+	"required": [
+		"Filename",
+		"Size"
+	],
+	"package": "plymouth",
 	"version": "24.004.60-1ubuntu7",
 	"section": "x11",
 	"priority": "standard",

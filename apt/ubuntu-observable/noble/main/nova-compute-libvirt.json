@@ -48,6 +48,48 @@
 	],
 	"package": "nova-compute-libvirt",
 	"source": "nova",
+	"version": "3:29.2.0-0ubuntu1",
+	"section": "net",
+	"priority": "extra",
+	"architecture": "all",
+	"depends": [
+		"adduser",
+		"ebtables",
+		"genisoimage",
+		"iptables",
+		"kpartx",
+		"libvirt-daemon-system | libvirt-bin",
+		"open-iscsi",
+		"parted",
+		"python3-nova (= 3:29.2.0-0ubuntu1)",
+		"qemu-utils"
+	],
+	"suggests": [
+		"guestmount",
+		"multipath-tools",
+		"rsync",
+		"sg3-utils",
+		"sysfsutils"
+	],
+	"installedSize": 17,
+	"maintainer": "Ubuntu Developers <ubuntu-devel-discuss@lists.ubuntu.com>",
+	"description": "OpenStack Compute - compute node libvirt support",
+	"homepage": "https://launchpad.net/nova",
+	"filename": "pool/main/n/nova/nova-compute-libvirt_29.2.0-0ubuntu1_all.deb",
+	"size": 2826,
+	"md5": "4ddf7a9c7a73720bb119b49c88625b19",
+	"sha1": "df0283229c52a3f71dc74085c63f1720615a01ce",
+	"sha256": "29bb17ee5b1c7c0434790c06963005cbec6c6a226543056e39c4ad19c0d85e43",
+	"sha512": "e0a41f31f4b77354a2c097f86dedf893606daed23cc690a3a8f150bff3112208ef28648469c714619b954ae22ec7895c46a637bd34848006418ba503a4ec3633",
+	"descriptionMd5": "128101f3838791afe92b57c5afcef336"
+},{
+	"raw": {},
+	"required": [
+		"Filename",
+		"Size"
+	],
+	"package": "nova-compute-libvirt",
+	"source": "nova",
 	"version": "3:29.0.1-0ubuntu1",
 	"section": "net",
 	"priority": "extra",
