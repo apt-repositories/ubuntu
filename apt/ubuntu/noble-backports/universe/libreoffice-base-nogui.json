@@ -1,0 +1,59 @@
+{
+	"raw": {},
+	"required": [
+		"Filename",
+		"Size"
+	],
+	"package": "libreoffice-base-nogui",
+	"source": "libreoffice",
+	"version": "4:24.8.5-0ubuntu0.24.10.1~bpo24.04.1",
+	"section": "universe/database",
+	"priority": "optional",
+	"architecture": "amd64",
+	"depends": [
+		"libreoffice-base-core (= 4:24.8.5-0ubuntu0.24.10.1~bpo24.04.1)",
+		"libreoffice-base-drivers (= 4:24.8.5-0ubuntu0.24.10.1~bpo24.04.1)",
+		"libreoffice-common (>= 1:7.0.0~alpha~)",
+		"libreoffice-core-nogui (= 4:24.8.5-0ubuntu0.24.10.1~bpo24.04.1) | libreoffice-core (= 4:24.8.5-0ubuntu0.24.10.1~bpo24.04.1)",
+		"ucf",
+		"libc6 (>= 2.32)",
+		"libgcc-s1 (>= 3.0)",
+		"libstdc++6 (>= 11)",
+		"libuno-cppu3t64 (>= 4.4.0~alpha)",
+		"libuno-cppuhelpergcc3-3t64 (>= 4.0.0~alpha)",
+		"libuno-sal3t64 (>= 1:7.3.0~beta1)",
+		"libuno-salhelpergcc3-3t64 (>= 1.4.0)",
+		"uno-libs-private"
+	],
+	"recommends": [
+		"libreoffice-writer",
+		"libreoffice-java-common (>= 4:24.8.5~)",
+		"default-jre (>= 2:1.8) | java-runtime (>= 8) | java8-runtime | jre"
+	],
+	"suggests": [
+		"libreoffice-report-builder",
+		"python3-uno",
+		"unixodbc"
+	],
+	"replaces": [
+		"libreoffice-base",
+		"libreoffice-common (<< 1:6.4.2~rc1~)"
+	],
+	"breaks": [
+		"libreoffice-common (<< 1:6.4.2~rc1~)"
+	],
+	"conflicts": [
+		"libreoffice-base"
+	],
+	"installedSize": 1056,
+	"maintainer": "Ubuntu Developers <ubuntu-devel-discuss@lists.ubuntu.com>",
+	"description": "office productivity suite -- database (no GUI variant)",
+	"homepage": "http://www.libreoffice.org",
+	"filename": "pool/universe/libr/libreoffice/libreoffice-base-nogui_24.8.5-0ubuntu0.24.10.1~bpo24.04.1_amd64.deb",
+	"size": 277954,
+	"md5": "9bf0d30c5eec76831c293771674531e8",
+	"sha1": "70802dc1cd0c9cc70f6f8f17d324e58ac6ca11e8",
+	"sha256": "d580f02596bdd6eeba1ed7021177e18963a339a0eadb4bd27b4ac6505fe5fd77",
+	"sha512": "9098b90f84ecd3cceb75daa902d5c23a8c6029d13ac3f2b94e44188738716bd53711e0ed5493b04247a56f590c507bdfdb9197a20635d3888aede2d7bdc98965",
+	"descriptionMd5": "e83dd6cdb7c67ccb13c0407fd6a32ebc"
+}
