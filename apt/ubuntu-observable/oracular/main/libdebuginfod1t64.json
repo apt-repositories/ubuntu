@@ -6,6 +6,42 @@
 	],
 	"package": "libdebuginfod1t64",
 	"source": "elfutils",
+	"version": "0.191-2ubuntu0.1",
+	"section": "libs",
+	"priority": "optional",
+	"architecture": "amd64",
+	"depends": [
+		"libc6 (>= 2.38)",
+		"libcurl3t64-gnutls (>= 7.28.0)",
+		"libelf1t64 (= 0.191-2ubuntu0.1)",
+		"libdw1t64 (= 0.191-2ubuntu0.1)",
+		"libdebuginfod-common (>= 0.191-2ubuntu0.1)"
+	],
+	"replaces": [
+		"libdebuginfod1"
+	],
+	"breaks": [
+		"libdebuginfod1 (<< 0.191-2ubuntu0.1)"
+	],
+	"installedSize": 70,
+	"maintainer": "Ubuntu Developers <ubuntu-devel-discuss@lists.ubuntu.com>",
+	"description": "library to interact with debuginfod (development files)",
+	"homepage": "https://sourceware.org/elfutils/",
+	"filename": "pool/main/e/elfutils/libdebuginfod1t64_0.191-2ubuntu0.1_amd64.deb",
+	"size": 17042,
+	"md5": "a344516b0aa637d48a94bb4e35f6d023",
+	"sha1": "a7c34f1dfe0d29463ade354655df667c6ff14979",
+	"sha256": "2d66c4ab5a64efc41d0d787b09b22e00e46531cb505ba20c4f4d3dc846b62a75",
+	"sha512": "5a40582c6ec24542d480fda5735cd4d2347ebcb2a0c4f111629c9e2e58e9a6a77dbf83b11145c600b5c61d274ab83b2702a4a8f8c8537e6c681f4d9b31174f9c",
+	"descriptionMd5": "d62f7cacb6384ca72053831f668bd54c"
+},{
+	"raw": {},
+	"required": [
+		"Filename",
+		"Size"
+	],
+	"package": "libdebuginfod1t64",
+	"source": "elfutils",
 	"version": "0.191-2",
 	"section": "libs",
 	"priority": "optional",
