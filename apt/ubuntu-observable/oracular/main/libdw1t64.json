@@ -6,6 +6,43 @@
 	],
 	"package": "libdw1t64",
 	"source": "elfutils",
+	"version": "0.191-2ubuntu0.1",
+	"section": "libs",
+	"priority": "optional",
+	"architecture": "amd64",
+	"depends": [
+		"libbz2-1.0",
+		"libc6 (>= 2.38)",
+		"libelf1t64 (= 0.191-2ubuntu0.1)",
+		"liblzma5 (>= 5.1.1alpha+20120614)",
+		"libzstd1 (>= 1.5.5)",
+		"zlib1g (>= 1:1.2.2.3)"
+	],
+	"replaces": [
+		"libdw1"
+	],
+	"breaks": [
+		"libdw1 (<< 0.191-2ubuntu0.1)"
+	],
+	"installedSize": 778,
+	"maintainer": "Ubuntu Developers <ubuntu-devel-discuss@lists.ubuntu.com>",
+	"description": "library that provides access to the DWARF debug information",
+	"homepage": "https://sourceware.org/elfutils/",
+	"filename": "pool/main/e/elfutils/libdw1t64_0.191-2ubuntu0.1_amd64.deb",
+	"size": 268548,
+	"md5": "d5bf35ef1984f2417e09e75d06615018",
+	"sha1": "05354eca130146d5a28195feacc2cbd38edc3c47",
+	"sha256": "b6d0da9d6be2560efb37f0ae66bbb965436ef6a4bac771b26343c820763651db",
+	"sha512": "3b5047fa1490e787a54e4def49772c08aeacfd2d14463a10adaefa73600c6f9c22b8a62b53ac31a9430227c64d18beec5e0153b494c6350a220e2dbb81058902",
+	"descriptionMd5": "400b1d81b4127a4393ad2848aee6ecfa"
+},{
+	"raw": {},
+	"required": [
+		"Filename",
+		"Size"
+	],
+	"package": "libdw1t64",
+	"source": "elfutils",
 	"version": "0.191-2",
 	"section": "libs",
 	"priority": "optional",

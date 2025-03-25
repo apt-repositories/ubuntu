@@ -6,6 +6,40 @@
 	],
 	"package": "libelf1t64",
 	"source": "elfutils",
+	"version": "0.191-2ubuntu0.1",
+	"section": "libs",
+	"priority": "important",
+	"architecture": "amd64",
+	"depends": [
+		"libc6 (>= 2.38)",
+		"libzstd1 (>= 1.5.5)",
+		"zlib1g (>= 1:1.1.4)"
+	],
+	"replaces": [
+		"libelf1"
+	],
+	"breaks": [
+		"libelf1 (<< 0.191-2ubuntu0.1)"
+	],
+	"installedSize": 208,
+	"maintainer": "Ubuntu Developers <ubuntu-devel-discuss@lists.ubuntu.com>",
+	"description": "library to read and write ELF files",
+	"homepage": "https://sourceware.org/elfutils/",
+	"filename": "pool/main/e/elfutils/libelf1t64_0.191-2ubuntu0.1_amd64.deb",
+	"size": 58406,
+	"md5": "71c0f4014990db7e9a6bea4fe1afb2bd",
+	"sha1": "a8153df943c7d86af851968ac7b2cd0ef1e35b62",
+	"sha256": "0299226b1ae2d1ec3a6923b35659583707d380029b416e3fb200fd06adcda1e3",
+	"sha512": "4005f6c7759d34627911c03775fce8e5311c659b48e8671a07ab83e265df68065768edf2771c9b18446f37e2fb15328984f9e054541258eb312ae656d2472e99",
+	"descriptionMd5": "0e9f703e8803a8baa9314c41c8b7ee96"
+},{
+	"raw": {},
+	"required": [
+		"Filename",
+		"Size"
+	],
+	"package": "libelf1t64",
+	"source": "elfutils",
 	"version": "0.191-2",
 	"section": "libs",
 	"priority": "important",

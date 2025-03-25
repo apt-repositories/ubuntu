@@ -6,28 +6,32 @@
 	],
 	"package": "linux-nvidia-tegra-igx-tegra-igpu-jetson-defaults",
 	"source": "linux-nvidia-tegra-igx-modules-signed",
-	"version": "5.15.0-1020.20+2",
+	"version": "5.15.0-1021.21",
 	"section": "kernel",
 	"priority": "optional",
 	"architecture": "all",
 	"replaces": [
+		"linux-nvidia-tegra-igx-rt-tegra-igpu-branch-defaults-meta",
 		"linux-nvidia-tegra-igx-tegra-igpu-branch-defaults-meta",
-		"linux-nvidia-tegra-igx-tegra-igpu-igx-defaults (<< 5.15.0-1020.20+2)"
+		"linux-nvidia-tegra-igx-tegra-igpu-defaults-virtual",
+		"linux-nvidia-tegra-igx-tegra-igpu-igx-defaults (<< 5.15.0-1021.21)"
 	],
 	"conflicts": [
+		"linux-nvidia-tegra-igx-rt-tegra-igpu-branch-defaults-meta",
 		"linux-nvidia-tegra-igx-tegra-igpu-branch-defaults-meta",
-		"linux-nvidia-tegra-igx-tegra-igpu-igx-defaults (<< 5.15.0-1020.20+2)",
+		"linux-nvidia-tegra-igx-tegra-igpu-defaults-virtual",
+		"linux-nvidia-tegra-igx-tegra-igpu-igx-defaults (<< 5.15.0-1021.21)",
 		"nvidia-dkms-kernel",
 		"nvidia-prebuilt-kernel"
 	],
 	"installedSize": 22,
 	"maintainer": "Canonical Kernel Team <kernel-team@lists.ubuntu.com>",
 	"description": "Extra configuration required for jetson IGX Orin iGPU modules.",
-	"filename": "pool/main/l/linux-nvidia-tegra-igx-modules-signed/linux-nvidia-tegra-igx-tegra-igpu-jetson-defaults_5.15.0-1020.20+2_all.deb",
-	"size": 4612,
-	"md5": "38e7fb8059a1ba3302e3cfe72b8c0196",
-	"sha1": "ab0bfddd323e194e0d2bce54307a873c1f364e8a",
-	"sha256": "6bfcfbb2b999eb82af4e337623da2e05ce9e633200acd664048739db5bbb3136",
-	"sha512": "1e94ad9468288bf35bf3c06f227218dd35e483445862e01d8cecdd74d715e3477973c8ba1960ff45f8c440cf24cf09c3aeb0bc737d95a18902ed264c55498923",
+	"filename": "pool/main/l/linux-nvidia-tegra-igx-modules-signed/linux-nvidia-tegra-igx-tegra-igpu-jetson-defaults_5.15.0-1021.21_all.deb",
+	"size": 4750,
+	"md5": "b19848090f443abc80245a38b8da1569",
+	"sha1": "b92c67b730895f29744763b3177a6ffa86710f35",
+	"sha256": "3e2e11a910f18be0c61a78b9076e1eeb152cd71b8ab65c3c9c3873dfff56e75a",
+	"sha512": "a285f71b024547db18bb89a9a5ea2a9a02aa3d8c5c37d946bf4a50f80f7784745f14ea28f2731d8a271af372c5541e053c7af61ec81f5c5a4e8c84d9cf1a88e5",
 	"descriptionMd5": "cd92f3c6ee903cba116a29fca8871f4d"
 }

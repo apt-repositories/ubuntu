@@ -1,0 +1,42 @@
+{
+	"raw": {},
+	"required": [
+		"Filename",
+		"Size"
+	],
+	"package": "linux-image-5.15.0-1072-ibm",
+	"source": "linux-signed-ibm",
+	"version": "5.15.0-1072.75",
+	"section": "kernel",
+	"priority": "optional",
+	"architecture": "amd64",
+	"depends": [
+		"kmod",
+		"linux-base (>= 4.5ubuntu1~16.04.1)",
+		"linux-modules-5.15.0-1072-ibm"
+	],
+	"recommends": [
+		"grub-pc | grub-efi-amd64 | grub-efi-ia32 | grub | lilo",
+		"initramfs-tools | linux-initramfs-tool"
+	],
+	"suggests": [
+		"fdutils",
+		"linux-ibm-doc-5.15.0 | linux-ibm-source-5.15.0",
+		"linux-ibm-tools",
+		"linux-headers-5.15.0-1072-ibm"
+	],
+	"conflicts": [
+		"linux-image-unsigned-5.15.0-1072-ibm"
+	],
+	"installedSize": 11469,
+	"maintainer": "Canonical Kernel Team <kernel-team@lists.ubuntu.com>",
+	"description": "Signed kernel image ibm",
+	"builtUsing": "linux-ibm (= 5.15.0-1072.75)",
+	"filename": "pool/main/l/linux-signed-ibm/linux-image-5.15.0-1072-ibm_5.15.0-1072.75_amd64.deb",
+	"size": 11552072,
+	"md5": "508668d8a482896550a747066604d03d",
+	"sha1": "a3e0f7a638409930f2cd27971d3542b943aa0439",
+	"sha256": "f407822df50943a3ae34198a780665e476d2ece6c2190f7f17770faf12ac995c",
+	"sha512": "f800ca5ef6f0afbcf731e243675c049218cd25f964931402a6346604a9ef6e2ee5cc8658e0b69c20e785fa831e7553ec41a315450a58554bb6d39a927d7f0391",
+	"descriptionMd5": "37112d568f64b0d65fad68b1aa6f4721"
+}

@@ -6,28 +6,21 @@
 	],
 	"package": "linux-nvidia-tegra-igx-rt-tegra-igpu-jetson-defaults",
 	"source": "linux-nvidia-tegra-igx-modules-signed",
-	"version": "5.15.0-1020.20+2",
+	"version": "5.15.0-1021.21",
 	"section": "kernel",
 	"priority": "optional",
 	"architecture": "all",
-	"replaces": [
-		"linux-nvidia-tegra-igx-rt-tegra-igpu-branch-defaults-meta",
-		"linux-nvidia-tegra-igx-tegra-igpu-igx-defaults (<< 5.15.0-1020.20+2)"
+	"depends": [
+		"linux-nvidia-tegra-igx-tegra-igpu-jetson-defaults"
 	],
-	"conflicts": [
-		"linux-nvidia-tegra-igx-rt-tegra-igpu-branch-defaults-meta",
-		"linux-nvidia-tegra-igx-tegra-igpu-igx-defaults (<< 5.15.0-1020.20+2)",
-		"nvidia-dkms-kernel",
-		"nvidia-prebuilt-kernel"
-	],
-	"installedSize": 22,
+	"installedSize": 11,
 	"maintainer": "Canonical Kernel Team <kernel-team@lists.ubuntu.com>",
-	"description": "Extra configuration required for jetson IGX Orin iGPU modules.",
-	"filename": "pool/main/l/linux-nvidia-tegra-igx-modules-signed/linux-nvidia-tegra-igx-rt-tegra-igpu-jetson-defaults_5.15.0-1020.20+2_all.deb",
-	"size": 4626,
-	"md5": "d689d811c8ddc9caf3375b2f36b12898",
-	"sha1": "93dc607fb633a1d2d731f4c72a0922180be4c0ec",
-	"sha256": "a7af5442003404ff61258eef44e481855a14cd07e44f753e4598ea7678656529",
-	"sha512": "47909b72cccb3d2edfe6a55bdf2bd48d3124ca4ef5387a865d47e323f13f22a6cc5ef81a82e33dc91395076deb35f4b439917f3059601063f9b07b34b666d100",
-	"descriptionMd5": "cd92f3c6ee903cba116a29fca8871f4d"
+	"description": "Extra configuration required for IGX Orin iGPU modules (empty dummy package)",
+	"filename": "pool/main/l/linux-nvidia-tegra-igx-modules-signed/linux-nvidia-tegra-igx-rt-tegra-igpu-jetson-defaults_5.15.0-1021.21_all.deb",
+	"size": 4240,
+	"md5": "ab46953faa02ef761f2f16f3590ef8e6",
+	"sha1": "36e26a778e6fe527409570038698be6508d7d6ed",
+	"sha256": "f36fc79d7ef165c1c85d0691d458767996ce9e79a45d21bd90c4eeb698977c46",
+	"sha512": "0cb33e1f5d1dd0993c669eed5f5389001f05b71c2f4983d059d0aa913afc4b8f43c34517401bf1b9508bb7101542d35c6ef4ae379e6e6f0ffc11a21e007d4aa2",
+	"descriptionMd5": "a04b13ee83511ff58eb03a5374885ec9"
 }
