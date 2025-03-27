@@ -6,28 +6,21 @@
 	],
 	"package": "linux-nvidia-tegra-igx-rt-tegra-igpu-r36.4.1-defaults",
 	"source": "linux-nvidia-tegra-igx-modules-signed",
-	"version": "5.15.0-1020.20+2",
+	"version": "5.15.0-1021.21",
 	"section": "kernel",
 	"priority": "optional",
 	"architecture": "all",
-	"replaces": [
-		"linux-nvidia-tegra-igx-rt-tegra-igpu-branch-defaults-meta",
-		"linux-nvidia-tegra-igx-tegra-igpu-igx-defaults (<< 5.15.0-1020.20+2)"
+	"depends": [
+		"linux-nvidia-tegra-igx-tegra-igpu-r36.4.1-defaults"
 	],
-	"conflicts": [
-		"linux-nvidia-tegra-igx-rt-tegra-igpu-branch-defaults-meta",
-		"linux-nvidia-tegra-igx-tegra-igpu-igx-defaults (<< 5.15.0-1020.20+2)",
-		"nvidia-dkms-kernel",
-		"nvidia-prebuilt-kernel"
-	],
-	"installedSize": 22,
+	"installedSize": 11,
 	"maintainer": "Canonical Kernel Team <kernel-team@lists.ubuntu.com>",
-	"description": "Extra configuration required for r36.4.1 IGX Orin iGPU modules.",
-	"filename": "pool/main/l/linux-nvidia-tegra-igx-modules-signed/linux-nvidia-tegra-igx-rt-tegra-igpu-r36.4.1-defaults_5.15.0-1020.20+2_all.deb",
-	"size": 4624,
-	"md5": "5758dc37bc6fe48b80d37a3ef38862c9",
-	"sha1": "f5f2efda0db7bc7fddb7628d97e96abc5e4e1af9",
-	"sha256": "9b262e61f6714babab35c07cbd6615548ccff583d78a10f36d1d6197a68df61a",
-	"sha512": "b63ea2607f0c68400b6d29aa9e30a857f1420f98f13b15da14cb04eeb970a2d13f6f70fe5096d7719f0112a2a523f33d26c4273b91ad4e23e28eab554559e8f1",
-	"descriptionMd5": "cffaa55d257d95e57582decb267dc5d5"
+	"description": "Extra configuration required for IGX Orin iGPU modules (empty dummy package)",
+	"filename": "pool/main/l/linux-nvidia-tegra-igx-modules-signed/linux-nvidia-tegra-igx-rt-tegra-igpu-r36.4.1-defaults_5.15.0-1021.21_all.deb",
+	"size": 4232,
+	"md5": "6d6c243dcaf99670119f1d0008460ead",
+	"sha1": "204f9dab8b0f6d2a98ac50710b30343c156771d3",
+	"sha256": "a47643e585bd5379716ce898353d6442f38645b19c01ec4c863c2ba8add24e35",
+	"sha512": "623fedf1fa3c7a3f3ef68acb25d706ed8e5449117209d3d041ef45ba7709bb12260976b85e46cda9b5cf6b30bc33442ed630c81eee466e40a33431db412d2cdf",
+	"descriptionMd5": "a04b13ee83511ff58eb03a5374885ec9"
 }
