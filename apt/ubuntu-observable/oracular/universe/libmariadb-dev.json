@@ -6,6 +6,53 @@
 	],
 	"package": "libmariadb-dev",
 	"source": "mariadb",
+	"version": "1:11.4.5-0ubuntu0.24.10.1",
+	"section": "universe/libdevel",
+	"priority": "optional",
+	"architecture": "amd64",
+	"depends": [
+		"libmariadb3 (= 1:11.4.5-0ubuntu0.24.10.1)",
+		"libssl-dev",
+		"zlib1g-dev",
+		"libc6 (>= 2.34)"
+	],
+	"replaces": [
+		"libmariadb-client-lgpl-dev",
+		"libmariadb-dev-compat (<< 1:11.4.5-0ubuntu0.24.10.1)",
+		"libmariadbclient-dev (<< 1:10.3)",
+		"libmysqlclient-dev",
+		"libmysqld-dev (<< 1:11.4.5-0ubuntu0.24.10.1)"
+	],
+	"breaks": [
+		"libmariadb-client-lgpl-dev",
+		"libmariadb-dev-compat (<< 1:11.4.5-0ubuntu0.24.10.1)",
+		"libmariadbclient-dev (<< 1:10.3)",
+		"libmysqlclient-dev",
+		"libmysqld-dev (<< 1:11.4.5-0ubuntu0.24.10.1)"
+	],
+	"conflicts": [
+		"libmariadbclient16-dev",
+		"libmysqlclient-dev"
+	],
+	"installedSize": 1022,
+	"maintainer": "Ubuntu Developers <ubuntu-devel-discuss@lists.ubuntu.com>",
+	"description": "MariaDB database development files",
+	"homepage": "https://mariadb.org/",
+	"filename": "pool/universe/m/mariadb/libmariadb-dev_11.4.5-0ubuntu0.24.10.1_amd64.deb",
+	"size": 274748,
+	"md5": "e3c5f2b1452ceb9e613924d6d812771a",
+	"sha1": "56dec29432b33acf66a3c96f08d24e4c97f99329",
+	"sha256": "5ab037fffff6ccf419eb71ccc358f69cf4fc625d5f3bb9d331ba986ec6569bc1",
+	"sha512": "2161aeb79e53ff4531cea479e79b8565045a8c7ca2c39f7a55422548a8b901788c320d4f50edd5ead026951bfb6db2cb01ae237204570322be4e1445deefd7ca",
+	"descriptionMd5": "5147f292c112a0def76ef58780903826"
+},{
+	"raw": {},
+	"required": [
+		"Filename",
+		"Size"
+	],
+	"package": "libmariadb-dev",
+	"source": "mariadb",
 	"version": "1:11.4.3-1",
 	"section": "universe/libdevel",
 	"priority": "optional",
