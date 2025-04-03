@@ -6,6 +6,66 @@
 	],
 	"package": "zfs-test",
 	"source": "zfs-linux",
+	"version": "2.2.6-1ubuntu1.1",
+	"section": "universe/admin",
+	"priority": "optional",
+	"architecture": "amd64",
+	"depends": [
+		"acl",
+		"attr",
+		"bc",
+		"fio",
+		"ksh",
+		"lsscsi",
+		"mdadm",
+		"parted",
+		"python3",
+		"python3-pyzfs",
+		"sudo",
+		"sysstat",
+		"zfsutils-linux (>= 2.2.6-1ubuntu1.1)",
+		"libaio1t64 (>= 0.3.93)",
+		"libc6 (>= 2.38)",
+		"libnvpair3linux (>= 0.8.2)",
+		"libudev1 (>= 183)",
+		"libzfs4linux (>= 2.2)",
+		"libzpool5linux (>= 2.2.0)",
+		"zlib1g (>= 1:1.2.3.3)"
+	],
+	"recommends": [
+		"curl",
+		"nfs-kernel-server",
+		"rsync",
+		"tzdata-legacy"
+	],
+	"replaces": [
+		"zfsutils-linux (<= 0.7.9-2)"
+	],
+	"breaks": [
+		"zfsutils-linux (<= 0.7.9-2)"
+	],
+	"conflicts": [
+		"zutils"
+	],
+	"installedSize": 34761,
+	"maintainer": "Ubuntu Developers <ubuntu-devel-discuss@lists.ubuntu.com>",
+	"description": "OpenZFS test infrastructure and support scripts",
+	"homepage": "https://zfsonlinux.org/",
+	"filename": "pool/universe/z/zfs-linux/zfs-test_2.2.6-1ubuntu1.1_amd64.deb",
+	"size": 28602136,
+	"md5": "a364c39350c1e4f1de4604c83c32f962",
+	"sha1": "d0269db3304d3f14c26c13d9cbe45b626f6268d1",
+	"sha256": "90116bfaa1edaf0a5b8e8bc3981e6ba8d0650ec9b554e24415d9339e7ec4e960",
+	"sha512": "e75c17181ecee7dcf03a5c41a24744d3a3899af9efd36733c19bcdbefaca374c04e0dfe0edc49f565ba522158a78b4111acb7332b0a1126df376f191c78c97fb",
+	"descriptionMd5": "626efba8698ac960b7fa793abb13e6d2"
+},{
+	"raw": {},
+	"required": [
+		"Filename",
+		"Size"
+	],
+	"package": "zfs-test",
+	"source": "zfs-linux",
 	"version": "2.2.6-1ubuntu1",
 	"section": "universe/admin",
 	"priority": "optional",
