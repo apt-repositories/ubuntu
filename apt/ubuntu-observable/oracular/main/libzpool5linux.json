@@ -6,6 +6,45 @@
 	],
 	"package": "libzpool5linux",
 	"source": "zfs-linux",
+	"version": "2.2.6-1ubuntu1.1",
+	"section": "libs",
+	"priority": "optional",
+	"architecture": "amd64",
+	"depends": [
+		"libblkid1 (>= 2.16)",
+		"libc6 (>= 2.38)",
+		"libnvpair3linux (>= 0.8.2)",
+		"libudev1 (>= 183)",
+		"libuuid1 (>= 2.16)",
+		"zlib1g (>= 1:1.1.4)"
+	],
+	"replaces": [
+		"libzpool2",
+		"libzpool5"
+	],
+	"breaks": [
+		"libzpool2",
+		"libzpool5"
+	],
+	"installedSize": 4261,
+	"maintainer": "Ubuntu Developers <ubuntu-devel-discuss@lists.ubuntu.com>",
+	"description": "OpenZFS pool library for Linux",
+	"homepage": "https://zfsonlinux.org/",
+	"filename": "pool/main/z/zfs-linux/libzpool5linux_2.2.6-1ubuntu1.1_amd64.deb",
+	"size": 1402918,
+	"md5": "825ac38e55244c7c6c81cc5cc6a8cf4c",
+	"sha1": "6c7fcafccef3352d2e006cf6575807af964cf8af",
+	"sha256": "4e6a8b0f918ce897d7b965fff742077bbec8e6dbb6c9bb7616da8d8ddcbac7c8",
+	"sha512": "3b9f542781bd6850b4437344f48b581039d3145cdedbaabe5338796082d049be54bf5d0f8324ab79cb4bc3f07b43b717b8a8b277de9cf8d34e871021c120d22a",
+	"descriptionMd5": "5411b703c1dae8e2c3f38bbe7330f01d"
+},{
+	"raw": {},
+	"required": [
+		"Filename",
+		"Size"
+	],
+	"package": "libzpool5linux",
+	"source": "zfs-linux",
 	"version": "2.2.6-1ubuntu1",
 	"section": "libs",
 	"priority": "optional",
