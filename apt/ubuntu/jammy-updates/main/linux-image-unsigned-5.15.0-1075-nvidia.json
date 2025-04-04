@@ -1,0 +1,42 @@
+{
+	"raw": {},
+	"required": [
+		"Filename",
+		"Size"
+	],
+	"package": "linux-image-unsigned-5.15.0-1075-nvidia",
+	"source": "linux-nvidia",
+	"version": "5.15.0-1075.76",
+	"section": "kernel",
+	"priority": "optional",
+	"architecture": "amd64",
+	"depends": [
+		"kmod",
+		"linux-base (>= 4.5ubuntu1~16.04.1)",
+		"linux-modules-5.15.0-1075-nvidia"
+	],
+	"recommends": [
+		"grub-pc | grub-efi-amd64 | grub-efi-ia32 | grub | lilo",
+		"initramfs-tools | linux-initramfs-tool"
+	],
+	"suggests": [
+		"fdutils",
+		"linux-doc | linux-nvidia-source-5.15.0",
+		"linux-nvidia-tools",
+		"linux-headers-5.15.0-1075-nvidia",
+		"linux-modules-extra-5.15.0-1075-nvidia"
+	],
+	"conflicts": [
+		"linux-image-5.15.0-1075-nvidia"
+	],
+	"installedSize": 12317,
+	"maintainer": "Ubuntu Kernel Team <kernel-team@lists.ubuntu.com>",
+	"description": "Linux kernel image for version 5.15.0 on 64 bit x86 SMP",
+	"filename": "pool/main/l/linux-nvidia/linux-image-unsigned-5.15.0-1075-nvidia_5.15.0-1075.76_amd64.deb",
+	"size": 12626112,
+	"md5": "592e620b971f57a312258e67752eae68",
+	"sha1": "1b946175d00ff6fd688a91fc4ca0d18619270564",
+	"sha256": "ff1d116d7d9fdeee4e7ddc82cf2c460156d99c82470081a32c6f5b9f90ac7417",
+	"sha512": "dc739f9d88774cc570fc24f67b01560803751c393f73e78284cb813dc9bfab001b7d392a230f8a871ecdbb0e260c42dff760eafccc01c1b61c09b58d1b61af1c",
+	"descriptionMd5": "332207b41fd4aa922c676af75d960fb4"
+}
