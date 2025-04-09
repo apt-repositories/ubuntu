@@ -6,6 +6,49 @@
 	],
 	"package": "poppler-utils",
 	"source": "poppler",
+	"version": "22.02.0-2ubuntu0.7",
+	"section": "utils",
+	"priority": "optional",
+	"architecture": "amd64",
+	"depends": [
+		"libpoppler118 (= 22.02.0-2ubuntu0.7)",
+		"libc6 (>= 2.34)",
+		"libcairo2 (>= 1.12.0)",
+		"libfreetype6 (>= 2.2.1)",
+		"liblcms2-2 (>= 2.2+git20110628)",
+		"libstdc++6 (>= 5.2)"
+	],
+	"replaces": [
+		"pdftohtml",
+		"xpdf-reader",
+		"xpdf-utils (<< 3.02-2~)"
+	],
+	"breaks": [
+		"xpdf-common",
+		"xpdf-utils (<< 1:0)"
+	],
+	"conflicts": [
+		"pdftohtml"
+	],
+	"installedSize": 680,
+	"maintainer": "Ubuntu Developers <ubuntu-devel-discuss@lists.ubuntu.com>",
+	"description": "PDF utilities (based on Poppler)",
+	"homepage": "https://poppler.freedesktop.org/",
+	"filename": "pool/main/p/poppler/poppler-utils_22.02.0-2ubuntu0.7_amd64.deb",
+	"size": 185952,
+	"md5": "5c0744d1c94c4973d9b4f2000c9c186b",
+	"sha1": "4099a1a0a339414f69c1e1d90e79d12ccf0b8287",
+	"sha256": "c4542ccca6c06da16df866ead338c011e274ad193718262decb201c89f48de8d",
+	"sha512": "01cd4ced0a08b13f796f2a11065921b99cf2daa2126c925fbd9958db34e5efa70c1544a55a8fcb6fafbde2508899aed8064fe37844f8f2e518949a9b6c79ff77",
+	"descriptionMd5": "c82ab1c01fb88c7aab560b4a6154c69f"
+},{
+	"raw": {},
+	"required": [
+		"Filename",
+		"Size"
+	],
+	"package": "poppler-utils",
+	"source": "poppler",
 	"version": "22.02.0-2ubuntu0.6",
 	"section": "utils",
 	"priority": "optional",
