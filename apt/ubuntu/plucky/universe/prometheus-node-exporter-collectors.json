@@ -1,0 +1,45 @@
+{
+	"raw": {},
+	"required": [
+		"Filename",
+		"Size"
+	],
+	"package": "prometheus-node-exporter-collectors",
+	"version": "0.0~git20241119.a2b43e1-1",
+	"section": "universe/net",
+	"priority": "optional",
+	"architecture": "all",
+	"depends": [
+		"dash (>= 0.5.12-7~)",
+		"moreutils",
+		"python3-apt",
+		"python3-prometheus-client"
+	],
+	"recommends": [
+		"ipmitool",
+		"jq",
+		"nvme-cli",
+		"python3",
+		"smartmontools"
+	],
+	"replaces": [
+		"prometheus-node-exporter (<< 0.18.1+ds-2~)"
+	],
+	"enhances": [
+		"prometheus-node-exporter"
+	],
+	"breaks": [
+		"prometheus-node-exporter (<< 0.18.1+ds-2~)"
+	],
+	"installedSize": 163,
+	"maintainer": "Ubuntu Developers <ubuntu-devel-discuss@lists.ubuntu.com>",
+	"description": "Supplemental textfile collector scripts for Prometheus node_exporter",
+	"homepage": "https://github.com/prometheus-community/node-exporter-textfile-collector-scripts",
+	"filename": "pool/universe/p/prometheus-node-exporter-collectors/prometheus-node-exporter-collectors_0.0~git20241119.a2b43e1-1_all.deb",
+	"size": 33516,
+	"md5": "936ddf3ccc95762fb6cb582ddfbe4662",
+	"sha1": "88883b8907c50b177c3fe8fa8fbfbcf70d5b0c14",
+	"sha256": "5987ec30a3f7009fba08de5362f988b8446c7a3268fe13eec766153754b054ab",
+	"sha512": "63266410ea4ad53417b9ce37a84b6bf26e93fcae068087a686a4f255a5efe6a7928305fe349d8a9c417e6df4be4b1636b35974e051f5d87c3c02143d906083e7",
+	"descriptionMd5": "a0e33c65384acc786c0e717e0ee65c4e"
+}

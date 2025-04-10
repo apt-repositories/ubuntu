@@ -1,0 +1,79 @@
+{
+	"raw": {},
+	"required": [
+		"Filename",
+		"Size"
+	],
+	"package": "syslog-ng-core",
+	"source": "syslog-ng",
+	"version": "4.8.1-4",
+	"section": "universe/admin",
+	"priority": "extra",
+	"architecture": "amd64",
+	"depends": [
+		"libc6 (>= 2.38)",
+		"libcap2 (>= 1:2.10)",
+		"libglib2.0-0t64 (>= 2.70.0)",
+		"libivykis0t64 (>= 0.43)",
+		"libjson-c5 (>= 0.15)",
+		"libnet1 (>= 1.1.2.1)",
+		"libpcre2-8-0 (>= 10.22)",
+		"libssl3t64 (>= 3.0.0)",
+		"libsystemd0 (>= 245)",
+		"libwrap0 (>= 7.6-4~)",
+		"sysvinit-utils (>= 3.05-4~) | lsb-base"
+	],
+	"recommends": [
+		"logrotate"
+	],
+	"suggests": [
+		"syslog-ng-mod-sql",
+		"syslog-ng-mod-mongodb",
+		"syslog-ng-mod-amqp",
+		"syslog-ng-mod-geoip2",
+		"syslog-ng-mod-redis",
+		"syslog-ng-mod-stomp",
+		"syslog-ng-mod-riemann",
+		"syslog-ng-mod-graphite",
+		"syslog-ng-mod-python",
+		"syslog-ng-mod-add-contextual-data",
+		"syslog-ng-mod-stardate",
+		"syslog-ng-mod-snmp",
+		"syslog-ng-mod-xml-parser",
+		"syslog-ng-mod-http",
+		"syslog-ng-mod-rdkafka",
+		"syslog-ng-mod-examples",
+		"syslog-ng-mod-slog"
+	],
+	"replaces": [
+		"syslog-ng-mod-getent (<< 3.38.1~)",
+		"syslog-ng-mod-journal (<< 3.25.1~)",
+		"syslog-ng-mod-json (<< 3.19.1~)",
+		"syslog-ng-mod-map-value-pairs (<< 3.38.1~)",
+		"syslog-ng-mod-pacctformat (<< 3.26.1~)",
+		"syslog-ng-mod-tag-parser (<< 3.26.1~)"
+	],
+	"breaks": [
+		"syslog-ng-mod-getent (<< 3.38.1~)",
+		"syslog-ng-mod-journal (<< 3.25.1~)",
+		"syslog-ng-mod-json (<< 3.19.1~)",
+		"syslog-ng-mod-map-value-pairs (<< 3.38.1~)",
+		"syslog-ng-mod-pacctformat (<< 3.26.1~)",
+		"syslog-ng-mod-tag-parser (<< 3.26.1~)"
+	],
+	"conflicts": [
+		"linux-kernel-log-daemon",
+		"system-log-daemon"
+	],
+	"installedSize": 3800,
+	"maintainer": "Ubuntu Developers <ubuntu-devel-discuss@lists.ubuntu.com>",
+	"description": "Enhanced system logging daemon (core)",
+	"homepage": "https://www.syslog-ng.com/",
+	"filename": "pool/universe/s/syslog-ng/syslog-ng-core_4.8.1-4_amd64.deb",
+	"size": 907618,
+	"md5": "1ee8792b00136991bd8684fc6f4f4d77",
+	"sha1": "e89a61e090da60703686b491601668a7750249a9",
+	"sha256": "9b34ba67b4353b56d32f330fcb8d85f7665623e1a418224a301f56bd8860b31f",
+	"sha512": "498cef8cf1619d242618fe23ed9d6426fcf4f69423f45acdfd651632e11f54e18f99bd26280cb7f73700cd78511f81b3436b2e6ec8cb6d194a29b7bb27d33d73",
+	"descriptionMd5": "0ce4da37b4a4b9d3162b79edaffeccba"
+}

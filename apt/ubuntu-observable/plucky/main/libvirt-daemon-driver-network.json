@@ -1,0 +1,42 @@
+[{
+	"raw": {},
+	"required": [
+		"Filename",
+		"Size"
+	],
+	"package": "libvirt-daemon-driver-network",
+	"source": "libvirt",
+	"version": "11.0.0-2ubuntu6",
+	"section": "admin",
+	"priority": "optional",
+	"architecture": "amd64",
+	"depends": [
+		"dnsmasq-base",
+		"iptables | nftables",
+		"libvirt-common (= 11.0.0-2ubuntu6)",
+		"libvirt-daemon (= 11.0.0-2ubuntu6)",
+		"libvirt0 (= 11.0.0-2ubuntu6)",
+		"libc6 (>= 2.38)",
+		"libgcc-s1 (>= 3.3.1)",
+		"libglib2.0-0t64 (>= 2.26.0)"
+	],
+	"replaces": [
+		"libvirt-daemon (<< 10.6.0-2~)",
+		"libvirt-daemon-system (<< 10.6.0-2~)"
+	],
+	"breaks": [
+		"libvirt-daemon (<< 10.6.0-2~)",
+		"libvirt-daemon-system (<< 10.6.0-2~)"
+	],
+	"installedSize": 212,
+	"maintainer": "Ubuntu Developers <ubuntu-devel-discuss@lists.ubuntu.com>",
+	"description": "Virtualization daemon network driver",
+	"homepage": "https://libvirt.org/",
+	"filename": "pool/main/libv/libvirt/libvirt-daemon-driver-network_11.0.0-2ubuntu6_amd64.deb",
+	"size": 64474,
+	"md5": "8244a51685f3aea6a4e4033ac5c82813",
+	"sha1": "7d75c21d09ec80e3af61a775359c1dc5858c037f",
+	"sha256": "831f912aa2a1998ee242bad6b54d8124315888fde7aa0685e2a289c5e9c485fd",
+	"sha512": "5ef476810aef1062c3a6d9981acd80b894a6de0bc8e96191c9aebb0b7d9d8731c07bd39f06d287f2e86a5f74c115e9e5a66fbae323004e0c5adda9c796cc5514",
+	"descriptionMd5": "712b0696ae2e5ee8df97c73b0a45fe21"
+}]

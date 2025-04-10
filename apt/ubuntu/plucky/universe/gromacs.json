@@ -1,0 +1,49 @@
+{
+	"raw": {},
+	"required": [
+		"Filename",
+		"Size"
+	],
+	"package": "gromacs",
+	"version": "2025.0-2",
+	"section": "universe/science",
+	"priority": "extra",
+	"architecture": "amd64",
+	"depends": [
+		"gromacs-data (= 2025.0-2)",
+		"sse4.2-support",
+		"libc6 (>= 2.34)",
+		"libgcc-s1 (>= 3.3.1)",
+		"libgromacs10 (>= 2025.0)",
+		"libopenmpi40 (>= 5.0.6)",
+		"libstdc++6 (>= 11)"
+	],
+	"recommends": [
+		"cpp",
+		"mpi-default-bin"
+	],
+	"suggests": [
+		"pymol"
+	],
+	"replaces": [
+		"gromacs-mpi (<< 2022~)",
+		"gromacs-mpich (<< 2021.1-2)",
+		"gromacs-openmpi (<< 2021.1-2)"
+	],
+	"breaks": [
+		"gromacs-mpi (<< 2022~)",
+		"gromacs-mpich (<< 2021.1-2)",
+		"gromacs-openmpi (<< 2021.1-2)"
+	],
+	"installedSize": 429,
+	"maintainer": "Ubuntu Developers <ubuntu-devel-discuss@lists.ubuntu.com>",
+	"description": "Molecular dynamics simulator, with building and analysis tools",
+	"homepage": "https://www.gromacs.org/",
+	"filename": "pool/universe/g/gromacs/gromacs_2025.0-2_amd64.deb",
+	"size": 55608,
+	"md5": "9174a49a1fedfe69f05c4b51edd21f91",
+	"sha1": "64e8f675401cb54a65c20819c8d76c78df7c0677",
+	"sha256": "24c2d1f4a3bd011e279c3f0ab80c94b0fe047abe650fcf0feb07d7ca62422338",
+	"sha512": "e4b97012421e424603564a3ba18d03b7b4776dc0a349db877bcc2306cd3fefc9812cf639f7e6f04ab9350ef72723723899a427b6224eb5193db91ddaafcd649c",
+	"descriptionMd5": "b2bae23de6e584a47799dd4899a2c30a"
+}

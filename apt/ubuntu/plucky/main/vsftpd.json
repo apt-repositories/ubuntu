@@ -1,0 +1,47 @@
+{
+	"raw": {},
+	"required": [
+		"Filename",
+		"Size"
+	],
+	"package": "vsftpd",
+	"version": "3.0.5-0.1",
+	"section": "net",
+	"priority": "extra",
+	"architecture": "amd64",
+	"depends": [
+		"debconf (>= 0.5) | debconf-2.0",
+		"libc6 (>= 2.34)",
+		"libcap2 (>= 1:2.10)",
+		"libpam0g (>= 0.99.7.1)",
+		"libssl3t64 (>= 3.0.0)",
+		"libwrap0 (>= 7.6-4~)",
+		"adduser",
+		"libpam-modules",
+		"lsb-base (>= 3.0-6)",
+		"netbase",
+		"procps",
+		"sysvinit-utils (>= 2.96)"
+	],
+	"recommends": [
+		"logrotate",
+		"ssl-cert"
+	],
+	"replaces": [
+		"ftp-server"
+	],
+	"conflicts": [
+		"ftp-server"
+	],
+	"installedSize": 325,
+	"maintainer": "Ubuntu Developers <ubuntu-devel-discuss@lists.ubuntu.com>",
+	"description": "lightweight, efficient FTP server written for security",
+	"homepage": "http://vsftpd.beasts.org/",
+	"filename": "pool/main/v/vsftpd/vsftpd_3.0.5-0.1_amd64.deb",
+	"size": 130832,
+	"md5": "08755cb20a662fc667893cc5a98022a4",
+	"sha1": "1ae59e73c012938d1be072e3ede0a82abd761c31",
+	"sha256": "b0d86519b723f635bc5ac1ffa3907f61917c39cfa83a4c3b0da438724f3ad774",
+	"sha512": "62ad22893964492e49ec051778c9c409b60151200f6e247162a585b2ebeb7e1f9393c5dcf6857b40e290e13f9375023368e5ad7d0a3b3aa4d308459ea6182f8c",
+	"descriptionMd5": "81386f72ac91a5ea48f8db0b023f3f9b"
+}

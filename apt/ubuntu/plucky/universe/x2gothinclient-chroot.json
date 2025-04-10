@@ -1,0 +1,66 @@
+{
+	"raw": {},
+	"required": [
+		"Filename",
+		"Size"
+	],
+	"package": "x2gothinclient-chroot",
+	"source": "x2gothinclient",
+	"version": "1.5.0.1-10.2",
+	"section": "universe/admin",
+	"priority": "optional",
+	"architecture": "all",
+	"depends": [
+		"nfs-common",
+		"patch",
+		"plymouth",
+		"plymouth-themes-all",
+		"pulseaudio-x11 | pulseaudio",
+		"dbus-x11",
+		"dbus-user-session",
+		"x2gothinclient-displaymanager | x2gothinclient-minidesktop",
+		"locales",
+		"polkitd"
+	],
+	"preDepends": [
+		"init-system-helpers (>= 1.54~)"
+	],
+	"recommends": [
+		"acpid",
+		"gnupg-agent",
+		"pinentry-x2go",
+		"pcscd",
+		"pcsc-tools",
+		"scdaemon",
+		"gpgsm",
+		"less",
+		"mc",
+		"memtest86+",
+		"syslinux",
+		"vim",
+		"x11-xserver-utils",
+		"x2gothinclient-cdmanager",
+		"x2gothinclient-usbmount",
+		"x2gothinclient-smartcardrules",
+		"ntp"
+	],
+	"suggests": [
+		"firmware-linux-nonfree",
+		"firmware-bnx2",
+		"firmware-ralink",
+		"firmware-realtek",
+		"intel-microcode",
+		"amd64-microcode"
+	],
+	"installedSize": 43,
+	"maintainer": "Ubuntu Developers <ubuntu-devel-discuss@lists.ubuntu.com>",
+	"description": "Install X2Go Thin Client chroot (metapackage)",
+	"homepage": "https://code.x2go.org/releases/source/x2gothinclient",
+	"filename": "pool/universe/x/x2gothinclient/x2gothinclient-chroot_1.5.0.1-10.2_all.deb",
+	"size": 7506,
+	"md5": "d36039e6d48ac8c8bc282d0fe30404be",
+	"sha1": "8973ca75e91bfc96f7d209494a949caa726c9ad6",
+	"sha256": "247ed3f95226cb274ee018b0afdf341f2dd8a2802e8c18d9dddc3a1ca304ac36",
+	"sha512": "1e1db3bf8da58699d3a41208ae224aeaa7411dcbafd9cf8521706f2acdfad6ef66f508d03590d3c08577418a8b81ad850443500b2945c6e5e5d388ffad64a052",
+	"descriptionMd5": "71c4ffc841bd25631b54e0ebb2396101"
+}

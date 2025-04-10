@@ -1,0 +1,43 @@
+{
+	"raw": {},
+	"required": [
+		"Filename",
+		"Size"
+	],
+	"package": "vanilla-gnome-default-settings",
+	"source": "ubuntu-gnome-default-settings",
+	"version": "23.04.0",
+	"section": "universe/x11",
+	"priority": "optional",
+	"architecture": "all",
+	"depends": [
+		"dconf-gsettings-backend | gsettings-backend",
+		"gnome-themes-extra",
+		"libglib2.0-bin",
+		"ubuntu-settings"
+	],
+	"preDepends": [
+		"gnome-session"
+	],
+	"recommends": [
+		"ubuntu-gnome-wallpapers"
+	],
+	"replaces": [
+		"ubuntu-gnome-default-settings (<< 17.10.2)",
+		"ubuntu-gnome-wallpapers-xenial (<< 16.10.1)"
+	],
+	"breaks": [
+		"ubuntu-gnome-default-settings (<< 17.10.2)",
+		"ubuntu-gnome-wallpapers-xenial (<< 16.10.1)"
+	],
+	"installedSize": 1735,
+	"maintainer": "Ubuntu Developers <ubuntu-devel-discuss@lists.ubuntu.com>",
+	"description": "default settings for the Ubuntu GNOME desktop",
+	"filename": "pool/universe/u/ubuntu-gnome-default-settings/vanilla-gnome-default-settings_23.04.0_all.deb",
+	"size": 1680654,
+	"md5": "b868f7af4457b2e2fb6f76a3bd73ec38",
+	"sha1": "12cc4bb233511ca4632524df6c477318747dd889",
+	"sha256": "1c3e266383f4bcd0196d60b3823564fd21da99ec9f8e4be29a3eb1e0a3cef2ef",
+	"sha512": "20fec8664fccc7808c45c21067a0b77da750101e2a8a98c3ae8ff451261b13cdb48079994c92ffff3707b782645aea979cc341a33c383bb7bd2d45bcb47f26d6",
+	"descriptionMd5": "d9728590e11574da56601abbc160ac08"
+}

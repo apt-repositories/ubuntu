@@ -1,0 +1,42 @@
+{
+	"raw": {},
+	"required": [
+		"Filename",
+		"Size"
+	],
+	"package": "libgcc-15-dev-armel-cross",
+	"source": "gcc-15-cross-ports (6ubuntu1)",
+	"version": "15-20250404-0ubuntu1cross1",
+	"section": "universe/libdevel",
+	"priority": "optional",
+	"architecture": "all",
+	"depends": [
+		"gcc-15-cross-base-ports (= 15-20250404-0ubuntu1cross1)",
+		"libgcc-s1-armel-cross (>= 15-20250404-0ubuntu1cross1)",
+		"libgomp1-armel-cross (>= 15-20250404-0ubuntu1cross1)",
+		"libatomic1-armel-cross (>= 15-20250404-0ubuntu1cross1)",
+		"libasan8-armel-cross (>= 15-20250404-0ubuntu1cross1)",
+		"libubsan1-armel-cross (>= 15-20250404-0ubuntu1cross1)"
+	],
+	"recommends": [
+		"libc6-dev-armel-cross (>= 2.13-0ubuntu6)"
+	],
+	"replaces": [
+		"libtsan2-armel-cross (<< 12-20211113-2~)"
+	],
+	"breaks": [
+		"libtsan2-armel-cross (<< 12-20211113-2~)"
+	],
+	"installedSize": 6488,
+	"maintainer": "Ubuntu Core developers <ubuntu-devel-discuss@lists.ubuntu.com>",
+	"description": "GCC support library (development files)",
+	"homepage": "http://gcc.gnu.org/",
+	"builtUsing": "gcc-15 (= 15-20250404-0ubuntu1)",
+	"filename": "pool/universe/g/gcc-15-cross-ports/libgcc-15-dev-armel-cross_15-20250404-0ubuntu1cross1_all.deb",
+	"size": 902310,
+	"md5": "b927cf2904484888e03bbd5d3bbe72fa",
+	"sha1": "a025baa497bda40e1cd3d6706a8649088e8dec12",
+	"sha256": "2852e393468176942a42cb3335a8d060ab2c4442d5cf26fc7bbe1970cbec443f",
+	"sha512": "1d986dcf034ea3dbe80e783999c4403c19f0ec0bacac341940da9276bbe53402255abca2d2d7571c3a6cd5af674d2bda65c8e2d5fa57e4de7962e99f675b75ec",
+	"descriptionMd5": "4ab7cb439b47e1d0796fbaf8447229ac"
+}

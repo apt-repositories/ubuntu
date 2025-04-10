@@ -1,0 +1,48 @@
+[{
+	"raw": {},
+	"required": [
+		"Filename",
+		"Size"
+	],
+	"package": "libonnxruntime1.21",
+	"source": "onnxruntime",
+	"version": "1.21.0+dfsg-1",
+	"section": "universe/libs",
+	"priority": "optional",
+	"architecture": "amd64",
+	"depends": [
+		"libc6 (>= 2.38)",
+		"libcpuinfo0 (>= 0.0~git20240830.fa1c679)",
+		"libdnnl3.6 (>= 3.5.3)",
+		"libgcc-s1 (>= 4.0)",
+		"libonnx1t64 (>= 1.17.0)",
+		"libprotobuf32t64 (>= 3.21.12)",
+		"libpthreadpool0 (>= 0.0~git20200423.6acde9c)",
+		"libre2-11-absl20230802",
+		"libstdc++6 (>= 14)",
+		"libxnnpack0.20241108 (>= 0.0~git20241108.4ea82e5)"
+	],
+	"replaces": [
+		"libonnxruntime-dev (<< 1.20.1+dfsg-1~exp2~)",
+		"libonnxruntime1.19.2",
+		"libonnxruntime1.20.1"
+	],
+	"breaks": [
+		"libonnxruntime-dev (<< 1.20.1+dfsg-1~exp2~)"
+	],
+	"conflicts": [
+		"libonnxruntime1.19.2",
+		"libonnxruntime1.20.1"
+	],
+	"installedSize": 16432,
+	"maintainer": "Ubuntu Developers <ubuntu-devel-discuss@lists.ubuntu.com>",
+	"description": "cross-platform inference and training ML accelerator (shared lib)",
+	"homepage": "https://github.com/microsoft/onnxruntime",
+	"filename": "pool/universe/o/onnxruntime/libonnxruntime1.21_1.21.0+dfsg-1_amd64.deb",
+	"size": 4541698,
+	"md5": "0a1c3b7e2e4a466fab52656fd994a6df",
+	"sha1": "79881b63a6237ef00be763fc82b713ca5ba9fb4d",
+	"sha256": "17e9bfec1e4e86a7456720843ed5443c2eb3bda62b45f0e075ab0c8d89e4ae7b",
+	"sha512": "c87206b385c673f1307fd3408224df0693be1b233bdbb603842c450c4b6efd59cc9c0ba21ded088ae0692d5fd5f9744dc8e7660881f4efa64486137196b7bf6a",
+	"descriptionMd5": "552d4cb5b759776d4c1e450cf6be2235"
+}]

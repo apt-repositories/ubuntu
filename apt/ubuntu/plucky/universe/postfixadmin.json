@@ -1,0 +1,47 @@
+{
+	"raw": {},
+	"required": [
+		"Filename",
+		"Size"
+	],
+	"package": "postfixadmin",
+	"version": "3.3.15+ds-2",
+	"section": "universe/admin",
+	"priority": "optional",
+	"architecture": "all",
+	"depends": [
+		"debconf",
+		"dbconfig-common",
+		"wwwconfig-common",
+		"apache2 | lighttpd | nginx | httpd",
+		"php-fpm | libapache2-mod-php | php-cgi | php",
+		"php-mysql | php-mysqlnd | php-pgsql | php-sqlite3",
+		"php-mbstring",
+		"default-mysql-client | postgresql-client | mariadb-client",
+		"smarty4",
+		"libjs-jquery",
+		"libjs-bootstrap",
+		"libjs-moment",
+		"libjs-eonasdan-bootstrap-datetimepicker",
+		"debconf (>= 0.5) | debconf-2.0"
+	],
+	"recommends": [
+		"php-cli",
+		"dovecot-core | courier-authlib-mysql | courier-authlib-postgresql"
+	],
+	"suggests": [
+		"postfix-mysql | postfix-pgsql",
+		"virtual-mysql-server | postgresql | sqlite3 | mariadb-server"
+	],
+	"installedSize": 2740,
+	"maintainer": "Ubuntu Developers <ubuntu-devel-discuss@lists.ubuntu.com>",
+	"description": "Virtual mail hosting interface for Postfix",
+	"homepage": "https://postfixadmin.github.io/postfixadmin/",
+	"filename": "pool/universe/p/postfixadmin/postfixadmin_3.3.15+ds-2_all.deb",
+	"size": 891576,
+	"md5": "13066567dd66f899c0d8187b00e957b0",
+	"sha1": "71c8c00bb5d758f7ab830dd27d64b761e1a29716",
+	"sha256": "ef824986bf11c991a7f39ac71ff7e26cc63b6942d917b0c72350b5a2732e9f9c",
+	"sha512": "df93b1df7d2cafcc3d9232c8655bc7f4388855ea9038d0112145c19705b4d8decc8d7e512da72613363832fe9d4734c247857ccdaaa9bc154c73a108f1cc48f1",
+	"descriptionMd5": "59d711f81f23a7e2d8610f58174d1858"
+}

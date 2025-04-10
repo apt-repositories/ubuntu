@@ -1,0 +1,57 @@
+{
+	"raw": {},
+	"required": [
+		"Filename",
+		"Size"
+	],
+	"package": "nfs-kernel-server",
+	"source": "nfs-utils",
+	"version": "1:2.8.2-2ubuntu1",
+	"section": "net",
+	"priority": "optional",
+	"architecture": "amd64",
+	"depends": [
+		"libblkid1 (>= 2.16)",
+		"libc6 (>= 2.38)",
+		"libcap2 (>= 1:2.10)",
+		"libevent-core-2.1-7t64 (>= 2.1.8-stable)",
+		"libnl-3-200 (>= 3.2.7)",
+		"libnl-genl-3-200 (>= 3.2.7)",
+		"libreadline8t64 (>= 6.0)",
+		"libsqlite3-0 (>= 3.7.15)",
+		"libtirpc3t64 (>= 1.0.2)",
+		"libuuid1 (>= 2.31.1)",
+		"libwrap0 (>= 7.6-4~)",
+		"libxml2 (>= 2.7.4)",
+		"nfs-common (= 1:2.8.2-2ubuntu1)",
+		"ucf",
+		"netbase",
+		"keyutils"
+	],
+	"recommends": [
+		"python3",
+		"python3-yaml"
+	],
+	"suggests": [
+		"procps"
+	],
+	"replaces": [
+		"knfs",
+		"nfs-server"
+	],
+	"conflicts": [
+		"knfs",
+		"nfs-server"
+	],
+	"installedSize": 661,
+	"maintainer": "Ubuntu Developers <ubuntu-devel-discuss@lists.ubuntu.com>",
+	"description": "support for NFS kernel server",
+	"homepage": "https://linux-nfs.org/",
+	"filename": "pool/main/n/nfs-utils/nfs-kernel-server_2.8.2-2ubuntu1_amd64.deb",
+	"size": 192286,
+	"md5": "0f1f6da33ff887a06150db867cfcc452",
+	"sha1": "214a019d9084c8f8ba42a185633fd6c4a932f653",
+	"sha256": "f39d64962dc26028ea0735a9d79dc4d5c8848b8aee5c2c35357176277063664a",
+	"sha512": "2790eb3ece2f9dfac52b5cc62b087bdac70c51657284eaf072554c0178b2f9d0db73fb34d94be749f7b83d6c9c9687c24ce733a00c2c6d3295e09d2e0124c60b",
+	"descriptionMd5": "899bf536fe9edad1d8a30a8fada5180d"
+}

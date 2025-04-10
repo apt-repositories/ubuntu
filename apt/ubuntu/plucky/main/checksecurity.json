@@ -1,0 +1,39 @@
+{
+	"raw": {},
+	"required": [
+		"Filename",
+		"Size"
+	],
+	"package": "checksecurity",
+	"version": "2.0.18",
+	"section": "admin",
+	"priority": "optional",
+	"architecture": "all",
+	"depends": [
+		"cron | systemd-cron | anacron",
+		"perl:any"
+	],
+	"recommends": [
+		"logcheck"
+	],
+	"suggests": [
+		"apt-watch | cron-apt",
+		"lockfile-progs",
+		"tiger",
+		"tripwire | integrit | aide | samhain | fcheck",
+		"debsecan"
+	],
+	"replaces": [
+		"cron"
+	],
+	"installedSize": 68,
+	"maintainer": "Ubuntu Developers <ubuntu-devel-discuss@lists.ubuntu.com>",
+	"description": "basic system security checks",
+	"filename": "pool/main/c/checksecurity/checksecurity_2.0.18_all.deb",
+	"size": 17938,
+	"md5": "35db5f2317a666d3a3e5c8fdb69ff46d",
+	"sha1": "08acdfc7a2e22f47b34d7ca13ea92811a73e15f1",
+	"sha256": "c43a85cf18e1f36d6bb222447ef6350b63beab46e6e4b7ec6a19b7e9a60b436d",
+	"sha512": "61d2f21ac4cf1d564c45184f079d40b57704edf5f81562fa132eb46b65f86dff7734d69a9c44f733fbcbdddbe1aa5dc9bc1cc831d766a7f1bac5e9995b21bebc",
+	"descriptionMd5": "81ea96b9f33049c4587fcadd8e3ec385"
+}

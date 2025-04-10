@@ -1,0 +1,67 @@
+{
+	"raw": {},
+	"required": [
+		"Filename",
+		"Size"
+	],
+	"package": "puppet-agent",
+	"version": "8.10.0-2ubuntu1",
+	"section": "universe/admin",
+	"priority": "optional",
+	"architecture": "all",
+	"depends": [
+		"adduser",
+		"ruby",
+		"ruby-augeas",
+		"ruby-shadow",
+		"debconf (>= 0.5) | debconf-2.0",
+		"ruby-concurrent (>= 1.0)",
+		"ruby-deep-merge (>= 1.0)",
+		"facter (>= 4.3.0)",
+		"facter (<< 5)",
+		"ruby-fast-gettext (>= 2.1)",
+		"ruby-fast-gettext (<< 4)",
+		"ruby-getoptlong (>= 0.2.0)",
+		"ruby-locale (>= 2.1)",
+		"ruby-multi-json (>= 1.13)",
+		"ruby-puppet-resource-api (>= 1.5)",
+		"ruby-scanf (>= 1.0)",
+		"ruby-semantic-puppet (>= 1.0)"
+	],
+	"preDepends": [
+		"init-system-helpers (>= 1.54~)"
+	],
+	"recommends": [
+		"augeas-tools",
+		"debconf-utils",
+		"lsb-release",
+		"ruby-selinux"
+	],
+	"suggests": [
+		"hiera-eyaml",
+		"ruby-hocon",
+		"ruby-msgpack"
+	],
+	"replaces": [
+		"puppet (<< 7.16.0)",
+		"puppet-common (<< 4.5.1-1)"
+	],
+	"breaks": [
+		"puppet (<< 7.16.0)",
+		"puppet-common (<< 4.5.1-1)",
+		"puppet-master (<< 7.9.3)",
+		"puppet-master-passenger (<< 7.9.3)",
+		"puppetserver (<< 8)"
+	],
+	"installedSize": 7101,
+	"maintainer": "Ubuntu Developers <ubuntu-devel-discuss@lists.ubuntu.com>",
+	"description": "configuration management system, agent",
+	"homepage": "https://github.com/puppetlabs/puppet",
+	"filename": "pool/universe/p/puppet-agent/puppet-agent_8.10.0-2ubuntu1_all.deb",
+	"size": 1250158,
+	"md5": "9fcec394e6f2800affc3b5e5b0c19951",
+	"sha1": "dd1fca10be921ca5e35f97ee02d99ac59f1558bb",
+	"sha256": "1048ade5bb8fad2076ae8252bcbe17400fa15ccf8c1f05d7f7293ce20d66c024",
+	"sha512": "9b0b8bca50fec8b4795432e4552068d86265c90c5fb25eb98dc0b9f0719651acbad85e5b8cf6ce9502b61382ef7b505e0f2fca0dd8e26dbc23be47d92d7573c8",
+	"descriptionMd5": "9c11faacf3d08afaeacee81d1e4a7435"
+}

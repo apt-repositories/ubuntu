@@ -1,0 +1,47 @@
+[{
+	"raw": {},
+	"required": [
+		"Filename",
+		"Size"
+	],
+	"package": "mariadb-plugin-rocksdb",
+	"source": "mariadb",
+	"version": "1:11.4.5-1",
+	"section": "universe/database",
+	"priority": "optional",
+	"architecture": "amd64",
+	"depends": [
+		"mariadb-server (= 1:11.4.5-1)",
+		"python3:any",
+		"rocksdb-tools",
+		"libc6 (>= 2.38)",
+		"libgcc-s1 (>= 3.3.1)",
+		"liblz4-1 (>= 0.0~r130)",
+		"libsnappy1v5 (>= 1.2.1)",
+		"libstdc++6 (>= 14)",
+		"libzstd1 (>= 1.5.5)",
+		"zlib1g (>= 1:1.1.4)"
+	],
+	"recommends": [
+		"python3-mysqldb"
+	],
+	"replaces": [
+		"mariadb-rocksdb-engine-10.2",
+		"mariadb-rocksdb-engine-10.3"
+	],
+	"breaks": [
+		"mariadb-rocksdb-engine-10.2",
+		"mariadb-rocksdb-engine-10.3"
+	],
+	"installedSize": 8551,
+	"maintainer": "Ubuntu Developers <ubuntu-devel-discuss@lists.ubuntu.com>",
+	"description": "RocksDB storage engine for MariaDB server",
+	"homepage": "https://mariadb.org/",
+	"filename": "pool/universe/m/mariadb/mariadb-plugin-rocksdb_11.4.5-1_amd64.deb",
+	"size": 2768710,
+	"md5": "26db82c877c2ec3970e63ae7250a472a",
+	"sha1": "33177bb162669008fae3538bdba97a98c96c6bae",
+	"sha256": "26e85c4a6bf647c0022d43b0913db2fa730e03a37f12cb75784dae26a7369c73",
+	"sha512": "d1bbc4a8ff0e37d6783c59158701ed3f6323d07e2a8f8e79d95b0664919cefcce7130e534bad6c6323bf62bef9107d3c41b1256dc55d658d9659f2e4cbbde5a2",
+	"descriptionMd5": "14a224275a38d61680abd3b23173e9bd"
+}]

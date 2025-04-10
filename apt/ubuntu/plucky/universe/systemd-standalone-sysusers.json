@@ -1,0 +1,43 @@
+{
+	"raw": {},
+	"required": [
+		"Filename",
+		"Size"
+	],
+	"package": "systemd-standalone-sysusers",
+	"source": "systemd",
+	"version": "257.4-1ubuntu3",
+	"section": "universe/admin",
+	"priority": "optional",
+	"architecture": "amd64",
+	"depends": [
+		"libc6 (>= 2.38)",
+		"libcap2 (>= 1:2.10)",
+		"libcrypt1 (>= 1:4.4.0)",
+		"libselinux1 (>= 3.1~)"
+	],
+	"suggests": [
+		"libcryptsetup12",
+		"libidn2-0",
+		"libtss2-rc0t64"
+	],
+	"replaces": [
+		"systemd (<< 249.3-3)",
+		"systemd-sysusers"
+	],
+	"conflicts": [
+		"systemd (<< 249.3-3)",
+		"systemd-sysusers"
+	],
+	"installedSize": 408,
+	"maintainer": "Ubuntu Developers <ubuntu-devel-discuss@lists.ubuntu.com>",
+	"description": "standalone sysusers binary for use in non-systemd systems",
+	"homepage": "https://systemd.io",
+	"filename": "pool/universe/s/systemd/systemd-standalone-sysusers_257.4-1ubuntu3_amd64.deb",
+	"size": 231672,
+	"md5": "e84779e5c5bcb75bbcc19a4027d294ab",
+	"sha1": "be4de8a41f3ba56860257db1531e5c3d0b8a82bb",
+	"sha256": "cfe3c92e6da998e66ec4119926c0c97b1ec5cb4a34540292e1378176ae337ac8",
+	"sha512": "c23ccf6059ab373312d52a83bcf1d5e0837039fdf80eed6e8b89a0ed1dabab9fa35d661983897b7c89171950ed211686982fdff4e9b8801ed45f65a6d3608815",
+	"descriptionMd5": "59eb167fc8fbdb9ddb8918d80524736d"
+}

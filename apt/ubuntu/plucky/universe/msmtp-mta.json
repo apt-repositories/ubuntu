@@ -1,0 +1,42 @@
+{
+	"raw": {},
+	"required": [
+		"Filename",
+		"Size"
+	],
+	"package": "msmtp-mta",
+	"source": "msmtp",
+	"version": "1.8.28-2",
+	"section": "universe/mail",
+	"priority": "extra",
+	"architecture": "amd64",
+	"depends": [
+		"libc6 (>= 2.38)",
+		"libsecret-1-0 (>= 0.7)",
+		"msmtp (= 1.8.28-2)",
+		"adduser"
+	],
+	"preDepends": [
+		"init-system-helpers (>= 1.54~)"
+	],
+	"recommends": [
+		"libsecret-tools | keepassxc | seahorse | kwalletmanager"
+	],
+	"replaces": [
+		"mail-transport-agent"
+	],
+	"conflicts": [
+		"mail-transport-agent"
+	],
+	"installedSize": 78,
+	"maintainer": "Ubuntu Developers <ubuntu-devel-discuss@lists.ubuntu.com>",
+	"description": "light SMTP client with support for server profiles - the regular MTA",
+	"homepage": "https://marlam.de/msmtp/",
+	"filename": "pool/universe/m/msmtp/msmtp-mta_1.8.28-2_amd64.deb",
+	"size": 19976,
+	"md5": "bbc94ddeb6deda09986c8afe1138dea4",
+	"sha1": "5163224724a5319889c3bcb8e2aafebe562ddb9e",
+	"sha256": "85fab09023f26bafce4d339e60579e594e2047842695762808901dd859efdb1c",
+	"sha512": "7ef035e044006989ac3dabf8649521eff147d4627e272356d54286eb70c0564bf170b5d0aba08c52bf167c689350df43c1a42a8a1e22517ade57ef31e7c83d92",
+	"descriptionMd5": "92a76bed20d7385fc7d78445076c37fc"
+}

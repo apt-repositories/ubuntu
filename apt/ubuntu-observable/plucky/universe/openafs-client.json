@@ -1,0 +1,52 @@
+[{
+	"raw": {},
+	"required": [
+		"Filename",
+		"Size"
+	],
+	"package": "openafs-client",
+	"source": "openafs",
+	"version": "1.8.13.2-1ubuntu1",
+	"section": "universe/net",
+	"priority": "optional",
+	"architecture": "amd64",
+	"depends": [
+		"libc6 (>= 2.38)",
+		"libcrypt1 (>= 1:4.1.0)",
+		"libhcrypto5t64-heimdal (>= 1.4.0+git20110226)",
+		"libkrb5-26t64-heimdal (>= 1.4.0+git20110226)",
+		"libncurses6 (>= 6)",
+		"libroken19t64-heimdal (>= 1.7~git20150920)",
+		"libtinfo6 (>= 6)",
+		"debconf (>= 0.5) | debconf-2.0"
+	],
+	"preDepends": [
+		"init-system-helpers (>= 1.54~)"
+	],
+	"recommends": [
+		"lsof",
+		"openafs-modules-dkms (>= 1.8.13.2-1ubuntu1) | openafs-modules-source (>= 1.8.13.2-1ubuntu1) | openafs-modules3"
+	],
+	"suggests": [
+		"openafs-doc",
+		"openafs-krb5"
+	],
+	"breaks": [
+		"openafs-modules1",
+		"openafs-modules2"
+	],
+	"conflicts": [
+		"arla"
+	],
+	"installedSize": 5211,
+	"maintainer": "Ubuntu Developers <ubuntu-devel-discuss@lists.ubuntu.com>",
+	"description": "AFS distributed filesystem client support",
+	"homepage": "http://www.openafs.org/",
+	"filename": "pool/universe/o/openafs/openafs-client_1.8.13.2-1ubuntu1_amd64.deb",
+	"size": 1614594,
+	"md5": "ebcb16f7f1949cb32ca10f3c57e9850e",
+	"sha1": "3342a25d956c53e69d7fe1ea899be98f7c6e22fb",
+	"sha256": "c7bee502977c12d451136c5ecdec5fe1293def2776262b0c8687a872c399bf5a",
+	"sha512": "d65c26d507f5a5cf73af7bbf6f9a21accf59eb6500a78b43edc83967e50ed5b438e9c04737a46ff3fd608aca5db389f592a2baefcfa3cbf5224c9675c08fb1f7",
+	"descriptionMd5": "2d948f9c8a661ee8bc5d31e3f8cd9962"
+}]

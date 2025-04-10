@@ -1,0 +1,44 @@
+[{
+	"raw": {},
+	"required": [
+		"Filename",
+		"Size"
+	],
+	"package": "php8.4-redis",
+	"source": "php-redis",
+	"version": "6.1.0-3",
+	"section": "universe/php",
+	"priority": "optional",
+	"architecture": "amd64",
+	"depends": [
+		"php8.4-common",
+		"php8.4-igbinary",
+		"phpapi-20240924",
+		"libc6 (>= 2.38)",
+		"liblz4-1 (>= 0.0~r130)",
+		"libzstd1 (>= 1.5.5)"
+	],
+	"preDepends": [
+		"php-common (>= 2:69~)"
+	],
+	"suggests": [
+		"redis-server"
+	],
+	"replaces": [
+		"php-redis (<< 6.1.0-3~)"
+	],
+	"breaks": [
+		"php-redis (<< 6.1.0-3~)"
+	],
+	"installedSize": 869,
+	"maintainer": "Ubuntu Developers <ubuntu-devel-discuss@lists.ubuntu.com>",
+	"description": "PHP extension for interfacing with Redis",
+	"homepage": "https://pecl.php.net/package/redis",
+	"filename": "pool/universe/p/php-redis/php8.4-redis_6.1.0-3_amd64.deb",
+	"size": 219046,
+	"md5": "d5a8ca561336cb7877de44b3d46a977f",
+	"sha1": "5aacc39526be9888cc4dd59b12ac20f0cf23038c",
+	"sha256": "ecc1a00017cc5f59123d7c07b9383d02084c9947a8f2c77103f8ed11d7959c49",
+	"sha512": "af2b3b7290a458ea68b214a857a0dd01baec9c6b0340c5d2784336533ad19d4a8f35c37f3871c7788d6744acb39f565de5e186aeb88c725341e3bfb95a5639ea",
+	"descriptionMd5": "b8a3de89cf7f4311899f1f5751dbc60a"
+}]
