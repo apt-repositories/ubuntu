@@ -1,0 +1,64 @@
+[{
+	"raw": {},
+	"required": [
+		"Filename",
+		"Size"
+	],
+	"package": "exim4-base",
+	"source": "exim4",
+	"version": "4.98.1-1ubuntu2",
+	"section": "mail",
+	"priority": "extra",
+	"architecture": "amd64",
+	"depends": [
+		"adduser",
+		"cron | cron-daemon | anacron | systemd-sysv",
+		"exim4-config (>= 4.94) | exim4-config-2",
+		"libfile-fcntllock-perl",
+		"netbase",
+		"debconf (>= 0.5) | debconf-2.0",
+		"perl:any",
+		"libc6 (>= 2.38)",
+		"libdb5.3t64"
+	],
+	"recommends": [
+		"bsd-mailx | mailx",
+		"psmisc"
+	],
+	"suggests": [
+		"exim4-doc-html | exim4-doc-info",
+		"eximon4",
+		"file",
+		"gnutls-bin | openssl",
+		"mail-reader",
+		"spf-tools-perl",
+		"swaks"
+	],
+	"replaces": [
+		"exim",
+		"exim-tls",
+		"exim4-daemon-custom",
+		"exim4-daemon-heavy",
+		"exim4-daemon-light"
+	],
+	"breaks": [
+		"exim4-daemon-custom (<< 4.98.1)",
+		"exim4-daemon-heavy (<< 4.98.1)",
+		"exim4-daemon-light (<< 4.98.1)"
+	],
+	"conflicts": [
+		"exim",
+		"exim-tls"
+	],
+	"installedSize": 1716,
+	"maintainer": "Ubuntu Developers <ubuntu-devel-discuss@lists.ubuntu.com>",
+	"description": "support files for all Exim MTA (v4) packages",
+	"homepage": "https://www.exim.org/",
+	"filename": "pool/main/e/exim4/exim4-base_4.98.1-1ubuntu2_amd64.deb",
+	"size": 986032,
+	"md5": "a11fb28e9e548d4eafa1ad8bfdc89d0c",
+	"sha1": "d64d9132d3cc6a0eef7d54d0d0c923318b4216cf",
+	"sha256": "39d1b144e8f43ca524627abf839c19c813bf4b1c5bfb929ad091371e4f97ddd5",
+	"sha512": "42d8594f35d23d6a03a203af51c4976ee24c1960d7c0761d0ff7c9aae6a0b73e8ee8407aa48a7c044288206907725e2c47b2f3f5cfc5e4aeb7f5e05459321c9d",
+	"descriptionMd5": "ab23a802a5e7dee33641329abf2b6565"
+}]

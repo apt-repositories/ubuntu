@@ -1,0 +1,53 @@
+{
+	"raw": {},
+	"required": [
+		"Filename",
+		"Size"
+	],
+	"package": "debos",
+	"version": "1.1.5-1",
+	"section": "universe/devel",
+	"priority": "optional",
+	"architecture": "amd64",
+	"depends": [
+		"busybox | busybox-static",
+		"debootstrap",
+		"qemu-system-x86",
+		"qemu-user-static",
+		"systemd-container",
+		"libc6 (>= 2.34)",
+		"libglib2.0-0t64 (>= 2.38.0)",
+		"libostree-1-1 (>= 2016.8)"
+	],
+	"recommends": [
+		"bmap-tools",
+		"bzip2",
+		"dosfstools",
+		"e2fsprogs",
+		"fdisk",
+		"linux-image-amd64",
+		"mount",
+		"ovmf",
+		"parted",
+		"systemd-resolved",
+		"udev",
+		"xz-utils",
+		"zip"
+	],
+	"suggests": [
+		"libslirp-helper",
+		"user-mode-linux"
+	],
+	"installedSize": 9124,
+	"maintainer": "Ubuntu Developers <ubuntu-devel-discuss@lists.ubuntu.com>",
+	"description": "Debian OS builder",
+	"homepage": "https://github.com/go-debos/debos",
+	"builtUsing": "golang-1.24 (= 1.24.1-1), golang-github-alessio-shellescape (= 1.4.2-1), golang-github-cespare-xxhash (= 2.3.0-1), golang-github-docker-go-units (= 0.4.0-4), golang-github-freddierice-go-losetup (= 2.0.1+ds1-1.1), golang-github-go-debos-fakemachine (= 0.0.11-1), golang-github-go-task-slim-sprig (= 3.0.0-2), golang-github-google-uuid (= 1.6.0-1), golang-github-klauspost-compress (= 1.18.0+ds1-1), golang-github-sjoerdsimons-ostree-go (= 0.0~git20201014.8fae757-2), golang-github-surma-gocpio (= 1.1.0+git20160926.fcb6877-1.1), golang-github-ulikunitz-xz (= 0.5.6-2), golang-go-flags (= 1.4.0-6), golang-golang-x-sys (= 0.22.0-1), golang-yaml.v2 (= 2.4.0-5)",
+	"filename": "pool/universe/d/debos/debos_1.1.5-1_amd64.deb",
+	"size": 3197208,
+	"md5": "5f5f1295d3f49fb0720362af5ffe385f",
+	"sha1": "a2d038396f7451dcfa84f9346898ac2d712be840",
+	"sha256": "8fec41489d01b3a81ff2db2b172ffaf9ab77d581bda30842436e1a4b2939101f",
+	"sha512": "f156ab6747f2d654e4a964b66b7cc8f8ac1e3d8d61adb9dae8a0976a9b834016f55cafcbdbc1c3382b8237b0e4b71545a5867f84888719d339e3df5a3279c3b7",
+	"descriptionMd5": "c0707a49f28410861421b982e1e4b223"
+}

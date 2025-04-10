@@ -1,0 +1,46 @@
+[{
+	"raw": {},
+	"required": [
+		"Filename",
+		"Size"
+	],
+	"package": "libscalapack-openmpi2.2",
+	"source": "scalapack",
+	"version": "2.2.2-1ubuntu1",
+	"section": "universe/libs",
+	"priority": "optional",
+	"architecture": "amd64",
+	"depends": [
+		"mpi-default-bin",
+		"libblas3 | libblas.so.3",
+		"libc6 (>= 2.29)",
+		"libgcc-s1 (>= 3.0)",
+		"libgfortran5 (>= 8)",
+		"liblapack3 | liblapack.so.3",
+		"libopenmpi40 (>= 5.0.6)"
+	],
+	"suggests": [
+		"scalapack-doc"
+	],
+	"replaces": [
+		"libscalapack-mpi1 (<< 1.8.0-9.1)",
+		"scalapack1-mpich"
+	],
+	"breaks": [
+		"libscalapack-mpi1 (<< 1.8.0-9.1)"
+	],
+	"conflicts": [
+		"scalapack2-mpich"
+	],
+	"installedSize": 6335,
+	"maintainer": "Ubuntu Developers <ubuntu-devel-discuss@lists.ubuntu.com>",
+	"description": "Scalable Linear Algebra Package - Shared libs for OpenMPI",
+	"homepage": "https://www.netlib.org/scalapack/",
+	"filename": "pool/universe/s/scalapack/libscalapack-openmpi2.2_2.2.2-1ubuntu1_amd64.deb",
+	"size": 2072604,
+	"md5": "51c1574c8ed4140421af22e82fd61389",
+	"sha1": "40efd601c09a82d21879586980581e92f99c8661",
+	"sha256": "90646677761eb535218d826c5921fc2ee537186d7ce5907bd9bdb0f804fa2bab",
+	"sha512": "5d9a0fa45035f727aedd6462528e74bc1ad9aeb9824d5c59739748bc0ec2a33a7e78b55a4af0d788e8573c89f335b51f75cca80223df8179957b6a8a66a857cd",
+	"descriptionMd5": "7c18c337c3e81530905d6854815666c8"
+}]

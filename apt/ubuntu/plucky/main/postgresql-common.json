@@ -1,0 +1,43 @@
+{
+	"raw": {},
+	"required": [
+		"Filename",
+		"Size"
+	],
+	"package": "postgresql-common",
+	"version": "274",
+	"section": "misc",
+	"priority": "optional",
+	"architecture": "all",
+	"depends": [
+		"adduser",
+		"debconf (>= 0.5.00) | debconf-2.0",
+		"libjson-perl",
+		"sysvinit-utils (>= 3.05-4~) | lsb-base",
+		"postgresql-client-common (= 274)",
+		"postgresql-common-dev (= 274)",
+		"ssl-cert (>= 1.0.11)",
+		"ucf",
+		"perl:any"
+	],
+	"preDepends": [
+		"init-system-helpers (>= 1.54~)"
+	],
+	"recommends": [
+		"e2fsprogs",
+		"logrotate"
+	],
+	"breaks": [
+		"postgresql-9.1 (<< 9.1.1-3~)"
+	],
+	"installedSize": 354,
+	"maintainer": "Ubuntu Developers <ubuntu-devel-discuss@lists.ubuntu.com>",
+	"description": "PostgreSQL database-cluster manager",
+	"filename": "pool/main/p/postgresql-common/postgresql-common_274_all.deb",
+	"size": 101058,
+	"md5": "7c4f6ef03813d12b01306234044006a4",
+	"sha1": "cbdd4503873b6ec93f46dbd924c933df3670a291",
+	"sha256": "1afcc70aabc48ae49c42289ffcd09be891fe10cbb4616525c70d518b49e2f670",
+	"sha512": "2ef67d00a9d0743b86bf86207089ed7eea87d7b6071b00e253dd6bb5d284beb631a893cb06b858151ad9087b4e3380621c54c11f4ed6f1d8a699b6927a719d50",
+	"descriptionMd5": "1baa00ede83212202318224f2d18d771"
+}

@@ -1,0 +1,48 @@
+{
+	"raw": {},
+	"required": [
+		"Filename",
+		"Size"
+	],
+	"package": "x2gothinclient-displaymanager",
+	"source": "x2gothinclient",
+	"version": "1.5.0.1-10.2",
+	"section": "universe/admin",
+	"priority": "optional",
+	"architecture": "all",
+	"depends": [
+		"debconf (>= 0.5) | debconf-2.0",
+		"psmisc",
+		"pinentry-x2go",
+		"xauth",
+		"xinit",
+		"locales",
+		"dbus-x11",
+		"polkitd",
+		"libfile-path-expand-perl",
+		"x2gothinclient-common (>= 1.5.0.1-10.2)",
+		"x2gothinclient-common (<< 1.5.0.1-10.2.1)"
+	],
+	"preDepends": [
+		"init-system-helpers (>= 1.54~)"
+	],
+	"replaces": [
+		"x2gothinclient (<< 1.5.0.0)",
+		"x2gothinshutdown"
+	],
+	"breaks": [
+		"x2gothinclient (<< 1.5.0.0)",
+		"x2gothinshutdown"
+	],
+	"installedSize": 86,
+	"maintainer": "Ubuntu Developers <ubuntu-devel-discuss@lists.ubuntu.com>",
+	"description": "login daemon starting x2goclient in displaymanager mode",
+	"homepage": "https://code.x2go.org/releases/source/x2gothinclient",
+	"filename": "pool/universe/x/x2gothinclient/x2gothinclient-displaymanager_1.5.0.1-10.2_all.deb",
+	"size": 16076,
+	"md5": "8a85615a5e630cbd7c3cc136cf0897f7",
+	"sha1": "8001fc2935bfb80b83a3b01bccc36af3cb44c737",
+	"sha256": "9bcaed031971218003957441ac34ef33c3ade4f4c36264ac3cbf51f175713d1f",
+	"sha512": "c9ba0987fb5482ac6974c233f781b3284faa76054dca87791c702aa5703acd5e24b6d88030dd555c8460fa4d25b22159577bb6f6f798e3c3a2473783778adfce",
+	"descriptionMd5": "2c1234c76aa18c9833366fdae564cfa1"
+}

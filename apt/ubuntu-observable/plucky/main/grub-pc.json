@@ -1,0 +1,53 @@
+[{
+	"raw": {},
+	"required": [
+		"Filename",
+		"Size"
+	],
+	"package": "grub-pc",
+	"source": "grub2",
+	"version": "2.12-5ubuntu10",
+	"section": "admin",
+	"priority": "optional",
+	"architecture": "amd64",
+	"depends": [
+		"debconf (>= 0.5) | debconf-2.0",
+		"grub-common (= 2.12-5ubuntu10)",
+		"grub2-common (= 2.12-5ubuntu10)",
+		"grub-pc-bin (= 2.12-5ubuntu10)",
+		"ucf",
+		"grub-gfxpayload-lists"
+	],
+	"replaces": [
+		"grub",
+		"grub-common (<= 1.97~beta2-1)",
+		"grub-coreboot",
+		"grub-efi-amd64",
+		"grub-efi-ia32",
+		"grub-ieee1275",
+		"grub-legacy",
+		"grub2 (<< 2.12-5ubuntu10)"
+	],
+	"breaks": [
+		"grub-legacy (<< 0.97-83~)"
+	],
+	"conflicts": [
+		"grub (<< 0.97-54)",
+		"grub-coreboot",
+		"grub-efi-amd64",
+		"grub-efi-ia32",
+		"grub-ieee1275",
+		"grub-xen"
+	],
+	"installedSize": 579,
+	"maintainer": "Ubuntu Developers <ubuntu-devel-discuss@lists.ubuntu.com>",
+	"description": "GRand Unified Bootloader, version 2 (PC/BIOS version)",
+	"homepage": "https://www.gnu.org/software/grub/",
+	"filename": "pool/main/g/grub2/grub-pc_2.12-5ubuntu10_amd64.deb",
+	"size": 137078,
+	"md5": "c9f2ad2b24314c7d9ed81f7369e91861",
+	"sha1": "189822294fcb8638ecc529d425352a27a9896471",
+	"sha256": "0ee85c49a2df3847a8ee803a105ee5b4621e790d177de4ac3e3e310f8fcb5fba",
+	"sha512": "a4287f8302d0b56fef1d40c4e9eb5c0df6bc5415fa3dae077c2314bccb05783417d266721657b3fc438a78e0388eaea3900479744e2bebfc35822e738c856a11",
+	"descriptionMd5": "55663e0e8d42f469d665f9cc0013b733"
+}]

@@ -1,0 +1,37 @@
+{
+	"raw": {},
+	"required": [
+		"Filename",
+		"Size"
+	],
+	"package": "xserver-xorg-input-evdev",
+	"version": "1:2.11.0-1",
+	"section": "universe/x11",
+	"priority": "optional",
+	"architecture": "amd64",
+	"depends": [
+		"libc6 (>= 2.33)",
+		"libevdev2 (>= 1.2.2+dfsg-1~)",
+		"libmtdev1t64 (>= 1.1.0)",
+		"libudev1 (>= 183)",
+		"xorg-input-abi-24",
+		"xserver-xorg-core (>= 2:21.1.1)"
+	],
+	"replaces": [
+		"xserver-xorg-core (<< 2:1.18.0-1)"
+	],
+	"breaks": [
+		"xserver-xorg-core (<< 2:1.18.0-1)"
+	],
+	"installedSize": 103,
+	"maintainer": "Ubuntu Developers <ubuntu-devel-discuss@lists.ubuntu.com>",
+	"description": "X.Org X server -- evdev input driver",
+	"homepage": "https://www.x.org",
+	"filename": "pool/universe/x/xserver-xorg-input-evdev/xserver-xorg-input-evdev_2.11.0-1_amd64.deb",
+	"size": 33980,
+	"md5": "5ec3787e6fd86e9f3e21b213c98e4b5a",
+	"sha1": "db85af6066eb1d47ea88628187c0c33ea90d1b3a",
+	"sha256": "0b94418f3f3983e77a9d75dc217ebf8235ed8d5d4dc52c58c6de7af6a32c965e",
+	"sha512": "acf9bae71bab85629cd2812272b449591bfca01bca8e2c968f2a0a7e5ca05d205dbf6b3e110c480879bc02681f9637f096140ff44b958080e5bd6e108a5a639a",
+	"descriptionMd5": "31de8b9a43f10be01a9c9a8d0805f00a"
+}

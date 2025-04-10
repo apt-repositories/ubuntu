@@ -1,0 +1,56 @@
+[{
+	"raw": {},
+	"required": [
+		"Filename",
+		"Size"
+	],
+	"package": "bacula-sd",
+	"source": "bacula",
+	"version": "13.0.4-4build1",
+	"section": "universe/admin",
+	"priority": "optional",
+	"architecture": "amd64",
+	"depends": [
+		"bacula-common (= 13.0.4-4build1)",
+		"mtx",
+		"sysvinit-utils (>= 3.05-1)",
+		"ucf",
+		"libc6 (>= 2.38)",
+		"liblzo2-2 (>= 2.02)",
+		"libstdc++6 (>= 5)",
+		"zlib1g (>= 1:1.1.4)"
+	],
+	"preDepends": [
+		"init-system-helpers (>= 1.54~)"
+	],
+	"recommends": [
+		"bacula-bscan",
+		"mt-st"
+	],
+	"suggests": [
+		"sg3-utils"
+	],
+	"replaces": [
+		"bacula-common (<< 9.6.4-1)",
+		"bacula-sd-mysql (<< 7.4.3+dfsg-3)",
+		"bacula-sd-pgsql (<< 7.4.3+dfsg-3)",
+		"bacula-sd-sqlite3 (<< 7.4.3+dfsg-3)"
+	],
+	"breaks": [
+		"bacula-common (<< 9.6.4-1)",
+		"bacula-sd-mysql (<< 7.4.3+dfsg-3)",
+		"bacula-sd-pgsql (<< 7.4.3+dfsg-3)",
+		"bacula-sd-sqlite3 (<< 7.4.3+dfsg-3)"
+	],
+	"installedSize": 626,
+	"maintainer": "Ubuntu Developers <ubuntu-devel-discuss@lists.ubuntu.com>",
+	"description": "network backup service - storage daemon",
+	"homepage": "https://www.bacula.org/",
+	"filename": "pool/universe/b/bacula/bacula-sd_13.0.4-4build1_amd64.deb",
+	"size": 153178,
+	"md5": "6372a07eb929eedb6e2d118dc7c09cb6",
+	"sha1": "9441b3330e0d72c12411a3539a58aa2103f98f91",
+	"sha256": "5d87944f59d3d75488642dcce08956d5f22fa147c99eff633cf2f8cb9448c2d5",
+	"sha512": "7650bcdde3d4e75b410dde96c96ff4d094d96165f27a566a93b2cfc6ef92a4785e22007e2ec4ea06ba316b4e79dfd6b5606cf1bea378a284cecbcd8bd8b1f9fc",
+	"descriptionMd5": "62128350f6771f6c2952ce19f11cffea"
+}]

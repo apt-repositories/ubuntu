@@ -1,0 +1,46 @@
+[{
+	"raw": {},
+	"required": [
+		"Filename",
+		"Size"
+	],
+	"package": "bacula-director",
+	"source": "bacula",
+	"version": "13.0.4-4build1",
+	"section": "universe/admin",
+	"priority": "optional",
+	"architecture": "amd64",
+	"depends": [
+		"bacula-common (= 13.0.4-4build1)",
+		"bacula-director-pgsql (= 13.0.4-4build1) | bacula-director-mysql (= 13.0.4-4build1) | bacula-director-sqlite3 (= 13.0.4-4build1)",
+		"bsd-mailx | mailx",
+		"sysvinit-utils (>= 3.05-1)",
+		"ucf",
+		"libc6 (>= 2.38)",
+		"libstdc++6 (>= 5)"
+	],
+	"preDepends": [
+		"init-system-helpers (>= 1.54~)"
+	],
+	"suggests": [
+		"bacula-doc",
+		"perl:any"
+	],
+	"replaces": [
+		"bacula-common (<< 9.6.4-1)"
+	],
+	"breaks": [
+		"bacula-common (<< 9.6.4-1)"
+	],
+	"installedSize": 1240,
+	"maintainer": "Ubuntu Developers <ubuntu-devel-discuss@lists.ubuntu.com>",
+	"description": "network backup service - Director daemon",
+	"homepage": "https://www.bacula.org/",
+	"filename": "pool/universe/b/bacula/bacula-director_13.0.4-4build1_amd64.deb",
+	"size": 387026,
+	"md5": "43987ed1d8c7731182d18bcaf670ecbe",
+	"sha1": "070f5a34742c2482cf5f78c6d03ec79145870724",
+	"sha256": "ac43fba10cf9b153e458f4eab082c07356e425f10ae960c16bc7f11b47134588",
+	"sha512": "a4cd0a81b012ae9e137257628480aa9edc5a94f9f26d8da94c48ee79b556ca9eac49d6ca41931cb08a40eee55e593c714bfbc7c317e5415b78cd3313aef15064",
+	"descriptionMd5": "6f0024bae002141382406db5c20bf965"
+}]

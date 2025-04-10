@@ -1,0 +1,53 @@
+{
+	"raw": {},
+	"required": [
+		"Filename",
+		"Size"
+	],
+	"package": "schroot",
+	"version": "1.6.13-6",
+	"section": "admin",
+	"priority": "optional",
+	"architecture": "amd64",
+	"depends": [
+		"debconf (>= 0.5) | debconf-2.0",
+		"libboost-filesystem1.83.0 (>= 1.83.0)",
+		"libboost-iostreams1.83.0 (>= 1.83.0)",
+		"libboost-program-options1.83.0 (>= 1.83.0)",
+		"libc6 (>= 2.34)",
+		"libgcc-s1 (>= 3.3.1)",
+		"libpam0g (>= 0.99.7.1)",
+		"libstdc++6 (>= 14)",
+		"libuuid1 (>= 2.16)",
+		"schroot-common (= 1.6.13-6)",
+		"sysvinit-utils"
+	],
+	"preDepends": [
+		"debconf"
+	],
+	"suggests": [
+		"aufs-tools | unionfs-fuse",
+		"btrfs-progs",
+		"bzip2",
+		"debootstrap",
+		"lvm2",
+		"qemu-user-static",
+		"xz-utils",
+		"zfsutils-linux",
+		"zstd"
+	],
+	"enhances": [
+		"sbuild"
+	],
+	"installedSize": 2031,
+	"maintainer": "Ubuntu Developers <ubuntu-devel-discuss@lists.ubuntu.com>",
+	"description": "Execute commands in a chroot environment",
+	"homepage": "https://codeberg.org/shelter/reschroot",
+	"filename": "pool/main/s/schroot/schroot_1.6.13-6_amd64.deb",
+	"size": 607636,
+	"md5": "935d71fbf577eb65fca706b3a7d39059",
+	"sha1": "8aa4dabcdfd4d49c86a6d2ae5fd5fbb561d3c547",
+	"sha256": "64f16f015dcce87269f469c317302ead484b8f9c4757e3acfdb81114073bd1f5",
+	"sha512": "e669486deaa2595ecafb02c43537ea2908f22a52e894e31116838a7cf6136e903013c29524830397ee2505d60afafa2f98b629bc4648f1107b40f60c0aec15b8",
+	"descriptionMd5": "05ddeddba4df3515093084851a978b95"
+}

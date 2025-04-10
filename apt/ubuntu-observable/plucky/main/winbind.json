@@ -1,0 +1,62 @@
+[{
+	"raw": {},
+	"required": [
+		"Filename",
+		"Size"
+	],
+	"package": "winbind",
+	"source": "samba",
+	"version": "2:4.21.4+dfsg-1ubuntu3",
+	"section": "net",
+	"priority": "optional",
+	"architecture": "amd64",
+	"depends": [
+		"samba-common (= 2:4.21.4+dfsg-1ubuntu3)",
+		"samba-common-bin (= 2:4.21.4+dfsg-1ubuntu3)",
+		"libwbclient0 (= 2:4.21.4+dfsg-1ubuntu3)",
+		"passwd",
+		"libbsd0 (>= 0.6.0)",
+		"libc6 (>= 2.38)",
+		"libgnutls30t64 (>= 3.7.0)",
+		"libldap2 (>= 2.6.2)",
+		"libldb2 (>= 0.9.21)",
+		"libndr5 (>= 2:4.20.0~rc1)",
+		"libpopt0 (>= 1.14)",
+		"libsmbldap2 (>= 2:4.16.6)",
+		"libtalloc2 (>= 2.4.0)",
+		"libtdb1 (>= 1.2.7+git20101214)",
+		"libtevent0t64 (>= 0.15.0)",
+		"samba-libs (= 2:4.21.4+dfsg-1ubuntu3)"
+	],
+	"preDepends": [
+		"init-system-helpers (>= 1.54~)"
+	],
+	"suggests": [
+		"libnss-winbind",
+		"libpam-winbind"
+	],
+	"replaces": [
+		"samba (<< 2:4.17.7+dfsg-1ubuntu1~)",
+		"samba-libs (<< 2:4.17.7+dfsg-1ubuntu1~)"
+	],
+	"enhances": [
+		"libkrb5-26t64-heimdal"
+	],
+	"breaks": [
+		"libnss-winbind (<< 2:4.16.1+dfsg-7~)",
+		"libpam-winbind (<< 2:4.16.1+dfsg-7~)",
+		"samba (<< 2:4.17.7+dfsg-1ubuntu1~)",
+		"samba-libs (<< 2:4.17.7+dfsg-1ubuntu1~)"
+	],
+	"installedSize": 1737,
+	"maintainer": "Ubuntu Developers <ubuntu-devel-discuss@lists.ubuntu.com>",
+	"description": "service to resolve user and group information from Windows NT servers",
+	"homepage": "https://www.samba.org",
+	"filename": "pool/main/s/samba/winbind_4.21.4+dfsg-1ubuntu3_amd64.deb",
+	"size": 460816,
+	"md5": "92be89c986d92dbac7791587695049ab",
+	"sha1": "efe9565f2649edaff9d03ae2e396e0e8dc13e96d",
+	"sha256": "b89632a45280a1d8a646ed3535a40d0c630b3eb8a4163cc2afc79a8088b1394d",
+	"sha512": "cc9b5d7eb109f67fad46cb6cc486b1ff5b51790ba14905680cde70bc09b686de2630a9749a5c6be48e1d09a57cc66e14938dc198fce161cbd137440eda13cc1c",
+	"descriptionMd5": "760987c6cfd5ae0abd5c47c9758b31b0"
+}]

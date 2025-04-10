@@ -1,0 +1,47 @@
+{
+	"raw": {},
+	"required": [
+		"Filename",
+		"Size"
+	],
+	"package": "smartmontools",
+	"version": "7.4-3",
+	"section": "utils",
+	"priority": "optional",
+	"architecture": "amd64",
+	"depends": [
+		"debianutils (>= 2.2)",
+		"sysvinit-utils (>= 3.05-4~)",
+		"libc6 (>= 2.38)",
+		"libcap-ng0 (>= 0.7.9)",
+		"libgcc-s1 (>= 3.3.1)",
+		"libselinux1 (>= 3.1~)",
+		"libstdc++6 (>= 11)",
+		"libsystemd0"
+	],
+	"suggests": [
+		"gsmartcontrol",
+		"smart-notifier",
+		"mailx | mailutils",
+		"curl | wget | lynx",
+		"gpg"
+	],
+	"breaks": [
+		"smart-notifier (<= 0.28-8)"
+	],
+	"conflicts": [
+		"smartsuite",
+		"ucsc-smartsuite"
+	],
+	"installedSize": 2301,
+	"maintainer": "Ubuntu Developers <ubuntu-devel-discuss@lists.ubuntu.com>",
+	"description": "control and monitor storage systems using S.M.A.R.T.",
+	"homepage": "https://www.smartmontools.org/",
+	"filename": "pool/main/s/smartmontools/smartmontools_7.4-3_amd64.deb",
+	"size": 689568,
+	"md5": "a3d696707bc4ae44b9814d56a6f350bb",
+	"sha1": "c1cd87fc59fd223b442bd531d3aea5f2ddae757f",
+	"sha256": "f883ee86a833d25ce1c05583bcea230c25ec63230ca73acb3b7ebfcb933e1cfa",
+	"sha512": "0c8488480983482ca5c652694351f5177d71fb0ba78f10355d7db99d73afaeb2291b2eeb7f2b2408d5bd3dc4cb2a185c3d27fa8bae3fa232bf0bdccad2bdf21a",
+	"descriptionMd5": "ea81561661ccfc1b07aa52e4cc37874a"
+}

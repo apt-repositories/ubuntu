@@ -1,0 +1,42 @@
+[{
+	"raw": {},
+	"required": [
+		"Filename",
+		"Size"
+	],
+	"package": "icinga2-ido-mysql",
+	"source": "icinga2",
+	"version": "2.14.5-1",
+	"section": "universe/admin",
+	"priority": "extra",
+	"architecture": "amd64",
+	"depends": [
+		"dbconfig-common",
+		"icinga2-bin (= 2.14.5-1)",
+		"icinga2-common (= 2.14.5-1)",
+		"ucf",
+		"debconf (>= 0.5) | debconf-2.0",
+		"libmysqlclient24 (>= 8.4.2)",
+		"libstdc++6 (>= 5)"
+	],
+	"recommends": [
+		"default-mysql-client | virtual-mysql-client"
+	],
+	"suggests": [
+		"default-mysql-server | virtual-mysql-server"
+	],
+	"conflicts": [
+		"icinga2-ido-pgsql"
+	],
+	"installedSize": 264,
+	"maintainer": "Ubuntu Developers <ubuntu-devel-discuss@lists.ubuntu.com>",
+	"description": "host and network monitoring system - MySQL support",
+	"homepage": "https://icinga.com",
+	"filename": "pool/universe/i/icinga2/icinga2-ido-mysql_2.14.5-1_amd64.deb",
+	"size": 19844,
+	"md5": "fc8f450a8285519ee4926af059ac267e",
+	"sha1": "326fc99a575a05f596c6fe534c17ca1db4668b5f",
+	"sha256": "f0e17b85eb936b2d6a6644427225c96c9ecfabf6623209bc916a209f6cde64b1",
+	"sha512": "15a5748c779d1a1f4dd3c16ca385940e7d4d6d622fffe12d43832cda1663988a7aea1a80e06fb26d31736dd7e061f41e63987a9e4127df424abdaa491daabf26",
+	"descriptionMd5": "52c90cfa8b96fd2c669519e8c63cec0c"
+}]

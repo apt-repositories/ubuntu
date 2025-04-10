@@ -1,0 +1,41 @@
+[{
+	"raw": {},
+	"required": [
+		"Filename",
+		"Size"
+	],
+	"package": "firefox",
+	"version": "1:1snap1-0ubuntu7",
+	"section": "web",
+	"priority": "optional",
+	"architecture": "amd64",
+	"depends": [
+		"debconf (>= 0.5) | debconf-2.0"
+	],
+	"preDepends": [
+		"debconf",
+		"snapd (>= 2.54)"
+	],
+	"replaces": [
+		"firefox-dbg (<< 1:1snap1)",
+		"firefox-dev (<< 1:1snap1)",
+		"firefox-geckodriver (<< 1:1snap1)",
+		"firefox-mozsymbols (<< 1:1snap1)"
+	],
+	"breaks": [
+		"firefox-dbg (<< 1:1snap1)",
+		"firefox-dev (<< 1:1snap1)",
+		"firefox-geckodriver (<< 1:1snap1)",
+		"firefox-mozsymbols (<< 1:1snap1)"
+	],
+	"installedSize": 121,
+	"maintainer": "Ubuntu Mozilla Team <ubuntu-mozillateam@lists.ubuntu.com>",
+	"description": "Installs Firefox snap and provides some system integration",
+	"filename": "pool/main/f/firefox/firefox_1snap1-0ubuntu7_amd64.deb",
+	"size": 76378,
+	"md5": "b7a0e9ef9570b1870669a1cd1532a9c0",
+	"sha1": "91693b0930925b04b9ee8cc5143370723678816d",
+	"sha256": "d4985dbcf97f2980c93b774095c36d064e960e36a05d3c1b90a999c1e8fcc14d",
+	"sha512": "5d3ddd3bc8c6160430fd9f969dea8a4183728609f78fbcb6a5ac64be0fbdbdac4eaec253011efbc3ee726cd44076dd65a71cfe69d9ff419b18f1f2a75b22868f",
+	"descriptionMd5": "a6736ac76f744466196676a85e112a94"
+}]

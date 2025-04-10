@@ -1,0 +1,44 @@
+{
+	"raw": {},
+	"required": [
+		"Filename",
+		"Size"
+	],
+	"package": "update-notifier-common",
+	"source": "update-notifier",
+	"version": "3.197",
+	"section": "gnome",
+	"priority": "optional",
+	"architecture": "all",
+	"depends": [
+		"lsb-release",
+		"patch",
+		"python3-apt",
+		"python3-dbus",
+		"python3-debconf | debconf (<< 1.5.64~)",
+		"python3-debian",
+		"python3-distro-info",
+		"python3:any",
+		"update-manager-core (>= 1:17.04.2)"
+	],
+	"preDepends": [
+		"apt (>= 1.1~)",
+		"dpkg (>= 1.15.7.2)"
+	],
+	"recommends": [
+		"libpam-modules (>= 1.0.1-9ubuntu3)"
+	],
+	"replaces": [
+		"update-notifier (<< 0.75.1)"
+	],
+	"installedSize": 1584,
+	"maintainer": "Michael Vogt <michael.vogt@ubuntu.com>",
+	"description": "Files shared between update-notifier and other packages",
+	"filename": "pool/main/u/update-notifier/update-notifier-common_3.197_all.deb",
+	"size": 214992,
+	"md5": "db994134691d4fd073f12a973049980a",
+	"sha1": "360463cd062f0a17f2030ea8c682b6839f6d96d8",
+	"sha256": "ad279557d4adebdfe7c3d1a07f8ea3a17af23613e46bc55467d4ef87e67643cf",
+	"sha512": "85ac5ee5311544735c31648afbc5c1b6c3fcd3d3f3faaa66d4bfdba5f434b0dfa2d0fd78259b2ceca04ba51689374984174ad51e45ab7cb7ee82fb0bde0ebde6",
+	"descriptionMd5": "9e55b33c0bb042acf203440099a61649"
+}

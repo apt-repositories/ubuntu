@@ -1,0 +1,43 @@
+{
+	"raw": {},
+	"required": [
+		"Filename",
+		"Size"
+	],
+	"package": "libgcc-11-dev-sparc64-cross",
+	"source": "gcc-11-cross-ports (19ubuntu1)",
+	"version": "11.5.0-2ubuntu1cross1",
+	"section": "universe/libdevel",
+	"priority": "optional",
+	"architecture": "all",
+	"depends": [
+		"gcc-11-cross-base-ports (= 11.5.0-2ubuntu1cross1)",
+		"libgcc-s1-sparc64-cross (>= 11.5.0-2ubuntu1cross1)",
+		"libgomp1-sparc64-cross (>= 11.5.0-2ubuntu1cross1)",
+		"libitm1-sparc64-cross (>= 11.5.0-2ubuntu1cross1)",
+		"libatomic1-sparc64-cross (>= 11.5.0-2ubuntu1cross1)",
+		"libasan6-sparc64-cross (>= 11.5.0-2ubuntu1cross1)",
+		"libubsan1-sparc64-cross (>= 11.5.0-2ubuntu1cross1)"
+	],
+	"recommends": [
+		"libc6-dev-sparc64-cross (>= 2.13-0ubuntu6)"
+	],
+	"replaces": [
+		"libtsan0-sparc64-cross (<< 11.2.0-11)"
+	],
+	"breaks": [
+		"libtsan0-sparc64-cross (<< 11.2.0-11)"
+	],
+	"installedSize": 5567,
+	"maintainer": "Ubuntu Core developers <ubuntu-devel-discuss@lists.ubuntu.com>",
+	"description": "GCC support library (development files)",
+	"homepage": "http://gcc.gnu.org/",
+	"builtUsing": "gcc-11 (= 11.5.0-2ubuntu1)",
+	"filename": "pool/universe/g/gcc-11-cross-ports/libgcc-11-dev-sparc64-cross_11.5.0-2ubuntu1cross1_all.deb",
+	"size": 724280,
+	"md5": "64d871a61ab40d42491da76f5ee319ac",
+	"sha1": "26c5ecf0bed45d43a55a2c38508cbee19f51cef6",
+	"sha256": "504ced30fb2ce223b3a63dc2b961d31a34cbfcd2cc3bf7f44f0f07bd4c5b2a22",
+	"sha512": "5a28b228ad799959539446ee690dfd625fc180f7fdf071fbadbdbcd66fe746c9b73ba3c5884ab872208a3d90aaac9ef3ba15bf535c55016396759a3fb6d3064b",
+	"descriptionMd5": "4ab7cb439b47e1d0796fbaf8447229ac"
+}

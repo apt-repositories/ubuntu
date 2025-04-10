@@ -1,0 +1,54 @@
+{
+	"raw": {},
+	"required": [
+		"Filename",
+		"Size"
+	],
+	"package": "python3-samba",
+	"source": "samba",
+	"version": "2:4.21.4+dfsg-1ubuntu3",
+	"section": "python",
+	"priority": "optional",
+	"architecture": "amd64",
+	"depends": [
+		"python3-ldb (= 2:2.10.0+samba4.21.4+dfsg-1ubuntu3)",
+		"samba-libs (= 2:4.21.4+dfsg-1ubuntu3)",
+		"python3-tdb",
+		"python3-cryptography",
+		"python3 (<< 3.14)",
+		"python3 (>= 3.13~)",
+		"python3:any",
+		"libbsd0 (>= 0.0)",
+		"libc6 (>= 2.34)",
+		"libgnutls30t64 (>= 3.7.0)",
+		"libldb2 (>= 2:1.1.23)",
+		"libndr5 (>= 2:4.20.0~rc1)",
+		"libpython3.13 (>= 3.13.0~rc3)",
+		"libtalloc2 (>= 2.0.4~git20101213)",
+		"libtevent0t64 (>= 0.15.0)",
+		"python3-talloc (>> 2:2.4.2+samba4.21.4+dfsg-1ubuntu3~)"
+	],
+	"recommends": [
+		"tdb-tools"
+	],
+	"replaces": [
+		"samba (<< 2:4.20.1+dfsg-2~)",
+		"samba-common-bin (<< 2:4.20.1+dfsg-2~)",
+		"samba-libs (<< 2:4.16.0+dfsg-1~)"
+	],
+	"breaks": [
+		"samba (<< 2:4.20.1+dfsg-2~)",
+		"samba-common-bin (<< 2:4.20.1+dfsg-2~)"
+	],
+	"installedSize": 20026,
+	"maintainer": "Ubuntu Developers <ubuntu-devel-discuss@lists.ubuntu.com>",
+	"description": "Python 3 bindings for Samba",
+	"homepage": "https://www.samba.org",
+	"filename": "pool/main/s/samba/python3-samba_4.21.4+dfsg-1ubuntu3_amd64.deb",
+	"size": 3228452,
+	"md5": "28005f83e8c1a014df6aef745b7e6231",
+	"sha1": "48ba1ca602ad11546f15e7faf56a4d22dab101bf",
+	"sha256": "c5ca9da1000598b1a71d4fda9777079082c73656cff8ae31a7f9aefbb4c5f12e",
+	"sha512": "e42f009ae3a44e14402abb48b623bb11998a0d84038fc5a96655c0084971511937df88a075765a95c9cbdce8a798b3b377c7ee776fdff79b31dccdce8027b2ab",
+	"descriptionMd5": "7593355c9f194d3f84df6ce15717d93f"
+}

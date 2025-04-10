@@ -1,0 +1,41 @@
+[{
+	"raw": {},
+	"required": [
+		"Filename",
+		"Size"
+	],
+	"package": "libgcc-11-dev-riscv64-cross",
+	"source": "gcc-11-cross-ports (19ubuntu1)",
+	"version": "11.5.0-2ubuntu1cross1",
+	"section": "universe/libdevel",
+	"priority": "optional",
+	"architecture": "all",
+	"depends": [
+		"gcc-11-cross-base-ports (= 11.5.0-2ubuntu1cross1)",
+		"libgcc-s1-riscv64-cross (>= 11.5.0-2ubuntu1cross1)",
+		"libgomp1-riscv64-cross (>= 11.5.0-2ubuntu1cross1)",
+		"libatomic1-riscv64-cross (>= 11.5.0-2ubuntu1cross1)",
+		"libasan6-riscv64-cross (>= 11.5.0-2ubuntu1cross1)"
+	],
+	"recommends": [
+		"libc6-dev-riscv64-cross (>= 2.13-0ubuntu6)"
+	],
+	"replaces": [
+		"libtsan0-riscv64-cross (<< 11.2.0-11)"
+	],
+	"breaks": [
+		"libtsan0-riscv64-cross (<< 11.2.0-11)"
+	],
+	"installedSize": 19166,
+	"maintainer": "Ubuntu Core developers <ubuntu-devel-discuss@lists.ubuntu.com>",
+	"description": "GCC support library (development files)",
+	"homepage": "http://gcc.gnu.org/",
+	"builtUsing": "gcc-11 (= 11.5.0-2ubuntu1)",
+	"filename": "pool/universe/g/gcc-11-cross-ports/libgcc-11-dev-riscv64-cross_11.5.0-2ubuntu1cross1_all.deb",
+	"size": 2205386,
+	"md5": "19998f3943c91123c88cf21ce1ce292a",
+	"sha1": "6dd666bfde99170c17cb14bf680b71777de57f01",
+	"sha256": "6cadf941dc3fdd77c403c4831cec07658b847d96818b984c70fe1e4090212dee",
+	"sha512": "162be82578a7e128bdec8335d057ee5280daf6ae57168bd6006bf2a35c86fc450b1ea3ebdfa66d26153695a59bd92ba36624dca8a0a0247fc0874e8ed8e1b47f",
+	"descriptionMd5": "4ab7cb439b47e1d0796fbaf8447229ac"
+}]

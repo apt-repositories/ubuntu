@@ -1,0 +1,44 @@
+[{
+	"raw": {},
+	"required": [
+		"Filename",
+		"Size"
+	],
+	"package": "debusine-server",
+	"source": "debusine",
+	"version": "0.9.0",
+	"section": "universe/devel",
+	"priority": "optional",
+	"architecture": "all",
+	"depends": [
+		"adduser",
+		"arch-test",
+		"daphne",
+		"dbconfig-pgsql | dbconfig-no-thanks",
+		"libjs-select2.js",
+		"python3-debusine-server (= 0.9.0)",
+		"debconf (>= 0.5) | debconf-2.0",
+		"python3:any (>= 3.11~)"
+	],
+	"recommends": [
+		"default-mta | mail-transport-agent",
+		"nginx-core | httpd",
+		"postgresql",
+		"redis-server",
+		"sensible-utils"
+	],
+	"suggests": [
+		"munin-node"
+	],
+	"installedSize": 108,
+	"maintainer": "Ubuntu Developers <ubuntu-devel-discuss@lists.ubuntu.com>",
+	"description": "Services to run a debusine server",
+	"homepage": "https://salsa.debian.org/freexian-team/debusine",
+	"filename": "pool/universe/d/debusine/debusine-server_0.9.0_all.deb",
+	"size": 18856,
+	"md5": "a48eab1f349e0f791387ceb9e7d13c30",
+	"sha1": "5a62bc1b0649916a60345aa19bdcaa1714be9ac6",
+	"sha256": "16027f68f96a91b555eae26ea26cb8bd9f7ac2d6f75f2863e16e765036c14274",
+	"sha512": "2f3be2cfff4dc4ad8203f7eadcd20dd1ace0405821fe3a609617d17740fe4d9e59bc44c383ae9427f75db81bf08dfd82c1ac6865715f7a9ac4ee953008199999",
+	"descriptionMd5": "bc99f38676ea648be1bacbb6d71f5598"
+}]

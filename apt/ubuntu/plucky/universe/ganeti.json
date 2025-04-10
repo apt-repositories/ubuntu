@@ -1,0 +1,60 @@
+{
+	"raw": {},
+	"required": [
+		"Filename",
+		"Size"
+	],
+	"package": "ganeti",
+	"version": "3.1.0~rc2-2",
+	"section": "universe/admin",
+	"priority": "optional",
+	"architecture": "all",
+	"depends": [
+		"ganeti-3.1 (= 3.1.0~rc2-2)",
+		"ganeti-haskell-3.1 (>= 3.1.0~rc2-2)",
+		"ganeti-haskell-3.1 (<< 3.1.0~rc2-2.1~)",
+		"ganeti-htools-3.1 (>= 3.1.0~rc2-2)",
+		"ganeti-htools-3.1 (<< 3.1.0~rc2-2.1~)",
+		"adduser",
+		"python3",
+		"lsb-base (>= 3.0-6)"
+	],
+	"preDepends": [
+		"init-system-helpers (>= 1.54~)"
+	],
+	"recommends": [
+		"drbd-utils | drbd8-utils (>= 8.0.7)",
+		"qemu-kvm | xen-system-amd64",
+		"fdisk",
+		"ganeti-instance-debootstrap",
+		"ndisc6"
+	],
+	"suggests": [
+		"ganeti-doc",
+		"blktap-dkms",
+		"molly-guard"
+	],
+	"replaces": [
+		"ganeti-haskell",
+		"ganeti-htools",
+		"ganeti2 (<< 2.7.0-2)"
+	],
+	"breaks": [
+		"ganeti-haskell",
+		"ganeti2 (<< 2.7.0-2)"
+	],
+	"conflicts": [
+		"ganeti-htools"
+	],
+	"installedSize": 398,
+	"maintainer": "Ubuntu Developers <ubuntu-devel-discuss@lists.ubuntu.com>",
+	"description": "cluster virtualization manager",
+	"homepage": "https://ganeti.org/",
+	"filename": "pool/universe/g/ganeti/ganeti_3.1.0~rc2-2_all.deb",
+	"size": 91010,
+	"md5": "825a01ee49f2c2337ef30b365b4bdfed",
+	"sha1": "cb690cffcc705f2df68e62fd28c6c9ac6cdaf636",
+	"sha256": "f7480c0ced98c5794c7fba54d3094f0149c7046d0259b6e39c3d45e6e1107306",
+	"sha512": "8fa571b309c33fe8938323b94185d97e5497b06dc0fd9a9a0a8897df2ba8d266b29b13cf20f53deba9a07a280d05ef9d09eaa36728a738fa137a94329f1b7a79",
+	"descriptionMd5": "1cfa82fb400c69ad1e5d141436d47d89"
+}
