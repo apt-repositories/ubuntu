@@ -6,6 +6,46 @@
 	],
 	"package": "openssh-sftp-server",
 	"source": "openssh",
+	"version": "1:9.9p1-3ubuntu3.1",
+	"section": "net",
+	"priority": "optional",
+	"architecture": "amd64",
+	"depends": [
+		"openssh-client (= 1:9.9p1-3ubuntu3.1)",
+		"libc6 (>= 2.38)"
+	],
+	"recommends": [
+		"openssh-server | ssh-server"
+	],
+	"replaces": [
+		"openssh-server (<< 1:6.5p1-5)"
+	],
+	"enhances": [
+		"openssh-server",
+		"ssh-server"
+	],
+	"breaks": [
+		"openssh-server (<< 1:6.5p1-5)"
+	],
+	"installedSize": 113,
+	"maintainer": "Ubuntu Developers <ubuntu-devel-discuss@lists.ubuntu.com>",
+	"description": "secure shell (SSH) sftp server module, for SFTP access from remote machines",
+	"homepage": "https://www.openssh.com/",
+	"filename": "pool/main/o/openssh/openssh-sftp-server_9.9p1-3ubuntu3.1_amd64.deb",
+	"size": 41182,
+	"md5": "caefd69238c75bd5d12d37f723ede4ea",
+	"sha1": "00e670875afa393f0b2625e09bfd65b42e79dee5",
+	"sha256": "251db870e2d025021f79e0bc7c5d8e9cd98e76e2fa8f53aa8f820932aa72cc19",
+	"sha512": "0b89403be2a3f7a041828182afb8be64e2c28d8aa87fc6ac11d1b21e445543d3f81fd929b6ad7c8ee5b4446b4fc4770118958cd132e66c5cc3b4df5a67901e6e",
+	"descriptionMd5": "b9a6d4f71758c154615deaec42e8415d"
+},{
+	"raw": {},
+	"required": [
+		"Filename",
+		"Size"
+	],
+	"package": "openssh-sftp-server",
+	"source": "openssh",
 	"version": "1:9.9p1-3ubuntu3",
 	"section": "net",
 	"priority": "optional",
