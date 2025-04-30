@@ -61,6 +61,61 @@
 	],
 	"package": "libreoffice-base",
 	"source": "libreoffice",
+	"version": "4:24.8.6-0ubuntu0.24.10.1",
+	"section": "universe/database",
+	"priority": "optional",
+	"architecture": "amd64",
+	"depends": [
+		"libreoffice-base-core (= 4:24.8.6-0ubuntu0.24.10.1)",
+		"libreoffice-base-drivers (= 4:24.8.6-0ubuntu0.24.10.1)",
+		"libreoffice-common (>= 1:7.0.0~alpha~)",
+		"libreoffice-core (= 4:24.8.6-0ubuntu0.24.10.1)",
+		"libreoffice-uiconfig-base (= 4:24.8.6-0ubuntu0.24.10.1)",
+		"ucf",
+		"libc6 (>= 2.35)",
+		"libgcc-s1 (>= 3.0)",
+		"libstdc++6 (>= 11)",
+		"libuno-cppu3t64 (>= 4.4.0~alpha)",
+		"libuno-cppuhelpergcc3-3t64 (>= 4.0.0~alpha)",
+		"libuno-sal3t64 (>= 1:7.3.0~beta1)",
+		"libuno-salhelpergcc3-3t64 (>= 1.4.0)",
+		"uno-libs-private"
+	],
+	"recommends": [
+		"libreoffice-writer",
+		"libreoffice-java-common (>= 4:24.8.6~)",
+		"default-jre (>= 2:1.8) | java-runtime (>= 8) | java8-runtime | jre"
+	],
+	"suggests": [
+		"libreoffice-report-builder",
+		"python3-access2base",
+		"unixodbc"
+	],
+	"replaces": [
+		"libreoffice-common (<< 1:6.4.2~rc1~)"
+	],
+	"breaks": [
+		"libreoffice-common (<< 1:6.4.2~rc1~)"
+	],
+	"installedSize": 6086,
+	"maintainer": "Ubuntu Developers <ubuntu-devel-discuss@lists.ubuntu.com>",
+	"description": "office productivity suite -- database",
+	"homepage": "http://www.libreoffice.org",
+	"filename": "pool/universe/libr/libreoffice/libreoffice-base_24.8.6-0ubuntu0.24.10.1_amd64.deb",
+	"size": 1696556,
+	"md5": "4b1ae539be93b2d64c2355d6c0020366",
+	"sha1": "fc698d97546c5450eacabf9b33579ca92c8e031d",
+	"sha256": "28d5fb6f25d8f3c22d4a901e378b94a2223bec89592b3ef6fcc1ba64b3dc8ba6",
+	"sha512": "0fb9383a6669362f86159a1e1dfb3df00c96a42870ce91f0268a0c3a9fadd22980d94f8e41e600dde027895af3e87f05baac505e653990431d4fd9168405ddc9",
+	"descriptionMd5": "5529fff5c628ca6b70284749063daea4"
+},{
+	"raw": {},
+	"required": [
+		"Filename",
+		"Size"
+	],
+	"package": "libreoffice-base",
+	"source": "libreoffice",
 	"version": "4:24.8.2-0ubuntu1",
 	"section": "universe/database",
 	"priority": "optional",

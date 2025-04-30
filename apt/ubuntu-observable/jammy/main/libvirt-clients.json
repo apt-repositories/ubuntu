@@ -50,6 +50,50 @@
 	],
 	"package": "libvirt-clients",
 	"source": "libvirt",
+	"version": "8.0.0-1ubuntu7.11",
+	"section": "admin",
+	"priority": "optional",
+	"architecture": "amd64",
+	"depends": [
+		"libvirt0 (= 8.0.0-1ubuntu7.11)",
+		"sensible-utils",
+		"libc6 (>= 2.34)",
+		"libgcc-s1 (>= 3.3.1)",
+		"libglib2.0-0 (>= 2.43.2)",
+		"libgnutls30 (>= 3.7.0)",
+		"libreadline8 (>= 6.0)",
+		"libxml2 (>= 2.7.4)"
+	],
+	"suggests": [
+		"libvirt-daemon (= 8.0.0-1ubuntu7.11)",
+		"libvirt-login-shell (= 8.0.0-1ubuntu7.11)"
+	],
+	"replaces": [
+		"libvirt-daemon (<< 6.9.0-2~)"
+	],
+	"breaks": [
+		"libvirt-daemon (<< 6.9.0-2~)",
+		"libvirt-daemon-driver-qemu (<< 6.9.0-2~)"
+	],
+	"installedSize": 1380,
+	"maintainer": "Ubuntu Developers <ubuntu-devel-discuss@lists.ubuntu.com>",
+	"description": "Programs for the libvirt library",
+	"homepage": "https://libvirt.org/",
+	"filename": "pool/main/libv/libvirt/libvirt-clients_8.0.0-1ubuntu7.11_amd64.deb",
+	"size": 429026,
+	"md5": "afc6c5bd1762952bdf28194abb16d7e2",
+	"sha1": "1e099856c2e970514dd31ff8f351189191f434f9",
+	"sha256": "46aef2e6670ce516c3f3aaeedbb79dcd71db07fe83c91c9c6096f102a0e6ef8d",
+	"sha512": "fd1c01d65deca0947fff20a63dc0f00303485e4990ab58c9f008f3e45ebff34f4c27fbfe9aff655c11dcfdcc6c4de598775b885cbe348b42cc149e4fe5beb3ed",
+	"descriptionMd5": "fef902cf44d3e9aa677b809e73dc3cc9"
+},{
+	"raw": {},
+	"required": [
+		"Filename",
+		"Size"
+	],
+	"package": "libvirt-clients",
+	"source": "libvirt",
 	"version": "8.0.0-1ubuntu7",
 	"section": "admin",
 	"priority": "optional",
