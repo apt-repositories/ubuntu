@@ -41,6 +41,41 @@
 	],
 	"package": "grub-efi-amd64-bin",
 	"source": "grub2-unsigned",
+	"version": "2.06-2ubuntu14.8",
+	"section": "admin",
+	"priority": "extra",
+	"architecture": "amd64",
+	"depends": [
+		"grub-common (>= 2.02~beta2-9)"
+	],
+	"recommends": [
+		"grub-efi-amd64-signed",
+		"efibootmgr"
+	],
+	"replaces": [
+		"grub-common (<= 1.97~beta2-1)",
+		"grub-efi-amd64 (<< 1.99-1)",
+		"grub2 (<< 2.06-2ubuntu14.8)"
+	],
+	"installedSize": 10090,
+	"maintainer": "Ubuntu Developers <ubuntu-devel-discuss@lists.ubuntu.com>",
+	"description": "GRand Unified Bootloader, version 2 (EFI-AMD64 modules)",
+	"homepage": "https://www.gnu.org/software/grub/",
+	"filename": "pool/main/g/grub2-unsigned/grub-efi-amd64-bin_2.06-2ubuntu14.8_amd64.deb",
+	"size": 1679332,
+	"md5": "ee1ccdf427818bdb7fd877ab46f33f21",
+	"sha1": "589970752144783fe1bc2cee6aa25adb2c83cc14",
+	"sha256": "e5de80509d6832ec985a4da01e1f3c6670cc8a55c4061b4b05d5f4732278cc10",
+	"sha512": "db8bb0e71405a17415f87ef84d15b640b1a6eadb0629d97f4abb69f7c63c11f66471914085e787f04895157f09702497ff8894b705be3dabb44eb51a50ce94f7",
+	"descriptionMd5": "f6ad99c32640061c96401d0bc70e2f8a"
+},{
+	"raw": {},
+	"required": [
+		"Filename",
+		"Size"
+	],
+	"package": "grub-efi-amd64-bin",
+	"source": "grub2-unsigned",
 	"version": "2.06-2ubuntu7",
 	"section": "admin",
 	"priority": "extra",

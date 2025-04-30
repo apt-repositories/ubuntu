@@ -46,6 +46,46 @@
 	],
 	"package": "cryptsetup-initramfs",
 	"source": "cryptsetup",
+	"version": "2:2.2.2-3ubuntu2.5",
+	"section": "admin",
+	"priority": "optional",
+	"architecture": "all",
+	"depends": [
+		"busybox-initramfs",
+		"cryptsetup (>= 2:2.2.2-3ubuntu2.5)",
+		"initramfs-tools (>= 0.129) | linux-initramfs-tool",
+		"debconf (>= 0.5) | debconf-2.0"
+	],
+	"recommends": [
+		"console-setup",
+		"kbd",
+		"plymouth"
+	],
+	"replaces": [
+		"cryptsetup (<< 2:2.0.3-1)"
+	],
+	"breaks": [
+		"cryptsetup (<< 2:2.0.3-1)"
+	],
+	"installedSize": 156,
+	"maintainer": "Ubuntu Developers <ubuntu-devel-discuss@lists.ubuntu.com>",
+	"description": "disk encryption support - initramfs integration",
+	"homepage": "https://gitlab.com/cryptsetup/cryptsetup",
+	"filename": "pool/main/c/cryptsetup/cryptsetup-initramfs_2.2.2-3ubuntu2.5_all.deb",
+	"size": 26112,
+	"md5": "afafbe5195251ef8bc65f917fab210b0",
+	"sha1": "9cbde4db78b82cf4946c88fe6e9e4fe13a9920ad",
+	"sha256": "6e2920d7ef568f28c3ae8f911d4c71fece3e01c7bae2bd9b9765e7d23f918e1a",
+	"sha512": "7bbf050b4cde10fc8703bf139d5f1b666c905fa81e811e3581155ae6bb22a114ace40a548a6aeb1a5abfbe6fbee096b6385990eb860927182d249eb1211fb90d",
+	"descriptionMd5": "cac39fb1e64bce69f201398c1e1e437a"
+},{
+	"raw": {},
+	"required": [
+		"Filename",
+		"Size"
+	],
+	"package": "cryptsetup-initramfs",
+	"source": "cryptsetup",
 	"version": "2:2.2.2-3ubuntu2",
 	"section": "admin",
 	"priority": "optional",

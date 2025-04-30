@@ -44,6 +44,44 @@
 	],
 	"package": "libvirt-daemon-driver-storage-rbd",
 	"source": "libvirt",
+	"version": "8.0.0-1ubuntu7.11",
+	"section": "universe/admin",
+	"priority": "optional",
+	"architecture": "amd64",
+	"depends": [
+		"libvirt-daemon (= 8.0.0-1ubuntu7.11)",
+		"libvirt0 (= 8.0.0-1ubuntu7.11)",
+		"libc6 (>= 2.4)",
+		"libgcc-s1 (>= 3.3.1)",
+		"libglib2.0-0 (>= 2.24.0)",
+		"librados2 (>= 14.2.0)",
+		"librbd1 (>= 14.2.0)"
+	],
+	"replaces": [
+		"libvirt-daemon (<< 3.7.0-3~)"
+	],
+	"breaks": [
+		"libvirt-daemon (<< 3.7.0-3~)"
+	],
+	"installedSize": 240,
+	"maintainer": "Ubuntu Developers <ubuntu-devel-discuss@lists.ubuntu.com>",
+	"description": "Virtualization daemon RBD storage driver",
+	"homepage": "https://libvirt.org/",
+	"filename": "pool/universe/libv/libvirt/libvirt-daemon-driver-storage-rbd_8.0.0-1ubuntu7.11_amd64.deb",
+	"size": 19238,
+	"md5": "cf51fb536839f684ab853b22032f047a",
+	"sha1": "2a63e73dd067af1c2030af747a3ab4e28ca8fe59",
+	"sha256": "a54a7000b25b7c180f09a242366f2fc255369fabd5c44558764c9b867b06c14e",
+	"sha512": "e08bf7fad643fd4ec2a86050907c8718371916d54d49f5a416b18d657ad9c79b4a8eb30c1cbb9cab126f5cabec49bafda75fbe4dcd9d3edd05e76a5c3d4d7ad4",
+	"descriptionMd5": "4e2039368200982b12534d16d0792845"
+},{
+	"raw": {},
+	"required": [
+		"Filename",
+		"Size"
+	],
+	"package": "libvirt-daemon-driver-storage-rbd",
+	"source": "libvirt",
 	"version": "8.0.0-1ubuntu7",
 	"section": "universe/admin",
 	"priority": "optional",

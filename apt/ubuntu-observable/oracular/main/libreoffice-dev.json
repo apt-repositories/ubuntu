@@ -58,6 +58,58 @@
 	],
 	"package": "libreoffice-dev",
 	"source": "libreoffice",
+	"version": "4:24.8.6-0ubuntu0.24.10.1",
+	"section": "devel",
+	"priority": "optional",
+	"architecture": "amd64",
+	"depends": [
+		"libreoffice-core-nogui (= 4:24.8.6-0ubuntu0.24.10.1) | libreoffice-core (= 4:24.8.6-0ubuntu0.24.10.1)",
+		"libreoffice-dev-common (= 4:24.8.6-0ubuntu0.24.10.1)",
+		"libc6 (>= 2.38)",
+		"libgcc-s1 (>= 3.0)",
+		"libstdc++6 (>= 13.1)",
+		"libuno-sal3t64 (>= 4.1.0~alpha)",
+		"libuno-salhelpergcc3-3t64 (>= 1.4.0)"
+	],
+	"recommends": [
+		"g++",
+		"libreofficekit-dev",
+		"libreoffice-java-common (>= 4:24.8.6~)",
+		"default-jre (>= 2:1.8) | java-runtime (>= 8) | java8-runtime | jre"
+	],
+	"suggests": [
+		"libmythes-dev",
+		"libreoffice-dev-doc"
+	],
+	"replaces": [
+		"libreoffice-dev-common (<< 1:5.4.1~)"
+	],
+	"breaks": [
+		"libreoffice-dev-common (<< 1:5.4.1~)"
+	],
+	"conflicts": [
+		"libreoffice (<< 1:5.2.5-2~)",
+		"libreoffice-dev-doc (<< 1:5.2.5-2~)"
+	],
+	"installedSize": 948,
+	"maintainer": "Ubuntu Developers <ubuntu-devel-discuss@lists.ubuntu.com>",
+	"description": "office productivity suite -- SDK -- architecture-dependent parts",
+	"homepage": "http://www.libreoffice.org",
+	"filename": "pool/main/libr/libreoffice/libreoffice-dev_24.8.6-0ubuntu0.24.10.1_amd64.deb",
+	"size": 265518,
+	"md5": "8c2a75404aa798f204988451d30f10a1",
+	"sha1": "2c6a6c82ad7d9288a42113756d110494ee6ad0e8",
+	"sha256": "21e2c6a0e28fa105d5e6ff308b7055eb823f915f46eeb43e599deb561086c3fb",
+	"sha512": "dd40105ab5ecf7d7b6c0f9562a5704f9c76a1e8c4070742904e15d23b2370414c3370512dcefd9cb7ad6cc5f00862630779e0fbfe5a4e66e069fa37ed3f84da4",
+	"descriptionMd5": "fa13d1087845b42e8db65349b0428d09"
+},{
+	"raw": {},
+	"required": [
+		"Filename",
+		"Size"
+	],
+	"package": "libreoffice-dev",
+	"source": "libreoffice",
 	"version": "4:24.8.2-0ubuntu1",
 	"section": "devel",
 	"priority": "optional",
