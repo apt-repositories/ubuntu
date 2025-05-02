@@ -6,6 +6,35 @@
 	],
 	"package": "linux-modules-nvidia-535-server-6.14.0-1005-aws",
 	"source": "linux-restricted-modules-aws",
+	"version": "6.14.0-1005.5+4",
+	"section": "restricted/kernel",
+	"priority": "optional",
+	"architecture": "amd64",
+	"depends": [
+		"debconf (>= 0.5) | debconf-2.0",
+		"linux-image-6.14.0-1005-aws | linux-image-unsigned-6.14.0-1005-aws",
+		"linux-signatures-nvidia-6.14.0-1005-aws (= 6.14.0-1005.5+4)",
+		"linux-objects-nvidia-535-server-6.14.0-1005-aws (= 6.14.0-1005.5+4)",
+		"nvidia-kernel-common-535-server (>= 535.247.01)"
+	],
+	"installedSize": 33,
+	"maintainer": "Canonical Kernel Team <kernel-team@lists.ubuntu.com>",
+	"description": "Linux kernel nvidia modules for version 6.14.0-1005",
+	"filename": "pool/restricted/l/linux-restricted-modules-aws/linux-modules-nvidia-535-server-6.14.0-1005-aws_6.14.0-1005.5+4_amd64.deb",
+	"size": 13726,
+	"md5": "f49ce4a5feab279981b082cf3be09cd0",
+	"sha1": "0014a09de38eea36ac3066c76427c5eaa75e4a91",
+	"sha256": "cb5dca4a00208d198152ba70338aa2a4b96553b183d80e3f3469caf4a79bb7b5",
+	"sha512": "2c484b64514c6814613002b935f7bc2fdee5e20644de84527304b8efa9c20d72ec4d6c1da5044bba0b0a7691984503f1709522d48d1339b01bf8833350611b3f",
+	"descriptionMd5": "7e11ca93210f4c6f1080532cd8209243"
+},{
+	"raw": {},
+	"required": [
+		"Filename",
+		"Size"
+	],
+	"package": "linux-modules-nvidia-535-server-6.14.0-1005-aws",
+	"source": "linux-restricted-modules-aws",
 	"version": "6.14.0-1005.5+1",
 	"section": "restricted/kernel",
 	"priority": "optional",

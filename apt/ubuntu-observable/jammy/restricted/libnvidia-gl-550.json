@@ -39,4 +39,45 @@
 	"sha256": "543deebe8b00975517f6880f1c2b6316c11fa7b38c754c4663631c47af4e3f96",
 	"sha512": "82aeae161c7353356792546c018d8579456a960875d49a074dc34abe608305e63946415bf51bb12cbd273b769cd620ecbe03eb45fd46607d6cb41808c60a2597",
 	"descriptionMd5": "d899ab089124230e29489e7dcc9f137a"
+},{
+	"raw": {},
+	"required": [
+		"Filename",
+		"Size"
+	],
+	"package": "libnvidia-gl-550",
+	"source": "nvidia-graphics-drivers-550",
+	"version": "550.144.03-0ubuntu0.22.04.1",
+	"section": "restricted/libs",
+	"priority": "optional",
+	"architecture": "amd64",
+	"depends": [
+		"libnvidia-common-550",
+		"libc6 (>= 2.10)",
+		"libdrm2 (>= 2.4.75)",
+		"libgbm1 (>= 8.1~0)",
+		"libgcc-s1 (>= 4.2)",
+		"libx11-6",
+		"libxext6",
+		"libnvidia-egl-wayland1"
+	],
+	"replaces": [
+		"libnvidia-gl",
+		"nvidia-384 (<< 390.25)",
+		"nvidia-390 (<< 390.25-0ubuntu1)"
+	],
+	"conflicts": [
+		"libnvidia-gl"
+	],
+	"installedSize": 372183,
+	"maintainer": "Ubuntu Core Developers <ubuntu-devel-discuss@lists.ubuntu.com>",
+	"description": "NVIDIA OpenGL/GLX/EGL/GLES GLVND libraries and Vulkan ICD",
+	"homepage": "http://www.nvidia.com",
+	"filename": "pool/restricted/n/nvidia-graphics-drivers-550/libnvidia-gl-550_550.144.03-0ubuntu0.22.04.1_amd64.deb",
+	"size": 155821312,
+	"md5": "97e03e130dca806708ad305362abc492",
+	"sha1": "e12ef2ad82f9716f36ce82b92d15083bd2d2c9c2",
+	"sha256": "19f5c7618fbf107445fe83f877494b83810da3dfc7c11c578c9248c37d4abbb7",
+	"sha512": "b87d6a2db52a580ef15dc97e11497a5679d73f4f671ec69c35f299859e36d9016abdd6b0e04b5e5ff07cd2b50722ff5ee6c6dc5096302e6a980a7cd984b81bb9",
+	"descriptionMd5": "d899ab089124230e29489e7dcc9f137a"
 }]
