@@ -45,6 +45,45 @@
 	],
 	"package": "nvidia-headless-no-dkms-550-server-open",
 	"source": "nvidia-graphics-drivers-550-server",
+	"version": "550.163.01-0ubuntu0.24.04.1",
+	"section": "multiverse/libs",
+	"priority": "optional",
+	"architecture": "amd64",
+	"depends": [
+		"nvidia-kernel-common-550-server (<= 550.163.01-1)",
+		"nvidia-kernel-common-550-server (>= 550.163.01)",
+		"nvidia-kernel-source-550-server-open (= 550.163.01-0ubuntu0.24.04.1)",
+		"libnvidia-compute-550-server (= 550.163.01-0ubuntu0.24.04.1)",
+		"nvidia-compute-utils-550-server (= 550.163.01-0ubuntu0.24.04.1)",
+		"libnvidia-cfg1-550-server (= 550.163.01-0ubuntu0.24.04.1)"
+	],
+	"replaces": [
+		"nvidia-384 (<< 390.25)",
+		"nvidia-390 (<< 390.25-0ubuntu1)"
+	],
+	"conflicts": [
+		"nvidia-384 (<< 390.25)",
+		"nvidia-390 (<< 390.25-0ubuntu1)"
+	],
+	"installedSize": 32,
+	"maintainer": "Ubuntu Core Developers <ubuntu-devel-discuss@lists.ubuntu.com>",
+	"description": "NVIDIA headless metapackage - no DKMS (open kernel module)",
+	"homepage": "http://www.nvidia.com",
+	"filename": "pool/multiverse/n/nvidia-graphics-drivers-550-server/nvidia-headless-no-dkms-550-server-open_550.163.01-0ubuntu0.24.04.1_amd64.deb",
+	"size": 11240,
+	"md5": "8e6e517df6d8e7a3ec3d51e0eb716c24",
+	"sha1": "f4b79f29bb78ed79a7e1585278a5e5ad1bef6a8d",
+	"sha256": "855e0977ba9543fe466a1a5fe082595284483c0eb35b16d06bcd6d7d90846b51",
+	"sha512": "d6d8ea705350ba7fced802647a0b9df7418a740301291bf7ce8114a7a87dd0f07353bb90acea1dbf0495505de3b74828df8fcc3be6b0a784c6379536ab1cb644",
+	"descriptionMd5": "e17d66a398d4ed38aec0c116a1e1444e"
+},{
+	"raw": {},
+	"required": [
+		"Filename",
+		"Size"
+	],
+	"package": "nvidia-headless-no-dkms-550-server-open",
+	"source": "nvidia-graphics-drivers-550-server",
 	"version": "550.54.15-0ubuntu2",
 	"section": "multiverse/libs",
 	"priority": "optional",

@@ -48,6 +48,48 @@
 	],
 	"package": "libnvidia-gl-535-server",
 	"source": "nvidia-graphics-drivers-535-server",
+	"version": "535.247.01-0ubuntu0.24.04.1",
+	"section": "restricted/libs",
+	"priority": "optional",
+	"architecture": "amd64",
+	"depends": [
+		"libnvidia-common-535-server",
+		"libc6 (>= 2.34)",
+		"libdrm2 (>= 2.4.75)",
+		"libegl1",
+		"libgbm1 (>= 8.1~0)",
+		"libgcc-s1 (>= 4.2)",
+		"libx11-6",
+		"libxext6",
+		"libnvidia-egl-wayland1"
+	],
+	"replaces": [
+		"libnvidia-gl",
+		"nvidia-384 (<< 390.25)",
+		"nvidia-390 (<< 390.25-0ubuntu1)"
+	],
+	"conflicts": [
+		"libnvidia-gl"
+	],
+	"installedSize": 460686,
+	"maintainer": "Ubuntu Core Developers <ubuntu-devel-discuss@lists.ubuntu.com>",
+	"description": "NVIDIA OpenGL/GLX/EGL/GLES GLVND libraries and Vulkan ICD",
+	"homepage": "http://www.nvidia.com",
+	"filename": "pool/restricted/n/nvidia-graphics-drivers-535-server/libnvidia-gl-535-server_535.247.01-0ubuntu0.24.04.1_amd64.deb",
+	"size": 194757996,
+	"md5": "2a4893ab9dd622efa51237ac35050310",
+	"sha1": "932785fb514e231b9b068d5d32771090e0722ea6",
+	"sha256": "8fc818094b9d1c1d033eaa0ab775ee5c9133339585c15f5b1f6bfdeaf294685f",
+	"sha512": "7fe6c605a049004e455dc47b0bf79b9e232f5b39d4ac7a2bfea4270b8fff7065423b3946d7afca572461d5409ceaa18c3d2c5a23a3029627cd680a2045cd4f90",
+	"descriptionMd5": "d899ab089124230e29489e7dcc9f137a"
+},{
+	"raw": {},
+	"required": [
+		"Filename",
+		"Size"
+	],
+	"package": "libnvidia-gl-535-server",
+	"source": "nvidia-graphics-drivers-535-server",
 	"version": "535.161.08-0ubuntu2",
 	"section": "restricted/libs",
 	"priority": "optional",

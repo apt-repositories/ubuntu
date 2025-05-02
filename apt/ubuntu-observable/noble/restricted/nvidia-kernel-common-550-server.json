@@ -42,6 +42,42 @@
 	],
 	"package": "nvidia-kernel-common-550-server",
 	"source": "nvidia-graphics-drivers-550-server",
+	"version": "550.163.01-0ubuntu0.24.04.1",
+	"section": "restricted/libs",
+	"priority": "optional",
+	"architecture": "amd64",
+	"depends": [
+		"libc6 (>= 2.38)",
+		"libgcc-s1 (>= 4.2)",
+		"libpciaccess0 (>= 0.10.7)",
+		"nvidia-firmware-550-server-550.163.01"
+	],
+	"replaces": [
+		"nvidia-dkms-550-server (<< 390.48-0ubuntu3~)",
+		"nvidia-kernel-common"
+	],
+	"conflicts": [
+		"nvidia-kernel-common"
+	],
+	"installedSize": 664,
+	"maintainer": "Ubuntu Core Developers <ubuntu-devel-discuss@lists.ubuntu.com>",
+	"description": "Shared files used with the kernel module",
+	"homepage": "http://www.nvidia.com",
+	"filename": "pool/restricted/n/nvidia-graphics-drivers-550-server/nvidia-kernel-common-550-server_550.163.01-0ubuntu0.24.04.1_amd64.deb",
+	"size": 125724,
+	"md5": "3edc20d6acfedd18d2763c4aea1840fa",
+	"sha1": "38f4514e1cdf20b174c2b4e9c65b25fff77211e1",
+	"sha256": "e9f2d6c4da80bf4a5996a6333e1738e7b47c91f2921e54a835b42805922e9da3",
+	"sha512": "390a4820d06ba96a177b38ec3aab2c53ad4929261bb551f434a662c8385c522a489566a9d82cf1f925798fc9651a6a2cb6e186781317723f68426700fcfdca32",
+	"descriptionMd5": "caa64a2a10d329a0475baf9ebcdb40d5"
+},{
+	"raw": {},
+	"required": [
+		"Filename",
+		"Size"
+	],
+	"package": "nvidia-kernel-common-550-server",
+	"source": "nvidia-graphics-drivers-550-server",
 	"version": "550.54.15-0ubuntu2",
 	"section": "restricted/libs",
 	"priority": "optional",
