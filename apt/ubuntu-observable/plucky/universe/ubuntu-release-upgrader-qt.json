@@ -6,6 +6,44 @@
 	],
 	"package": "ubuntu-release-upgrader-qt",
 	"source": "ubuntu-release-upgrader",
+	"version": "1:25.04.15",
+	"section": "universe/admin",
+	"priority": "optional",
+	"architecture": "all",
+	"depends": [
+		"psmisc",
+		"pyqt6-dev-tools",
+		"python3-pyqt6",
+		"python3-pyqt6.qtquick",
+		"ubuntu-release-upgrader-core (= 1:25.04.15)"
+	],
+	"recommends": [
+		"qttranslations5-l10n"
+	],
+	"replaces": [
+		"update-manager-kde (<< 1:0.165)"
+	],
+	"breaks": [
+		"update-manager-kde (<< 1:0.165)"
+	],
+	"installedSize": 55,
+	"maintainer": "Ubuntu Developers <ubuntu-devel-discuss@lists.ubuntu.com>",
+	"description": "manage release upgrades",
+	"filename": "pool/universe/u/ubuntu-release-upgrader/ubuntu-release-upgrader-qt_25.04.15_all.deb",
+	"size": 5724,
+	"md5": "66864598d23b7a230e12a476e9393e9a",
+	"sha1": "9548732ef3ab09894c22d4e1f1dd21e6b9080b62",
+	"sha256": "7f1e2b17864278a500e911b626588b25be2c7e1774efcaac0a942c31ba444530",
+	"sha512": "94497e4151afe1506c50c891abc89a79eddba6ebe0b4e6529a34d658f0157dae67238fb0e7a9345cffae8a15ce92dd79db14ec69f341317d6725c0ef37a6ae0e",
+	"descriptionMd5": "1a5354b00256cd2e8841649e89979f00"
+},{
+	"raw": {},
+	"required": [
+		"Filename",
+		"Size"
+	],
+	"package": "ubuntu-release-upgrader-qt",
+	"source": "ubuntu-release-upgrader",
 	"version": "1:25.04.14",
 	"section": "universe/admin",
 	"priority": "optional",

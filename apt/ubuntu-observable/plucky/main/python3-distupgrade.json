@@ -6,6 +6,45 @@
 	],
 	"package": "python3-distupgrade",
 	"source": "ubuntu-release-upgrader",
+	"version": "1:25.04.15",
+	"section": "python",
+	"priority": "standard",
+	"architecture": "all",
+	"depends": [
+		"gpgv",
+		"lsb-release",
+		"procps",
+		"python3-apt (>= 0.8.5~)",
+		"python3-dbus",
+		"python3-distro-info",
+		"python3-update-manager (>= 1:19.04.2~)",
+		"sensible-utils",
+		"python3:any"
+	],
+	"replaces": [
+		"python3-update-manager (<< 1:0.165)"
+	],
+	"breaks": [
+		"python3-update-manager (<< 1:0.165)"
+	],
+	"installedSize": 457,
+	"maintainer": "Ubuntu Developers <ubuntu-devel-discuss@lists.ubuntu.com>",
+	"description": "manage release upgrades",
+	"filename": "pool/main/u/ubuntu-release-upgrader/python3-distupgrade_25.04.15_all.deb",
+	"size": 99516,
+	"md5": "9835328b79389729b350dfef2c1d9fd9",
+	"sha1": "aa3a02586b3ae48db0bb6ed75a76d7218e08c741",
+	"sha256": "1aa22e351fcbc8293a29d01d462351c91b4c4e144732baa69794f91f00ca9358",
+	"sha512": "8b83323cb5679850515f15d419cfd4170ce55be285af6098efacde737b80d3f61c842f7186257491ac1f3daaf1def0b0e450a7c04f3f1f41c0c2e446e80fa913",
+	"descriptionMd5": "f6e22affea82016bac7bf2c9371af261"
+},{
+	"raw": {},
+	"required": [
+		"Filename",
+		"Size"
+	],
+	"package": "python3-distupgrade",
+	"source": "ubuntu-release-upgrader",
 	"version": "1:25.04.14",
 	"section": "python",
 	"priority": "standard",
