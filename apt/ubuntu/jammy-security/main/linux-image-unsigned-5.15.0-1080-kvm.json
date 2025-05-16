@@ -1,0 +1,41 @@
+{
+	"raw": {},
+	"required": [
+		"Filename",
+		"Size"
+	],
+	"package": "linux-image-unsigned-5.15.0-1080-kvm",
+	"source": "linux-kvm",
+	"version": "5.15.0-1080.85",
+	"section": "kernel",
+	"priority": "optional",
+	"architecture": "amd64",
+	"depends": [
+		"kmod",
+		"linux-base (>= 4.5ubuntu1~16.04.1)",
+		"linux-modules-5.15.0-1080-kvm"
+	],
+	"recommends": [
+		"grub-pc | grub-efi-amd64 | grub-efi-ia32 | grub | lilo",
+		"initramfs-tools | linux-initramfs-tool"
+	],
+	"suggests": [
+		"fdutils",
+		"linux-kvm-doc-5.15.0 | linux-kvm-source-5.15.0",
+		"linux-kvm-tools",
+		"linux-headers-5.15.0-1080-kvm"
+	],
+	"conflicts": [
+		"linux-image-5.15.0-1080-kvm"
+	],
+	"installedSize": 7797,
+	"maintainer": "Ubuntu Kernel Team <kernel-team@lists.ubuntu.com>",
+	"description": "Linux kernel image for version 5.15.0 on 64 bit x86 SMP",
+	"filename": "pool/main/l/linux-kvm/linux-image-unsigned-5.15.0-1080-kvm_5.15.0-1080.85_amd64.deb",
+	"size": 7188672,
+	"md5": "b3ad9b787df89087a7c6ac3d6b3fe998",
+	"sha1": "dd23e0bb6d088cb45aa8dbd8a17cc9778828d492",
+	"sha256": "8b9ec0b0919d32f3619bc84355ec5767a0d5a1d7a31d73087fd25aa6d934943c",
+	"sha512": "fd232e7bc94bcdf0e05691a4b0eacb173ab914b093a05a91e35f0e847230209ce4fcc0ac883e5dfa9ea6af7e9eb2c3897b047eca883bf8bea6c71bef25855f56",
+	"descriptionMd5": "0f874c406aa1f9a7ba5f90cca441b3d7"
+}
