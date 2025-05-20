@@ -1,0 +1,42 @@
+[{
+	"raw": {},
+	"required": [
+		"Filename",
+		"Size"
+	],
+	"package": "linux-image-6.11.0-1015-azure",
+	"source": "linux-signed-azure-6.11",
+	"version": "6.11.0-1015.15~24.04.1",
+	"section": "kernel",
+	"priority": "optional",
+	"architecture": "amd64",
+	"depends": [
+		"kmod",
+		"linux-base (>= 4.5ubuntu1~16.04.1)",
+		"linux-modules-6.11.0-1015-azure"
+	],
+	"recommends": [
+		"grub-pc | grub-efi-amd64 | grub-efi-ia32 | grub"
+	],
+	"suggests": [
+		"fdutils",
+		"linux-azure-6.11-doc-6.11.0 | linux-azure-6.11-source-6.11.0",
+		"linux-azure-6.11-tools",
+		"linux-headers-6.11.0-1015-azure",
+		"initramfs-tools | linux-initramfs-tool"
+	],
+	"conflicts": [
+		"linux-image-unsigned-6.11.0-1015-azure"
+	],
+	"installedSize": 14385,
+	"maintainer": "Canonical Kernel Team <kernel-team@lists.ubuntu.com>",
+	"description": "Signed kernel image azure",
+	"builtUsing": "linux-azure-6.11 (= 6.11.0-1015.15~24.04.1)",
+	"filename": "pool/main/l/linux-signed-azure-6.11/linux-image-6.11.0-1015-azure_6.11.0-1015.15~24.04.1_amd64.deb",
+	"size": 14457194,
+	"md5": "c7346742fb3a93b0d56ae98f67dd87f3",
+	"sha1": "7a2bb25ebb4f85904a8a52c146fda3258c6ae62d",
+	"sha256": "08ed8e2e3082e21649e36fc5f732f4225eea4d2775587381f65bcf6654cd2177",
+	"sha512": "74ba9d4869e49899e8db7c9e2f68aa6377b91c568a9d568beec1621f50f8904ba1284bbd17c65c5790e3cf3b0b43cca1114658249e9a3e650e61c36a8370cfe2",
+	"descriptionMd5": "a97547a316dd89fcd627f217a100729f"
+}]
