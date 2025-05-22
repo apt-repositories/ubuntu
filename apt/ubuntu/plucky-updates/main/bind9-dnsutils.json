@@ -1,0 +1,41 @@
+{
+	"raw": {},
+	"required": [
+		"Filename",
+		"Size"
+	],
+	"package": "bind9-dnsutils",
+	"source": "bind9",
+	"version": "1:9.20.4-3ubuntu1.1",
+	"section": "net",
+	"priority": "standard",
+	"architecture": "amd64",
+	"depends": [
+		"bind9-host | host",
+		"bind9-libs (= 1:9.20.4-3ubuntu1.1)",
+		"libc6 (>= 2.38)",
+		"libedit2 (>= 2.11-20080614-0)",
+		"libidn2-0 (>= 2.0.0)",
+		"libjemalloc2 (>= 2.1.1)",
+		"libkrb5-3 (>= 1.6.dfsg.2)"
+	],
+	"breaks": [
+		"bind-dnsutils (<< 1:9.13.6~)",
+		"dnsutils (<< 1:9.13.6~)"
+	],
+	"conflicts": [
+		"bind-dnsutils (<< 1:9.13.6~)",
+		"dnsutils (<< 1:9.13.6~)"
+	],
+	"installedSize": 539,
+	"maintainer": "Ubuntu Developers <ubuntu-devel-discuss@lists.ubuntu.com>",
+	"description": "Clients provided with BIND 9",
+	"homepage": "https://www.isc.org/downloads/bind/",
+	"filename": "pool/main/b/bind9/bind9-dnsutils_9.20.4-3ubuntu1.1_amd64.deb",
+	"size": 169016,
+	"md5": "e9469b4daa64ec6836229ebff53cea51",
+	"sha1": "3639e4dea0dcb59e9f4bcbdaa525901ee45afdd8",
+	"sha256": "6c23af0af3fdfde4b84563c3c2d271ada6fa8e4cac3808d6fda68f1b5a00a6b3",
+	"sha512": "2c4afc04cf9d125375165a5becb018016b7cd795c4cbf3080bfc1b3651f55339ee6c3c316b4b451d1cbd5ec9c098901b829be4bf1e7554200653ff87eff8ea64",
+	"descriptionMd5": "41cc23046dad427af742ed10a4568530"
+}
