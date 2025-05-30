@@ -5,6 +5,62 @@
 		"Size"
 	],
 	"package": "apt",
+	"version": "2.8.3",
+	"section": "admin",
+	"priority": "important",
+	"architecture": "amd64",
+	"depends": [
+		"base-passwd (>= 3.6.1) | adduser",
+		"gpgv",
+		"libapt-pkg6.0t64 (>= 2.8.3)",
+		"ubuntu-keyring",
+		"libc6 (>= 2.38)",
+		"libgcc-s1 (>= 3.3.1)",
+		"libgnutls30t64 (>= 3.8.1)",
+		"libseccomp2 (>= 2.4.2)",
+		"libstdc++6 (>= 13.1)",
+		"libsystemd0"
+	],
+	"recommends": [
+		"ca-certificates"
+	],
+	"suggests": [
+		"apt-doc",
+		"aptitude | synaptic | wajig",
+		"dpkg-dev (>= 1.17.2)",
+		"gnupg | gnupg2 | gnupg1",
+		"powermgmt-base"
+	],
+	"replaces": [
+		"apt-transport-https (<< 1.5~alpha4~)",
+		"apt-utils (<< 1.3~exp2~)"
+	],
+	"breaks": [
+		"apt-transport-https (<< 1.5~alpha4~)",
+		"apt-utils (<< 1.3~exp2~)",
+		"aptitude (<< 0.8.10)"
+	],
+	"conflicts": [
+		"apt-verify",
+		"libnettle8 (<< 3.9.1-2.2~)"
+	],
+	"installedSize": 4108,
+	"maintainer": "Ubuntu Developers <ubuntu-devel-discuss@lists.ubuntu.com>",
+	"description": "commandline package manager",
+	"filename": "pool/main/a/apt/apt_2.8.3_amd64.deb",
+	"size": 1375526,
+	"md5": "b2aabade5bbf10c74bafe5a54edfebd8",
+	"sha1": "f40051a9e8e574ea7eebc1371498e152d0c2d377",
+	"sha256": "c9ace99efc7726fe0035f921a9acf262a9723bbf35b861aab4f9075a0be67442",
+	"sha512": "9856111f957936cc0cdaa6dbf013ff29b04f36c9b5342ccc256bb687e4f52caaaa721d025db87c09e5f95d3b0d1e72dbf36a723a25e4325186fedeebaf5c9989",
+	"descriptionMd5": "9fb97a88cb7383934ef963352b53b4a7"
+},{
+	"raw": {},
+	"required": [
+		"Filename",
+		"Size"
+	],
+	"package": "apt",
 	"version": "2.7.14build2",
 	"section": "admin",
 	"priority": "important",

@@ -5,6 +5,52 @@
 		"Size"
 	],
 	"package": "apport",
+	"version": "2.32.0-0ubuntu5.1",
+	"section": "utils",
+	"priority": "optional",
+	"architecture": "all",
+	"depends": [
+		"apport-core-dump-handler | python3-zstandard",
+		"apport-core-dump-handler | systemd-coredump",
+		"gir1.2-glib-2.0 (>= 1.29.17)",
+		"python3",
+		"python3-apport (>= 2.32.0-0ubuntu5.1)",
+		"python3-gi",
+		"sensible-utils"
+	],
+	"recommends": [
+		"apport-symptoms",
+		"python3-systemd"
+	],
+	"suggests": [
+		"apport-gtk | apport-kde",
+		"pkexec",
+		"polkitd"
+	],
+	"replaces": [
+		"python-apport (<< 2.2-0ubuntu1)"
+	],
+	"breaks": [
+		"python-apport (<< 2.2-0ubuntu1)"
+	],
+	"installedSize": 648,
+	"maintainer": "Ubuntu Developers <ubuntu-devel-discuss@lists.ubuntu.com>",
+	"description": "automatically generate crash reports for debugging",
+	"homepage": "https://wiki.ubuntu.com/Apport",
+	"filename": "pool/main/a/apport/apport_2.32.0-0ubuntu5.1_all.deb",
+	"size": 83580,
+	"md5": "74b5b07fb0b6f8086339a87181318c50",
+	"sha1": "e4fef361bcea21ee5a153fb58a50a06ea37a04e2",
+	"sha256": "e0e0afd284ec9e14c25cfd79f280a1982d0cf09f5781b53e9bbce29180320a7f",
+	"sha512": "8f0eb1d0e30cd58d6daddd35c2142131e8d4fe8d7b699cb96c4ae60d81acf724895dab64572ddbd33d09ae23ecaa43a4bb7665a791c65075e0fbd476a85d8c3e",
+	"descriptionMd5": "c04626471654f9246cf5e28b560d262e"
+},{
+	"raw": {},
+	"required": [
+		"Filename",
+		"Size"
+	],
+	"package": "apport",
 	"version": "2.32.0-0ubuntu5",
 	"section": "utils",
 	"priority": "optional",
