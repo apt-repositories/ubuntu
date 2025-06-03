@@ -6,6 +6,54 @@
 	],
 	"package": "mariadb-backup",
 	"source": "mariadb",
+	"version": "1:11.4.7-0ubuntu0.25.04.1",
+	"section": "universe/database",
+	"priority": "optional",
+	"architecture": "amd64",
+	"depends": [
+		"mariadb-client-core (= 1:11.4.7-0ubuntu0.25.04.1)",
+		"libc6 (>= 2.38)",
+		"libcrypt1 (>= 1:4.1.0)",
+		"libgcc-s1 (>= 3.3.1)",
+		"libnuma1 (>= 2.0.11)",
+		"libpcre2-8-0 (>= 10.22)",
+		"libssl3t64 (>= 3.0.0)",
+		"libstdc++6 (>= 14)",
+		"libsystemd0 (>= 227)",
+		"liburing2 (>= 2.3)",
+		"zlib1g (>= 1:1.2.0)"
+	],
+	"replaces": [
+		"mariadb-backup-10.1",
+		"mariadb-backup-10.2",
+		"mariadb-backup-10.3",
+		"mariadb-client-10.1"
+	],
+	"breaks": [
+		"mariadb-backup-10.1",
+		"mariadb-backup-10.2",
+		"mariadb-backup-10.3",
+		"mariadb-client-10.1"
+	],
+	"installedSize": 27670,
+	"maintainer": "Ubuntu Developers <ubuntu-devel-discuss@lists.ubuntu.com>",
+	"description": "Backup tool for MariaDB server",
+	"homepage": "https://mariadb.org/",
+	"filename": "pool/universe/m/mariadb/mariadb-backup_11.4.7-0ubuntu0.25.04.1_amd64.deb",
+	"size": 7270958,
+	"md5": "dbf831e313d3c7356599e481f6985944",
+	"sha1": "72c0e6ae9d967c1c65a541a994c115d904dce595",
+	"sha256": "83803560770e05859f9f46bc2aeda6067079aff9893be6f952db0bebf0776a81",
+	"sha512": "54a2583cdd58e7361df51ec38c2fe29a91ba2e777300852f9947938812c81ba0bd45e4813b0247ab3f07f2893b9ca3db06503e40772a7ea22ef3b9079fd595d2",
+	"descriptionMd5": "0656895027a552cdb0eddc26840f9597"
+},{
+	"raw": {},
+	"required": [
+		"Filename",
+		"Size"
+	],
+	"package": "mariadb-backup",
+	"source": "mariadb",
 	"version": "1:11.4.5-1",
 	"section": "universe/database",
 	"priority": "optional",

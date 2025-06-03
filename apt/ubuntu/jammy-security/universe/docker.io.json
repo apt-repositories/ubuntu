@@ -5,7 +5,8 @@
 		"Size"
 	],
 	"package": "docker.io",
-	"version": "20.10.21-0ubuntu1~22.04.3",
+	"source": "docker.io-app",
+	"version": "27.5.1-0ubuntu3~22.04.2",
 	"section": "universe/admin",
 	"priority": "optional",
 	"architecture": "amd64",
@@ -15,7 +16,6 @@
 		"iptables",
 		"debconf (>= 0.5) | debconf-2.0",
 		"libc6 (>= 2.34)",
-		"libdevmapper1.02.1 (>= 2:1.02.97)",
 		"libsystemd0 (>= 209~)"
 	],
 	"recommends": [
@@ -31,26 +31,22 @@
 		"btrfs-progs",
 		"cgroupfs-mount | cgroup-lite",
 		"debootstrap",
+		"docker-buildx",
+		"docker-compose-v2",
 		"docker-doc",
 		"rinse",
 		"zfs-fuse | zfsutils"
 	],
-	"replaces": [
-		"docker (<< 1.5~)"
-	],
-	"breaks": [
-		"docker (<< 1.5~)"
-	],
-	"installedSize": 136572,
+	"installedSize": 123232,
 	"maintainer": "Ubuntu Developers <ubuntu-devel-discuss@lists.ubuntu.com>",
 	"description": "Linux container runtime",
-	"homepage": "https://www.docker.com/community-edition",
-	"builtUsing": "glibc (= 2.35-0ubuntu3), golang-1.18 (= 1.18.1-1ubuntu1.1)",
-	"filename": "pool/universe/d/docker.io/docker.io_20.10.21-0ubuntu1~22.04.3_amd64.deb",
-	"size": 33280690,
-	"md5": "adafc319ff2b60213d3270685aec693c",
-	"sha1": "1d10f55f92a1a25b522ed6a6df17cf1708dbabc7",
-	"sha256": "cf55c89f0995cdff16e2373ba5b555fe97a143f3b5ba7a00587ec0f4cca51b64",
-	"sha512": "f20f3d95b499f1fb8d2c6173822c79484e8f60986452bd98a0486015a32ce6c0721c0e9e8a8846d829df6d37f4ff4131a95f0c8fba979996f8679c715fb05d67",
-	"descriptionMd5": "05dc9eba68f3bf418e6a0cf29d555878"
+	"homepage": "https://mobyproject.org/",
+	"builtUsing": "glibc (= 2.35-0ubuntu3.10), golang-1.22 (= 1.22.2-2~22.04.2)",
+	"filename": "pool/universe/d/docker.io-app/docker.io_27.5.1-0ubuntu3~22.04.2_amd64.deb",
+	"size": 33259714,
+	"md5": "1faafa73af88397a367f1605f9ca3197",
+	"sha1": "c062c461a023e69d34b55be7fda265de0aa834b6",
+	"sha256": "f72096b536e1f0bf42c2a51955af91f8a3fadf1f0e649471ff2080f4a63e30ba",
+	"sha512": "021b2a8e40a14c78daf2cf938eeef8e634ad4bd079fede21ae1bcdf3e6cd653d060dfdfb33ac205a091b03a89e8cd3ef09f096d22445888a84b5a457e67272ef",
+	"descriptionMd5": "e493e693fe77bf3c8bec9a4fc91c75cc"
 }
