@@ -5,6 +5,49 @@
 		"Size"
 	],
 	"package": "rdma-core",
+	"version": "50.0-2ubuntu0.2",
+	"section": "net",
+	"priority": "optional",
+	"architecture": "amd64",
+	"depends": [
+		"udev",
+		"libc6 (>= 2.38)",
+		"libnl-3-200 (>= 3.2.7)",
+		"libsystemd0",
+		"libudev1 (>= 183)"
+	],
+	"preDepends": [
+		"init-system-helpers (>= 1.54~)"
+	],
+	"recommends": [
+		"dmidecode",
+		"ethtool",
+		"iproute2"
+	],
+	"replaces": [
+		"infiniband-diags (<< 2.0.0)"
+	],
+	"breaks": [
+		"infiniband-diags (<< 2.0.0)"
+	],
+	"installedSize": 214,
+	"maintainer": "Benjamin Drung <bdrung@ubuntu.com>",
+	"description": "RDMA core userspace infrastructure and documentation",
+	"homepage": "https://github.com/linux-rdma/rdma-core",
+	"filename": "pool/main/r/rdma-core/rdma-core_50.0-2ubuntu0.2_amd64.deb",
+	"size": 63640,
+	"md5": "48eed8e28bcd33e63e8b89bbd9b06d6a",
+	"sha1": "da36d55da529a06928b596951656dd76512ebb21",
+	"sha256": "fadfbb9009793cced0b824c06261060befee3ba805903df1eb21e0d2090e6935",
+	"sha512": "541ed8a4ccb624d8378686294bb9b817eb46d7fc25043ac1cb0fc1e320779b23755dc1168a8ea2996f451d0bf6700b410fbf74404c7b8ca2990e8a8de0fbdafa",
+	"descriptionMd5": "74509a513e1c0b6b24ae460289072ec0"
+},{
+	"raw": {},
+	"required": [
+		"Filename",
+		"Size"
+	],
+	"package": "rdma-core",
 	"version": "50.0-2build2",
 	"section": "net",
 	"priority": "optional",

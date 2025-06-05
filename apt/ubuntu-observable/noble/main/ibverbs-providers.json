@@ -6,6 +6,45 @@
 	],
 	"package": "ibverbs-providers",
 	"source": "rdma-core",
+	"version": "50.0-2ubuntu0.2",
+	"section": "net",
+	"priority": "standard",
+	"architecture": "amd64",
+	"depends": [
+		"libc6 (>= 2.38)",
+		"libibverbs1 (>= 38)"
+	],
+	"replaces": [
+		"libipathverbs1 (<< 15)",
+		"libmlx4-1 (<< 15)",
+		"libmlx5-1 (<< 15)",
+		"libmthca1 (<< 15)"
+	],
+	"breaks": [
+		"libipathverbs1 (<< 15)",
+		"libmlx4-1 (<< 15)",
+		"libmlx5-1 (<< 15)",
+		"libmthca1 (<< 15)"
+	],
+	"installedSize": 1268,
+	"maintainer": "Benjamin Drung <bdrung@ubuntu.com>",
+	"description": "User space provider drivers for libibverbs",
+	"homepage": "https://github.com/linux-rdma/rdma-core",
+	"filename": "pool/main/r/rdma-core/ibverbs-providers_50.0-2ubuntu0.2_amd64.deb",
+	"size": 381410,
+	"md5": "c3643bfba28d78164056efe7875cb1c4",
+	"sha1": "899bb14036dad41e0e0f8fd84e56c54784e276a2",
+	"sha256": "69847c5522d32c14aa3de318da8edea1a1cac6a7d936d81082bf292975f83bb6",
+	"sha512": "f74ef2d4e34ee51d2691084c6413ef5a823e76c323a9ab5e63c669552a1226ec02604ccd7ebf2424275735143e2c0b437951c6247e46f4ec19003e8adb5d635a",
+	"descriptionMd5": "ab8975454e46957d34b4769914dfe93e"
+},{
+	"raw": {},
+	"required": [
+		"Filename",
+		"Size"
+	],
+	"package": "ibverbs-providers",
+	"source": "rdma-core",
 	"version": "50.0-2build2",
 	"section": "net",
 	"priority": "standard",
