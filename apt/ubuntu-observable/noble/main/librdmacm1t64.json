@@ -6,6 +6,40 @@
 	],
 	"package": "librdmacm1t64",
 	"source": "rdma-core",
+	"version": "50.0-2ubuntu0.2",
+	"section": "libs",
+	"priority": "optional",
+	"architecture": "amd64",
+	"depends": [
+		"libc6 (>= 2.38)",
+		"libibverbs1 (>= 31)",
+		"libnl-3-200 (>= 3.2.7)"
+	],
+	"replaces": [
+		"librdmacm1"
+	],
+	"breaks": [
+		"librdmacm1 (<< 50.0-2ubuntu0.2)"
+	],
+	"installedSize": 208,
+	"maintainer": "Benjamin Drung <bdrung@ubuntu.com>",
+	"description": "Library for managing RDMA connections",
+	"homepage": "https://github.com/linux-rdma/rdma-core",
+	"filename": "pool/main/r/rdma-core/librdmacm1t64_50.0-2ubuntu0.2_amd64.deb",
+	"size": 70698,
+	"md5": "ee8a7afc1614421014545d902ffa265e",
+	"sha1": "14a52a3ec3c7d9fe1391004a39bf10bc806b5b86",
+	"sha256": "7b7cc2fa16564bf301751b43d05d16f0846288b080d9a25a92a691d0df33fc68",
+	"sha512": "e829302a2fea54f8bccfbbfe9f13caa4954118a8f8ff5b08ca09bd3939189f8e59b4f496a8e64d6f17cf8883ee60f078164354b3cb236ef737e5897d00406d89",
+	"descriptionMd5": "dc9d0886ecf59fc604b978f8125cf804"
+},{
+	"raw": {},
+	"required": [
+		"Filename",
+		"Size"
+	],
+	"package": "librdmacm1t64",
+	"source": "rdma-core",
 	"version": "50.0-2build2",
 	"section": "libs",
 	"priority": "optional",
