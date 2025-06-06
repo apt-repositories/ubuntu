@@ -62,6 +62,62 @@
 	],
 	"package": "libreoffice-impress-nogui",
 	"source": "libreoffice",
+	"version": "4:24.8.7-0ubuntu0.24.10.1",
+	"section": "universe/editors",
+	"priority": "optional",
+	"architecture": "amd64",
+	"depends": [
+		"libreoffice-common (>= 1:7.0.0~alpha~)",
+		"libreoffice-core-nogui (= 4:24.8.7-0ubuntu0.24.10.1) | libreoffice-core (= 4:24.8.7-0ubuntu0.24.10.1)",
+		"libreoffice-draw-nogui (= 4:24.8.7-0ubuntu0.24.10.1) | libreoffice-draw (= 4:24.8.7-0ubuntu0.24.10.1)",
+		"libreoffice-uiconfig-impress (= 4:24.8.7-0ubuntu0.24.10.1)",
+		"ucf",
+		"libc6 (>= 2.38)",
+		"libetonyek-0.1-1",
+		"libgcc-s1 (>= 3.0)",
+		"libmwaw-0.3-3",
+		"libodfgen-0.1-1",
+		"librevenge-0.0-0",
+		"libstdc++6 (>= 13.1)",
+		"libuno-cppu3t64 (>= 4.4.0~alpha)",
+		"libuno-cppuhelpergcc3-3t64 (>= 4.0.0~alpha)",
+		"libuno-sal3t64 (>= 1:7.3.0~beta1)",
+		"libuno-salhelpergcc3-3t64 (>= 1.4.0)",
+		"uno-libs-private"
+	],
+	"suggests": [
+		"bluez"
+	],
+	"replaces": [
+		"libreoffice-common (<< 1:6.4.2~rc1~)",
+		"libreoffice-impress"
+	],
+	"breaks": [
+		"libreoffice-common (<< 1:6.4.2~rc1~)"
+	],
+	"conflicts": [
+		"libreoffice-impress",
+		"libreoffice-ogltrans (<< 1:6.1.4-2~)"
+	],
+	"installedSize": 2917,
+	"maintainer": "Ubuntu Developers <ubuntu-devel-discuss@lists.ubuntu.com>",
+	"description": "office productivity suite -- presentation (no GUI variant)",
+	"homepage": "http://www.libreoffice.org",
+	"filename": "pool/universe/libr/libreoffice/libreoffice-impress-nogui_24.8.7-0ubuntu0.24.10.1_amd64.deb",
+	"size": 778166,
+	"md5": "b4100b3a8def1518dda563dba9be7ec1",
+	"sha1": "57846f37d984209fa7db5b63f14d9834fbf3473d",
+	"sha256": "042b21ea379135c9aa6b12a0c517d2bfa1325975d656e45a0e4fb9ec32460c53",
+	"sha512": "2a1d1197f182db483dccdf7cfdb015b9e43452e8093c8978e18b656c49847ff92800a1e2eb84fab797d27cac485c5a48e6396a377432cf435a49cf5c79e2a604",
+	"descriptionMd5": "10ce2c27d434135cd9308937c1bdb31c"
+},{
+	"raw": {},
+	"required": [
+		"Filename",
+		"Size"
+	],
+	"package": "libreoffice-impress-nogui",
+	"source": "libreoffice",
 	"version": "4:24.8.2-0ubuntu1",
 	"section": "universe/editors",
 	"priority": "optional",
