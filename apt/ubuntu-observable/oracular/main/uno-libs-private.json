@@ -46,6 +46,46 @@
 	],
 	"package": "uno-libs-private",
 	"source": "libreoffice",
+	"version": "4:24.8.7-0ubuntu0.24.10.1",
+	"section": "libs",
+	"priority": "optional",
+	"architecture": "amd64",
+	"depends": [
+		"libc6 (>= 2.32)",
+		"libgcc-s1 (>= 3.0)",
+		"libstdc++6 (>= 11)",
+		"libuno-cppu3t64 (>= 1.4.0)",
+		"libuno-sal3t64 (>= 5.3.0~alpha)",
+		"libuno-salhelpergcc3-3t64 (>= 1.4.0)"
+	],
+	"replaces": [
+		"uno-libs3"
+	],
+	"breaks": [
+		"libreoffice-core (<< 4:7.5.0~)",
+		"libreoffice-core-nogui (<< 4:7.5.0~)",
+		"libuno-cppuhelpergcc3-3 (<< 4:7.5.0~)",
+		"uno-libs3"
+	],
+	"installedSize": 751,
+	"maintainer": "Ubuntu Developers <ubuntu-devel-discuss@lists.ubuntu.com>",
+	"description": "LibreOffice UNO runtime environment -- private libraries used by public ones",
+	"homepage": "http://www.libreoffice.org",
+	"filename": "pool/main/libr/libreoffice/uno-libs-private_24.8.7-0ubuntu0.24.10.1_amd64.deb",
+	"size": 230342,
+	"md5": "aa328a3f681c07a0e6fb2a6e8d47cf2a",
+	"sha1": "061ace37dc025cdc15f027635edd4766b13b8675",
+	"sha256": "7938f0ad9bc56536421480e09b773b9cc4ed085d30587fbb1737d1bff8f1c48d",
+	"sha512": "7316b1eb2603a736153a376c131f03c1395c8128c8e0001fb4b400e77e4023534abc0a84d1266048189cf4d20b4f1442877c1b6afd43f9ad6c35bb571779e610",
+	"descriptionMd5": "e2b126a07040410322c2e32e97809c88"
+},{
+	"raw": {},
+	"required": [
+		"Filename",
+		"Size"
+	],
+	"package": "uno-libs-private",
+	"source": "libreoffice",
 	"version": "4:24.8.2-0ubuntu1",
 	"section": "libs",
 	"priority": "optional",
