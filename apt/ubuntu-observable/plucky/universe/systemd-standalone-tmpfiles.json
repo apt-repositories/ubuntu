@@ -6,6 +6,48 @@
 	],
 	"package": "systemd-standalone-tmpfiles",
 	"source": "systemd",
+	"version": "257.4-1ubuntu3.1",
+	"section": "universe/admin",
+	"priority": "optional",
+	"architecture": "amd64",
+	"depends": [
+		"libacl1 (>= 2.2.23)",
+		"libc6 (>= 2.38)",
+		"libcap2 (>= 1:2.10)",
+		"libselinux1 (>= 3.1~)"
+	],
+	"suggests": [
+		"libcryptsetup12",
+		"libidn2-0",
+		"libtss2-rc0t64"
+	],
+	"replaces": [
+		"systemd (<< 249.3-3)",
+		"systemd-tmpfiles"
+	],
+	"conflicts": [
+		"systemd (<< 249.3-3)",
+		"systemd-tmpfiles"
+	],
+	"installedSize": 546,
+	"maintainer": "Ubuntu Developers <ubuntu-devel-discuss@lists.ubuntu.com>",
+	"description": "standalone tmpfiles binary for use in non-systemd systems",
+	"homepage": "https://systemd.io",
+	"filename": "pool/universe/s/systemd/systemd-standalone-tmpfiles_257.4-1ubuntu3.1_amd64.deb",
+	"size": 299530,
+	"md5": "c76afea8519844d760f7b291a4a64f5d",
+	"sha1": "7d87a68647ad20846d51d660f21e476d83ef1e1e",
+	"sha256": "dfc937f0871e07e7971c07f3cc705067c49c70aeea54b4ce634bce5fe33c17f9",
+	"sha512": "198594830a69a4cdaee36e8737c06a27eb1c660fd4a3a2b62a7ea5d6c18899772a7b4b1911689963082c0a33dd0a5277cc87a41b99e9387d3a901a71c7ba504d",
+	"descriptionMd5": "e59a151e226689c494584c32d7f05a2c"
+},{
+	"raw": {},
+	"required": [
+		"Filename",
+		"Size"
+	],
+	"package": "systemd-standalone-tmpfiles",
+	"source": "systemd",
 	"version": "257.4-1ubuntu3",
 	"section": "universe/admin",
 	"priority": "optional",
