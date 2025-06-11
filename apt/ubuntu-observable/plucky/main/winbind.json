@@ -6,6 +6,67 @@
 	],
 	"package": "winbind",
 	"source": "samba",
+	"version": "2:4.21.4+dfsg-1ubuntu3.1",
+	"section": "net",
+	"priority": "optional",
+	"architecture": "amd64",
+	"depends": [
+		"samba-common (= 2:4.21.4+dfsg-1ubuntu3.1)",
+		"samba-common-bin (= 2:4.21.4+dfsg-1ubuntu3.1)",
+		"libwbclient0 (= 2:4.21.4+dfsg-1ubuntu3.1)",
+		"passwd",
+		"libbsd0 (>= 0.6.0)",
+		"libc6 (>= 2.38)",
+		"libgnutls30t64 (>= 3.7.0)",
+		"libldap2 (>= 2.6.2)",
+		"libldb2 (>= 0.9.21)",
+		"libndr5 (>= 2:4.20.0~rc1)",
+		"libpopt0 (>= 1.14)",
+		"libsmbldap2 (>= 2:4.16.6)",
+		"libtalloc2 (>= 2.4.0)",
+		"libtdb1 (>= 1.2.7+git20101214)",
+		"libtevent0t64 (>= 0.15.0)",
+		"samba-libs (= 2:4.21.4+dfsg-1ubuntu3.1)"
+	],
+	"preDepends": [
+		"init-system-helpers (>= 1.54~)"
+	],
+	"suggests": [
+		"libnss-winbind",
+		"libpam-winbind"
+	],
+	"replaces": [
+		"samba (<< 2:4.17.7+dfsg-1ubuntu1~)",
+		"samba-libs (<< 2:4.17.7+dfsg-1ubuntu1~)"
+	],
+	"enhances": [
+		"libkrb5-26t64-heimdal"
+	],
+	"breaks": [
+		"libnss-winbind (<< 2:4.16.1+dfsg-7~)",
+		"libpam-winbind (<< 2:4.16.1+dfsg-7~)",
+		"samba (<< 2:4.17.7+dfsg-1ubuntu1~)",
+		"samba-libs (<< 2:4.17.7+dfsg-1ubuntu1~)"
+	],
+	"installedSize": 1738,
+	"maintainer": "Ubuntu Developers <ubuntu-devel-discuss@lists.ubuntu.com>",
+	"description": "service to resolve user and group information from Windows NT servers",
+	"homepage": "https://www.samba.org",
+	"filename": "pool/main/s/samba/winbind_4.21.4+dfsg-1ubuntu3.1_amd64.deb",
+	"size": 460700,
+	"md5": "a69da55d955e92ddfb23c81749d043a9",
+	"sha1": "2e957d293997429ae8cddeb30386d847e8639416",
+	"sha256": "39a9943efdf5537a08f8775266a6903ed5f3a7f2f9c65873fd37bebb2034291d",
+	"sha512": "44e358bb6af731c0f76ce549490457e971e787f8f2aa6526c551369d6641ae9d7921cab471b507fb3da484d88f7a38ec3a9fc4b818e34b1da15137839c20c587",
+	"descriptionMd5": "760987c6cfd5ae0abd5c47c9758b31b0"
+},{
+	"raw": {},
+	"required": [
+		"Filename",
+		"Size"
+	],
+	"package": "winbind",
+	"source": "samba",
 	"version": "2:4.21.4+dfsg-1ubuntu3",
 	"section": "net",
 	"priority": "optional",
