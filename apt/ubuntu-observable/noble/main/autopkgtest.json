@@ -5,7 +5,7 @@
 		"Size"
 	],
 	"package": "autopkgtest",
-	"version": "5.38ubuntu1~24.04.1",
+	"version": "5.47~24.04.1",
 	"section": "devel",
 	"priority": "optional",
 	"architecture": "all",
@@ -16,6 +16,7 @@
 		"procps",
 		"python3",
 		"python3-debian",
+		"python3-distro-info",
 		"retry"
 	],
 	"recommends": [
@@ -23,22 +24,24 @@
 		"fakeroot"
 	],
 	"suggests": [
+		"docker-cli | docker.io (<< 26.1.4+dfsg1-7~)",
 		"docker.io",
 		"fakemachine",
 		"genisoimage",
 		"incus",
 		"lxc (>= 1:4.0.2-1~)",
 		"lxd",
+		"mmdebstrap",
 		"ovmf",
 		"ovmf-ia32",
 		"podman",
-		"python3-distro-info",
 		"qemu-efi-aarch64",
 		"qemu-efi-arm",
 		"qemu-efi-riscv64",
 		"qemu-system",
 		"qemu-utils",
 		"schroot",
+		"uidmap",
 		"util-linux (>= 2.38)",
 		"vmdb2 (>= 0.25-1~)",
 		"zerofree"
@@ -46,16 +49,16 @@
 	"breaks": [
 		"debci (<< 1.7~)"
 	],
-	"installedSize": 638,
+	"installedSize": 691,
 	"maintainer": "Ubuntu Developers <ubuntu-devel-discuss@lists.ubuntu.com>",
 	"description": "automatic as-installed testing for Debian packages",
-	"filename": "pool/main/a/autopkgtest/autopkgtest_5.38ubuntu1~24.04.1_all.deb",
-	"size": 180344,
-	"md5": "053aa9056496de58054d8d893d74953c",
-	"sha1": "7430d87ad94920d8940b9dce30fc6a46952b24a5",
-	"sha256": "4b0b62680ffb5f5712c453eca1a6ae6ddc533fcb9562a38d37f7b76d50de1cc6",
-	"sha512": "835a7f37ae1bce8e098fdcf1df46ed5e3a9d9f5c739563333c6cd3e13c8c9421db67a4bd4ed2788b7b1d2de9487cff44f87f00b7496eb27edfda40ecc0d95e57",
-	"descriptionMd5": "31d9217a487d44cfd80f0588068648cd"
+	"filename": "pool/main/a/autopkgtest/autopkgtest_5.47~24.04.1_all.deb",
+	"size": 196876,
+	"md5": "e7f9de8436caca8aa8fba4e95d6a4a79",
+	"sha1": "f2e97ade9f3d12626e035832eae89b5b67c672c8",
+	"sha256": "83b2ff458afaeb82097e977e348d6be33098b768b87d17391749176873620ae7",
+	"sha512": "090eaefb64e256fd7a0f57c377ddbbfa9d3543af27cc3e57df9969fceeeac193e53eea7385326a242821defb40dc98f474ecf5ad0f535b0f26e56cb213cafdb8",
+	"descriptionMd5": "bbd06bec5d26a1c562632e9344ca8719"
 },{
 	"raw": {},
 	"required": [
