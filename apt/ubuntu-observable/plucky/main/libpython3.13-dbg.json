@@ -6,6 +6,57 @@
 	],
 	"package": "libpython3.13-dbg",
 	"source": "python3.13",
+	"version": "3.13.3-1ubuntu0.1",
+	"section": "debug",
+	"priority": "optional",
+	"architecture": "amd64",
+	"depends": [
+		"libpython3.13-stdlib (= 3.13.3-1ubuntu0.1)",
+		"libbz2-1.0",
+		"libc6 (>= 2.38)",
+		"libdb5.3t64",
+		"libexpat1 (>= 2.6.0)",
+		"libffi8 (>= 3.4)",
+		"libgdbm6t64 (>= 1.16)",
+		"liblzma5 (>= 5.1.1alpha+20120614)",
+		"libncursesw6 (>= 6.1)",
+		"libreadline8t64 (>= 7.0~beta)",
+		"libsqlite3-0 (>= 3.36.0)",
+		"libssl3t64 (>= 3.4.0)",
+		"libtcl8.6 (>= 8.6.0)",
+		"libtinfo6 (>= 6)",
+		"libtk8.6 (>= 8.6.0)",
+		"libuuid1 (>= 2.20.1)",
+		"zlib1g (>= 1:1.2.0)"
+	],
+	"replaces": [
+		"libpython3.13-dbg",
+		"python3-gdbm-dbg (<< 3.12.5-2~)",
+		"python3-tk-dbg (<< 3.12.5-2~)"
+	],
+	"breaks": [
+		"libpython3.13-dbg (<< 3.13.3-1ubuntu0.1)",
+		"python3-gdbm-dbg (<< 3.12.5-2~)",
+		"python3-tk-dbg (<< 3.12.5-2~)"
+	],
+	"installedSize": 115489,
+	"maintainer": "Ubuntu Core Developers <ubuntu-devel-discuss@lists.ubuntu.com>",
+	"description": "Debug Build of the Python Interpreter (version 3.13)",
+	"filename": "pool/main/p/python3.13/libpython3.13-dbg_3.13.3-1ubuntu0.1_amd64.deb",
+	"size": 25822460,
+	"md5": "cb7e7d427de2492d97ced9aff57610e7",
+	"sha1": "3ce4dd17e3d3cda16b682980aa2f3482123f4d6d",
+	"sha256": "a98322b8c0b36268eaa71e7f5e2b11a0044a644c1764ccbfbf796edfa3a82713",
+	"sha512": "bb35914e60d947ede26a453709c69841e2d393da9804fa1eaa386ae2417d296bd312cda9d74677c8a02f9fadefd58baa9bb33b17f4a2c2f959b5af9d8a7f8da4",
+	"descriptionMd5": "db4cba440ce5f61a54a273521a2b88b6"
+},{
+	"raw": {},
+	"required": [
+		"Filename",
+		"Size"
+	],
+	"package": "libpython3.13-dbg",
+	"source": "python3.13",
 	"version": "3.13.3-1",
 	"section": "debug",
 	"priority": "optional",
