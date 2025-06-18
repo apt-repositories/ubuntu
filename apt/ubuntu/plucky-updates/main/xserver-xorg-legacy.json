@@ -1,0 +1,37 @@
+{
+	"raw": {},
+	"required": [
+		"Filename",
+		"Size"
+	],
+	"package": "xserver-xorg-legacy",
+	"source": "xorg-server",
+	"version": "2:21.1.16-1ubuntu1.1",
+	"section": "x11",
+	"priority": "extra",
+	"architecture": "amd64",
+	"depends": [
+		"xserver-common (>= 2:21.1.16-1ubuntu1.1)",
+		"libc6 (>= 2.34)",
+		"debconf (>= 0.5) | debconf-2.0"
+	],
+	"replaces": [
+		"x11-common (<< 1:7.7+10~)",
+		"xserver-xorg-core (<< 2:1.17.2-3~)"
+	],
+	"breaks": [
+		"x11-common (<< 1:7.7+10~)",
+		"xserver-xorg-core (<< 2:1.17.2-3~)"
+	],
+	"installedSize": 182,
+	"maintainer": "Ubuntu X-SWAT <ubuntu-x@lists.ubuntu.com>",
+	"description": "setuid root Xorg server wrapper",
+	"homepage": "https://www.x.org/",
+	"filename": "pool/main/x/xorg-server/xserver-xorg-legacy_21.1.16-1ubuntu1.1_amd64.deb",
+	"size": 41898,
+	"md5": "332b8b1c32bc4eed60ddbc72af328939",
+	"sha1": "748b4a025c5b07d47d5ab0976e2a9c8b1b313cda",
+	"sha256": "b74b00cb058d203dbd45fdfd3ea09712638ce64554ce1986a4eaf4a5681c49bd",
+	"sha512": "0d85e172f7a5187c5cc273993c171ee274167f635d9af1935307010575981104734e3249f58368481f524ce903a0352909859b62746301b9d6af7353d8ae28ed",
+	"descriptionMd5": "a49fa8443df84effdf1fd36e26ad0f94"
+}
