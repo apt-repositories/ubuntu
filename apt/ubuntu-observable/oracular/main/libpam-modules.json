@@ -6,6 +6,49 @@
 	],
 	"package": "libpam-modules",
 	"source": "pam",
+	"version": "1.5.3-7ubuntu2.3",
+	"section": "admin",
+	"priority": "required",
+	"architecture": "amd64",
+	"preDepends": [
+		"libaudit1 (>= 1:2.2.1)",
+		"libc6 (>= 2.38)",
+		"libcrypt1 (>= 1:4.3.0)",
+		"libdb5.3t64",
+		"libpam0g (>= 1.4.1)",
+		"libselinux1 (>= 3.1~)",
+		"libsystemd0",
+		"debconf (>= 0.5) | debconf-2.0",
+		"libpam-modules-bin (= 1.5.3-7ubuntu2.3)"
+	],
+	"replaces": [
+		"libpam-umask",
+		"libpam0g-util"
+	],
+	"conflicts": [
+		"libpam-mkhomedir",
+		"libpam-motd",
+		"libpam-umask"
+	],
+	"installedSize": 1155,
+	"maintainer": "Ubuntu Developers <ubuntu-devel-discuss@lists.ubuntu.com>",
+	"description": "Pluggable Authentication Modules for PAM",
+	"homepage": "http://www.linux-pam.org/",
+	"filename": "pool/main/p/pam/libpam-modules_1.5.3-7ubuntu2.3_amd64.deb",
+	"size": 286494,
+	"md5": "a1aad639b48e7f0654e1015d9c4fc448",
+	"sha1": "934be379edda5a4c13fb63533f9505e3343f5922",
+	"sha256": "6392e1f3a9b501c373b9e7c0d65bb2607917c14cfe27b374e1d98fa8be45f9d9",
+	"sha512": "74b0d4169062b124c7b6e04923cd40152ba356cd1cbb8dbf0e443dd8e780bba01477f5ce146a27376ab1a96f223a243bbdfbf356aedaae26a393b00918f9d5f0",
+	"descriptionMd5": "234b9429528430ead853cc8bbe97ffb4"
+},{
+	"raw": {},
+	"required": [
+		"Filename",
+		"Size"
+	],
+	"package": "libpam-modules",
+	"source": "pam",
 	"version": "1.5.3-7ubuntu2",
 	"section": "admin",
 	"priority": "required",
