@@ -1,0 +1,42 @@
+[{
+	"raw": {},
+	"required": [
+		"Filename",
+		"Size"
+	],
+	"package": "linux-image-5.15.0-1082-kvm",
+	"source": "linux-signed-kvm",
+	"version": "5.15.0-1082.87",
+	"section": "kernel",
+	"priority": "optional",
+	"architecture": "amd64",
+	"depends": [
+		"kmod",
+		"linux-base (>= 4.5ubuntu1~16.04.1)",
+		"linux-modules-5.15.0-1082-kvm"
+	],
+	"recommends": [
+		"grub-pc | grub-efi-amd64 | grub-efi-ia32 | grub | lilo",
+		"initramfs-tools | linux-initramfs-tool"
+	],
+	"suggests": [
+		"fdutils",
+		"linux-kvm-doc-5.15.0 | linux-kvm-source-5.15.0",
+		"linux-kvm-tools",
+		"linux-headers-5.15.0-1082-kvm"
+	],
+	"conflicts": [
+		"linux-image-unsigned-5.15.0-1082-kvm"
+	],
+	"installedSize": 6966,
+	"maintainer": "Canonical Kernel Team <kernel-team@lists.ubuntu.com>",
+	"description": "Signed kernel image kvm",
+	"builtUsing": "linux-kvm (= 5.15.0-1082.87)",
+	"filename": "pool/main/l/linux-signed-kvm/linux-image-5.15.0-1082-kvm_5.15.0-1082.87_amd64.deb",
+	"size": 7049480,
+	"md5": "df09deec9cbdad941b63a34781afa7e9",
+	"sha1": "19fa36e3493352e1be68a798d73fa9aaa00cdc27",
+	"sha256": "db7c1c3f95ed60ebf7c76cefeb280f2191096d774892552db4c173a4804c9604",
+	"sha512": "40f64cd1852d7f61b3dd8640cca1c0080e40c38be4005275a0ddb50a21efbdb8d2a4ee08f42a351155d5424b5a70bb68eadac1896a8f61077e15d27302cf88a5",
+	"descriptionMd5": "a274e067cfee43d836e3e2404e4eecf9"
+}]
