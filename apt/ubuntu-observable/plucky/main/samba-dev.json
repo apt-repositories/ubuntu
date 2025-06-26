@@ -45,6 +45,45 @@
 	],
 	"package": "samba-dev",
 	"source": "samba",
+	"version": "2:4.21.4+dfsg-1ubuntu3.2",
+	"section": "devel",
+	"priority": "optional",
+	"architecture": "amd64",
+	"depends": [
+		"libc6-dev",
+		"libldb-dev",
+		"libpopt-dev",
+		"libtalloc-dev",
+		"libtdb-dev",
+		"libtevent-dev",
+		"libwbclient-dev",
+		"samba-libs (= 2:4.21.4+dfsg-1ubuntu3.2)"
+	],
+	"replaces": [
+		"libwbclient-dev (<< 2:4.16.1+dfsg-7~)"
+	],
+	"breaks": [
+		"libwbclient-dev (<< 2:4.16.1+dfsg-7~)"
+	],
+	"installedSize": 1438,
+	"maintainer": "Ubuntu Developers <ubuntu-devel-discuss@lists.ubuntu.com>",
+	"description": "tools for extending Samba",
+	"homepage": "https://www.samba.org",
+	"filename": "pool/main/s/samba/samba-dev_4.21.4+dfsg-1ubuntu3.2_amd64.deb",
+	"size": 173880,
+	"md5": "39db27ee2286198701af5da02d989b1b",
+	"sha1": "c9d47c027fc8b3f6c5d824d46f6d2baf31379e7e",
+	"sha256": "8a2bcc61e77dc1408c56dca011d3211de203e05ab397f7ae26b1a001f3cc5017",
+	"sha512": "9202bf837f5d9476c7acd9e246c1c86d9b8e42e772bbbf4e2d8e3147b9cc90ac552934656e41116275525809072954535f86f6a79c7826a87575b6bd25e3d6b0",
+	"descriptionMd5": "c8352d732d47c05669c4910ec031f562"
+},{
+	"raw": {},
+	"required": [
+		"Filename",
+		"Size"
+	],
+	"package": "samba-dev",
+	"source": "samba",
 	"version": "2:4.21.4+dfsg-1ubuntu3",
 	"section": "devel",
 	"priority": "optional",

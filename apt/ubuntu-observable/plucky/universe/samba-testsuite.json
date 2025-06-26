@@ -56,6 +56,56 @@
 	],
 	"package": "samba-testsuite",
 	"source": "samba",
+	"version": "2:4.21.4+dfsg-1ubuntu3.2",
+	"section": "universe/net",
+	"priority": "optional",
+	"architecture": "amd64",
+	"depends": [
+		"samba-common-bin",
+		"samba-libs (= 2:4.21.4+dfsg-1ubuntu3.2)",
+		"libbsd0 (>= 0.3.0)",
+		"libc6 (>= 2.38)",
+		"libgnutls30t64 (>= 3.8.2)",
+		"libldb2 (>= 2:2.8.0)",
+		"libndr5 (>= 2:4.20.0~rc1)",
+		"libpopt0 (>= 1.14)",
+		"libreadline8t64 (>= 6.0)",
+		"libsmbclient0 (>= 2:4.12.0+dfsg)",
+		"libtalloc2 (>= 2.4.0)",
+		"libtdb1 (>= 1.2.7+git20101214)",
+		"libtevent0t64 (>= 0.15.0)",
+		"libwbclient0 (>= 2:4.0.3+dfsg1)",
+		"python3-samba (= 2:4.21.4+dfsg-1ubuntu3.2)",
+		"winbind (= 2:4.21.4+dfsg-1ubuntu3.2)"
+	],
+	"suggests": [
+		"subunit"
+	],
+	"replaces": [
+		"samba-libs (<< 2:4.19.0~)"
+	],
+	"breaks": [
+		"samba-libs (<< 2:4.19.0~)"
+	],
+	"installedSize": 10687,
+	"maintainer": "Ubuntu Developers <ubuntu-devel-discuss@lists.ubuntu.com>",
+	"description": "test suite from Samba",
+	"homepage": "https://www.samba.org",
+	"filename": "pool/universe/s/samba/samba-testsuite_4.21.4+dfsg-1ubuntu3.2_amd64.deb",
+	"size": 2526346,
+	"md5": "b46484767c57845a0e036106c8f6c8bd",
+	"sha1": "74c5bbace4b450bb7df16d19b304cf2aa353c505",
+	"sha256": "afbe5957419ee99521a87011f5a3fc63d96b6a01cf3892387f09f0cca154c6ed",
+	"sha512": "c3f85959554741d6f40a6ec60ce64d60268cf2a0e82e7019a2cb4efe81dc78c6e88146065ddd867ff59c196c0555e913700efa2405c1825febcf4b4e3a3fd274",
+	"descriptionMd5": "b3a06da306c4ba5739938a7fa8d2fe31"
+},{
+	"raw": {},
+	"required": [
+		"Filename",
+		"Size"
+	],
+	"package": "samba-testsuite",
+	"source": "samba",
 	"version": "2:4.21.4+dfsg-1ubuntu3",
 	"section": "universe/net",
 	"priority": "optional",
