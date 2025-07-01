@@ -38,6 +38,38 @@
 	],
 	"package": "linux-image-generic-hwe-24.04",
 	"source": "linux-meta",
+	"version": "6.11.0-29.29",
+	"section": "kernel",
+	"priority": "optional",
+	"architecture": "amd64",
+	"depends": [
+		"linux-image-6.11.0-29-generic",
+		"linux-modules-extra-6.11.0-29-generic",
+		"linux-firmware",
+		"intel-microcode",
+		"amd64-microcode"
+	],
+	"recommends": [
+		"thermald"
+	],
+	"installedSize": 17,
+	"maintainer": "Ubuntu Kernel Team <kernel-team@lists.ubuntu.com>",
+	"description": "Generic Linux kernel image",
+	"filename": "pool/main/l/linux-meta/linux-image-generic-hwe-24.04_6.11.0-29.29_amd64.deb",
+	"size": 11224,
+	"md5": "43e84f088722a3b0e9c001bd86312e0a",
+	"sha1": "3560cedfe75431f4e220cafbd97a8e6e1d908cb7",
+	"sha256": "dd2b382a3c6e37e47df4d183daf4fdb299a9232a38a81cff1ec1e843a67ede1b",
+	"sha512": "bcf5964dd6e09b175f790fad10b4ba565c097876ab3c915903c964aa73ab57a771fbe6042fe8ce3ff808c8c6a7a7cad7a5599fa16679c6e7a0f7dcc949f0ed3a",
+	"descriptionMd5": "6d632579c673704f44b290b16e7dbfd1"
+},{
+	"raw": {},
+	"required": [
+		"Filename",
+		"Size"
+	],
+	"package": "linux-image-generic-hwe-24.04",
+	"source": "linux-meta",
 	"version": "6.11.0-8.8",
 	"section": "kernel",
 	"priority": "optional",

@@ -55,6 +55,56 @@
 		"Size"
 	],
 	"package": "adsys",
+	"version": "0.16.3~22.04.1",
+	"section": "admin",
+	"priority": "optional",
+	"architecture": "amd64",
+	"depends": [
+		"libc6 (>= 2.34)",
+		"libglib2.0-0 (>= 2.16.0)",
+		"libkrb5-3 (>= 1.6.dfsg.2)",
+		"libpam0g (>= 0.99.7.1)",
+		"libsmbclient (>= 2:4.0.3+dfsg1)",
+		"libwbclient0 (>= 2:4.0.3+dfsg1)",
+		"init-system-helpers (>= 1.52)",
+		"python3",
+		"python3-samba",
+		"samba-dsdb-modules",
+		"sssd | winbind",
+		"sssd | krb5-user",
+		"sssd-dbus | winbind",
+		"apparmor",
+		"cifs-utils",
+		"nfs-common",
+		"gvfs"
+	],
+	"recommends": [
+		"ubuntu-advantage-desktop-daemon"
+	],
+	"suggests": [
+		"curlftpfs",
+		"ubuntu-proxy-manager",
+		"python3-cepces"
+	],
+	"installedSize": 25044,
+	"maintainer": "Ubuntu Developers <ubuntu-devel-discuss@lists.ubuntu.com>",
+	"description": "AD SYStem integration",
+	"homepage": "https://github.com/ubuntu/adsys",
+	"builtUsing": "golang-1.23 (= 1.23.1-1~22.04)",
+	"filename": "pool/main/a/adsys/adsys_0.16.3~22.04.1_amd64.deb",
+	"size": 6675136,
+	"md5": "0f973d77e95f370b7b576d1aa9bbb797",
+	"sha1": "e7f8b18cdeacb714852dbc8640bfa07c0457a4cd",
+	"sha256": "cc6653610eaa523d60248b17f5d2fdec1daf485550637c492873b932d3caa060",
+	"sha512": "5ecf56b26e16a494f1c7cdbe77d8993cba3e4ee56abcd0f4d641c7e71d9374ecebccb7b377941ea99b71477d9fecd3a20243d86578d2a635b48827af1bf3d2c7",
+	"descriptionMd5": "9cb0b39321e000a2d2b61ddc74cad714"
+},{
+	"raw": {},
+	"required": [
+		"Filename",
+		"Size"
+	],
+	"package": "adsys",
 	"version": "0.8.4",
 	"section": "admin",
 	"priority": "optional",
