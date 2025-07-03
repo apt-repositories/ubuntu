@@ -5,6 +5,41 @@
 		"Size"
 	],
 	"package": "dnsmasq",
+	"version": "2.90-2ubuntu0.1",
+	"section": "universe/net",
+	"priority": "optional",
+	"architecture": "all",
+	"depends": [
+		"netbase",
+		"dnsmasq-base"
+	],
+	"preDepends": [
+		"init-system-helpers (>= 1.54~)"
+	],
+	"suggests": [
+		"resolvconf"
+	],
+	"conflicts": [
+		"resolvconf (<< 1.15)"
+	],
+	"installedSize": 86,
+	"maintainer": "Ubuntu Developers <ubuntu-devel-discuss@lists.ubuntu.com>",
+	"description": "Small caching DNS proxy and DHCP/TFTP server - system daemon",
+	"homepage": "https://www.thekelleys.org.uk/dnsmasq/doc.html",
+	"filename": "pool/universe/d/dnsmasq/dnsmasq_2.90-2ubuntu0.1_all.deb",
+	"size": 17884,
+	"md5": "afd90d6df7c04921798b49c1edf6b8d8",
+	"sha1": "3b930247695b576e5abf829546944e8e5cd770b3",
+	"sha256": "8791132893161212a73a6522cb5b49a34e7d403466c1bc80a7f15aa3f4529954",
+	"sha512": "5d4907bbf2ec22cf156da3175bc001a2557724db0f69665616db14fdf6cab32436dbab7c80f69d4cb24cd627643fc2c77503fff354f1a5825bdcad48699e2398",
+	"descriptionMd5": "7b36911676b04203658c6857a166934f"
+},{
+	"raw": {},
+	"required": [
+		"Filename",
+		"Size"
+	],
+	"package": "dnsmasq",
 	"version": "2.90-2build2",
 	"section": "universe/net",
 	"priority": "optional",

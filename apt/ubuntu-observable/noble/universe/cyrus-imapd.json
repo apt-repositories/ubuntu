@@ -5,6 +5,49 @@
 		"Size"
 	],
 	"package": "cyrus-imapd",
+	"version": "3.8.2-1ubuntu0.2",
+	"section": "universe/mail",
+	"priority": "extra",
+	"architecture": "amd64",
+	"depends": [
+		"cyrus-common (= 3.8.2-1ubuntu0.2)",
+		"libc6 (>= 2.38)",
+		"libcom-err2 (>= 1.43.9)",
+		"libsasl2-2 (>= 2.1.28+dfsg1)",
+		"libssl3t64 (>= 3.0.0)",
+		"libwrap0 (>= 7.6-4~)",
+		"zlib1g (>= 1:1.1.4)"
+	],
+	"recommends": [
+		"rsync"
+	],
+	"replaces": [
+		"cyrus-common (<< 3.2.3~)"
+	],
+	"breaks": [
+		"cyrus-common (<< 3.2.3~)"
+	],
+	"conflicts": [
+		"imap-server"
+	],
+	"installedSize": 514,
+	"maintainer": "Ubuntu Developers <ubuntu-devel-discuss@lists.ubuntu.com>",
+	"description": "Cyrus mail system - IMAP support",
+	"homepage": "https://www.cyrusimap.org/",
+	"filename": "pool/universe/c/cyrus-imapd/cyrus-imapd_3.8.2-1ubuntu0.2_amd64.deb",
+	"size": 175064,
+	"md5": "ff7073a2723469c16afb1fd68580e80f",
+	"sha1": "e9cd1abd72688dbc6ff34d73ae897ae64d25b4a8",
+	"sha256": "941c22745e2a75b23a2aa872bc3165edcfac5cb9aedf8fcdce5d2c2d89c27548",
+	"sha512": "a33375e36f95d976b55818bd2bae8d9f199e4fc4884e129cb28172751405707d1fc752bb6e6d917594f87ffed2607e85569db5f45320ea68c9e0e8612b7662d1",
+	"descriptionMd5": "2013b72b2b05fdd34a3b3dd1c1ba084e"
+},{
+	"raw": {},
+	"required": [
+		"Filename",
+		"Size"
+	],
+	"package": "cyrus-imapd",
 	"version": "3.8.2-1",
 	"section": "universe/mail",
 	"priority": "extra",
