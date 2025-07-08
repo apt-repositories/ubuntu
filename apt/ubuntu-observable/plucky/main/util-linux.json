@@ -5,6 +5,60 @@
 		"Size"
 	],
 	"package": "util-linux",
+	"version": "2.40.2-14ubuntu1.1",
+	"section": "utils",
+	"priority": "required",
+	"architecture": "amd64",
+	"preDepends": [
+		"libpam-modules",
+		"libpam-runtime",
+		"libblkid1 (= 2.40.2-14ubuntu1.1)",
+		"libc6 (>= 2.41)",
+		"libcap-ng0 (>= 0.7.9)",
+		"libcrypt1 (>= 1:4.1.0)",
+		"libmount1 (= 2.40.2-14ubuntu1.1)",
+		"libpam0g (>= 0.99.7.1)",
+		"libselinux1 (>= 3.1~)",
+		"libsmartcols1 (= 2.40.2-14ubuntu1.1)",
+		"libsystemd0",
+		"libtinfo6 (>= 6)",
+		"libudev1 (>= 183)",
+		"libuuid1 (= 2.40.2-14ubuntu1.1)"
+	],
+	"recommends": [
+		"sensible-utils"
+	],
+	"suggests": [
+		"dosfstools",
+		"kbd",
+		"util-linux-extra",
+		"util-linux-locales",
+		"wtmpdb"
+	],
+	"replaces": [
+		"hardlink"
+	],
+	"conflicts": [
+		"hardlink"
+	],
+	"installedSize": 3256,
+	"maintainer": "Ubuntu Developers <ubuntu-devel-discuss@lists.ubuntu.com>",
+	"description": "miscellaneous system utilities",
+	"homepage": "https://github.com/util-linux/util-linux",
+	"filename": "pool/main/u/util-linux/util-linux_2.40.2-14ubuntu1.1_amd64.deb",
+	"size": 1138760,
+	"md5": "21891186c8a70ca081bbfd7644f02067",
+	"sha1": "89c4b9a4d0446f9d9cfd00a452704e0d519c32ba",
+	"sha256": "8c495564845a2cd174bf0a555afdf5a3d89cb82c77b3e6210a269278519d610a",
+	"sha512": "84c155b135750d429bec8751b271bae9f72b589cad51de1d024e9c1bebe047961aac7fd8576d980eb5a03b6766ae94bdde4ee8164fa6bdc467643ce73e6f4346",
+	"descriptionMd5": "33d0291a69ffd307cfba295915df602a"
+},{
+	"raw": {},
+	"required": [
+		"Filename",
+		"Size"
+	],
+	"package": "util-linux",
 	"version": "2.40.2-14ubuntu1",
 	"section": "utils",
 	"priority": "required",
