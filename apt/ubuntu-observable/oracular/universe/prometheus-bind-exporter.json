@@ -5,6 +5,39 @@
 		"Size"
 	],
 	"package": "prometheus-bind-exporter",
+	"version": "0.7.0-3ubuntu0.1",
+	"section": "universe/net",
+	"priority": "extra",
+	"architecture": "amd64",
+	"depends": [
+		"adduser",
+		"libc6 (>= 2.34)"
+	],
+	"preDepends": [
+		"init-system-helpers (>= 1.54~)"
+	],
+	"enhances": [
+		"bind9"
+	],
+	"installedSize": 11465,
+	"maintainer": "Ubuntu Developers <ubuntu-devel-discuss@lists.ubuntu.com>",
+	"description": "Prometheus exporter for BIND server metrics",
+	"homepage": "https://github.com/prometheus-community/bind_exporter/",
+	"builtUsing": "golang-1.23 (= 1.23.2-1), golang-github-alecthomas-units (= 0.0~git20211218.b94a6e3-1), golang-github-beorn7-perks (= 1.0.1-1), golang-github-cespare-xxhash (= 2.3.0-1), golang-github-coreos-go-systemd (= 22.5.0-1), golang-github-go-kit-log (= 0.2.1-1), golang-github-go-logfmt-logfmt (= 0.5.0-2), golang-github-jpillora-backoff (= 1.0.0-1.1), golang-github-munnerz-goautoneg (= 0.0~git20191010.a7dc8b6-2), golang-github-mwitkow-go-conntrack (= 0.0~git20190716.2f06839-3), golang-github-prometheus-client-golang (= 1.19.1-2), golang-github-prometheus-client-model (= 0.6.0-1), golang-github-prometheus-common (= 0.55.0-2), golang-github-prometheus-exporter-toolkit (= 0.11.0-2), golang-github-prometheus-procfs (= 0.14.0-1), golang-go.crypto (= 1:0.24.0-2), golang-golang-x-net (= 1:0.26.0+dfsg-2), golang-golang-x-oauth2 (= 0.15.0-1), golang-golang-x-sync (= 0.7.0-1), golang-golang-x-sys (= 0.21.0-1), golang-golang-x-text (= 0.16.0-1), golang-google-protobuf (= 1.33.0-1), golang-gopkg-alecthomas-kingpin.v2 (= 2.2.6-4), golang-yaml.v2 (= 2.4.0-4)",
+	"filename": "pool/universe/p/prometheus-bind-exporter/prometheus-bind-exporter_0.7.0-3ubuntu0.1_amd64.deb",
+	"size": 3839322,
+	"md5": "1d84e3fec9b65bbff3fef1aa34e4e5f1",
+	"sha1": "dda514868dde5af0f8cf56f0bbe218848c21ca6b",
+	"sha256": "fa622a443510c741594fa6bc036a3804251e83fab3f4428b8813124e915de35b",
+	"sha512": "eeb764f63c9b22afc29ca6490b65a07539143437013b40dce9fa0fc1f3eb3e9c6c322ba740471930349b8bf5aa29d610d275ffffc4d79d692bdcdb9ccbaabb9c",
+	"descriptionMd5": "1550384cb9a1df52de43ca5af80d0582"
+},{
+	"raw": {},
+	"required": [
+		"Filename",
+		"Size"
+	],
+	"package": "prometheus-bind-exporter",
 	"version": "0.7.0-3",
 	"section": "universe/net",
 	"priority": "extra",

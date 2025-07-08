@@ -5,6 +5,39 @@
 		"Size"
 	],
 	"package": "prometheus-mysqld-exporter",
+	"version": "0.15.1-1ubuntu0.1",
+	"section": "universe/net",
+	"priority": "extra",
+	"architecture": "amd64",
+	"depends": [
+		"adduser",
+		"libc6 (>= 2.34)"
+	],
+	"preDepends": [
+		"init-system-helpers (>= 1.54~)"
+	],
+	"suggests": [
+		"default-mysql-server | virtual-mysql-server"
+	],
+	"installedSize": 11343,
+	"maintainer": "Ubuntu Developers <ubuntu-devel-discuss@lists.ubuntu.com>",
+	"description": "Prometheus exporter for MySQL server",
+	"homepage": "https://github.com/prometheus/mysqld_exporter",
+	"builtUsing": "golang-1.23 (= 1.23.2-1), golang-github-alecthomas-units (= 0.0~git20211218.b94a6e3-1), golang-github-beorn7-perks (= 1.0.1-1), golang-github-cespare-xxhash (= 2.3.0-1), golang-github-coreos-go-systemd (= 22.5.0-1), golang-github-go-kit-log (= 0.2.1-1), golang-github-go-logfmt-logfmt (= 0.5.0-2), golang-github-go-sql-driver-mysql (= 1.7.1-2), golang-github-google-uuid (= 1.6.0-1), golang-github-jpillora-backoff (= 1.0.0-1.1), golang-github-munnerz-goautoneg (= 0.0~git20191010.a7dc8b6-2), golang-github-mwitkow-go-conntrack (= 0.0~git20190716.2f06839-3), golang-github-prometheus-client-golang (= 1.19.1-2), golang-github-prometheus-client-model (= 0.6.0-1), golang-github-prometheus-common (= 0.55.0-2), golang-github-prometheus-exporter-toolkit (= 0.11.0-2), golang-github-prometheus-procfs (= 0.14.0-1), golang-go.crypto (= 1:0.24.0-2), golang-golang-x-net (= 1:0.26.0+dfsg-2), golang-golang-x-oauth2 (= 0.15.0-1), golang-golang-x-sync (= 0.7.0-1), golang-golang-x-sys (= 0.21.0-1), golang-golang-x-text (= 0.16.0-1), golang-google-protobuf (= 1.33.0-1), golang-gopkg-alecthomas-kingpin.v2 (= 2.2.6-4), golang-gopkg-ini.v1 (= 1.67.0-1), golang-yaml.v2 (= 2.4.0-4)",
+	"filename": "pool/universe/p/prometheus-mysqld-exporter/prometheus-mysqld-exporter_0.15.1-1ubuntu0.1_amd64.deb",
+	"size": 3776962,
+	"md5": "dd1279dcb23d8b5c532b41154a1ff389",
+	"sha1": "1f84012cdb0083a0537269cc34d522c7c9b7ce4e",
+	"sha256": "191e5cebfe115fb2541ae1827e5331a87c589bab61a7d0da29c21ffcfda1fb03",
+	"sha512": "1bc7f8f70eaa29329fdb61bce89b34ce15d635beed9345c266b7dfcfdf6ea6d00e79ee95643ca2cf3a6cca8fc46a9d46cf436bcbe52220b46e0711eb29f66399",
+	"descriptionMd5": "2d3f549eb032b931c69a16083dc2ad46"
+},{
+	"raw": {},
+	"required": [
+		"Filename",
+		"Size"
+	],
+	"package": "prometheus-mysqld-exporter",
 	"version": "0.15.1-1",
 	"section": "universe/net",
 	"priority": "extra",
