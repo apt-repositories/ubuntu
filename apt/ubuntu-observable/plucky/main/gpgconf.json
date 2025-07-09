@@ -6,6 +6,44 @@
 	],
 	"package": "gpgconf",
 	"source": "gnupg2",
+	"version": "2.4.4-2ubuntu23.1",
+	"section": "utils",
+	"priority": "optional",
+	"architecture": "amd64",
+	"depends": [
+		"libassuan9 (>= 2.5.0)",
+		"libc6 (>= 2.38)",
+		"libgcrypt20 (>= 1.11.0)",
+		"libgpg-error0 (>= 1.48)",
+		"libreadline8t64 (>= 6.0)"
+	],
+	"replaces": [
+		"gnupg (<< 2.1.21-4)",
+		"gnupg-agent (<< 2.1.21-4)"
+	],
+	"breaks": [
+		"gnupg (<< 2.1.21-4)",
+		"gnupg-agent (<< 2.1.21-4)"
+	],
+	"installedSize": 262,
+	"maintainer": "Ubuntu Developers <ubuntu-devel-discuss@lists.ubuntu.com>",
+	"description": "GNU privacy guard - core configuration utilities",
+	"homepage": "https://www.gnupg.org/",
+	"filename": "pool/main/g/gnupg2/gpgconf_2.4.4-2ubuntu23.1_amd64.deb",
+	"size": 106926,
+	"md5": "660e5082a86b80c0c5e7c895e8c5e714",
+	"sha1": "d7a8556c44ed7eef3428dd410d385ddb9afceba1",
+	"sha256": "c364aec52ee9e74a38b2506a846a5499a14ada431ab014a8b3311f36a3f2c9c7",
+	"sha512": "1edc99398b161eb7609b1be19311be950d90b3c0398b48469611b188023a10ddee95415eac533e8fa7b35e13b2d7e486d4f790044d142327f693cf59091f886b",
+	"descriptionMd5": "a54470fd043c15b13d18d29306678637"
+},{
+	"raw": {},
+	"required": [
+		"Filename",
+		"Size"
+	],
+	"package": "gpgconf",
+	"source": "gnupg2",
 	"version": "2.4.4-2ubuntu23",
 	"section": "utils",
 	"priority": "optional",

@@ -6,6 +6,42 @@
 	],
 	"package": "sbuild-debian-developer-setup",
 	"source": "sbuild",
+	"version": "0.88.3ubuntu2~bpo24.04.1",
+	"section": "universe/devel",
+	"priority": "extra",
+	"architecture": "all",
+	"depends": [
+		"apt-cacher-ng | apt-cacher",
+		"cron | cron-daemon",
+		"sbuild (>= 0.77.0-5)",
+		"schroot",
+		"debootstrap",
+		"perl:any"
+	],
+	"replaces": [
+		"sbuild (<< 0.77.0-5)"
+	],
+	"breaks": [
+		"sbuild (<< 0.77.0-5)"
+	],
+	"installedSize": 42,
+	"maintainer": "Ubuntu Developers <ubuntu-devel-discuss@lists.ubuntu.com>",
+	"description": "Convenience script to set up an sbuild environment for Debian Developers",
+	"filename": "pool/universe/s/sbuild/sbuild-debian-developer-setup_0.88.3ubuntu2~bpo24.04.1_all.deb",
+	"size": 8866,
+	"md5": "39d474ac504bacc77455293578371ecc",
+	"sha1": "f305056b3e1ed8619c82a048444dc8753db25cd1",
+	"sha256": "c948924eae6ad3e179e8adc4640c69662f201fcaf4e415aa028d2f66c7521157",
+	"sha512": "fc6a85f03b33a71ee9ba1268aba3c8cd6504c01293762bd1997b2b1de63fbfaec5acd4c27f70108c9dd8532a6f309c1f92caaa5038ecc8e6be38c4d04d40c64f",
+	"descriptionMd5": "eb2ae0aac1dc3796c6e80a3c8d05adfc"
+},{
+	"raw": {},
+	"required": [
+		"Filename",
+		"Size"
+	],
+	"package": "sbuild-debian-developer-setup",
+	"source": "sbuild",
 	"version": "0.85.10ubuntu0.2",
 	"section": "universe/devel",
 	"priority": "extra",
