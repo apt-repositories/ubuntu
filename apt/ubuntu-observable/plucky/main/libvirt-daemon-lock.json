@@ -6,6 +6,46 @@
 	],
 	"package": "libvirt-daemon-lock",
 	"source": "libvirt",
+	"version": "11.0.0-2ubuntu6.2",
+	"section": "admin",
+	"priority": "optional",
+	"architecture": "amd64",
+	"depends": [
+		"libvirt-common (= 11.0.0-2ubuntu6.2)",
+		"libvirt0 (= 11.0.0-2ubuntu6.2)",
+		"libc6 (>= 2.34)",
+		"libgcc-s1 (>= 3.3.1)",
+		"libglib2.0-0t64 (>= 2.32.0)",
+		"libtirpc3t64 (>= 1.0.2)"
+	],
+	"replaces": [
+		"libvirt-daemon (<< 10.6.0-2~)"
+	],
+	"breaks": [
+		"libvirt-daemon (<< 10.6.0-2~)"
+	],
+	"conflicts": [
+		"libvirt-daemon-system (<< 10.6.0-2~)"
+	],
+	"installedSize": 140,
+	"maintainer": "Ubuntu Developers <ubuntu-devel-discuss@lists.ubuntu.com>",
+	"description": "Virtualization lock daemon",
+	"homepage": "https://libvirt.org/",
+	"filename": "pool/main/libv/libvirt/libvirt-daemon-lock_11.0.0-2ubuntu6.2_amd64.deb",
+	"size": 35032,
+	"md5": "28c33a7d46690da85de99a98c50a7265",
+	"sha1": "d1d1befc35b8fbe246b517d8098356941677c3aa",
+	"sha256": "b48ae7b7f6db6b05b8dbc8f500e3bd34dd8ec14d6f3f3e2c3a7df787b4b3de73",
+	"sha512": "52a1d01d8628c5fa5ce99e715837aed7e0dc56c2459408b9946ec931404339443a60bc2015de3fa3879c926fdd61454502729e5b28b85990dc20cfc54f46bd5c",
+	"descriptionMd5": "cad55b7b1df89a3a8f1f2485134499c9"
+},{
+	"raw": {},
+	"required": [
+		"Filename",
+		"Size"
+	],
+	"package": "libvirt-daemon-lock",
+	"source": "libvirt",
 	"version": "11.0.0-2ubuntu6",
 	"section": "admin",
 	"priority": "optional",
