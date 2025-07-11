@@ -51,6 +51,51 @@
 	],
 	"package": "ceph-mds",
 	"source": "ceph",
+	"version": "19.2.1-0ubuntu0.24.04.2",
+	"section": "admin",
+	"priority": "optional",
+	"architecture": "amd64",
+	"depends": [
+		"ceph-base (= 19.2.1-0ubuntu0.24.04.2)",
+		"librados2 (= 19.2.1-0ubuntu0.24.04.2)",
+		"libboost-url1.83.0 (>= 1.83.0)",
+		"libc6 (>= 2.38)",
+		"libgcc-s1 (>= 3.0)",
+		"libgoogle-perftools4t64 (>= 2.15)",
+		"liblua5.4-0 (>= 5.4.6)",
+		"libstdc++6 (>= 13.1)"
+	],
+	"recommends": [
+		"libcephfs2 (= 19.2.1-0ubuntu0.24.04.2)"
+	],
+	"suggests": [
+		"ceph-fuse"
+	],
+	"replaces": [
+		"ceph (<< 0.67.3-1)"
+	],
+	"breaks": [
+		"ceph (<< 0.67.3-1)"
+	],
+	"installedSize": 8098,
+	"maintainer": "Ubuntu Developers <ubuntu-devel-discuss@lists.ubuntu.com>",
+	"description": "metadata server for the ceph distributed file system",
+	"homepage": "http://ceph.com/",
+	"filename": "pool/main/c/ceph/ceph-mds_19.2.1-0ubuntu0.24.04.2_amd64.deb",
+	"size": 2608110,
+	"md5": "53826c8a2d6bc60d92d2923abe473ab5",
+	"sha1": "ace2b68cebc9166e2f469b8f44ea7dcea4b9669e",
+	"sha256": "2189523a7220e1600dfaf1eb57243206e1d807d531dec2b93fa9c50e1111da0a",
+	"sha512": "86eec4f8be6d99368616fdf80829f4635fd70a9cfcdf2155249d8e2feecc93512acb0786b856ba1d71fe33c27239ffb48e30831f0706ea4c48528c082e139157",
+	"descriptionMd5": "d37d51a4735a093f21799c80f707168f"
+},{
+	"raw": {},
+	"required": [
+		"Filename",
+		"Size"
+	],
+	"package": "ceph-mds",
+	"source": "ceph",
 	"version": "19.2.0~git20240301.4c76c50-0ubuntu6",
 	"section": "admin",
 	"priority": "optional",
