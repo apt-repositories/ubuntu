@@ -50,6 +50,50 @@
 	],
 	"package": "mysql-client-core",
 	"source": "mysql-8.4",
+	"version": "8.4.5-0ubuntu0.2",
+	"section": "database",
+	"priority": "optional",
+	"architecture": "amd64",
+	"depends": [
+		"libc6 (>= 2.38)",
+		"libedit2 (>= 2.11-20080614-0)",
+		"libgcc-s1 (>= 3.3.1)",
+		"libssl3t64 (>= 3.0.0)",
+		"libstdc++6 (>= 13.1)",
+		"libzstd1 (>= 1.5.5)",
+		"zlib1g (>= 1:1.1.4)"
+	],
+	"replaces": [
+		"mysql-client-core-8.0 (<< 8.4)"
+	],
+	"breaks": [
+		"mysql-client-core-8.0 (<< 8.4)"
+	],
+	"conflicts": [
+		"mariadb-client",
+		"mariadb-client-core",
+		"mysql-client-8.0",
+		"virtual-mysql-client-core"
+	],
+	"installedSize": 46933,
+	"maintainer": "Ubuntu Developers <ubuntu-devel-discuss@lists.ubuntu.com>",
+	"description": "MySQL database core client binaries",
+	"homepage": "http://dev.mysql.com/",
+	"filename": "pool/main/m/mysql-8.4/mysql-client-core_8.4.5-0ubuntu0.2_amd64.deb",
+	"size": 2142824,
+	"md5": "06a9de403671df95752a0671c4183645",
+	"sha1": "b6653306ebe7610316c52f3c5731dadc1a0e14ff",
+	"sha256": "cda5d74aeedfbec39df8435d5c509cb156f4fae0d18dcadcf009af3930fef24f",
+	"sha512": "0be257959da5c305639eded9f41d3706d7747bebb3193f2953aba768a3cdae7670e3a589aa0168d65dec1ab273b734bc2068dec432e4f05b7c7f7d0ef0f14da8",
+	"descriptionMd5": "94a7aede8ba9259b1382d4dfca4cdde0"
+},{
+	"raw": {},
+	"required": [
+		"Filename",
+		"Size"
+	],
+	"package": "mysql-client-core",
+	"source": "mysql-8.4",
 	"version": "8.4.4-0ubuntu2",
 	"section": "database",
 	"priority": "optional",

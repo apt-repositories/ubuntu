@@ -48,6 +48,48 @@
 	],
 	"package": "ceph-volume",
 	"source": "ceph",
+	"version": "19.2.1-0ubuntu0.24.04.2",
+	"section": "python",
+	"priority": "optional",
+	"architecture": "all",
+	"depends": [
+		"cryptsetup-bin",
+		"e2fsprogs",
+		"lvm2",
+		"parted",
+		"python3-ceph-common (= 19.2.1-0ubuntu0.24.04.2)",
+		"python3-packaging",
+		"util-linux",
+		"xfsprogs"
+	],
+	"replaces": [
+		"ceph-osd (<< 17.0.0~)"
+	],
+	"enhances": [
+		"ceph-osd"
+	],
+	"breaks": [
+		"ceph-osd (<< 17.0.0~)"
+	],
+	"installedSize": 1716,
+	"maintainer": "Ubuntu Developers <ubuntu-devel-discuss@lists.ubuntu.com>",
+	"description": "tool to facilidate OSD deployment",
+	"homepage": "http://ceph.com/",
+	"filename": "pool/main/c/ceph/ceph-volume_19.2.1-0ubuntu0.24.04.2_all.deb",
+	"size": 348366,
+	"md5": "b4e5b19b17917ce94a323d2be664169e",
+	"sha1": "c749125488a5d73bc1f2aa3a1d9adf1b33dafb81",
+	"sha256": "48ad1204da8106339d026e4127ba45dded24c830b93b1a7dc4f5593eced43d16",
+	"sha512": "70245ef60ddf8ee8dcbb0c172ce4038bdad92318971e8b2fb1419f2dce057521f9bbdf5c76cf6c9d02be49166cdbf8f18e2fab9ae8fa424660ee1db05484505e",
+	"descriptionMd5": "d771b38d2bcd53eaaebd0646e4edece3"
+},{
+	"raw": {},
+	"required": [
+		"Filename",
+		"Size"
+	],
+	"package": "ceph-volume",
+	"source": "ceph",
 	"version": "19.2.0~git20240301.4c76c50-0ubuntu6",
 	"section": "python",
 	"priority": "optional",

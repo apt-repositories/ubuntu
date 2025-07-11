@@ -58,6 +58,58 @@
 	],
 	"package": "mysql-server-8.0",
 	"source": "mysql-8.0",
+	"version": "8.0.42-0ubuntu0.24.04.2",
+	"section": "database",
+	"priority": "optional",
+	"architecture": "amd64",
+	"depends": [
+		"lsb-base (>= 3.0-10)",
+		"mysql-client-8.0 (>= 8.0.42-0ubuntu0.24.04.2)",
+		"mysql-common (>= 5.8+1.0.4~)",
+		"mysql-server-core-8.0 (= 8.0.42-0ubuntu0.24.04.2)",
+		"passwd",
+		"perl:any (>= 5.6)",
+		"psmisc",
+		"debconf (>= 0.5) | debconf-2.0"
+	],
+	"preDepends": [
+		"adduser (>= 3.40)",
+		"debconf",
+		"mysql-common (>= 5.5)"
+	],
+	"recommends": [
+		"libhtml-template-perl",
+		"mecab-ipadic-utf8"
+	],
+	"suggests": [
+		"mailx",
+		"tinyca"
+	],
+	"conflicts": [
+		"mariadb-server-10.1",
+		"mariadb-server-10.3",
+		"mysql-server-5.7",
+		"virtual-mysql-server"
+	],
+	"installedSize": 1549,
+	"maintainer": "Ubuntu Developers <ubuntu-devel-discuss@lists.ubuntu.com>",
+	"description": "MySQL database server binaries and system database setup",
+	"homepage": "http://dev.mysql.com/",
+	"filename": "pool/main/m/mysql-8.0/mysql-server-8.0_8.0.42-0ubuntu0.24.04.2_amd64.deb",
+	"size": 1438382,
+	"md5": "639aa6033d939650f184b6b62956bb6b",
+	"sha1": "1ef4695483e69ebd6d6266c22064f5333787cfb2",
+	"sha256": "7afe52402b3f5d5db3c5fa75fd2c3bac6316705fe73b618101458cc8e5f2be2a",
+	"sha512": "bdf79dd991848d16172f5760e4eb61ff18316ce4573c35a08135420cee0f0e6945ca88884e4fa02c4bff646e999ed91b96353638c4186650a4e5f8a281a0674c",
+	"descriptionMd5": "3ae11e16f793b3ee84f73a5fa268ad9b"
+},{
+	"raw": {},
+	"required": [
+		"Filename",
+		"Size"
+	],
+	"package": "mysql-server-8.0",
+	"source": "mysql-8.0",
 	"version": "8.0.36-2ubuntu3",
 	"section": "database",
 	"priority": "optional",
