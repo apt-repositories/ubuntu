@@ -6,6 +6,50 @@
 	],
 	"package": "libc6-dev-x32",
 	"source": "glibc",
+	"version": "2.41-6ubuntu1.1",
+	"section": "libdevel",
+	"priority": "optional",
+	"architecture": "amd64",
+	"depends": [
+		"libc6-x32 (= 2.41-6ubuntu1.1)",
+		"libc6-dev-i386 (= 2.41-6ubuntu1.1)",
+		"libc6-dev (= 2.41-6ubuntu1.1)"
+	],
+	"recommends": [
+		"gcc-multilib"
+	],
+	"conflicts": [
+		"libc6-dev-amd64",
+		"libc6-dev-i386:x32",
+		"libc6-dev-mips32",
+		"libc6-dev-mips64",
+		"libc6-dev-mipsn32",
+		"libc6-dev-powerpc",
+		"libc6-dev-ppc64",
+		"libc6-dev-s390",
+		"libc6-dev-sparc",
+		"libc6-dev-sparc64",
+		"libc6-dev-x32:i386"
+	],
+	"installedSize": 8292,
+	"maintainer": "Ubuntu Developers <ubuntu-devel-discuss@lists.ubuntu.com>",
+	"description": "GNU C Library: X32 ABI Development Libraries for AMD64",
+	"homepage": "https://www.gnu.org/software/libc/libc.html",
+	"filename": "pool/main/g/glibc/libc6-dev-x32_2.41-6ubuntu1.1_amd64.deb",
+	"size": 1692440,
+	"md5": "84b6a9a9baa7abc4894dca87dbcb0e86",
+	"sha1": "e5bb7cfbf6fd267a085d674b1ca5a7c7e3b076b3",
+	"sha256": "58e8aefc699f3a29d2b988ef1be82ad9e88da5ee9fe6b0edb9bfc36508f21df3",
+	"sha512": "a8c71516fb2c59199d8d2d4323a650a399d30e7feaf5837e25cbce1f3038324a9585b1443184adbd8bef4068e002b4764c320f11ca8557f53f3293e838613c92",
+	"descriptionMd5": "0859bbe63e876c4ed2ca05543b5d535f"
+},{
+	"raw": {},
+	"required": [
+		"Filename",
+		"Size"
+	],
+	"package": "libc6-dev-x32",
+	"source": "glibc",
 	"version": "2.41-6ubuntu1",
 	"section": "libdevel",
 	"priority": "optional",

@@ -6,6 +6,42 @@
 	],
 	"package": "nscd",
 	"source": "glibc",
+	"version": "2.41-6ubuntu1.1",
+	"section": "universe/admin",
+	"priority": "optional",
+	"architecture": "amd64",
+	"depends": [
+		"libaudit1 (>= 1:2.2.1)",
+		"libc6 (>> 2.41)",
+		"libc6 (<< 2.42)",
+		"libcap2 (>= 1:2.10)",
+		"libselinux1 (>= 3.1~)"
+	],
+	"preDepends": [
+		"init-system-helpers (>= 1.54~)"
+	],
+	"conflicts": [
+		"unscd"
+	],
+	"installedSize": 280,
+	"maintainer": "Ubuntu Developers <ubuntu-devel-discuss@lists.ubuntu.com>",
+	"description": "GNU C Library: Name Service Cache Daemon",
+	"homepage": "https://www.gnu.org/software/libc/libc.html",
+	"filename": "pool/universe/g/glibc/nscd_2.41-6ubuntu1.1_amd64.deb",
+	"size": 74792,
+	"md5": "5d486b481920afcf92dda23637436ff1",
+	"sha1": "200d930faa5e396e3ae9d80d2e4ee2923a75555b",
+	"sha256": "4794b9f36f652f8a2598d138e859524eeab72306692230c26b435970c5eeb7b7",
+	"sha512": "ed86786163c81e017a82dee5baa7fdc5dca0993cbbc6f366e82c38fa889c6ef4bc07c9ebc339c0dbc84f2c99d49562c893c9f9e5c5c6e66fce58680019674ec5",
+	"descriptionMd5": "e8172254ec0df735a3e44c0f557100bc"
+},{
+	"raw": {},
+	"required": [
+		"Filename",
+		"Size"
+	],
+	"package": "nscd",
+	"source": "glibc",
 	"version": "2.41-6ubuntu1",
 	"section": "universe/admin",
 	"priority": "optional",
