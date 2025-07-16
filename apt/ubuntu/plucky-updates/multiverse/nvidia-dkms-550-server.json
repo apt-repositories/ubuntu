@@ -6,38 +6,22 @@
 	],
 	"package": "nvidia-dkms-550-server",
 	"source": "nvidia-graphics-drivers-550-server",
-	"version": "550.163.01-0ubuntu1",
+	"version": "550.163.01-0ubuntu2",
 	"section": "multiverse/libs",
 	"priority": "optional",
 	"architecture": "amd64",
 	"depends": [
-		"dkms",
-		"nvidia-kernel-source-550-server (<= 550.163.01-1)",
-		"nvidia-kernel-source-550-server (>= 550.163.01)",
-		"nvidia-kernel-common-550-server (<= 550.163.01-1)",
-		"nvidia-kernel-common-550-server (>= 550.163.01)",
-		"nvidia-firmware-550-server-550.163.01"
+		"nvidia-dkms-570-server"
 	],
-	"replaces": [
-		"nvidia-384 (<< 390.25)",
-		"nvidia-dkms-kernel",
-		"nvidia-kernel-source-550-server (<< 390.25-0ubuntu2~)"
-	],
-	"breaks": [
-		"nvidia-kernel-source-550-server (<< 390.25-0ubuntu2~)"
-	],
-	"conflicts": [
-		"nvidia-dkms-kernel"
-	],
-	"installedSize": 243,
+	"installedSize": 32,
 	"maintainer": "Ubuntu Core Developers <ubuntu-devel-discuss@lists.ubuntu.com>",
 	"description": "NVIDIA DKMS package",
 	"homepage": "http://www.nvidia.com",
-	"filename": "pool/multiverse/n/nvidia-graphics-drivers-550-server/nvidia-dkms-550-server_550.163.01-0ubuntu1_amd64.deb",
-	"size": 51378,
-	"md5": "b6a45f9a507c935f1bcccb93718f8831",
-	"sha1": "e87d134111c86ecd95fd9769612e1739f29a5838",
-	"sha256": "47c2ca1e8752013e72f4a2e7844b7994200a813b6c96820a4ea64ade04fd5e5d",
-	"sha512": "c24700f503816d761329421114963b2f4f108986b5e4e82188d2005d739619f0d2eb2acbc5ae2473113db7a9a513d6a95a0c51a495c7a91531529627f9b9b18d",
-	"descriptionMd5": "ec8c193060b5458922cc0bda62df7796"
+	"filename": "pool/multiverse/n/nvidia-graphics-drivers-550-server/nvidia-dkms-550-server_550.163.01-0ubuntu2_amd64.deb",
+	"size": 11206,
+	"md5": "e92e6541473018c5e67e2d18a3822a43",
+	"sha1": "5014bb4b635b5dd3f5bf1bde8171c6e92c63577f",
+	"sha256": "34b7d1470af47e32cbd9fa4b89741c5ecb1ea36d168b468665e0da91b52dbe96",
+	"sha512": "d3be76c85743da74785b98948b5eb74ca69b65c792555a75d864b166180eed76cd4e4826bc432c7c7b8dacb9862a625c423f8c07fd493d76bb79fe20c2f4ef94",
+	"descriptionMd5": "a347abf1b58ca811e614eaaf299d05d7"
 }

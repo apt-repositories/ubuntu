@@ -37,4 +37,43 @@
 	"sha256": "64857086f5c52952a2477f721b874afa7d8902d8c4292236117834cd449181f6",
 	"sha512": "0f05ad6fbacc236bb401fff9a5d2cdc75e6df31e8afbd50d6f824452e158a56e320129a85c3f3ae8cd927ec5efc8b5d0a3ed021601d32b671109e000fbb0d216",
 	"descriptionMd5": "f950ded8bd15694151d6381e4a71f888"
+},{
+	"raw": {},
+	"required": [
+		"Filename",
+		"Size"
+	],
+	"package": "nvidia-headless-no-dkms-550",
+	"source": "nvidia-graphics-drivers-550",
+	"version": "550.163.01-0ubuntu0.22.04.1",
+	"section": "restricted/libs",
+	"priority": "optional",
+	"architecture": "amd64",
+	"depends": [
+		"nvidia-kernel-common-550 (<= 550.163.01-1)",
+		"nvidia-kernel-common-550 (>= 550.163.01)",
+		"nvidia-kernel-source-550 (= 550.163.01-0ubuntu0.22.04.1)",
+		"libnvidia-compute-550 (= 550.163.01-0ubuntu0.22.04.1)",
+		"nvidia-compute-utils-550 (= 550.163.01-0ubuntu0.22.04.1)",
+		"libnvidia-cfg1-550 (= 550.163.01-0ubuntu0.22.04.1)"
+	],
+	"replaces": [
+		"nvidia-384 (<< 390.25)",
+		"nvidia-390 (<< 390.25-0ubuntu1)"
+	],
+	"conflicts": [
+		"nvidia-384 (<< 390.25)",
+		"nvidia-390 (<< 390.25-0ubuntu1)"
+	],
+	"installedSize": 32,
+	"maintainer": "Ubuntu Core Developers <ubuntu-devel-discuss@lists.ubuntu.com>",
+	"description": "NVIDIA headless metapackage - no DKMS",
+	"homepage": "http://www.nvidia.com",
+	"filename": "pool/restricted/n/nvidia-graphics-drivers-550/nvidia-headless-no-dkms-550_550.163.01-0ubuntu0.22.04.1_amd64.deb",
+	"size": 11196,
+	"md5": "9ab254aee1e09b02e752d75973f07310",
+	"sha1": "c1ac03087ddbf21ce9dd414b798dcd9186405daa",
+	"sha256": "70f54e6fd43a7b445885b66152d5f1b01ac68f272c3774d549bbcda2376e6086",
+	"sha512": "4739915b4e30cbd483e1278b28ab251be42e24829f6ec6349434d3c2da71ca6b17766be44769dd7cb369267a60b506cfb6a25977993c0601e98a97dca8245603",
+	"descriptionMd5": "f950ded8bd15694151d6381e4a71f888"
 }]

@@ -39,4 +39,45 @@
 	"sha256": "e65668a602a10b615f49b8dbd30df3a0690fa76055e51b4e06c05b180fcda8af",
 	"sha512": "f06668049e83957299601a2d254c55b99584ac3b45f1d152ebc67c87272ac0f4c49c32664d37c87ca371829fbd658d6d0f80a80b54ef165f91ca31febc28f5ec",
 	"descriptionMd5": "dafa8f35853882b3010cba056bb022d0"
+},{
+	"raw": {},
+	"required": [
+		"Filename",
+		"Size"
+	],
+	"package": "nvidia-dkms-550-open",
+	"source": "nvidia-graphics-drivers-550",
+	"version": "550.163.01-0ubuntu0.22.04.1",
+	"section": "restricted/libs",
+	"priority": "optional",
+	"architecture": "amd64",
+	"depends": [
+		"dkms",
+		"nvidia-kernel-source-550-open (<= 550.163.01-1)",
+		"nvidia-kernel-source-550-open (>= 550.163.01)",
+		"nvidia-kernel-common-550 (<= 550.163.01-1)",
+		"nvidia-kernel-common-550 (>= 550.163.01)"
+	],
+	"replaces": [
+		"nvidia-384 (<< 390.25)",
+		"nvidia-dkms-kernel",
+		"nvidia-kernel-source-550 (<< 390.25-0ubuntu2~)"
+	],
+	"breaks": [
+		"nvidia-kernel-source-550 (<< 390.25-0ubuntu2~)"
+	],
+	"conflicts": [
+		"nvidia-dkms-kernel"
+	],
+	"installedSize": 48,
+	"maintainer": "Ubuntu Core Developers <ubuntu-devel-discuss@lists.ubuntu.com>",
+	"description": "NVIDIA DKMS package (open kernel module)",
+	"homepage": "http://www.nvidia.com",
+	"filename": "pool/restricted/n/nvidia-graphics-drivers-550/nvidia-dkms-550-open_550.163.01-0ubuntu0.22.04.1_amd64.deb",
+	"size": 14890,
+	"md5": "071d50f101e94342439ef9c5abd42d84",
+	"sha1": "6774ff3b6ba6a8a8a7b79fa225776161b5ab790c",
+	"sha256": "2fd278c86166ae32d84cdc1fb0c152d9f5f52e571caae368860d206925657d26",
+	"sha512": "bec9209d84f341a718c37d6765d1e7a855f0f72c37666690eb4979915bc5eb0bf0cc4cc2a8617c032757e58e8ae9ba849eca8abc2acfc3007fc4b24c9e147fa8",
+	"descriptionMd5": "dafa8f35853882b3010cba056bb022d0"
 }]

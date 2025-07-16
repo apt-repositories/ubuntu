@@ -52,6 +52,52 @@
 	],
 	"package": "udev",
 	"source": "systemd",
+	"version": "255.4-1ubuntu8.10",
+	"section": "admin",
+	"priority": "important",
+	"architecture": "amd64",
+	"depends": [
+		"libacl1 (>= 2.2.23)",
+		"libblkid1 (>= 2.37.2)",
+		"libc6 (>= 2.38)",
+		"libcap2 (>= 1:2.10)",
+		"libkmod2 (>= 15)",
+		"libselinux1 (>= 3.1~)",
+		"systemd | systemd-standalone-sysusers | systemd-sysusers",
+		"libudev1 (= 255.4-1ubuntu8.10)",
+		"systemd-dev (>= 255.4-1ubuntu8.10)"
+	],
+	"recommends": [
+		"systemd-hwe-hwdb"
+	],
+	"replaces": [
+		"systemd (<< 255~rc1-4~)"
+	],
+	"breaks": [
+		"systemd (<< 255.4-1ubuntu8.10)"
+	],
+	"conflicts": [
+		"systemd (<< 255~rc1-4~)"
+	],
+	"installedSize": 10843,
+	"maintainer": "Ubuntu Developers <ubuntu-devel-discuss@lists.ubuntu.com>",
+	"description": "/dev/ and hotplug management daemon",
+	"homepage": "https://www.freedesktop.org/wiki/Software/systemd",
+	"filename": "pool/main/s/systemd/udev_255.4-1ubuntu8.10_amd64.deb",
+	"size": 1873040,
+	"md5": "3d7fbfb20265c74f21f86d638f7c4bd2",
+	"sha1": "8479c886326d71450ed0d9b911f3716f480dff0c",
+	"sha256": "0c0c998ab66c06b189386b1f4f0ff5a42748d2a46948cae517caacb3963916e5",
+	"sha512": "ffe09893c9729105fe1f245992c5ddf404426928701bfe78a9fc12b18842f385fc3eb51b8f30c4fdd2a4d4846d85a79f6fb8a3fd88d9e1f09153fcc18bbd7372",
+	"descriptionMd5": "e875ddb09f46f1f7672af537f0c875ca"
+},{
+	"raw": {},
+	"required": [
+		"Filename",
+		"Size"
+	],
+	"package": "udev",
+	"source": "systemd",
 	"version": "255.4-1ubuntu8",
 	"section": "admin",
 	"priority": "important",
