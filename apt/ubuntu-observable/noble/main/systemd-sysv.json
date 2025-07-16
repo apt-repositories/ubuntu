@@ -52,6 +52,52 @@
 	],
 	"package": "systemd-sysv",
 	"source": "systemd",
+	"version": "255.4-1ubuntu8.10",
+	"section": "admin",
+	"priority": "important",
+	"architecture": "amd64",
+	"depends": [
+		"systemd (= 255.4-1ubuntu8.10)"
+	],
+	"preDepends": [
+		"systemd"
+	],
+	"recommends": [
+		"libpam-systemd",
+		"libnss-systemd"
+	],
+	"replaces": [
+		"sysvinit-core"
+	],
+	"conflicts": [
+		"bfh-container (<< 20211009-22~)",
+		"file-rc",
+		"initscripts",
+		"molly-guard (<< 0.8.2~)",
+		"orphan-sysvinit-scripts",
+		"progress-linux-container (<< 20221002-11~)",
+		"systemd-shim",
+		"sysvinit-core"
+	],
+	"installedSize": 125,
+	"maintainer": "Ubuntu Developers <ubuntu-devel-discuss@lists.ubuntu.com>",
+	"description": "system and service manager - SysV compatibility symlinks",
+	"homepage": "https://www.freedesktop.org/wiki/Software/systemd",
+	"filename": "pool/main/s/systemd/systemd-sysv_255.4-1ubuntu8.10_amd64.deb",
+	"size": 11882,
+	"md5": "41c91d31bf892799f3377db21da5c4ca",
+	"sha1": "2c6f99daab825570031a61daa09ebaff3b72199a",
+	"sha256": "cc6834ee0ccd7883da6c70dfd7c0f6a97bb145328e3c7705713e7020c2d5d1d6",
+	"sha512": "778d422c632582cdfba50ee599a18f550a048b8b2a9ab4786060eb868abb6584944b5f4ea40b955a171b2ebab6b60e4870f81092865020c394bd38f879b2660a",
+	"descriptionMd5": "d704d23b3cdeb076982e788442f6eee1"
+},{
+	"raw": {},
+	"required": [
+		"Filename",
+		"Size"
+	],
+	"package": "systemd-sysv",
+	"source": "systemd",
 	"version": "255.4-1ubuntu8",
 	"section": "admin",
 	"priority": "important",

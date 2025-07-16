@@ -46,6 +46,46 @@
 	],
 	"package": "systemd-boot",
 	"source": "systemd",
+	"version": "255.4-1ubuntu8.10",
+	"section": "universe/admin",
+	"priority": "optional",
+	"architecture": "amd64",
+	"depends": [
+		"libc6 (>= 2.34)",
+		"libsystemd-shared (= 255.4-1ubuntu8.10)",
+		"systemd-boot-efi (= 255.4-1ubuntu8.10)"
+	],
+	"recommends": [
+		"efibootmgr"
+	],
+	"suggests": [
+		"systemd-ukify"
+	],
+	"replaces": [
+		"systemd (<< 251.2-3~)"
+	],
+	"breaks": [
+		"systemd (<< 251.2-3~)"
+	],
+	"installedSize": 317,
+	"maintainer": "Ubuntu Developers <ubuntu-devel-discuss@lists.ubuntu.com>",
+	"description": "simple UEFI boot manager - tools and services",
+	"homepage": "https://www.freedesktop.org/wiki/Software/systemd",
+	"filename": "pool/universe/s/systemd/systemd-boot_255.4-1ubuntu8.10_amd64.deb",
+	"size": 77234,
+	"md5": "74495ebf6bdb8d156df4f9e50e20bf54",
+	"sha1": "5cea8555b26cff915ac927e547801d5ed59625ed",
+	"sha256": "53391ce2b0fd639e99a3216fee8ac9772e080b519e52e540c2331659356a03d5",
+	"sha512": "6e2e1a244d2b5ec207c93c742dcdeb2ed27232156fe5f73ffa9c56240e252e2ce34eac559368208fbfca957531ea240bc94ee35d6502bf9573816abfa956119f",
+	"descriptionMd5": "5ba77b2b4bc86eae081746facb23c909"
+},{
+	"raw": {},
+	"required": [
+		"Filename",
+		"Size"
+	],
+	"package": "systemd-boot",
+	"source": "systemd",
 	"version": "255.4-1ubuntu8",
 	"section": "universe/admin",
 	"priority": "optional",
