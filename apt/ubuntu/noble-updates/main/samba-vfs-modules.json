@@ -1,0 +1,50 @@
+{
+	"raw": {},
+	"required": [
+		"Filename",
+		"Size"
+	],
+	"package": "samba-vfs-modules",
+	"source": "samba",
+	"version": "2:4.19.5+dfsg-4ubuntu9.2",
+	"section": "net",
+	"priority": "optional",
+	"architecture": "amd64",
+	"depends": [
+		"samba-libs (= 2:4.19.5+dfsg-4ubuntu9.2)",
+		"libbsd0 (>= 0.0)",
+		"libc6 (>= 2.38)",
+		"libgnutls30t64 (>= 3.7.0)",
+		"libldb2 (>= 0.9.21)",
+		"libndr3 (>= 2:4.17.2)",
+		"libtalloc2 (>= 2.4.1~)",
+		"libtdb1 (>= 1.4.9~)",
+		"libtevent0t64 (>= 0.15.0)",
+		"libtirpc3t64 (>= 1.0.2)",
+		"liburing2 (>= 2.3)"
+	],
+	"recommends": [
+		"libcephfs2 (>= 14.2.0)",
+		"libdbus-1-3 (>= 1.9.14)"
+	],
+	"replaces": [
+		"samba-libs (<< 2:4.19.0~)"
+	],
+	"enhances": [
+		"samba"
+	],
+	"breaks": [
+		"samba-libs (<< 2:4.19.0~)"
+	],
+	"installedSize": 1809,
+	"maintainer": "Ubuntu Developers <ubuntu-devel-discuss@lists.ubuntu.com>",
+	"description": "Samba Virtual FileSystem plugins",
+	"homepage": "https://www.samba.org",
+	"filename": "pool/main/s/samba/samba-vfs-modules_4.19.5+dfsg-4ubuntu9.2_amd64.deb",
+	"size": 414576,
+	"md5": "ed93b09a57eac920db0b6f72109b450a",
+	"sha1": "3f6e62d404e68c4aeb558cc764e590c616939d6d",
+	"sha256": "f77dc7c0f16e35a0282083e6fd5c83c67e42ba585f408484a956b90250e76100",
+	"sha512": "d44cd7d628c9f5f41f4dca307bf0a9f20afb4f75194f2d6077ef256f86ca1d3501653c032a68a60d2f28266ae153ca64a8f64a9d920981c19619693e089523a6",
+	"descriptionMd5": "cd83b336ae9f6321d078811769d5a463"
+}

@@ -5,6 +5,44 @@
 		"Size"
 	],
 	"package": "libldb2",
+	"source": "samba (2:4.19.5+dfsg-4ubuntu9.2)",
+	"version": "2:2.8.0+samba4.19.5+dfsg-4ubuntu9.2",
+	"section": "libs",
+	"priority": "optional",
+	"architecture": "amd64",
+	"depends": [
+		"libc6 (>= 2.38)",
+		"libldap2 (>= 2.6.2)",
+		"liblmdb0 (>= 0.9.9)",
+		"libtalloc2 (>= 2.4.1~)",
+		"libtdb1 (>= 1.4.9~)",
+		"libtevent0t64 (>= 0.15.0)"
+	],
+	"breaks": [
+		"ldb-tools (<< 1.1.30~)",
+		"samba (<< 2:4.7.0~)",
+		"samba-dsdb-modules (<< 2:4.7.0~)",
+		"samba-libs (<< 2:4.19.0~)",
+		"samba-testsuite (<< 2:4.7.0~)"
+	],
+	"installedSize": 622,
+	"maintainer": "Ubuntu Developers <ubuntu-devel-discuss@lists.ubuntu.com>",
+	"description": "LDAP-like embedded database - shared library",
+	"homepage": "https://www.samba.org",
+	"filename": "pool/main/s/samba/libldb2_2.8.0+samba4.19.5+dfsg-4ubuntu9.2_amd64.deb",
+	"size": 187022,
+	"md5": "147d98a3fbf66fea03987ec882a332ad",
+	"sha1": "9805f89df749986b85843e08dae08510a377c132",
+	"sha256": "9458f0441383f7789e71e6b575141509479a767485f2398e4de7301803f4e2b7",
+	"sha512": "0cc050e0af7dcf5b02912a6b4ca6fc1f1f49167d26bea2df6042a1ae971a8bdd617970c0a2474340f6fee78894f53f6cd5a9ea668c446aa3f8bdf217daeaf30f",
+	"descriptionMd5": "afbf2b86552adbf8b69bb702e5773247"
+},{
+	"raw": {},
+	"required": [
+		"Filename",
+		"Size"
+	],
+	"package": "libldb2",
 	"source": "samba (2:4.19.5+dfsg-4ubuntu9)",
 	"version": "2:2.8.0+samba4.19.5+dfsg-4ubuntu9",
 	"section": "libs",
