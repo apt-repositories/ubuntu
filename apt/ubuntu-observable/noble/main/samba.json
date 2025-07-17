@@ -5,6 +5,80 @@
 		"Size"
 	],
 	"package": "samba",
+	"version": "2:4.19.5+dfsg-4ubuntu9.2",
+	"section": "net",
+	"priority": "optional",
+	"architecture": "amd64",
+	"depends": [
+		"passwd",
+		"libpam-modules",
+		"libpam-runtime (>= 1.0.1-11)",
+		"procps",
+		"python3",
+		"python3-dnspython",
+		"python3-samba (= 2:4.19.5+dfsg-4ubuntu9.2)",
+		"samba-common (= 2:4.19.5+dfsg-4ubuntu9.2)",
+		"samba-common-bin (= 2:4.19.5+dfsg-4ubuntu9.2)",
+		"tdb-tools",
+		"python3:any",
+		"libbsd0 (>= 0.6.0)",
+		"libc6 (>= 2.38)",
+		"libcups2t64 (>= 1.7.0)",
+		"libgnutls30t64 (>= 3.7.0)",
+		"libldap2 (>= 2.6.2)",
+		"libldb2 (>= 2:2.6.1)",
+		"libndr3 (>= 2:4.17.2)",
+		"libpopt0 (>= 1.14)",
+		"libtalloc2 (>= 2.4.1~)",
+		"libtasn1-6 (>= 4.14)",
+		"libtdb1 (>= 1.4.9~)",
+		"libtevent0t64 (>= 0.15.0)",
+		"samba-libs (= 2:4.19.5+dfsg-4ubuntu9.2)"
+	],
+	"preDepends": [
+		"init-system-helpers (>= 1.54~)"
+	],
+	"recommends": [
+		"attr",
+		"python3-markdown",
+		"samba-dsdb-modules",
+		"samba-vfs-modules",
+		"samba-ad-provision"
+	],
+	"suggests": [
+		"bind9 (>= 1:9.5.1)",
+		"bind9utils",
+		"ctdb",
+		"ldb-tools",
+		"ntp | chrony (>= 3.0-1)",
+		"ufw",
+		"winbind"
+	],
+	"enhances": [
+		"bind9",
+		"ntp"
+	],
+	"breaks": [
+		"samba-ad-provision (<< 2:4.19.5+dfsg)"
+	],
+	"installedSize": 4019,
+	"maintainer": "Ubuntu Developers <ubuntu-devel-discuss@lists.ubuntu.com>",
+	"description": "SMB/CIFS file, print, and login server for Unix",
+	"homepage": "https://www.samba.org",
+	"filename": "pool/main/s/samba/samba_4.19.5+dfsg-4ubuntu9.2_amd64.deb",
+	"size": 1003498,
+	"md5": "60d12f0cc4c77a5e5fe30e0383afdb3c",
+	"sha1": "632ee072431ff8975f65772282b4abb121774ced",
+	"sha256": "6346f98e794347fae07c490aa205c0a5d1b1a52839da848dd50715cd49922b37",
+	"sha512": "780497ca3e4ff68891ecc8e3649fea5fe45f89d9ee971a22cbb3551a023afdca1c2e06f5a290be243f3ec76e8d84a131ab5bcc1544c519645983110b50193615",
+	"descriptionMd5": "c9d307ae5cf3b46be12b53a9f95862f0"
+},{
+	"raw": {},
+	"required": [
+		"Filename",
+		"Size"
+	],
+	"package": "samba",
 	"version": "2:4.19.5+dfsg-4ubuntu9",
 	"section": "net",
 	"priority": "optional",
