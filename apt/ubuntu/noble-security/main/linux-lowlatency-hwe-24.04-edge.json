@@ -5,27 +5,28 @@
 		"Size"
 	],
 	"package": "linux-lowlatency-hwe-24.04-edge",
-	"source": "linux-meta-lowlatency-hwe-6.11",
-	"version": "6.11.0-1014.15~24.04.1",
+	"source": "linux-meta-hwe-6.14",
+	"version": "6.14.0-24.24~24.04.3",
 	"section": "kernel",
 	"priority": "optional",
 	"architecture": "amd64",
 	"depends": [
-		"linux-image-lowlatency-hwe-24.04-edge (= 6.11.0-1014.15~24.04.1)",
-		"linux-headers-lowlatency-hwe-24.04-edge (= 6.11.0-1014.15~24.04.1)"
+		"linux-image-generic-hwe-24.04-edge (= 6.14.0-24.24~24.04.3)",
+		"linux-headers-generic-hwe-24.04-edge (= 6.14.0-24.24~24.04.3)",
+		"lowlatency-kernel"
 	],
 	"recommends": [
-		"linux-tools-6.11.0-1014-lowlatency",
+		"linux-tools-6.14.0-24-generic",
 		"ubuntu-kernel-accessories"
 	],
 	"installedSize": 9,
 	"maintainer": "Ubuntu Kernel Team <kernel-team@lists.ubuntu.com>",
-	"description": "Complete lowlatency Linux kernel",
-	"filename": "pool/main/l/linux-meta-lowlatency-hwe-6.11/linux-lowlatency-hwe-24.04-edge_6.11.0-1014.15~24.04.1_amd64.deb",
-	"size": 1734,
-	"md5": "dee3993e4f54ec9999c81b48d96931fc",
-	"sha1": "99eb9e6eba66a6fd456b08e14cc9ed8b5dd9bde6",
-	"sha256": "1ff635c37cc58aa42d7e87c1ee8f4a4aa6317abcb02dca16e48e37211f7ba2b3",
-	"sha512": "09a8a191b9ed567c4017197107328ea85d5ae4b92fb77dae904da2a14e508e65b57639e7661bcf26b4a65f74abef61c5a5010f78ede7e48998271700ae6c6398",
-	"descriptionMd5": "b52e19b8044c25aff9dce108f24e2ee9"
+	"description": "Complete Generic Linux kernel and headers with lowlatency boot configuration",
+	"filename": "pool/main/l/linux-meta-hwe-6.14/linux-lowlatency-hwe-24.04-edge_6.14.0-24.24~24.04.3_amd64.deb",
+	"size": 1852,
+	"md5": "7dae6e2d81e853cf2fd31a0c0e55a5b5",
+	"sha1": "6338733357fe5c0ae58a1038263dacd50a1e911d",
+	"sha256": "c41dfa947b74ca34edfaf3d94f4741db96673e20d7b812a7af5a73a9ae900ad0",
+	"sha512": "64ee73d3808eb19252145f98557b07676794d7287096d3c8031905a7c679e615426d18202971cac157d03975285fc6fb67d3b2d846de1fc3852ae5ac299d5fde",
+	"descriptionMd5": "657a910330464eecf5ac52d5f18bc728"
 }
