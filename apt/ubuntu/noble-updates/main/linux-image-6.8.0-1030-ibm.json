@@ -1,0 +1,42 @@
+{
+	"raw": {},
+	"required": [
+		"Filename",
+		"Size"
+	],
+	"package": "linux-image-6.8.0-1030-ibm",
+	"source": "linux-signed-ibm",
+	"version": "6.8.0-1030.30",
+	"section": "kernel",
+	"priority": "optional",
+	"architecture": "amd64",
+	"depends": [
+		"kmod",
+		"linux-base (>= 4.5ubuntu1~16.04.1)",
+		"linux-modules-6.8.0-1030-ibm"
+	],
+	"recommends": [
+		"grub-pc | grub-efi-amd64 | grub-efi-ia32 | grub | lilo",
+		"initramfs-tools | linux-initramfs-tool"
+	],
+	"suggests": [
+		"fdutils",
+		"linux-ibm-doc-6.8.0 | linux-ibm-source-6.8.0",
+		"linux-ibm-tools",
+		"linux-headers-6.8.0-1030-ibm"
+	],
+	"conflicts": [
+		"linux-image-unsigned-6.8.0-1030-ibm"
+	],
+	"installedSize": 14503,
+	"maintainer": "Canonical Kernel Team <kernel-team@lists.ubuntu.com>",
+	"description": "Signed kernel image ibm",
+	"builtUsing": "linux-ibm (= 6.8.0-1030.30)",
+	"filename": "pool/main/l/linux-signed-ibm/linux-image-6.8.0-1030-ibm_6.8.0-1030.30_amd64.deb",
+	"size": 14579278,
+	"md5": "fce2c4349457475c98062de7fd47810e",
+	"sha1": "72ba2b4b3908cb9c37bbe3984c8aba1be95449a1",
+	"sha256": "7823efd9510ed69e1ed7b3d5087f6733de873d0b036c553077c32687ba216317",
+	"sha512": "9d115ca5852d7d725e9a7045300c46cbd2e556d93ab1a6df20f63394a2f7c782474c07b53729775bc6e8104a5f53f18c96866697b217a6725abc2356c36dcb86",
+	"descriptionMd5": "37112d568f64b0d65fad68b1aa6f4721"
+}
