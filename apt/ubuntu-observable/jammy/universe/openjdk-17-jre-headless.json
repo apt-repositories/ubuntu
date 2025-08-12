@@ -6,6 +6,65 @@
 	],
 	"package": "openjdk-17-jre-headless",
 	"source": "openjdk-17",
+	"version": "17.0.16+8~us1-0ubuntu1~22.04.1",
+	"section": "universe/java",
+	"priority": "optional",
+	"architecture": "amd64",
+	"depends": [
+		"ca-certificates-java (>= 20190405~)",
+		"java-common (>= 0.28)",
+		"libcups2",
+		"libfontconfig1",
+		"liblcms2-2 (>= 2.2+git20110628)",
+		"libjpeg8 (>= 8c)",
+		"libnss3 (>= 2:3.17.1)",
+		"util-linux (>= 2.26.2-4)",
+		"libasound2 (>= 1.0.16)",
+		"libc6 (>= 2.34)",
+		"libfreetype6 (>= 2.3.5)",
+		"libgcc-s1 (>= 3.0)",
+		"libharfbuzz0b (>= 1.2.6)",
+		"libpcsclite1 (>= 1.3.0)",
+		"libstdc++6 (>= 5)",
+		"zlib1g (>= 1:1.2.2)"
+	],
+	"suggests": [
+		"libnss-mdns",
+		"fonts-dejavu-extra",
+		"fonts-ipafont-gothic",
+		"fonts-ipafont-mincho",
+		"fonts-wqy-microhei | fonts-wqy-zenhei",
+		"fonts-indic"
+	],
+	"replaces": [
+		"openjdk-11-jdk-headless (<< 11~18-2)"
+	],
+	"breaks": [
+		"clojure1.8 (<= 1.8.0-7ubuntu1~)"
+	],
+	"conflicts": [
+		"openjdk-11-jdk-headless (<< 11~18-2)",
+		"oracle-java11-installer"
+	],
+	"installedSize": 188340,
+	"maintainer": "Ubuntu Developers <ubuntu-devel-discuss@lists.ubuntu.com>",
+	"description": "OpenJDK Java runtime, using Hotspot JIT (headless)",
+	"homepage": "https://openjdk.java.net/",
+	"filename": "pool/universe/o/openjdk-17/openjdk-17-jre-headless_17.0.16+8~us1-0ubuntu1~22.04.1_amd64.deb",
+	"size": 48317604,
+	"md5": "52aa49299ee6c8d1f043c949777a3c79",
+	"sha1": "93f013057349fb8a83c6a7aea3d5d130252f2821",
+	"sha256": "59e18330f968dbce1adbd4d18a5a31cd8b4888b9bd04963020a7bba675c38de8",
+	"sha512": "9b71b60fab19027eb929bc38bfe8c3306215c1cbc664dd382e8f39d1ea7c7164c4e3963be5e751e85d86029d08527b38613065d79af3fe97d47b645aeaaf917a",
+	"descriptionMd5": "62c2c9689e617c48cc4480926d2ca785"
+},{
+	"raw": {},
+	"required": [
+		"Filename",
+		"Size"
+	],
+	"package": "openjdk-17-jre-headless",
+	"source": "openjdk-17",
 	"version": "17.0.15+6~us1-0ubuntu1~22.04",
 	"section": "universe/java",
 	"priority": "optional",

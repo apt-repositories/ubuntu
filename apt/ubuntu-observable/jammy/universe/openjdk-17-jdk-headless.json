@@ -6,6 +6,44 @@
 	],
 	"package": "openjdk-17-jdk-headless",
 	"source": "openjdk-17",
+	"version": "17.0.16+8~us1-0ubuntu1~22.04.1",
+	"section": "universe/java",
+	"priority": "optional",
+	"architecture": "amd64",
+	"depends": [
+		"openjdk-17-jre-headless (= 17.0.16+8~us1-0ubuntu1~22.04.1)",
+		"libc6 (>= 2.34)",
+		"zlib1g (>= 1:1.1.4)"
+	],
+	"suggests": [
+		"openjdk-17-demo",
+		"openjdk-17-source"
+	],
+	"replaces": [
+		"openjdk-17-jre-headless (<< 17~10)"
+	],
+	"breaks": [
+		"openjdk-17-jre-headless (<< 17~10)"
+	],
+	"installedSize": 76873,
+	"maintainer": "Ubuntu Developers <ubuntu-devel-discuss@lists.ubuntu.com>",
+	"description": "OpenJDK Development Kit (JDK) (headless)",
+	"homepage": "https://openjdk.java.net/",
+	"filename": "pool/universe/o/openjdk-17/openjdk-17-jdk-headless_17.0.16+8~us1-0ubuntu1~22.04.1_amd64.deb",
+	"size": 71326202,
+	"md5": "36e0c830dc2b229b1e782f8fd510c97b",
+	"sha1": "f387573789ca10e7b1ecf07b811f39ef024aea20",
+	"sha256": "3be933d15d15d06492b21eb93fb28804e2a87530c2ddf166ece08b33c8a821cd",
+	"sha512": "8f2a38fc4dc382ec75ecbdb6d6b8f8d079a2037ef9ba83868271612582c871f9a0fd5fe772e4c584886a38c1e490a7b4dd96466c9844da2043de18e37b76d76c",
+	"descriptionMd5": "494a52f34d707a832270d6d51a78f511"
+},{
+	"raw": {},
+	"required": [
+		"Filename",
+		"Size"
+	],
+	"package": "openjdk-17-jdk-headless",
+	"source": "openjdk-17",
 	"version": "17.0.15+6~us1-0ubuntu1~22.04",
 	"section": "universe/java",
 	"priority": "optional",
