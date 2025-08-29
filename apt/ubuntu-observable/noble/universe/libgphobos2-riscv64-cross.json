@@ -5,6 +5,41 @@
 		"Size"
 	],
 	"package": "libgphobos2-riscv64-cross",
+	"source": "gcc-11-cross-ports (18ubuntu2.1)",
+	"version": "11.5.0-1ubuntu1~24.04cross1",
+	"section": "universe/devel",
+	"priority": "optional",
+	"architecture": "all",
+	"depends": [
+		"gcc-11-cross-base-ports (= 11.5.0-1ubuntu1~24.04cross1)",
+		"libc6-riscv64-cross (>= 2.39)",
+		"libgcc-s1-riscv64-cross"
+	],
+	"replaces": [
+		"libgphobos68-riscv64-cross"
+	],
+	"breaks": [
+		"dub (<< 1.16.0-1~)"
+	],
+	"installedSize": 9348,
+	"maintainer": "Ubuntu Core developers <ubuntu-devel-discuss@lists.ubuntu.com>",
+	"description": "Phobos D standard library (runtime library)",
+	"homepage": "http://gcc.gnu.org/",
+	"builtUsing": "gcc-11 (= 11.5.0-1ubuntu1~24.04)",
+	"filename": "pool/universe/g/gcc-11-cross-ports/libgphobos2-riscv64-cross_11.5.0-1ubuntu1~24.04cross1_all.deb",
+	"size": 1750464,
+	"md5": "689cb4bdb9d1ac61b4a888e6e3d77916",
+	"sha1": "c64dc58417d3f4c857c36dcb6496c4407e785cfd",
+	"sha256": "cdf988b8ae4cdb448ed40d3605cdda170c2f66ff427db972e5e7a7c18aa72920",
+	"sha512": "326cfed4a05d7f029fc7ed0650bce6b445d0410f09e7b807e8fcd3b9cd854ed93b6e5fac6df24db30631a2a07bb794d6987f0e6163b8ae1addfca0f8300cd3d9",
+	"descriptionMd5": "2086a0c7f5831c82fec492e812bdd6c1"
+},{
+	"raw": {},
+	"required": [
+		"Filename",
+		"Size"
+	],
+	"package": "libgphobos2-riscv64-cross",
 	"source": "gcc-11-cross-ports (18ubuntu2)",
 	"version": "11.4.0-9ubuntu1cross1",
 	"section": "universe/devel",

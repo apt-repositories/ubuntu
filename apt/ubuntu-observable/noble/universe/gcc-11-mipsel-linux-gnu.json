@@ -5,6 +5,60 @@
 		"Size"
 	],
 	"package": "gcc-11-mipsel-linux-gnu",
+	"source": "gcc-11-cross-mipsen (6+c1+nmu1ubuntu1.1)",
+	"version": "11.5.0-1ubuntu1~24.04cross1",
+	"section": "universe/devel",
+	"priority": "optional",
+	"architecture": "amd64",
+	"depends": [
+		"cpp-11-mipsel-linux-gnu (= 11.5.0-1ubuntu1~24.04cross1)",
+		"gcc-11-mipsel-linux-gnu-base (= 11.5.0-1ubuntu1~24.04cross1)",
+		"libcc1-0 (>= 11)",
+		"binutils-mipsel-linux-gnu (>= 2.42)",
+		"libgcc-11-dev-mipsel-cross (>= 11.5.0-1ubuntu1~24.04cross1)",
+		"libc6 (>= 2.38)",
+		"libgcc-s1 (>= 3.0)",
+		"libgmp10 (>= 2:6.3.0+dfsg)",
+		"libisl23 (>= 0.15)",
+		"libmpc3 (>= 1.1.0)",
+		"libmpfr6 (>= 3.1.3)",
+		"libstdc++6 (>= 5)",
+		"libzstd1 (>= 1.5.5)",
+		"zlib1g (>= 1:1.1.4)"
+	],
+	"recommends": [
+		"libc6-dev-mipsel-cross (>= 2.13-0ubuntu6)"
+	],
+	"suggests": [
+		"gcc-11-multilib-mipsel-linux-gnu",
+		"gcc-11-doc (>= 11)",
+		"gcc-11-locales (>= 11)"
+	],
+	"replaces": [
+		"cpp-11-mipsel-linux-gnu (<< 7.1.1-8)"
+	],
+	"conflicts": [
+		"gcc-multilib"
+	],
+	"installedSize": 46925,
+	"maintainer": "Ubuntu Core developers <ubuntu-devel-discuss@lists.ubuntu.com>",
+	"description": "GNU C compiler (cross compiler for mipsel architecture)",
+	"homepage": "http://gcc.gnu.org/",
+	"builtUsing": "gcc-11 (= 11.5.0-1ubuntu1~24.04)",
+	"filename": "pool/universe/g/gcc-11-cross-mipsen/gcc-11-mipsel-linux-gnu_11.5.0-1ubuntu1~24.04cross1_amd64.deb",
+	"size": 16415568,
+	"md5": "8cd7dcbb828fa6dff02edf825a1444f6",
+	"sha1": "cd87c861c035ece17ca6afe0d11c7926fbc3f553",
+	"sha256": "9a8bcd1f91ae525a7a13f38210d241be8504c1a735b193fc374ce50234c69e30",
+	"sha512": "c4ed3c25b232b2715427483e2ba15340edd995fde9c9bfe0767d2d30b100a6868e1fba5c96f79948fd8c81958f5412063cf2a1b00d82ef408be52857cf96906d",
+	"descriptionMd5": "1ed845ccbb41e0438f6d587cf734705e"
+},{
+	"raw": {},
+	"required": [
+		"Filename",
+		"Size"
+	],
+	"package": "gcc-11-mipsel-linux-gnu",
 	"source": "gcc-11-cross-mipsen (6+c1+nmu1ubuntu1)",
 	"version": "11.4.0-9ubuntu1cross1",
 	"section": "universe/devel",

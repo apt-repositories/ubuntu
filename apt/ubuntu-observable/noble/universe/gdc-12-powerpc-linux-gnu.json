@@ -5,6 +5,46 @@
 		"Size"
 	],
 	"package": "gdc-12-powerpc-linux-gnu",
+	"source": "gcc-12-cross (19ubuntu2.1)",
+	"version": "12.4.0-2ubuntu1~24.04cross1",
+	"section": "universe/devel",
+	"priority": "optional",
+	"architecture": "amd64",
+	"depends": [
+		"gcc-12-powerpc-linux-gnu-base (>= 12)",
+		"g++-12-powerpc-linux-gnu (>= 12)",
+		"gdc-12 (>= 12)",
+		"libgphobos-12-dev-powerpc-cross (>= 12)",
+		"libc6 (>= 2.38)",
+		"libgmp10 (>= 2:6.3.0+dfsg)",
+		"libisl23 (>= 0.15)",
+		"libmpc3 (>= 1.1.0)",
+		"libmpfr6 (>= 3.1.3)",
+		"libzstd1 (>= 1.5.5)",
+		"zlib1g (>= 1:1.1.4)"
+	],
+	"replaces": [
+		"gdc (<< 4.4.6-5)"
+	],
+	"installedSize": 31317,
+	"maintainer": "Ubuntu Core developers <ubuntu-devel-discuss@lists.ubuntu.com>",
+	"description": "GNU D compiler (version 2) (cross compiler for powerpc architecture)",
+	"homepage": "http://gcc.gnu.org/",
+	"builtUsing": "gcc-12 (= 12.4.0-2ubuntu1~24.04)",
+	"filename": "pool/universe/g/gcc-12-cross/gdc-12-powerpc-linux-gnu_12.4.0-2ubuntu1~24.04cross1_amd64.deb",
+	"size": 10359388,
+	"md5": "48fd8caa8a116da1e17210fbbbaa73be",
+	"sha1": "337d26d3ada1e151992b86dcbc588b098c3f82b8",
+	"sha256": "6be33cc0ee61434e5566433658db88007a9876222fa3db02a13dedaa3c5fcfed",
+	"sha512": "005ff615815ccde67f4ff1c52472bbe2d1ff6fdee387064ddb90d6334cf8d11bb7d3a34b7346a377b2cdf945d46188ad75b514eeea007c6490889380857dcaf0",
+	"descriptionMd5": "b7505a290b440d6bd565f9a0a4513c63"
+},{
+	"raw": {},
+	"required": [
+		"Filename",
+		"Size"
+	],
+	"package": "gdc-12-powerpc-linux-gnu",
 	"source": "gcc-12-cross (19ubuntu2)",
 	"version": "12.3.0-17ubuntu1cross1",
 	"section": "universe/devel",

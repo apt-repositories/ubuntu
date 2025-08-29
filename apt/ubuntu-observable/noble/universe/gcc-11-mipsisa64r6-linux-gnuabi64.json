@@ -5,6 +5,60 @@
 		"Size"
 	],
 	"package": "gcc-11-mipsisa64r6-linux-gnuabi64",
+	"source": "gcc-11-cross-mipsen (6+c1+nmu1ubuntu1.1)",
+	"version": "11.5.0-1ubuntu1~24.04cross1",
+	"section": "universe/devel",
+	"priority": "optional",
+	"architecture": "amd64",
+	"depends": [
+		"cpp-11-mipsisa64r6-linux-gnuabi64 (= 11.5.0-1ubuntu1~24.04cross1)",
+		"gcc-11-mipsisa64r6-linux-gnuabi64-base (= 11.5.0-1ubuntu1~24.04cross1)",
+		"libcc1-0 (>= 11)",
+		"binutils-mipsisa64r6-linux-gnuabi64 (>= 2.42)",
+		"libgcc-11-dev-mips64r6-cross (>= 11.5.0-1ubuntu1~24.04cross1)",
+		"libc6 (>= 2.38)",
+		"libgcc-s1 (>= 3.0)",
+		"libgmp10 (>= 2:6.3.0+dfsg)",
+		"libisl23 (>= 0.15)",
+		"libmpc3 (>= 1.1.0)",
+		"libmpfr6 (>= 3.1.3)",
+		"libstdc++6 (>= 5)",
+		"libzstd1 (>= 1.5.5)",
+		"zlib1g (>= 1:1.1.4)"
+	],
+	"recommends": [
+		"libc6-dev-mips64r6-cross (>= 2.13-0ubuntu6)"
+	],
+	"suggests": [
+		"gcc-11-multilib-mipsisa64r6-linux-gnuabi64",
+		"gcc-11-doc (>= 11)",
+		"gcc-11-locales (>= 11)"
+	],
+	"replaces": [
+		"cpp-11-mipsisa64r6-linux-gnuabi64 (<< 7.1.1-8)"
+	],
+	"conflicts": [
+		"gcc-multilib"
+	],
+	"installedSize": 46925,
+	"maintainer": "Ubuntu Core developers <ubuntu-devel-discuss@lists.ubuntu.com>",
+	"description": "GNU C compiler (cross compiler for mips64r6 architecture)",
+	"homepage": "http://gcc.gnu.org/",
+	"builtUsing": "gcc-11 (= 11.5.0-1ubuntu1~24.04)",
+	"filename": "pool/universe/g/gcc-11-cross-mipsen/gcc-11-mipsisa64r6-linux-gnuabi64_11.5.0-1ubuntu1~24.04cross1_amd64.deb",
+	"size": 16416556,
+	"md5": "9911e9139a940f277ded6012530baffc",
+	"sha1": "4bfd72a0d1dc8b797dfdb32a77fbb27a2467adad",
+	"sha256": "c37a4c823bdd1c74b215f9d9038d714d9eba49a8231de6f5d9e18741c4642146",
+	"sha512": "9210a4de3abe5abea1079bbe6f4e8132d209953b7b2cf2421b0c2567bbd01ab20ea77e72aba4c5e95a9103565984ea4397960c4c5a3e7f5095285ce1fd5ad112",
+	"descriptionMd5": "37280f5f5f1a2bac28b43466c7bf16e5"
+},{
+	"raw": {},
+	"required": [
+		"Filename",
+		"Size"
+	],
+	"package": "gcc-11-mipsisa64r6-linux-gnuabi64",
 	"source": "gcc-11-cross-mipsen (6+c1+nmu1ubuntu1)",
 	"version": "11.4.0-9ubuntu1cross1",
 	"section": "universe/devel",

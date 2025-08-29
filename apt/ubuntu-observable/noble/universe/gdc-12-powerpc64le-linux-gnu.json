@@ -5,6 +5,46 @@
 		"Size"
 	],
 	"package": "gdc-12-powerpc64le-linux-gnu",
+	"source": "gcc-12-cross (19ubuntu2.1)",
+	"version": "12.4.0-2ubuntu1~24.04cross1",
+	"section": "universe/devel",
+	"priority": "optional",
+	"architecture": "amd64",
+	"depends": [
+		"gcc-12-powerpc64le-linux-gnu-base (>= 12)",
+		"g++-12-powerpc64le-linux-gnu (>= 12)",
+		"gdc-12 (>= 12)",
+		"libgphobos-12-dev-ppc64el-cross (>= 12)",
+		"libc6 (>= 2.38)",
+		"libgmp10 (>= 2:6.3.0+dfsg)",
+		"libisl23 (>= 0.15)",
+		"libmpc3 (>= 1.1.0)",
+		"libmpfr6 (>= 3.1.3)",
+		"libzstd1 (>= 1.5.5)",
+		"zlib1g (>= 1:1.1.4)"
+	],
+	"replaces": [
+		"gdc (<< 4.4.6-5)"
+	],
+	"installedSize": 31321,
+	"maintainer": "Ubuntu Core developers <ubuntu-devel-discuss@lists.ubuntu.com>",
+	"description": "GNU D compiler (version 2) (cross compiler for ppc64el architecture)",
+	"homepage": "http://gcc.gnu.org/",
+	"builtUsing": "gcc-12 (= 12.4.0-2ubuntu1~24.04)",
+	"filename": "pool/universe/g/gcc-12-cross/gdc-12-powerpc64le-linux-gnu_12.4.0-2ubuntu1~24.04cross1_amd64.deb",
+	"size": 10357554,
+	"md5": "633a20e3693c8bdddddc4f9296ad46ea",
+	"sha1": "67943deb0947ddea8b664e1ef8a8367577ad2cb8",
+	"sha256": "97302797786a205a1d272731ac931d461d1c126f542175ced08e3618ec663396",
+	"sha512": "ba5209da365108f4d4d105e967c8266d11b450e2228ede6fc81e87ed7354c20bb9910c5c97f5049bb98faba4fb903a04e875caaade46740ab1b864e63ef91496",
+	"descriptionMd5": "a4dee6d7250735908c2c95959b4db0be"
+},{
+	"raw": {},
+	"required": [
+		"Filename",
+		"Size"
+	],
+	"package": "gdc-12-powerpc64le-linux-gnu",
 	"source": "gcc-12-cross (19ubuntu2)",
 	"version": "12.3.0-17ubuntu1cross1",
 	"section": "universe/devel",

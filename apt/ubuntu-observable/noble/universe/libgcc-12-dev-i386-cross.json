@@ -5,6 +5,49 @@
 		"Size"
 	],
 	"package": "libgcc-12-dev-i386-cross",
+	"source": "gcc-12-cross (19ubuntu2.1)",
+	"version": "12.4.0-2ubuntu1~24.04cross1",
+	"section": "universe/libdevel",
+	"priority": "optional",
+	"architecture": "all",
+	"depends": [
+		"gcc-12-cross-base (>= 12.4.0-2ubuntu1~24.04)",
+		"libgcc-s1-i386-cross (>= 12.4.0-2ubuntu1~24.04cross1)",
+		"libgomp1-i386-cross (>= 12.4.0-2ubuntu1~24.04cross1)",
+		"libitm1-i386-cross (>= 12.4.0-2ubuntu1~24.04cross1)",
+		"libatomic1-i386-cross (>= 12.4.0-2ubuntu1~24.04cross1)",
+		"libasan8-i386-cross (>= 12.4.0-2ubuntu1~24.04cross1)",
+		"libubsan1-i386-cross (>= 12.4.0-2ubuntu1~24.04cross1)",
+		"libquadmath0-i386-cross (>= 12.4.0-2ubuntu1~24.04cross1)"
+	],
+	"recommends": [
+		"libc6-dev-i386-cross (>= 2.13-0ubuntu6)"
+	],
+	"replaces": [
+		"libtsan2-i386-cross (<< 12-20211113-2~)"
+	],
+	"breaks": [
+		"libtsan2-i386-cross (<< 12-20211113-2~)"
+	],
+	"installedSize": 10814,
+	"maintainer": "Ubuntu Core developers <ubuntu-devel-discuss@lists.ubuntu.com>",
+	"description": "GCC support library (development files)",
+	"homepage": "http://gcc.gnu.org/",
+	"builtUsing": "gcc-12 (= 12.4.0-2ubuntu1~24.04)",
+	"filename": "pool/universe/g/gcc-12-cross/libgcc-12-dev-i386-cross_12.4.0-2ubuntu1~24.04cross1_all.deb",
+	"size": 2552804,
+	"md5": "f8718a3fbb0204cd928440ee6280483c",
+	"sha1": "16adede49e0613bb63cc7e82fe3b0e7b17db0faa",
+	"sha256": "168034ba18841c1c3d11b54cd89025366c79edafe3fa33609dd75e1fa15878bf",
+	"sha512": "acff8dc3fc75c6368cdb43dbee38f60f28875b3d94a5d60d9ee577db36031eb60317565fab0a933a30dad2089e9c9c2a8ef776b7ae04abc48dd0e409659cd093",
+	"descriptionMd5": "4ab7cb439b47e1d0796fbaf8447229ac"
+},{
+	"raw": {},
+	"required": [
+		"Filename",
+		"Size"
+	],
+	"package": "libgcc-12-dev-i386-cross",
 	"source": "gcc-12-cross (19ubuntu2)",
 	"version": "12.3.0-17ubuntu1cross1",
 	"section": "universe/libdevel",

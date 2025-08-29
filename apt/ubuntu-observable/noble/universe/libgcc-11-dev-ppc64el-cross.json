@@ -5,6 +5,51 @@
 		"Size"
 	],
 	"package": "libgcc-11-dev-ppc64el-cross",
+	"source": "gcc-11-cross (21ubuntu3.2)",
+	"version": "11.5.0-1ubuntu1~24.04cross1",
+	"section": "universe/libdevel",
+	"priority": "optional",
+	"architecture": "all",
+	"depends": [
+		"gcc-11-cross-base (>= 11.5.0-1ubuntu1~24.04)",
+		"libgcc-s1-ppc64el-cross (>= 11.5.0-1ubuntu1~24.04cross1)",
+		"libgomp1-ppc64el-cross (>= 11.5.0-1ubuntu1~24.04cross1)",
+		"libitm1-ppc64el-cross (>= 11.5.0-1ubuntu1~24.04cross1)",
+		"libatomic1-ppc64el-cross (>= 11.5.0-1ubuntu1~24.04cross1)",
+		"libasan6-ppc64el-cross (>= 11.5.0-1ubuntu1~24.04cross1)",
+		"liblsan0-ppc64el-cross (>= 11.5.0-1ubuntu1~24.04cross1)",
+		"libtsan0-ppc64el-cross (>= 11.5.0-1ubuntu1~24.04cross1)",
+		"libubsan1-ppc64el-cross (>= 11.5.0-1ubuntu1~24.04cross1)",
+		"libquadmath0-ppc64el-cross (>= 11.5.0-1ubuntu1~24.04cross1)"
+	],
+	"recommends": [
+		"libc6-dev-ppc64el-cross (>= 2.13-0ubuntu6)"
+	],
+	"replaces": [
+		"libtsan0-ppc64el-cross (<< 11.2.0-11)"
+	],
+	"breaks": [
+		"libtsan0-ppc64el-cross (<< 11.2.0-11)"
+	],
+	"installedSize": 11793,
+	"maintainer": "Ubuntu Core developers <ubuntu-devel-discuss@lists.ubuntu.com>",
+	"description": "GCC support library (development files)",
+	"homepage": "http://gcc.gnu.org/",
+	"builtUsing": "gcc-11 (= 11.5.0-1ubuntu1~24.04)",
+	"filename": "pool/universe/g/gcc-11-cross/libgcc-11-dev-ppc64el-cross_11.5.0-1ubuntu1~24.04cross1_all.deb",
+	"size": 1456914,
+	"md5": "4d76bcf77ad613d039764216d7606573",
+	"sha1": "b1b49094f1512f97eea3e8bfe640e02a2ccbe9fe",
+	"sha256": "f4de2c1d1397b39f51f2f99f347437cd8577bf3f8e95b7ebe959a3338c81f182",
+	"sha512": "00089448b7059627076941cfc17718c5902fda03c1ef96c1aca16f954150a4d3c63593ffaa84c130914c2d8e6888697dedfc9b939550c7c047a3a047d34b2f98",
+	"descriptionMd5": "4ab7cb439b47e1d0796fbaf8447229ac"
+},{
+	"raw": {},
+	"required": [
+		"Filename",
+		"Size"
+	],
+	"package": "libgcc-11-dev-ppc64el-cross",
 	"source": "gcc-11-cross (21ubuntu2)",
 	"version": "11.4.0-9ubuntu1cross1",
 	"section": "universe/libdevel",

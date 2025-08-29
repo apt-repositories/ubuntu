@@ -6,15 +6,15 @@
 	],
 	"package": "mysql-server",
 	"source": "mysql-8.4",
-	"version": "8.4.6-0ubuntu0.25.04.1",
+	"version": "8.4.6-0ubuntu0.25.04.2",
 	"section": "database",
 	"priority": "optional",
 	"architecture": "amd64",
 	"depends": [
 		"lsb-base (>= 3.0-10)",
-		"mysql-client (>= 8.4.6-0ubuntu0.25.04.1)",
+		"mysql-client (>= 8.4.6-0ubuntu0.25.04.2)",
 		"mysql-common (>= 5.8+1.0.4~)",
-		"mysql-server-core (= 8.4.6-0ubuntu0.25.04.1)",
+		"mysql-server-core (= 8.4.6-0ubuntu0.25.04.2)",
 		"passwd",
 		"perl:any (>= 5.6)",
 		"psmisc",
@@ -40,6 +40,7 @@
 		"mysql-server-8.0 (<< 8.4)"
 	],
 	"conflicts": [
+		"mariadb-common",
 		"mariadb-server",
 		"mariadb-server-10.5",
 		"virtual-mysql-server"
@@ -48,11 +49,11 @@
 	"maintainer": "Ubuntu Developers <ubuntu-devel-discuss@lists.ubuntu.com>",
 	"description": "MySQL database server and system database setup",
 	"homepage": "http://dev.mysql.com/",
-	"filename": "pool/main/m/mysql-8.4/mysql-server_8.4.6-0ubuntu0.25.04.1_amd64.deb",
-	"size": 1609860,
-	"md5": "6f45f561e1f74b28e5af9f89750b4511",
-	"sha1": "6a120a8aaf775cdfc5ff3ca155fac8f70fa371e6",
-	"sha256": "006d8a541564ed2e24e1829330395c23bd3a5e3a7a1aaa51bffe869346e368e4",
-	"sha512": "83b7202cf3b0916865e32a1316a8754b946f220397166035f64acfe156d4375e8570ae32c23bad1856cf8ff022472279510e8809f9eb6613f34f6ee4b085dfaf",
+	"filename": "pool/main/m/mysql-8.4/mysql-server_8.4.6-0ubuntu0.25.04.2_amd64.deb",
+	"size": 1609854,
+	"md5": "f526eecd760e432c1f4d7596ab1b1b3f",
+	"sha1": "050d110b2ced514ad1a460859e29a14ef5913014",
+	"sha256": "7eb0ade77e1e3978bf4e567c4ebbf39c34efe4b2fbd1af41d6d91bdebd9e1b4b",
+	"sha512": "b73b2cf763143d24635a1e92b1d021ca3bba588969f1663b2fc1622b7b9496994b850bf2c59dd45bac3a7aca7b0cbf6d987ab9a77d791c35f839f38ad71de9d8",
 	"descriptionMd5": "8075d90d0db0fb75d81a94724beb1331"
 }

@@ -5,6 +5,45 @@
 		"Size"
 	],
 	"package": "g++-12-arm-linux-gnueabi",
+	"source": "gcc-12-cross (19ubuntu2.1)",
+	"version": "12.4.0-2ubuntu1~24.04cross1",
+	"section": "universe/devel",
+	"priority": "optional",
+	"architecture": "amd64",
+	"depends": [
+		"gcc-12-arm-linux-gnueabi-base (= 12.4.0-2ubuntu1~24.04cross1)",
+		"gcc-12-arm-linux-gnueabi (= 12.4.0-2ubuntu1~24.04cross1)",
+		"libstdc++-12-dev-armel-cross (>= 12)",
+		"libc6 (>= 2.38)",
+		"libgmp10 (>= 2:6.3.0+dfsg)",
+		"libisl23 (>= 0.15)",
+		"libmpc3 (>= 1.1.0)",
+		"libmpfr6 (>= 3.1.3)",
+		"libzstd1 (>= 1.5.5)",
+		"zlib1g (>= 1:1.1.4)"
+	],
+	"suggests": [
+		"gcc-12-doc (>= 12)"
+	],
+	"installedSize": 30244,
+	"maintainer": "Ubuntu Core developers <ubuntu-devel-discuss@lists.ubuntu.com>",
+	"description": "GNU C++ compiler (cross compiler for armel architecture)",
+	"homepage": "http://gcc.gnu.org/",
+	"builtUsing": "gcc-12 (= 12.4.0-2ubuntu1~24.04)",
+	"filename": "pool/universe/g/gcc-12-cross/g++-12-arm-linux-gnueabi_12.4.0-2ubuntu1~24.04cross1_amd64.deb",
+	"size": 10794472,
+	"md5": "04fb9cee6fe74e2f4ecd43d13c917839",
+	"sha1": "193f71bcf42b7a74c79afe31a504907d4b836fdd",
+	"sha256": "0e8c359de0470247b3a4fbdae43889b08fe04a8a360c087338581f66eeeea435",
+	"sha512": "8a561e1f769a0872e7dd0d4078d2cee89536872c969a34ecff6ead3706228c2517c2ca8377a8e7b4ed605ede07150fd961008453913d4d8ee0414045ae1779d6",
+	"descriptionMd5": "5046662fa8830ee3b7e41bd1fb621aa8"
+},{
+	"raw": {},
+	"required": [
+		"Filename",
+		"Size"
+	],
+	"package": "g++-12-arm-linux-gnueabi",
 	"source": "gcc-12-cross (19ubuntu2)",
 	"version": "12.3.0-17ubuntu1cross1",
 	"section": "universe/devel",

@@ -5,6 +5,60 @@
 		"Size"
 	],
 	"package": "gcc-12-mips64el-linux-gnuabi64",
+	"source": "gcc-12-cross-mipsen (4+c1build1.3)",
+	"version": "12.4.0-2ubuntu1~24.04cross8",
+	"section": "universe/devel",
+	"priority": "optional",
+	"architecture": "amd64",
+	"depends": [
+		"cpp-12-mips64el-linux-gnuabi64 (= 12.4.0-2ubuntu1~24.04cross8)",
+		"gcc-12-mips64el-linux-gnuabi64-base (= 12.4.0-2ubuntu1~24.04cross8)",
+		"libcc1-0 (>= 12)",
+		"binutils-mips64el-linux-gnuabi64 (>= 2.42)",
+		"libgcc-12-dev-mips64el-cross (>= 12.4.0-2ubuntu1~24.04cross8)",
+		"libc6 (>= 2.38)",
+		"libgcc-s1 (>= 3.0)",
+		"libgmp10 (>= 2:6.3.0+dfsg)",
+		"libisl23 (>= 0.15)",
+		"libmpc3 (>= 1.1.0)",
+		"libmpfr6 (>= 3.1.3)",
+		"libstdc++6 (>= 5)",
+		"libzstd1 (>= 1.5.5)",
+		"zlib1g (>= 1:1.1.4)"
+	],
+	"recommends": [
+		"libc6-dev-mips64el-cross (>= 2.13-0ubuntu6)"
+	],
+	"suggests": [
+		"gcc-12-multilib-mips64el-linux-gnuabi64",
+		"gcc-12-doc (>= 12)",
+		"gcc-12-locales (>= 12)"
+	],
+	"replaces": [
+		"cpp-12-mips64el-linux-gnuabi64 (<< 7.1.1-8)"
+	],
+	"conflicts": [
+		"gcc-multilib"
+	],
+	"installedSize": 50249,
+	"maintainer": "Ubuntu Core developers <ubuntu-devel-discuss@lists.ubuntu.com>",
+	"description": "GNU C compiler (cross compiler for mips64el architecture)",
+	"homepage": "http://gcc.gnu.org/",
+	"builtUsing": "gcc-12 (= 12.4.0-2ubuntu1~24.04)",
+	"filename": "pool/universe/g/gcc-12-cross-mipsen/gcc-12-mips64el-linux-gnuabi64_12.4.0-2ubuntu1~24.04cross8_amd64.deb",
+	"size": 17656602,
+	"md5": "599d051e18ccaae53c53185d04510bc3",
+	"sha1": "057c31d1a531ca889e1cf905bdec63dc1387b669",
+	"sha256": "470bedc516e60a0f9593be39faef2d78b1d7bb16b0c21364e668c94161cd085b",
+	"sha512": "070acbf3791bee4c2a596d21154bcf816ca7ce4c2358c05cef4df5a737c57f8f0f3cf9778adacfb8e36cdbf96424c5218d2edffc2c5ce4e59a1e07ac5b4a6c7e",
+	"descriptionMd5": "cca731d17203fa2912fe9c3749d8d7c3"
+},{
+	"raw": {},
+	"required": [
+		"Filename",
+		"Size"
+	],
+	"package": "gcc-12-mips64el-linux-gnuabi64",
 	"source": "gcc-12-cross-mipsen (4+c1build1)",
 	"version": "12.3.0-17ubuntu1cross3",
 	"section": "universe/devel",

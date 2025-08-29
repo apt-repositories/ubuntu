@@ -57,6 +57,57 @@
 	],
 	"package": "mysql-server-core",
 	"source": "mysql-8.4",
+	"version": "8.4.6-0ubuntu0.25.04.2",
+	"section": "database",
+	"priority": "optional",
+	"architecture": "amd64",
+	"depends": [
+		"libaio1t64 (>= 0.3.93)",
+		"libc6 (>= 2.38)",
+		"libgcc-s1 (>= 4.2)",
+		"libicu76 (>= 76.1-1~)",
+		"liblz4-1 (>= 0.0~r130)",
+		"libmecab2 (>= 0.996)",
+		"libnuma1 (>= 2.0.11)",
+		"libprotobuf-lite32t64 (>= 3.21.12)",
+		"libssl3t64 (>= 3.0.0)",
+		"libstdc++6 (>= 14)",
+		"libtirpc3t64 (>= 1.0.2)",
+		"libzstd1 (>= 1.5.5)",
+		"zlib1g (>= 1:1.2.11)"
+	],
+	"replaces": [
+		"mysql-server-core-8.0 (<< 8.4)"
+	],
+	"breaks": [
+		"mysql-server-core-8.0 (<< 8.4)"
+	],
+	"conflicts": [
+		"mariadb-server",
+		"mariadb-server-10.5",
+		"mariadb-server-core",
+		"mysql-server-8.0",
+		"virtual-mysql-server-core"
+	],
+	"installedSize": 125363,
+	"maintainer": "Ubuntu Developers <ubuntu-devel-discuss@lists.ubuntu.com>",
+	"description": "MySQL database server binaries",
+	"homepage": "http://dev.mysql.com/",
+	"filename": "pool/main/m/mysql-8.4/mysql-server-core_8.4.6-0ubuntu0.25.04.2_amd64.deb",
+	"size": 19514486,
+	"md5": "e86024411db1e1d75abcc0a050dfca9a",
+	"sha1": "7d0398c35f7617473f070ee21babcce743570937",
+	"sha256": "324463540ac6463bb653f9ad70edbe8cdcf4e7a7b924720b0b6ba85469eee116",
+	"sha512": "65bd5a8258ab62bbce2eaaba8d28b67968342cd3e8b38029f09f3cd394678772ea10a07f51fbbf02d835692d887881fc5c7ec8ad6b93b49689f52d3211c17342",
+	"descriptionMd5": "a54aa75db64667c487b6c9d3800b8153"
+},{
+	"raw": {},
+	"required": [
+		"Filename",
+		"Size"
+	],
+	"package": "mysql-server-core",
+	"source": "mysql-8.4",
 	"version": "8.4.4-0ubuntu2",
 	"section": "database",
 	"priority": "optional",

@@ -5,6 +5,47 @@
 		"Size"
 	],
 	"package": "libgcc-11-dev-powerpc-cross",
+	"source": "gcc-11-cross (21ubuntu3.2)",
+	"version": "11.5.0-1ubuntu1~24.04cross1",
+	"section": "universe/libdevel",
+	"priority": "optional",
+	"architecture": "all",
+	"depends": [
+		"gcc-11-cross-base (>= 11.5.0-1ubuntu1~24.04)",
+		"libgcc-s1-powerpc-cross (>= 11.5.0-1ubuntu1~24.04cross1)",
+		"libgomp1-powerpc-cross (>= 11.5.0-1ubuntu1~24.04cross1)",
+		"libatomic1-powerpc-cross (>= 11.5.0-1ubuntu1~24.04cross1)",
+		"libasan6-powerpc-cross (>= 11.5.0-1ubuntu1~24.04cross1)",
+		"libubsan1-powerpc-cross (>= 11.5.0-1ubuntu1~24.04cross1)"
+	],
+	"recommends": [
+		"libc6-dev-powerpc-cross (>= 2.13-0ubuntu6)"
+	],
+	"replaces": [
+		"libtsan0-powerpc-cross (<< 11.2.0-11)"
+	],
+	"breaks": [
+		"libtsan0-powerpc-cross (<< 11.2.0-11)"
+	],
+	"installedSize": 4976,
+	"maintainer": "Ubuntu Core developers <ubuntu-devel-discuss@lists.ubuntu.com>",
+	"description": "GCC support library (development files)",
+	"homepage": "http://gcc.gnu.org/",
+	"builtUsing": "gcc-11 (= 11.5.0-1ubuntu1~24.04)",
+	"filename": "pool/universe/g/gcc-11-cross/libgcc-11-dev-powerpc-cross_11.5.0-1ubuntu1~24.04cross1_all.deb",
+	"size": 891336,
+	"md5": "a7166a4b5fd507aad4f1be2746f093d3",
+	"sha1": "754f4be3280242c05f64a28fafb65d4d8a404605",
+	"sha256": "38abc30a0200046c4ade38287a885919e3ecb7d11a6194ff82f9bd5384eb0c7e",
+	"sha512": "1b7d67e96be3d0aebdcc785a068984cd5d55252be67554bae5d409eae41f2ced785a650885245af24348d59f93677f45c781d9b36818b42d81992965a4d90465",
+	"descriptionMd5": "4ab7cb439b47e1d0796fbaf8447229ac"
+},{
+	"raw": {},
+	"required": [
+		"Filename",
+		"Size"
+	],
+	"package": "libgcc-11-dev-powerpc-cross",
 	"source": "gcc-11-cross (21ubuntu2)",
 	"version": "11.4.0-9ubuntu1cross1",
 	"section": "universe/libdevel",

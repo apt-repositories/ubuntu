@@ -5,6 +5,59 @@
 		"Size"
 	],
 	"package": "gcc-12-arm-linux-gnueabi",
+	"source": "gcc-12-cross (19ubuntu2.1)",
+	"version": "12.4.0-2ubuntu1~24.04cross1",
+	"section": "universe/devel",
+	"priority": "optional",
+	"architecture": "amd64",
+	"depends": [
+		"cpp-12-arm-linux-gnueabi (= 12.4.0-2ubuntu1~24.04cross1)",
+		"gcc-12-arm-linux-gnueabi-base (= 12.4.0-2ubuntu1~24.04cross1)",
+		"libcc1-0 (>= 12)",
+		"binutils-arm-linux-gnueabi (>= 2.42)",
+		"libgcc-12-dev-armel-cross (>= 12.4.0-2ubuntu1~24.04cross1)",
+		"libc6 (>= 2.38)",
+		"libgcc-s1 (>= 3.0)",
+		"libgmp10 (>= 2:6.3.0+dfsg)",
+		"libisl23 (>= 0.15)",
+		"libmpc3 (>= 1.1.0)",
+		"libmpfr6 (>= 3.1.3)",
+		"libstdc++6 (>= 5)",
+		"libzstd1 (>= 1.5.5)",
+		"zlib1g (>= 1:1.1.4)"
+	],
+	"recommends": [
+		"libc6-dev-armel-cross (>= 2.13-0ubuntu6)"
+	],
+	"suggests": [
+		"gcc-12-doc (>= 12)",
+		"gcc-12-locales (>= 12)"
+	],
+	"replaces": [
+		"cpp-12-arm-linux-gnueabi (<< 7.1.1-8)"
+	],
+	"conflicts": [
+		"gcc-multilib"
+	],
+	"installedSize": 55991,
+	"maintainer": "Ubuntu Core developers <ubuntu-devel-discuss@lists.ubuntu.com>",
+	"description": "GNU C compiler (cross compiler for armel architecture)",
+	"homepage": "http://gcc.gnu.org/",
+	"builtUsing": "gcc-12 (= 12.4.0-2ubuntu1~24.04)",
+	"filename": "pool/universe/g/gcc-12-cross/gcc-12-arm-linux-gnueabi_12.4.0-2ubuntu1~24.04cross1_amd64.deb",
+	"size": 18792400,
+	"md5": "db6aa23ee64bd350b31238f0e5c3b86b",
+	"sha1": "c292ab772f65ec4e69d9769eb82d1d59151b27d1",
+	"sha256": "a8452dee6c870046f87f12460624a6d72238552aa0e29cfeed7f3a6b2340086c",
+	"sha512": "fe484f4db387e22aa9acef3b33421c086d7690e58c3bef623bbc3a5f903ef4d25c778780266da3de57b076173df611650eecba5b07ace1db7a193a474eead60f",
+	"descriptionMd5": "6d4f736a5f9df9e4e9a88a6f23fb803f"
+},{
+	"raw": {},
+	"required": [
+		"Filename",
+		"Size"
+	],
+	"package": "gcc-12-arm-linux-gnueabi",
 	"source": "gcc-12-cross (19ubuntu2)",
 	"version": "12.3.0-17ubuntu1cross1",
 	"section": "universe/devel",
