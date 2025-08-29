@@ -5,6 +5,61 @@
 		"Size"
 	],
 	"package": "libstdc++6-12-dbg-riscv64-cross",
+	"source": "gcc-12-cross-ports (17ubuntu2.1)",
+	"version": "12.4.0-2ubuntu1~24.04cross1",
+	"section": "universe/debug",
+	"priority": "optional",
+	"architecture": "all",
+	"depends": [
+		"gcc-12-cross-base-ports (= 12.4.0-2ubuntu1~24.04cross1)",
+		"libstdc++6-riscv64-cross (>= 12.4.0-2ubuntu1~24.04cross1)",
+		"libc6-riscv64-cross (>= 2.39)",
+		"libgcc-s1-riscv64-cross"
+	],
+	"recommends": [
+		"libstdc++-12-dev-riscv64-cross (= 12.4.0-2ubuntu1~24.04cross1)"
+	],
+	"conflicts": [
+		"libstdc++5-3.3-dbg-riscv64-cross",
+		"libstdc++5-dbg-riscv64-cross",
+		"libstdc++6-10-dbg-riscv64-cross",
+		"libstdc++6-11-dbg-riscv64-cross",
+		"libstdc++6-4.0-dbg-riscv64-cross",
+		"libstdc++6-4.1-dbg-riscv64-cross",
+		"libstdc++6-4.2-dbg-riscv64-cross",
+		"libstdc++6-4.3-dbg-riscv64-cross",
+		"libstdc++6-4.4-dbg-riscv64-cross",
+		"libstdc++6-4.5-dbg-riscv64-cross",
+		"libstdc++6-4.6-dbg-riscv64-cross",
+		"libstdc++6-4.7-dbg-riscv64-cross",
+		"libstdc++6-4.8-dbg-riscv64-cross",
+		"libstdc++6-4.9-dbg-riscv64-cross",
+		"libstdc++6-5-dbg-riscv64-cross",
+		"libstdc++6-6-dbg-riscv64-cross",
+		"libstdc++6-7-dbg-riscv64-cross",
+		"libstdc++6-8-dbg-riscv64-cross",
+		"libstdc++6-9-dbg-riscv64-cross",
+		"libstdc++6-dbg-riscv64-cross"
+	],
+	"installedSize": 110116,
+	"maintainer": "Ubuntu Core developers <ubuntu-devel-discuss@lists.ubuntu.com>",
+	"description": "GNU Standard C++ Library v3 (debug build) (riscv64)",
+	"homepage": "http://gcc.gnu.org/",
+	"builtUsing": "gcc-12 (= 12.4.0-2ubuntu1~24.04)",
+	"filename": "pool/universe/g/gcc-12-cross-ports/libstdc++6-12-dbg-riscv64-cross_12.4.0-2ubuntu1~24.04cross1_all.deb",
+	"size": 14022254,
+	"md5": "a3a9030324e9eb3a432e88fad84b4fc6",
+	"sha1": "4fbbe90ddd16f3591eec9637ecd1c662166bd895",
+	"sha256": "88edaafac3a9f163f457850029f94b1f9c4126c318b04b7b20fb30b010a9421a",
+	"sha512": "fedd4c0d4baf8b1b0a22629849b95f0a4c147f16fbd0badc09b243745e4a00f80dd1727ee80232b5311b35f35d4c34439dce8a8f191200363700750fdd6fa625",
+	"descriptionMd5": "e2f83ed8d7e07f16cdfe19927301bd90"
+},{
+	"raw": {},
+	"required": [
+		"Filename",
+		"Size"
+	],
+	"package": "libstdc++6-12-dbg-riscv64-cross",
 	"source": "gcc-12-cross-ports (17ubuntu2)",
 	"version": "12.3.0-17ubuntu1cross1",
 	"section": "universe/debug",

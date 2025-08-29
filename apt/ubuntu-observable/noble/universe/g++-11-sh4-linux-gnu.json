@@ -5,6 +5,45 @@
 		"Size"
 	],
 	"package": "g++-11-sh4-linux-gnu",
+	"source": "gcc-11-cross-ports (18ubuntu2.1)",
+	"version": "11.5.0-1ubuntu1~24.04cross1",
+	"section": "universe/devel",
+	"priority": "optional",
+	"architecture": "amd64",
+	"depends": [
+		"gcc-11-sh4-linux-gnu-base (= 11.5.0-1ubuntu1~24.04cross1)",
+		"gcc-11-sh4-linux-gnu (= 11.5.0-1ubuntu1~24.04cross1)",
+		"libstdc++-11-dev-sh4-cross (>= 11)",
+		"libc6 (>= 2.38)",
+		"libgmp10 (>= 2:6.3.0+dfsg)",
+		"libisl23 (>= 0.15)",
+		"libmpc3 (>= 1.1.0)",
+		"libmpfr6 (>= 3.1.3)",
+		"libzstd1 (>= 1.5.5)",
+		"zlib1g (>= 1:1.1.4)"
+	],
+	"suggests": [
+		"gcc-11-doc (>= 11)"
+	],
+	"installedSize": 24259,
+	"maintainer": "Ubuntu Core developers <ubuntu-devel-discuss@lists.ubuntu.com>",
+	"description": "GNU C++ compiler (cross compiler for sh4 architecture)",
+	"homepage": "http://gcc.gnu.org/",
+	"builtUsing": "gcc-11 (= 11.5.0-1ubuntu1~24.04)",
+	"filename": "pool/universe/g/gcc-11-cross-ports/g++-11-sh4-linux-gnu_11.5.0-1ubuntu1~24.04cross1_amd64.deb",
+	"size": 9109354,
+	"md5": "e79bb8a1a5d343d0e1417dbf2c64d92e",
+	"sha1": "8efdce8127b48eb1de711f7ca41c4b0a61df1c69",
+	"sha256": "315923386af36605fc2f36a202ee7fb054b8da5b3bf1b53e3ab2178646cdaf6b",
+	"sha512": "911e40592b08df3f785bf9ff4985e541a5e82243c37041bfd9b4408a6a12d098abc31bb360f582265b6b3ff02792adf9d09431b6345097e06c360fbcb2e1b773",
+	"descriptionMd5": "0f5474e825fb350a71fabbb1c3dfc2cc"
+},{
+	"raw": {},
+	"required": [
+		"Filename",
+		"Size"
+	],
+	"package": "g++-11-sh4-linux-gnu",
 	"source": "gcc-11-cross-ports (18ubuntu2)",
 	"version": "11.4.0-9ubuntu1cross1",
 	"section": "universe/devel",

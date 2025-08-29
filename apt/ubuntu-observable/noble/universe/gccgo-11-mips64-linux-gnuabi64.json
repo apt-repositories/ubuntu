@@ -5,6 +5,49 @@
 		"Size"
 	],
 	"package": "gccgo-11-mips64-linux-gnuabi64",
+	"source": "gcc-11-cross-mipsen (6+c1+nmu1ubuntu1.1)",
+	"version": "11.5.0-1ubuntu1~24.04cross1",
+	"section": "universe/devel",
+	"priority": "optional",
+	"architecture": "amd64",
+	"depends": [
+		"gcc-11-mips64-linux-gnuabi64-base (= 11.5.0-1ubuntu1~24.04cross1)",
+		"gcc-11-mips64-linux-gnuabi64 (= 11.5.0-1ubuntu1~24.04cross1)",
+		"libgo-11-dev-mips64-cross (>= 11)",
+		"libc6-dev-mips64-cross (>= 2.13-0ubuntu6)",
+		"libc6 (>= 2.38)",
+		"libgmp10 (>= 2:6.3.0+dfsg)",
+		"libisl23 (>= 0.15)",
+		"libmpc3 (>= 1.1.0)",
+		"libmpfr6 (>= 3.1.3)",
+		"libzstd1 (>= 1.5.5)",
+		"zlib1g (>= 1:1.1.4)"
+	],
+	"suggests": [
+		"gccgo-11-doc"
+	],
+	"conflicts": [
+		"golang-go (<< 2:1.3.3-1ubuntu2)"
+	],
+	"installedSize": 24159,
+	"maintainer": "Ubuntu Core developers <ubuntu-devel-discuss@lists.ubuntu.com>",
+	"description": "GNU Go compiler",
+	"homepage": "http://gcc.gnu.org/",
+	"builtUsing": "gcc-11 (= 11.5.0-1ubuntu1~24.04)",
+	"filename": "pool/universe/g/gcc-11-cross-mipsen/gccgo-11-mips64-linux-gnuabi64_11.5.0-1ubuntu1~24.04cross1_amd64.deb",
+	"size": 8615164,
+	"md5": "a3c2f0bb54c55190706565dc9724cf69",
+	"sha1": "e8d33896900cad0c266309f467fd347eba3a20d9",
+	"sha256": "fcdb34558f42bf60a8efa8da179573bd9146a54dea2d45fd66944cf15958fb1f",
+	"sha512": "54285e596d333fa0f15da30d17b19ebb65fb6a15816702895049280dd62eaf9e26d6e11b523a7c937db436c64b4cf153f3e9489c054558a3d1f838977fbcf22b",
+	"descriptionMd5": "58c2a4ce4d3fe6815f7a6ee86b4db16d"
+},{
+	"raw": {},
+	"required": [
+		"Filename",
+		"Size"
+	],
+	"package": "gccgo-11-mips64-linux-gnuabi64",
 	"source": "gcc-11-cross-mipsen (6+c1+nmu1ubuntu1)",
 	"version": "11.4.0-9ubuntu1cross1",
 	"section": "universe/devel",

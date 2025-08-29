@@ -5,6 +5,45 @@
 		"Size"
 	],
 	"package": "libgcc-11-dev-mipsel-cross",
+	"source": "gcc-11-cross-mipsen (6+c1+nmu1ubuntu1.1)",
+	"version": "11.5.0-1ubuntu1~24.04cross1",
+	"section": "universe/libdevel",
+	"priority": "optional",
+	"architecture": "all",
+	"depends": [
+		"gcc-11-cross-base-mipsen (= 11.5.0-1ubuntu1~24.04cross1)",
+		"libgcc-s1-mipsel-cross (>= 11.5.0-1ubuntu1~24.04cross1)",
+		"libgomp1-mipsel-cross (>= 11.5.0-1ubuntu1~24.04cross1)",
+		"libatomic1-mipsel-cross (>= 11.5.0-1ubuntu1~24.04cross1)"
+	],
+	"recommends": [
+		"libc6-dev-mipsel-cross (>= 2.13-0ubuntu6)"
+	],
+	"replaces": [
+		"libtsan0-mipsel-cross (<< 11.2.0-11)"
+	],
+	"breaks": [
+		"libtsan0-mipsel-cross (<< 11.2.0-11)"
+	],
+	"installedSize": 2737,
+	"maintainer": "Ubuntu Core developers <ubuntu-devel-discuss@lists.ubuntu.com>",
+	"description": "GCC support library (development files)",
+	"homepage": "http://gcc.gnu.org/",
+	"builtUsing": "gcc-11 (= 11.5.0-1ubuntu1~24.04)",
+	"filename": "pool/universe/g/gcc-11-cross-mipsen/libgcc-11-dev-mipsel-cross_11.5.0-1ubuntu1~24.04cross1_all.deb",
+	"size": 300530,
+	"md5": "9e96dcec49e41c7e9ca23ce20bc2408d",
+	"sha1": "f1c0f9e6f8208919f836f542dd9a1d2e0a1f26d0",
+	"sha256": "800777a97456e0b288722ad4fe2b25d007a75f39fc66a3f5120c402e7acf8e78",
+	"sha512": "d65868a91e9806b6a0e57a4a3fcf3c9bf2ba7c35cd72409bd987d976d089c180935427e7f088b5bfcd71a193235a857b250da7e0ea7e248c332649a2282c3cd5",
+	"descriptionMd5": "4ab7cb439b47e1d0796fbaf8447229ac"
+},{
+	"raw": {},
+	"required": [
+		"Filename",
+		"Size"
+	],
+	"package": "libgcc-11-dev-mipsel-cross",
 	"source": "gcc-11-cross-mipsen (6+c1+nmu1ubuntu1)",
 	"version": "11.4.0-9ubuntu1cross1",
 	"section": "universe/libdevel",

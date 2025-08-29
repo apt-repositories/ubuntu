@@ -5,6 +5,49 @@
 		"Size"
 	],
 	"package": "gccgo-12-sparc64-linux-gnu",
+	"source": "gcc-12-cross-ports (17ubuntu2.1)",
+	"version": "12.4.0-2ubuntu1~24.04cross1",
+	"section": "universe/devel",
+	"priority": "optional",
+	"architecture": "amd64",
+	"depends": [
+		"gcc-12-sparc64-linux-gnu-base (= 12.4.0-2ubuntu1~24.04cross1)",
+		"gcc-12-sparc64-linux-gnu (= 12.4.0-2ubuntu1~24.04cross1)",
+		"libgo-12-dev-sparc64-cross (>= 12)",
+		"libc6-dev-sparc64-cross (>= 2.13-0ubuntu6)",
+		"libc6 (>= 2.38)",
+		"libgmp10 (>= 2:6.3.0+dfsg)",
+		"libisl23 (>= 0.15)",
+		"libmpc3 (>= 1.1.0)",
+		"libmpfr6 (>= 3.1.3)",
+		"libzstd1 (>= 1.5.5)",
+		"zlib1g (>= 1:1.1.4)"
+	],
+	"suggests": [
+		"gccgo-12-doc"
+	],
+	"conflicts": [
+		"golang-go (<< 2:1.3.3-1ubuntu2)"
+	],
+	"installedSize": 24166,
+	"maintainer": "Ubuntu Core developers <ubuntu-devel-discuss@lists.ubuntu.com>",
+	"description": "GNU Go compiler",
+	"homepage": "http://gcc.gnu.org/",
+	"builtUsing": "gcc-12 (= 12.4.0-2ubuntu1~24.04)",
+	"filename": "pool/universe/g/gcc-12-cross-ports/gccgo-12-sparc64-linux-gnu_12.4.0-2ubuntu1~24.04cross1_amd64.deb",
+	"size": 8714750,
+	"md5": "e87a6890b96aaf3d80ec3dc6304f3622",
+	"sha1": "67dc1f874c1f1eb2a07317f1def9b3cfc35981f1",
+	"sha256": "4701949dadfc84030a43825e079c5bed2fe05790eb385f8b17a46e79f00a43ec",
+	"sha512": "3a1e8c2667bb764730d67e0e5821543e8e1a4066af6d1eefadde66bae92e24fe9b2b15f75c26c32fbbc80f85b24440ee61f2a55b2fec79ed848189f096235af2",
+	"descriptionMd5": "58c2a4ce4d3fe6815f7a6ee86b4db16d"
+},{
+	"raw": {},
+	"required": [
+		"Filename",
+		"Size"
+	],
+	"package": "gccgo-12-sparc64-linux-gnu",
 	"source": "gcc-12-cross-ports (17ubuntu2)",
 	"version": "12.3.0-17ubuntu1cross1",
 	"section": "universe/devel",

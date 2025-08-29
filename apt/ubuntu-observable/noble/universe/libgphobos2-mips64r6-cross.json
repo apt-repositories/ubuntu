@@ -5,6 +5,41 @@
 		"Size"
 	],
 	"package": "libgphobos2-mips64r6-cross",
+	"source": "gcc-11-cross-mipsen (6+c1+nmu1ubuntu1.1)",
+	"version": "11.5.0-1ubuntu1~24.04cross1",
+	"section": "universe/devel",
+	"priority": "optional",
+	"architecture": "all",
+	"depends": [
+		"gcc-11-cross-base-mipsen (= 11.5.0-1ubuntu1~24.04cross1)",
+		"libc6-mips64r6-cross (>= 2.39)",
+		"libgcc-s1-mips64r6-cross"
+	],
+	"replaces": [
+		"libgphobos68-mips64r6-cross"
+	],
+	"breaks": [
+		"dub (<< 1.16.0-1~)"
+	],
+	"installedSize": 12142,
+	"maintainer": "Ubuntu Core developers <ubuntu-devel-discuss@lists.ubuntu.com>",
+	"description": "Phobos D standard library (runtime library)",
+	"homepage": "http://gcc.gnu.org/",
+	"builtUsing": "gcc-11 (= 11.5.0-1ubuntu1~24.04)",
+	"filename": "pool/universe/g/gcc-11-cross-mipsen/libgphobos2-mips64r6-cross_11.5.0-1ubuntu1~24.04cross1_all.deb",
+	"size": 1656708,
+	"md5": "00c62d22d7856fa3f83188c42e9cd1de",
+	"sha1": "b16e846649f12e5c140ac613029db4ae74fd65b8",
+	"sha256": "1e96df57fd978523a607706697625181f44dda43b54bf0b832b0c6aa90085f7e",
+	"sha512": "b3949b2a7afb4ddd75bced705e7ca448930f1b44c327cdbfef7a0f6bfba51e3d42ffbdb7a5665615299e8664cd60f930cce11c07e2db929223b91929369e42a8",
+	"descriptionMd5": "2086a0c7f5831c82fec492e812bdd6c1"
+},{
+	"raw": {},
+	"required": [
+		"Filename",
+		"Size"
+	],
+	"package": "libgphobos2-mips64r6-cross",
 	"source": "gcc-11-cross-mipsen (6+c1+nmu1ubuntu1)",
 	"version": "11.4.0-9ubuntu1cross1",
 	"section": "universe/devel",

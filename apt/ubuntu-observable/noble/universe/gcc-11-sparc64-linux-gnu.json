@@ -5,6 +5,60 @@
 		"Size"
 	],
 	"package": "gcc-11-sparc64-linux-gnu",
+	"source": "gcc-11-cross-ports (18ubuntu2.1)",
+	"version": "11.5.0-1ubuntu1~24.04cross1",
+	"section": "universe/devel",
+	"priority": "optional",
+	"architecture": "amd64",
+	"depends": [
+		"cpp-11-sparc64-linux-gnu (= 11.5.0-1ubuntu1~24.04cross1)",
+		"gcc-11-sparc64-linux-gnu-base (= 11.5.0-1ubuntu1~24.04cross1)",
+		"libcc1-0 (>= 11)",
+		"binutils-sparc64-linux-gnu (>= 2.42)",
+		"libgcc-11-dev-sparc64-cross (>= 11.5.0-1ubuntu1~24.04cross1)",
+		"libc6 (>= 2.38)",
+		"libgcc-s1 (>= 3.0)",
+		"libgmp10 (>= 2:6.3.0+dfsg)",
+		"libisl23 (>= 0.15)",
+		"libmpc3 (>= 1.1.0)",
+		"libmpfr6 (>= 3.1.3)",
+		"libstdc++6 (>= 5)",
+		"libzstd1 (>= 1.5.5)",
+		"zlib1g (>= 1:1.1.4)"
+	],
+	"recommends": [
+		"libc6-dev-sparc64-cross (>= 2.13-0ubuntu6)"
+	],
+	"suggests": [
+		"gcc-11-multilib-sparc64-linux-gnu",
+		"gcc-11-doc (>= 11)",
+		"gcc-11-locales (>= 11)"
+	],
+	"replaces": [
+		"cpp-11-sparc64-linux-gnu (<< 7.1.1-8)"
+	],
+	"conflicts": [
+		"gcc-multilib"
+	],
+	"installedSize": 43627,
+	"maintainer": "Ubuntu Core developers <ubuntu-devel-discuss@lists.ubuntu.com>",
+	"description": "GNU C compiler (cross compiler for sparc64 architecture)",
+	"homepage": "http://gcc.gnu.org/",
+	"builtUsing": "gcc-11 (= 11.5.0-1ubuntu1~24.04)",
+	"filename": "pool/universe/g/gcc-11-cross-ports/gcc-11-sparc64-linux-gnu_11.5.0-1ubuntu1~24.04cross1_amd64.deb",
+	"size": 15378586,
+	"md5": "34f1fc129a4b19adfc34570f5ff98afd",
+	"sha1": "b3cceb76a9685b99f33a3d7212be463b6ca44f22",
+	"sha256": "a085268f41ae87cc22f9a6f1d8e7fbff87474c257c65d49cd54ca2212fceaf2d",
+	"sha512": "f7cb18bb80809b7d0ec57a877cbb6d169ea6b07e973cf9fe1597a77989eee06833471793a4337eed9162c35db6568322da29d824ad5d17cb9c474e5509b211a2",
+	"descriptionMd5": "4c65ae04634ee085bae81d947ec77b16"
+},{
+	"raw": {},
+	"required": [
+		"Filename",
+		"Size"
+	],
+	"package": "gcc-11-sparc64-linux-gnu",
 	"source": "gcc-11-cross-ports (18ubuntu2)",
 	"version": "11.4.0-9ubuntu1cross1",
 	"section": "universe/devel",

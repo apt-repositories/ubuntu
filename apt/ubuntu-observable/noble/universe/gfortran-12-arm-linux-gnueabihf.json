@@ -5,6 +5,47 @@
 		"Size"
 	],
 	"package": "gfortran-12-arm-linux-gnueabihf",
+	"source": "gcc-12-cross (19ubuntu2.1)",
+	"version": "12.4.0-2ubuntu1~24.04cross1",
+	"section": "universe/devel",
+	"priority": "optional",
+	"architecture": "amd64",
+	"depends": [
+		"gcc-12-arm-linux-gnueabihf-base (= 12.4.0-2ubuntu1~24.04cross1)",
+		"gcc-12-arm-linux-gnueabihf (= 12.4.0-2ubuntu1~24.04cross1)",
+		"libgfortran-12-dev-armhf-cross (>= 12)",
+		"libc6-dev-armhf-cross (>= 2.13-0ubuntu6)",
+		"libc6 (>= 2.38)",
+		"libgmp10 (>= 2:6.3.0+dfsg)",
+		"libisl23 (>= 0.15)",
+		"libmpc3 (>= 1.1.0)",
+		"libmpfr6 (>= 3.1.3)",
+		"libzstd1 (>= 1.5.5)",
+		"zlib1g (>= 1:1.1.4)"
+	],
+	"suggests": [
+		"gfortran-12-doc",
+		"libcoarrays-dev"
+	],
+	"installedSize": 28457,
+	"maintainer": "Ubuntu Core developers <ubuntu-devel-discuss@lists.ubuntu.com>",
+	"description": "GNU Fortran compiler",
+	"homepage": "http://gcc.gnu.org/",
+	"builtUsing": "gcc-12 (= 12.4.0-2ubuntu1~24.04)",
+	"filename": "pool/universe/g/gcc-12-cross/gfortran-12-arm-linux-gnueabihf_12.4.0-2ubuntu1~24.04cross1_amd64.deb",
+	"size": 9943740,
+	"md5": "667ca5d022f5d8f92816e638e8302908",
+	"sha1": "93ae16a4e1b08a69046657e22547023cf18a8de9",
+	"sha256": "e09c2599b26d006910ee5602aebd2d14469ea38a1be17719069e13f5ffb1bfd3",
+	"sha512": "69cb77fd2eb71caa1062af3fc92359361fb25f9bef9d61d9168b845779ae08a942a67381c7edb8789c07e1892220b0bb7391f2ffd98e1a95f6edf766047245a7",
+	"descriptionMd5": "5dd93c5d21d0717205bc5a3b538b0ca2"
+},{
+	"raw": {},
+	"required": [
+		"Filename",
+		"Size"
+	],
+	"package": "gfortran-12-arm-linux-gnueabihf",
 	"source": "gcc-12-cross (19ubuntu2)",
 	"version": "12.3.0-17ubuntu1cross1",
 	"section": "universe/devel",

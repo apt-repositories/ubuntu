@@ -5,6 +5,51 @@
 		"Size"
 	],
 	"package": "libgcc-11-dev-arm64-cross",
+	"source": "gcc-11-cross (21ubuntu3.2)",
+	"version": "11.5.0-1ubuntu1~24.04cross1",
+	"section": "universe/libdevel",
+	"priority": "optional",
+	"architecture": "all",
+	"depends": [
+		"gcc-11-cross-base (>= 11.5.0-1ubuntu1~24.04)",
+		"libgcc-s1-arm64-cross (>= 11.5.0-1ubuntu1~24.04cross1)",
+		"libgomp1-arm64-cross (>= 11.5.0-1ubuntu1~24.04cross1)",
+		"libitm1-arm64-cross (>= 11.5.0-1ubuntu1~24.04cross1)",
+		"libatomic1-arm64-cross (>= 11.5.0-1ubuntu1~24.04cross1)",
+		"libasan6-arm64-cross (>= 11.5.0-1ubuntu1~24.04cross1)",
+		"liblsan0-arm64-cross (>= 11.5.0-1ubuntu1~24.04cross1)",
+		"libtsan0-arm64-cross (>= 11.5.0-1ubuntu1~24.04cross1)",
+		"libubsan1-arm64-cross (>= 11.5.0-1ubuntu1~24.04cross1)",
+		"libhwasan0-arm64-cross (>= 11.5.0-1ubuntu1~24.04cross1)"
+	],
+	"recommends": [
+		"libc6-dev-arm64-cross (>= 2.13-0ubuntu6)"
+	],
+	"replaces": [
+		"libtsan0-arm64-cross (<< 11.2.0-11)"
+	],
+	"breaks": [
+		"libtsan0-arm64-cross (<< 11.2.0-11)"
+	],
+	"installedSize": 11278,
+	"maintainer": "Ubuntu Core developers <ubuntu-devel-discuss@lists.ubuntu.com>",
+	"description": "GCC support library (development files)",
+	"homepage": "http://gcc.gnu.org/",
+	"builtUsing": "gcc-11 (= 11.5.0-1ubuntu1~24.04)",
+	"filename": "pool/universe/g/gcc-11-cross/libgcc-11-dev-arm64-cross_11.5.0-1ubuntu1~24.04cross1_all.deb",
+	"size": 1123742,
+	"md5": "7dbd07a68e1932e37a1b27e77beb3f69",
+	"sha1": "e0138d90f62ccc8b66fca79fef16bedc2de6df4b",
+	"sha256": "5f70b8fc320cbff300ff483e4c0984c536dbe0bab9d573cd93a0bb3a60ce5abc",
+	"sha512": "ee12760929d0695d18625d862968c6ca1906fbfe973c27936ffd75619920c9bda502d429df6dc06c59e43d7d65be9d0a90992a7d940dedad5cfbdd6ab3835dda",
+	"descriptionMd5": "4ab7cb439b47e1d0796fbaf8447229ac"
+},{
+	"raw": {},
+	"required": [
+		"Filename",
+		"Size"
+	],
+	"package": "libgcc-11-dev-arm64-cross",
 	"source": "gcc-11-cross (21ubuntu2)",
 	"version": "11.4.0-9ubuntu1cross1",
 	"section": "universe/libdevel",

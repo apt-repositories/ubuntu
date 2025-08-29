@@ -5,6 +5,48 @@
 		"Size"
 	],
 	"package": "gfortran-11-mipsisa64r6-linux-gnuabi64",
+	"source": "gcc-11-cross-mipsen (6+c1+nmu1ubuntu1.1)",
+	"version": "11.5.0-1ubuntu1~24.04cross1",
+	"section": "universe/devel",
+	"priority": "optional",
+	"architecture": "amd64",
+	"depends": [
+		"gcc-11-mipsisa64r6-linux-gnuabi64-base (= 11.5.0-1ubuntu1~24.04cross1)",
+		"gcc-11-mipsisa64r6-linux-gnuabi64 (= 11.5.0-1ubuntu1~24.04cross1)",
+		"libgfortran-11-dev-mips64r6-cross (>= 11)",
+		"libc6-dev-mips64r6-cross (>= 2.13-0ubuntu6)",
+		"libc6 (>= 2.38)",
+		"libgmp10 (>= 2:6.3.0+dfsg)",
+		"libisl23 (>= 0.15)",
+		"libmpc3 (>= 1.1.0)",
+		"libmpfr6 (>= 3.1.3)",
+		"libzstd1 (>= 1.5.5)",
+		"zlib1g (>= 1:1.1.4)"
+	],
+	"suggests": [
+		"gfortran-11-multilib-mipsisa64r6-linux-gnuabi64",
+		"gfortran-11-doc",
+		"libcoarrays-dev"
+	],
+	"installedSize": 23914,
+	"maintainer": "Ubuntu Core developers <ubuntu-devel-discuss@lists.ubuntu.com>",
+	"description": "GNU Fortran compiler",
+	"homepage": "http://gcc.gnu.org/",
+	"builtUsing": "gcc-11 (= 11.5.0-1ubuntu1~24.04)",
+	"filename": "pool/universe/g/gcc-11-cross-mipsen/gfortran-11-mipsisa64r6-linux-gnuabi64_11.5.0-1ubuntu1~24.04cross1_amd64.deb",
+	"size": 8754886,
+	"md5": "7f489e14754dd62046f816601f6cc0f9",
+	"sha1": "5393e6c297d2bebfec60de4add60ac78b42d99c0",
+	"sha256": "86db1102443e8274791b6e53a268c28a8eb1aea4eb4c010d972a62e140e37d4a",
+	"sha512": "cea80695f83e2e3d0e23d7b46a5184fb3f29a7f9821148a8e74ef3892fa7d5d9cc2b4a1cf350151a8f6bd4ec18f7f14f1491bfc95ea090164035df81749f6e2e",
+	"descriptionMd5": "5dd93c5d21d0717205bc5a3b538b0ca2"
+},{
+	"raw": {},
+	"required": [
+		"Filename",
+		"Size"
+	],
+	"package": "gfortran-11-mipsisa64r6-linux-gnuabi64",
 	"source": "gcc-11-cross-mipsen (6+c1+nmu1ubuntu1)",
 	"version": "11.4.0-9ubuntu1cross1",
 	"section": "universe/devel",

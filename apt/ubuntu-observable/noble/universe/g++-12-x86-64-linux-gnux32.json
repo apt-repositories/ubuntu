@@ -5,6 +5,46 @@
 		"Size"
 	],
 	"package": "g++-12-x86-64-linux-gnux32",
+	"source": "gcc-12-cross-ports (17ubuntu2.1)",
+	"version": "12.4.0-2ubuntu1~24.04cross1",
+	"section": "universe/devel",
+	"priority": "optional",
+	"architecture": "amd64",
+	"depends": [
+		"gcc-12-x86-64-linux-gnux32-base (= 12.4.0-2ubuntu1~24.04cross1)",
+		"gcc-12-x86-64-linux-gnux32 (= 12.4.0-2ubuntu1~24.04cross1)",
+		"libstdc++-12-dev-x32-cross (>= 12)",
+		"libc6 (>= 2.38)",
+		"libgmp10 (>= 2:6.3.0+dfsg)",
+		"libisl23 (>= 0.15)",
+		"libmpc3 (>= 1.1.0)",
+		"libmpfr6 (>= 3.1.3)",
+		"libzstd1 (>= 1.5.5)",
+		"zlib1g (>= 1:1.1.4)"
+	],
+	"suggests": [
+		"g++-12-multilib-x86-64-linux-gnux32",
+		"gcc-12-doc (>= 12)"
+	],
+	"installedSize": 37696,
+	"maintainer": "Ubuntu Core developers <ubuntu-devel-discuss@lists.ubuntu.com>",
+	"description": "GNU C++ compiler (cross compiler for x32 architecture)",
+	"homepage": "http://gcc.gnu.org/",
+	"builtUsing": "gcc-12 (= 12.4.0-2ubuntu1~24.04)",
+	"filename": "pool/universe/g/gcc-12-cross-ports/g++-12-x86-64-linux-gnux32_12.4.0-2ubuntu1~24.04cross1_amd64.deb",
+	"size": 12199186,
+	"md5": "32d2b28fbeac068d7eaa3dc632f98791",
+	"sha1": "5d034f1a79e436db19e87ccfc3f57edb0067c7f2",
+	"sha256": "18d05ef67a662b9f1e94279ab917152f986571c68da52fe85843962b1c230d3e",
+	"sha512": "67f57c259895d20511e016a93850c435796a4162906331220737f972bd52a5275c31f58817c851c92893004bc8dc523d2fabb5f7567584a0813db9ba0d3ed5ee",
+	"descriptionMd5": "056b1050ba2a52d3ec4a46a6f4ee9140"
+},{
+	"raw": {},
+	"required": [
+		"Filename",
+		"Size"
+	],
+	"package": "g++-12-x86-64-linux-gnux32",
 	"source": "gcc-12-cross-ports (17ubuntu2)",
 	"version": "12.3.0-17ubuntu1cross1",
 	"section": "universe/devel",

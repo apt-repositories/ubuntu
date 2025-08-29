@@ -5,6 +5,63 @@
 		"Size"
 	],
 	"package": "gnat-11-sparc64-linux-gnu",
+	"source": "gcc-11-cross-ports (18ubuntu2.1)",
+	"version": "11.5.0-1ubuntu1~24.04cross1",
+	"section": "universe/devel",
+	"priority": "optional",
+	"architecture": "amd64",
+	"depends": [
+		"gcc-11-sparc64-linux-gnu-base (= 11.5.0-1ubuntu1~24.04cross1)",
+		"gcc-11-sparc64-linux-gnu (>= 11)",
+		"libgnat-11-sparc64-cross (>= 11.5.0-1ubuntu1~24.04cross1)",
+		"libc6-dev-sparc64-cross (>= 2.13-0ubuntu6)",
+		"libc6 (>= 2.38)",
+		"libgmp10 (>= 2:6.3.0+dfsg)",
+		"libisl23 (>= 0.15)",
+		"libmpc3 (>= 1.1.0)",
+		"libmpfr6 (>= 3.1.3)",
+		"libzstd1 (>= 1.5.5)",
+		"zlib1g (>= 1:1.1.4)"
+	],
+	"suggests": [
+		"gnat-11-doc",
+		"ada-reference-manual-2012",
+		"gnat-11-sjlj"
+	],
+	"replaces": [
+		"gnat-4.9-base (= 4.9-20140330-1)"
+	],
+	"breaks": [
+		"gnat-4.9-base (= 4.9-20140330-1)"
+	],
+	"conflicts": [
+		"gnat-10-sparc64-linux-gnu",
+		"gnat-4.9",
+		"gnat-5-sparc64-linux-gnu",
+		"gnat-6-sparc64-linux-gnu",
+		"gnat-7-sparc64-linux-gnu",
+		"gnat-8-sparc64-linux-gnu",
+		"gnat-9-sparc64-linux-gnu"
+	],
+	"installedSize": 85328,
+	"maintainer": "Ubuntu Core developers <ubuntu-devel-discuss@lists.ubuntu.com>",
+	"description": "GNU Ada compiler",
+	"homepage": "http://gcc.gnu.org/",
+	"builtUsing": "gcc-11 (= 11.5.0-1ubuntu1~24.04)",
+	"filename": "pool/universe/g/gcc-11-cross-ports/gnat-11-sparc64-linux-gnu_11.5.0-1ubuntu1~24.04cross1_amd64.deb",
+	"size": 17424604,
+	"md5": "8760be3bd19acb04c70abe21439ba196",
+	"sha1": "9ab5d8ee361bf3bfac3ed9dc8e466835e558fb21",
+	"sha256": "94859401297c4a03ef94d09af4c8007e03ff0f63b0f3abda20d1dabf3c61e503",
+	"sha512": "3fefa700fb69c8ea304d8802409fa934267beb32167431640586609380eb382a6a6f449d53a0589f4fe1765c35734c0a202fcc7e0425c47a8bc9f5801ff7f236",
+	"descriptionMd5": "8cebde0cd6b861927a7a457cacc8851f"
+},{
+	"raw": {},
+	"required": [
+		"Filename",
+		"Size"
+	],
+	"package": "gnat-11-sparc64-linux-gnu",
 	"source": "gcc-11-cross-ports (18ubuntu2)",
 	"version": "11.4.0-9ubuntu1cross1",
 	"section": "universe/devel",

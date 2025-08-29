@@ -5,6 +5,46 @@
 		"Size"
 	],
 	"package": "g++-12-powerpc-linux-gnu",
+	"source": "gcc-12-cross (19ubuntu2.1)",
+	"version": "12.4.0-2ubuntu1~24.04cross1",
+	"section": "universe/devel",
+	"priority": "optional",
+	"architecture": "amd64",
+	"depends": [
+		"gcc-12-powerpc-linux-gnu-base (= 12.4.0-2ubuntu1~24.04cross1)",
+		"gcc-12-powerpc-linux-gnu (= 12.4.0-2ubuntu1~24.04cross1)",
+		"libstdc++-12-dev-powerpc-cross (>= 12)",
+		"libc6 (>= 2.38)",
+		"libgmp10 (>= 2:6.3.0+dfsg)",
+		"libisl23 (>= 0.15)",
+		"libmpc3 (>= 1.1.0)",
+		"libmpfr6 (>= 3.1.3)",
+		"libzstd1 (>= 1.5.5)",
+		"zlib1g (>= 1:1.1.4)"
+	],
+	"suggests": [
+		"g++-12-multilib-powerpc-linux-gnu",
+		"gcc-12-doc (>= 12)"
+	],
+	"installedSize": 30101,
+	"maintainer": "Ubuntu Core developers <ubuntu-devel-discuss@lists.ubuntu.com>",
+	"description": "GNU C++ compiler (cross compiler for powerpc architecture)",
+	"homepage": "http://gcc.gnu.org/",
+	"builtUsing": "gcc-12 (= 12.4.0-2ubuntu1~24.04)",
+	"filename": "pool/universe/g/gcc-12-cross/g++-12-powerpc-linux-gnu_12.4.0-2ubuntu1~24.04cross1_amd64.deb",
+	"size": 10706792,
+	"md5": "327e1811f85e3cf1e742a08a0a76855e",
+	"sha1": "1d4303b4a870de2f13cf63999d7919ae30f6c4a8",
+	"sha256": "12cf0d3fe512f65411113a25c3640ceb63859d220c00da497d11bda9e61d6e79",
+	"sha512": "15e86554f10bfdc98589e33752404613c344009cbe92f59297926ba84abec3e898cc1b8bdc7b5eb2a7fe6785498fbbf5b901be42ef1a80af6d434ba8685b9745",
+	"descriptionMd5": "b6993fa4a5bfc950233d89bb6922d796"
+},{
+	"raw": {},
+	"required": [
+		"Filename",
+		"Size"
+	],
+	"package": "g++-12-powerpc-linux-gnu",
 	"source": "gcc-12-cross (19ubuntu2)",
 	"version": "12.3.0-17ubuntu1cross1",
 	"section": "universe/devel",

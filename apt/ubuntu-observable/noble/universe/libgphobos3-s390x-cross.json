@@ -5,6 +5,41 @@
 		"Size"
 	],
 	"package": "libgphobos3-s390x-cross",
+	"source": "gcc-12-cross (19ubuntu2.1)",
+	"version": "12.4.0-2ubuntu1~24.04cross1",
+	"section": "universe/devel",
+	"priority": "optional",
+	"architecture": "all",
+	"depends": [
+		"gcc-12-cross-base (>= 12.4.0-2ubuntu1~24.04)",
+		"libc6-s390x-cross (>= 2.39)",
+		"libgcc-s1-s390x-cross"
+	],
+	"replaces": [
+		"libgphobos68-s390x-cross"
+	],
+	"breaks": [
+		"dub (<< 1.16.0-1~)"
+	],
+	"installedSize": 12956,
+	"maintainer": "Ubuntu Core developers <ubuntu-devel-discuss@lists.ubuntu.com>",
+	"description": "Phobos D standard library (runtime library)",
+	"homepage": "http://gcc.gnu.org/",
+	"builtUsing": "gcc-12 (= 12.4.0-2ubuntu1~24.04)",
+	"filename": "pool/universe/g/gcc-12-cross/libgphobos3-s390x-cross_12.4.0-2ubuntu1~24.04cross1_all.deb",
+	"size": 2016826,
+	"md5": "0eb2b59a1ca9d50c9c292c8965343939",
+	"sha1": "907dd84e180b8323eb524a88bbbb8412b14fc5c3",
+	"sha256": "646a7660dcb8f66e54c6da2857979543cc4a7ec119eee68a1562114888704bed",
+	"sha512": "0e290ec79e9b210c9bb7b47e086123e0c373a0080b4a2235a390506f6a0269bdde231e3c0608019563477ed9e4d0eabccc4b4f4a0ddc9a924d87c8a866216ec9",
+	"descriptionMd5": "2086a0c7f5831c82fec492e812bdd6c1"
+},{
+	"raw": {},
+	"required": [
+		"Filename",
+		"Size"
+	],
+	"package": "libgphobos3-s390x-cross",
 	"source": "gcc-12-cross (19ubuntu2)",
 	"version": "12.3.0-17ubuntu1cross1",
 	"section": "universe/devel",

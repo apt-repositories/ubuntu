@@ -5,6 +5,63 @@
 		"Size"
 	],
 	"package": "gnat-11-mipsisa64r6el-linux-gnuabi64",
+	"source": "gcc-11-cross-mipsen (6+c1+nmu1ubuntu1.1)",
+	"version": "11.5.0-1ubuntu1~24.04cross1",
+	"section": "universe/devel",
+	"priority": "optional",
+	"architecture": "amd64",
+	"depends": [
+		"gcc-11-mipsisa64r6el-linux-gnuabi64-base (= 11.5.0-1ubuntu1~24.04cross1)",
+		"gcc-11-mipsisa64r6el-linux-gnuabi64 (>= 11)",
+		"libgnat-11-mips64r6el-cross (>= 11.5.0-1ubuntu1~24.04cross1)",
+		"libc6-dev-mips64r6el-cross (>= 2.13-0ubuntu6)",
+		"libc6 (>= 2.38)",
+		"libgmp10 (>= 2:6.3.0+dfsg)",
+		"libisl23 (>= 0.15)",
+		"libmpc3 (>= 1.1.0)",
+		"libmpfr6 (>= 3.1.3)",
+		"libzstd1 (>= 1.5.5)",
+		"zlib1g (>= 1:1.1.4)"
+	],
+	"suggests": [
+		"gnat-11-doc",
+		"ada-reference-manual-2012",
+		"gnat-11-sjlj"
+	],
+	"replaces": [
+		"gnat-4.9-base (= 4.9-20140330-1)"
+	],
+	"breaks": [
+		"gnat-4.9-base (= 4.9-20140330-1)"
+	],
+	"conflicts": [
+		"gnat-10-mipsisa64r6el-linux-gnuabi64",
+		"gnat-4.9",
+		"gnat-5-mipsisa64r6el-linux-gnuabi64",
+		"gnat-6-mipsisa64r6el-linux-gnuabi64",
+		"gnat-7-mipsisa64r6el-linux-gnuabi64",
+		"gnat-8-mipsisa64r6el-linux-gnuabi64",
+		"gnat-9-mipsisa64r6el-linux-gnuabi64"
+	],
+	"installedSize": 95866,
+	"maintainer": "Ubuntu Core developers <ubuntu-devel-discuss@lists.ubuntu.com>",
+	"description": "GNU Ada compiler",
+	"homepage": "http://gcc.gnu.org/",
+	"builtUsing": "gcc-11 (= 11.5.0-1ubuntu1~24.04)",
+	"filename": "pool/universe/g/gcc-11-cross-mipsen/gnat-11-mipsisa64r6el-linux-gnuabi64_11.5.0-1ubuntu1~24.04cross1_amd64.deb",
+	"size": 19013616,
+	"md5": "9fde7e26fcc2b4f00a24db4b4a6863e9",
+	"sha1": "be2f483082cf39775c0b2aa037b04f4970e5c7c0",
+	"sha256": "873321594a67a8b38d3968c48786f8c5815da77ea63274c4a2f30b44803f587a",
+	"sha512": "128ac7e8718c9c2069904ea4d139c2402b969a2d2f2edf3011b8bd363c6445b11641591936d5908c3b99c099cf3f8893f0e5961aa932bada414a0158f54515ce",
+	"descriptionMd5": "8cebde0cd6b861927a7a457cacc8851f"
+},{
+	"raw": {},
+	"required": [
+		"Filename",
+		"Size"
+	],
+	"package": "gnat-11-mipsisa64r6el-linux-gnuabi64",
 	"source": "gcc-11-cross-mipsen (6+c1+nmu1ubuntu1)",
 	"version": "11.4.0-9ubuntu1cross1",
 	"section": "universe/devel",

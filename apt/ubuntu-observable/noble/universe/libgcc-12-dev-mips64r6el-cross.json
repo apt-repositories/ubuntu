@@ -5,6 +5,45 @@
 		"Size"
 	],
 	"package": "libgcc-12-dev-mips64r6el-cross",
+	"source": "gcc-12-cross-mipsen (4+c1build1.3)",
+	"version": "12.4.0-2ubuntu1~24.04cross8",
+	"section": "universe/libdevel",
+	"priority": "optional",
+	"architecture": "all",
+	"depends": [
+		"gcc-12-cross-base-mipsen (= 12.4.0-2ubuntu1~24.04cross8)",
+		"libgcc-s1-mips64r6el-cross (>= 12.4.0-2ubuntu1~24.04cross8)",
+		"libgomp1-mips64r6el-cross (>= 12.4.0-2ubuntu1~24.04cross8)",
+		"libatomic1-mips64r6el-cross (>= 12.4.0-2ubuntu1~24.04cross8)"
+	],
+	"recommends": [
+		"libc6-dev-mips64r6el-cross (>= 2.13-0ubuntu6)"
+	],
+	"replaces": [
+		"libtsan2-mips64r6el-cross (<< 12-20211113-2~)"
+	],
+	"breaks": [
+		"libtsan2-mips64r6el-cross (<< 12-20211113-2~)"
+	],
+	"installedSize": 4739,
+	"maintainer": "Ubuntu Core developers <ubuntu-devel-discuss@lists.ubuntu.com>",
+	"description": "GCC support library (development files)",
+	"homepage": "http://gcc.gnu.org/",
+	"builtUsing": "gcc-12 (= 12.4.0-2ubuntu1~24.04)",
+	"filename": "pool/universe/g/gcc-12-cross-mipsen/libgcc-12-dev-mips64r6el-cross_12.4.0-2ubuntu1~24.04cross8_all.deb",
+	"size": 419038,
+	"md5": "2e42ce4f56795878a119de58842f3247",
+	"sha1": "6c7da7d3c2e8ca02c85c62324c38a1d2ccbb596d",
+	"sha256": "f86c0e311b5c863008fbfcb67bde42835d0f03991e8cf797015dbb53ede84379",
+	"sha512": "e202da17219182b07b9fb53e4526ea9a6e3e6859db820453f93ac4e0fd40a7779eb7bad0950c3652b6cdf2253bb365209443c9e0d5af0c5e1b2f76ddd4df2b91",
+	"descriptionMd5": "4ab7cb439b47e1d0796fbaf8447229ac"
+},{
+	"raw": {},
+	"required": [
+		"Filename",
+		"Size"
+	],
+	"package": "libgcc-12-dev-mips64r6el-cross",
 	"source": "gcc-12-cross-mipsen (4+c1build1)",
 	"version": "12.3.0-17ubuntu1cross3",
 	"section": "universe/libdevel",

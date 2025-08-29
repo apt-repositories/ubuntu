@@ -5,6 +5,58 @@
 		"Size"
 	],
 	"package": "gnat-12-x86-64-linux-gnux32",
+	"source": "gcc-12-cross-ports (17ubuntu2.1)",
+	"version": "12.4.0-2ubuntu1~24.04cross1",
+	"section": "universe/devel",
+	"priority": "optional",
+	"architecture": "amd64",
+	"depends": [
+		"gcc-12-x86-64-linux-gnux32-base (= 12.4.0-2ubuntu1~24.04cross1)",
+		"gcc-12-x86-64-linux-gnux32 (>= 12)",
+		"libgnat-12-x32-cross (>= 12.4.0-2ubuntu1~24.04cross1)",
+		"libc6-dev-x32-cross (>= 2.13-0ubuntu6)",
+		"libc6 (>= 2.38)",
+		"libgmp10 (>= 2:6.3.0+dfsg)",
+		"libisl23 (>= 0.15)",
+		"libmpc3 (>= 1.1.0)",
+		"libmpfr6 (>= 3.1.3)",
+		"libzstd1 (>= 1.5.5)",
+		"zlib1g (>= 1:1.1.4)"
+	],
+	"suggests": [
+		"gnat-12-doc",
+		"ada-reference-manual-2012",
+		"gnat-12-sjlj"
+	],
+	"conflicts": [
+		"gnat-10-x86-64-linux-gnux32",
+		"gnat-11-x86-64-linux-gnux32",
+		"gnat-4.9",
+		"gnat-5-x86-64-linux-gnux32",
+		"gnat-6-x86-64-linux-gnux32",
+		"gnat-7-x86-64-linux-gnux32",
+		"gnat-8-x86-64-linux-gnux32",
+		"gnat-9-x86-64-linux-gnux32"
+	],
+	"installedSize": 96390,
+	"maintainer": "Ubuntu Core developers <ubuntu-devel-discuss@lists.ubuntu.com>",
+	"description": "GNU Ada compiler",
+	"homepage": "http://gcc.gnu.org/",
+	"builtUsing": "gcc-12 (= 12.4.0-2ubuntu1~24.04)",
+	"filename": "pool/universe/g/gcc-12-cross-ports/gnat-12-x86-64-linux-gnux32_12.4.0-2ubuntu1~24.04cross1_amd64.deb",
+	"size": 20596222,
+	"md5": "1d55693ed5802a3527db7a8184f30181",
+	"sha1": "37786210a60f7413c874e08243bdbdab68b26aa7",
+	"sha256": "d5112a538f43c356887e0fde567f8ab0c86fe0367bafdcebb5f44752ae175fac",
+	"sha512": "aaf671d098a752611c843d67618bb4889105930d63ccb306ada1c3571c8e3319381c16f2be0220c44763cc1d793ba2756f609e15eca19ca42f627f73fa0a95a5",
+	"descriptionMd5": "8cebde0cd6b861927a7a457cacc8851f"
+},{
+	"raw": {},
+	"required": [
+		"Filename",
+		"Size"
+	],
+	"package": "gnat-12-x86-64-linux-gnux32",
 	"source": "gcc-12-cross-ports (17ubuntu2)",
 	"version": "12.3.0-17ubuntu1cross1",
 	"section": "universe/devel",

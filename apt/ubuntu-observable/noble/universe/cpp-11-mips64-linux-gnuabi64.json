@@ -5,6 +5,46 @@
 		"Size"
 	],
 	"package": "cpp-11-mips64-linux-gnuabi64",
+	"source": "gcc-11-cross-mipsen (6+c1+nmu1ubuntu1.1)",
+	"version": "11.5.0-1ubuntu1~24.04cross1",
+	"section": "universe/devel",
+	"priority": "optional",
+	"architecture": "amd64",
+	"depends": [
+		"gcc-11-mips64-linux-gnuabi64-base (= 11.5.0-1ubuntu1~24.04cross1)",
+		"libc6 (>= 2.38)",
+		"libgmp10 (>= 2:6.3.0+dfsg)",
+		"libisl23 (>= 0.15)",
+		"libmpc3 (>= 1.1.0)",
+		"libmpfr6 (>= 3.1.3)",
+		"libzstd1 (>= 1.5.5)",
+		"zlib1g (>= 1:1.1.4)"
+	],
+	"suggests": [
+		"gcc-11-locales (>= 11)"
+	],
+	"breaks": [
+		"libmagics++-dev (<< 2.28.0-4)"
+	],
+	"installedSize": 22792,
+	"maintainer": "Ubuntu Core developers <ubuntu-devel-discuss@lists.ubuntu.com>",
+	"description": "GNU C preprocessor",
+	"homepage": "http://gcc.gnu.org/",
+	"builtUsing": "gcc-11 (= 11.5.0-1ubuntu1~24.04)",
+	"filename": "pool/universe/g/gcc-11-cross-mipsen/cpp-11-mips64-linux-gnuabi64_11.5.0-1ubuntu1~24.04cross1_amd64.deb",
+	"size": 8264894,
+	"md5": "ed2b79d0a041918b41d0314cdb8fede3",
+	"sha1": "32eb887e8ce0cdfd778afa9e0c478a98a3746ef4",
+	"sha256": "53fe1868c0c7b40e83c26a3197fffb2faba12f2ebf9a05b255a69b463d43369c",
+	"sha512": "7b0137d24a9e3592bcf700f871b6eb5e5532bf13bfc3913fad8d1e61749c3403e275fbec9bbc1dcfd8ccf7b2f20913b874f3766efed8c9f08b4de1bec732e752",
+	"descriptionMd5": "64eeeaa44acc99c1667d4babb452b4db"
+},{
+	"raw": {},
+	"required": [
+		"Filename",
+		"Size"
+	],
+	"package": "cpp-11-mips64-linux-gnuabi64",
 	"source": "gcc-11-cross-mipsen (6+c1+nmu1ubuntu1)",
 	"version": "11.4.0-9ubuntu1cross1",
 	"section": "universe/devel",
