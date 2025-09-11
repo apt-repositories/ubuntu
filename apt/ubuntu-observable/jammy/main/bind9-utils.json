@@ -42,6 +42,42 @@
 	],
 	"package": "bind9-utils",
 	"source": "bind9",
+	"version": "1:9.18.39-0ubuntu0.22.04.1",
+	"section": "net",
+	"priority": "optional",
+	"architecture": "amd64",
+	"depends": [
+		"bind9-libs (= 1:9.18.39-0ubuntu0.22.04.1)",
+		"libc6 (>= 2.34)"
+	],
+	"replaces": [
+		"bind-utils (<< 1:9.13.6~)",
+		"bind9utils (<< 1:9.12.0~)"
+	],
+	"breaks": [
+		"bind-utils (<< 1:9.13.6~)",
+		"bind9utils (<< 1:9.12.0~)",
+		"freeipa"
+	],
+	"installedSize": 668,
+	"maintainer": "Ubuntu Developers <ubuntu-devel-discuss@lists.ubuntu.com>",
+	"description": "Utilities for BIND 9",
+	"homepage": "https://www.isc.org/downloads/bind/",
+	"filename": "pool/main/b/bind9/bind9-utils_9.18.39-0ubuntu0.22.04.1_amd64.deb",
+	"size": 161662,
+	"md5": "0e831225fb42bb87c8cc0820c96e0b21",
+	"sha1": "a38ba2f822fb636451f1fa8ea58962e2d05c1703",
+	"sha256": "42fa5aa58946036c55b3bafc7cc035ed48e67c85c066ebed7ac4bd9681544bc1",
+	"sha512": "95640163ae3847592db130f6dd5a934d98cd9e6c9c570d3016969bd8185f1ad9520039b9320dbc4d3c6cb0dce9c97c1b25b0b045f1f8924512356af11523e487",
+	"descriptionMd5": "c30ede916daac07ed6c19887e9f7d3f2"
+},{
+	"raw": {},
+	"required": [
+		"Filename",
+		"Size"
+	],
+	"package": "bind9-utils",
+	"source": "bind9",
 	"version": "1:9.18.1-1ubuntu1",
 	"section": "net",
 	"priority": "optional",
