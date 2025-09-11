@@ -48,6 +48,49 @@
 	],
 	"package": "bind9-libs",
 	"source": "bind9",
+	"version": "1:9.18.39-0ubuntu0.24.04.1",
+	"section": "libs",
+	"priority": "standard",
+	"architecture": "amd64",
+	"depends": [
+		"libuv1t64 (>= 1.40.0)",
+		"libc6 (>= 2.38)",
+		"libedit2 (>= 2.11-20080614-0)",
+		"libgssapi-krb5-2 (>= 1.17)",
+		"libjson-c5 (>= 0.15)",
+		"libkrb5-3 (>= 1.6.dfsg.2)",
+		"liblmdb0 (>= 0.9.7)",
+		"libmaxminddb0 (>= 1.3.0)",
+		"libnghttp2-14 (>= 1.12.0)",
+		"libssl3t64 (>= 3.0.0)",
+		"libxml2 (>= 2.7.4)",
+		"zlib1g (>= 1:1.1.4)"
+	],
+	"replaces": [
+		"bind-libs (<< 1:9.13.6~)"
+	],
+	"breaks": [
+		"bind-libs (<< 1:9.13.6~)"
+	],
+	"installedSize": 3442,
+	"maintainer": "Ubuntu Developers <ubuntu-devel-discuss@lists.ubuntu.com>",
+	"description": "Shared Libraries used by BIND 9",
+	"homepage": "https://www.isc.org/downloads/bind/",
+	"filename": "pool/main/b/bind9/bind9-libs_9.18.39-0ubuntu0.24.04.1_amd64.deb",
+	"size": 1256550,
+	"md5": "6f831157183fc6807a54fb5bb7755746",
+	"sha1": "0267ad2d36f4c8c1610bf5c4285b83cc7b1cdd8c",
+	"sha256": "d3aa2d67931cdbb7e3a476613c4b6e75fcfe279d68c90c51c0b8d24b8623010e",
+	"sha512": "dd5f911d9d1dd95166cdc83c99059d9f1f4eb111ae6a423f9d5c8803ae36d7689e74c43b6cb1db16a34430a5356e830e116630e98fa6418026085b1bfd08f3fc",
+	"descriptionMd5": "5d0130b772445112be93a9bd80da10e6"
+},{
+	"raw": {},
+	"required": [
+		"Filename",
+		"Size"
+	],
+	"package": "bind9-libs",
+	"source": "bind9",
 	"version": "1:9.18.24-0ubuntu5",
 	"section": "libs",
 	"priority": "standard",

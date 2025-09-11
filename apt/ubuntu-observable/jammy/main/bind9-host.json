@@ -40,6 +40,40 @@
 	],
 	"package": "bind9-host",
 	"source": "bind9",
+	"version": "1:9.18.39-0ubuntu0.22.04.1",
+	"section": "net",
+	"priority": "standard",
+	"architecture": "amd64",
+	"depends": [
+		"bind9-libs (= 1:9.18.39-0ubuntu0.22.04.1)",
+		"libc6 (>= 2.34)",
+		"libidn2-0 (>= 2.0.0)"
+	],
+	"replaces": [
+		"bind-host (<< 1:9.13.6~)"
+	],
+	"breaks": [
+		"bind-host (<< 1:9.13.6~)"
+	],
+	"installedSize": 186,
+	"maintainer": "Ubuntu Developers <ubuntu-devel-discuss@lists.ubuntu.com>",
+	"description": "DNS Lookup Utility",
+	"homepage": "https://www.isc.org/downloads/bind/",
+	"filename": "pool/main/b/bind9/bind9-host_9.18.39-0ubuntu0.22.04.1_amd64.deb",
+	"size": 52512,
+	"md5": "48d7c957cf0704bfb41980b0a8ab2b2c",
+	"sha1": "8b6c0593c0c1c64ae3eeaadc330602acc05d3049",
+	"sha256": "d876d04be549b71d4b78d866fab23524ef5a26b915212b905b88c1b264dde5dc",
+	"sha512": "337775dbab4bda573bfdd813ceb029539ee5465d9deb5d7a32fe397ea0311bf6118d9d58e7fd4a82d87a6f1e5f540f8b90dd3f48477ae63de853b4886dfd5c4b",
+	"descriptionMd5": "2dd2359e6a96f700ef352e6924685162"
+},{
+	"raw": {},
+	"required": [
+		"Filename",
+		"Size"
+	],
+	"package": "bind9-host",
+	"source": "bind9",
 	"version": "1:9.18.1-1ubuntu1",
 	"section": "net",
 	"priority": "standard",

@@ -44,6 +44,45 @@
 	],
 	"package": "bind9-utils",
 	"source": "bind9",
+	"version": "1:9.20.11-0ubuntu0.1",
+	"section": "net",
+	"priority": "optional",
+	"architecture": "amd64",
+	"depends": [
+		"bind9-libs (= 1:9.20.11-0ubuntu0.1)",
+		"libc6 (>= 2.38)",
+		"libjemalloc2 (>= 3.5.0)",
+		"libssl3t64 (>= 3.0.0)",
+		"liburcu8t64 (>= 0.13.0)"
+	],
+	"replaces": [
+		"bind-utils (<< 1:9.13.6~)",
+		"bind9utils (<< 1:9.12.0~)"
+	],
+	"breaks": [
+		"bind-utils (<< 1:9.13.6~)",
+		"bind9utils (<< 1:9.12.0~)",
+		"freeipa"
+	],
+	"installedSize": 768,
+	"maintainer": "Ubuntu Developers <ubuntu-devel-discuss@lists.ubuntu.com>",
+	"description": "Utilities for BIND 9",
+	"homepage": "https://www.isc.org/downloads/bind/",
+	"filename": "pool/main/b/bind9/bind9-utils_9.20.11-0ubuntu0.1_amd64.deb",
+	"size": 189070,
+	"md5": "e65edae07a1ebd42fdb1f30318e281ef",
+	"sha1": "62ca78e708c47771ee5281adf8986ea941209a9d",
+	"sha256": "4e2ca444e0bf08e8983b12d27015a4006b2c11768bbe285bbe3b6998548207b1",
+	"sha512": "e10779eb25fde665e75af050b6d0490caeeac0d1fc029931f28994218843a3eec639ca79d2170124d00b379fecf04492f535aa8ea516b26986909672a884b911",
+	"descriptionMd5": "c30ede916daac07ed6c19887e9f7d3f2"
+},{
+	"raw": {},
+	"required": [
+		"Filename",
+		"Size"
+	],
+	"package": "bind9-utils",
+	"source": "bind9",
 	"version": "1:9.20.4-3ubuntu1",
 	"section": "net",
 	"priority": "optional",
