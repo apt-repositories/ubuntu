@@ -34,4 +34,40 @@
 	"sha256": "7d060234d9d42223b89283913799e16728a031c7d1caaee297138a3ca7e0ead2",
 	"sha512": "272dc50c9045cbf71b4c4def05e3592de107f2c7ea363910a16fd790c93d3f029bdfa9a8a6a5ba54082cff2ab9bb89276d96ba864ec14f18d195f29c60514426",
 	"descriptionMd5": "caa64a2a10d329a0475baf9ebcdb40d5"
+},{
+	"raw": {},
+	"required": [
+		"Filename",
+		"Size"
+	],
+	"package": "nvidia-kernel-common-535-server",
+	"source": "nvidia-graphics-drivers-535-server",
+	"version": "535.261.03-0ubuntu0.22.04.1",
+	"section": "restricted/libs",
+	"priority": "optional",
+	"architecture": "amd64",
+	"depends": [
+		"libc6 (>= 2.34)",
+		"libgcc-s1 (>= 4.2)",
+		"libpciaccess0 (>= 0.10.7)",
+		"nvidia-firmware-535-server-535.261.03"
+	],
+	"replaces": [
+		"nvidia-dkms-535-server (<< 390.48-0ubuntu3~)",
+		"nvidia-kernel-common"
+	],
+	"conflicts": [
+		"nvidia-kernel-common"
+	],
+	"installedSize": 1031,
+	"maintainer": "Ubuntu Core Developers <ubuntu-devel-discuss@lists.ubuntu.com>",
+	"description": "Shared files used with the kernel module",
+	"homepage": "http://www.nvidia.com",
+	"filename": "pool/restricted/n/nvidia-graphics-drivers-535-server/nvidia-kernel-common-535-server_535.261.03-0ubuntu0.22.04.1_amd64.deb",
+	"size": 229292,
+	"md5": "549b1adb72ec056939eff47b1f142e03",
+	"sha1": "ae3460c77131979a8aac7250fb0e5c40eae41eaa",
+	"sha256": "ad196137089f2be8c5a44e4c8ac65e6fc830b7273d0911ebf39d1756ef20663d",
+	"sha512": "628ce2a91b773bc967692ffd3a1936aa2fd08fd07536b1854d1b388f162bca8f49264568a0cb3e8194158edabbc11d665a005f839e9183a34b760c5c54ffc1b8",
+	"descriptionMd5": "caa64a2a10d329a0475baf9ebcdb40d5"
 }]

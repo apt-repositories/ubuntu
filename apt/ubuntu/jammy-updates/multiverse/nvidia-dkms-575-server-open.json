@@ -6,32 +6,22 @@
 	],
 	"package": "nvidia-dkms-575-server-open",
 	"source": "nvidia-graphics-drivers-575-server",
-	"version": "575.57.08-0ubuntu0.22.04.2",
+	"version": "575.57.08-0ubuntu0.22.04.3",
 	"section": "multiverse/libs",
 	"priority": "optional",
 	"architecture": "amd64",
 	"depends": [
-		"dkms",
-		"nvidia-kernel-source-575-server-open (<= 575.57.08-1)",
-		"nvidia-kernel-source-575-server-open (>= 575.57.08)",
-		"nvidia-kernel-common-575-server (<= 575.57.08-1)",
-		"nvidia-kernel-common-575-server (>= 575.57.08)"
+		"nvidia-dkms-580-server-open"
 	],
-	"replaces": [
-		"nvidia-dkms-kernel"
-	],
-	"conflicts": [
-		"nvidia-dkms-kernel"
-	],
-	"installedSize": 48,
+	"installedSize": 32,
 	"maintainer": "Ubuntu Core Developers <ubuntu-devel-discuss@lists.ubuntu.com>",
 	"description": "NVIDIA DKMS package (open kernel module)",
 	"homepage": "http://www.nvidia.com",
-	"filename": "pool/multiverse/n/nvidia-graphics-drivers-575-server/nvidia-dkms-575-server-open_575.57.08-0ubuntu0.22.04.2_amd64.deb",
-	"size": 14178,
-	"md5": "613f0563c465ba2144ef42673404f417",
-	"sha1": "627cc54370a402735e7394a7c801c2c5fdcab796",
-	"sha256": "ee90f1a860fc8cd65828eb7e39aa9a645904852d85ba36fd108d2a2edb663274",
-	"sha512": "2e4346aac54c6b34d651c32f49aed9818e57999091532ddf7b7c062d7d4ea48e5515c1cdaebda58da32701fb1c6d43ea80411760e29f88fa41d364caba7b5fdc",
-	"descriptionMd5": "dafa8f35853882b3010cba056bb022d0"
+	"filename": "pool/multiverse/n/nvidia-graphics-drivers-575-server/nvidia-dkms-575-server-open_575.57.08-0ubuntu0.22.04.3_amd64.deb",
+	"size": 10412,
+	"md5": "51947e88460c30589ce5e37623bf5fda",
+	"sha1": "dd4d8d99b02d00726261d10cfb952e5c0e009108",
+	"sha256": "0091a0aee16ec5a7e179a8ed27d8b6cf4a8e80b920a87992424e52bdc82af1b9",
+	"sha512": "24555ddc3b1e25a94c262f7387ca1f9174fe30d346f55802ec9e40625f9eceb5b5275c9c78d5dfda16f8752e5a395558dad82a43dd6322a2fc22e615be02b626",
+	"descriptionMd5": "d10226eaee2a7cc487a5e3ce0b948199"
 }

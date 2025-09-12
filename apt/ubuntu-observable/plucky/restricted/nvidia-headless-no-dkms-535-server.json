@@ -45,6 +45,45 @@
 	],
 	"package": "nvidia-headless-no-dkms-535-server",
 	"source": "nvidia-graphics-drivers-535-server",
+	"version": "535.261.03-0ubuntu0.25.04.1",
+	"section": "restricted/libs",
+	"priority": "optional",
+	"architecture": "amd64",
+	"depends": [
+		"nvidia-kernel-common-535-server (<= 535.261.03-1)",
+		"nvidia-kernel-common-535-server (>= 535.261.03)",
+		"nvidia-kernel-source-535-server (= 535.261.03-0ubuntu0.25.04.1)",
+		"libnvidia-compute-535-server (= 535.261.03-0ubuntu0.25.04.1)",
+		"nvidia-compute-utils-535-server (= 535.261.03-0ubuntu0.25.04.1)",
+		"libnvidia-cfg1-535-server (= 535.261.03-0ubuntu0.25.04.1)"
+	],
+	"replaces": [
+		"nvidia-384 (<< 390.25)",
+		"nvidia-390 (<< 390.25-0ubuntu1)"
+	],
+	"conflicts": [
+		"nvidia-384 (<< 390.25)",
+		"nvidia-390 (<< 390.25-0ubuntu1)"
+	],
+	"installedSize": 34,
+	"maintainer": "Ubuntu Core Developers <ubuntu-devel-discuss@lists.ubuntu.com>",
+	"description": "NVIDIA headless metapackage - no DKMS",
+	"homepage": "http://www.nvidia.com",
+	"filename": "pool/restricted/n/nvidia-graphics-drivers-535-server/nvidia-headless-no-dkms-535-server_535.261.03-0ubuntu0.25.04.1_amd64.deb",
+	"size": 12672,
+	"md5": "47695255d7e3eab7693c94d9c3539a9f",
+	"sha1": "e99cca54d6158c1239f359d2252fcf9ba0e7b0a8",
+	"sha256": "a5a463b2fd3845dc5ad9018067f0bb264da11c21b808b2e5ac43cdb6e75317ea",
+	"sha512": "aef102147320059fac7d5cd630f8e1e0fc5574a4ad6faa21f10f1bcbf3858ed489acb7a21ce831b37e590f14017b89610e0c6f226f132ba93d74ad5a97e9846a",
+	"descriptionMd5": "673bb0117fea4132d63048940b83be3a"
+},{
+	"raw": {},
+	"required": [
+		"Filename",
+		"Size"
+	],
+	"package": "nvidia-headless-no-dkms-535-server",
+	"source": "nvidia-graphics-drivers-535-server",
 	"version": "535.230.02-0ubuntu5",
 	"section": "restricted/libs",
 	"priority": "optional",

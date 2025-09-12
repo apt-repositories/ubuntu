@@ -6,7 +6,7 @@
 	],
 	"package": "qemu-system-x86-xen",
 	"source": "qemu",
-	"version": "1:6.2+dfsg-2ubuntu6.24",
+	"version": "1:6.2+dfsg-2ubuntu6.27",
 	"section": "universe/otherosfs",
 	"priority": "optional",
 	"architecture": "amd64",
@@ -40,15 +40,15 @@
 		"libxentoolcore1",
 		"libzstd1 (>= 1.4.0)",
 		"zlib1g (>= 1:1.2.0)",
-		"qemu-system-common (= 1:6.2+dfsg-2ubuntu6.24)",
-		"qemu-system-data (>> 1:6.2+dfsg-2ubuntu6.24~)",
+		"qemu-system-common (= 1:6.2+dfsg-2ubuntu6.27)",
+		"qemu-system-data (>> 1:6.2+dfsg-2ubuntu6.27~)",
 		"ipxe-qemu"
 	],
 	"recommends": [
-		"qemu-system-gui (= 1:6.2+dfsg-2ubuntu6.24)",
+		"qemu-system-gui (= 1:6.2+dfsg-2ubuntu6.27)",
 		"qemu-utils",
 		"seabios",
-		"qemu-block-extra (= 1:6.2+dfsg-2ubuntu6.24)"
+		"qemu-block-extra (= 1:6.2+dfsg-2ubuntu6.27)"
 	],
 	"suggests": [
 		"ovmf"
@@ -56,85 +56,16 @@
 	"conflicts": [
 		"qemu-system-x86"
 	],
-	"installedSize": 31394,
+	"installedSize": 31408,
 	"maintainer": "Ubuntu Developers <ubuntu-devel-discuss@lists.ubuntu.com>",
 	"description": "QEMU full system emulation binaries (x86)",
 	"homepage": "http://www.qemu.org/",
-	"filename": "pool/universe/q/qemu/qemu-system-x86-xen_6.2+dfsg-2ubuntu6.24_amd64.deb",
-	"size": 8233956,
-	"md5": "7cf4ce73216c09001f9e7910c11862b6",
-	"sha1": "35bb7a136fc796a0aea68b1f7829f4e5d63e5f6f",
-	"sha256": "daf4a288afe5879c1d7f9cef2025452b19fd2ed70c8b0049eb225738faa8c1a5",
-	"sha512": "26cc13f69016aade8b516f9fca49b942fa103bf54688fbbcc83c159c6631464359c60f4704c84cbfb657713fa820a9de937719e7cdee79b5d100b1a158b117d0",
-	"descriptionMd5": "44c7302a148191180d4e29e20a3977e2"
-},{
-	"raw": {},
-	"required": [
-		"Filename",
-		"Size"
-	],
-	"package": "qemu-system-x86-xen",
-	"source": "qemu",
-	"version": "1:6.2+dfsg-2ubuntu6.26",
-	"section": "universe/otherosfs",
-	"priority": "optional",
-	"architecture": "amd64",
-	"depends": [
-		"libaio1 (>= 0.3.93)",
-		"libc6 (>= 2.34)",
-		"libfdt1 (>= 1.6.1)",
-		"libfuse3-3 (>= 3.2.3)",
-		"libgcc-s1 (>= 4.7)",
-		"libglib2.0-0 (>= 2.67.3)",
-		"libgnutls30 (>= 3.7.2)",
-		"libibverbs1 (>= 28)",
-		"libjpeg8 (>= 8c)",
-		"libnettle8",
-		"libnuma1 (>= 2.0.11)",
-		"libpixman-1-0 (>= 0.19.6)",
-		"libpmem1 (>= 1.4)",
-		"libpng16-16 (>= 1.6.2-1)",
-		"librdmacm1 (>= 1.0.15)",
-		"libsasl2-2 (>= 2.1.27+dfsg2)",
-		"libseccomp2 (>= 2.1.0)",
-		"libslirp0 (>= 4.0.0)",
-		"libudev1 (>= 183)",
-		"liburing2 (>= 2.0)",
-		"libxendevicemodel1",
-		"libxenevtchn1",
-		"libxenforeignmemory1",
-		"libxengnttab1",
-		"libxenmisc4.16",
-		"libxenstore4 (>= 4.16.0)",
-		"libxentoolcore1",
-		"libzstd1 (>= 1.4.0)",
-		"zlib1g (>= 1:1.2.0)",
-		"qemu-system-common (= 1:6.2+dfsg-2ubuntu6.26)",
-		"qemu-system-data (>> 1:6.2+dfsg-2ubuntu6.26~)",
-		"ipxe-qemu"
-	],
-	"recommends": [
-		"qemu-system-gui (= 1:6.2+dfsg-2ubuntu6.26)",
-		"qemu-utils",
-		"seabios",
-		"qemu-block-extra (= 1:6.2+dfsg-2ubuntu6.26)"
-	],
-	"suggests": [
-		"ovmf"
-	],
-	"conflicts": [
-		"qemu-system-x86"
-	],
-	"installedSize": 31400,
-	"maintainer": "Ubuntu Developers <ubuntu-devel-discuss@lists.ubuntu.com>",
-	"description": "QEMU full system emulation binaries (x86)",
-	"homepage": "http://www.qemu.org/",
-	"filename": "pool/universe/q/qemu/qemu-system-x86-xen_6.2+dfsg-2ubuntu6.26_amd64.deb",
-	"size": 8218370,
-	"md5": "fcd63adc41d31bb30f649d059780bf22",
-	"sha1": "ca13ab7117b987db9a5e5148c01ab74ffe26d3a1",
-	"sha256": "12f5b572daaa82237ee9744473fa18e16c57091f18a930676d81b63c1f88e052",
-	"sha512": "ca07f2f7944f34fd478de191aa1c9094e676b4dcc46b658db57e386600a10b22ad835e9593076b2f70debfbcf2dab54918b01a27096eb2be5efe25710b3821f0",
+	"filename": "pool/universe/q/qemu/qemu-system-x86-xen_6.2+dfsg-2ubuntu6.27_amd64.deb",
+	"size": 8257510,
+	"md5": "9e8ffa49fc399d86574ace34932be0fd",
+	"sha1": "f7be5501a841a118f226533cef2b7e77a0ade46a",
+	"sha256": "a3f05ad76c5448a851e4f30ba2c54ef074ec6144d90c7b8abdffa798e4ebd91d",
+	"sha512": "80100181737a7c86d829861e3f4926b7e23c30b639dd14a84e36ef9e8173f6087c523cd8e019e19ff523b2d40619a98cd56024c3036eae0a453dff7a1cf6ee65",
 	"descriptionMd5": "44c7302a148191180d4e29e20a3977e2"
 },{
 	"raw": {},
