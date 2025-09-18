@@ -6,6 +6,43 @@
 	],
 	"package": "openvswitch-testcontroller",
 	"source": "openvswitch",
+	"version": "3.5.1-0ubuntu0.1",
+	"section": "universe/net",
+	"priority": "extra",
+	"architecture": "amd64",
+	"depends": [
+		"openvswitch-common (= 3.5.1-0ubuntu0.1)",
+		"openvswitch-pki (= 3.5.1-0ubuntu0.1)",
+		"libc6 (>= 2.38)",
+		"libcap-ng0 (>= 0.7.9)",
+		"libssl3t64 (>= 3.0.0)",
+		"libunbound8 (>= 1.8.0)"
+	],
+	"replaces": [
+		"openvswitch-common (<< 2.17~)"
+	],
+	"breaks": [
+		"openvswitch-common (<< 2.17~)"
+	],
+	"installedSize": 1037,
+	"maintainer": "Ubuntu Developers <ubuntu-devel-discuss@lists.ubuntu.com>",
+	"description": "Simple controller for testing OpenFlow setups",
+	"homepage": "http://openvswitch.org/",
+	"filename": "pool/universe/o/openvswitch/openvswitch-testcontroller_3.5.1-0ubuntu0.1_amd64.deb",
+	"size": 344638,
+	"md5": "eb3190d88fcc697ff3cafed5dc62d14a",
+	"sha1": "ac1d3db9a532d1d6f3ee09622cad26b953f4d1e2",
+	"sha256": "6f8d398e7946452ebc6f24c7ffb5d87883e923262435a425b2d1a8e3ac1d4378",
+	"sha512": "01eaf6c783cb74787903894442047cdd4f96790d6871c20ed4615bcaea2ba449d257745d41ade3340772402d8ab5465837ecfc1965ec4f1e60634d0a64de0ab9",
+	"descriptionMd5": "55827d9f036c6bc8e9b4979e18054a4e"
+},{
+	"raw": {},
+	"required": [
+		"Filename",
+		"Size"
+	],
+	"package": "openvswitch-testcontroller",
+	"source": "openvswitch",
 	"version": "3.5.0-1build1",
 	"section": "universe/net",
 	"priority": "extra",

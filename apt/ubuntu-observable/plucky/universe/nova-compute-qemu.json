@@ -6,6 +6,37 @@
 	],
 	"package": "nova-compute-qemu",
 	"source": "nova",
+	"version": "3:31.0.0-0ubuntu1.1",
+	"section": "universe/net",
+	"priority": "extra",
+	"architecture": "all",
+	"depends": [
+		"adduser",
+		"nova-compute-libvirt (= 3:31.0.0-0ubuntu1.1)",
+		"qemu-system (>= 1.3.0)"
+	],
+	"conflicts": [
+		"nova-compute-hypervisor"
+	],
+	"installedSize": 21,
+	"maintainer": "Ubuntu Developers <ubuntu-devel-discuss@lists.ubuntu.com>",
+	"description": "OpenStack Compute - compute node (QEmu)",
+	"homepage": "https://launchpad.net/nova",
+	"filename": "pool/universe/n/nova/nova-compute-qemu_31.0.0-0ubuntu1.1_all.deb",
+	"size": 2810,
+	"md5": "e3552a575f6feadb609c7dc7ff9b0a96",
+	"sha1": "9eb3b8a6b59d6b3965d1c8f32f2a0b1ee1a26d92",
+	"sha256": "981b1d45932fc39b0d9676e43d77835df1c19277f2a23fa99fb44ec260ccb7a1",
+	"sha512": "7aaff015ccb7fc4e49cb82a74d90f8a4eaf637c21e3bce6eb6e78ba18647ca4afb6c4b6048c08a466164f3d56abd3978b5b23148739f993397fb6c02adeeec3e",
+	"descriptionMd5": "46acbb1c9b077142e1930821f7a05aed"
+},{
+	"raw": {},
+	"required": [
+		"Filename",
+		"Size"
+	],
+	"package": "nova-compute-qemu",
+	"source": "nova",
 	"version": "3:31.0.0-0ubuntu1",
 	"section": "universe/net",
 	"priority": "extra",

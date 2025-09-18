@@ -43,6 +43,43 @@
 	],
 	"package": "systemd-standalone-shutdown",
 	"source": "systemd",
+	"version": "257.4-1ubuntu3.2",
+	"section": "universe/admin",
+	"priority": "optional",
+	"architecture": "amd64",
+	"depends": [
+		"libc6 (>= 2.38)",
+		"libcap2 (>= 1:2.10)",
+		"libmount1 (>= 2.30)",
+		"libselinux1 (>= 3.1~)"
+	],
+	"suggests": [
+		"libcryptsetup12",
+		"libidn2-0",
+		"libtss2-rc0t64"
+	],
+	"conflicts": [
+		"systemd"
+	],
+	"installedSize": 599,
+	"maintainer": "Ubuntu Developers <ubuntu-devel-discuss@lists.ubuntu.com>",
+	"description": "standalone shutdown binary for use in exitrds",
+	"homepage": "https://systemd.io",
+	"filename": "pool/universe/s/systemd/systemd-standalone-shutdown_257.4-1ubuntu3.2_amd64.deb",
+	"size": 285632,
+	"md5": "8f7682e45d73dafae986255bbf70b2fb",
+	"sha1": "fc4814e6f97b810d01b223da2bee6186022afb21",
+	"sha256": "af148ce610be00703b850df606bb726c1e9360a56c7b24ed9265a22afa68a87a",
+	"sha512": "381ef84fd7c1ce81d31fc8b40bc163609169619115da8fabc59e52c0b059aba4435e280594d1a00870f6c4d1e557c3fa0d35314b9ac4c54f448e15f93b955bc1",
+	"descriptionMd5": "9ee6184f37c7f9760d9be532ffe4e801"
+},{
+	"raw": {},
+	"required": [
+		"Filename",
+		"Size"
+	],
+	"package": "systemd-standalone-shutdown",
+	"source": "systemd",
 	"version": "257.4-1ubuntu3",
 	"section": "universe/admin",
 	"priority": "optional",

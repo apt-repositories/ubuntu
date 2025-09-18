@@ -52,6 +52,52 @@
 	],
 	"package": "systemd-resolved",
 	"source": "systemd",
+	"version": "257.4-1ubuntu3.2",
+	"section": "admin",
+	"priority": "important",
+	"architecture": "amd64",
+	"depends": [
+		"libc6 (>= 2.39)",
+		"libssl3t64 (>= 3.0.0)",
+		"libsystemd-shared (= 257.4-1ubuntu3.2)",
+		"systemd (= 257.4-1ubuntu3.2)",
+		"default-dbus-system-bus | dbus-system-bus"
+	],
+	"recommends": [
+		"libidn2-0"
+	],
+	"suggests": [
+		"polkitd"
+	],
+	"replaces": [
+		"resolvconf",
+		"systemd (<< 251.3-2~)"
+	],
+	"breaks": [
+		"systemd (<< 251.3-2~)"
+	],
+	"conflicts": [
+		"resolvconf"
+	],
+	"installedSize": 1035,
+	"maintainer": "Ubuntu Developers <ubuntu-devel-discuss@lists.ubuntu.com>",
+	"description": "systemd DNS resolver",
+	"homepage": "https://systemd.io",
+	"filename": "pool/main/s/systemd/systemd-resolved_257.4-1ubuntu3.2_amd64.deb",
+	"size": 345352,
+	"md5": "8869b793a1f63a2fdf2fd83c2db8f91b",
+	"sha1": "70911bd2d2ac85310823095179f16724bb9b831b",
+	"sha256": "25dae6811bcba847fc3582f7cb10fe5a713286599a7838c0e04a6453b1b9db5d",
+	"sha512": "84d1e368ba39443850d25d26aa2711a9377a261857fb723ab430d6c7454a3cabec5796bbaf8292f295927f33e9cc7a85c2e3e186e2801aeefc29c2857505a0e2",
+	"descriptionMd5": "846dc3eb3129c6a17b29965b209c161e"
+},{
+	"raw": {},
+	"required": [
+		"Filename",
+		"Size"
+	],
+	"package": "systemd-resolved",
+	"source": "systemd",
 	"version": "257.4-1ubuntu3",
 	"section": "admin",
 	"priority": "important",
