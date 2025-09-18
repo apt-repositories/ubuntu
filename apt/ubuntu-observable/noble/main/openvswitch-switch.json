@@ -55,6 +55,55 @@
 	],
 	"package": "openvswitch-switch",
 	"source": "openvswitch",
+	"version": "3.3.4-0ubuntu0.24.04.1",
+	"section": "net",
+	"priority": "extra",
+	"architecture": "amd64",
+	"depends": [
+		"kmod | module-init-tools",
+		"netbase",
+		"openvswitch-common (= 3.3.4-0ubuntu0.24.04.1)",
+		"procps",
+		"python3-netifaces",
+		"python3-openvswitch (>= 3.3.4-0ubuntu0.24.04.1)",
+		"uuid-runtime",
+		"python3:any",
+		"libbpf1 (>= 1:0.7.0)",
+		"libc6 (>= 2.38)",
+		"libcap-ng0 (>= 0.7.9)",
+		"libnuma1 (>= 2.0.11)",
+		"libssl3t64 (>= 3.0.0)",
+		"libunbound8 (>= 1.8.0)",
+		"libxdp1 (>= 1.2.9~)"
+	],
+	"preDepends": [
+		"init-system-helpers (>= 1.54~)"
+	],
+	"replaces": [
+		"openvswitch-common (<< 2.17~)"
+	],
+	"breaks": [
+		"openvswitch-common (<< 2.17~)"
+	],
+	"installedSize": 4808,
+	"maintainer": "Ubuntu Developers <ubuntu-devel-discuss@lists.ubuntu.com>",
+	"description": "Open vSwitch switch implementations",
+	"homepage": "http://openvswitch.org/",
+	"filename": "pool/main/o/openvswitch/openvswitch-switch_3.3.4-0ubuntu0.24.04.1_amd64.deb",
+	"size": 1607732,
+	"md5": "46cf44db8268259f38285a48d964b41c",
+	"sha1": "6b0d980641a53ff2e7df590d9752247a2492951f",
+	"sha256": "f5e5bb3d43d0e587033c093a2ec43befa75b53a164249317bc7d007650415292",
+	"sha512": "0e6d729c7e6b958fc71bd631ca392259df99a59f68d07d47e080cfd2c23c1bd4ef8b77aafd655adb62c76fc5a8579fee368076bcfa3902acbc5ecac5b6d5ee99",
+	"descriptionMd5": "ff569939b14d8f902d88039019fdf3ae"
+},{
+	"raw": {},
+	"required": [
+		"Filename",
+		"Size"
+	],
+	"package": "openvswitch-switch",
+	"source": "openvswitch",
 	"version": "3.3.0-1ubuntu1",
 	"section": "net",
 	"priority": "extra",

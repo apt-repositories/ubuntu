@@ -6,6 +6,37 @@
 	],
 	"package": "nova-compute-vmware",
 	"source": "nova",
+	"version": "3:31.0.0-0ubuntu1.1",
+	"section": "universe/net",
+	"priority": "extra",
+	"architecture": "all",
+	"depends": [
+		"genisoimage",
+		"python3-nova (= 3:31.0.0-0ubuntu1.1)",
+		"python3-oslo.vmware (>= 2.15.0)"
+	],
+	"conflicts": [
+		"nova-compute-hypervisor"
+	],
+	"installedSize": 21,
+	"maintainer": "Ubuntu Developers <ubuntu-devel-discuss@lists.ubuntu.com>",
+	"description": "OpenStack Compute - compute node (VMware)",
+	"homepage": "https://launchpad.net/nova",
+	"filename": "pool/universe/n/nova/nova-compute-vmware_31.0.0-0ubuntu1.1_all.deb",
+	"size": 2738,
+	"md5": "c21af915f0bbcd6e8d256e430ba9dade",
+	"sha1": "6b623a9415e8feb814257741b9f7df57789afea2",
+	"sha256": "4dcdd52f09a9f29a1b2a5a8479096e31bcc761bfc6049f68595edd388de4e9a6",
+	"sha512": "3bf02670ec45c8e7099a09bd901943f637b5f7fc7aa34a3949b60511a6d4b7fe450eb87b7a10a5d43a7999ef05eaf6052ed621d0f6690592c45a3521c6e00d17",
+	"descriptionMd5": "3246e65f6c94fc6b7eccb5b2f332c4f1"
+},{
+	"raw": {},
+	"required": [
+		"Filename",
+		"Size"
+	],
+	"package": "nova-compute-vmware",
+	"source": "nova",
 	"version": "3:31.0.0-0ubuntu1",
 	"section": "universe/net",
 	"priority": "extra",
