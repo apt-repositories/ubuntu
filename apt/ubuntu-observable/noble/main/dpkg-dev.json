@@ -58,6 +58,58 @@
 	],
 	"package": "dpkg-dev",
 	"source": "dpkg",
+	"version": "1.22.6ubuntu6.2",
+	"section": "utils",
+	"priority": "optional",
+	"architecture": "all",
+	"depends": [
+		"perl:any",
+		"libdpkg-perl (= 1.22.6ubuntu6.2)",
+		"tar (>= 1.28-1)",
+		"bzip2",
+		"xz-utils (>= 5.4.0)",
+		"patch (>= 2.7)",
+		"make",
+		"binutils",
+		"lto-disabled-list"
+	],
+	"recommends": [
+		"build-essential",
+		"gcc | c-compiler",
+		"fakeroot",
+		"gnupg | sq | sqop | pgpainless-cli | sequoia-chameleon-gnupg",
+		"gpgv | sq | sqop | pgpainless-cli | sequoia-chameleon-gnupg",
+		"libalgorithm-merge-perl"
+	],
+	"suggests": [
+		"debian-keyring"
+	],
+	"breaks": [
+		"debhelper (<< 10.10.1~)",
+		"libsop-java-java (<< 4.0.7~)",
+		"pgpainless-cli (<< 1.3.13~)",
+		"sq (<< 0.33.0~)",
+		"sqop (<< 0.27.2~)"
+	],
+	"installedSize": 1720,
+	"maintainer": "Ubuntu Developers <ubuntu-devel-discuss@lists.ubuntu.com>",
+	"description": "Debian package development tools",
+	"homepage": "https://wiki.debian.org/Teams/Dpkg",
+	"filename": "pool/main/d/dpkg/dpkg-dev_1.22.6ubuntu6.2_all.deb",
+	"size": 1074320,
+	"md5": "2d6967ad3e34ef4d2cbf725564d31967",
+	"sha1": "543191493258c727762f35facd29cbaff7084318",
+	"sha256": "5fec693e25f41d3d398e03a24f6ef21c2e536aeb33d3a5d9742f8eeee75ed8e5",
+	"sha512": "f6c6ee341fe4ee1d1e0703af17cc641591acce87e144429d11f3627b1680b24e273fbb65c7ee093189618176ffad2b86ba4c020891c035c9538ccfc9855f6dbc",
+	"descriptionMd5": "2eaf4b4a1cef9584869950f3a52106fc"
+},{
+	"raw": {},
+	"required": [
+		"Filename",
+		"Size"
+	],
+	"package": "dpkg-dev",
+	"source": "dpkg",
 	"version": "1.22.6ubuntu6",
 	"section": "utils",
 	"priority": "optional",
