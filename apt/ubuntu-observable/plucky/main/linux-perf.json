@@ -49,6 +49,49 @@
 	],
 	"package": "linux-perf",
 	"source": "linux",
+	"version": "6.14.0-32.32",
+	"section": "devel",
+	"priority": "optional",
+	"architecture": "amd64",
+	"depends": [
+		"libc6 (>= 2.38)",
+		"libdebuginfod1t64 (>= 0.180)",
+		"libdw1t64 (>= 0.161)",
+		"libelf1t64 (>= 0.144)",
+		"liblzma5 (>= 5.1.1alpha+20120614)",
+		"libnuma1 (>= 2.0.11)",
+		"libpython3.13 (>= 3.13.0~rc3)",
+		"libslang2 (>= 2.2.4)",
+		"libssl3t64 (>= 3.0.0)",
+		"libstdc++6 (>= 4.1.1)",
+		"libtraceevent1 (>= 1:1.3.0)",
+		"libzstd1 (>= 1.5.5)",
+		"zlib1g (>= 1:1.2.3.3)"
+	],
+	"replaces": [
+		"linux-tools-common (<< 6.14.0-8~)"
+	],
+	"breaks": [
+		"linux-tools-common (<< 6.14.0-8~)"
+	],
+	"installedSize": 21074,
+	"maintainer": "Ubuntu Kernel Team <kernel-team@lists.ubuntu.com>",
+	"description": "Performance analysis tools for Linux",
+	"filename": "pool/main/l/linux/linux-perf_6.14.0-32.32_amd64.deb",
+	"size": 4221530,
+	"md5": "602f78a76fee9fcc3a329099738571e8",
+	"sha1": "05a658382cf3437725a094e4c7ca86009e6a7adb",
+	"sha256": "eb338a0d898d6a18122473a79e068a5534a575ae9aef540d185e28e531295422",
+	"sha512": "bd0cccec46a891c5e531665982176ea32857a55b840b5ec70fcfcff74daa9b167d4f75b4f445f27243d794cfa4c70e3cc0f3b542aac78c1e15b0b4463fc33928",
+	"descriptionMd5": "45606e9d627e3f1994e080343111bf38"
+},{
+	"raw": {},
+	"required": [
+		"Filename",
+		"Size"
+	],
+	"package": "linux-perf",
+	"source": "linux",
 	"version": "6.14.0-15.15",
 	"section": "devel",
 	"priority": "optional",
