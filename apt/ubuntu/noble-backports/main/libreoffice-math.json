@@ -6,16 +6,14 @@
 	],
 	"package": "libreoffice-math",
 	"source": "libreoffice",
-	"version": "4:24.8.7-0ubuntu0.24.10.1~bpo24.04.1",
+	"version": "4:25.2.6-0ubuntu0.25.04.1~bpo24.04.1",
 	"section": "editors",
 	"priority": "optional",
 	"architecture": "amd64",
 	"depends": [
 		"fonts-opensymbol (>= 2:102.11)",
-		"libreoffice-common (>= 1:7.0.0~alpha~)",
-		"libreoffice-core (= 4:24.8.7-0ubuntu0.24.10.1~bpo24.04.1)",
-		"libreoffice-uiconfig-math (= 4:24.8.7-0ubuntu0.24.10.1~bpo24.04.1)",
-		"ucf",
+		"libreoffice-core (= 4:25.2.6-0ubuntu0.25.04.1~bpo24.04.1)",
+		"libreoffice-uiconfig-math (= 4:25.2.6-0ubuntu0.25.04.1~bpo24.04.1)",
 		"libc6 (>= 2.32)",
 		"libgcc-s1 (>= 3.0)",
 		"libicu74 (>= 74.1-1~)",
@@ -26,21 +24,25 @@
 		"libuno-salhelpergcc3-3t64 (>= 1.4.0)",
 		"uno-libs-private"
 	],
+	"preDepends": [
+		"ucf",
+		"libreoffice-common (>= 4:25.2.1~rc1-3~)"
+	],
 	"replaces": [
 		"libreoffice-common (<< 1:6.4.2~rc1~)"
 	],
 	"breaks": [
 		"libreoffice-common (<< 1:6.4.2~rc1~)"
 	],
-	"installedSize": 2043,
+	"installedSize": 2044,
 	"maintainer": "Ubuntu Developers <ubuntu-devel-discuss@lists.ubuntu.com>",
 	"description": "office productivity suite -- equation editor",
 	"homepage": "http://www.libreoffice.org",
-	"filename": "pool/main/libr/libreoffice/libreoffice-math_24.8.7-0ubuntu0.24.10.1~bpo24.04.1_amd64.deb",
-	"size": 570972,
-	"md5": "7353c2a27354dc88b11a563e48bf32c1",
-	"sha1": "714dd1dc11ca13ad583eb8dae52a2affef4b639e",
-	"sha256": "f8a20ce6bd3039eb09b4604a4a2278b3b0827ca0d0cd9ba0c8177acfbaf4f962",
-	"sha512": "9785b0b6ece939cbeb624faf42ea391dfe218d3cb9d9ab706c90ab0d738c99bc52b87c212dc9aa0d39b6891fa70a4f85c0adb8481c504b2f8d77dc578c23497a",
+	"filename": "pool/main/libr/libreoffice/libreoffice-math_25.2.6-0ubuntu0.25.04.1~bpo24.04.1_amd64.deb",
+	"size": 573832,
+	"md5": "2f2d8f37d6a7eaba6b2e25b45f3447ff",
+	"sha1": "a1871b3eb3bc299ce84e22b77ffea66acbeea302",
+	"sha256": "1658aae42908ba49c445008b983293b4197579a20686ea00bf82755f23eb7e92",
+	"sha512": "26223f3747542a32e9ff93c3c3caeed4a6bded0640f2c78b9f759edfe8efa0734603a3c83e2fc036bc5e714f8309ac1dbee09296d2beab57b535cf3a4521a3b8",
 	"descriptionMd5": "66f3b39e514cc02ac689ec67f6ed274a"
 }

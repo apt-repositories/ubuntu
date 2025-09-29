@@ -6,15 +6,13 @@
 	],
 	"package": "libreoffice-writer-nogui",
 	"source": "libreoffice",
-	"version": "4:24.8.7-0ubuntu0.24.10.1~bpo24.04.1",
+	"version": "4:25.2.6-0ubuntu0.25.04.1~bpo24.04.1",
 	"section": "universe/editors",
 	"priority": "optional",
 	"architecture": "amd64",
 	"depends": [
-		"libreoffice-base-core (= 4:24.8.7-0ubuntu0.24.10.1~bpo24.04.1)",
-		"libreoffice-common (>= 1:7.0.0~alpha~)",
-		"libreoffice-core-nogui (= 4:24.8.7-0ubuntu0.24.10.1~bpo24.04.1) | libreoffice-core (= 4:24.8.7-0ubuntu0.24.10.1~bpo24.04.1)",
-		"ucf",
+		"libreoffice-base-core (= 4:25.2.6-0ubuntu0.25.04.1~bpo24.04.1)",
+		"libreoffice-core-nogui (= 4:25.2.6-0ubuntu0.25.04.1~bpo24.04.1) | libreoffice-core (= 4:25.2.6-0ubuntu0.25.04.1~bpo24.04.1)",
 		"libabw-0.1-1",
 		"libc6 (>= 2.38)",
 		"libe-book-0.1-1",
@@ -37,6 +35,10 @@
 		"uno-libs-private",
 		"zlib1g (>= 1:1.1.4)"
 	],
+	"preDepends": [
+		"ucf",
+		"libreoffice-common (>= 4:25.2.1~rc1-3~)"
+	],
 	"recommends": [
 		"libreoffice-math-nogui"
 	],
@@ -44,7 +46,7 @@
 		"fonts-crosextra-caladea",
 		"fonts-crosextra-carlito",
 		"libreoffice-base",
-		"libreoffice-java-common (>= 4:24.8.7~)",
+		"libreoffice-java-common (>= 4:25.2.6~)",
 		"default-jre (>= 2:1.8) | java-runtime (>= 8) | java8-runtime | jre"
 	],
 	"replaces": [
@@ -57,16 +59,16 @@
 	"conflicts": [
 		"libreoffice-writer"
 	],
-	"installedSize": 32585,
+	"installedSize": 32745,
 	"maintainer": "Ubuntu Developers <ubuntu-devel-discuss@lists.ubuntu.com>",
 	"description": "office productivity suite -- word processor (no GUI variant)",
 	"homepage": "http://www.libreoffice.org",
-	"filename": "pool/universe/libr/libreoffice/libreoffice-writer-nogui_24.8.7-0ubuntu0.24.10.1~bpo24.04.1_amd64.deb",
-	"size": 10113330,
-	"md5": "766539374a26e8590acb401fbaa3dd97",
-	"sha1": "e605313e58aed6b5f17c9734213dae178428d5e2",
-	"sha256": "afded890c4dba2112bc0d4d27f1afed6cc593a05ae175f66a391c09019142f56",
-	"sha512": "fc720f55f7cc6ccfd56193ba61f19f2e992a6518da2ffd544432e4451e5d59bcf0b3b26ec66d830199e9acf97aa7b1d0c94cb91b0aa70bef1f5d24683a0abd6e",
+	"filename": "pool/universe/libr/libreoffice/libreoffice-writer-nogui_25.2.6-0ubuntu0.25.04.1~bpo24.04.1_amd64.deb",
+	"size": 10197762,
+	"md5": "1138143338a40635f8a0abee71900f39",
+	"sha1": "f715d656633b56ef61f7205fa1eb7bbd5e0aa11b",
+	"sha256": "207346926310f49c43d5e6060d2c865c6999ed7f51e6a72579e6101eb988f743",
+	"sha512": "8aba088aad508dc7e7d73b930167a1bf293d0c3f065b5e6478827d869a081816401f16c5743368e43dff4b0948c7a7e77ad046b21a7f2117cec8623ca838ca93",
 	"descriptionMd5": "963dc225bb14f9e5974345a7995f16a7"
 },{
 	"raw": {},

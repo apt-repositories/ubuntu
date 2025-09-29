@@ -6,17 +6,19 @@
 	],
 	"package": "libreoffice-l10n-kn",
 	"source": "libreoffice",
-	"version": "4:24.8.7-0ubuntu0.24.10.1~bpo24.04.1",
+	"version": "4:25.2.6-0ubuntu0.25.04.1~bpo24.04.1",
 	"section": "localization",
 	"priority": "optional",
 	"architecture": "all",
 	"depends": [
-		"libreoffice-common (>= 1:7.0.0~alpha~)",
-		"locales | locales-all",
-		"ucf"
+		"locales | locales-all"
+	],
+	"preDepends": [
+		"ucf",
+		"libreoffice-common (>= 4:25.2.1~rc1-3~)"
 	],
 	"recommends": [
-		"libreoffice-core (>> 4:24.8.7)"
+		"libreoffice-core (>> 4:25.2.6)"
 	],
 	"suggests": [
 		"hunspell-dictionary-kn | myspell-dictionary-kn | libreoffice-spellcheck-kn",
@@ -25,15 +27,15 @@
 		"libreoffice-help-kn",
 		"mythes-kn"
 	],
-	"installedSize": 3110,
+	"installedSize": 2648,
 	"maintainer": "Ubuntu Developers <ubuntu-devel-discuss@lists.ubuntu.com>",
 	"description": "office productivity suite -- Kannada language package",
 	"homepage": "http://www.libreoffice.org",
-	"filename": "pool/main/libr/libreoffice/libreoffice-l10n-kn_24.8.7-0ubuntu0.24.10.1~bpo24.04.1_all.deb",
-	"size": 426924,
-	"md5": "a2588629fdbc5979c85f5b3b54e7a1d3",
-	"sha1": "1d3040246ac4d6be8388a903760534d645c6e676",
-	"sha256": "68ad839cb622a91bc7002f6c371a2592ccbe7c7098007ee8b110336b751d3faf",
-	"sha512": "aaf947d4f5b7e8fd62669759f8ba8e7deafadbcce0f02efedc9c3bced5412d631fa5f3aad48e1ca07b519d55e9bf168d71a16612469f25ab33d14508fb8a752e",
+	"filename": "pool/main/libr/libreoffice/libreoffice-l10n-kn_25.2.6-0ubuntu0.25.04.1~bpo24.04.1_all.deb",
+	"size": 425484,
+	"md5": "ce1f7a6360ab0330d8165cc454609959",
+	"sha1": "03fa3ecf422f21eac651b90ef3e7206d8375ef80",
+	"sha256": "e07d4c4c07ce63b66a09fadbc105f6e7904ac527ef7d065ca35c72802ddc7005",
+	"sha512": "1484a2695572f7884a7aefdf6a9fd0235e7d48dee622c518019831b9e4e69ea0d11502a620517d9c11f475154ec9ce296ca7a243e246631a20688ce6ce9d4afd",
 	"descriptionMd5": "5c250ecb97123c4ac162dfd656bbe62e"
 }

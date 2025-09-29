@@ -6,13 +6,13 @@
 	],
 	"package": "libreoffice-sdbc-hsqldb",
 	"source": "libreoffice",
-	"version": "4:24.8.7-0ubuntu0.24.10.1~bpo24.04.1",
+	"version": "4:25.2.6-0ubuntu0.25.04.1~bpo24.04.1",
 	"section": "universe/database",
 	"priority": "optional",
 	"architecture": "amd64",
 	"depends": [
 		"libreoffice-core-nogui | libreoffice-core",
-		"libreoffice-java-common (>= 4:24.8.7~)",
+		"libreoffice-java-common (>= 4:25.2.6~)",
 		"default-jre (>= 2:1.8) | java-runtime (>= 8) | java8-runtime | jre",
 		"libhsqldb1.8.0-java",
 		"libc6 (>= 2.32)",
@@ -24,20 +24,27 @@
 		"libuno-salhelpergcc3-3t64 (>= 1.4.0)",
 		"uno-libs-private"
 	],
+	"preDepends": [
+		"ucf",
+		"libreoffice-common (>= 4:25.2.1~rc1-3~)"
+	],
+	"replaces": [
+		"libreoffice-common (= 4:24.8.5-1)"
+	],
 	"enhances": [
 		"libreoffice-base-drivers"
 	],
-	"installedSize": 498,
+	"installedSize": 508,
 	"maintainer": "Ubuntu Developers <ubuntu-devel-discuss@lists.ubuntu.com>",
-	"description": "HSQLDB SDBC driver for LibreOffice",
+	"description": "embedded HSQLDB SDBC driver for LibreOffice",
 	"homepage": "http://www.libreoffice.org",
-	"filename": "pool/universe/libr/libreoffice/libreoffice-sdbc-hsqldb_24.8.7-0ubuntu0.24.10.1~bpo24.04.1_amd64.deb",
-	"size": 134534,
-	"md5": "2927ca83c7e6776a9027539182a15742",
-	"sha1": "f582da8b8516cd47d39d8befe714a9f4048fcaa3",
-	"sha256": "d8ecc96f86506340fd418c4d3ebb2d7b942f158d10ef30857449447cad1df731",
-	"sha512": "922cd0f9079d449caff52b2a5f8ab0d0f345f762b24dd0cb7e05eee87ff19a7229c663e73022a56b8333b0333d55ea9d7377a420d34d7ffbce829525aa4cd9a4",
-	"descriptionMd5": "54ed9715a25b1dae2ad2d3a9b6838a65"
+	"filename": "pool/universe/libr/libreoffice/libreoffice-sdbc-hsqldb_25.2.6-0ubuntu0.25.04.1~bpo24.04.1_amd64.deb",
+	"size": 134728,
+	"md5": "ada18920dec12525e8463b0ebde0e70f",
+	"sha1": "fd0f9fabc04741fd8d9df622f4a940ac15e79e88",
+	"sha256": "c68b02f5c06500ae3f2dc5bfc3e2a2a86a7a58c6e8f0f895418df99d08a4e253",
+	"sha512": "15fe11447028db05a8d93f20ae055aca114659661dd7be1ed4f97effa579d7c8374dd88267e2d9646faa4625b720ece6f3a1b5d5ac4406da3920694ebe6e3eb2",
+	"descriptionMd5": "6f134726a575672413c47417341a5e32"
 },{
 	"raw": {},
 	"required": [

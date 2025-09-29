@@ -6,16 +6,14 @@
 	],
 	"package": "libreoffice-impress",
 	"source": "libreoffice",
-	"version": "4:24.8.7-0ubuntu0.24.10.1~bpo24.04.1",
+	"version": "4:25.2.6-0ubuntu0.25.04.1~bpo24.04.1",
 	"section": "editors",
 	"priority": "optional",
 	"architecture": "amd64",
 	"depends": [
-		"libreoffice-common (>= 1:7.0.0~alpha~)",
-		"libreoffice-core (= 4:24.8.7-0ubuntu0.24.10.1~bpo24.04.1)",
-		"libreoffice-draw (= 4:24.8.7-0ubuntu0.24.10.1~bpo24.04.1)",
-		"libreoffice-uiconfig-impress (= 4:24.8.7-0ubuntu0.24.10.1~bpo24.04.1)",
-		"ucf",
+		"libreoffice-core (= 4:25.2.6-0ubuntu0.25.04.1~bpo24.04.1)",
+		"libreoffice-draw (= 4:25.2.6-0ubuntu0.25.04.1~bpo24.04.1)",
+		"libreoffice-uiconfig-impress (= 4:25.2.6-0ubuntu0.25.04.1~bpo24.04.1)",
 		"libc6 (>= 2.38)",
 		"libepoxy0 (>= 1.0)",
 		"libetonyek-0.1-1",
@@ -25,10 +23,14 @@
 		"librevenge-0.0-0",
 		"libstdc++6 (>= 13.1)",
 		"libuno-cppu3t64 (>= 4.4.0~alpha)",
-		"libuno-cppuhelpergcc3-3t64 (>= 4.0.0~alpha)",
+		"libuno-cppuhelpergcc3-3t64 (>= 1:7.4.0~alpha)",
 		"libuno-sal3t64 (>= 1:7.3.0~beta1)",
 		"libuno-salhelpergcc3-3t64 (>= 1.4.0)",
 		"uno-libs-private"
+	],
+	"preDepends": [
+		"ucf",
+		"libreoffice-common (>= 4:25.2.1~rc1-3~)"
 	],
 	"suggests": [
 		"bluez"
@@ -43,15 +45,15 @@
 	"conflicts": [
 		"libreoffice-ogltrans (<< 1:6.1.4-2~)"
 	],
-	"installedSize": 3167,
+	"installedSize": 3108,
 	"maintainer": "Ubuntu Developers <ubuntu-devel-discuss@lists.ubuntu.com>",
 	"description": "office productivity suite -- presentation",
 	"homepage": "http://www.libreoffice.org",
-	"filename": "pool/main/libr/libreoffice/libreoffice-impress_24.8.7-0ubuntu0.24.10.1~bpo24.04.1_amd64.deb",
-	"size": 894304,
-	"md5": "b4fa2225619d3fc52769e8df67b1d3b2",
-	"sha1": "6e2cad975a6daade1f58caf0d510fcb7834f8e1f",
-	"sha256": "e7856c0b6eb8426d7fe7ab28bb3c090ce6b96ed2cfd5dce4e7f6bf8caaa5d87f",
-	"sha512": "4251dbb56b15875181f3234b560b58b79c1f9200ddc8d20cb8e43fdfe42698d697788740d330331e5fb3fe514d2dc33ff83ab4ecc50fddd6b95f05cee424181b",
+	"filename": "pool/main/libr/libreoffice/libreoffice-impress_25.2.6-0ubuntu0.25.04.1~bpo24.04.1_amd64.deb",
+	"size": 902528,
+	"md5": "dbab70d08e00f804da897283c3c955ed",
+	"sha1": "c80c7f2de8a459473818d27f346268394e700a46",
+	"sha256": "f2d39ea3f397d8fc186a80525aba2fd7153d070677ea37c3ef8424de01dc4e74",
+	"sha512": "cb18a50c0d900007c9c613c1b9771fd38ec2f6f8619afe7af43221bfa085c44485632ecb0de3665295b9247ff6f970ff0318ffcfa56ea565a303ef28de24fc98",
 	"descriptionMd5": "472668fa8a618a3bed701d2301185f86"
 }

@@ -6,17 +6,19 @@
 	],
 	"package": "libreoffice-l10n-tn",
 	"source": "libreoffice",
-	"version": "4:24.8.7-0ubuntu0.24.10.1~bpo24.04.1",
+	"version": "4:25.2.6-0ubuntu0.25.04.1~bpo24.04.1",
 	"section": "localization",
 	"priority": "optional",
 	"architecture": "all",
 	"depends": [
-		"libreoffice-common (>= 1:7.0.0~alpha~)",
-		"locales | locales-all",
-		"ucf"
+		"locales | locales-all"
+	],
+	"preDepends": [
+		"ucf",
+		"libreoffice-common (>= 4:25.2.1~rc1-3~)"
 	],
 	"recommends": [
-		"libreoffice-core (>> 4:24.8.7)"
+		"libreoffice-core (>> 4:25.2.6)"
 	],
 	"suggests": [
 		"hunspell-dictionary-tn | myspell-dictionary-tn | libreoffice-spellcheck-tn",
@@ -25,15 +27,15 @@
 		"libreoffice-help-tn",
 		"mythes-tn"
 	],
-	"installedSize": 1620,
+	"installedSize": 1338,
 	"maintainer": "Ubuntu Developers <ubuntu-devel-discuss@lists.ubuntu.com>",
 	"description": "office productivity suite -- Tswana language package",
 	"homepage": "http://www.libreoffice.org",
-	"filename": "pool/main/libr/libreoffice/libreoffice-l10n-tn_24.8.7-0ubuntu0.24.10.1~bpo24.04.1_all.deb",
-	"size": 212724,
-	"md5": "97e93e822dfbdb6134ab5eaf50872c7a",
-	"sha1": "89a1d580b50aefea1b8d9a21b001244d6d0d8a0b",
-	"sha256": "ce81e712e1c7602f25d791dc5b08689d848540b6bfc9fa559bab81471cea0878",
-	"sha512": "814700ffc2beeb853928bd95f7c15cea22c1b432a076f12911823412e5e20bbb349686b5b096c393137c07a6dcaf4335c1e69bc8cfdd4ceedc623ffb0148c48d",
+	"filename": "pool/main/libr/libreoffice/libreoffice-l10n-tn_25.2.6-0ubuntu0.25.04.1~bpo24.04.1_all.deb",
+	"size": 212910,
+	"md5": "8bb1ca6af8ccf453f10a1d78176f887a",
+	"sha1": "878ad7a45bbbe86729ba06632ee529d7fc807a77",
+	"sha256": "12ddca61dbf45b423d711119efc400b06c92eaa3d037846e55db6f455af93bd4",
+	"sha512": "bd32af1165a969b127abadcf52364b205495a5e5eeb699ddc4c8d4b705aa8431f92c41f274d3304113335a45947bcb987b451f5b45237b9dedc496daf9801e9b",
 	"descriptionMd5": "7da81d27f41218d11fbd8aabceec792c"
 }

@@ -6,18 +6,20 @@
 	],
 	"package": "libreoffice-l10n-bn",
 	"source": "libreoffice",
-	"version": "4:24.8.7-0ubuntu0.24.10.1~bpo24.04.1",
+	"version": "4:25.2.6-0ubuntu0.25.04.1~bpo24.04.1",
 	"section": "localization",
 	"priority": "optional",
 	"architecture": "all",
 	"depends": [
-		"libreoffice-common (>= 1:7.0.0~alpha~)",
-		"locales | locales-all",
-		"ucf"
+		"locales | locales-all"
+	],
+	"preDepends": [
+		"ucf",
+		"libreoffice-common (>= 4:25.2.1~rc1-3~)"
 	],
 	"recommends": [
 		"fonts-beng",
-		"libreoffice-core (>> 4:24.8.7)"
+		"libreoffice-core (>> 4:25.2.6)"
 	],
 	"suggests": [
 		"hunspell-dictionary-bn | myspell-dictionary-bn | libreoffice-spellcheck-bn",
@@ -26,15 +28,15 @@
 		"libreoffice-help-bn",
 		"mythes-bn"
 	],
-	"installedSize": 6414,
+	"installedSize": 5591,
 	"maintainer": "Ubuntu Developers <ubuntu-devel-discuss@lists.ubuntu.com>",
 	"description": "office productivity suite -- Bengali language package",
 	"homepage": "http://www.libreoffice.org",
-	"filename": "pool/main/libr/libreoffice/libreoffice-l10n-bn_24.8.7-0ubuntu0.24.10.1~bpo24.04.1_all.deb",
-	"size": 669698,
-	"md5": "43639b396fd1fde1b49a918956819dd1",
-	"sha1": "e2af7c131f2c0a3484e8ce8e8985094c38a62d77",
-	"sha256": "963a981ccf890dcf756e3300097a97c2bfd066d498299eba632c805465eba7ac",
-	"sha512": "e79665cb8c262dfa6a3c3ca1f98ceb6a781e9c69287477a162136664d9728aadfc97b044a1c1326d780ddf3b76182e76ee7816ab579808d82201f59c824617f9",
+	"filename": "pool/main/libr/libreoffice/libreoffice-l10n-bn_25.2.6-0ubuntu0.25.04.1~bpo24.04.1_all.deb",
+	"size": 662144,
+	"md5": "d8acc4c30e0385dce95b48e3321cff7d",
+	"sha1": "0a543688c400c73f4c33bd052382c4b12b059230",
+	"sha256": "ba5cfb7f6691e1066567af316f8db24f7c36717266f35062f5ecbd668a324fd4",
+	"sha512": "730f4e315934f1b62dfebc8dc9161235194254f252a0b3486d1531bcf24152899bee207536c24c0953461618393ea08872b7ce1132e30ab3058b473e33e2b4a8",
 	"descriptionMd5": "00d1921e153b39622cb04e7f66795716"
 }

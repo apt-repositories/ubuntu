@@ -6,17 +6,19 @@
 	],
 	"package": "libreoffice-l10n-nb",
 	"source": "libreoffice",
-	"version": "4:24.8.7-0ubuntu0.24.10.1~bpo24.04.1",
+	"version": "4:25.2.6-0ubuntu0.25.04.1~bpo24.04.1",
 	"section": "localization",
 	"priority": "optional",
 	"architecture": "all",
 	"depends": [
-		"libreoffice-common (>= 1:7.0.0~alpha~)",
-		"locales | locales-all",
-		"ucf"
+		"locales | locales-all"
+	],
+	"preDepends": [
+		"ucf",
+		"libreoffice-common (>= 4:25.2.1~rc1-3~)"
 	],
 	"recommends": [
-		"libreoffice-core (>> 4:24.8.7)"
+		"libreoffice-core (>> 4:25.2.6)"
 	],
 	"suggests": [
 		"hunspell-dictionary-nb | myspell-dictionary-nb | libreoffice-spellcheck-nb",
@@ -25,15 +27,15 @@
 		"libreoffice-help-nb",
 		"mythes-nb"
 	],
-	"installedSize": 4263,
+	"installedSize": 4017,
 	"maintainer": "Ubuntu Developers <ubuntu-devel-discuss@lists.ubuntu.com>",
 	"description": "office productivity suite -- Norwegian_bokmal language package",
 	"homepage": "http://www.libreoffice.org",
-	"filename": "pool/main/libr/libreoffice/libreoffice-l10n-nb_24.8.7-0ubuntu0.24.10.1~bpo24.04.1_all.deb",
-	"size": 847954,
-	"md5": "a07bc8fbea3b69080f62032253c62688",
-	"sha1": "186ba00a80e3fbbca591e1c0e0613177092de346",
-	"sha256": "af195506e4d4ff177610dbe933de021dc0ae11864f29197875e521d8a59d91c6",
-	"sha512": "c63b11fba3c981b955b1e66062561575f57b0de14e5f6213bb6556f6a1549b79f16370170c657a8b267a59c02704b46b2b49493c7fd9f2f4b963a8967eaa1c8e",
+	"filename": "pool/main/libr/libreoffice/libreoffice-l10n-nb_25.2.6-0ubuntu0.25.04.1~bpo24.04.1_all.deb",
+	"size": 857462,
+	"md5": "144d34e91e2bbc69a7b4f3ac56e2e2e1",
+	"sha1": "2580838b5be129c512c667260bb625204e60f752",
+	"sha256": "acb51d04762c1f97d2660efbb3f9ac0534073eafc351242795d6e9fab18d8484",
+	"sha512": "27dabfe7664083f323c341e25b64dcbae8f94f288e8cd55820621c41f26c6ccbf981f03b6c6025c972f45c462630736922d8d9e84a98d84650e52362fbd3732a",
 	"descriptionMd5": "9ec98f81a0201acd8a280f74f7aea258"
 }

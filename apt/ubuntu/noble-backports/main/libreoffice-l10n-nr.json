@@ -6,17 +6,19 @@
 	],
 	"package": "libreoffice-l10n-nr",
 	"source": "libreoffice",
-	"version": "4:24.8.7-0ubuntu0.24.10.1~bpo24.04.1",
+	"version": "4:25.2.6-0ubuntu0.25.04.1~bpo24.04.1",
 	"section": "localization",
 	"priority": "optional",
 	"architecture": "all",
 	"depends": [
-		"libreoffice-common (>= 1:7.0.0~alpha~)",
-		"locales | locales-all",
-		"ucf"
+		"locales | locales-all"
+	],
+	"preDepends": [
+		"ucf",
+		"libreoffice-common (>= 4:25.2.1~rc1-3~)"
 	],
 	"recommends": [
-		"libreoffice-core (>> 4:24.8.7)"
+		"libreoffice-core (>> 4:25.2.6)"
 	],
 	"suggests": [
 		"hunspell-dictionary-nr | myspell-dictionary-nr | libreoffice-spellcheck-nr",
@@ -25,15 +27,15 @@
 		"libreoffice-help-nr",
 		"mythes-nr"
 	],
-	"installedSize": 1671,
+	"installedSize": 1389,
 	"maintainer": "Ubuntu Developers <ubuntu-devel-discuss@lists.ubuntu.com>",
 	"description": "office productivity suite -- Ndebele language package",
 	"homepage": "http://www.libreoffice.org",
-	"filename": "pool/main/libr/libreoffice/libreoffice-l10n-nr_24.8.7-0ubuntu0.24.10.1~bpo24.04.1_all.deb",
-	"size": 224820,
-	"md5": "151e0486af3c6bc6dbb1dacea8feca60",
-	"sha1": "fffffd47c517870d05d05903b65a280db705828d",
-	"sha256": "b50c0c7d7987b78a8c4747050a5da09c0565902f3074d90193f59f359f434a15",
-	"sha512": "292019842a920102f0b180fcbe6f64ce3a622c7fde1e0f3abbbfe5a83d0bf40c4f9b1b9ac61a126b4abca6d2d0f03a5f5981f1a9c114b1a07efa2b1a9fb1f0ef",
+	"filename": "pool/main/libr/libreoffice/libreoffice-l10n-nr_25.2.6-0ubuntu0.25.04.1~bpo24.04.1_all.deb",
+	"size": 225564,
+	"md5": "96868d4e65ab01f3e8eb4b802caa1646",
+	"sha1": "7f3ee5728e474eeffe895619dae72f3ce9b9e6f7",
+	"sha256": "790e0120861cbff0367a45d082635ca206a042770478d931abeee7f6b1697d17",
+	"sha512": "51a9dc74d458ac465bad1cfba1007f130b148fb79bad3390303d55496dbafb5b3183abfb44c18165c9b1eaa14da9b2ea4aea162591084144d384086a0d4cb5fc",
 	"descriptionMd5": "43bc32c188cfe5924ea7f2995a36995d"
 }
