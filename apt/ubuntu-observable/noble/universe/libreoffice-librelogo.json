@@ -6,27 +6,29 @@
 	],
 	"package": "libreoffice-librelogo",
 	"source": "libreoffice",
-	"version": "4:24.8.7-0ubuntu0.24.10.1~bpo24.04.1",
+	"version": "4:25.2.6-0ubuntu0.25.04.1~bpo24.04.1",
 	"section": "universe/misc",
 	"priority": "optional",
 	"architecture": "all",
 	"depends": [
-		"libreoffice-common (>= 1:7.0.0~alpha)",
 		"libreoffice-core",
 		"libreoffice-script-provider-python",
-		"libreoffice-writer",
-		"ucf"
+		"libreoffice-writer"
 	],
-	"installedSize": 881,
+	"preDepends": [
+		"ucf",
+		"libreoffice-common (>= 4:25.2.1~rc1-3~)"
+	],
+	"installedSize": 887,
 	"maintainer": "Ubuntu Developers <ubuntu-devel-discuss@lists.ubuntu.com>",
 	"description": "Logo-like programming language for LibreOffice",
 	"homepage": "http://librelogo.org",
-	"filename": "pool/universe/libr/libreoffice/libreoffice-librelogo_24.8.7-0ubuntu0.24.10.1~bpo24.04.1_all.deb",
-	"size": 183766,
-	"md5": "a917480ed5a829115287efb449000e9e",
-	"sha1": "f655a170f0a42e903e1804ad2c3d6a0749692e80",
-	"sha256": "e8ae74ae930d9e90fcde672fa8327e6cb2ef38952015fb8144ebb433f9a013fd",
-	"sha512": "b455a5d0f586820db5eb52b24e3ec2d6e5493f3b849bbdab5bd0177eae642b2a792a9c64a346c4d89723d01ae9acbbe7737647c1d9737d1ecf9227ef104d7bc7",
+	"filename": "pool/universe/libr/libreoffice/libreoffice-librelogo_25.2.6-0ubuntu0.25.04.1~bpo24.04.1_all.deb",
+	"size": 184360,
+	"md5": "588645682b0cf59f471e92eaac5602a5",
+	"sha1": "29270bb09e35db3e867114920b81f519848b38be",
+	"sha256": "29acb519728c7fff61b21a78bd2735a136081b2543cf656187abcbf50d619594",
+	"sha512": "fc1a86b2f8a2c5b6f2562d400bb089c6101ac61dd28fa73b4bc09b0fdf265dea8dfc7f3de1abc000797f8e11a402bcfbd37cb22c3eddd7a42da6824d80ed2677",
 	"descriptionMd5": "cdaef056eb365a457e28772fa2fd9de6"
 },{
 	"raw": {},

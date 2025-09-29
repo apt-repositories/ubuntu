@@ -6,23 +6,25 @@
 	],
 	"package": "libreoffice-gnome",
 	"source": "libreoffice",
-	"version": "4:24.8.7-0ubuntu0.24.10.1~bpo24.04.1",
+	"version": "4:25.2.6-0ubuntu0.25.04.1~bpo24.04.1",
 	"section": "gnome",
 	"priority": "optional",
 	"architecture": "amd64",
 	"depends": [
-		"libreoffice-common (>= 1:7.0.0~alpha~)",
-		"libreoffice-core (= 4:24.8.7-0ubuntu0.24.10.1~bpo24.04.1)",
-		"ucf",
+		"libreoffice-core (= 4:25.2.6-0ubuntu0.25.04.1~bpo24.04.1)",
 		"libc6 (>= 2.32)",
 		"libgcc-s1 (>= 3.0)",
 		"libglib2.0-0t64 (>= 2.79.0)",
 		"libstdc++6 (>= 5)",
 		"libuno-cppu3t64 (>= 4.4.0~alpha)",
 		"libuno-cppuhelpergcc3-3t64 (>= 4.0.0~alpha)",
-		"libuno-sal3t64 (>= 1:7.3.0~beta1)",
+		"libuno-sal3t64 (>= 5.1.0~alpha)",
 		"libuno-salhelpergcc3-3t64 (>= 1.4.0)",
 		"uno-libs-private"
+	],
+	"preDepends": [
+		"ucf",
+		"libreoffice-common (>= 4:25.2.1~rc1-3~)"
 	],
 	"recommends": [
 		"libreoffice-style-elementary",
@@ -43,16 +45,16 @@
 	"conflicts": [
 		"libreoffice-gtk3 (<< 1:7.2.0~)"
 	],
-	"installedSize": 299,
+	"installedSize": 300,
 	"maintainer": "Ubuntu Developers <ubuntu-devel-discuss@lists.ubuntu.com>",
 	"description": "office productivity suite -- GNOME integration",
 	"homepage": "http://www.libreoffice.org",
-	"filename": "pool/main/libr/libreoffice/libreoffice-gnome_24.8.7-0ubuntu0.24.10.1~bpo24.04.1_amd64.deb",
-	"size": 72136,
-	"md5": "ff6ee4c92be12638beaf8cf298f2b447",
-	"sha1": "481b8e3cbd78b97573bcf1180937a0d10f950ee6",
-	"sha256": "9a217d4a3bff63fb17dd075ba2f634bc17a213d48c4c180c1b991b58544a2e11",
-	"sha512": "a3e8916e211444333dd90637fd6a7499f3a5cc993f2ec1afac3d5d0292230862e3a07d1520b30bef007195d0b174398b6f42fa783ab6a3f73bc316ffb82b46a9",
+	"filename": "pool/main/libr/libreoffice/libreoffice-gnome_25.2.6-0ubuntu0.25.04.1~bpo24.04.1_amd64.deb",
+	"size": 71572,
+	"md5": "a572e180342119d850a8a67d561709b2",
+	"sha1": "72c2ad9e3ace22b8b7865d661cb46215ee7cca40",
+	"sha256": "fa2ac4dc68eb425895de2b40df123f336f1c68fcf1b38ed745e3e8b78a3a239d",
+	"sha512": "f99a0893f5501707138267aca97584fb7f36418df3f8ff203ae70f238431f698659a3d5a497beec3e9642a5d5fe187ab0f0168a2896cdec07eec8d667f91663c",
 	"descriptionMd5": "c468d8fd91ddd9ba3bc4401d295be6e1"
 },{
 	"raw": {},

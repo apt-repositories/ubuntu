@@ -6,21 +6,19 @@
 	],
 	"package": "libreoffice-calc",
 	"source": "libreoffice",
-	"version": "4:24.8.7-0ubuntu0.24.10.1~bpo24.04.1",
+	"version": "4:25.2.6-0ubuntu0.25.04.1~bpo24.04.1",
 	"section": "editors",
 	"priority": "optional",
 	"architecture": "amd64",
 	"depends": [
-		"libreoffice-base-core (= 4:24.8.7-0ubuntu0.24.10.1~bpo24.04.1)",
-		"libreoffice-common (>= 1:7.0.0~alpha~)",
-		"libreoffice-core (= 4:24.8.7-0ubuntu0.24.10.1~bpo24.04.1)",
-		"libreoffice-uiconfig-calc (= 4:24.8.7-0ubuntu0.24.10.1~bpo24.04.1)",
-		"lp-solve",
+		"libreoffice-base-core (= 4:25.2.6-0ubuntu0.25.04.1~bpo24.04.1)",
+		"libreoffice-core (= 4:25.2.6-0ubuntu0.25.04.1~bpo24.04.1)",
+		"libreoffice-uiconfig-calc (= 4:25.2.6-0ubuntu0.25.04.1~bpo24.04.1)",
 		"debconf (>= 0.5) | debconf-2.0",
-		"ucf",
 		"libc6 (>= 2.38)",
+		"libcolamd3 (>= 1:7.0.1)",
 		"libetonyek-0.1-1",
-		"libgcc-s1 (>= 3.0)",
+		"libgcc-s1 (>= 4.0)",
 		"libicu74 (>= 74.1-1~)",
 		"libmwaw-0.3-3",
 		"libodfgen-0.1-1",
@@ -36,24 +34,30 @@
 		"libxml2 (>= 2.7.4)",
 		"uno-libs-private"
 	],
+	"preDepends": [
+		"ucf",
+		"libreoffice-common (>= 4:25.2.1~rc1-3~)"
+	],
 	"suggests": [
 		"ocl-icd-libopencl1 | mesa-opencl-icd | beignet-opencl-icd"
 	],
 	"replaces": [
-		"libreoffice-common (<< 1:6.4.2~rc1~)"
+		"libreoffice-common (<< 1:6.4.2~rc1~)",
+		"libreoffice-core (<< 4:25.2.1-3~)",
+		"libreoffice-core-nogui (<< 4:25.2.1-3~)"
 	],
 	"breaks": [
 		"libreoffice-common (<< 1:6.4.2~rc1~)"
 	],
-	"installedSize": 29697,
+	"installedSize": 30448,
 	"maintainer": "Ubuntu Developers <ubuntu-devel-discuss@lists.ubuntu.com>",
 	"description": "office productivity suite -- spreadsheet",
 	"homepage": "http://www.libreoffice.org",
-	"filename": "pool/main/libr/libreoffice/libreoffice-calc_24.8.7-0ubuntu0.24.10.1~bpo24.04.1_amd64.deb",
-	"size": 8892130,
-	"md5": "d6cd97d53265e935f3f171f5d97af1a5",
-	"sha1": "544662507893430fae9907348d3f5960fd91072e",
-	"sha256": "9d2b980379edc898bcbf1162ef8698c83baa1cc8e297339baf81e3471095a6fe",
-	"sha512": "25a834e1466b38ca0ad56c1a6203c6c47569638c8d502fa513171641f65e16e6125ed1804af8bf2dbb5469f47062937eeb3435e7204a59b9e1671a077fb86508",
+	"filename": "pool/main/libr/libreoffice/libreoffice-calc_25.2.6-0ubuntu0.25.04.1~bpo24.04.1_amd64.deb",
+	"size": 9225442,
+	"md5": "dc243216150cc208d0e9f6e7f9b6cdb0",
+	"sha1": "0e804f5595a1f228a8a0af16b9a2c9232e0a22fe",
+	"sha256": "353e21806b8b83fa41e60a6c1a9fbbf149301e49dc0dc304cab4bbfd77f23e8d",
+	"sha512": "01e0098a8bbf87e37742af3e6baf423da22efde06aa3bc11818c5b0179fb463f474a60f50c337d1d1ea01b0a71562392e4846b13464844ae71e06e8a5a955d56",
 	"descriptionMd5": "e809bbd7f91acfd0d9ad0f8fd5ed86a3"
 }

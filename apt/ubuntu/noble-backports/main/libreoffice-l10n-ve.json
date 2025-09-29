@@ -6,17 +6,19 @@
 	],
 	"package": "libreoffice-l10n-ve",
 	"source": "libreoffice",
-	"version": "4:24.8.7-0ubuntu0.24.10.1~bpo24.04.1",
+	"version": "4:25.2.6-0ubuntu0.25.04.1~bpo24.04.1",
 	"section": "localization",
 	"priority": "optional",
 	"architecture": "all",
 	"depends": [
-		"libreoffice-common (>= 1:7.0.0~alpha~)",
-		"locales | locales-all",
-		"ucf"
+		"locales | locales-all"
+	],
+	"preDepends": [
+		"ucf",
+		"libreoffice-common (>= 4:25.2.1~rc1-3~)"
 	],
 	"recommends": [
-		"libreoffice-core (>> 4:24.8.7)"
+		"libreoffice-core (>> 4:25.2.6)"
 	],
 	"suggests": [
 		"hunspell-dictionary-ve | myspell-dictionary-ve | libreoffice-spellcheck-ve",
@@ -25,15 +27,15 @@
 		"libreoffice-help-ve",
 		"mythes-ve"
 	],
-	"installedSize": 1699,
+	"installedSize": 1412,
 	"maintainer": "Ubuntu Developers <ubuntu-devel-discuss@lists.ubuntu.com>",
 	"description": "office productivity suite -- Venda language package",
 	"homepage": "http://www.libreoffice.org",
-	"filename": "pool/main/libr/libreoffice/libreoffice-l10n-ve_24.8.7-0ubuntu0.24.10.1~bpo24.04.1_all.deb",
-	"size": 228638,
-	"md5": "05dd4d969db8b7c17a8ddc289439a602",
-	"sha1": "7cc62fd47d9faf9753e494acf2ba07c593d3f7d1",
-	"sha256": "184b7686ab2aad588968a7c951281627cdb832035a9926ad24bb0d89ff8b5d8a",
-	"sha512": "979be753a83741ada67d7a2f12c25eb628f1f6af85fffb3ecdc540402e6531b8cebca74f571023673ce2757e0b7f1968abc92c42d15e0e51e37cd483dffc5add",
+	"filename": "pool/main/libr/libreoffice/libreoffice-l10n-ve_25.2.6-0ubuntu0.25.04.1~bpo24.04.1_all.deb",
+	"size": 229420,
+	"md5": "44309baf39c630bcf3c024f0b23fc5a8",
+	"sha1": "f3f4b6ca865120b8096a4e6a26e0e60e46e60017",
+	"sha256": "ba5723d46bfbb00879f133e7c878564a0f2bfd8f776c492a3aec66581e436691",
+	"sha512": "05ebabcd4a4bf745e3b1f8f86622e17d2eaf44488446ff119cb0df66c7d948d6ddc312a99181291467f5cd06c7bdf363edb322a7a222fcf87b99cc1428ff54d4",
 	"descriptionMd5": "7bb286307dfd6105c62d2c54772e83fd"
 }

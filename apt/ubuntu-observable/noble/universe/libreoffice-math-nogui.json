@@ -6,16 +6,14 @@
 	],
 	"package": "libreoffice-math-nogui",
 	"source": "libreoffice",
-	"version": "4:24.8.7-0ubuntu0.24.10.1~bpo24.04.1",
+	"version": "4:25.2.6-0ubuntu0.25.04.1~bpo24.04.1",
 	"section": "universe/editors",
 	"priority": "optional",
 	"architecture": "amd64",
 	"depends": [
 		"fonts-opensymbol (>= 2:102.11)",
-		"libreoffice-common (>= 1:7.0.0~alpha~)",
-		"libreoffice-core-nogui (= 4:24.8.7-0ubuntu0.24.10.1~bpo24.04.1) | libreoffice-core (= 4:24.8.7-0ubuntu0.24.10.1~bpo24.04.1)",
-		"libreoffice-uiconfig-math (= 4:24.8.7-0ubuntu0.24.10.1~bpo24.04.1)",
-		"ucf",
+		"libreoffice-core-nogui (= 4:25.2.6-0ubuntu0.25.04.1~bpo24.04.1) | libreoffice-core (= 4:25.2.6-0ubuntu0.25.04.1~bpo24.04.1)",
+		"libreoffice-uiconfig-math (= 4:25.2.6-0ubuntu0.25.04.1~bpo24.04.1)",
 		"libc6 (>= 2.32)",
 		"libgcc-s1 (>= 3.0)",
 		"libicu74 (>= 74.1-1~)",
@@ -26,6 +24,10 @@
 		"libuno-salhelpergcc3-3t64 (>= 1.4.0)",
 		"uno-libs-private"
 	],
+	"preDepends": [
+		"ucf",
+		"libreoffice-common (>= 4:25.2.1~rc1-3~)"
+	],
 	"replaces": [
 		"libreoffice-common (<< 1:6.4.2~rc1~)",
 		"libreoffice-math"
@@ -34,16 +36,16 @@
 		"libreoffice-common (<< 1:6.4.2~rc1~)",
 		"libreoffice-math"
 	],
-	"installedSize": 2020,
+	"installedSize": 2021,
 	"maintainer": "Ubuntu Developers <ubuntu-devel-discuss@lists.ubuntu.com>",
 	"description": "office productivity suite -- equation editor (no GUI variant)",
 	"homepage": "http://www.libreoffice.org",
-	"filename": "pool/universe/libr/libreoffice/libreoffice-math-nogui_24.8.7-0ubuntu0.24.10.1~bpo24.04.1_amd64.deb",
-	"size": 565272,
-	"md5": "211ddb14af1f79efb8251bfdae51e38f",
-	"sha1": "6331bf7dfb16e55f4126af44887fb669dba4cd1d",
-	"sha256": "aa1e27ea7a68ab38baf20c4ee4f458c9218d64a70fd6f61bc687cb534f63f9a1",
-	"sha512": "006f9ce073659f99490873ea520539482f3056ab8e1627e9a0d6460f40e38310616f840a6ad5f3434822eab1b1d5b29ffd7867ff3fe35c80eb62d1f2ac194ef6",
+	"filename": "pool/universe/libr/libreoffice/libreoffice-math-nogui_25.2.6-0ubuntu0.25.04.1~bpo24.04.1_amd64.deb",
+	"size": 568538,
+	"md5": "e3c2eafa522f13ef9c81b11735ea6a37",
+	"sha1": "32f0a2940972f19dc48c77e4d64a069eb6a9712a",
+	"sha256": "9d30240284d62197acc053b41ad00426f031e75639f0155d7a027a0dcf597e2e",
+	"sha512": "e63be28c72f96f93cba7a8d819f7eb78da13b3d1d46fcc4c434ea4702502fdc128e65321a67e689b5a723e648e07007c2c49b0ed2048ad07a0072aef2f74d7c9",
 	"descriptionMd5": "e104f51d572d2ee302d3c3550e97e6ff"
 },{
 	"raw": {},

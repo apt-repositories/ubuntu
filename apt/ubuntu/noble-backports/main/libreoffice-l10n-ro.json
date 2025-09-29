@@ -6,17 +6,19 @@
 	],
 	"package": "libreoffice-l10n-ro",
 	"source": "libreoffice",
-	"version": "4:24.8.7-0ubuntu0.24.10.1~bpo24.04.1",
+	"version": "4:25.2.6-0ubuntu0.25.04.1~bpo24.04.1",
 	"section": "localization",
 	"priority": "optional",
 	"architecture": "all",
 	"depends": [
-		"libreoffice-common (>= 1:7.0.0~alpha~)",
-		"locales | locales-all",
-		"ucf"
+		"locales | locales-all"
+	],
+	"preDepends": [
+		"ucf",
+		"libreoffice-common (>= 4:25.2.1~rc1-3~)"
 	],
 	"recommends": [
-		"libreoffice-core (>> 4:24.8.7)"
+		"libreoffice-core (>> 4:25.2.6)"
 	],
 	"suggests": [
 		"hunspell-dictionary-ro | myspell-dictionary-ro | libreoffice-spellcheck-ro",
@@ -25,15 +27,15 @@
 		"libreoffice-help-ro",
 		"mythes-ro"
 	],
-	"installedSize": 3365,
+	"installedSize": 3335,
 	"maintainer": "Ubuntu Developers <ubuntu-devel-discuss@lists.ubuntu.com>",
 	"description": "office productivity suite -- Romanian language package",
 	"homepage": "http://www.libreoffice.org",
-	"filename": "pool/main/libr/libreoffice/libreoffice-l10n-ro_24.8.7-0ubuntu0.24.10.1~bpo24.04.1_all.deb",
-	"size": 642830,
-	"md5": "606f60fc5b459e5d7999329dfe82b5f4",
-	"sha1": "72cabafa7d5134f4c85b0b3e51208d18f952bbf1",
-	"sha256": "1ee4a66b1eba15c6f64d647439dae4b3332b565c20fb57247f61b3c51e9db73a",
-	"sha512": "67d2de72ac88b47910046d628c3f1e1732fdfbfb5837aa2c2e69018622f858d242fcc086fcf12501a8fd7284a93b7dcebe718760d052aff14ef561c897609f00",
+	"filename": "pool/main/libr/libreoffice/libreoffice-l10n-ro_25.2.6-0ubuntu0.25.04.1~bpo24.04.1_all.deb",
+	"size": 698668,
+	"md5": "e84b8509a0ac9472b22ffa10b80cfe91",
+	"sha1": "2d903c696c2aaf9b5d23732e55d1938155690519",
+	"sha256": "a195616bba35be8264b9c92fc16f59b38d2f08550ba348f82a3fc513a37cecb0",
+	"sha512": "7b895c940432af8cce222f23613faa76a54224a1c0d4445860c10189b6eced6ca37cfcd34d635d1899fb4792e3ecd6d6b2bf961e2530739018a57a1a01c0b6c7",
 	"descriptionMd5": "e4018d28105361bb391246001caccf0c"
 }

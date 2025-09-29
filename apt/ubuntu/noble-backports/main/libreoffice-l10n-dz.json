@@ -6,17 +6,19 @@
 	],
 	"package": "libreoffice-l10n-dz",
 	"source": "libreoffice",
-	"version": "4:24.8.7-0ubuntu0.24.10.1~bpo24.04.1",
+	"version": "4:25.2.6-0ubuntu0.25.04.1~bpo24.04.1",
 	"section": "localization",
 	"priority": "optional",
 	"architecture": "all",
 	"depends": [
-		"libreoffice-common (>= 1:7.0.0~alpha~)",
-		"locales | locales-all",
-		"ucf"
+		"locales | locales-all"
+	],
+	"preDepends": [
+		"ucf",
+		"libreoffice-common (>= 4:25.2.1~rc1-3~)"
 	],
 	"recommends": [
-		"libreoffice-core (>> 4:24.8.7)"
+		"libreoffice-core (>> 4:25.2.6)"
 	],
 	"suggests": [
 		"hunspell-dictionary-dz | myspell-dictionary-dz | libreoffice-spellcheck-dz",
@@ -25,15 +27,15 @@
 		"libreoffice-help-dz",
 		"mythes-dz"
 	],
-	"installedSize": 3195,
+	"installedSize": 2715,
 	"maintainer": "Ubuntu Developers <ubuntu-devel-discuss@lists.ubuntu.com>",
 	"description": "office productivity suite -- Dzongkha language package",
 	"homepage": "http://www.libreoffice.org",
-	"filename": "pool/main/libr/libreoffice/libreoffice-l10n-dz_24.8.7-0ubuntu0.24.10.1~bpo24.04.1_all.deb",
-	"size": 358210,
-	"md5": "81a00035a25b8ce9e83db099b789af5f",
-	"sha1": "bae2a3cca459cf4409f2c049de0ffb4bea63e405",
-	"sha256": "5ff167d0ce1d1ff15c54c0ef9123150f6ecd4c0ade6506527d181565e2f55a3c",
-	"sha512": "a30fe19836225c172adbc41245e6f2cd5780a7ea3829cc71c93ee001a6b42a00b49486395eefbc2129a07b0910a0fd94c17779716c59a937994c1b37c570f2bc",
+	"filename": "pool/main/libr/libreoffice/libreoffice-l10n-dz_25.2.6-0ubuntu0.25.04.1~bpo24.04.1_all.deb",
+	"size": 357890,
+	"md5": "038fbec1d231df1bbf5da83ff264e136",
+	"sha1": "a029a42ea64bba81f741fbd1292c307e14fc5048",
+	"sha256": "653203d2fd3bb73d1afba4337214f6247f1404ddb193ca714a81e1158912debf",
+	"sha512": "8ce71cf4c593cc49b493041a44c2589176a2eabc020f6ed51bfb6cb08b1963298d27715870c002c091bbee8e9faf619abf43f1d05a05f16e476faccaa3a85f0f",
 	"descriptionMd5": "ea22c1cbc51379d92908e5e9e9fd316d"
 }

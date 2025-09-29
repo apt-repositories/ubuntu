@@ -6,36 +6,40 @@
 	],
 	"package": "libreoffice-sdbc-firebird",
 	"source": "libreoffice",
-	"version": "4:24.8.7-0ubuntu0.24.10.1~bpo24.04.1",
+	"version": "4:25.2.6-0ubuntu0.25.04.1~bpo24.04.1",
 	"section": "universe/database",
 	"priority": "optional",
 	"architecture": "amd64",
 	"depends": [
 		"libreoffice-core-nogui | libreoffice-core",
 		"firebird3.0-server-core",
-		"ucf",
 		"libc6 (>= 2.14)",
 		"libfbclient2 (>= 3.0.11~)",
+		"libfbclient2 (<< 4.0~)",
 		"libgcc-s1 (>= 3.0)",
 		"libstdc++6 (>= 11)",
 		"libuno-cppu3t64 (>= 4.4.0~alpha)",
 		"libuno-cppuhelpergcc3-3t64 (>= 5.3.0~alpha)",
-		"libuno-sal3t64 (>= 1:7.3.0~beta1)",
+		"libuno-sal3t64 (>= 5.3.0~alpha)",
 		"libuno-salhelpergcc3-3t64 (>= 1.4.0)",
 		"uno-libs-private"
+	],
+	"preDepends": [
+		"ucf",
+		"libreoffice-common (>= 4:25.2.1~rc1-3~)"
 	],
 	"enhances": [
 		"libreoffice-base-drivers"
 	],
-	"installedSize": 688,
+	"installedSize": 694,
 	"maintainer": "Ubuntu Developers <ubuntu-devel-discuss@lists.ubuntu.com>",
-	"description": "Firebird SDBC driver for LibreOffice",
+	"description": "(embedded) Firebird SDBC driver for LibreOffice",
 	"homepage": "http://www.libreoffice.org",
-	"filename": "pool/universe/libr/libreoffice/libreoffice-sdbc-firebird_24.8.7-0ubuntu0.24.10.1~bpo24.04.1_amd64.deb",
-	"size": 167432,
-	"md5": "539164cb453000c887ce5e9bc22a1435",
-	"sha1": "a9795c975ab9f5d981d612c331a8e7d08d167dc6",
-	"sha256": "9c4669f4e9c5f2e124cf4fddaee38ba5b1fbb6489a69bec0b46d08c9be58742a",
-	"sha512": "f01247ba42c0ae7f570235e50f2ab7295f57fcae79d087a165c4f22975cd9991683e7690fdef162b18749df6edd1651e3037fc3af5e3fd83101fa834ea41c81c",
-	"descriptionMd5": "4ad372e2554b0f42b39c7e1325d5e6d0"
+	"filename": "pool/universe/libr/libreoffice/libreoffice-sdbc-firebird_25.2.6-0ubuntu0.25.04.1~bpo24.04.1_amd64.deb",
+	"size": 169226,
+	"md5": "df07811a253842d78c273b086b88e8ce",
+	"sha1": "2acabf309c6884fe511fcc9e6e4b7104f65ce394",
+	"sha256": "f0ccb4e96419b5dbbec1b45ee75fbbdff32af76afbfcd4c57f8a07056fb55656",
+	"sha512": "de11a9f9b39b1689f15966a3c103667ce743ca9d63078176e3da29469d9d136040e3f8e10dae404154043fdfbdf76d4b642ade944b8d5e12d676545c74d98e44",
+	"descriptionMd5": "17d206d15f4a6fbda10fa8da477a3e8c"
 }

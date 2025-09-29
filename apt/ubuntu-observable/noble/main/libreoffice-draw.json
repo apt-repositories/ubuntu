@@ -6,16 +6,14 @@
 	],
 	"package": "libreoffice-draw",
 	"source": "libreoffice",
-	"version": "4:24.8.7-0ubuntu0.24.10.1~bpo24.04.1",
+	"version": "4:25.2.6-0ubuntu0.25.04.1~bpo24.04.1",
 	"section": "editors",
 	"priority": "optional",
 	"architecture": "amd64",
 	"depends": [
-		"libreoffice-common (>= 1:7.0.0~alpha~)",
-		"libreoffice-core (= 4:24.8.7-0ubuntu0.24.10.1~bpo24.04.1)",
-		"libreoffice-uiconfig-draw (= 4:24.8.7-0ubuntu0.24.10.1~bpo24.04.1)",
-		"libreoffice-uiconfig-impress (= 4:24.8.7-0ubuntu0.24.10.1~bpo24.04.1)",
-		"ucf",
+		"libreoffice-core (= 4:25.2.6-0ubuntu0.25.04.1~bpo24.04.1)",
+		"libreoffice-uiconfig-draw (= 4:25.2.6-0ubuntu0.25.04.1~bpo24.04.1)",
+		"libreoffice-uiconfig-impress (= 4:25.2.6-0ubuntu0.25.04.1~bpo24.04.1)",
 		"libavahi-client3 (>= 0.6.16)",
 		"libavahi-common3 (>= 0.6.16)",
 		"libc6 (>= 2.38)",
@@ -42,6 +40,10 @@
 		"uno-libs-private",
 		"zlib1g (>= 1:1.1.4)"
 	],
+	"preDepends": [
+		"ucf",
+		"libreoffice-common (>= 4:25.2.1~rc1-3~)"
+	],
 	"replaces": [
 		"libreoffice-common (<< 1:6.4.2~rc1~)",
 		"libreoffice-core (<< 1:6.4.1~rc1-3)",
@@ -53,16 +55,16 @@
 		"libreoffice-core (<< 1:6.4.1~rc1-3)",
 		"libreoffice-impress (<< 4:7.5.3~rc2-2)"
 	],
-	"installedSize": 12740,
+	"installedSize": 12784,
 	"maintainer": "Ubuntu Developers <ubuntu-devel-discuss@lists.ubuntu.com>",
 	"description": "office productivity suite -- drawing",
 	"homepage": "http://www.libreoffice.org",
-	"filename": "pool/main/libr/libreoffice/libreoffice-draw_24.8.7-0ubuntu0.24.10.1~bpo24.04.1_amd64.deb",
-	"size": 3603448,
-	"md5": "5d25362138874a3cb7094ee77c2e1330",
-	"sha1": "6e66edce182d321f7c5611dff62b586b66df6115",
-	"sha256": "641a166b3e819a6b47ed083a88e5b0aa89bbf147f8fe3cae7a15fb8a85082868",
-	"sha512": "8c43bf19b7a69f7466108be88b9514933c2ad0e39dfa5077b77a9381b900e8cc1f16d7815ab5c8bd3a5fa77a493a5d3c5b3f35ce66e51c331f1136638c805983",
+	"filename": "pool/main/libr/libreoffice/libreoffice-draw_25.2.6-0ubuntu0.25.04.1~bpo24.04.1_amd64.deb",
+	"size": 3628016,
+	"md5": "661230703c6328699ac89435f6a550b8",
+	"sha1": "28f180284589a12e8e115ed1178e02b4ae0f492e",
+	"sha256": "9c212fad95db30a16478d0f26713ec03af3724a17cac77f491779d210b45a5d4",
+	"sha512": "a1e3814cfa24deb5eff6b4eef62f278a550cb7039e1304dcd22a8d2a82145883c32fa8ce12b2e04dbb6868fe278d66ee3b892d4f12840cbd07202b230011ba42",
 	"descriptionMd5": "48e37fe8495cb12961b923bb0b0f970f"
 },{
 	"raw": {},

@@ -6,17 +6,19 @@
 	],
 	"package": "libreoffice-l10n-sl",
 	"source": "libreoffice",
-	"version": "4:24.8.7-0ubuntu0.24.10.1~bpo24.04.1",
+	"version": "4:25.2.6-0ubuntu0.25.04.1~bpo24.04.1",
 	"section": "localization",
 	"priority": "optional",
 	"architecture": "all",
 	"depends": [
-		"libreoffice-common (>= 1:7.0.0~alpha~)",
-		"locales | locales-all",
-		"ucf"
+		"locales | locales-all"
+	],
+	"preDepends": [
+		"ucf",
+		"libreoffice-common (>= 4:25.2.1~rc1-3~)"
 	],
 	"recommends": [
-		"libreoffice-core (>> 4:24.8.7)"
+		"libreoffice-core (>> 4:25.2.6)"
 	],
 	"suggests": [
 		"hunspell-dictionary-sl | myspell-dictionary-sl | libreoffice-spellcheck-sl",
@@ -25,15 +27,15 @@
 		"libreoffice-help-sl",
 		"mythes-sl"
 	],
-	"installedSize": 4449,
+	"installedSize": 4203,
 	"maintainer": "Ubuntu Developers <ubuntu-devel-discuss@lists.ubuntu.com>",
 	"description": "office productivity suite -- Slovenian language package",
 	"homepage": "http://www.libreoffice.org",
-	"filename": "pool/main/libr/libreoffice/libreoffice-l10n-sl_24.8.7-0ubuntu0.24.10.1~bpo24.04.1_all.deb",
-	"size": 940250,
-	"md5": "9923027563f355d209285db943fe614e",
-	"sha1": "e8a161aa540a6be4a105d719effec99273793076",
-	"sha256": "d73d8f2e5b5e26ce003dc465cc8b55c19d412f666b996044f3ce8b2c4dbf3ee8",
-	"sha512": "d9bf13d325a47cc3237f52721506981248dfe72eb9006caea6127254c9fb5c640a38a6b500bb80946550053bb1786d4105379044429c524743ce23d01f8426b0",
+	"filename": "pool/main/libr/libreoffice/libreoffice-l10n-sl_25.2.6-0ubuntu0.25.04.1~bpo24.04.1_all.deb",
+	"size": 948788,
+	"md5": "1b4e9ba71f4dfc2ce0c055f860d26254",
+	"sha1": "4d3226d616e2a7229c413e3873e018de32ed6223",
+	"sha256": "e79262c1b072fde7d1ed248f3a21e4e86ff9bce5145810415ff3fd40fe04d0a4",
+	"sha512": "2eb47a25cd2df122adb88e517e28b88adbadaabea90d407c0641482e49c99b35451550239fa0384ffa99e317bdc185cf09f174cb1138f3be3b6643bf3ccb084c",
 	"descriptionMd5": "cb73e143fff5a545b5d0d0878593a2f5"
 }

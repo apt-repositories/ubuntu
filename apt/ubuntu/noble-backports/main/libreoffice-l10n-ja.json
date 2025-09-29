@@ -6,17 +6,19 @@
 	],
 	"package": "libreoffice-l10n-ja",
 	"source": "libreoffice",
-	"version": "4:24.8.7-0ubuntu0.24.10.1~bpo24.04.1",
+	"version": "4:25.2.6-0ubuntu0.25.04.1~bpo24.04.1",
 	"section": "localization",
 	"priority": "optional",
 	"architecture": "all",
 	"depends": [
-		"libreoffice-common (>= 1:7.0.0~alpha~)",
-		"locales | locales-all",
-		"ucf"
+		"locales | locales-all"
+	],
+	"preDepends": [
+		"ucf",
+		"libreoffice-common (>= 4:25.2.1~rc1-3~)"
 	],
 	"recommends": [
-		"libreoffice-core (>> 4:24.8.7)"
+		"libreoffice-core (>> 4:25.2.6)"
 	],
 	"suggests": [
 		"hunspell-dictionary-ja | myspell-dictionary-ja | libreoffice-spellcheck-ja",
@@ -25,15 +27,15 @@
 		"libreoffice-help-ja",
 		"mythes-ja"
 	],
-	"installedSize": 4342,
+	"installedSize": 3906,
 	"maintainer": "Ubuntu Developers <ubuntu-devel-discuss@lists.ubuntu.com>",
 	"description": "office productivity suite -- Japanese language package",
 	"homepage": "http://www.libreoffice.org",
-	"filename": "pool/main/libr/libreoffice/libreoffice-l10n-ja_24.8.7-0ubuntu0.24.10.1~bpo24.04.1_all.deb",
-	"size": 838760,
-	"md5": "f7c0bef79c364a0e780c5a037e988090",
-	"sha1": "80df4f369f32caf840fb3e356a91f23a93bc599b",
-	"sha256": "b19fe152e7c99ae5c1e4391536699c3201ddbcc2757995c3486f2b6b3b740a8d",
-	"sha512": "06f29d852091c96c86c1463449ee81dfdd8b77100775ee411c4651ccb77fe46740682d97724dc2dbb702fbe57644b893e149edaf9180263e5ff415cd110d4f6f",
+	"filename": "pool/main/libr/libreoffice/libreoffice-l10n-ja_25.2.6-0ubuntu0.25.04.1~bpo24.04.1_all.deb",
+	"size": 834308,
+	"md5": "98232cdfe1b05f1082c421d1a5ff9480",
+	"sha1": "44f6da8306b998d2c8e63c61730ab8671bbafe38",
+	"sha256": "a8ab5d1257359c33c568acc8fc42cb25e7fe72af4caffc377d450d57521e3108",
+	"sha512": "2c87007f5ea6011a4923b434ac22ae3eada586a0c38db5b9eeff5d3eba67d649debdd920277f7eaafc6aac72116b7b07f32221edc8b66fd686ce0789da980ddb",
 	"descriptionMd5": "711d02c365f10214733d3d63a55bf474"
 }
