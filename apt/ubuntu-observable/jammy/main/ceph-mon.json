@@ -48,6 +48,48 @@
 	],
 	"package": "ceph-mon",
 	"source": "ceph",
+	"version": "17.2.9-0ubuntu0.22.04.1",
+	"section": "admin",
+	"priority": "optional",
+	"architecture": "amd64",
+	"depends": [
+		"ceph-base (= 17.2.9-0ubuntu0.22.04.1)",
+		"libboost-program-options1.74.0 (>= 1.74.0)",
+		"libc6 (>= 2.34)",
+		"libgcc-s1 (>= 3.4)",
+		"libgoogle-perftools4",
+		"liblz4-1 (>= 0.0~r130)",
+		"libnuma1 (>= 2.0.11)",
+		"librados2 (>= 16.0.0)",
+		"libsnappy1v5 (>= 1.1.8)",
+		"libstdc++6 (>= 12)",
+		"zlib1g (>= 1:1.1.4)"
+	],
+	"replaces": [
+		"ceph (<< 10.2.2-0ubuntu2~)"
+	],
+	"breaks": [
+		"ceph (<< 10.2.2-0ubuntu2~)"
+	],
+	"installedSize": 18229,
+	"maintainer": "Ubuntu Developers <ubuntu-devel-discuss@lists.ubuntu.com>",
+	"description": "monitor server for the ceph storage system",
+	"homepage": "http://ceph.com/",
+	"filename": "pool/main/c/ceph/ceph-mon_17.2.9-0ubuntu0.22.04.1_amd64.deb",
+	"size": 4516412,
+	"md5": "ea04b368adf39521047ddfd69773ff95",
+	"sha1": "075b1f796ee4d349ed037263972b8ec6d64cf06c",
+	"sha256": "13011f5127fbf3daf1a9e63ee9d97d0907afeaab3083ba11769255331238d7de",
+	"sha512": "399fbd158451923443dfe05742a0112afc315377b742757599a693341a2fea9208b33877648305ed42728384912845e5c6f207911d1742428d9ae0f3b71775fb",
+	"descriptionMd5": "aa343322863ec9d4c967e6b512da062d"
+},{
+	"raw": {},
+	"required": [
+		"Filename",
+		"Size"
+	],
+	"package": "ceph-mon",
+	"source": "ceph",
 	"version": "17.1.0-0ubuntu3",
 	"section": "admin",
 	"priority": "optional",

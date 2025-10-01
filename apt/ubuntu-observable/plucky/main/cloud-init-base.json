@@ -67,6 +67,67 @@
 	],
 	"package": "cloud-init-base",
 	"source": "cloud-init",
+	"version": "25.2-0ubuntu1~25.04.1",
+	"section": "admin",
+	"priority": "optional",
+	"architecture": "all",
+	"depends": [
+		"cloud-guest-utils | cloud-utils",
+		"dhcpcd-base",
+		"iproute2",
+		"netcat-openbsd",
+		"netplan.io",
+		"procps",
+		"python3",
+		"python3-debconf",
+		"python3-requests",
+		"debconf (>= 0.5) | debconf-2.0",
+		"python3-configobj",
+		"python3-jinja2",
+		"python3-jsonpatch",
+		"python3-jsonschema",
+		"python3-oauthlib",
+		"python3-yaml",
+		"python3:any"
+	],
+	"recommends": [
+		"eatmydata",
+		"gdisk",
+		"gnupg",
+		"python3-apt",
+		"software-properties-common"
+	],
+	"suggests": [
+		"openssh-server",
+		"ssh-import-id"
+	],
+	"replaces": [
+		"cloud-init (<< 25.1.1-0ubuntu2~)",
+		"cloud-init-base"
+	],
+	"breaks": [
+		"cloud-init (<< 25.1.1-0ubuntu2~)",
+		"cloud-init-base"
+	],
+	"installedSize": 3142,
+	"maintainer": "Ubuntu Developers <ubuntu-devel-discuss@lists.ubuntu.com>",
+	"description": "initialization and customization tool for cloud instances",
+	"homepage": "https://cloud-init.io/",
+	"filename": "pool/main/c/cloud-init/cloud-init-base_25.2-0ubuntu1~25.04.1_all.deb",
+	"size": 634706,
+	"md5": "1ffc73c44f0c76a15f4c34474e1dee02",
+	"sha1": "58d978e9e175f0d7007a048828deb23c563450ec",
+	"sha256": "709550f353144fd414e4f235912d90bd63e7f03c734d1629b02cdaebe4762a72",
+	"sha512": "979c16aa710ddd320d05026ad5d31c37e45a7fab84bc68d84a03f348be8841ad4bc7ebe356ed1aff8f175d497ec78dece823c87322fa7aaf7f3878b4ba6bc389",
+	"descriptionMd5": "d9f76e729ec6174c3adebb666292e4c7"
+},{
+	"raw": {},
+	"required": [
+		"Filename",
+		"Size"
+	],
+	"package": "cloud-init-base",
+	"source": "cloud-init",
 	"version": "25.1.1-0ubuntu2",
 	"section": "admin",
 	"priority": "optional",
