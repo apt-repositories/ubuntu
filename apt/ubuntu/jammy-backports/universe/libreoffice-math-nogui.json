@@ -6,16 +6,14 @@
 	],
 	"package": "libreoffice-math-nogui",
 	"source": "libreoffice",
-	"version": "4:24.8.7-0ubuntu0.24.10.1~bpo22.04.1",
+	"version": "4:25.2.6-0ubuntu0.25.04.1~bpo22.04.1",
 	"section": "universe/editors",
 	"priority": "optional",
 	"architecture": "amd64",
 	"depends": [
 		"fonts-opensymbol (>= 2:102.11)",
-		"libreoffice-common (>= 1:7.0.0~alpha~)",
-		"libreoffice-core-nogui (= 4:24.8.7-0ubuntu0.24.10.1~bpo22.04.1) | libreoffice-core (= 4:24.8.7-0ubuntu0.24.10.1~bpo22.04.1)",
-		"libreoffice-uiconfig-math (= 4:24.8.7-0ubuntu0.24.10.1~bpo22.04.1)",
-		"ucf",
+		"libreoffice-core-nogui (= 4:25.2.6-0ubuntu0.25.04.1~bpo22.04.1) | libreoffice-core (= 4:25.2.6-0ubuntu0.25.04.1~bpo22.04.1)",
+		"libreoffice-uiconfig-math (= 4:25.2.6-0ubuntu0.25.04.1~bpo22.04.1)",
 		"libc6 (>= 2.32)",
 		"libgcc-s1 (>= 3.0)",
 		"libicu70 (>= 70.1-1~)",
@@ -26,6 +24,10 @@
 		"libuno-salhelpergcc3-3 (>= 1.4.0)",
 		"uno-libs-private"
 	],
+	"preDepends": [
+		"ucf",
+		"libreoffice-common (>= 4:25.2.1~rc1-3~)"
+	],
 	"replaces": [
 		"libreoffice-common (<< 1:6.4.2~rc1~)",
 		"libreoffice-math"
@@ -34,15 +36,15 @@
 		"libreoffice-common (<< 1:6.4.2~rc1~)",
 		"libreoffice-math"
 	],
-	"installedSize": 2199,
+	"installedSize": 2205,
 	"maintainer": "Ubuntu Developers <ubuntu-devel-discuss@lists.ubuntu.com>",
 	"description": "office productivity suite -- equation editor (no GUI variant)",
 	"homepage": "http://www.libreoffice.org",
-	"filename": "pool/universe/libr/libreoffice/libreoffice-math-nogui_24.8.7-0ubuntu0.24.10.1~bpo22.04.1_amd64.deb",
-	"size": 577088,
-	"md5": "7bcc780037da057654e8e420f7d21b3d",
-	"sha1": "b1c7f77c908decc5a52837689929b0d00c433069",
-	"sha256": "c53e336dfe6d101d54383e08b026812914f1d5067865b7466c1513249df3c52c",
-	"sha512": "8c967da79437e8aa69e89ef5ab9e0db557b3aa34e3d53757f3b156cdd8556af9a5bb2b821d845bf50d8a204e379743e9e7de3ebac8d9278d15d36437ff4fc43c",
+	"filename": "pool/universe/libr/libreoffice/libreoffice-math-nogui_25.2.6-0ubuntu0.25.04.1~bpo22.04.1_amd64.deb",
+	"size": 580448,
+	"md5": "08bf728c88ccfae8acdefdf450ebd001",
+	"sha1": "6728e0445af152453f98cf89872e1c5503836f39",
+	"sha256": "9f559e935189fb4eb211d6f4f0d6cc9610af765e9f05a80e863e0d28e626450d",
+	"sha512": "70b2f76cbf0426559ffe2e8b9588d151e79a0df556f15c1c29c2be0a1648185df9104603a8580df53a5b15e18c172ebdf3adcdf87e26b7670ceb65540439e834",
 	"descriptionMd5": "e104f51d572d2ee302d3c3550e97e6ff"
 }

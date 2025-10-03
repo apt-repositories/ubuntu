@@ -6,17 +6,19 @@
 	],
 	"package": "libreoffice-l10n-hy",
 	"source": "libreoffice",
-	"version": "4:24.8.7-0ubuntu0.24.10.1~bpo22.04.1",
+	"version": "4:25.2.6-0ubuntu0.25.04.1~bpo22.04.1",
 	"section": "localization",
 	"priority": "optional",
 	"architecture": "all",
 	"depends": [
-		"libreoffice-common (>= 1:7.0.0~alpha~)",
-		"locales | locales-all",
-		"ucf"
+		"locales | locales-all"
+	],
+	"preDepends": [
+		"ucf",
+		"libreoffice-common (>= 4:25.2.1~rc1-3~)"
 	],
 	"recommends": [
-		"libreoffice-core (>> 4:24.8.7)"
+		"libreoffice-core (>> 4:25.2.6)"
 	],
 	"suggests": [
 		"hunspell-dictionary-hy | myspell-dictionary-hy | libreoffice-spellcheck-hy",
@@ -25,15 +27,15 @@
 		"libreoffice-help-hy",
 		"mythes-hy"
 	],
-	"installedSize": 5739,
+	"installedSize": 5131,
 	"maintainer": "Ubuntu Developers <ubuntu-devel-discuss@lists.ubuntu.com>",
 	"description": "office productivity suite -- Armenian language package",
 	"homepage": "http://www.libreoffice.org",
-	"filename": "pool/main/libr/libreoffice/libreoffice-l10n-hy_24.8.7-0ubuntu0.24.10.1~bpo22.04.1_all.deb",
-	"size": 927968,
-	"md5": "aa153325d654652377cff1b48fc7fa12",
-	"sha1": "3833f7baae2724016ff52b8dfc4cc67096f90073",
-	"sha256": "22419a1a8938c0c00d34a2e07c5014246ef3205689faf606bdd9606c8736e0ad",
-	"sha512": "e28a9629b5bb4c73f28ff15ef55a6c3863130992e75b0585ef6b792ab9995b9d396caf274aa2bf27fa1ef3ab0f2a4ee572e33b50e596c4338f95e39e729c06c3",
+	"filename": "pool/main/libr/libreoffice/libreoffice-l10n-hy_25.2.6-0ubuntu0.25.04.1~bpo22.04.1_all.deb",
+	"size": 931496,
+	"md5": "35ab53df020c039c5f772d94034ad2c0",
+	"sha1": "44d5fb01fb573829456b67ef46112cfdcc691132",
+	"sha256": "4da78d3354c2cfedc4724485e3bbb29fe9eeb5ae8ba3ea6c4e9e46de7eaf5d0a",
+	"sha512": "f6bbd0adf79b9ef87b88deae87673391fdd143fab68fad6711f70edef41404ef8210900c2e1d55317635c5c2a211d31c2b17e12460598019df1b6c8e0da797ca",
 	"descriptionMd5": "d2636a5f89ebe8156c3d20ddeff2f07a"
 }

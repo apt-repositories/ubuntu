@@ -6,16 +6,14 @@
 	],
 	"package": "libreoffice-draw",
 	"source": "libreoffice",
-	"version": "4:24.8.7-0ubuntu0.24.10.1~bpo22.04.1",
+	"version": "4:25.2.6-0ubuntu0.25.04.1~bpo22.04.1",
 	"section": "editors",
 	"priority": "optional",
 	"architecture": "amd64",
 	"depends": [
-		"libreoffice-common (>= 1:7.0.0~alpha~)",
-		"libreoffice-core (= 4:24.8.7-0ubuntu0.24.10.1~bpo22.04.1)",
-		"libreoffice-uiconfig-draw (= 4:24.8.7-0ubuntu0.24.10.1~bpo22.04.1)",
-		"libreoffice-uiconfig-impress (= 4:24.8.7-0ubuntu0.24.10.1~bpo22.04.1)",
-		"ucf",
+		"libreoffice-core (= 4:25.2.6-0ubuntu0.25.04.1~bpo22.04.1)",
+		"libreoffice-uiconfig-draw (= 4:25.2.6-0ubuntu0.25.04.1~bpo22.04.1)",
+		"libreoffice-uiconfig-impress (= 4:25.2.6-0ubuntu0.25.04.1~bpo22.04.1)",
 		"libavahi-client3 (>= 0.6.16)",
 		"libavahi-common3 (>= 0.6.16)",
 		"libc6 (>= 2.35)",
@@ -41,6 +39,10 @@
 		"uno-libs-private",
 		"zlib1g (>= 1:1.2.3.4)"
 	],
+	"preDepends": [
+		"ucf",
+		"libreoffice-common (>= 4:25.2.1~rc1-3~)"
+	],
 	"replaces": [
 		"libreoffice-common (<< 1:6.4.2~rc1~)",
 		"libreoffice-core (<< 1:6.4.1~rc1-3)",
@@ -52,16 +54,16 @@
 		"libreoffice-core (<< 1:6.4.1~rc1-3)",
 		"libreoffice-impress (<< 4:7.5.3~rc2-2)"
 	],
-	"installedSize": 13028,
+	"installedSize": 13061,
 	"maintainer": "Ubuntu Developers <ubuntu-devel-discuss@lists.ubuntu.com>",
 	"description": "office productivity suite -- drawing",
 	"homepage": "http://www.libreoffice.org",
-	"filename": "pool/main/libr/libreoffice/libreoffice-draw_24.8.7-0ubuntu0.24.10.1~bpo22.04.1_amd64.deb",
-	"size": 3705086,
-	"md5": "d99ad7b3437e4ba8dbef17eea0076cd1",
-	"sha1": "114b0cfa8a95c5706536137ddb52835c17c8fc49",
-	"sha256": "1bad70f23e1b00eb063778ceb7990b33cd0418e22641616b52ad47f45aa0bc45",
-	"sha512": "b5cc598891393e346e251939548c77c45d4263c6784a823ac2b456c8732d7e252fa79c193f1c368516bcad6827b341184ccdfe6216329e353ab6f93f70ca90f7",
+	"filename": "pool/main/libr/libreoffice/libreoffice-draw_25.2.6-0ubuntu0.25.04.1~bpo22.04.1_amd64.deb",
+	"size": 3732516,
+	"md5": "4904b32c814315a22e37ff86aa853da3",
+	"sha1": "8827cd5f45f0df24e7868a6a3386a0356ee2ebe7",
+	"sha256": "dd7c66a5d0569f366d7597b66c6cec9dc30b13fe8a6f56fac40ea23f30920740",
+	"sha512": "81a418ec7a83741144eb74fd07f36459be907ea7cb5b2b4fd145034e12997cad9764896f0740f4a60c6a603e1ea31e154c6fb4a1645b7fc3c81369e80580ebcd",
 	"descriptionMd5": "48e37fe8495cb12961b923bb0b0f970f"
 },{
 	"raw": {},

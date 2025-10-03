@@ -6,16 +6,14 @@
 	],
 	"package": "libreoffice-draw-nogui",
 	"source": "libreoffice",
-	"version": "4:24.8.7-0ubuntu0.24.10.1~bpo22.04.1",
+	"version": "4:25.2.6-0ubuntu0.25.04.1~bpo22.04.1",
 	"section": "universe/editors",
 	"priority": "optional",
 	"architecture": "amd64",
 	"depends": [
-		"libreoffice-common (>= 1:7.0.0~alpha~)",
-		"libreoffice-core-nogui (= 4:24.8.7-0ubuntu0.24.10.1~bpo22.04.1) | libreoffice-core (= 4:24.8.7-0ubuntu0.24.10.1~bpo22.04.1)",
-		"libreoffice-uiconfig-draw (= 4:24.8.7-0ubuntu0.24.10.1~bpo22.04.1)",
-		"libreoffice-uiconfig-impress (= 4:24.8.7-0ubuntu0.24.10.1~bpo22.04.1)",
-		"ucf",
+		"libreoffice-core-nogui (= 4:25.2.6-0ubuntu0.25.04.1~bpo22.04.1) | libreoffice-core (= 4:25.2.6-0ubuntu0.25.04.1~bpo22.04.1)",
+		"libreoffice-uiconfig-draw (= 4:25.2.6-0ubuntu0.25.04.1~bpo22.04.1)",
+		"libreoffice-uiconfig-impress (= 4:25.2.6-0ubuntu0.25.04.1~bpo22.04.1)",
 		"libavahi-client3 (>= 0.6.16)",
 		"libavahi-common3 (>= 0.6.16)",
 		"libc6 (>= 2.35)",
@@ -39,6 +37,10 @@
 		"uno-libs-private",
 		"zlib1g (>= 1:1.2.3.4)"
 	],
+	"preDepends": [
+		"ucf",
+		"libreoffice-common (>= 4:25.2.1~rc1-3~)"
+	],
 	"replaces": [
 		"libreoffice-common (<< 1:6.4.2~rc1~)",
 		"libreoffice-draw",
@@ -52,15 +54,15 @@
 	"conflicts": [
 		"libreoffice-draw"
 	],
-	"installedSize": 11303,
+	"installedSize": 11335,
 	"maintainer": "Ubuntu Developers <ubuntu-devel-discuss@lists.ubuntu.com>",
 	"description": "office productivity suite -- drawing (no GUI variant)",
 	"homepage": "http://www.libreoffice.org",
-	"filename": "pool/universe/libr/libreoffice/libreoffice-draw-nogui_24.8.7-0ubuntu0.24.10.1~bpo22.04.1_amd64.deb",
-	"size": 3227744,
-	"md5": "0a6fcd0d116d3c8e75e6b467095ea3c9",
-	"sha1": "2cc92fbd8f6aeaf91e949dd619f0176d0209cd00",
-	"sha256": "2f4969551cf983dd6f73ff9ff36912b8f0df646ffd8331597748c6f8e4745d27",
-	"sha512": "29e5c066c0172b01e19ba5a05edf8adabafbc23eacdb5c22f6c96897e1d22826356892c05ff95918954c7bfdbda49c24eaf5e9c064c636585f34ab1d73294298",
+	"filename": "pool/universe/libr/libreoffice/libreoffice-draw-nogui_25.2.6-0ubuntu0.25.04.1~bpo22.04.1_amd64.deb",
+	"size": 3251286,
+	"md5": "3e5530a266c3e77e8cf63e5c00aaffe9",
+	"sha1": "87a6ab980e3296272d381d9be470ae51a36e07f3",
+	"sha256": "7a849993d7a9c962e83d54405dd6dc2fe0894c2f6b7e89144c8cd5d8d853c4b1",
+	"sha512": "d45b7b4dc4c259c582f07a1e2192fa0fc1a36d588a5ca68bf09e0591cb3ca9d0e781f69e45ba2ae2e0f785e4f6a71b67a7a747b9b45b855ef24d787bfccbdcef",
 	"descriptionMd5": "c4d7d9707b31ef9344d70e006f7a27af"
 }

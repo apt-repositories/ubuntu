@@ -6,16 +6,14 @@
 	],
 	"package": "libreoffice-impress-nogui",
 	"source": "libreoffice",
-	"version": "4:24.8.7-0ubuntu0.24.10.1~bpo22.04.1",
+	"version": "4:25.2.6-0ubuntu0.25.04.1~bpo22.04.1",
 	"section": "universe/editors",
 	"priority": "optional",
 	"architecture": "amd64",
 	"depends": [
-		"libreoffice-common (>= 1:7.0.0~alpha~)",
-		"libreoffice-core-nogui (= 4:24.8.7-0ubuntu0.24.10.1~bpo22.04.1) | libreoffice-core (= 4:24.8.7-0ubuntu0.24.10.1~bpo22.04.1)",
-		"libreoffice-draw-nogui (= 4:24.8.7-0ubuntu0.24.10.1~bpo22.04.1) | libreoffice-draw (= 4:24.8.7-0ubuntu0.24.10.1~bpo22.04.1)",
-		"libreoffice-uiconfig-impress (= 4:24.8.7-0ubuntu0.24.10.1~bpo22.04.1)",
-		"ucf",
+		"libreoffice-core-nogui (= 4:25.2.6-0ubuntu0.25.04.1~bpo22.04.1) | libreoffice-core (= 4:25.2.6-0ubuntu0.25.04.1~bpo22.04.1)",
+		"libreoffice-draw-nogui (= 4:25.2.6-0ubuntu0.25.04.1~bpo22.04.1) | libreoffice-draw (= 4:25.2.6-0ubuntu0.25.04.1~bpo22.04.1)",
+		"libreoffice-uiconfig-impress (= 4:25.2.6-0ubuntu0.25.04.1~bpo22.04.1)",
 		"libc6 (>= 2.32)",
 		"libetonyek-0.1-1",
 		"libgcc-s1 (>= 3.0)",
@@ -24,10 +22,14 @@
 		"librevenge-0.0-0",
 		"libstdc++6 (>= 11)",
 		"libuno-cppu3 (>= 4.4.0~alpha)",
-		"libuno-cppuhelpergcc3-3 (>= 4.0.0~alpha)",
+		"libuno-cppuhelpergcc3-3 (>= 1:7.4.0~alpha)",
 		"libuno-sal3 (>= 1:7.3.0~beta1)",
 		"libuno-salhelpergcc3-3 (>= 1.4.0)",
 		"uno-libs-private"
+	],
+	"preDepends": [
+		"ucf",
+		"libreoffice-common (>= 4:25.2.1~rc1-3~)"
 	],
 	"suggests": [
 		"bluez"
@@ -43,16 +45,16 @@
 		"libreoffice-impress",
 		"libreoffice-ogltrans (<< 1:6.1.4-2~)"
 	],
-	"installedSize": 3044,
+	"installedSize": 2985,
 	"maintainer": "Ubuntu Developers <ubuntu-devel-discuss@lists.ubuntu.com>",
 	"description": "office productivity suite -- presentation (no GUI variant)",
 	"homepage": "http://www.libreoffice.org",
-	"filename": "pool/universe/libr/libreoffice/libreoffice-impress-nogui_24.8.7-0ubuntu0.24.10.1~bpo22.04.1_amd64.deb",
-	"size": 767668,
-	"md5": "b936b900144c2943bd9ffc8cbeeecc54",
-	"sha1": "fae50e6a6ec10d470dc6cc24dec149749feba898",
-	"sha256": "462c14549551465b98f4b592e4154b224a1d212c69974b712f469cffde7635bf",
-	"sha512": "4a959f4c84e6e14f5382714cde766139ede19793eff8f4da990a67d8007749e2897d08a2108368ba4ca1305bbf1bc766eaac1baf0641db1fe36663976dc2c417",
+	"filename": "pool/universe/libr/libreoffice/libreoffice-impress-nogui_25.2.6-0ubuntu0.25.04.1~bpo22.04.1_amd64.deb",
+	"size": 776430,
+	"md5": "7a052087f90cc2e538155c8db4df0316",
+	"sha1": "8139cf67efcc04b0000a0728161786132308e323",
+	"sha256": "c670f69ad73e048947eefc35a5ddd5bd705a51b4e8a281a34633e18a15436f54",
+	"sha512": "0f44103c5aa07197457e50f5cb5c83fb21e64a6b80568bad1f173f8740de3abc49d83fa068d0f76c64cea5ce30441fd8044889020abcdb8222a5f0bae8ee0157",
 	"descriptionMd5": "10ce2c27d434135cd9308937c1bdb31c"
 },{
 	"raw": {},

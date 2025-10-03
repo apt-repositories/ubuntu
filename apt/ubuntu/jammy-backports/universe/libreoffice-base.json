@@ -6,17 +6,15 @@
 	],
 	"package": "libreoffice-base",
 	"source": "libreoffice",
-	"version": "4:24.8.7-0ubuntu0.24.10.1~bpo22.04.1",
+	"version": "4:25.2.6-0ubuntu0.25.04.1~bpo22.04.1",
 	"section": "universe/database",
 	"priority": "optional",
 	"architecture": "amd64",
 	"depends": [
-		"libreoffice-base-core (= 4:24.8.7-0ubuntu0.24.10.1~bpo22.04.1)",
-		"libreoffice-base-drivers (= 4:24.8.7-0ubuntu0.24.10.1~bpo22.04.1)",
-		"libreoffice-common (>= 1:7.0.0~alpha~)",
-		"libreoffice-core (= 4:24.8.7-0ubuntu0.24.10.1~bpo22.04.1)",
-		"libreoffice-uiconfig-base (= 4:24.8.7-0ubuntu0.24.10.1~bpo22.04.1)",
-		"ucf",
+		"libreoffice-base-core (= 4:25.2.6-0ubuntu0.25.04.1~bpo22.04.1)",
+		"libreoffice-base-drivers (= 4:25.2.6-0ubuntu0.25.04.1~bpo22.04.1)",
+		"libreoffice-core (= 4:25.2.6-0ubuntu0.25.04.1~bpo22.04.1)",
+		"libreoffice-uiconfig-base (= 4:25.2.6-0ubuntu0.25.04.1~bpo22.04.1)",
 		"libc6 (>= 2.35)",
 		"libgcc-s1 (>= 3.0)",
 		"libstdc++6 (>= 11)",
@@ -26,9 +24,13 @@
 		"libuno-salhelpergcc3-3 (>= 1.4.0)",
 		"uno-libs-private"
 	],
+	"preDepends": [
+		"ucf",
+		"libreoffice-common (>= 4:25.2.1~rc1-3~)"
+	],
 	"recommends": [
 		"libreoffice-writer",
-		"libreoffice-java-common (>= 4:24.8.7~)",
+		"libreoffice-java-common (>= 4:25.2.6~)",
 		"default-jre (>= 2:1.8) | java-runtime (>= 8) | java8-runtime | jre"
 	],
 	"suggests": [
@@ -42,15 +44,15 @@
 	"breaks": [
 		"libreoffice-common (<< 1:6.4.2~rc1~)"
 	],
-	"installedSize": 6209,
+	"installedSize": 6210,
 	"maintainer": "Ubuntu Developers <ubuntu-devel-discuss@lists.ubuntu.com>",
 	"description": "office productivity suite -- database",
 	"homepage": "http://www.libreoffice.org",
-	"filename": "pool/universe/libr/libreoffice/libreoffice-base_24.8.7-0ubuntu0.24.10.1~bpo22.04.1_amd64.deb",
-	"size": 1696424,
-	"md5": "93cf4aeb3a7bae9980c25f88cb2eb22c",
-	"sha1": "077bbfe62a5707c18aad7a0a00b41f87bed242e0",
-	"sha256": "3f3b2879f4794be23f3b6536694f4d46d96c83b498e47a268fe5817224cf4eae",
-	"sha512": "0a920acb800dad64a639155ce394f5253765bcc3ab8c661492aab5d822aa9b3998ece4685e8d53dfbabf8a965d96db50f80bc8d6bd2b048c1aa2bd2d900b65f8",
+	"filename": "pool/universe/libr/libreoffice/libreoffice-base_25.2.6-0ubuntu0.25.04.1~bpo22.04.1_amd64.deb",
+	"size": 1698192,
+	"md5": "e0fca02eaaba93e88caa9abe42dc6e75",
+	"sha1": "c7120fe0d3aa5535f2178551a71e1e3c3f8bbb26",
+	"sha256": "00c9a1c4f74e27715ba55161ea666b0252c9ab19bc117dfb80fd74940ba0a2f8",
+	"sha512": "115b6c96c0a2dd225d05008641b763782057c13c871b6377ae22cc4b6f14ce4bd5de6d3cdc5258abaac07e7158080a44a6a9abba61b61b14ccb54d91df70000c",
 	"descriptionMd5": "5529fff5c628ca6b70284749063daea4"
 }
