@@ -6,16 +6,14 @@
 	],
 	"package": "libreoffice-impress",
 	"source": "libreoffice",
-	"version": "4:24.8.7-0ubuntu0.24.10.1~bpo22.04.1",
+	"version": "4:25.2.6-0ubuntu0.25.04.1~bpo22.04.1",
 	"section": "editors",
 	"priority": "optional",
 	"architecture": "amd64",
 	"depends": [
-		"libreoffice-common (>= 1:7.0.0~alpha~)",
-		"libreoffice-core (= 4:24.8.7-0ubuntu0.24.10.1~bpo22.04.1)",
-		"libreoffice-draw (= 4:24.8.7-0ubuntu0.24.10.1~bpo22.04.1)",
-		"libreoffice-uiconfig-impress (= 4:24.8.7-0ubuntu0.24.10.1~bpo22.04.1)",
-		"ucf",
+		"libreoffice-core (= 4:25.2.6-0ubuntu0.25.04.1~bpo22.04.1)",
+		"libreoffice-draw (= 4:25.2.6-0ubuntu0.25.04.1~bpo22.04.1)",
+		"libreoffice-uiconfig-impress (= 4:25.2.6-0ubuntu0.25.04.1~bpo22.04.1)",
 		"libc6 (>= 2.32)",
 		"libepoxy0 (>= 1.0)",
 		"libetonyek-0.1-1",
@@ -25,10 +23,14 @@
 		"librevenge-0.0-0",
 		"libstdc++6 (>= 11)",
 		"libuno-cppu3 (>= 4.4.0~alpha)",
-		"libuno-cppuhelpergcc3-3 (>= 4.0.0~alpha)",
+		"libuno-cppuhelpergcc3-3 (>= 1:7.4.0~alpha)",
 		"libuno-sal3 (>= 1:7.3.0~beta1)",
 		"libuno-salhelpergcc3-3 (>= 1.4.0)",
 		"uno-libs-private"
+	],
+	"preDepends": [
+		"ucf",
+		"libreoffice-common (>= 4:25.2.1~rc1-3~)"
 	],
 	"suggests": [
 		"bluez"
@@ -43,15 +45,15 @@
 	"conflicts": [
 		"libreoffice-ogltrans (<< 1:6.1.4-2~)"
 	],
-	"installedSize": 3350,
+	"installedSize": 3291,
 	"maintainer": "Ubuntu Developers <ubuntu-devel-discuss@lists.ubuntu.com>",
 	"description": "office productivity suite -- presentation",
 	"homepage": "http://www.libreoffice.org",
-	"filename": "pool/main/libr/libreoffice/libreoffice-impress_24.8.7-0ubuntu0.24.10.1~bpo22.04.1_amd64.deb",
-	"size": 901196,
-	"md5": "5753904aea6c04df6058848793619278",
-	"sha1": "4511e4d2d31e174dee4ef64e762f3ce27e37a6b7",
-	"sha256": "9e2ccf13c0f2da8527f533b62f82fb7b914e793a50d57f5faff2a4e9ae39eb5f",
-	"sha512": "cd80dbcf89dc693b244bb909cb083c7f41dc666308b36f899826d95ad1cbee4b2c0f76efb74ba115b9c863131c99dcfa43802680c32e6b393f8bb1a8e669d331",
+	"filename": "pool/main/libr/libreoffice/libreoffice-impress_25.2.6-0ubuntu0.25.04.1~bpo22.04.1_amd64.deb",
+	"size": 909530,
+	"md5": "078181c2a1a6594547ac71ec8b3692d3",
+	"sha1": "2a3b567c3413616155e596bb860d30f34b476cc7",
+	"sha256": "ec2157d2cc478c0d64c8f4d9bee6c60243188cbd71b384fa277732e68592e039",
+	"sha512": "e4ea8061d2bae46f32881ee5f583736b2edfabd1a191a7dc9e2cc36536afc73689f95b5631837fd9fc210e0eafba5345e695c88f79c714ffcb2cdc7d614e0b03",
 	"descriptionMd5": "472668fa8a618a3bed701d2301185f86"
 }

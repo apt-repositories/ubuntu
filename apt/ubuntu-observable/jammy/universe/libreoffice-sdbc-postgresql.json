@@ -6,14 +6,12 @@
 	],
 	"package": "libreoffice-sdbc-postgresql",
 	"source": "libreoffice",
-	"version": "4:24.8.7-0ubuntu0.24.10.1~bpo22.04.1",
+	"version": "4:25.2.6-0ubuntu0.25.04.1~bpo22.04.1",
 	"section": "universe/misc",
 	"priority": "optional",
 	"architecture": "amd64",
 	"depends": [
-		"libreoffice-common (>= 1:7.0.0~alpha)",
 		"libreoffice-core-nogui | libreoffice-core",
-		"ucf",
 		"libc6 (>= 2.14)",
 		"libgcc-s1 (>= 3.0)",
 		"libpq5 (>= 9.0~)",
@@ -24,22 +22,26 @@
 		"libuno-salhelpergcc3-3 (>= 1.4.0)",
 		"uno-libs-private"
 	],
+	"preDepends": [
+		"ucf",
+		"libreoffice-common (>= 4:25.2.1~rc1-3~)"
+	],
 	"suggests": [
 		"postgresql (>= 8.4)"
 	],
 	"enhances": [
 		"libreoffice-base-drivers"
 	],
-	"installedSize": 1335,
+	"installedSize": 1333,
 	"maintainer": "Ubuntu Developers <ubuntu-devel-discuss@lists.ubuntu.com>",
 	"description": "PostgreSQL SDBC driver for LibreOffice",
 	"homepage": "http://wiki.documentfoundation.org/PostgreSQL-SDBC",
-	"filename": "pool/universe/libr/libreoffice/libreoffice-sdbc-postgresql_24.8.7-0ubuntu0.24.10.1~bpo22.04.1_amd64.deb",
-	"size": 284898,
-	"md5": "26df1dc6388dee2d69f6b007e0dbd341",
-	"sha1": "1759515f176ae40f9689eb75de7706eae841aa4c",
-	"sha256": "3a617a9552f154ffe8b80152f10a6d0258d815f9fcd7e7027aa0a7a5162f2ab2",
-	"sha512": "9479693f918be27fededc716144da4c3def1c3d2ae405e6ad7e63128008bc0fdd1c5820f57ebbcc7ac9b6388f94ffe657823b1ca1662059de494185ea2038f3a",
+	"filename": "pool/universe/libr/libreoffice/libreoffice-sdbc-postgresql_25.2.6-0ubuntu0.25.04.1~bpo22.04.1_amd64.deb",
+	"size": 283224,
+	"md5": "9a78848cff631305134392e9d7fc7471",
+	"sha1": "84aaf63a00c1546f249207d8e9b3dde0082d0883",
+	"sha256": "1bd16a80e2475224f2ba5276de02ee4d678e04d96cae851633df945c7134b5fb",
+	"sha512": "a7740feb0d44e649bfa5a145f0664942a1308d40116dddec3a1b3e5b19aa734ac76ff4a0fc6a8f3f68ad71a34e50f0465505a466d8c5db3f80e12abe55927185",
 	"descriptionMd5": "06f71158aa78dbe7201679601bd1279b"
 },{
 	"raw": {},

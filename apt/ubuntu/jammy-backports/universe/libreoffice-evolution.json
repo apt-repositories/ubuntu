@@ -6,16 +6,14 @@
 	],
 	"package": "libreoffice-evolution",
 	"source": "libreoffice",
-	"version": "4:24.8.7-0ubuntu0.24.10.1~bpo22.04.1",
+	"version": "4:25.2.6-0ubuntu0.25.04.1~bpo22.04.1",
 	"section": "universe/gnome",
 	"priority": "optional",
 	"architecture": "amd64",
 	"depends": [
 		"libreoffice-base",
-		"libreoffice-common (>= 1:7.0.0~alpha~)",
-		"libreoffice-core (= 4:24.8.7-0ubuntu0.24.10.1~bpo22.04.1)",
+		"libreoffice-core (= 4:25.2.6-0ubuntu0.25.04.1~bpo22.04.1)",
 		"libebook-1.2-20",
-		"ucf",
 		"libc6 (>= 2.32)",
 		"libgcc-s1 (>= 3.0)",
 		"libglib2.0-0 (>= 2.24.0)",
@@ -26,21 +24,25 @@
 		"libuno-salhelpergcc3-3 (>= 1.4.0)",
 		"uno-libs-private"
 	],
+	"preDepends": [
+		"ucf",
+		"libreoffice-common (>= 4:25.2.1~rc1-3~)"
+	],
 	"recommends": [
 		"evolution"
 	],
 	"replaces": [
 		"libreoffice-common (= 4:24.2.1-3)"
 	],
-	"installedSize": 634,
+	"installedSize": 632,
 	"maintainer": "Ubuntu Developers <ubuntu-devel-discuss@lists.ubuntu.com>",
 	"description": "office productivity suite -- Evolution addressbook support",
 	"homepage": "http://www.libreoffice.org",
-	"filename": "pool/universe/libr/libreoffice/libreoffice-evolution_24.8.7-0ubuntu0.24.10.1~bpo22.04.1_amd64.deb",
-	"size": 101116,
-	"md5": "c7d58d7a1898a8f78e844ec282f60fd3",
-	"sha1": "14bbcbc35d01f22eb8a9c8f027704eb810b5819b",
-	"sha256": "f5988fc3f23ec100c8bd516eadcd29775a26cb5f4738c4bfdca99cfeb9110fab",
-	"sha512": "98d218b902658d9248527d3fcb288c99214e4469e1a600dac85d11c72727ac79e512d9d77259c006677d2ae0946ee61aa0c3cb242300074117dffe93699b130d",
+	"filename": "pool/universe/libr/libreoffice/libreoffice-evolution_25.2.6-0ubuntu0.25.04.1~bpo22.04.1_amd64.deb",
+	"size": 100306,
+	"md5": "06ebb39c6597f65d04e424568124d340",
+	"sha1": "d781b945dd9e11d0788789d3dcd51a1736ea297e",
+	"sha256": "9b9d4e473fac81082eb0cc99a9b28d17ac54d02c99e22bca4dd09cac41a7e845",
+	"sha512": "1bf17ad712e2c450c32e58287da936af57ff1b6be0f6f553970e395a7d092c5074b3b77226402c133b18446cdd429e37116a8e575cc6e84160700e40202b4bfe",
 	"descriptionMd5": "7d9a6b62e74d5a806f263ecd0d4bed18"
 }

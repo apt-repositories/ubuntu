@@ -6,16 +6,14 @@
 	],
 	"package": "libreoffice-writer",
 	"source": "libreoffice",
-	"version": "4:24.8.7-0ubuntu0.24.10.1~bpo22.04.1",
+	"version": "4:25.2.6-0ubuntu0.25.04.1~bpo22.04.1",
 	"section": "editors",
 	"priority": "optional",
 	"architecture": "amd64",
 	"depends": [
-		"libreoffice-base-core (= 4:24.8.7-0ubuntu0.24.10.1~bpo22.04.1)",
-		"libreoffice-common (>= 1:7.0.0~alpha~)",
-		"libreoffice-core (= 4:24.8.7-0ubuntu0.24.10.1~bpo22.04.1)",
-		"libreoffice-uiconfig-writer (= 4:24.8.7-0ubuntu0.24.10.1~bpo22.04.1)",
-		"ucf",
+		"libreoffice-base-core (= 4:25.2.6-0ubuntu0.25.04.1~bpo22.04.1)",
+		"libreoffice-core (= 4:25.2.6-0ubuntu0.25.04.1~bpo22.04.1)",
+		"libreoffice-uiconfig-writer (= 4:25.2.6-0ubuntu0.25.04.1~bpo22.04.1)",
 		"libabw-0.1-1",
 		"libc6 (>= 2.35)",
 		"libe-book-0.1-1",
@@ -38,6 +36,10 @@
 		"uno-libs-private",
 		"zlib1g (>= 1:1.1.4)"
 	],
+	"preDepends": [
+		"ucf",
+		"libreoffice-common (>= 4:25.2.1~rc1-3~)"
+	],
 	"recommends": [
 		"libreoffice-math"
 	],
@@ -45,7 +47,7 @@
 		"fonts-crosextra-caladea",
 		"fonts-crosextra-carlito",
 		"libreoffice-base",
-		"libreoffice-java-common (>= 4:24.8.7~)",
+		"libreoffice-java-common (>= 4:25.2.6~)",
 		"default-jre (>= 2:1.8) | java-runtime (>= 8) | java8-runtime | jre"
 	],
 	"replaces": [
@@ -54,15 +56,15 @@
 	"breaks": [
 		"libreoffice-common (<< 1:6.4.2~rc1~)"
 	],
-	"installedSize": 35188,
+	"installedSize": 35356,
 	"maintainer": "Ubuntu Developers <ubuntu-devel-discuss@lists.ubuntu.com>",
 	"description": "office productivity suite -- word processor",
 	"homepage": "http://www.libreoffice.org",
-	"filename": "pool/main/libr/libreoffice/libreoffice-writer_24.8.7-0ubuntu0.24.10.1~bpo22.04.1_amd64.deb",
-	"size": 10927302,
-	"md5": "9dbbe5f1525d52133e65bb8b18ed5226",
-	"sha1": "719a3c67fcfcb1db788166377a2b66877a5dd0fd",
-	"sha256": "4f65532d5b27275a00a2a508270c3e15b0cc0e7ccd03f0d45661f6275e240936",
-	"sha512": "215787475beac43e16615d52854a014de3925e4f1c79ead728bfe65952f3e37058ea6e375197ecb4d81225cb6cc5179a85add5d6361e36f72971656818fdeeec",
+	"filename": "pool/main/libr/libreoffice/libreoffice-writer_25.2.6-0ubuntu0.25.04.1~bpo22.04.1_amd64.deb",
+	"size": 11018626,
+	"md5": "93fc8fca64ebe00c25caa1a1ba999f07",
+	"sha1": "0a24c2b6b4a263e82c9ff7429045092ee385069f",
+	"sha256": "a10a34f6349aa6af45f9d1184862c113b1b52abddaab182a53fba5ff37c7450d",
+	"sha512": "57072ccf3ccd654904110878e004a0f4f46bdeb3edd8126a4f1ae41ac099cb258a2bbd824d28b6e36f3a75b7de65d26a1b23439ea7c034a51b8a1030b338f098",
 	"descriptionMd5": "7ddf1a7be67dc22b315f212f564325e8"
 }

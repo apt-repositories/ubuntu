@@ -6,20 +6,18 @@
 	],
 	"package": "libreoffice-calc-nogui",
 	"source": "libreoffice",
-	"version": "4:24.8.7-0ubuntu0.24.10.1~bpo22.04.1",
+	"version": "4:25.2.6-0ubuntu0.25.04.1~bpo22.04.1",
 	"section": "universe/editors",
 	"priority": "optional",
 	"architecture": "amd64",
 	"depends": [
-		"libreoffice-base-core (= 4:24.8.7-0ubuntu0.24.10.1~bpo22.04.1)",
-		"libreoffice-common (>= 1:7.0.0~alpha~)",
-		"libreoffice-core-nogui (= 4:24.8.7-0ubuntu0.24.10.1~bpo22.04.1) | libreoffice-core (= 4:24.8.7-0ubuntu0.24.10.1~bpo22.04.1)",
-		"libreoffice-uiconfig-calc (= 4:24.8.7-0ubuntu0.24.10.1~bpo22.04.1)",
-		"lp-solve",
-		"ucf",
+		"libreoffice-base-core (= 4:25.2.6-0ubuntu0.25.04.1~bpo22.04.1)",
+		"libreoffice-core-nogui (= 4:25.2.6-0ubuntu0.25.04.1~bpo22.04.1) | libreoffice-core (= 4:25.2.6-0ubuntu0.25.04.1~bpo22.04.1)",
+		"libreoffice-uiconfig-calc (= 4:25.2.6-0ubuntu0.25.04.1~bpo22.04.1)",
 		"libc6 (>= 2.35)",
+		"libcolamd2 (>= 1:4.5.2)",
 		"libetonyek-0.1-1",
-		"libgcc-s1 (>= 3.0)",
+		"libgcc-s1 (>= 4.0)",
 		"libicu70 (>= 70.1-1~)",
 		"libmwaw-0.3-3",
 		"libodfgen-0.1-1",
@@ -33,9 +31,15 @@
 		"libxml2 (>= 2.7.4)",
 		"uno-libs-private"
 	],
+	"preDepends": [
+		"ucf",
+		"libreoffice-common (>= 4:25.2.1~rc1-3~)"
+	],
 	"replaces": [
 		"libreoffice-calc",
-		"libreoffice-common (<< 1:6.4.2~rc1~)"
+		"libreoffice-common (<< 1:6.4.2~rc1~)",
+		"libreoffice-core (<< 4:25.2.1-3~)",
+		"libreoffice-core-nogui (<< 4:25.2.1-3~)"
 	],
 	"breaks": [
 		"libreoffice-common (<< 1:6.4.2~rc1~)"
@@ -43,16 +47,16 @@
 	"conflicts": [
 		"libreoffice-calc"
 	],
-	"installedSize": 28775,
+	"installedSize": 29486,
 	"maintainer": "Ubuntu Developers <ubuntu-devel-discuss@lists.ubuntu.com>",
 	"description": "office productivity suite -- spreadsheet (no GUI variant)",
 	"homepage": "http://www.libreoffice.org",
-	"filename": "pool/universe/libr/libreoffice/libreoffice-calc-nogui_24.8.7-0ubuntu0.24.10.1~bpo22.04.1_amd64.deb",
-	"size": 8691560,
-	"md5": "f2b380dff008947539c40a1c636ea88a",
-	"sha1": "0053bd193833e7d1dc7abcf62676bb90f9a0b266",
-	"sha256": "1427f269bfaa61cab809303eb8cc439c612bea3a00c065eb193d45298041fcda",
-	"sha512": "ed8b8bc6650d14b3c1f8bf9541f94401abe0fbcd125d02afdd6f6400f2aae9ca43f4b7f76218347fe4a62a69a707ee2e95f677b0ebed66576a7a0bf45e18835d",
+	"filename": "pool/universe/libr/libreoffice/libreoffice-calc-nogui_25.2.6-0ubuntu0.25.04.1~bpo22.04.1_amd64.deb",
+	"size": 9014914,
+	"md5": "9b0734ef90df2b4760011bbe9bf2509b",
+	"sha1": "bd8afdd5d776a28cee4178c7b38a7d474119e0ca",
+	"sha256": "05fb0de10a3d482a8c301415611ae189f804c548a226e6876e84a2474f688ed9",
+	"sha512": "16f305334df91b1a52a1690c7de6b13a04924410772c7e7b6b74c965556562ff8510becf386e689d0b6ec296badc43f994a207594d818b98c61b28392a57c8b4",
 	"descriptionMd5": "ed9483b973f6b2dd25d568b6ef77d8c4"
 },{
 	"raw": {},
