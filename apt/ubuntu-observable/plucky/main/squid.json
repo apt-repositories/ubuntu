@@ -5,6 +5,71 @@
 		"Size"
 	],
 	"package": "squid",
+	"version": "6.13-1ubuntu1.1",
+	"section": "web",
+	"priority": "optional",
+	"architecture": "amd64",
+	"depends": [
+		"libc6 (>= 2.38)",
+		"libcap2 (>= 1:2.10)",
+		"libcom-err2 (>= 1.43.9)",
+		"libcrypt1 (>= 1:4.1.0)",
+		"libecap3 (>= 1.0.1)",
+		"libgcc-s1 (>= 3.3.1)",
+		"libgnutls30t64 (>= 3.8.1)",
+		"libgssapi-krb5-2 (>= 1.17)",
+		"libkrb5-3 (>= 1.10+dfsg~)",
+		"libldap2 (>= 2.6.2)",
+		"libltdl7 (>= 2.5.4)",
+		"libnetfilter-conntrack3 (>= 1.0.1)",
+		"libnettle8t64",
+		"libpam0g (>= 0.99.7.1)",
+		"libsasl2-2 (>= 2.1.28+dfsg1)",
+		"libstdc++6 (>= 14)",
+		"libsystemd0",
+		"libtdb1 (>= 1.2.7+git20101214)",
+		"netbase",
+		"logrotate (>= 3.5.4-1)",
+		"squid-common (>= 6.13-1ubuntu1.1)",
+		"libdbi-perl",
+		"ssl-cert"
+	],
+	"preDepends": [
+		"init-system-helpers (>= 1.54~)",
+		"adduser"
+	],
+	"recommends": [
+		"libcap2-bin",
+		"ca-certificates"
+	],
+	"suggests": [
+		"squidclient",
+		"squid-cgi",
+		"squid-purge",
+		"resolvconf (>= 0.40)",
+		"smbclient",
+		"ufw",
+		"winbind",
+		"apparmor"
+	],
+	"installedSize": 8388,
+	"maintainer": "Ubuntu Developers <ubuntu-devel-discuss@lists.ubuntu.com>",
+	"description": "Full featured Web Proxy cache (HTTP proxy GnuTLS flavour)",
+	"homepage": "http://www.squid-cache.org",
+	"filename": "pool/main/s/squid/squid_6.13-1ubuntu1.1_amd64.deb",
+	"size": 2839416,
+	"md5": "8ff732f23a44c508a110183dfff9f1cb",
+	"sha1": "cb314a6ff3fcadeb6e46f9389552f12822f4e085",
+	"sha256": "91d6daf775e3136aab79fde4212c8e596c448864dd4d95e4a37f251a1c259c74",
+	"sha512": "4fd201840c4f9f670553abb646f4cdfe98f6481fc297f1fab467fc951880efef2972e800f4f9066e5efc4f8f4ce578ce2d9e5a9a99b70e3b81b530d6de47882f",
+	"descriptionMd5": "f75f458cce22198437dad21af036a0a1"
+},{
+	"raw": {},
+	"required": [
+		"Filename",
+		"Size"
+	],
+	"package": "squid",
 	"version": "6.13-1ubuntu1",
 	"section": "web",
 	"priority": "optional",
