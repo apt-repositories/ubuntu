@@ -6,6 +6,44 @@
 	],
 	"package": "libpam-u2f",
 	"source": "pam-u2f",
+	"version": "1.1.0-1.1+deb12u1build0.22.04.1",
+	"section": "universe/admin",
+	"priority": "optional",
+	"architecture": "amd64",
+	"depends": [
+		"libc6 (>= 2.33)",
+		"libfido2-1 (>= 1.2.0)",
+		"libpam0g (>= 1.1.3)",
+		"libssl3 (>= 3.0.0~~alpha1)"
+	],
+	"recommends": [
+		"pamu2fcfg"
+	],
+	"replaces": [
+		"pamu2fcfg (<< 1.0.4-0.2)"
+	],
+	"breaks": [
+		"pamu2fcfg (<< 1.0.4-0.2)"
+	],
+	"installedSize": 85,
+	"maintainer": "Ubuntu Developers <ubuntu-devel-discuss@lists.ubuntu.com>",
+	"description": "universal 2nd factor (U2F) PAM module",
+	"homepage": "https://developers.yubico.com/pam-u2f/",
+	"filename": "pool/universe/p/pam-u2f/libpam-u2f_1.1.0-1.1+deb12u1build0.22.04.1_amd64.deb",
+	"size": 33408,
+	"md5": "2bd790386967dfe9be5592e34d92d14b",
+	"sha1": "e76eb0ce54102260ace236e2d6009783ac8d7906",
+	"sha256": "74dfdf0562756e160c5d2638ef3925ac798e220f1d7244645832454c57c06869",
+	"sha512": "5a121e50f3d5a64ab0af83b2be2ecd58a1b5a863cfbbcaa645e4a1a3d00c1e6d39cc8dc5389d09b25532f45aee6f6299ae2b30100d4521f2e0e94415a7d2a6ac",
+	"descriptionMd5": "15c1cea4fb85bab8e83154ff676d27f0"
+},{
+	"raw": {},
+	"required": [
+		"Filename",
+		"Size"
+	],
+	"package": "libpam-u2f",
+	"source": "pam-u2f",
 	"version": "1.1.0-1.1build1",
 	"section": "universe/admin",
 	"priority": "optional",
