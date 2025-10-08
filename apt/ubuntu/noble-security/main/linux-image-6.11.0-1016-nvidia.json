@@ -1,0 +1,42 @@
+{
+	"raw": {},
+	"required": [
+		"Filename",
+		"Size"
+	],
+	"package": "linux-image-6.11.0-1016-nvidia",
+	"source": "linux-signed-nvidia-6.11",
+	"version": "6.11.0-1016.16",
+	"section": "kernel",
+	"priority": "optional",
+	"architecture": "amd64",
+	"depends": [
+		"kmod",
+		"linux-base (>= 4.5ubuntu1~16.04.1)",
+		"linux-modules-6.11.0-1016-nvidia"
+	],
+	"recommends": [
+		"grub-pc | grub-efi-amd64 | grub-efi-ia32 | grub | lilo",
+		"initramfs-tools | linux-initramfs-tool"
+	],
+	"suggests": [
+		"fdutils",
+		"linux-nvidia-6.11-tools",
+		"linux-headers-6.11.0-1016-nvidia",
+		"linux-modules-extra-6.11.0-1016-nvidia"
+	],
+	"conflicts": [
+		"linux-image-unsigned-6.11.0-1016-nvidia"
+	],
+	"installedSize": 14897,
+	"maintainer": "Canonical Kernel Team <kernel-team@lists.ubuntu.com>",
+	"description": "Signed kernel image nvidia",
+	"builtUsing": "linux-nvidia-6.11 (= 6.11.0-1016.16)",
+	"filename": "pool/main/l/linux-signed-nvidia-6.11/linux-image-6.11.0-1016-nvidia_6.11.0-1016.16_amd64.deb",
+	"size": 14976706,
+	"md5": "96ac1d22b00cc7b2dd8f950134732bd0",
+	"sha1": "3c8425b911f1cc4b05bf1fa95bb2c831fb07f6bc",
+	"sha256": "2cb2ca94e3c640e33f5a59eccc24465a5f4186d0a4390ade4901cdde528b6e7a",
+	"sha512": "ab2a227c1d4a98004d9fde447730dbcd90c03c0bd73df57d99938dddc2f76b3f2e9f4c495be56d7c6a5882b4f9c6c661853e8ede35a3b4ca05aa4b763cfda934",
+	"descriptionMd5": "b8342c2badb6b6cc1d4c822e4f5bad97"
+}
