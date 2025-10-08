@@ -6,7 +6,7 @@
 	],
 	"package": "docker.io",
 	"source": "docker.io-app",
-	"version": "27.5.1-0ubuntu3~24.04.2",
+	"version": "28.2.2-0ubuntu1~24.04.1",
 	"section": "universe/admin",
 	"priority": "optional",
 	"architecture": "amd64",
@@ -37,16 +37,22 @@
 		"rinse",
 		"zfs-fuse | zfsutils"
 	],
-	"installedSize": 123153,
+	"replaces": [
+		"podman-docker"
+	],
+	"conflicts": [
+		"podman-docker"
+	],
+	"installedSize": 106890,
 	"maintainer": "Ubuntu Developers <ubuntu-devel-discuss@lists.ubuntu.com>",
 	"description": "Linux container runtime",
 	"homepage": "https://mobyproject.org/",
-	"builtUsing": "glibc (= 2.39-0ubuntu8.4), golang-1.22 (= 1.22.2-2ubuntu0.3)",
-	"filename": "pool/universe/d/docker.io-app/docker.io_27.5.1-0ubuntu3~24.04.2_amd64.deb",
-	"size": 33022362,
-	"md5": "fcf129f0ee6e170bb900be8ea8488ac6",
-	"sha1": "c91fdfc39f8498c15e914d5ffdb0b59f4246a0a7",
-	"sha256": "f8df99f5b1e510eefb4132619b78a87b6bc00da18334ff581eb3f1bd2c40cda2",
-	"sha512": "5b06f7ec3fd35a5bed9f9021df48d10367eb8db88867ee84d478280c1a041589e4c1aca3898b2c962c8586dcc80eff3982d5804561b013e7cd701d7d4ef766e5",
+	"builtUsing": "glibc (= 2.39-0ubuntu8.6), golang-1.23 (= 1.23.1-1~24.04)",
+	"filename": "pool/universe/d/docker.io-app/docker.io_28.2.2-0ubuntu1~24.04.1_amd64.deb",
+	"size": 28325122,
+	"md5": "b52de0b06afa8f3a601bed37df0aec69",
+	"sha1": "1031b32152f779729e5506e55e246f35b6b26ff5",
+	"sha256": "0feb959d504aee99077c6eb95b9a5508783e778b02bea5f3f049c2ffb794bda2",
+	"sha512": "fef25c75d9af7ca00c12c64a521b29d90dbd36fe903b01501a0923723523d955a8bc949a51ab94d62930219e279d0303b760420b32367579201d4ab94c5ac4da",
 	"descriptionMd5": "e493e693fe77bf3c8bec9a4fc91c75cc"
 }

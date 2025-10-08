@@ -5,6 +5,50 @@
 		"Size"
 	],
 	"package": "borgbackup",
+	"version": "1.2.0-1ubuntu1.22.04.1",
+	"section": "universe/admin",
+	"priority": "optional",
+	"architecture": "amd64",
+	"depends": [
+		"python3-pkg-resources",
+		"python3 (<< 3.11)",
+		"python3 (>= 3.10~)",
+		"python3-msgpack",
+		"python3-packaging",
+		"python3:any",
+		"libacl1 (>= 2.2.23)",
+		"libc6 (>= 2.14)",
+		"liblz4-1 (>= 0.0~r130)",
+		"libssl3 (>= 3.0.0~~alpha1)",
+		"libxxhash0 (>= 0.6.5)",
+		"libzstd1 (>= 1.4.0)"
+	],
+	"recommends": [
+		"python3-llfuse (<< 2.0)",
+		"python3-pyfuse3",
+		"fuse"
+	],
+	"suggests": [
+		"borgbackup-doc"
+	],
+	"installedSize": 3073,
+	"maintainer": "Ubuntu Developers <ubuntu-devel-discuss@lists.ubuntu.com>",
+	"description": "deduplicating and compressing backup program",
+	"homepage": "https://borgbackup.github.io/borgbackup/",
+	"filename": "pool/universe/b/borgbackup/borgbackup_1.2.0-1ubuntu1.22.04.1_amd64.deb",
+	"size": 791956,
+	"md5": "e032ebded8160a7650aade0704bd97dd",
+	"sha1": "e7c9aa9fc87c22129fdbb803113744aa9cb008d7",
+	"sha256": "1dd67f389438757447c37018ac448b5642c27d57536cc33af73c067f12781d84",
+	"sha512": "dbe82e5dcd2db1a832743d43ca843e2cd22b12edffda8625200a9dfd7089f9b9e74ab1ed0a5f3c15ca2e4f28880008638ebe38f94eaedc82a56ff17c13cb62b6",
+	"descriptionMd5": "8a56876615c13f6f25a373ef5d5c2017"
+},{
+	"raw": {},
+	"required": [
+		"Filename",
+		"Size"
+	],
+	"package": "borgbackup",
 	"version": "1.2.0-1",
 	"section": "universe/admin",
 	"priority": "optional",

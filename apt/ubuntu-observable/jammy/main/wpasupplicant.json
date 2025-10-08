@@ -45,6 +45,45 @@
 	],
 	"package": "wpasupplicant",
 	"source": "wpa",
+	"version": "2:2.10-6ubuntu2.3",
+	"section": "net",
+	"priority": "optional",
+	"architecture": "amd64",
+	"depends": [
+		"libc6 (>= 2.34)",
+		"libdbus-1-3 (>= 1.9.14)",
+		"libnl-3-200 (>= 3.2.21)",
+		"libnl-genl-3-200 (>= 3.2.7)",
+		"libnl-route-3-200 (>= 3.4.0)",
+		"libpcsclite1 (>= 1.0.0)",
+		"libreadline8 (>= 6.0)",
+		"libssl3 (>= 3.0.0~~alpha1)",
+		"lsb-base",
+		"adduser"
+	],
+	"suggests": [
+		"wpagui",
+		"libengine-pkcs11-openssl"
+	],
+	"installedSize": 3831,
+	"maintainer": "Ubuntu Developers <ubuntu-devel-discuss@lists.ubuntu.com>",
+	"description": "client support for WPA and WPA2 (IEEE 802.11i)",
+	"homepage": "https://w1.fi/wpa_supplicant/",
+	"filename": "pool/main/w/wpa/wpasupplicant_2.10-6ubuntu2.3_amd64.deb",
+	"size": 1481874,
+	"md5": "b36b6ff064ab6132de503a8603d8d360",
+	"sha1": "a551e5907a71d3109d1e7001189d61c9a48016aa",
+	"sha256": "22630ec50b0c6e6e5ecc0197b57abca10dda0e8e1f7afd4501d3deb7550d50ad",
+	"sha512": "7ba17ffce44762442acbc0cacfc080b93735c191301ae85f954b2251e0494f15205800cdd01ccf178ba7d005831d8223b7b1f6870c35b0c3c95312356d940a80",
+	"descriptionMd5": "45df452b36e1c438641626b096751680"
+},{
+	"raw": {},
+	"required": [
+		"Filename",
+		"Size"
+	],
+	"package": "wpasupplicant",
+	"source": "wpa",
 	"version": "2:2.10-6",
 	"section": "net",
 	"priority": "optional",
