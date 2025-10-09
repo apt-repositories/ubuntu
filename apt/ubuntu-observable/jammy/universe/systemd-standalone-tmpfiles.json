@@ -43,6 +43,43 @@
 	],
 	"package": "systemd-standalone-tmpfiles",
 	"source": "systemd",
+	"version": "249.11-0ubuntu3.17",
+	"section": "universe/admin",
+	"priority": "optional",
+	"architecture": "amd64",
+	"depends": [
+		"libacl1 (>= 2.2.23)",
+		"libc6 (>= 2.34)",
+		"libcap2 (>= 1:2.24-9~)",
+		"libselinux1 (>= 3.1~)"
+	],
+	"replaces": [
+		"systemd (<< 249.3-3)",
+		"systemd-tmpfiles"
+	],
+	"conflicts": [
+		"systemd (<< 249.3-3)",
+		"systemd-tmpfiles"
+	],
+	"installedSize": 451,
+	"maintainer": "Ubuntu Developers <ubuntu-devel-discuss@lists.ubuntu.com>",
+	"description": "Standalone tmpfiles binary for use in non-systemd systems",
+	"homepage": "https://www.freedesktop.org/wiki/Software/systemd",
+	"filename": "pool/universe/s/systemd/systemd-standalone-tmpfiles_249.11-0ubuntu3.17_amd64.deb",
+	"size": 130140,
+	"md5": "7384b25f4d99bdd4a9057624a32d7a27",
+	"sha1": "eacc6ca2e5996dcf93db37e1f311fd9a498f88ce",
+	"sha256": "4e2eabcce21569cb80fa2a61ce375352dec878a249fb664742be3b6ed2088c10",
+	"sha512": "9501fdee5e5fa021966144c985fd778e3e5d9dd2692f835ae58068f7c15e1a1de403da8f95e7a86cf753c34247767b1e74e6587465635ecf2627b7ddb6f3fa3e",
+	"descriptionMd5": "9551a50eb48c456ff5139b713b1118e4"
+},{
+	"raw": {},
+	"required": [
+		"Filename",
+		"Size"
+	],
+	"package": "systemd-standalone-tmpfiles",
+	"source": "systemd",
 	"version": "249.11-0ubuntu3",
 	"section": "universe/admin",
 	"priority": "optional",
