@@ -42,6 +42,42 @@
 	],
 	"package": "systemd-coredump",
 	"source": "systemd",
+	"version": "249.11-0ubuntu3.17",
+	"section": "universe/admin",
+	"priority": "optional",
+	"architecture": "amd64",
+	"depends": [
+		"libc6 (>= 2.34)",
+		"libdw1 (>= 0.158)",
+		"libelf1 (>= 0.144)",
+		"systemd (= 249.11-0ubuntu3.17)",
+		"adduser"
+	],
+	"replaces": [
+		"core-dump-handler"
+	],
+	"conflicts": [
+		"core-dump-handler"
+	],
+	"installedSize": 339,
+	"maintainer": "Ubuntu Developers <ubuntu-devel-discuss@lists.ubuntu.com>",
+	"description": "tools for storing and retrieving coredumps",
+	"homepage": "https://www.freedesktop.org/wiki/Software/systemd",
+	"filename": "pool/universe/s/systemd/systemd-coredump_249.11-0ubuntu3.17_amd64.deb",
+	"size": 59568,
+	"md5": "5e8ce6cc9173da51b4dfd08164708c61",
+	"sha1": "30a419908fb0a87290c91c3c607ee51f41157079",
+	"sha256": "bdc313b531b2dd6d46da2ffabe876b2f224bec047f7f2966dc70a0566618c620",
+	"sha512": "a4a654ea126445db322b4da7c901d0a2c9d43e427723385f4fbf757a64ed99b6adf1e63fdd05ee6916f2e8f27f27039cd09ba149025c1b1298512d57d69e14a6",
+	"descriptionMd5": "149b22bdf2366b7d731957d1b710e54f"
+},{
+	"raw": {},
+	"required": [
+		"Filename",
+		"Size"
+	],
+	"package": "systemd-coredump",
+	"source": "systemd",
 	"version": "249.11-0ubuntu3",
 	"section": "universe/admin",
 	"priority": "optional",
