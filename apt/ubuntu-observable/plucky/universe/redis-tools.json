@@ -6,6 +6,47 @@
 	],
 	"package": "redis-tools",
 	"source": "redis",
+	"version": "5:7.0.15-3ubuntu0.1",
+	"section": "universe/database",
+	"priority": "optional",
+	"architecture": "amd64",
+	"depends": [
+		"adduser",
+		"libatomic1 (>= 4.8)",
+		"libc6 (>= 2.38)",
+		"libjemalloc2 (>= 3.5.0)",
+		"liblzf1 (>= 1.5)",
+		"libssl3t64 (>= 3.0.0)",
+		"libsystemd0"
+	],
+	"suggests": [
+		"ruby-redis"
+	],
+	"replaces": [
+		"redis-server (<< 2:2.6.16-1)"
+	],
+	"breaks": [
+		"redis-server (<< 2:2.6.16-1)"
+	],
+	"installedSize": 7188,
+	"maintainer": "Ubuntu Developers <ubuntu-devel-discuss@lists.ubuntu.com>",
+	"description": "Persistent key-value database with network interface (client)",
+	"homepage": "https://redis.io/",
+	"filename": "pool/universe/r/redis/redis-tools_7.0.15-3ubuntu0.1_amd64.deb",
+	"size": 1325064,
+	"md5": "b2d93c9868252b6e1615e0c9455da82c",
+	"sha1": "897be38db3ec45b4f2e863195615c741aa5c8580",
+	"sha256": "d1c42ba6e011028ce2b07d045856a96be9dfafca55779ad9e9613be3e9de6fad",
+	"sha512": "dbd7031ae96a064f97eb8e7ca02fa3a93d48067bb549d2a347b0e4dc878ca07281adcef1850b44fcc97bde96b15e225ac068c6c987d778c6cea2ceb8e123e399",
+	"descriptionMd5": "73e12355ae0942ddf9ddc6d068f95d50"
+},{
+	"raw": {},
+	"required": [
+		"Filename",
+		"Size"
+	],
+	"package": "redis-tools",
+	"source": "redis",
 	"version": "5:7.0.15-3",
 	"section": "universe/database",
 	"priority": "optional",
