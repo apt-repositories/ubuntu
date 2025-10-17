@@ -6,16 +6,16 @@
 	],
 	"package": "samba-ad-dc",
 	"source": "samba",
-	"version": "2:4.21.4+dfsg-1ubuntu3.1",
+	"version": "2:4.21.4+dfsg-1ubuntu3.5",
 	"section": "universe/net",
 	"priority": "optional",
 	"architecture": "amd64",
 	"depends": [
-		"samba (= 2:4.21.4+dfsg-1ubuntu3.1)",
-		"python3-samba (= 2:4.21.4+dfsg-1ubuntu3.1)",
+		"samba (= 2:4.21.4+dfsg-1ubuntu3.5)",
+		"python3-samba (= 2:4.21.4+dfsg-1ubuntu3.5)",
 		"python3-dnspython",
-		"samba-dsdb-modules (= 2:4.21.4+dfsg-1ubuntu3.1)",
-		"winbind (= 2:4.21.4+dfsg-1ubuntu3.1)",
+		"samba-dsdb-modules (= 2:4.21.4+dfsg-1ubuntu3.5)",
+		"winbind (= 2:4.21.4+dfsg-1ubuntu3.5)",
 		"python3:any",
 		"libbsd0 (>= 0.6.0)",
 		"libc6 (>= 2.34)",
@@ -23,7 +23,7 @@
 		"libpopt0 (>= 1.14)",
 		"libtalloc2 (>= 2.0.4~git20101213)",
 		"libtevent0t64 (>= 0.9.16)",
-		"samba-libs (= 2:4.21.4+dfsg-1ubuntu3.1)"
+		"samba-libs (= 2:4.21.4+dfsg-1ubuntu3.5)"
 	],
 	"preDepends": [
 		"init-system-helpers (>= 1.54~)"
@@ -58,79 +58,12 @@
 	"maintainer": "Ubuntu Developers <ubuntu-devel-discuss@lists.ubuntu.com>",
 	"description": "Samba control files to run AD Domain Controller",
 	"homepage": "https://www.samba.org",
-	"filename": "pool/universe/s/samba/samba-ad-dc_4.21.4+dfsg-1ubuntu3.1_amd64.deb",
-	"size": 42350,
-	"md5": "48cc0a5f5de0e5788d37dd0fbb4c2770",
-	"sha1": "6b2a7ab4323a1b45b06339c8a04a6c99a5fb46a2",
-	"sha256": "865bf996c1618079cce919d9b89948fd6b405fac8e06841bfaca14674ecbcd30",
-	"sha512": "f8a01d53c16282b0a6812b53dcb690d2656c580c4fd9cdff562cbae9473d38db5c9d5799cd9b180d4a7f2cd2bd1383729369f0a1f121207d8341f60030efbf10",
-	"descriptionMd5": "eba517f15cc7dff6d61d4bf8f68630b3"
-},{
-	"raw": {},
-	"required": [
-		"Filename",
-		"Size"
-	],
-	"package": "samba-ad-dc",
-	"source": "samba",
-	"version": "2:4.21.4+dfsg-1ubuntu3.4",
-	"section": "universe/net",
-	"priority": "optional",
-	"architecture": "amd64",
-	"depends": [
-		"samba (= 2:4.21.4+dfsg-1ubuntu3.4)",
-		"python3-samba (= 2:4.21.4+dfsg-1ubuntu3.4)",
-		"python3-dnspython",
-		"samba-dsdb-modules (= 2:4.21.4+dfsg-1ubuntu3.4)",
-		"winbind (= 2:4.21.4+dfsg-1ubuntu3.4)",
-		"python3:any",
-		"libbsd0 (>= 0.6.0)",
-		"libc6 (>= 2.34)",
-		"libldb2 (>= 0.9.21)",
-		"libpopt0 (>= 1.14)",
-		"libtalloc2 (>= 2.0.4~git20101213)",
-		"libtevent0t64 (>= 0.9.16)",
-		"samba-libs (= 2:4.21.4+dfsg-1ubuntu3.4)"
-	],
-	"preDepends": [
-		"init-system-helpers (>= 1.54~)"
-	],
-	"recommends": [
-		"libnss-winbind",
-		"libpam-winbind",
-		"samba-ad-provision",
-		"python3-gpg"
-	],
-	"suggests": [
-		"bind9",
-		"bind9utils",
-		"ldb-tools",
-		"time-daemon | chrony | ntpsec"
-	],
-	"replaces": [
-		"samba-common-bin (<< 2:4.20.1+dfsg-2~)"
-	],
-	"enhances": [
-		"bind9",
-		"ntpsec"
-	],
-	"breaks": [
-		"samba-ad-provision (<< 2:4.21.4+dfsg)",
-		"samba-common-bin (<< 2:4.20.1+dfsg-2~)"
-	],
-	"conflicts": [
-		"samba (<< 2:4.20.1+dfsg-2~)"
-	],
-	"installedSize": 212,
-	"maintainer": "Ubuntu Developers <ubuntu-devel-discuss@lists.ubuntu.com>",
-	"description": "Samba control files to run AD Domain Controller",
-	"homepage": "https://www.samba.org",
-	"filename": "pool/universe/s/samba/samba-ad-dc_4.21.4+dfsg-1ubuntu3.4_amd64.deb",
-	"size": 42326,
-	"md5": "bc348552f5db641ca324f4b568f242c4",
-	"sha1": "dad1f19a41ced6888b9cb6dd008b48086c3fd735",
-	"sha256": "5d86579076eb4c518aac5d0f3cb40b55286d8a01add86ea6bccbb2d7c3addac9",
-	"sha512": "35fcbea45e7c7705aa9ae5f84c04ce22e87c3f451f35a1b936f43dd6b1b4d2503bbf7a517a5cb1011a330fcf4b7e8db390096b5b37d6307fe851ed8e1875af61",
+	"filename": "pool/universe/s/samba/samba-ad-dc_4.21.4+dfsg-1ubuntu3.5_amd64.deb",
+	"size": 42360,
+	"md5": "662f6d868b69716c1d98d900d5249a5e",
+	"sha1": "5c81e28b0857bafefa6c083934237f4333430624",
+	"sha256": "dc0b6371df285d7838eafed6e1ac50b67b2c9b725c57c6f380229e2ade65a79f",
+	"sha512": "9eb24dd56503eec9b137430f5449e02721960f7c4c18368b87e967580834952e1263a7e51c89a1623d10a33ddb6f41fa3c205d5049a6794fcd52b968ca45f73c",
 	"descriptionMd5": "eba517f15cc7dff6d61d4bf8f68630b3"
 },{
 	"raw": {},

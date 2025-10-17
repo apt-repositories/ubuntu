@@ -42,4 +42,49 @@
 	"sha256": "dc52540c5736cd59866cc84d092e5e2bffab5e44a5e9400a50837e1171653b16",
 	"sha512": "933ca0e7429e4973efa7bf5437d487bfb30f373a3d651f0e3eebab3ddbd3aa96af4bbcb7e118b7c0a8fb35d4001e8facc73bd4201e08968a81ea48a173fb8fab",
 	"descriptionMd5": "d899ab089124230e29489e7dcc9f137a"
+},{
+	"raw": {},
+	"required": [
+		"Filename",
+		"Size"
+	],
+	"package": "libnvidia-gl-580-server",
+	"source": "nvidia-graphics-drivers-580-server",
+	"version": "580.95.05-0ubuntu0.22.04.2",
+	"section": "restricted/libs",
+	"priority": "optional",
+	"architecture": "amd64",
+	"depends": [
+		"nvidia-kernel-common-580-server (= 580.95.05-0ubuntu0.22.04.2)",
+		"libnvidia-common-580-server",
+		"libc6 (>= 2.10)",
+		"libdrm2 (>= 2.4.75)",
+		"libgbm1 (>= 17.1.0~rc2)",
+		"libgcc-s1 (>= 4.2)",
+		"libnvidia-compute-580-server (>= 580.95.05)",
+		"libx11-6",
+		"libx11-xcb1 (>= 2:1.7.5)",
+		"libxcb-dri3-0 (>= 1.13)",
+		"libxcb-present0",
+		"libxcb1 (>= 1.12)",
+		"libxext6",
+		"libnvidia-egl-wayland1"
+	],
+	"replaces": [
+		"libnvidia-gl"
+	],
+	"conflicts": [
+		"libnvidia-gl"
+	],
+	"installedSize": 529761,
+	"maintainer": "Ubuntu Core Developers <ubuntu-devel-discuss@lists.ubuntu.com>",
+	"description": "NVIDIA OpenGL/GLX/EGL/GLES GLVND libraries and Vulkan ICD",
+	"homepage": "http://www.nvidia.com",
+	"filename": "pool/restricted/n/nvidia-graphics-drivers-580-server/libnvidia-gl-580-server_580.95.05-0ubuntu0.22.04.2_amd64.deb",
+	"size": 172891552,
+	"md5": "59ba0763e61d7218b548b1c36d81fb44",
+	"sha1": "1b7b16fd617fef90a718d0ffd8533a360364f4c2",
+	"sha256": "c830908b779b45334a2cd0827b41be839f35914bf8015dd0c937168f253a81de",
+	"sha512": "b9c1e92ceccf761fbdfc2acb2055c4ed22869359ad6390e1085ca54412f5db294c048cb1208573428b53f137204cfea427025011151bcf1ec45985921f306c96",
+	"descriptionMd5": "d899ab089124230e29489e7dcc9f137a"
 }]

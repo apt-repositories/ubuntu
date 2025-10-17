@@ -43,6 +43,43 @@
 	],
 	"package": "xserver-xorg-video-nvidia-535-server",
 	"source": "nvidia-graphics-drivers-535-server",
+	"version": "535.274.02-0ubuntu0.25.04.2",
+	"section": "restricted/x11",
+	"priority": "optional",
+	"architecture": "amd64",
+	"depends": [
+		"libnvidia-cfg1-535-server (= 535.274.02-0ubuntu0.25.04.2)",
+		"xorg-video-abi-25 | xorg-video-abi-24 | xorg-video-abi-23 | xorg-video-abi-20 | xorg-video-abi-19 | xorg-video-abi-18 | xorg-video-abi-15 | xorg-video-abi-14 | xorg-video-abi-13 | xorg-video-abi-12 | xorg-video-abi-11 | xorg-video-abi-10 | xorg-video-abi-8 | xorg-video-abi-6.0",
+		"xserver-xorg-core (>= 2:1.19.6-1ubuntu2~)",
+		"libc6 (>= 2.34)"
+	],
+	"replaces": [
+		"nvidia-driver-binary",
+		"xorg-driver-binary"
+	],
+	"conflicts": [
+		"nvidia-driver-binary",
+		"xorg-driver-binary"
+	],
+	"installedSize": 6292,
+	"maintainer": "Ubuntu Core Developers <ubuntu-devel-discuss@lists.ubuntu.com>",
+	"description": "NVIDIA binary Xorg driver",
+	"homepage": "http://www.nvidia.com",
+	"filename": "pool/restricted/n/nvidia-graphics-drivers-535-server/xserver-xorg-video-nvidia-535-server_535.274.02-0ubuntu0.25.04.2_amd64.deb",
+	"size": 1585230,
+	"md5": "8af44b1716bacb488011c06ce92b41b8",
+	"sha1": "0b39f865e0f392004b4bf917c9d037644115575f",
+	"sha256": "3d07425f1ad12b9fecaad6491d053f519aedb4f5426860450ebedee3e5e71bef",
+	"sha512": "eee5f37464fd3a55f9e810d1434167af6f89410d326a5e9cdf4a01ea345dc3990ab8308b0fe91cbf54ec6b61b7a7405e7cd2a486a0a228fd727d9c909743cb58",
+	"descriptionMd5": "7060850a4a0624625a38638b752b5d23"
+},{
+	"raw": {},
+	"required": [
+		"Filename",
+		"Size"
+	],
+	"package": "xserver-xorg-video-nvidia-535-server",
+	"source": "nvidia-graphics-drivers-535-server",
 	"version": "535.230.02-0ubuntu5",
 	"section": "restricted/x11",
 	"priority": "optional",
