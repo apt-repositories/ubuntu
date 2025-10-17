@@ -49,6 +49,50 @@
 	],
 	"package": "libnvidia-gl-570-server",
 	"source": "nvidia-graphics-drivers-570-server",
+	"version": "570.195.03-0ubuntu0.25.04.2",
+	"section": "multiverse/libs",
+	"priority": "optional",
+	"architecture": "amd64",
+	"depends": [
+		"nvidia-kernel-common-570-server (= 570.195.03-0ubuntu0.25.04.2)",
+		"libnvidia-common-570-server",
+		"libc6 (>= 2.34)",
+		"libdrm2 (>= 2.4.75)",
+		"libgbm1 (>= 17.1.0~rc2)",
+		"libgcc-s1 (>= 4.2)",
+		"libx11-6",
+		"libx11-xcb1",
+		"libxcb-dri3-0 (>= 1.13)",
+		"libxcb-present0",
+		"libxcb1 (>= 1.12)",
+		"libxext6",
+		"libnvidia-egl-wayland1"
+	],
+	"replaces": [
+		"libnvidia-gl"
+	],
+	"conflicts": [
+		"libnvidia-gl"
+	],
+	"installedSize": 481161,
+	"maintainer": "Ubuntu Core Developers <ubuntu-devel-discuss@lists.ubuntu.com>",
+	"description": "NVIDIA OpenGL/GLX/EGL/GLES GLVND libraries and Vulkan ICD",
+	"homepage": "http://www.nvidia.com",
+	"filename": "pool/multiverse/n/nvidia-graphics-drivers-570-server/libnvidia-gl-570-server_570.195.03-0ubuntu0.25.04.2_amd64.deb",
+	"size": 169052780,
+	"md5": "6faa903dc01d9abb80c6371a0b2ce779",
+	"sha1": "908a99356e63a5cbdbb91f2fcd5cd3d34bd88e25",
+	"sha256": "6949739b8ac753045ec102ce9c2fa2931b71383d146ff302ceb91fea52af3029",
+	"sha512": "f70f9a7dce5015bc4767a3843feda7cefe481296460435bf398d86ea18d4bf3392ba15ebb88ed4c7b3f68308cffd9db375db9615d48e4891e12b37e1d77febdf",
+	"descriptionMd5": "d899ab089124230e29489e7dcc9f137a"
+},{
+	"raw": {},
+	"required": [
+		"Filename",
+		"Size"
+	],
+	"package": "libnvidia-gl-570-server",
+	"source": "nvidia-graphics-drivers-570-server",
 	"version": "570.124.06-0ubuntu1",
 	"section": "multiverse/libs",
 	"priority": "optional",

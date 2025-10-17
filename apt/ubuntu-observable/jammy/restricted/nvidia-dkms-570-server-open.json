@@ -34,4 +34,40 @@
 	"sha256": "3098812f8316b9bee1d7550759fc4a279cf196b4a68fceb40bdc07aa8bb13d35",
 	"sha512": "fc4fa4987455327bfc00c501b412fd62b760b90d04a085d4cd56b249028b47912626bbaea92c9bf1ca348aef669cd55a3b496baa775f9a641ebe3d34a952c6f0",
 	"descriptionMd5": "dafa8f35853882b3010cba056bb022d0"
+},{
+	"raw": {},
+	"required": [
+		"Filename",
+		"Size"
+	],
+	"package": "nvidia-dkms-570-server-open",
+	"source": "nvidia-graphics-drivers-570-server",
+	"version": "570.195.03-0ubuntu0.22.04.2",
+	"section": "restricted/libs",
+	"priority": "optional",
+	"architecture": "amd64",
+	"depends": [
+		"dkms",
+		"nvidia-kernel-source-570-server-open (<= 570.195.03-1)",
+		"nvidia-kernel-source-570-server-open (>= 570.195.03)",
+		"nvidia-kernel-common-570-server (<= 570.195.03-1)",
+		"nvidia-kernel-common-570-server (>= 570.195.03)"
+	],
+	"replaces": [
+		"nvidia-dkms-kernel"
+	],
+	"conflicts": [
+		"nvidia-dkms-kernel"
+	],
+	"installedSize": 53,
+	"maintainer": "Ubuntu Core Developers <ubuntu-devel-discuss@lists.ubuntu.com>",
+	"description": "NVIDIA DKMS package (open kernel module)",
+	"homepage": "http://www.nvidia.com",
+	"filename": "pool/restricted/n/nvidia-graphics-drivers-570-server/nvidia-dkms-570-server-open_570.195.03-0ubuntu0.22.04.2_amd64.deb",
+	"size": 15952,
+	"md5": "acaef2977602af4f23351fdceee27fca",
+	"sha1": "1d04f3996a3224b32c40469e1019f5598c3334c2",
+	"sha256": "7ae3c58ff502bc188d2df947b72b35da3c9eeeccbf6af417235389cc6cee5fc1",
+	"sha512": "2ce9f61603fd61a91546c57808ae56ebc010ab9e2db5a95dfa681a30d1b2c5557333ca8c2e68bde8cbb0ac30b4a79793e7aff4b4a3dcf24dc353910ac06d0f0f",
+	"descriptionMd5": "dafa8f35853882b3010cba056bb022d0"
 }]

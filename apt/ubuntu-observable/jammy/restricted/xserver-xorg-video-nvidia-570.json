@@ -35,4 +35,41 @@
 	"sha256": "cfb32a16c086ceabdd15d566876615a05fb5b28ea047d5dee588f70ec7fe9666",
 	"sha512": "e8564faa0abbcb66bf3c200faf843b3f34671f2c76729fe5240698aaccc07c69181ff06a043f111b8a2a5a92a1f2bd814f203af54060db2166dc1087c645f69e",
 	"descriptionMd5": "7f72cf23511e3d5671bacca564284c4f"
+},{
+	"raw": {},
+	"required": [
+		"Filename",
+		"Size"
+	],
+	"package": "xserver-xorg-video-nvidia-570",
+	"source": "nvidia-graphics-drivers-570",
+	"version": "570.195.03-0ubuntu0.22.04.1",
+	"section": "restricted/x11",
+	"priority": "optional",
+	"architecture": "amd64",
+	"depends": [
+		"libnvidia-cfg1-570 (= 570.195.03-0ubuntu0.22.04.1)",
+		"xorg-video-abi-25 | xorg-video-abi-24 | xorg-video-abi-23 | xorg-video-abi-20 | xorg-video-abi-19 | xorg-video-abi-18 | xorg-video-abi-15 | xorg-video-abi-14 | xorg-video-abi-13 | xorg-video-abi-12 | xorg-video-abi-11 | xorg-video-abi-10 | xorg-video-abi-8 | xorg-video-abi-6.0",
+		"xserver-xorg-core (>= 2:1.19.6-1ubuntu2~)",
+		"libc6 (>= 2.7)"
+	],
+	"replaces": [
+		"nvidia-driver-binary",
+		"xorg-driver-binary"
+	],
+	"conflicts": [
+		"nvidia-driver-binary",
+		"xorg-driver-binary"
+	],
+	"installedSize": 6717,
+	"maintainer": "Ubuntu Core Developers <ubuntu-devel-discuss@lists.ubuntu.com>",
+	"description": "NVIDIA binary Xorg driver",
+	"homepage": "http://www.nvidia.com",
+	"filename": "pool/restricted/n/nvidia-graphics-drivers-570/xserver-xorg-video-nvidia-570_570.195.03-0ubuntu0.22.04.1_amd64.deb",
+	"size": 1794524,
+	"md5": "ef55d26cf602c404e621b3a48833e3ce",
+	"sha1": "b7f64866e77238f80be91ca8ddee226f9227e2aa",
+	"sha256": "29aaf5920ef798ff7d87b61bc45d00626fd376983c5805b33cfbff92bfd3de4c",
+	"sha512": "1de00247a0bc6098f1ac1f15e2d48e828e0e222e72d234d49e2dcf1863846269d61bb29c69a983f041d7d69b7829c9e8581e6ffd681dbd9ae15e784465282cbf",
+	"descriptionMd5": "7f72cf23511e3d5671bacca564284c4f"
 }]

@@ -57,6 +57,57 @@
 	],
 	"package": "nvidia-driver-535-server",
 	"source": "nvidia-graphics-drivers-535-server",
+	"version": "535.274.02-0ubuntu0.24.04.2",
+	"section": "restricted/libs",
+	"priority": "optional",
+	"architecture": "amd64",
+	"depends": [
+		"libnvidia-gl-535-server (= 535.274.02-0ubuntu0.24.04.2)",
+		"nvidia-dkms-535-server (<= 535.274.02-1)",
+		"nvidia-dkms-535-server (>= 535.274.02)",
+		"nvidia-kernel-common-535-server (<= 535.274.02-1)",
+		"nvidia-kernel-common-535-server (>= 535.274.02)",
+		"nvidia-kernel-source-535-server (= 535.274.02-0ubuntu0.24.04.2)",
+		"libnvidia-compute-535-server (= 535.274.02-0ubuntu0.24.04.2)",
+		"libnvidia-extra-535-server (= 535.274.02-0ubuntu0.24.04.2)",
+		"nvidia-compute-utils-535-server (= 535.274.02-0ubuntu0.24.04.2)",
+		"libnvidia-decode-535-server (= 535.274.02-0ubuntu0.24.04.2)",
+		"libnvidia-encode-535-server (= 535.274.02-0ubuntu0.24.04.2)",
+		"nvidia-utils-535-server (= 535.274.02-0ubuntu0.24.04.2)",
+		"xserver-xorg-video-nvidia-535-server (= 535.274.02-0ubuntu0.24.04.2)",
+		"libnvidia-cfg1-535-server (= 535.274.02-0ubuntu0.24.04.2)",
+		"libnvidia-fbc1-535-server (= 535.274.02-0ubuntu0.24.04.2)"
+	],
+	"recommends": [
+		"libnvidia-compute-535-server:i386 (= 535.274.02-0ubuntu0.24.04.2)",
+		"libnvidia-decode-535-server:i386 (= 535.274.02-0ubuntu0.24.04.2)",
+		"libnvidia-encode-535-server:i386 (= 535.274.02-0ubuntu0.24.04.2)",
+		"libnvidia-fbc1-535-server:i386 (= 535.274.02-0ubuntu0.24.04.2)",
+		"libnvidia-gl-535-server:i386 (= 535.274.02-0ubuntu0.24.04.2)"
+	],
+	"suggests": [
+		"nvidia-settings",
+		"nvidia-prime (>= 0.8)"
+	],
+	"installedSize": 1377,
+	"maintainer": "Ubuntu Core Developers <ubuntu-devel-discuss@lists.ubuntu.com>",
+	"description": "NVIDIA Server Driver metapackage",
+	"homepage": "http://www.nvidia.com",
+	"filename": "pool/restricted/n/nvidia-graphics-drivers-535-server/nvidia-driver-535-server_535.274.02-0ubuntu0.24.04.2_amd64.deb",
+	"size": 483400,
+	"md5": "0ff23fd7067a1b993e1cd6eaf8a69260",
+	"sha1": "1e280fb8ce286176467c0c203ca169534cd61a26",
+	"sha256": "8cd093358e481ed34883dc0d2e82e3424acc93a4885b9d169bda4069e771ea86",
+	"sha512": "df207d3c7e258bb86d9499a3f1169af6e22fca206da639014f35545a1b94f421213db86ffab5096ef149990fe4c285679cf8b4f15c357571616f957b72efc604",
+	"descriptionMd5": "5a8578d64ae5ed79dd81b2d314625fa4"
+},{
+	"raw": {},
+	"required": [
+		"Filename",
+		"Size"
+	],
+	"package": "nvidia-driver-535-server",
+	"source": "nvidia-graphics-drivers-535-server",
 	"version": "535.161.08-0ubuntu2",
 	"section": "restricted/libs",
 	"priority": "optional",
