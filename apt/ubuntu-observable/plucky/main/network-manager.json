@@ -5,6 +5,71 @@
 		"Size"
 	],
 	"package": "network-manager",
+	"version": "1.52.0-1ubuntu1.1",
+	"section": "net",
+	"priority": "optional",
+	"architecture": "amd64",
+	"depends": [
+		"libaudit1 (>= 1:2.2.1)",
+		"libbluetooth3 (>= 4.91)",
+		"libc6 (>= 2.38)",
+		"libcurl3t64-gnutls (>= 7.24.0)",
+		"libglib2.0-0t64 (>= 2.68.0)",
+		"libgnutls30t64 (>= 3.7.2)",
+		"libjansson4 (>= 2.14)",
+		"libmm-glib0 (>= 1.10.0)",
+		"libndp0 (>= 1.2)",
+		"libnetplan1 (>= 1.0~)",
+		"libnewt0.52 (>= 0.52.24)",
+		"libnm0 (= 1.52.0-1ubuntu1.1)",
+		"libpsl5t64 (>= 0.13.0)",
+		"libreadline8t64 (>= 6.0)",
+		"libselinux1 (>= 3.1~)",
+		"libsystemd0 (>= 209)",
+		"libteamdctl0 (>= 1.9)",
+		"libudev1 (>= 183)",
+		"netplan.io (>= 1.0~)",
+		"default-dbus-system-bus | dbus-system-bus",
+		"adduser"
+	],
+	"recommends": [
+		"ppp",
+		"dnsmasq-base",
+		"modemmanager",
+		"network-manager-pptp",
+		"wireless-regdb",
+		"wpasupplicant",
+		"libpam-systemd",
+		"polkitd",
+		"udev"
+	],
+	"suggests": [
+		"avahi-autoipd",
+		"libteam-utils",
+		"iptables"
+	],
+	"breaks": [
+		"ppp (>= 2.5.2-2~)",
+		"ppp (<< 2.5.2-1+~)"
+	],
+	"installedSize": 8744,
+	"maintainer": "Ubuntu Developers <ubuntu-devel-discuss@lists.ubuntu.com>",
+	"description": "network management framework (daemon and userspace tools)",
+	"homepage": "https://networkmanager.dev/",
+	"filename": "pool/main/n/network-manager/network-manager_1.52.0-1ubuntu1.1_amd64.deb",
+	"size": 2775380,
+	"md5": "63b7e7d2ac4ed3770a980953fcaeb9cd",
+	"sha1": "40ee6d7c23553ec50dcbedcebfb4abf49d39800b",
+	"sha256": "af932e324c59d4eb3135de53c96d4ca16dca2db7ebfced3e36fe06a6d21ff61d",
+	"sha512": "58ec453db5d004505164446081c0175ad6a1503935ef16790d1e6f80b7c0aefdcfe1b801dc9a9a029e45d77db248cb424051231dcb608d87027343fcc41f27af",
+	"descriptionMd5": "e907449f921956a842b7a98f6e497774"
+},{
+	"raw": {},
+	"required": [
+		"Filename",
+		"Size"
+	],
+	"package": "network-manager",
 	"version": "1.52.0-1ubuntu1",
 	"section": "net",
 	"priority": "optional",
