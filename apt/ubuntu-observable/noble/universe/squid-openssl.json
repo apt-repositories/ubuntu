@@ -6,6 +6,77 @@
 	],
 	"package": "squid-openssl",
 	"source": "squid",
+	"version": "6.13-0ubuntu0.24.04.3",
+	"section": "universe/web",
+	"priority": "optional",
+	"architecture": "amd64",
+	"depends": [
+		"libc6 (>= 2.38)",
+		"libcap2 (>= 1:2.10)",
+		"libcom-err2 (>= 1.43.9)",
+		"libcrypt1 (>= 1:4.1.0)",
+		"libecap3 (>= 1.0.1)",
+		"libexpat1 (>= 2.0.1)",
+		"libgcc-s1 (>= 3.4)",
+		"libgssapi-krb5-2 (>= 1.17)",
+		"libkrb5-3 (>= 1.10+dfsg~)",
+		"libldap2 (>= 2.6.2)",
+		"libltdl7 (>= 2.4.7)",
+		"libnetfilter-conntrack3 (>= 1.0.1)",
+		"libnettle8t64",
+		"libpam0g (>= 0.99.7.1)",
+		"libsasl2-2 (>= 2.1.28+dfsg1)",
+		"libssl3t64 (>= 3.0.0)",
+		"libstdc++6 (>= 13.1)",
+		"libsystemd0",
+		"libtdb1 (>= 1.2.7+git20101214)",
+		"libxml2 (>= 2.7.4)",
+		"netbase",
+		"logrotate (>= 3.5.4-1)",
+		"squid-common (>= 6.13-0ubuntu0.24.04.3)",
+		"lsb-base",
+		"libdbi-perl"
+	],
+	"preDepends": [
+		"init-system-helpers (>= 1.54~)",
+		"adduser"
+	],
+	"recommends": [
+		"libcap2-bin",
+		"ca-certificates"
+	],
+	"suggests": [
+		"squidclient",
+		"squid-cgi",
+		"squid-purge",
+		"resolvconf (>= 0.40)",
+		"smbclient",
+		"ufw",
+		"winbind",
+		"apparmor"
+	],
+	"conflicts": [
+		"squid"
+	],
+	"installedSize": 8697,
+	"maintainer": "Ubuntu Developers <ubuntu-devel-discuss@lists.ubuntu.com>",
+	"description": "Full featured Web Proxy cache (HTTP proxy OpenSSL flavour)",
+	"homepage": "http://www.squid-cache.org",
+	"filename": "pool/universe/s/squid/squid-openssl_6.13-0ubuntu0.24.04.3_amd64.deb",
+	"size": 2935510,
+	"md5": "1d0e883f8a5edd0598de415b322a7ab3",
+	"sha1": "d3bd1e11e6ac67930ca67e0739710c3e99adf7e7",
+	"sha256": "cc96894d3e71ff333dd9aba3c92573b34d523fe98a9b05727cd573f8ba228dc7",
+	"sha512": "36b3309ee3efead6c75621bbc6b546bb7cf3e6248149176f32785c531043d7bf6396db0e455ab91227cbf6d42423f3ea046d6a795cf7589a5fe17d1073fce5c2",
+	"descriptionMd5": "f31af3c48c8be767a56fc1a0a916c628"
+},{
+	"raw": {},
+	"required": [
+		"Filename",
+		"Size"
+	],
+	"package": "squid-openssl",
+	"source": "squid",
 	"version": "6.13-0ubuntu0.24.04.2",
 	"section": "universe/web",
 	"priority": "optional",
