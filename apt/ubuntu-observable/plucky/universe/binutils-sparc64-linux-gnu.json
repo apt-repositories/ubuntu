@@ -6,6 +6,48 @@
 	],
 	"package": "binutils-sparc64-linux-gnu",
 	"source": "binutils",
+	"version": "2.44-3ubuntu1.1",
+	"section": "universe/devel",
+	"priority": "extra",
+	"architecture": "amd64",
+	"depends": [
+		"binutils-common (= 2.44-3ubuntu1.1)",
+		"libc6 (>= 2.38)",
+		"libjansson4 (>= 2.14)",
+		"libsframe1 (>= 2.41)",
+		"libzstd1 (>= 1.5.5)",
+		"zlib1g (>= 1:1.1.4)"
+	],
+	"suggests": [
+		"binutils-doc (= 2.44-3ubuntu1.1)"
+	],
+	"replaces": [
+		"binutils (<< 2.29-6)",
+		"binutils-dev (<< 2.38.50.20220609-2)"
+	],
+	"breaks": [
+		"binutils (<< 2.29-6)",
+		"binutils-dev (<< 2.38.50.20220609-2)"
+	],
+	"installedSize": 6319,
+	"maintainer": "Ubuntu Developers <ubuntu-devel-discuss@lists.ubuntu.com>",
+	"description": "GNU binary utilities, for sparc64-linux-gnu target",
+	"homepage": "https://www.gnu.org/software/binutils/",
+	"filename": "pool/universe/b/binutils/binutils-sparc64-linux-gnu_2.44-3ubuntu1.1_amd64.deb",
+	"size": 1358214,
+	"md5": "50bfba36af09cead1e76766a2ac452f7",
+	"sha1": "e7d0741ce15deb608ad3ead525ff825d57b39fa6",
+	"sha256": "d382cbe5b6564d8274a5469e1b2364e3d415ce2d246a25c8c8aa4f822fef4600",
+	"sha512": "f2287dd193c26b212720d0737498ab75f3498175fd14a0e32fd61c687e69cacd316c389177a5b8bcc5fde1a6bfdc540c0c5fb468c2271bbcc777283826ef2ece",
+	"descriptionMd5": "112083b1b69cabd04e42ad79e3caf39f"
+},{
+	"raw": {},
+	"required": [
+		"Filename",
+		"Size"
+	],
+	"package": "binutils-sparc64-linux-gnu",
+	"source": "binutils",
 	"version": "2.44-3ubuntu1",
 	"section": "universe/devel",
 	"priority": "extra",

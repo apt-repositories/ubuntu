@@ -38,6 +38,38 @@
 	],
 	"package": "linux-crashdump",
 	"source": "linux-meta",
+	"version": "5.15.0.161.157",
+	"section": "devel",
+	"priority": "optional",
+	"architecture": "amd64",
+	"depends": [
+		"kdump-tools",
+		"grub-pc (>= 1.96+20090611-1ubuntu2) | grub-efi-ia32 | grub-efi-amd64 | grub (>= 0.97-29ubuntu24)"
+	],
+	"recommends": [
+		"apport"
+	],
+	"suggests": [
+		"crash"
+	],
+	"installedSize": 21,
+	"maintainer": "Ubuntu Kernel Team <kernel-team@lists.ubuntu.com>",
+	"description": "Linux kernel crashdump setup for the latest generic kernel",
+	"filename": "pool/main/l/linux-meta/linux-crashdump_5.15.0.161.157_amd64.deb",
+	"size": 2590,
+	"md5": "5fcbaa289598a67524e62472962a0070",
+	"sha1": "65166f1c58746cbb957c308444583703eb017eae",
+	"sha256": "13881d1f01259c8c6d9a5841cf17512ca973ac9082728da09a2302a6fea50c40",
+	"sha512": "c425d7d6b03d76ca1907b30269f30dd7d98bd6be470b6b9c5bb09d7de16dcddbe26231a4f2bbaa0c5b121b446a02e34bce4e2549253d7c3b2ac7fa8da51b562c",
+	"descriptionMd5": "0c0b5ada9f277febaf6bd7d5ebc0d337"
+},{
+	"raw": {},
+	"required": [
+		"Filename",
+		"Size"
+	],
+	"package": "linux-crashdump",
+	"source": "linux-meta",
 	"version": "5.15.0.25.27",
 	"section": "devel",
 	"priority": "optional",
