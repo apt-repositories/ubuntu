@@ -6,6 +6,49 @@
 	],
 	"package": "binutils-powerpc64-linux-gnu",
 	"source": "binutils",
+	"version": "2.42-4ubuntu2.6",
+	"section": "universe/devel",
+	"priority": "extra",
+	"architecture": "amd64",
+	"depends": [
+		"binutils-common (= 2.42-4ubuntu2.6)",
+		"libc6 (>= 2.38)",
+		"libgcc-s1 (>= 4.2)",
+		"libjansson4 (>= 2.14)",
+		"libsframe1 (>= 2.41)",
+		"libzstd1 (>= 1.5.5)",
+		"zlib1g (>= 1:1.1.4)"
+	],
+	"suggests": [
+		"binutils-doc (= 2.42-4ubuntu2.6)"
+	],
+	"replaces": [
+		"binutils (<< 2.29-6)",
+		"binutils-dev (<< 2.38.50.20220609-2)"
+	],
+	"breaks": [
+		"binutils (<< 2.29-6)",
+		"binutils-dev (<< 2.38.50.20220609-2)"
+	],
+	"installedSize": 16760,
+	"maintainer": "Ubuntu Developers <ubuntu-devel-discuss@lists.ubuntu.com>",
+	"description": "GNU binary utilities, for powerpc64-linux-gnu target",
+	"homepage": "https://www.gnu.org/software/binutils/",
+	"filename": "pool/universe/b/binutils/binutils-powerpc64-linux-gnu_2.42-4ubuntu2.6_amd64.deb",
+	"size": 3030898,
+	"md5": "7fcf63ca5db9005e211cf0f5da472da4",
+	"sha1": "0ce75ac9a12460023fad1d069457aecc72b5b4b8",
+	"sha256": "7031db5474650f1423b45b3c24d7c441ad27f846c2eea26bb8271b9de21420d3",
+	"sha512": "599da406ae0e15929d1c8b5691437b61fc35c674c2f6e1c3b2d1bf47963853e70d541487a410913f1fd30ef9651c0a12879148c7031499d9f2fff292ceba55ce",
+	"descriptionMd5": "b81ec509fee3e6fb3b2c79536d67b5a8"
+},{
+	"raw": {},
+	"required": [
+		"Filename",
+		"Size"
+	],
+	"package": "binutils-powerpc64-linux-gnu",
+	"source": "binutils",
 	"version": "2.42-4ubuntu2.5",
 	"section": "universe/devel",
 	"priority": "extra",

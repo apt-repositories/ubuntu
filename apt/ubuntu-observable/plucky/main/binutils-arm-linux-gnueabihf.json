@@ -6,6 +6,48 @@
 	],
 	"package": "binutils-arm-linux-gnueabihf",
 	"source": "binutils",
+	"version": "2.44-3ubuntu1.1",
+	"section": "devel",
+	"priority": "extra",
+	"architecture": "amd64",
+	"depends": [
+		"binutils-common (= 2.44-3ubuntu1.1)",
+		"libc6 (>= 2.38)",
+		"libjansson4 (>= 2.14)",
+		"libsframe1 (>= 2.41)",
+		"libzstd1 (>= 1.5.5)",
+		"zlib1g (>= 1:1.1.4)"
+	],
+	"suggests": [
+		"binutils-doc (= 2.44-3ubuntu1.1)"
+	],
+	"replaces": [
+		"binutils (<< 2.29-6)",
+		"binutils-dev (<< 2.38.50.20220609-2)"
+	],
+	"breaks": [
+		"binutils (<< 2.29-6)",
+		"binutils-dev (<< 2.38.50.20220609-2)"
+	],
+	"installedSize": 6905,
+	"maintainer": "Ubuntu Developers <ubuntu-devel-discuss@lists.ubuntu.com>",
+	"description": "GNU binary utilities, for arm-linux-gnueabihf target",
+	"homepage": "https://www.gnu.org/software/binutils/",
+	"filename": "pool/main/b/binutils/binutils-arm-linux-gnueabihf_2.44-3ubuntu1.1_amd64.deb",
+	"size": 1573994,
+	"md5": "039f890250e69e66ffd44369ef8ec55b",
+	"sha1": "0ede266304f977e006ac0b3ff2acab851bc95dbb",
+	"sha256": "8a071ebaf128e6051826ace4ae71b8afef303aca3426879eeb4a05b3823f7043",
+	"sha512": "e2b0d1e69e412fee0ab8ee70e7a71367c05ed33a21146a7cb7b4f63b62da47b0238cc0d3e5914c837f35cae973e4e7027d8657264fa70d500436c16ac11258b7",
+	"descriptionMd5": "128af1a08153dc96e513aa5cad5cbb55"
+},{
+	"raw": {},
+	"required": [
+		"Filename",
+		"Size"
+	],
+	"package": "binutils-arm-linux-gnueabihf",
+	"source": "binutils",
 	"version": "2.44-3ubuntu1",
 	"section": "devel",
 	"priority": "extra",
