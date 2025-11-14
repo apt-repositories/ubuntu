@@ -41,6 +41,41 @@
 	],
 	"package": "dovecot-managesieved",
 	"source": "dovecot",
+	"version": "1:2.3.16+dfsg1-3ubuntu2.6",
+	"section": "universe/mail",
+	"priority": "optional",
+	"architecture": "amd64",
+	"depends": [
+		"dovecot-core (= 1:2.3.16+dfsg1-3ubuntu2.6)",
+		"dovecot-sieve (= 1:2.3.16+dfsg1-3ubuntu2.6)",
+		"ucf",
+		"libc6 (>= 2.34)"
+	],
+	"replaces": [
+		"dovecot-common (<< 1:2.0.14-2~)"
+	],
+	"breaks": [
+		"dovecot-common (<< 1:2.0.14-2~)"
+	],
+	"installedSize": 240,
+	"maintainer": "Ubuntu Developers <ubuntu-devel-discuss@lists.ubuntu.com>",
+	"description": "secure POP3/IMAP server - ManageSieve server",
+	"homepage": "https://dovecot.org/",
+	"filename": "pool/universe/d/dovecot/dovecot-managesieved_2.3.16+dfsg1-3ubuntu2.6_amd64.deb",
+	"size": 52556,
+	"md5": "385fd5bf87bc31c1dc71e7452b6b6372",
+	"sha1": "9a07cd36fbf3a9b0f9c3b527ffd328b27c1bc560",
+	"sha256": "ae61c4fbdf20bf9c655cbd8b75fffefd01a9203687bb064e8442793766bdff2d",
+	"sha512": "9e9c805fd303b172739ce423135c4ac415eb52cd805db672f9a64c833bebb0e35122fd4033f4b52321034097c1f923fb2d0a9f28a3ac0941bc6d3d5ffecee3bb",
+	"descriptionMd5": "9c22507acd609a92f0a6377258e2d338"
+},{
+	"raw": {},
+	"required": [
+		"Filename",
+		"Size"
+	],
+	"package": "dovecot-managesieved",
+	"source": "dovecot",
 	"version": "1:2.3.16+dfsg1-3ubuntu2",
 	"section": "universe/mail",
 	"priority": "optional",
