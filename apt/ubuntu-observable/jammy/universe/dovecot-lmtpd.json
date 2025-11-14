@@ -40,6 +40,40 @@
 	],
 	"package": "dovecot-lmtpd",
 	"source": "dovecot",
+	"version": "1:2.3.16+dfsg1-3ubuntu2.6",
+	"section": "universe/mail",
+	"priority": "optional",
+	"architecture": "amd64",
+	"depends": [
+		"dovecot-core (= 1:2.3.16+dfsg1-3ubuntu2.6)",
+		"ucf",
+		"libc6 (>= 2.34)"
+	],
+	"replaces": [
+		"dovecot-common (<< 1:2.0.14-2~)"
+	],
+	"breaks": [
+		"dovecot-common (<< 1:2.0.14-2~)"
+	],
+	"installedSize": 133,
+	"maintainer": "Ubuntu Developers <ubuntu-devel-discuss@lists.ubuntu.com>",
+	"description": "secure POP3/IMAP server - LMTP server",
+	"homepage": "https://dovecot.org/",
+	"filename": "pool/universe/d/dovecot/dovecot-lmtpd_2.3.16+dfsg1-3ubuntu2.6_amd64.deb",
+	"size": 29388,
+	"md5": "00cddb3afd21ecec509a9d8fcea2720d",
+	"sha1": "29ff825b6a3d3db6c353b8dcc30c7743e648d31b",
+	"sha256": "0137c8c208c13e20b6a10bdc670f8b13d7ad8b12d452624f2cfb5de2c9f7cb7b",
+	"sha512": "5200c4dec20208e26d09897a285468f5d9be0293da08d534c8ab7edf2152ca23ee2f698e04815c954113c0895a6b1e37c96963dc19821b21d60b7550523fcedd",
+	"descriptionMd5": "1f512867746b7f058518f80e369c13d8"
+},{
+	"raw": {},
+	"required": [
+		"Filename",
+		"Size"
+	],
+	"package": "dovecot-lmtpd",
+	"source": "dovecot",
 	"version": "1:2.3.16+dfsg1-3ubuntu2",
 	"section": "universe/mail",
 	"priority": "optional",
