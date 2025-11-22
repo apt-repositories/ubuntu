@@ -35,6 +35,36 @@
 		"Size"
 	],
 	"package": "linux-image-lowlatency-hwe-22.04",
+	"source": "linux-meta-lowlatency-hwe-6.8",
+	"version": "6.8.0-88.89.1~22.04.1",
+	"section": "kernel",
+	"priority": "optional",
+	"architecture": "amd64",
+	"depends": [
+		"linux-image-6.8.0-88-lowlatency",
+		"linux-firmware",
+		"intel-microcode"
+	],
+	"recommends": [
+		"thermald"
+	],
+	"installedSize": 22,
+	"maintainer": "Ubuntu Kernel Team <kernel-team@lists.ubuntu.com>",
+	"description": "lowlatency Linux kernel image",
+	"filename": "pool/main/l/linux-meta-lowlatency-hwe-6.8/linux-image-lowlatency-hwe-22.04_6.8.0-88.89.1~22.04.1_amd64.deb",
+	"size": 2476,
+	"md5": "240854fe28ba30cdbd147438c69bb418",
+	"sha1": "e32e9a47a02a9691453a7b906d46ce194c968cc3",
+	"sha256": "f4a855730ab92b87d0d4b7dc49380157fcd5ac1fa584f4604e85ea6199d9d0ed",
+	"sha512": "733df220600f4e0c58e42bc1db47393feb7558816224ebd6a0457de86c78f02230cbdf10e3bbf7ead20248af7a02330113e90fff6ab618ff84c46ea775e97b2c",
+	"descriptionMd5": "81c6fc6425f7566aa856ff1be6d8b320"
+},{
+	"raw": {},
+	"required": [
+		"Filename",
+		"Size"
+	],
+	"package": "linux-image-lowlatency-hwe-22.04",
 	"source": "linux-meta-lowlatency",
 	"version": "5.15.0.24.27",
 	"section": "kernel",
