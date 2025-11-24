@@ -6,6 +6,54 @@
 	],
 	"package": "openjdk-11-jre",
 	"source": "openjdk-lts",
+	"version": "11.0.29+7-1ubuntu1~22.04",
+	"section": "java",
+	"priority": "optional",
+	"architecture": "amd64",
+	"depends": [
+		"openjdk-11-jre-headless (= 11.0.29+7-1ubuntu1~22.04)",
+		"libgl1",
+		"libharfbuzz0b",
+		"libc6 (>= 2.34)",
+		"libgif7 (>= 5.1)",
+		"libjpeg8 (>= 8c)",
+		"libpng16-16 (>= 1.6.2-1)",
+		"libx11-6",
+		"libxext6",
+		"libxi6",
+		"libxrender1",
+		"libxtst6",
+		"zlib1g (>= 1:1.1.4)"
+	],
+	"recommends": [
+		"libatk-wrapper-java-jni (>= 0.30.4-0ubuntu2)",
+		"fonts-dejavu-extra"
+	],
+	"replaces": [
+		"openjdk-11-jre-headless (<< 11.0.11+3-3~)"
+	],
+	"breaks": [
+		"openjdk-11-jre-headless (<< 11.0.11+3-3~)"
+	],
+	"installedSize": 634,
+	"maintainer": "Ubuntu Developers <ubuntu-devel-discuss@lists.ubuntu.com>",
+	"description": "OpenJDK Java runtime, using Hotspot JIT",
+	"homepage": "https://openjdk.java.net/",
+	"filename": "pool/main/o/openjdk-lts/openjdk-11-jre_11.0.29+7-1ubuntu1~22.04_amd64.deb",
+	"size": 213512,
+	"md5": "b622f6848f3a80420297295e8b4903a3",
+	"sha1": "623f0db302bbc45c74ccd6a4bcdf2d4fad39875b",
+	"sha256": "4458ec5d5e42d1418731061ce00cb20d6125198d9c3788043fa65958c6f052a1",
+	"sha512": "e121f708103aa67d2d9204ace090ab54e58ca09d2fc286321a699dbbf15f35abd6e8acea4ac6116157cf0ef9279300ba002fe2bfdb79cb5d47558166cca5438a",
+	"descriptionMd5": "13097853553de1ab39cc189225a9cbaa"
+},{
+	"raw": {},
+	"required": [
+		"Filename",
+		"Size"
+	],
+	"package": "openjdk-11-jre",
+	"source": "openjdk-lts",
 	"version": "11.0.28+6-1ubuntu1~22.04.1",
 	"section": "java",
 	"priority": "optional",
