@@ -51,6 +51,51 @@
 	],
 	"package": "avahi-daemon",
 	"source": "avahi",
+	"version": "0.8-5ubuntu5.3",
+	"section": "net",
+	"priority": "optional",
+	"architecture": "amd64",
+	"depends": [
+		"libavahi-common3 (= 0.8-5ubuntu5.3)",
+		"libavahi-core7 (= 0.8-5ubuntu5.3)",
+		"libc6 (>= 2.34)",
+		"libcap2 (>= 1:2.16)",
+		"libdaemon0 (>= 0.14)",
+		"libdbus-1-3 (>= 1.9.14)",
+		"libexpat1 (>= 2.0.1)",
+		"adduser",
+		"dbus (>= 0.60)",
+		"lsb-base (>= 3.0-6)",
+		"bind9-host | host"
+	],
+	"preDepends": [
+		"init-system-helpers (>= 1.54~)"
+	],
+	"recommends": [
+		"libnss-mdns (>= 0.11)"
+	],
+	"suggests": [
+		"avahi-autoipd"
+	],
+	"installedSize": 298,
+	"maintainer": "Ubuntu Developers <ubuntu-devel-discuss@lists.ubuntu.com>",
+	"description": "Avahi mDNS/DNS-SD daemon",
+	"homepage": "http://avahi.org/",
+	"filename": "pool/main/a/avahi/avahi-daemon_0.8-5ubuntu5.3_amd64.deb",
+	"size": 69724,
+	"md5": "2c165ba53bca4b8b58bbc3ce47180eef",
+	"sha1": "b026200995081c802c267aa9b8499dde72055c62",
+	"sha256": "7531859d350d5f548d756a65e3a6c23b1c5bbae2851bba7fcdd887b5abc181b9",
+	"sha512": "7d425b0d051e402db4bb69d19b571ab951e7b1a1b0442fefd8d2813780c77317e33bb892d511ae2ff551ea86c54204eead6612311146d3a8deadbd225efd0a4a",
+	"descriptionMd5": "13d651a25febc553220e03e75c6f4c7b"
+},{
+	"raw": {},
+	"required": [
+		"Filename",
+		"Size"
+	],
+	"package": "avahi-daemon",
+	"source": "avahi",
 	"version": "0.8-5ubuntu5",
 	"section": "net",
 	"priority": "optional",

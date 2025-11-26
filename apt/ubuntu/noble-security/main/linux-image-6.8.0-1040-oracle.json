@@ -1,0 +1,42 @@
+{
+	"raw": {},
+	"required": [
+		"Filename",
+		"Size"
+	],
+	"package": "linux-image-6.8.0-1040-oracle",
+	"source": "linux-signed-oracle",
+	"version": "6.8.0-1040.41",
+	"section": "kernel",
+	"priority": "optional",
+	"architecture": "amd64",
+	"depends": [
+		"kmod",
+		"linux-base (>= 4.5ubuntu1~16.04.1)",
+		"linux-modules-6.8.0-1040-oracle"
+	],
+	"recommends": [
+		"grub-pc | grub-efi-amd64 | grub-efi-ia32 | grub | lilo",
+		"initramfs-tools | linux-initramfs-tool"
+	],
+	"suggests": [
+		"fdutils",
+		"linux-oracle-doc-6.8.0 | linux-oracle-source-6.8.0",
+		"linux-oracle-tools",
+		"linux-headers-6.8.0-1040-oracle"
+	],
+	"conflicts": [
+		"linux-image-unsigned-6.8.0-1040-oracle"
+	],
+	"installedSize": 14493,
+	"maintainer": "Canonical Kernel Team <kernel-team@lists.ubuntu.com>",
+	"description": "Signed kernel image oracle",
+	"builtUsing": "linux-oracle (= 6.8.0-1040.41)",
+	"filename": "pool/main/l/linux-signed-oracle/linux-image-6.8.0-1040-oracle_6.8.0-1040.41_amd64.deb",
+	"size": 14572848,
+	"md5": "32d1133342d9762d6c579ee117c52aa0",
+	"sha1": "0b96a3d2f351abd71dab63e666a55dafa2bea152",
+	"sha256": "54dc2ede1e8bacb575998f4e5846c8bb04de3cc1b80e334379b7068ed410f4dc",
+	"sha512": "5a66c011be9844da59fc4328dd670d030d4632bf9081ab4f72037b1b16eab168672c2a7e7f10645db5a4b91d2a6373f4d623bbb76c1aca131bbfedf8b5e8e38c",
+	"descriptionMd5": "8d310ea424556b5e8319a7ac65aac6e7"
+}
