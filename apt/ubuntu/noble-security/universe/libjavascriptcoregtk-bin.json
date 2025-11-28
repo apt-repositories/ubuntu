@@ -6,14 +6,20 @@
 	],
 	"package": "libjavascriptcoregtk-bin",
 	"source": "webkit2gtk",
-	"version": "2.48.7-0ubuntu0.24.04.2",
+	"version": "2.50.1-0ubuntu0.24.04.1",
 	"section": "universe/interpreters",
 	"priority": "optional",
 	"architecture": "amd64",
 	"depends": [
-		"libjavascriptcoregtk-4.1-0 (= 2.48.7-0ubuntu0.24.04.2)",
+		"libjavascriptcoregtk-4.1-0 (= 2.50.1-0ubuntu0.24.04.1)",
+		"libatomic1 (>= 4.8)",
 		"libc6 (>= 2.38)",
-		"libstdc++6 (>= 12)"
+		"libgcc-s1 (>= 3.0)",
+		"libglib2.0-0t64 (>= 2.16.0)",
+		"libicu74 (>= 74.1-1~)",
+		"libstdc++6 (>= 12)",
+		"libsystemd0",
+		"zlib1g (>= 1:1.1.4)"
 	],
 	"replaces": [
 		"libjavascriptcoregtk-4.0-bin (<< 2.43.4-2~)"
@@ -21,15 +27,15 @@
 	"breaks": [
 		"libjavascriptcoregtk-4.0-bin (<< 2.43.4-2~)"
 	],
-	"installedSize": 642,
+	"installedSize": 644,
 	"maintainer": "Ubuntu Developers <ubuntu-devel-discuss@lists.ubuntu.com>",
 	"description": "JavaScript engine library from WebKitGTK - command-line interpreter",
 	"homepage": "https://webkitgtk.org/",
-	"filename": "pool/universe/w/webkit2gtk/libjavascriptcoregtk-bin_2.48.7-0ubuntu0.24.04.2_amd64.deb",
-	"size": 154592,
-	"md5": "c7d85f37e0a1e42c1f523f687e206b9e",
-	"sha1": "e1f1435c503f1fd7f9bde20a861b9244672b19b3",
-	"sha256": "14def63e502aca04e097cb7670c8b13efc02cf2afb09bd8a09497c66e2c72250",
-	"sha512": "f470649acff222c3db97dc7ef649d2630e43ecbd6a6e31547f7eed37708a6d9eab8e4b2e8726ed2677a9804c785dfe597d32967eee0a49c953e697dfbe9f9ebb",
+	"filename": "pool/universe/w/webkit2gtk/libjavascriptcoregtk-bin_2.50.1-0ubuntu0.24.04.1_amd64.deb",
+	"size": 141610,
+	"md5": "423a4e16fcda94ece1ade8a66fc053fd",
+	"sha1": "47e5e09093135cb2a2401e9b3686bc0b0055380b",
+	"sha256": "2a31277304cdc3d7f66332bf0c6fec08db29299f270ece48a94c60c5967e0aba",
+	"sha512": "e2b98ee2169aed8e3d87352eed6f0eba84e5e3061f748ca01c6ff37baad61009959fceb95352e4410023c76ef885eb8a11d63dbf046fc61cf9ae825347f59a68",
 	"descriptionMd5": "ac7afc0b1a4392958885f97c8f08146c"
 }
