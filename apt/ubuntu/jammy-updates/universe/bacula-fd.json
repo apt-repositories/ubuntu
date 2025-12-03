@@ -1,0 +1,43 @@
+{
+	"raw": {},
+	"required": [
+		"Filename",
+		"Size"
+	],
+	"package": "bacula-fd",
+	"source": "bacula",
+	"version": "9.6.7-5~22.04.1",
+	"section": "universe/admin",
+	"priority": "optional",
+	"architecture": "amd64",
+	"depends": [
+		"bacula-common (= 9.6.7-5~22.04.1)",
+		"lsb-base",
+		"ucf",
+		"libacl1 (>= 2.2.23)",
+		"libc6 (>= 2.34)",
+		"liblzo2-2 (>= 2.02)",
+		"libstdc++6 (>= 5)",
+		"zlib1g (>= 1:1.1.4)"
+	],
+	"preDepends": [
+		"init-system-helpers (>= 1.54~)"
+	],
+	"replaces": [
+		"bacula-common (<< 9.6.4-1)"
+	],
+	"breaks": [
+		"bacula-common (<< 9.6.4-1)"
+	],
+	"installedSize": 376,
+	"maintainer": "Ubuntu Developers <ubuntu-devel-discuss@lists.ubuntu.com>",
+	"description": "network backup service - file daemon",
+	"homepage": "https://www.bacula.org/",
+	"filename": "pool/universe/b/bacula/bacula-fd_9.6.7-5~22.04.1_amd64.deb",
+	"size": 126528,
+	"md5": "af28582aa084af32240a51bd49d71a7e",
+	"sha1": "ef922d7a19e60b45d3a538dfe29b2448d1c82cf3",
+	"sha256": "f54b1f9142b2bad5791cf6f1c840c1c13048ead0f2e063e3553cfd7203cbf100",
+	"sha512": "fbd02b9d12fe8714c7d3e7759092f0cbc79acfd380579d2d3001986a627d98773d21456ba78bcab206c6ca155256285cf79c0e938a08781807242b4f057810d3",
+	"descriptionMd5": "3f35bd3a108c70141218cdf190a0ec97"
+}

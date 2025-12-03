@@ -44,6 +44,44 @@
 	],
 	"package": "mysql-client",
 	"source": "mysql-8.4",
+	"version": "8.4.7-0ubuntu0.25.04.2",
+	"section": "database",
+	"priority": "optional",
+	"architecture": "amd64",
+	"depends": [
+		"debianutils (>= 1.6)",
+		"mysql-client-core",
+		"mysql-common (>= 5.5)"
+	],
+	"replaces": [
+		"mysql-client-8.0 (<< 8.4)"
+	],
+	"breaks": [
+		"mysql-client-8.0 (<< 8.4)"
+	],
+	"conflicts": [
+		"mariadb-client",
+		"virtual-mysql-client"
+	],
+	"installedSize": 51,
+	"maintainer": "Ubuntu Developers <ubuntu-devel-discuss@lists.ubuntu.com>",
+	"description": "MySQL database client",
+	"homepage": "http://dev.mysql.com/",
+	"filename": "pool/main/m/mysql-8.4/mysql-client_8.4.7-0ubuntu0.25.04.2_amd64.deb",
+	"size": 9138,
+	"md5": "b9ba8466511dba9d0b5237a1c34ea9d4",
+	"sha1": "1074317154c15028f7b9d64df1e550a3d2248dc6",
+	"sha256": "2054399556ea9c9970d98fbacf5e4229223eb4882577fd10cafca64210d49e2a",
+	"sha512": "091cf6a61fccfbe6264d2af1b043aad91adb6688b0fbab44244112b37b1b0a716948aae656b658b42ad45a8c01ae522ebc23946f83955faa71512bfa943112d2",
+	"descriptionMd5": "b1cd8c7e9853bfd0973f66f22738c484"
+},{
+	"raw": {},
+	"required": [
+		"Filename",
+		"Size"
+	],
+	"package": "mysql-client",
+	"source": "mysql-8.4",
 	"version": "8.4.4-0ubuntu2",
 	"section": "database",
 	"priority": "optional",
