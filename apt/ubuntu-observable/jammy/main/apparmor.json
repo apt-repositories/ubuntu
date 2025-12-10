@@ -45,6 +45,46 @@
 		"Size"
 	],
 	"package": "apparmor",
+	"version": "3.0.4-2ubuntu2.5",
+	"section": "admin",
+	"priority": "standard",
+	"architecture": "amd64",
+	"depends": [
+		"debconf",
+		"lsb-base",
+		"debconf (>= 0.5) | debconf-2.0",
+		"libc6 (>= 2.34)"
+	],
+	"suggests": [
+		"apparmor-profiles-extra",
+		"apparmor-utils"
+	],
+	"replaces": [
+		"fcitx-data (<< 1:4.2.9.1-1ubuntu2)"
+	],
+	"breaks": [
+		"apparmor-profiles-extra (<< 1.21)",
+		"fcitx-data (<< 1:4.2.9.1-1ubuntu2)",
+		"snapd (<< 2.44.3+20.04~)"
+	],
+	"installedSize": 2688,
+	"maintainer": "Ubuntu Developers <ubuntu-devel-discuss@lists.ubuntu.com>",
+	"description": "user-space parser utility for AppArmor",
+	"homepage": "https://apparmor.net/",
+	"filename": "pool/main/a/apparmor/apparmor_3.0.4-2ubuntu2.5_amd64.deb",
+	"size": 599052,
+	"md5": "dea10e3a838e494eaeb5b45ef2f5bf09",
+	"sha1": "e7d813410271dd98f3b135e47406b9a1ccfead99",
+	"sha256": "a0fe73e32a2f13b5760ce433cbb72c276a32874d7ce6deb5257f6f4b3388f267",
+	"sha512": "e990862d57a98a3b52bbcb66370907441740e4d9b00d2f1ccc05db906f64936bbbc436eb9b11db6138bd7c02a05b457b21c6d5cd144c2d6f5160caa36544b764",
+	"descriptionMd5": "9fdfbb456943ca7bfea9e5fd580a5b7f"
+},{
+	"raw": {},
+	"required": [
+		"Filename",
+		"Size"
+	],
+	"package": "apparmor",
 	"version": "3.0.4-2ubuntu2",
 	"section": "admin",
 	"priority": "standard",
