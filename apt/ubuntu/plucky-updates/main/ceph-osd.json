@@ -1,0 +1,64 @@
+{
+	"raw": {},
+	"required": [
+		"Filename",
+		"Size"
+	],
+	"package": "ceph-osd",
+	"source": "ceph",
+	"version": "19.2.3-0ubuntu0.25.04.1",
+	"section": "admin",
+	"priority": "optional",
+	"architecture": "amd64",
+	"depends": [
+		"ceph-base (= 19.2.3-0ubuntu0.25.04.1)",
+		"sudo",
+		"libaio1t64 (>= 0.3.93)",
+		"libblkid1 (>= 2.17.2)",
+		"libboost-iostreams1.83.0 (>= 1.83.0)",
+		"libboost-program-options1.83.0 (>= 1.83.0)",
+		"libboost-thread1.83.0 (>= 1.83.0)",
+		"libc6 (>= 2.38)",
+		"libcap2 (>= 1:2.10)",
+		"libfuse3-3 (>= 3.12.0)",
+		"libgcc-s1 (>= 3.4)",
+		"libgoogle-perftools4t64 (>= 2.16)",
+		"libibverbs1 (>= 1.1.6)",
+		"liblz4-1 (>= 0.0~r130)",
+		"libpmem1 (>= 1.4)",
+		"librados2 (>= 19.2.3-0ubuntu0.25.04.1)",
+		"librdmacm1t64 (>= 1.0.15)",
+		"libsnappy1v5 (>= 1.2.1)",
+		"libssl3t64 (>= 3.0.0)",
+		"libstdc++6 (>= 14)",
+		"libudev1 (>= 183)",
+		"zlib1g (>= 1:1.2.0)"
+	],
+	"preDepends": [
+		"ceph-common (= 19.2.3-0ubuntu0.25.04.1)"
+	],
+	"recommends": [
+		"ceph-volume (= 19.2.3-0ubuntu0.25.04.1)",
+		"nvme-cli",
+		"smartmontools"
+	],
+	"replaces": [
+		"ceph (<< 10.2.2-0ubuntu2~)",
+		"ceph-test (<< 12.2.8+dfsg1-1~)"
+	],
+	"breaks": [
+		"ceph (<< 10.2.2-0ubuntu2~)",
+		"ceph-test (<< 12.2.8+dfsg1-1~)"
+	],
+	"installedSize": 72504,
+	"maintainer": "Ubuntu Developers <ubuntu-devel-discuss@lists.ubuntu.com>",
+	"description": "OSD server for the ceph storage system",
+	"homepage": "http://ceph.com/",
+	"filename": "pool/main/c/ceph/ceph-osd_19.2.3-0ubuntu0.25.04.1_amd64.deb",
+	"size": 22166882,
+	"md5": "e65572fd74e2e0a5ee9a1b234547df32",
+	"sha1": "dd561591e7fc2f15acc714fa94b112d26ac5a259",
+	"sha256": "182b20b21cdb30f9ea1eef75c0f3c6b7d715d6ce5aa2e085949d015f636cecd2",
+	"sha512": "23326936758e1bc81f4595c5c708e6c15ff82dc2e706c42538953588bdfc4e8d946ee5c630762adf1c93a42a3f71f3ff31aee7a8191582e9113e838a2a831b92",
+	"descriptionMd5": "fb08b00d788b505eb4bb23072221ce43"
+}
