@@ -1,0 +1,42 @@
+{
+	"raw": {},
+	"required": [
+		"Filename",
+		"Size"
+	],
+	"package": "linux-image-unsigned-6.14.0-1015-nvidia",
+	"source": "linux-nvidia-6.14",
+	"version": "6.14.0-1015.15",
+	"section": "kernel",
+	"priority": "optional",
+	"architecture": "amd64",
+	"depends": [
+		"kmod",
+		"linux-base (>= 4.5ubuntu1~16.04.1)",
+		"linux-modules-6.14.0-1015-nvidia"
+	],
+	"recommends": [
+		"grub-pc | grub-efi-amd64 | grub-efi-ia32 | grub | lilo",
+		"initramfs-tools | linux-initramfs-tool"
+	],
+	"suggests": [
+		"bpftool",
+		"linux-perf",
+		"linux-nvidia-6.14-tools",
+		"linux-headers-6.14.0-1015-nvidia",
+		"linux-modules-extra-6.14.0-1015-nvidia"
+	],
+	"conflicts": [
+		"linux-image-6.14.0-1015-nvidia"
+	],
+	"installedSize": 15644,
+	"maintainer": "Ubuntu Kernel Team <kernel-team@lists.ubuntu.com>",
+	"description": "Linux kernel image for version 6.14.0",
+	"filename": "pool/main/l/linux-nvidia-6.14/linux-image-unsigned-6.14.0-1015-nvidia_6.14.0-1015.15_amd64.deb",
+	"size": 16036032,
+	"md5": "cbf4cd756a299ba00cddf2ae4cce43d9",
+	"sha1": "d5a3ba0ea5d179e07221c33b126c95921c0d33b8",
+	"sha256": "07bb04965354a57eca78140bacfb9797e601ccc8cd7d13d4e5eef14020053ce9",
+	"sha512": "3193f3062bb4e5d36ef55c0e15dfea9626e27bc217a150ce7289e9dc310cd4a4840d21b5e3eb5c97dbc0d5609c22905668c378339f1ab81b726052e06ee4e19c",
+	"descriptionMd5": "e7c6c202daf6639044d344b3bd740f0f"
+}
