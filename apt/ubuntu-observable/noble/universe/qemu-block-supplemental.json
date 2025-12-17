@@ -49,6 +49,49 @@
 	],
 	"package": "qemu-block-supplemental",
 	"source": "qemu",
+	"version": "1:8.2.2+ds-0ubuntu1.11",
+	"section": "universe/otherosfs",
+	"priority": "optional",
+	"architecture": "amd64",
+	"depends": [
+		"qemu-block-extra (= 1:8.2.2+ds-0ubuntu1.11)",
+		"libc6 (>= 2.4)",
+		"libgfapi0 (>= 11.1)",
+		"qemu-system-any (= 1:8.2.2+ds-0ubuntu1.11) | qemu-utils (= 1:8.2.2+ds-0ubuntu1.11)"
+	],
+	"replaces": [
+		"qemu-block-extra (<< 1:8.2.0+ds-4ubuntu2)"
+	],
+	"enhances": [
+		"qemu-system-arm",
+		"qemu-system-mips",
+		"qemu-system-misc",
+		"qemu-system-sparc",
+		"qemu-system-x86",
+		"qemu-utils"
+	],
+	"breaks": [
+		"qemu-block-extra (<< 1:8.2.0+ds-4ubuntu2~)"
+	],
+	"installedSize": 50,
+	"maintainer": "Ubuntu Developers <ubuntu-devel-discuss@lists.ubuntu.com>",
+	"description": "supplemental block backend modules for qemu-system and qemu-utils",
+	"homepage": "http://www.qemu.org/",
+	"filename": "pool/universe/q/qemu/qemu-block-supplemental_8.2.2+ds-0ubuntu1.11_amd64.deb",
+	"size": 11904,
+	"md5": "57d172585ddc136fa30bc52528900be4",
+	"sha1": "15f5aa93fc47baa2db922daa21d018922285aede",
+	"sha256": "d7e0f74fbde836bd3d4462d718d9259d2306d304b79e554a192ef8a9e0a9d460",
+	"sha512": "3ec36a589a339a4751b087d69581e3079eb74983e4c43b12242ba7404cee67fddbf6a04be60d22f321f95c857d5791e245dddff0621130e44fa7ff88b9cbe8b4",
+	"descriptionMd5": "031949f62a0fa976d28f708f327a82eb"
+},{
+	"raw": {},
+	"required": [
+		"Filename",
+		"Size"
+	],
+	"package": "qemu-block-supplemental",
+	"source": "qemu",
 	"version": "1:8.2.2+ds-0ubuntu1",
 	"section": "universe/otherosfs",
 	"priority": "optional",
