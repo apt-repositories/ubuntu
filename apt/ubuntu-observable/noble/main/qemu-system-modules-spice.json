@@ -43,6 +43,43 @@
 	],
 	"package": "qemu-system-modules-spice",
 	"source": "qemu",
+	"version": "1:8.2.2+ds-0ubuntu1.11",
+	"section": "otherosfs",
+	"priority": "optional",
+	"architecture": "amd64",
+	"depends": [
+		"libc6 (>= 2.17)",
+		"libglib2.0-0t64 (>= 2.30.0)",
+		"libpixman-1-0 (>= 0.19.6)",
+		"libspice-server1 (>= 0.14.2)",
+		"qemu-system-modules-opengl (= 1:8.2.2+ds-0ubuntu1.11)",
+		"qemu-system-any (= 1:8.2.2+ds-0ubuntu1.11)"
+	],
+	"replaces": [
+		"qemu-system-common (<< 1:8.1.0+ds-1~exp2~)"
+	],
+	"breaks": [
+		"qemu-system-common (<< 1:8.1.0+ds-1~exp2~)"
+	],
+	"installedSize": 313,
+	"maintainer": "Ubuntu Developers <ubuntu-devel-discuss@lists.ubuntu.com>",
+	"description": "QEMU full system emulation binaries (spice display modules)",
+	"homepage": "http://www.qemu.org/",
+	"filename": "pool/main/q/qemu/qemu-system-modules-spice_8.2.2+ds-0ubuntu1.11_amd64.deb",
+	"size": 70240,
+	"md5": "ef0e952b8fc18f4d4f694cee6986eda2",
+	"sha1": "4e4a7d1ceb72f4b10f8a3da40be91264f41b0ef2",
+	"sha256": "1bb4d7dde332f33ecdd68f1f0d473f25b5e660a246df53bda52f4d5fb4b52d00",
+	"sha512": "75128642ce76efbc72abb327fa0e7ac6b572afcc17b7de0c9ac0adc5c3afc4a4aee6177213bae01979cc4bc2495e45b9bfecb39966d58650d74b48d393d93048",
+	"descriptionMd5": "4ea1c759c139cf59763d67b1b71bf6e5"
+},{
+	"raw": {},
+	"required": [
+		"Filename",
+		"Size"
+	],
+	"package": "qemu-system-modules-spice",
+	"source": "qemu",
 	"version": "1:8.2.2+ds-0ubuntu1",
 	"section": "otherosfs",
 	"priority": "optional",

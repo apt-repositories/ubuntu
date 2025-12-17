@@ -34,4 +34,40 @@
 	"sha256": "5d319af25e02afd082446125b082bd15d797f9d9e963f7bf4217941e5915d591",
 	"sha512": "058d9895932217e90cbb34be148c47d736a731155901898fc241feb43fa8838533974dfa221d6f2678096c91c2fe3261ec6da51e3db4da324c61597824459547",
 	"descriptionMd5": "dafa8f35853882b3010cba056bb022d0"
+},{
+	"raw": {},
+	"required": [
+		"Filename",
+		"Size"
+	],
+	"package": "nvidia-dkms-580-server-open",
+	"source": "nvidia-graphics-drivers-580-server",
+	"version": "580.95.05-0ubuntu0.25.04.2",
+	"section": "restricted/libs",
+	"priority": "optional",
+	"architecture": "amd64",
+	"depends": [
+		"dkms",
+		"nvidia-kernel-source-580-server-open (<= 580.95.05-1)",
+		"nvidia-kernel-source-580-server-open (>= 580.95.05)",
+		"nvidia-kernel-common-580-server (<= 580.95.05-1)",
+		"nvidia-kernel-common-580-server (>= 580.95.05)"
+	],
+	"replaces": [
+		"nvidia-dkms-kernel"
+	],
+	"conflicts": [
+		"nvidia-dkms-kernel"
+	],
+	"installedSize": 53,
+	"maintainer": "Ubuntu Core Developers <ubuntu-devel-discuss@lists.ubuntu.com>",
+	"description": "NVIDIA DKMS package (open kernel module)",
+	"homepage": "http://www.nvidia.com",
+	"filename": "pool/restricted/n/nvidia-graphics-drivers-580-server/nvidia-dkms-580-server-open_580.95.05-0ubuntu0.25.04.2_amd64.deb",
+	"size": 16166,
+	"md5": "b600500170b625365f24cc26ca05ff9d",
+	"sha1": "556f8bd9506386cbc0cfdd62ba36c7fff54c7fe7",
+	"sha256": "2fa900f4aad5c4dd59f53befc169d291f29ed6e6780199daadeb85dfe0e4d761",
+	"sha512": "fa321acace07ad95594892abd8fdc7acefe0034938154f50986e7dd4e60598169a2d3b96846a0a514ce8a3c04d401ffa4b9d8df9ff9ef0c3fa414af88d104e7d",
+	"descriptionMd5": "dafa8f35853882b3010cba056bb022d0"
 }]
