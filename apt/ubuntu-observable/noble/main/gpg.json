@@ -6,6 +6,55 @@
 	],
 	"package": "gpg",
 	"source": "gnupg2",
+	"version": "2.4.4-2ubuntu17.4",
+	"section": "utils",
+	"priority": "optional",
+	"architecture": "amd64",
+	"depends": [
+		"gpgconf (= 2.4.4-2ubuntu17.4)",
+		"libassuan0 (>= 2.5.0)",
+		"libbz2-1.0",
+		"libc6 (>= 2.38)",
+		"libgcrypt20 (>= 1.10.3)",
+		"libgpg-error0 (>= 1.46)",
+		"libnpth0t64 (>= 0.90)",
+		"libreadline8t64 (>= 6.0)",
+		"libsqlite3-0 (>= 3.7.15)",
+		"zlib1g (>= 1:1.1.4)"
+	],
+	"recommends": [
+		"dirmngr",
+		"gpg-agent"
+	],
+	"suggests": [
+		"gnupg (= 2.4.4-2ubuntu17.4)",
+		"keyboxd"
+	],
+	"replaces": [
+		"gnupg (<< 2.1.21-4)"
+	],
+	"breaks": [
+		"gnupg (<< 2.1.21-4)"
+	],
+	"installedSize": 1206,
+	"maintainer": "Ubuntu Developers <ubuntu-devel-discuss@lists.ubuntu.com>",
+	"description": "GNU Privacy Guard -- minimalist public key operations",
+	"homepage": "https://www.gnupg.org/",
+	"filename": "pool/main/g/gnupg2/gpg_2.4.4-2ubuntu17.4_amd64.deb",
+	"size": 565248,
+	"md5": "cb3e03a17dfa5442c2bffca8f8d80d9f",
+	"sha1": "5cf056f345b30fdda3a93743edc01588e1929933",
+	"sha256": "4c625bdbe37c734e744ceba2f2db18b197683de6d00b42e197b977b9a3caa215",
+	"sha512": "538b4ffbb00785fbe48f629bf80241bf65ad05a23846765e025c8bc074866f75cbd3c131bfa4ea23a409dc757b33de46ebaecd79e0bf6e6ac0d34eb03c35026a",
+	"descriptionMd5": "072a12509de7421dfcbf41d8921ce986"
+},{
+	"raw": {},
+	"required": [
+		"Filename",
+		"Size"
+	],
+	"package": "gpg",
+	"source": "gnupg2",
 	"version": "2.4.4-2ubuntu17.3",
 	"section": "utils",
 	"priority": "optional",

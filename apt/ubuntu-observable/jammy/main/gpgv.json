@@ -6,6 +6,48 @@
 	],
 	"package": "gpgv",
 	"source": "gnupg2",
+	"version": "2.2.27-3ubuntu2.5",
+	"section": "utils",
+	"priority": "important",
+	"architecture": "amd64",
+	"depends": [
+		"libbz2-1.0",
+		"libc6 (>= 2.34)",
+		"libgcrypt20 (>= 1.9.0)",
+		"libgpg-error0 (>= 1.42)",
+		"zlib1g (>= 1:1.1.4)"
+	],
+	"suggests": [
+		"gnupg"
+	],
+	"replaces": [
+		"gnupg2 (<< 2.0.21-2)",
+		"gpgv2 (<< 2.1.11-7+exp1)"
+	],
+	"breaks": [
+		"gnupg2 (<< 2.0.21-2)",
+		"gpgv2 (<< 2.1.11-7+exp1)",
+		"python-debian (<< 0.1.29)"
+	],
+	"installedSize": 324,
+	"maintainer": "Ubuntu Developers <ubuntu-devel-discuss@lists.ubuntu.com>",
+	"description": "GNU privacy guard - signature verification tool",
+	"homepage": "https://www.gnupg.org/",
+	"filename": "pool/main/g/gnupg2/gpgv_2.2.27-3ubuntu2.5_amd64.deb",
+	"size": 137170,
+	"md5": "d7066e32de632c1938a35a031591bbc7",
+	"sha1": "58a40c0b3dabd850a6c2664438906a8b4a02d898",
+	"sha256": "9eae9cfdadad7a40d654f81e39102c401fcd4845b9ccd2af1d111c770025d566",
+	"sha512": "a6b63e0d43ec9c202f8fce5d7075fec8166f1120b92ae7e602659d2c902503770ada89a8bf6292b150930f1f4f11da601e68cdb898ea29c02c35fffd0031dcca",
+	"descriptionMd5": "4ea8f4f4d6a0a387a4a3aeba3e6cc888"
+},{
+	"raw": {},
+	"required": [
+		"Filename",
+		"Size"
+	],
+	"package": "gpgv",
+	"source": "gnupg2",
 	"version": "2.2.27-3ubuntu2.4",
 	"section": "utils",
 	"priority": "important",
