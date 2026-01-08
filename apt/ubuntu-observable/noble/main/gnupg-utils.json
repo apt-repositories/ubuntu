@@ -6,6 +6,51 @@
 	],
 	"package": "gnupg-utils",
 	"source": "gnupg2",
+	"version": "2.4.4-2ubuntu17.4",
+	"section": "utils",
+	"priority": "optional",
+	"architecture": "amd64",
+	"depends": [
+		"libbz2-1.0",
+		"libc6 (>= 2.38)",
+		"libgcrypt20 (>= 1.10.0)",
+		"libgpg-error0 (>= 1.46)",
+		"libksba8 (>= 1.6.3)",
+		"zlib1g (>= 1:1.1.4)"
+	],
+	"recommends": [
+		"gpg",
+		"gpg-agent",
+		"gpgconf",
+		"gpgsm"
+	],
+	"replaces": [
+		"gnupg (<< 2.1.21-4)",
+		"gnupg-agent (<< 2.1.21-4)"
+	],
+	"breaks": [
+		"gnupg (<< 2.1.21-4)",
+		"gnupg-agent (<< 2.1.21-4)"
+	],
+	"installedSize": 343,
+	"maintainer": "Ubuntu Developers <ubuntu-devel-discuss@lists.ubuntu.com>",
+	"description": "GNU privacy guard - utility programs",
+	"homepage": "https://www.gnupg.org/",
+	"filename": "pool/main/g/gnupg2/gnupg-utils_2.4.4-2ubuntu17.4_amd64.deb",
+	"size": 109094,
+	"md5": "e3f2e1f47caeba120a5b53d246e198dd",
+	"sha1": "ffe312180ee9b5737b844210f82ae11df2b28ee7",
+	"sha256": "a66520564376ebbe108603f0eaa3170962d53b201a4185b4f6ab1dfd1b34d655",
+	"sha512": "977c7d522be0655cee2df84ffa46f8dcacd85eac274d478d6a6f7424176bb649a87c4b780eff2ec2b3ec0cb37a4844c0a3fc1b83421d03d87970cfde71c0352f",
+	"descriptionMd5": "e668452bd037f231e404937c9a963ac3"
+},{
+	"raw": {},
+	"required": [
+		"Filename",
+		"Size"
+	],
+	"package": "gnupg-utils",
+	"source": "gnupg2",
 	"version": "2.4.4-2ubuntu17.3",
 	"section": "utils",
 	"priority": "optional",
