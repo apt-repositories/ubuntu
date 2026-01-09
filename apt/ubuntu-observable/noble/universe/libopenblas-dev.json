@@ -6,6 +6,38 @@
 	],
 	"package": "libopenblas-dev",
 	"source": "openblas",
+	"version": "0.3.26+ds-1ubuntu0.1",
+	"section": "universe/libdevel",
+	"priority": "optional",
+	"architecture": "amd64",
+	"depends": [
+		"libopenblas0 (= 0.3.26+ds-1ubuntu0.1)",
+		"libopenblas-pthread-dev | libopenblas-openmp-dev | libopenblas-serial-dev"
+	],
+	"breaks": [
+		"libatlas-base-dev (<< 3.10.3-4~)",
+		"libblas-dev (<< 3.7.1-2~)",
+		"liblapack-dev (<< 3.7.1-2~)"
+	],
+	"installedSize": 53,
+	"maintainer": "Ubuntu Developers <ubuntu-devel-discuss@lists.ubuntu.com>",
+	"description": "Optimized BLAS (linear algebra) library (dev, meta)",
+	"homepage": "https://www.openblas.net/",
+	"filename": "pool/universe/o/openblas/libopenblas-dev_0.3.26+ds-1ubuntu0.1_amd64.deb",
+	"size": 19590,
+	"md5": "ac500e4f7f129135d17d65d03fbc3ce3",
+	"sha1": "d18d6930ca18b28e16272f5e515df43d1ad144f3",
+	"sha256": "3e4f39838e163d35bc7778fb3bec4f4d5ce2ae3e8e081dec49759217282c4770",
+	"sha512": "c29f6a9f6ff282e3ddea9815813cd09186bef89d4ebd5e033ed860fe09fe323848415d14354402552cd4f60616612550263bacb9d6a16c9ea04b3e384357c8cb",
+	"descriptionMd5": "5ce558463c003379907638af1079026b"
+},{
+	"raw": {},
+	"required": [
+		"Filename",
+		"Size"
+	],
+	"package": "libopenblas-dev",
+	"source": "openblas",
 	"version": "0.3.26+ds-1",
 	"section": "universe/libdevel",
 	"priority": "optional",
