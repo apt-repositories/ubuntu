@@ -43,6 +43,43 @@
 	],
 	"package": "mariadb-plugin-gssapi-server",
 	"source": "mariadb-10.6",
+	"version": "1:10.6.23-0ubuntu0.22.04.1",
+	"section": "universe/database",
+	"priority": "optional",
+	"architecture": "amd64",
+	"depends": [
+		"libgssapi-krb5-2 (>= 1.17)",
+		"mariadb-server-10.6",
+		"libc6 (>= 2.14)",
+		"libkrb5-3 (>= 1.13~alpha1+dfsg)"
+	],
+	"replaces": [
+		"mariadb-gssapi-server-10.1",
+		"mariadb-gssapi-server-10.2"
+	],
+	"breaks": [
+		"mariadb-gssapi-server-10.1",
+		"mariadb-gssapi-server-10.2"
+	],
+	"installedSize": 96,
+	"maintainer": "Ubuntu Developers <ubuntu-devel-discuss@lists.ubuntu.com>",
+	"description": "GSSAPI authentication plugin for MariaDB server",
+	"homepage": "https://mariadb.org/",
+	"filename": "pool/universe/m/mariadb-10.6/mariadb-plugin-gssapi-server_10.6.23-0ubuntu0.22.04.1_amd64.deb",
+	"size": 16900,
+	"md5": "9a4dd10c88cf971ae6c7aee0ebc1ea98",
+	"sha1": "1b4bbc1acb949f3d94113866f4f1ee7c5582762a",
+	"sha256": "f7ff2326be5080fd129f315655ed0567b59237f6c26df6ca9bb7b892b62c1051",
+	"sha512": "b32bc5ba31a8e696be015ba0a4ebbf796315a25692fe69eb4c642227732dafb21f90b0fc86b9a0d3e5cccc0bace124fc91d73a7c47f6e0f1d882ea05c4397328",
+	"descriptionMd5": "15f0c8ec89caa84121f658521f1d6501"
+},{
+	"raw": {},
+	"required": [
+		"Filename",
+		"Size"
+	],
+	"package": "mariadb-plugin-gssapi-server",
+	"source": "mariadb-10.6",
 	"version": "1:10.6.7-2ubuntu1",
 	"section": "universe/database",
 	"priority": "optional",

@@ -57,6 +57,57 @@
 	],
 	"package": "libc6-dev",
 	"source": "glibc",
+	"version": "2.35-0ubuntu3.12",
+	"section": "libdevel",
+	"priority": "optional",
+	"architecture": "amd64",
+	"depends": [
+		"libc6 (= 2.35-0ubuntu3.12)",
+		"libc-dev-bin (= 2.35-0ubuntu3.12)",
+		"linux-libc-dev",
+		"libcrypt-dev",
+		"rpcsvc-proto",
+		"libtirpc-dev",
+		"libnsl-dev"
+	],
+	"suggests": [
+		"glibc-doc",
+		"manpages-dev"
+	],
+	"breaks": [
+		"libc6-dev-amd64-cross (<< 2.35~)",
+		"libgcc-10-dev (<< 10-20200321-1~)",
+		"libgcc-7-dev (<< 7.5.0-6~)",
+		"libgcc-8-dev (<< 8.4.0-2~)",
+		"libgcc-9-dev (<< 9.3.0-5~)",
+		"libperl5.26 (<< 5.26.1-3)",
+		"python3.7 (<< 3.7.7-1+b1)",
+		"python3.8 (<< 3.8.2-1+b1)"
+	],
+	"conflicts": [
+		"libc0.1-dev",
+		"libc0.3-dev",
+		"libc6.1-dev"
+	],
+	"installedSize": 13039,
+	"maintainer": "Ubuntu Developers <ubuntu-devel-discuss@lists.ubuntu.com>",
+	"description": "GNU C Library: Development Libraries and Header Files",
+	"homepage": "https://www.gnu.org/software/libc/libc.html",
+	"filename": "pool/main/g/glibc/libc6-dev_2.35-0ubuntu3.12_amd64.deb",
+	"size": 2100904,
+	"md5": "40dbfdca4530856a83f3f290f6572fcc",
+	"sha1": "9030752766b669607bdfc6060778a1555d3f1f3c",
+	"sha256": "763c88894cc6228208065391c2a0641ec014909f63e362cd51e3c032993a1657",
+	"sha512": "5483c2712d393db20377890e542d3f3eb5886b24d83a0f900d229314db217313454bd18aaebea47c9cf8e160684fe45683d2a43b36b7e6a6fcd437ec5cef2367",
+	"descriptionMd5": "1bbdc717d9acdb44db940928d570e749"
+},{
+	"raw": {},
+	"required": [
+		"Filename",
+		"Size"
+	],
+	"package": "libc6-dev",
+	"source": "glibc",
 	"version": "2.35-0ubuntu3",
 	"section": "libdevel",
 	"priority": "optional",
