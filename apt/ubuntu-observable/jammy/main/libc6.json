@@ -64,6 +64,64 @@
 	],
 	"package": "libc6",
 	"source": "glibc",
+	"version": "2.35-0ubuntu3.12",
+	"section": "libs",
+	"priority": "required",
+	"architecture": "amd64",
+	"depends": [
+		"libgcc-s1",
+		"libcrypt1 (>= 1:4.4.10-10ubuntu4)"
+	],
+	"recommends": [
+		"libidn2-0 (>= 2.0.5~)",
+		"libnss-nis",
+		"libnss-nisplus"
+	],
+	"suggests": [
+		"glibc-doc",
+		"debconf | debconf-2.0",
+		"locales"
+	],
+	"replaces": [
+		"libc6-amd64"
+	],
+	"breaks": [
+		"busybox (<< 1.30.1-6)",
+		"fakeroot (<< 1.25.3-1.1ubuntu2~)",
+		"hurd (<< 1:0.9.git20170910-1)",
+		"ioquake3 (<< 1.36+u20200211.f2c61c1~dfsg-2~)",
+		"iraf-fitsutil (<< 2018.07.06-4)",
+		"libgegl-0.4-0 (<< 0.4.18)",
+		"libtirpc1 (<< 0.2.3)",
+		"locales (<< 2.35)",
+		"locales-all (<< 2.35)",
+		"macs (<< 2.2.7.1-3~)",
+		"nocache (<< 1.1-1~)",
+		"nscd (<< 2.35)",
+		"openarena (<< 0.8.8+dfsg-4~)",
+		"openssh-server (<< 1:8.2p1-4)",
+		"r-cran-later (<< 0.7.5+dfsg-2)",
+		"wcc (<< 0.0.2+dfsg-3)"
+	],
+	"installedSize": 13598,
+	"maintainer": "Ubuntu Developers <ubuntu-devel-discuss@lists.ubuntu.com>",
+	"description": "GNU C Library: Shared libraries",
+	"homepage": "https://www.gnu.org/software/libc/libc.html",
+	"filename": "pool/main/g/glibc/libc6_2.35-0ubuntu3.12_amd64.deb",
+	"size": 3234562,
+	"md5": "cee487811e4a106ab2e5a11ad2484fa4",
+	"sha1": "a83e692820b2bab35c510b8fd3eae465b878ae57",
+	"sha256": "d869a972aadd92883cfbef152a13e2a6084e82149575055b9c8a19336aef1f6e",
+	"sha512": "210ae82c94f750ca0ece24b803b279c3f246277ae7f29fe6c38bc990df92504eb47076b074234b9d6c03f96542b414831c7a079a6611b411dfbf13ab315f4fd7",
+	"descriptionMd5": "fc3001b0b90a1c8e6690b283a619d57f"
+},{
+	"raw": {},
+	"required": [
+		"Filename",
+		"Size"
+	],
+	"package": "libc6",
+	"source": "glibc",
 	"version": "2.35-0ubuntu3",
 	"section": "libs",
 	"priority": "required",
