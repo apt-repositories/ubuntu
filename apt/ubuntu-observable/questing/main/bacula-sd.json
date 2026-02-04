@@ -1,0 +1,58 @@
+[{
+	"raw": {},
+	"required": [
+		"Filename",
+		"Size"
+	],
+	"package": "bacula-sd",
+	"source": "bacula",
+	"version": "15.0.3-3ubuntu2",
+	"section": "admin",
+	"priority": "optional",
+	"architecture": "amd64",
+	"depends": [
+		"bacula-common (= 15.0.3-3ubuntu2)",
+		"mtx",
+		"sysvinit-utils (>= 3.05-1)",
+		"ucf",
+		"libc6 (>= 2.38)",
+		"libcap2 (>= 1:2.10)",
+		"liblzo2-2 (>= 2.02)",
+		"libstdc++6 (>= 5)",
+		"zlib1g (>= 1:1.1.4)"
+	],
+	"preDepends": [
+		"init-system-helpers (>= 1.54~)"
+	],
+	"recommends": [
+		"bacula-bscan",
+		"python3"
+	],
+	"suggests": [
+		"sg3-utils",
+		"mt-st"
+	],
+	"replaces": [
+		"bacula-common (<< 9.6.4-1)",
+		"bacula-sd-mysql (<< 7.4.3+dfsg-3)",
+		"bacula-sd-pgsql (<< 7.4.3+dfsg-3)",
+		"bacula-sd-sqlite3 (<< 7.4.3+dfsg-3)"
+	],
+	"breaks": [
+		"bacula-common (<< 9.6.4-1)",
+		"bacula-sd-mysql (<< 7.4.3+dfsg-3)",
+		"bacula-sd-pgsql (<< 7.4.3+dfsg-3)",
+		"bacula-sd-sqlite3 (<< 7.4.3+dfsg-3)"
+	],
+	"installedSize": 669,
+	"maintainer": "Ubuntu Developers <ubuntu-devel-discuss@lists.ubuntu.com>",
+	"description": "network backup service - storage daemon",
+	"homepage": "https://www.bacula.org/",
+	"filename": "pool/main/b/bacula/bacula-sd_15.0.3-3ubuntu2_amd64.deb",
+	"size": 166288,
+	"md5": "94f8ae43d21608c97bef642b12a48862",
+	"sha1": "8f3be9720b444fed07b7b107b0f666de8fd2c520",
+	"sha256": "02d9f645bab6f9d925fa81645d5801deb08615c34573a77daf23577ab9783322",
+	"sha512": "4a2ab073348db2ea3bb87980edca627602be07fc55d5538b57b06fb801a45dfa338fb6f17a47d9553352c1658d988466a2f8a298bb0af6c4e2e5ca850068c7c0",
+	"descriptionMd5": "62128350f6771f6c2952ce19f11cffea"
+}]

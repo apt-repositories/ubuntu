@@ -1,0 +1,59 @@
+{
+	"raw": {},
+	"required": [
+		"Filename",
+		"Size"
+	],
+	"package": "backuppc",
+	"version": "4.4.0-11",
+	"section": "utils",
+	"priority": "optional",
+	"architecture": "amd64",
+	"depends": [
+		"adduser",
+		"apache2 | httpd",
+		"apache2-utils",
+		"backuppc-rsync (>= 3.1.3)",
+		"bzip2",
+		"default-mta | exim4 | mail-transport-agent",
+		"iputils-ping | inetutils-ping",
+		"libarchive-zip-perl",
+		"libbackuppc-xs-perl (>= 0.62)",
+		"libcgi-pm-perl",
+		"libfile-listing-perl",
+		"libtime-parsedate-perl",
+		"sysvinit-utils (>= 3.05-4~)",
+		"ucf",
+		"debconf (>= 0.5) | debconf-2.0",
+		"perl:any",
+		"libc6 (>= 2.34)"
+	],
+	"preDepends": [
+		"init-system-helpers (>= 1.54~)"
+	],
+	"recommends": [
+		"libio-dirent-perl",
+		"openssh-client | ssh-client",
+		"rrdtool",
+		"samba-common-bin",
+		"smbclient"
+	],
+	"suggests": [
+		"certbot | acme-tiny | acmetool | dehydrated | lacme | lecm | lego",
+		"libscgi-perl",
+		"par2",
+		"rsync",
+		"w3m | www-browser"
+	],
+	"installedSize": 3054,
+	"maintainer": "Ubuntu Developers <ubuntu-devel-discuss@lists.ubuntu.com>",
+	"description": "high-performance, enterprise-grade system for backing up PCs",
+	"homepage": "https://backuppc.github.io/backuppc/",
+	"filename": "pool/main/b/backuppc/backuppc_4.4.0-11_amd64.deb",
+	"size": 517842,
+	"md5": "60233403df8d74bc91d3cbd476343605",
+	"sha1": "0820c6ca320269ffc564cebc981c181da9ce659a",
+	"sha256": "5c7708f187a44f5dd999a8ee3e34bb1fcae280c02204c4a90a18a383c8876f3e",
+	"sha512": "73450c6c58e6d81da3c211a6cb3729fe2dde5f69608954645a95c728fc3dea72bea7f6e7c1993f7a22f86d9e1b9a3464094b6f07b6d87948d3930aaeb9d55195",
+	"descriptionMd5": "b6f406334b3551715e06ad0d1f9cbb05"
+}

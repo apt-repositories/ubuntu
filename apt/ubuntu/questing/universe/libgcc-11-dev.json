@@ -1,0 +1,45 @@
+{
+	"raw": {},
+	"required": [
+		"Filename",
+		"Size"
+	],
+	"package": "libgcc-11-dev",
+	"source": "gcc-11",
+	"version": "11.5.0-7ubuntu1",
+	"section": "universe/libdevel",
+	"priority": "optional",
+	"architecture": "amd64",
+	"depends": [
+		"gcc-11-base (= 11.5.0-7ubuntu1)",
+		"libgcc-s1 (>= 11.5.0-7ubuntu1)",
+		"libgomp1 (>= 11.5.0-7ubuntu1)",
+		"libitm1 (>= 11.5.0-7ubuntu1)",
+		"libatomic1 (>= 11.5.0-7ubuntu1)",
+		"libasan6 (>= 11.5.0-7ubuntu1)",
+		"liblsan0 (>= 11.5.0-7ubuntu1)",
+		"libtsan0 (>= 11.5.0-7ubuntu1)",
+		"libubsan1 (>= 11.5.0-7ubuntu1)",
+		"libquadmath0 (>= 11.5.0-7ubuntu1)"
+	],
+	"recommends": [
+		"libc6-dev (>= 2.13-0ubuntu6)"
+	],
+	"replaces": [
+		"libtsan0 (<< 11.2.0-11)"
+	],
+	"breaks": [
+		"libtsan0 (<< 11.2.0-11)"
+	],
+	"installedSize": 13886,
+	"maintainer": "Ubuntu Core developers <ubuntu-devel-discuss@lists.ubuntu.com>",
+	"description": "GCC support library (development files)",
+	"homepage": "http://gcc.gnu.org/",
+	"filename": "pool/universe/g/gcc-11/libgcc-11-dev_11.5.0-7ubuntu1_amd64.deb",
+	"size": 2475586,
+	"md5": "abbbcf081d1f9e5b5e2aca125be970c2",
+	"sha1": "bbfbb27882d8bdde7caf7fc14171ace81eaddd88",
+	"sha256": "eb931360c4b5c71d9cbb9b6b29ecdcff6a24b5581ff8aabd07eff72badf415ac",
+	"sha512": "77cca4e73b922aac9a6d755f70d75fc5a95fde7b73645425931aeaabbd4962b28d05ae12ed7d001c0c1451d6a6cf81d0bfe0f6515acd1da1a37d72c9f3328a24",
+	"descriptionMd5": "4ab7cb439b47e1d0796fbaf8447229ac"
+}

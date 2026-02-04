@@ -1,0 +1,50 @@
+{
+	"raw": {},
+	"required": [
+		"Filename",
+		"Size"
+	],
+	"package": "systemd-sysv",
+	"source": "systemd",
+	"version": "257.9-0ubuntu2",
+	"section": "admin",
+	"priority": "important",
+	"architecture": "amd64",
+	"depends": [
+		"systemd (= 257.9-0ubuntu2)"
+	],
+	"preDepends": [
+		"systemd"
+	],
+	"recommends": [
+		"libpam-systemd",
+		"libnss-systemd"
+	],
+	"replaces": [
+		"sysvinit-core"
+	],
+	"conflicts": [
+		"bfh-container (<< 20211009-22~)",
+		"file-rc",
+		"initscripts",
+		"insserv",
+		"molly-guard (<< 0.8.2~)",
+		"orphan-sysvinit-scripts",
+		"progress-linux-container (<< 20221002-11~)",
+		"startpar",
+		"systemd-shim",
+		"sysv-rc",
+		"sysvinit-core"
+	],
+	"installedSize": 144,
+	"maintainer": "Ubuntu Developers <ubuntu-devel-discuss@lists.ubuntu.com>",
+	"description": "system and service manager - SysV compatibility symlinks",
+	"homepage": "https://systemd.io",
+	"filename": "pool/main/s/systemd/systemd-sysv_257.9-0ubuntu2_amd64.deb",
+	"size": 11910,
+	"md5": "a623a0365132d5335b8eb305ee6d428a",
+	"sha1": "36f2bc149ab35008481690a3ace7358f102a4923",
+	"sha256": "6d195924e785fdcf6fb1f201c007f9b0dd111004a2ce9c3d0c7a127051975298",
+	"sha512": "d2f34ddef9904328cc4053095300b32d103620a0efeb47ca51316957548d2806e952a688afc806497988a3d6e6c519de48685251e11dca17378fea62c30001e0",
+	"descriptionMd5": "d704d23b3cdeb076982e788442f6eee1"
+}

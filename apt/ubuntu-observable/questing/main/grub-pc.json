@@ -1,0 +1,50 @@
+[{
+	"raw": {},
+	"required": [
+		"Filename",
+		"Size"
+	],
+	"package": "grub-pc",
+	"source": "grub2",
+	"version": "2.14~git20250718.0e36779-1ubuntu4",
+	"section": "admin",
+	"priority": "optional",
+	"architecture": "amd64",
+	"depends": [
+		"debconf (>= 0.5) | debconf-2.0",
+		"grub2-common (= 2.14~git20250718.0e36779-1ubuntu4)",
+		"grub-pc-bin (= 2.14~git20250718.0e36779-1ubuntu4)",
+		"ucf",
+		"grub-gfxpayload-lists"
+	],
+	"replaces": [
+		"grub",
+		"grub-coreboot",
+		"grub-efi-amd64",
+		"grub-efi-ia32",
+		"grub-ieee1275",
+		"grub-legacy",
+		"grub2 (<< 2.14~git20250718.0e36779-1ubuntu4)"
+	],
+	"breaks": [
+		"grub-legacy (<< 0.97-84~)"
+	],
+	"conflicts": [
+		"grub-coreboot",
+		"grub-efi-amd64",
+		"grub-efi-ia32",
+		"grub-ieee1275",
+		"grub-xen"
+	],
+	"installedSize": 500,
+	"maintainer": "Ubuntu Developers <ubuntu-devel-discuss@lists.ubuntu.com>",
+	"description": "GRand Unified Bootloader, version 2 (PC/BIOS version)",
+	"homepage": "https://www.gnu.org/software/grub/",
+	"filename": "pool/main/g/grub2/grub-pc_2.14~git20250718.0e36779-1ubuntu4_amd64.deb",
+	"size": 123884,
+	"md5": "cebf4ec41bfca2a0f11a4b104aad2093",
+	"sha1": "26a5a51e55a3e8b5fb4e3ca9ced7c79661654e19",
+	"sha256": "8de2c675631599bf9c33a3dc59758dc38382a7ef13560be99f3c540abba62cc2",
+	"sha512": "b1d4bb85ab2401e36b70a05533c5da894633aa717190ec4515ca8ad41d0234d8615cc0b0971b2d7b84a4afbf53409a896502fdc46f9579fb1d18f0dc705ce9c9",
+	"descriptionMd5": "55663e0e8d42f469d665f9cc0013b733"
+}]

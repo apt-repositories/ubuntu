@@ -1,0 +1,49 @@
+[{
+	"raw": {},
+	"required": [
+		"Filename",
+		"Size"
+	],
+	"package": "dh-nodejs",
+	"source": "pkg-js-tools",
+	"version": "0.16.0",
+	"section": "universe/devel",
+	"priority": "optional",
+	"architecture": "all",
+	"depends": [
+		"perl:any",
+		"debhelper",
+		"libdebian-copyright-perl",
+		"libdebian-source-perl",
+		"libdpkg-perl",
+		"libfile-which-perl",
+		"libgraph-perl",
+		"libipc-run-perl",
+		"libjson-perl",
+		"libyaml-perl",
+		"nodejs:any"
+	],
+	"suggests": [
+		"node-rollup-plugin-commonjs",
+		"node-rollup-plugin-node-resolve",
+		"pkg-js-tools",
+		"rollup"
+	],
+	"replaces": [
+		"pkg-js-tools (<< 0.14.0~)"
+	],
+	"conflicts": [
+		"pkg-js-tools (<< 0.14.0~)"
+	],
+	"installedSize": 207,
+	"maintainer": "Ubuntu Developers <ubuntu-devel-discuss@lists.ubuntu.com>",
+	"description": "debhelper addon to build Node.js modules",
+	"homepage": "https://salsa.debian.org/js-team/pkg-js-tools",
+	"filename": "pool/universe/p/pkg-js-tools/dh-nodejs_0.16.0_all.deb",
+	"size": 64580,
+	"md5": "31ad65444c36c71adc7900868cc739ce",
+	"sha1": "32527b9db935171a08a2c189d7f40a3214fb9170",
+	"sha256": "fbf72d45cad0200d59575f29aea5defb2b1f2fe871e92cf8bc2fa58b1f04591c",
+	"sha512": "008858ba417d449360d4b5b2bb10ca5cdb7f25b227a427f00443454a97b4bf921b2afa18b4d43a70f94c2cbe4be8b4f719a44209bb1ca984c9b721f65d2231db",
+	"descriptionMd5": "390387a99cb876cbf2c70552a733a985"
+}]

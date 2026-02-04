@@ -1,0 +1,37 @@
+{
+	"raw": {},
+	"required": [
+		"Filename",
+		"Size"
+	],
+	"package": "liblapacke",
+	"source": "lapack",
+	"version": "3.12.1-6build1",
+	"section": "libs",
+	"priority": "optional",
+	"architecture": "amd64",
+	"depends": [
+		"libblas3 | libblas.so.3",
+		"libc6 (>= 2.38)",
+		"liblapack3 | liblapack.so.3",
+		"libtmglib3 (>= 3.12.1)"
+	],
+	"breaks": [
+		"libatlas3-base (<< 3.10.3-14)",
+		"liblapack3 (<< 3.12)",
+		"libopenblas0-openmp (<< 0.3.25+ds-2)",
+		"libopenblas0-pthread (<< 0.3.25+ds-2)",
+		"libopenblas0-serial (<< 0.3.25+ds-2)"
+	],
+	"installedSize": 2274,
+	"maintainer": "Ubuntu Developers <ubuntu-devel-discuss@lists.ubuntu.com>",
+	"description": "Library of linear algebra routines 3 - C lib shared version",
+	"homepage": "https://www.netlib.org/lapack/",
+	"filename": "pool/main/l/lapack/liblapacke_3.12.1-6build1_amd64.deb",
+	"size": 431108,
+	"md5": "bc247da73a754b1e5ce6785e589374dd",
+	"sha1": "2398f4fc79b518ecdf2aba3c095534524b928293",
+	"sha256": "71f9351a2212eea4cc8d1337e108535e7560aa1ade171b97e131fc704362b374",
+	"sha512": "27240b3229b1073abce28f608ec808b5a60c597d0b3a4739712a338d396e729928e0437d4cfa62dfdd8f37e33be478309b7593a0ad5a3ce4603366e1a66773ee",
+	"descriptionMd5": "7f2e7790d8a3b93e084fa76cd32e2fd0"
+}

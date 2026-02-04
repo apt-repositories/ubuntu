@@ -1,0 +1,60 @@
+[{
+	"raw": {},
+	"required": [
+		"Filename",
+		"Size"
+	],
+	"package": "nfs-common",
+	"source": "nfs-utils",
+	"version": "1:2.8.3-1ubuntu3",
+	"section": "net",
+	"priority": "optional",
+	"architecture": "amd64",
+	"depends": [
+		"libc6 (>= 2.38)",
+		"libcap2 (>= 1:2.10)",
+		"libcom-err2 (>= 1.43.9)",
+		"libdevmapper1.02.1 (>= 2:1.02.197)",
+		"libevent-core-2.1-7t64 (>= 2.1.8-stable)",
+		"libgssapi-krb5-2 (>= 1.17)",
+		"libk5crypto3 (>= 1.6.dfsg.2)",
+		"libkeyutils1 (>= 1.5.9)",
+		"libkrb5-3 (>= 1.10+dfsg~alpha1)",
+		"libmount1 (>= 2.24.2)",
+		"libnfsidmap1 (= 1:2.8.3-1ubuntu3)",
+		"libtirpc3t64 (>= 1.0.2)",
+		"libwrap0 (>= 7.6-4~)",
+		"rpcbind",
+		"adduser",
+		"ucf",
+		"keyutils"
+	],
+	"preDepends": [
+		"init-system-helpers (>= 1.54~)"
+	],
+	"recommends": [
+		"python3"
+	],
+	"suggests": [
+		"open-iscsi",
+		"watchdog"
+	],
+	"replaces": [
+		"nfs-client"
+	],
+	"conflicts": [
+		"nfs-client",
+		"nfs-kernel-server (<< 1:2.8.2-2~exp1~)"
+	],
+	"installedSize": 935,
+	"maintainer": "Ubuntu Developers <ubuntu-devel-discuss@lists.ubuntu.com>",
+	"description": "NFS support files common to client and server",
+	"homepage": "https://linux-nfs.org/",
+	"filename": "pool/main/n/nfs-utils/nfs-common_2.8.3-1ubuntu3_amd64.deb",
+	"size": 259024,
+	"md5": "a367c6bf0e9e05b8ee7e3dd4cf5dab9d",
+	"sha1": "ca5b0f537dbc9bdb910c0f86192d5f7c225fffa0",
+	"sha256": "63f2d8b0e3c75d85fd0d06c6bec6a4fcf423bca9b76c523549695186d51a6a52",
+	"sha512": "d0a0a097354f9933b961c922b2fbf2286af7fdfbac4dbe71bb622af89b389017724f509a449b18c5298be10dddc6172915bc0b9703c8a7cba961d0f1da07aa64",
+	"descriptionMd5": "c2f5fd5a7d525f1cc35fbb49cc8628fd"
+}]

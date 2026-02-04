@@ -1,0 +1,45 @@
+[{
+	"raw": {},
+	"required": [
+		"Filename",
+		"Size"
+	],
+	"package": "libgcc-12-dev-ppc64-cross",
+	"source": "gcc-12-cross-ports (21ubuntu1)",
+	"version": "12.5.0-6ubuntu1cross1",
+	"section": "universe/libdevel",
+	"priority": "optional",
+	"architecture": "all",
+	"depends": [
+		"gcc-12-cross-base-ports (= 12.5.0-6ubuntu1cross1)",
+		"libgcc-s1-ppc64-cross (>= 12.5.0-6ubuntu1cross1)",
+		"libgomp1-ppc64-cross (>= 12.5.0-6ubuntu1cross1)",
+		"libitm1-ppc64-cross (>= 12.5.0-6ubuntu1cross1)",
+		"libatomic1-ppc64-cross (>= 12.5.0-6ubuntu1cross1)",
+		"libasan8-ppc64-cross (>= 12.5.0-6ubuntu1cross1)",
+		"liblsan0-ppc64-cross (>= 12.5.0-6ubuntu1cross1)",
+		"libtsan2-ppc64-cross (>= 12.5.0-6ubuntu1cross1)",
+		"libubsan1-ppc64-cross (>= 12.5.0-6ubuntu1cross1)"
+	],
+	"recommends": [
+		"libc6-dev-ppc64-cross (>= 2.13-0ubuntu6)"
+	],
+	"replaces": [
+		"libtsan2-ppc64-cross (<< 12-20211113-2~)"
+	],
+	"breaks": [
+		"libtsan2-ppc64-cross (<< 12-20211113-2~)"
+	],
+	"installedSize": 12055,
+	"maintainer": "Ubuntu Core developers <ubuntu-devel-discuss@lists.ubuntu.com>",
+	"description": "GCC support library (development files)",
+	"homepage": "http://gcc.gnu.org/",
+	"builtUsing": "gcc-12 (= 12.5.0-6ubuntu1)",
+	"filename": "pool/universe/g/gcc-12-cross-ports/libgcc-12-dev-ppc64-cross_12.5.0-6ubuntu1cross1_all.deb",
+	"size": 1355408,
+	"md5": "57a8023d37f4bd48ae034f52fa09a8a6",
+	"sha1": "20a54c0f91ea768ffd93effaebed835909893f6c",
+	"sha256": "cd94cfffd853c9ed9db5e7c7a047166f3730f47253223ed8a4ce93e0e06bd249",
+	"sha512": "8df35b836fcfbb1d6ec2cc9e4a1a775bc03d1292b5365d8b8f7fd5a3a3c07ad6ff06baeadc90feccc085f0fe0fc5a98e36218a8f23ceb2e1d609983f789f3b9c",
+	"descriptionMd5": "4ab7cb439b47e1d0796fbaf8447229ac"
+}]

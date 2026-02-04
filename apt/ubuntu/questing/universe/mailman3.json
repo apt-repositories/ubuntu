@@ -1,0 +1,72 @@
+{
+	"raw": {},
+	"required": [
+		"Filename",
+		"Size"
+	],
+	"package": "mailman3",
+	"version": "3.3.10-0ubuntu3",
+	"section": "universe/mail",
+	"priority": "optional",
+	"architecture": "all",
+	"depends": [
+		"dbconfig-sqlite3 | dbconfig-pgsql | dbconfig-mysql | dbconfig-no-thanks",
+		"logrotate",
+		"cron | cron-daemon",
+		"python3-falcon (>> 1.0.0)",
+		"python3-flufl.i18n",
+		"python3-flufl.lock",
+		"python3-psycopg2 | python3-pymysql",
+		"python3 (<< 3.13.0~~) | python3-standard-nntplib",
+		"ucf",
+		"debconf (>= 0.5) | debconf-2.0",
+		"python3-aiosmtpd",
+		"python3-alembic",
+		"python3-authheaders",
+		"python3-authres",
+		"python3-click",
+		"python3-dateutil",
+		"python3-dnspython",
+		"python3-flufl.bounce",
+		"python3-gunicorn",
+		"python3-lazr.config",
+		"python3-passlib",
+		"python3-public",
+		"python3-requests",
+		"python3-sqlalchemy (>= 1.4.0)",
+		"python3-zope.component",
+		"python3-zope.configuration",
+		"python3-zope.event",
+		"python3-zope.interface (>= 5.0)",
+		"python3:any"
+	],
+	"preDepends": [
+		"init-system-helpers (>= 1.54~)"
+	],
+	"recommends": [
+		"default-mta | mail-transport-agent"
+	],
+	"suggests": [
+		"lynx | www-browser",
+		"mailman3-doc",
+		"anacron",
+		"postgresql | default-mysql-server | virtual-mysql-server"
+	],
+	"replaces": [
+		"mailman3-core"
+	],
+	"breaks": [
+		"mailman3-core"
+	],
+	"installedSize": 9089,
+	"maintainer": "Ubuntu Developers <ubuntu-devel-discuss@lists.ubuntu.com>",
+	"description": "Mailing list management system",
+	"homepage": "http://www.list.org/",
+	"filename": "pool/universe/m/mailman3/mailman3_3.3.10-0ubuntu3_all.deb",
+	"size": 911274,
+	"md5": "2f510d25ba84d4a08e24a0550b4be240",
+	"sha1": "047dbd6f4dff4ca08512ba310358a6c2d97a4ea2",
+	"sha256": "3a5fcf7b5a1f98309dda3c016eab68b8c4bf4d474755bfee27174713d36f90cb",
+	"sha512": "cabf89aa7dd0ee20b87ee828f7eaa6b9154a245a947664fb7e92c69ce72e09f6ce389542877f6df4f287c3c44f3e3225fa48647e347a93b1cd4880f5d986168f",
+	"descriptionMd5": "95b97bca3cff0fc59636c61614f81160"
+}

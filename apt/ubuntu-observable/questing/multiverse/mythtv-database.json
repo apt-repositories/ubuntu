@@ -1,0 +1,42 @@
+[{
+	"raw": {},
+	"required": [
+		"Filename",
+		"Size"
+	],
+	"package": "mythtv-database",
+	"source": "mythtv",
+	"version": "2:35.0+fixes.20250302.f3f012aa3f-0ubuntu4",
+	"section": "multiverse/graphics",
+	"priority": "optional",
+	"architecture": "all",
+	"depends": [
+		"cron",
+		"default-mysql-client | virtual-mysql-client | mysql-client-5.7 | mysql-client-5.6 | mariadb-client",
+		"libdbd-mysql-perl",
+		"mythtv-common",
+		"debconf (>= 0.5) | debconf-2.0"
+	],
+	"recommends": [
+		"update-notifier | update-notifier-kde"
+	],
+	"replaces": [
+		"mythtv (<< 0.8-1)",
+		"mythtv-common (<< 0.8-2)"
+	],
+	"conflicts": [
+		"mythtv (<< 0.8-1)",
+		"mythtv-common (<< 0.8-2)"
+	],
+	"installedSize": 37,
+	"maintainer": "MythTV Ubuntu Maintainers <ubuntu-mythtv@lists.ubuntu.com>",
+	"description": "Personal video recorder application (database)",
+	"homepage": "http://www.mythtv.org",
+	"filename": "pool/multiverse/m/mythtv/mythtv-database_35.0+fixes.20250302.f3f012aa3f-0ubuntu4_all.deb",
+	"size": 8626,
+	"md5": "e60c5292a468b32115db1cdef7b547f8",
+	"sha1": "848ce07c9f68c7d2abe3456b99d4f11da0a3a406",
+	"sha256": "bc682e42018458f2c9bb4a0e3134a1e2aa550d23d513a6853a8845a282571c70",
+	"sha512": "3e883b06f13901e934386c83823cec0d42aab29a8fa2b6ea164483fe592f6ef216046391395a3fbbf9e2e835f6f3fd764dc1cf98ae55510e420dd33b425aaf77",
+	"descriptionMd5": "d429ba7da095dc6f790bc512157b773d"
+}]

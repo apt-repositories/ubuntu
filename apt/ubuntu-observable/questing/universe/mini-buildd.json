@@ -1,0 +1,69 @@
+[{
+	"raw": {},
+	"required": [
+		"Filename",
+		"Size"
+	],
+	"package": "mini-buildd",
+	"version": "2.4.0",
+	"section": "universe/devel",
+	"priority": "extra",
+	"architecture": "all",
+	"depends": [
+		"debconf (>= 0.5) | debconf-2.0",
+		"python3:any (>= 3.11~)",
+		"python3-mini-buildd (= 2.4.0)",
+		"adduser",
+		"sudo",
+		"gnupg (>= 2.2.26)",
+		"dirmngr",
+		"reprepro (>= 5.3.1-4~)",
+		"debootstrap (>= 1.0.126+nmu1~)",
+		"zstd",
+		"schroot (>= 1.6.10-3~)",
+		"schroot (<< 1.7)",
+		"sbuild (>= 0.72)",
+		"dpkg-dev (>= 1.17.27~)",
+		"devscripts (>= 2.14.5~)"
+	],
+	"preDepends": [
+		"init-system-helpers (>= 1.54~)"
+	],
+	"recommends": [
+		"lintian",
+		"piuparts",
+		"autopkgtest",
+		"mini-buildd-doc",
+		"python3-apt",
+		"arch-test"
+	],
+	"suggests": [
+		"debian-archive-keyring",
+		"ubuntu-keyring",
+		"haveged",
+		"lvm2",
+		"qemu-user-static (>= 1:5.2)",
+		"binfmt-support",
+		"btrfs-progs",
+		"openssl"
+	],
+	"replaces": [
+		"mini-buildd-bld",
+		"mini-buildd-rep"
+	],
+	"breaks": [
+		"mini-buildd-bld (<< 1.0.0~)",
+		"mini-buildd-rep (<< 1.0.0~)"
+	],
+	"installedSize": 406,
+	"maintainer": "Ubuntu Developers <ubuntu-devel-discuss@lists.ubuntu.com>",
+	"description": "minimal build daemon - daemon",
+	"homepage": "http://mini-buildd.installiert.net/",
+	"filename": "pool/universe/m/mini-buildd/mini-buildd_2.4.0_all.deb",
+	"size": 37572,
+	"md5": "36af62cc0848d1f61d500b82ace1708d",
+	"sha1": "c8d170ea825d32f3c1961177bf46fe11c1fda1b0",
+	"sha256": "26b26ec706c8d6020b355025203b23392ee588024636945fb4c897465785b009",
+	"sha512": "90f34ea51d96daf9b6479fcd13197a705b38dd3886258295a4d169c1dcd0c124c3b018ef6d1c3d670ddecdd2a2527dca8bb89a0d8da358d51051e3c6da1f101a",
+	"descriptionMd5": "7cac11e68073884d1eeb34486a23c2fe"
+}]

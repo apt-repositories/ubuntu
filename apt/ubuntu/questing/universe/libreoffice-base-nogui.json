@@ -1,0 +1,62 @@
+{
+	"raw": {},
+	"required": [
+		"Filename",
+		"Size"
+	],
+	"package": "libreoffice-base-nogui",
+	"source": "libreoffice",
+	"version": "4:25.8.1~rc1-0ubuntu1",
+	"section": "universe/database",
+	"priority": "optional",
+	"architecture": "amd64",
+	"depends": [
+		"libreoffice-base-core (= 4:25.8.1~rc1-0ubuntu1)",
+		"libreoffice-base-drivers (= 4:25.8.1~rc1-0ubuntu1)",
+		"libreoffice-core-nogui (= 4:25.8.1~rc1-0ubuntu1) | libreoffice-core (= 4:25.8.1~rc1-0ubuntu1)",
+		"libc6 (>= 2.32)",
+		"libgcc-s1 (>= 3.0)",
+		"libreoffice-sal-private-abi (= 25.8.1)",
+		"libstdc++6 (>= 11)",
+		"libuno-cppu3t64 (>= 4.4.0~alpha)",
+		"libuno-cppuhelpergcc3-3t64 (>= 4.0.0~alpha)",
+		"libuno-sal3t64 (>= 1:7.3.0~beta1)",
+		"libuno-salhelpergcc3-3t64 (>= 1.4.0)",
+		"uno-libs-private"
+	],
+	"preDepends": [
+		"ucf",
+		"libreoffice-common (>= 4:25.2.1~rc1-3~)"
+	],
+	"recommends": [
+		"libreoffice-writer",
+		"libreoffice-java-common (>= 4:25.8.1~rc1~)",
+		"default-jre (>= 2:1.8) | java-runtime (>= 8) | java8-runtime | jre"
+	],
+	"suggests": [
+		"libreoffice-report-builder",
+		"python3-uno",
+		"unixodbc"
+	],
+	"replaces": [
+		"libreoffice-base",
+		"libreoffice-common (<< 1:6.4.2~rc1~)"
+	],
+	"breaks": [
+		"libreoffice-common (<< 1:6.4.2~rc1~)"
+	],
+	"conflicts": [
+		"libreoffice-base"
+	],
+	"installedSize": 1137,
+	"maintainer": "Ubuntu Developers <ubuntu-devel-discuss@lists.ubuntu.com>",
+	"description": "office productivity suite -- database (no GUI variant)",
+	"homepage": "http://www.libreoffice.org",
+	"filename": "pool/universe/libr/libreoffice/libreoffice-base-nogui_25.8.1~rc1-0ubuntu1_amd64.deb",
+	"size": 297306,
+	"md5": "4dcd39c1415904b357321309b4d44004",
+	"sha1": "3a4ef9b707c279bedbc5a2000fa8fbe6ee804e27",
+	"sha256": "f349d1ba14f96d2d6f3ff3e6177b0438cdc72ea507058533bcac54913d1eefe7",
+	"sha512": "77d3ad247c1d86a4f445bfbb10516c806411e4ae021750bc682be5144df67faeed5b131fa735cb3b51424b27eafdea7274b1f50e3aa71119f2c2676f478be588",
+	"descriptionMd5": "e83dd6cdb7c67ccb13c0407fd6a32ebc"
+}

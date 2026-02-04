@@ -1,0 +1,43 @@
+[{
+	"raw": {},
+	"required": [
+		"Filename",
+		"Size"
+	],
+	"package": "systemd-cron",
+	"version": "2.5.1-2",
+	"section": "universe/utils",
+	"priority": "optional",
+	"architecture": "amd64",
+	"depends": [
+		"systemd-sysv",
+		"systemd | systemd-standalone-sysusers | systemd-sysusers",
+		"libc6 (>= 2.38)",
+		"libmd0 (>= 0.0.0)",
+		"libstdc++6 (>= 13)"
+	],
+	"preDepends": [
+		"cron-daemon-common"
+	],
+	"suggests": [
+		"default-mta | exim4 | mail-transport-agent"
+	],
+	"replaces": [
+		"anacron"
+	],
+	"conflicts": [
+		"anacron",
+		"cron-daemon"
+	],
+	"installedSize": 244,
+	"maintainer": "Ubuntu Developers <ubuntu-devel-discuss@lists.ubuntu.com>",
+	"description": "systemd generator that provides cron daemon & anacron functionality",
+	"homepage": "https://github.com/systemd-cron/systemd-cron",
+	"filename": "pool/universe/s/systemd-cron/systemd-cron_2.5.1-2_amd64.deb",
+	"size": 83684,
+	"md5": "eaf0973927049b63c3233d3b6179c904",
+	"sha1": "318c2fa1b2157fcc8060dd86dc1d1da317ac1e32",
+	"sha256": "e97745ba9e20e5adaaf4a22712742fbe14cb6f2c02b3490f282f2e49d764ba4a",
+	"sha512": "4a2c10fae700924a55f4e99a2a8c007f888a7a64c8f8a378e9be186f1daaa25b2f54ac9922b837a083707dbe67832f85494d919d49fd91090bd104c6d0da457e",
+	"descriptionMd5": "51f27570ae28b674ea96fd5617df0ede"
+}]

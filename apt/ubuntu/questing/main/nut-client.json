@@ -1,0 +1,52 @@
+{
+	"raw": {},
+	"required": [
+		"Filename",
+		"Size"
+	],
+	"package": "nut-client",
+	"source": "nut",
+	"version": "2.8.3-2",
+	"section": "admin",
+	"priority": "optional",
+	"architecture": "amd64",
+	"depends": [
+		"adduser",
+		"libc6 (>= 2.38)",
+		"libgcc-s1 (>= 3.3.1)",
+		"libnutscan3 (>= 2.8.0)",
+		"libstdc++6 (>= 13.1)",
+		"libsystemd0 (>= 246)",
+		"libupsclient7 (>= 2.8.3)"
+	],
+	"preDepends": [
+		"init-system-helpers (>= 1.54~)"
+	],
+	"recommends": [
+		"bash-completion"
+	],
+	"suggests": [
+		"nut-monitor"
+	],
+	"replaces": [
+		"nut-server (<< 2.8.3-1~)",
+		"ups-monitor"
+	],
+	"breaks": [
+		"nut-server (<< 2.8.3-1~)"
+	],
+	"conflicts": [
+		"ups-monitor"
+	],
+	"installedSize": 810,
+	"maintainer": "Ubuntu Developers <ubuntu-devel-discuss@lists.ubuntu.com>",
+	"description": "network UPS tools - clients",
+	"homepage": "https://networkupstools.org/",
+	"filename": "pool/main/n/nut/nut-client_2.8.3-2_amd64.deb",
+	"size": 233642,
+	"md5": "26b60de8e2540dd4e4854191daa224ef",
+	"sha1": "d243fa24dc2d54483767c56acb1a23587dff6a1a",
+	"sha256": "3b185f6342fde64cd7795d4c90ab63f3a4839b3444b7eba6c0cc3f3760b4d62d",
+	"sha512": "909dca56daca081169bce7fc0186b4f471dab7d1817c2b809e220778d2180100c75f6672ab403120c4b3c9abd2b74d862aa838a21b9ed353f04dba9f19784acd",
+	"descriptionMd5": "30f1061db3258a7a5c46e18466afa6c0"
+}

@@ -1,0 +1,48 @@
+[{
+	"raw": {},
+	"required": [
+		"Filename",
+		"Size"
+	],
+	"package": "zfs-dkms",
+	"source": "zfs-linux",
+	"version": "2.3.4-1ubuntu2",
+	"section": "universe/kernel",
+	"priority": "extra",
+	"architecture": "all",
+	"depends": [
+		"dkms (>= 3.0.11)",
+		"file",
+		"libc6-dev | libc-dev",
+		"lsb-release",
+		"libpython3-stdlib",
+		"debconf (>= 0.5) | debconf-2.0"
+	],
+	"recommends": [
+		"zfs-zed",
+		"zfsutils-linux (>= 2.3.4-1ubuntu2)",
+		"linux-libc-dev (<< 6.17~)",
+		"linux-libc-dev (>= 4.18~)"
+	],
+	"suggests": [
+		"debhelper"
+	],
+	"replaces": [
+		"spl-dkms"
+	],
+	"breaks": [
+		"spl-dkms (<< 0.8.0~rc1)",
+		"zfs-fuse (<< 2.3.4-1ubuntu2)"
+	],
+	"installedSize": 18421,
+	"maintainer": "Ubuntu Developers <ubuntu-devel-discuss@lists.ubuntu.com>",
+	"description": "OpenZFS filesystem kernel modules for Linux",
+	"homepage": "https://zfsonlinux.org/",
+	"filename": "pool/universe/z/zfs-linux/zfs-dkms_2.3.4-1ubuntu2_all.deb",
+	"size": 2522436,
+	"md5": "2e3cc025366e5a3ea1b44db3d99f3338",
+	"sha1": "67fb0c1f6d2843877af908b9a0b045547ce56042",
+	"sha256": "6eb830bcf6f76efe4076b7f780a1e7c636bacda77d1cb5abcf595ee47c53fa22",
+	"sha512": "48979829328ead4201b504a9d03dd84ed592c8dfaf3ea26bdc8978508bc99efd4ac9d0afe38dc96c5b3e198c20a4ad3fd19d45f72e8f888114aae6afa0205e69",
+	"descriptionMd5": "39e75ed3c1d3a5bc9c23ff32d0b5bbe1"
+}]

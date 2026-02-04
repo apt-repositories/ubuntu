@@ -1,0 +1,62 @@
+[{
+	"raw": {},
+	"required": [
+		"Filename",
+		"Size"
+	],
+	"package": "openjdk-17-jre-headless",
+	"source": "openjdk-17",
+	"version": "17.0.17~8ea-1",
+	"section": "universe/java",
+	"priority": "optional",
+	"architecture": "amd64",
+	"depends": [
+		"ca-certificates-java (>= 20190405~)",
+		"java-common (>= 0.28)",
+		"liblcms2-2 (>= 2.2+git20110628)",
+		"libjpeg8 (>= 8c)",
+		"libnss3 (>= 2:3.17.1)",
+		"util-linux (>= 2.26.2-4)",
+		"libc6 (>= 2.38)",
+		"libgcc-s1 (>= 3.0)",
+		"libpcsclite1 (>= 1.3.0)",
+		"libstdc++6 (>= 5)",
+		"zlib1g (>= 1:1.2.2)"
+	],
+	"recommends": [
+		"libcups2t64",
+		"libfontconfig1",
+		"libfreetype6 (>= 2.3.5)",
+		"libharfbuzz0b (>= 1.2.6)",
+		"libasound2t64 (>= 1.0.16)"
+	],
+	"suggests": [
+		"libnss-mdns",
+		"fonts-dejavu-extra",
+		"fonts-ipafont-gothic",
+		"fonts-ipafont-mincho",
+		"fonts-wqy-microhei | fonts-wqy-zenhei",
+		"fonts-indic"
+	],
+	"replaces": [
+		"openjdk-11-jdk-headless (<< 11~18-2)"
+	],
+	"breaks": [
+		"clojure1.8 (<= 1.8.0-7ubuntu1~)"
+	],
+	"conflicts": [
+		"openjdk-11-jdk-headless (<< 11~18-2)",
+		"oracle-java11-installer"
+	],
+	"installedSize": 188868,
+	"maintainer": "OpenJDK Team <openjdk-17@packages.debian.org>",
+	"description": "OpenJDK Java runtime, using Hotspot JIT (headless)",
+	"homepage": "https://openjdk.java.net/",
+	"filename": "pool/universe/o/openjdk-17/openjdk-17-jre-headless_17.0.17~8ea-1_amd64.deb",
+	"size": 48065676,
+	"md5": "f05e876393707de015f95ae08143a340",
+	"sha1": "c26a1175e4a82a8715127e6d96cafec398af3304",
+	"sha256": "33184f6837d3a7fe36f7e353e9dc9e9e23357151f286ef03b2d2584454d113c1",
+	"sha512": "8c228307e5bd70fd609b270b4c8100ddc60c24e7778e3b961cdefce7d987df991fffa618a3069db500964cf9acc059adaedc409de8c27b916c4ecc9ece4f2e78",
+	"descriptionMd5": "62c2c9689e617c48cc4480926d2ca785"
+}]

@@ -1,0 +1,46 @@
+[{
+	"raw": {},
+	"required": [
+		"Filename",
+		"Size"
+	],
+	"package": "courier-pop",
+	"source": "courier",
+	"version": "1.4.1-3",
+	"section": "universe/mail",
+	"priority": "optional",
+	"architecture": "amd64",
+	"depends": [
+		"courier-base (= 1.4.1-3)",
+		"debconf",
+		"default-mta | mail-transport-agent",
+		"courier-authlib (>= 0.71)",
+		"libc6 (>= 2.38)",
+		"libcourier-unicode8 (>= 2.3.1)"
+	],
+	"suggests": [
+		"courier-doc",
+		"mail-reader"
+	],
+	"replaces": [
+		"mailutils-pop3d",
+		"pop3-server"
+	],
+	"breaks": [
+		"mailutils-pop3d"
+	],
+	"conflicts": [
+		"pop3-server"
+	],
+	"installedSize": 197,
+	"maintainer": "Ubuntu Developers <ubuntu-devel-discuss@lists.ubuntu.com>",
+	"description": "Courier mail server - POP3 server",
+	"homepage": "https://www.courier-mta.org/",
+	"filename": "pool/universe/c/courier/courier-pop_1.4.1-3_amd64.deb",
+	"size": 54304,
+	"md5": "67d6d7d4099f8e5d1d178e7188978a9a",
+	"sha1": "e2318d2101091997f0d11b11d77ce9d334dc1de5",
+	"sha256": "45c490fd0b47479d40c4923a6fa36c49adba17726632d0ec813cfa66dcf5b986",
+	"sha512": "b596316953dbe5954c21f679080e8a402607bcd92617f9bda734e90e4019ec92e9cedfa83efdefc76d2dbe786ed6a14de75186430608fea1a63ea9b6aec098de",
+	"descriptionMd5": "89ea9794c711647b9c31923297fd27c5"
+}]

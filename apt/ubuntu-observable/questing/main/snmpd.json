@@ -1,0 +1,44 @@
+[{
+	"raw": {},
+	"required": [
+		"Filename",
+		"Size"
+	],
+	"package": "snmpd",
+	"source": "net-snmp",
+	"version": "5.9.4+dfsg-2ubuntu2",
+	"section": "net",
+	"priority": "optional",
+	"architecture": "amd64",
+	"depends": [
+		"libc6 (>= 2.38)",
+		"libsnmp40t64 (= 5.9.4+dfsg-2ubuntu2)",
+		"debconf (>= 0.5) | debconf-2.0",
+		"adduser",
+		"debconf",
+		"libsnmp-base"
+	],
+	"preDepends": [
+		"init-system-helpers (>= 1.54~)"
+	],
+	"suggests": [
+		"snmptrapd"
+	],
+	"replaces": [
+		"libsnmp-dev (<< 5.8+dfsg-3)"
+	],
+	"breaks": [
+		"libsnmp-dev (<< 5.8+dfsg-3)"
+	],
+	"installedSize": 152,
+	"maintainer": "Ubuntu Developers <ubuntu-devel-discuss@lists.ubuntu.com>",
+	"description": "SNMP (Simple Network Management Protocol) agents",
+	"homepage": "https://net-snmp.sourceforge.net/",
+	"filename": "pool/main/n/net-snmp/snmpd_5.9.4+dfsg-2ubuntu2_amd64.deb",
+	"size": 59898,
+	"md5": "38a5d02a041f34dfb87e21d7904b30a5",
+	"sha1": "eb2e8f12798ec285321c30533064ecaa61a591b8",
+	"sha256": "47f20bf0a9e16c49d0aaf48cc1ec04694cd2648b53e86b0875166effe079ecd2",
+	"sha512": "35e54ab53ef9d5844cd73ad434a6af5ce334b337f55cb0ad7886a6b5d4c8bbda3c91cf1dd92d60c91a0688b2f2eb6eff923fe437b9e106c6fac280affa43dcce",
+	"descriptionMd5": "9dc6ec703377042ed23b16c47ed5cb6c"
+}]

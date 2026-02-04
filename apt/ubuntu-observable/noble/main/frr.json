@@ -67,6 +67,68 @@
 		"Size"
 	],
 	"package": "frr",
+	"version": "8.4.4-1.1ubuntu6.4",
+	"section": "net",
+	"priority": "optional",
+	"architecture": "amd64",
+	"depends": [
+		"iproute2",
+		"logrotate (>= 3.2-11)",
+		"lsof",
+		"libc6 (>= 2.38)",
+		"libcap2 (>= 1:2.10)",
+		"libcares2 (>= 1.7.0)",
+		"libcrypt1 (>= 1:4.1.0)",
+		"libjson-c5 (>= 0.15)",
+		"libpam0g (>= 0.99.7.1)",
+		"libreadline8t64 (>= 7.0~rc1)",
+		"libyang2t64 (>= 2.0.0~)"
+	],
+	"preDepends": [
+		"adduser"
+	],
+	"recommends": [
+		"frr-pythontools"
+	],
+	"suggests": [
+		"frr-doc"
+	],
+	"replaces": [
+		"zebra",
+		"zebra-pj"
+	],
+	"conflicts": [
+		"pimd",
+		"quagga",
+		"quagga-bgpd",
+		"quagga-core",
+		"quagga-isisd",
+		"quagga-ospf6d",
+		"quagga-ospfd",
+		"quagga-pimd",
+		"quagga-ripd",
+		"quagga-ripngd",
+		"zebra",
+		"zebra-pj"
+	],
+	"installedSize": 20401,
+	"maintainer": "Ubuntu Developers <ubuntu-devel-discuss@lists.ubuntu.com>",
+	"description": "FRRouting suite of internet protocols (BGP, OSPF, IS-IS, ...)",
+	"homepage": "https://www.frrouting.org/",
+	"filename": "pool/main/f/frr/frr_8.4.4-1.1ubuntu6.4_amd64.deb",
+	"size": 4301208,
+	"md5": "ac2b436588abbd0bbbcebc8fa177b4e2",
+	"sha1": "9291af3bae487cdca9be8abf1005e0ada038bcdb",
+	"sha256": "8e8974feda7fff057d1377ef48573413f8e9a9fe9c81e0c90f79566e38232748",
+	"sha512": "a59ccfede239db864b11d4bdbc4fb0b2ebd28ee088ee388dbc2ccc5fd88ef99f31082b1ef02dd70cb93db214a0b98e61fa13c7ecc1c003acea5ed3d58bebedce",
+	"descriptionMd5": "3cd236070526def99d5e2ff7b518d0cd"
+},{
+	"raw": {},
+	"required": [
+		"Filename",
+		"Size"
+	],
+	"package": "frr",
 	"version": "8.4.4-1.1ubuntu6",
 	"section": "net",
 	"priority": "optional",

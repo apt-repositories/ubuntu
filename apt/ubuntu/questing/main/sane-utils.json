@@ -1,0 +1,49 @@
+{
+	"raw": {},
+	"required": [
+		"Filename",
+		"Size"
+	],
+	"package": "sane-utils",
+	"source": "sane-backends",
+	"version": "1.3.1-4build1",
+	"section": "graphics",
+	"priority": "optional",
+	"architecture": "amd64",
+	"depends": [
+		"adduser",
+		"update-inetd",
+		"debconf (>= 0.5) | debconf-2.0",
+		"libavahi-client3 (>= 0.6.16)",
+		"libavahi-common3 (>= 0.6.16)",
+		"libc6 (>= 2.38)",
+		"libieee1284-3t64 (>= 0.2.11)",
+		"libjpeg8 (>= 8c)",
+		"libpng16-16t64 (>= 1.6.46)",
+		"libsane1 (>= 1.0.27)",
+		"libsystemd0",
+		"libusb-1.0-0 (>= 2:1.0.22)",
+		"libxml2-16 (>= 2.14.1)"
+	],
+	"preDepends": [
+		"init-system-helpers (>= 1.54~)"
+	],
+	"suggests": [
+		"avahi-daemon",
+		"unpaper"
+	],
+	"breaks": [
+		"libsane-common (<< 1.1.1-3~)"
+	],
+	"installedSize": 624,
+	"maintainer": "Jörg Frings-Fürst <debian@jff.email>",
+	"description": "API library for scanners -- utilities",
+	"homepage": "http://www.sane-project.org",
+	"filename": "pool/main/s/sane-backends/sane-utils_1.3.1-4build1_amd64.deb",
+	"size": 209362,
+	"md5": "62199f8320c86745502f0cc1b64fd906",
+	"sha1": "3364d76729caf7fe2a2d5d34c69c9ccd40580178",
+	"sha256": "406583ff8832e1b21c4badf0a9b3d991744540a79abd8b0b1c15c77379a9b982",
+	"sha512": "90a7f2fae78beb1f2af9acecabdb6cf1737e4736d2fecdb9c58d41db3caaeb3ca17e54fc04e75d201e97bcc02cfa2be0f2f4caad2cb8b11520c11cea9237304a",
+	"descriptionMd5": "46748a077d33d525cc353029dfa80b7d"
+}

@@ -1,0 +1,45 @@
+[{
+	"raw": {},
+	"required": [
+		"Filename",
+		"Size"
+	],
+	"package": "dracut-network",
+	"source": "dracut",
+	"version": "108-3ubuntu3",
+	"section": "utils",
+	"priority": "optional",
+	"architecture": "all",
+	"depends": [
+		"dracut-core",
+		"iproute2",
+		"iputils-arping",
+		"network-manager | systemd | connman | isc-dhcp-client"
+	],
+	"recommends": [
+		"curl",
+		"nbd-client",
+		"nfs-common",
+		"open-iscsi"
+	],
+	"suggests": [
+		"iscsiuio"
+	],
+	"replaces": [
+		"dracut-core (<< 105)"
+	],
+	"breaks": [
+		"dracut-core (<< 105)"
+	],
+	"installedSize": 299,
+	"maintainer": "Ubuntu Developers <ubuntu-devel-discuss@lists.ubuntu.com>",
+	"description": "dracut is an event driven initramfs infrastructure (network modules)",
+	"homepage": "https://github.com/dracut-ng/dracut-ng/wiki",
+	"filename": "pool/main/d/dracut/dracut-network_108-3ubuntu3_all.deb",
+	"size": 53098,
+	"md5": "78ce55b1df5de982f3e2c8196a29a4a8",
+	"sha1": "bbf95cb661b94aa3f3cd567c67bfaba8457240ec",
+	"sha256": "280aa8c240a3d44b3cf57865b093ab64a1d8a492326e983e2d0aab557e21550c",
+	"sha512": "6019e3e977c3ad559ec0ace81403a4b9ac07c9ead6b601db7c9011b48787f899a9b54f7db6864057ad849c6c2534bec0f8e3e2c1db1dfdf716cbb250c89334f6",
+	"descriptionMd5": "35b333bb5f6987592870eaf905d6c38d"
+}]

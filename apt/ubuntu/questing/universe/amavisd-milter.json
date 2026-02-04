@@ -1,0 +1,41 @@
+{
+	"raw": {},
+	"required": [
+		"Filename",
+		"Size"
+	],
+	"package": "amavisd-milter",
+	"version": "1.7.2-2",
+	"section": "universe/mail",
+	"priority": "extra",
+	"architecture": "amd64",
+	"depends": [
+		"libc6 (>= 2.38)",
+		"libmilter1.0.1",
+		"amavisd-new",
+		"lsb-base"
+	],
+	"preDepends": [
+		"init-system-helpers (>= 1.54~)"
+	],
+	"recommends": [
+		"sendmail | postfix"
+	],
+	"replaces": [
+		"amavisd-new-milter (<= 1:2.6.4-2)"
+	],
+	"breaks": [
+		"amavisd-new-milter (<= 1:2.6.4-2)"
+	],
+	"installedSize": 83,
+	"maintainer": "Ubuntu Developers <ubuntu-devel-discuss@lists.ubuntu.com>",
+	"description": "amavisd-new interface for milter-capable MTAs",
+	"homepage": "https://github.com/prehor/amavisd-milter",
+	"filename": "pool/universe/a/amavisd-milter/amavisd-milter_1.7.2-2_amd64.deb",
+	"size": 25394,
+	"md5": "2cc532e013cee5a405c417d090be4055",
+	"sha1": "913f10f88dd222efa53dd725b92a41fc36c17d25",
+	"sha256": "f5979548224491fd91bcf7a0e38bf099b6b5107ce117f35f514e68916f61a744",
+	"sha512": "b69d3f7f86b2c4f016990ebaa7e2760a2093dd9904cdad6ab7ef8642895416771496a0418cbec498d57738d3e4e24a1b6da73cd20c8f51acd63de8b84f36f02c",
+	"descriptionMd5": "5aa8c00571da46088afa733d6b6dc007"
+}

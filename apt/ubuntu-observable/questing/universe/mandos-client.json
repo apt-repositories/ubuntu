@@ -1,0 +1,53 @@
+[{
+	"raw": {},
+	"required": [
+		"Filename",
+		"Size"
+	],
+	"package": "mandos-client",
+	"source": "mandos",
+	"version": "1.8.19-1",
+	"section": "universe/admin",
+	"priority": "optional",
+	"architecture": "amd64",
+	"depends": [
+		"libavahi-common3 (>= 0.6.16)",
+		"libavahi-core7 (>= 0.6.24)",
+		"libc6 (>= 2.38)",
+		"libglib2.0-0t64 (>= 2.78.0)",
+		"libgnutls30t64 (>= 3.8.1)",
+		"libgpgme11t64 (>= 1.2.0)",
+		"libnl-3-200 (>= 3.2.7)",
+		"libnl-route-3-200 (>= 3.2.7)",
+		"debconf (>= 1.5.5) | debconf-2.0",
+		"adduser",
+		"cryptsetup (<< 2:2.0.3-1) | cryptsetup-initramfs",
+		"initramfs-tools (>= 0.99) | dracut (>= 044+241-3)",
+		"dpkg-dev (>= 1.16.0)",
+		"gnutls-bin (>= 3.6.6) | libgnutls30 (<< 3.6.0)",
+		"systemd-cryptsetup | systemd (<< 256-2) | sysvinit-core"
+	],
+	"recommends": [
+		"ssh"
+	],
+	"enhances": [
+		"cryptsetup"
+	],
+	"breaks": [
+		"dropbear (<= 0.53.1-1)"
+	],
+	"conflicts": [
+		"dracut-config-generic"
+	],
+	"installedSize": 566,
+	"maintainer": "Ubuntu Developers <ubuntu-devel-discuss@lists.ubuntu.com>",
+	"description": "do unattended reboots with an encrypted root file system",
+	"homepage": "https://www.recompile.se/mandos",
+	"filename": "pool/universe/m/mandos/mandos-client_1.8.19-1_amd64.deb",
+	"size": 173612,
+	"md5": "d73a3c1d0f9567ebc58ff4a0d4cf5943",
+	"sha1": "94d6c4b1498aeab0b7eadc3d71b96a5b6449fff9",
+	"sha256": "e0b926091089567466b464e10e19535d66ec4462815a68183944d996fce08f19",
+	"sha512": "bd21e5d4316266ae32d88e578dacd6461aae2e92f7152b9bd3cab6815a7fa25565883dfe40cfe80aa9e46abdcd730c6895148367e3a5bf1a661542b8f7d67860",
+	"descriptionMd5": "1f5f0395f024e9a2960dd14e0a205616"
+}]

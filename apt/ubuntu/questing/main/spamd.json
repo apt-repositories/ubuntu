@@ -1,0 +1,39 @@
+{
+	"raw": {},
+	"required": [
+		"Filename",
+		"Size"
+	],
+	"package": "spamd",
+	"source": "spamassassin",
+	"version": "4.0.2~rc2-1",
+	"section": "mail",
+	"priority": "optional",
+	"architecture": "all",
+	"depends": [
+		"spamassassin (= 4.0.2~rc2-1)"
+	],
+	"preDepends": [
+		"init-system-helpers (>= 1.54~)"
+	],
+	"recommends": [
+		"systemd | rsyslog | system-log-daemon"
+	],
+	"replaces": [
+		"spamassassin (<< 4.0.0~0.0svn1883440-2)"
+	],
+	"breaks": [
+		"spamassassin (<< 4.0.0~0.0svn1883440-2)"
+	],
+	"installedSize": 196,
+	"maintainer": "Ubuntu Developers <ubuntu-devel-discuss@lists.ubuntu.com>",
+	"description": "Server for SpamAssassin spam filtering daemon",
+	"homepage": "https://www.spamassassin.org/",
+	"filename": "pool/main/s/spamassassin/spamd_4.0.2~rc2-1_all.deb",
+	"size": 60588,
+	"md5": "8c58fb9a226e66971d6cc77d195b6fda",
+	"sha1": "642005bf033c497810ee9600517ad0207ab493c4",
+	"sha256": "0e0dabf8bbf426f04a2336ee1561ec86f62355e199e50299c5f998fd4ef477ea",
+	"sha512": "c4ece70c9a0ae2602889da9f2e55686097dd3ce4a147b52b3a432589901aafe123ad3ec93b776aa43c13a9a340056da5856859df8e261d908b0d609999e1e0f1",
+	"descriptionMd5": "54f8b1e00ba8e7cb63aa21851c6b64fa"
+}

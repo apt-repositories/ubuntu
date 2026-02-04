@@ -1,0 +1,36 @@
+{
+	"raw": {},
+	"required": [
+		"Filename",
+		"Size"
+	],
+	"package": "slurm-wlm-ipmi-plugins",
+	"source": "slurm-wlm",
+	"version": "24.11.5-4",
+	"section": "universe/admin",
+	"priority": "optional",
+	"architecture": "amd64",
+	"depends": [
+		"libc6 (>= 2.34)",
+		"libfreeipmi17 (>= 1.4.4)",
+		"libipmimonitoring6 (>= 1.1.5)",
+		"slurm-wlm-basic-plugins (= 24.11.5-4)"
+	],
+	"replaces": [
+		"slurm-wlm-basic-plugins (<< 22.05.7-1)"
+	],
+	"breaks": [
+		"slurm-wlm-basic-plugins (<< 22.05.7-1)"
+	],
+	"installedSize": 137,
+	"maintainer": "Ubuntu Developers <ubuntu-devel-discuss@lists.ubuntu.com>",
+	"description": "Slurm IPMI plugins",
+	"homepage": "http://slurm.schedmd.com",
+	"filename": "pool/universe/s/slurm-wlm/slurm-wlm-ipmi-plugins_24.11.5-4_amd64.deb",
+	"size": 32588,
+	"md5": "45fdab24dbf0374694ca736f8cac5a37",
+	"sha1": "54b77aff37ff158e2ac8d0fd3b9be687b75cb3fd",
+	"sha256": "664958fba793215e484e35ff1439beae93380be2cb6505d3cdba6afb7af6dad4",
+	"sha512": "8bdc08715d47641ace22ee395e12bc41e6d3158f5e24f96475ac33ad8de789110a6dd62994c0ee6e3e75851b58e991c30658e3a597dd47ec6598b47d178578ad",
+	"descriptionMd5": "7de77f0497421507e54ec7a07828bdb5"
+}

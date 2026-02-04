@@ -1,0 +1,56 @@
+[{
+	"raw": {},
+	"required": [
+		"Filename",
+		"Size"
+	],
+	"package": "spamassassin",
+	"version": "4.0.2~rc2-1",
+	"section": "mail",
+	"priority": "optional",
+	"architecture": "all",
+	"depends": [
+		"perl",
+		"libhtml-parser-perl",
+		"libsocket6-perl",
+		"adduser",
+		"libsys-hostname-long-perl",
+		"libarchive-tar-perl",
+		"libnet-dns-perl",
+		"libnetaddr-ip-perl",
+		"libhttp-date-perl",
+		"libmail-dkim-perl",
+		"libio-string-perl",
+		"libwww-perl | curl | w3m"
+	],
+	"recommends": [
+		"spamc",
+		"sa-compile (= 4.0.2~rc2-1)",
+		"libmail-spf-perl",
+		"libsys-syslog-perl",
+		"gnupg",
+		"libbsd-resource-perl",
+		"libmail-dmarc-perl"
+	],
+	"suggests": [
+		"razor",
+		"libio-socket-ssl-perl",
+		"libdbi-perl",
+		"pyzor",
+		"libcompress-zlib-perl",
+		"libencode-detect-perl",
+		"libgeoip2-perl",
+		"libnet-patricia-perl"
+	],
+	"installedSize": 5035,
+	"maintainer": "Ubuntu Developers <ubuntu-devel-discuss@lists.ubuntu.com>",
+	"description": "Perl-based spam filter using text analysis",
+	"homepage": "https://www.spamassassin.org/",
+	"filename": "pool/main/s/spamassassin/spamassassin_4.0.2~rc2-1_all.deb",
+	"size": 1286736,
+	"md5": "765e8ca9e166c79f2933abd0a9fb7427",
+	"sha1": "da00e731d5675897b05ec3dbfe8d22364bceb748",
+	"sha256": "75824ff0d2721f744948335ddd1dbf180b8c90c1392c3957768fd7a4fd4f149d",
+	"sha512": "b4ae996ebbaefde6cfcc4897d5fed0ab2620f3b9d8c8a98085b8836c19dccb28a8ba46c0a1ad76ea014d339bcfd3d3fcb0a298cffdb7b383ca023cb6d53c3be2",
+	"descriptionMd5": "57aa0023793e736d071444c63b04f053"
+}]

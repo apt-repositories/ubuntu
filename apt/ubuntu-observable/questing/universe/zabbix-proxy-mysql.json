@@ -1,0 +1,57 @@
+[{
+	"raw": {},
+	"required": [
+		"Filename",
+		"Size"
+	],
+	"package": "zabbix-proxy-mysql",
+	"source": "zabbix",
+	"version": "1:7.0.10+dfsg-2build1",
+	"section": "universe/net",
+	"priority": "optional",
+	"architecture": "amd64",
+	"depends": [
+		"libc6 (>= 2.38)",
+		"libcurl3t64-gnutls (>= 7.16.3)",
+		"libevent-core-2.1-7t64 (>= 2.1.8-stable)",
+		"libevent-extra-2.1-7t64 (>= 2.1.8-stable)",
+		"libevent-pthreads-2.1-7t64 (>= 2.1.8-stable)",
+		"libgnutls30t64 (>= 3.8.6)",
+		"libldap2 (>= 2.6.2)",
+		"libmysqlclient24 (>= 8.4.2)",
+		"libodbc2 (>= 2.3.1)",
+		"libopenipmi0t64 (>= 2.0.37)",
+		"libpcre2-8-0 (>= 10.22)",
+		"libsnmp40t64 (>= 5.9.4+dfsg)",
+		"libssh2-1t64 (>= 1.4.0)",
+		"libxml2-16 (>= 2.14.1)",
+		"zlib1g (>= 1:1.2.0)",
+		"ucf",
+		"fping",
+		"adduser",
+		"sysvinit-utils (>= 3.05-4~)"
+	],
+	"recommends": [
+		"default-mysql-server | virtual-mysql-server"
+	],
+	"suggests": [
+		"logrotate"
+	],
+	"conflicts": [
+		"zabbix-proxy-pgsql",
+		"zabbix-proxy-sqlite3",
+		"zabbix-server-mysql",
+		"zabbix-server-pgsql"
+	],
+	"installedSize": 7018,
+	"maintainer": "Dmitry Smirnov <onlyjob@debian.org>",
+	"description": "network monitoring solution - proxy (using MySQL)",
+	"homepage": "http://zabbix.com",
+	"filename": "pool/universe/z/zabbix/zabbix-proxy-mysql_7.0.10+dfsg-2build1_amd64.deb",
+	"size": 1830064,
+	"md5": "0e98f9c13e56761cb6aa4279580a33d9",
+	"sha1": "041b9e023aa4980c08a7a8db416d83b9e2f237d2",
+	"sha256": "42cddb246f24dc6ff566fe1c49986ccd3d28b911ec7f7a3c1116d8af01dc2218",
+	"sha512": "4ba925af446867e5d73a27039fe5d21e1580ee6b2ac1b409e0772d41eed9025c0cb312f622865ec1780fb1536db6c0f78c6983589bd4b28c9626ed1492a76716",
+	"descriptionMd5": "d6a8c019aa291e10002c2e08656b469b"
+}]

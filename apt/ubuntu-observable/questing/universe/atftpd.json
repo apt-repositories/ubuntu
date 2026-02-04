@@ -1,0 +1,43 @@
+[{
+	"raw": {},
+	"required": [
+		"Filename",
+		"Size"
+	],
+	"package": "atftpd",
+	"source": "atftp",
+	"version": "0.8.0-8",
+	"section": "universe/net",
+	"priority": "extra",
+	"architecture": "amd64",
+	"depends": [
+		"debconf (>= 0.5) | debconf-2.0",
+		"libc6 (>= 2.38)",
+		"libpcre2-8-0 (>= 10.22)"
+	],
+	"preDepends": [
+		"init-system-helpers (>= 1.54~)"
+	],
+	"suggests": [
+		"logrotate"
+	],
+	"replaces": [
+		"tftp-server",
+		"tftpd-hpa"
+	],
+	"conflicts": [
+		"tftp-server",
+		"tftpd-hpa"
+	],
+	"installedSize": 168,
+	"maintainer": "Ubuntu Developers <ubuntu-devel-discuss@lists.ubuntu.com>",
+	"description": "advanced TFTP server",
+	"homepage": "https://sourceforge.net/projects/atftp",
+	"filename": "pool/universe/a/atftp/atftpd_0.8.0-8_amd64.deb",
+	"size": 56862,
+	"md5": "665a3ea8ac469caae70d32c62d888474",
+	"sha1": "7624472a5ed3c5108fbaa98212c1e0abc91796d3",
+	"sha256": "33fd2836573b710c475a9dc1bab899aa32639b39e76b9cb98f4d01e7db6f4c37",
+	"sha512": "abc0d45222861ce95742d0e4cd4b5616cd4bce07fd2a5fbf448365447b50bdc183c8bc5648528e24a78342885f287fd7c06e2ba5a14ad83684d715144f5ccc33",
+	"descriptionMd5": "3ae8dee72501de81215cfd2f3cb4fd69"
+}]
