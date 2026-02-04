@@ -1,0 +1,39 @@
+{
+	"raw": {},
+	"required": [
+		"Filename",
+		"Size"
+	],
+	"package": "dhcpcd-base",
+	"source": "dhcpcd",
+	"version": "1:10.2.4-4",
+	"section": "net",
+	"priority": "important",
+	"architecture": "amd64",
+	"depends": [
+		"adduser",
+		"libc6 (>= 2.42)",
+		"libssl3t64 (>= 3.0.0)",
+		"libudev1 (>= 183)"
+	],
+	"suggests": [
+		"openresolv | resolvconf | systemd-resolved"
+	],
+	"replaces": [
+		"dhcpcd5 (<< 1:10.2.4-4~)"
+	],
+	"breaks": [
+		"dhcpcd5 (<< 1:10.2.4-4~)"
+	],
+	"installedSize": 529,
+	"maintainer": "Ubuntu Developers <ubuntu-devel-discuss@lists.ubuntu.com>",
+	"description": "DHCPv4 and DHCPv6 dual-stack client (binaries and exit hooks)",
+	"homepage": "https://github.com/NetworkConfiguration/dhcpcd",
+	"filename": "pool/main/d/dhcpcd/dhcpcd-base_10.2.4-4_amd64.deb",
+	"size": 226550,
+	"md5": "b7c587cf738f760e9ea5d2624f087a93",
+	"sha1": "c8ee51385a1acc98f6eff2f72f04126f57c8b924",
+	"sha256": "2e3be8884d8b0d572659a548a8ef295ea60a9e2808d118464eae74d3a6a37ec2",
+	"sha512": "9b8a348ae634e77cc9b680feb221bafe8d07dab4a106528a7aeb8668b3f0ed38e4c7ce3248aeae61571480e4dfc76a1a130e87341f91d1a5a925087a9ad1c601",
+	"descriptionMd5": "9fabc12c92ee2a93e5fbc5a0e6dcd21c"
+}

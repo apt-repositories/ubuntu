@@ -1,0 +1,43 @@
+{
+	"raw": {},
+	"required": [
+		"Filename",
+		"Size"
+	],
+	"package": "openvswitch-ipsec",
+	"source": "openvswitch",
+	"version": "3.6.0-2",
+	"section": "universe/net",
+	"priority": "optional",
+	"architecture": "amd64",
+	"depends": [
+		"iproute2",
+		"openvswitch-common (= 3.6.0-2)",
+		"openvswitch-switch (= 3.6.0-2)",
+		"python3-openvswitch (= 3.6.0-2)",
+		"strongswan"
+	],
+	"preDepends": [
+		"init-system-helpers (>= 1.54~)"
+	],
+	"suggests": [
+		"python3:any"
+	],
+	"replaces": [
+		"openvswitch-common (<< 2.17~)"
+	],
+	"breaks": [
+		"openvswitch-common (<< 2.17~)"
+	],
+	"installedSize": 132,
+	"maintainer": "Ubuntu Developers <ubuntu-devel-discuss@lists.ubuntu.com>",
+	"description": "Open vSwitch IPsec tunneling support",
+	"homepage": "http://openvswitch.org/",
+	"filename": "pool/universe/o/openvswitch/openvswitch-ipsec_3.6.0-2_amd64.deb",
+	"size": 28026,
+	"md5": "5a18dfb18d48440bf1bfd442d9205e6e",
+	"sha1": "bd278c9017c5a02d23202fb51a7123164ebe86f9",
+	"sha256": "59e8be33d3911aa46549661aef20a452a43241be872dae5aae0dd2b939bc20ee",
+	"sha512": "eab2259cafdcb10617d260225d3f795ced2e1d324b5ab4cbce01707b985eea592ae3216919a03d3bc7555d01ef03543de98dbef75a7f8b5e4d00a47a28add680",
+	"descriptionMd5": "3709e379f5ca3b3d58d9b448edaefda7"
+}

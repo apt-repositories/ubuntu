@@ -1,0 +1,45 @@
+{
+	"raw": {},
+	"required": [
+		"Filename",
+		"Size"
+	],
+	"package": "libgcc-15-dev-loong64-cross",
+	"source": "gcc-15-cross-ports (10ubuntu2)",
+	"version": "15.2.0-4ubuntu4cross1",
+	"section": "universe/libdevel",
+	"priority": "optional",
+	"architecture": "all",
+	"depends": [
+		"gcc-15-cross-base-ports (= 15.2.0-4ubuntu4cross1)",
+		"libgcc-s1-loong64-cross (>= 15.2.0-4ubuntu4cross1)",
+		"libgomp1-loong64-cross (>= 15.2.0-4ubuntu4cross1)",
+		"libitm1-loong64-cross (>= 15.2.0-4ubuntu4cross1)",
+		"libatomic1-loong64-cross (>= 15.2.0-4ubuntu4cross1)",
+		"libasan8-loong64-cross (>= 15.2.0-4ubuntu4cross1)",
+		"liblsan0-loong64-cross (>= 15.2.0-4ubuntu4cross1)",
+		"libtsan2-loong64-cross (>= 15.2.0-4ubuntu4cross1)",
+		"libubsan1-loong64-cross (>= 15.2.0-4ubuntu4cross1)"
+	],
+	"recommends": [
+		"libc6-dev-loong64-cross (>= 2.13-0ubuntu6)"
+	],
+	"replaces": [
+		"libtsan2-loong64-cross (<< 12-20211113-2~)"
+	],
+	"breaks": [
+		"libtsan2-loong64-cross (<< 12-20211113-2~)"
+	],
+	"installedSize": 68438,
+	"maintainer": "Ubuntu Core developers <ubuntu-devel-discuss@lists.ubuntu.com>",
+	"description": "GCC support library (development files)",
+	"homepage": "http://gcc.gnu.org/",
+	"builtUsing": "gcc-15 (= 15.2.0-4ubuntu4)",
+	"filename": "pool/universe/g/gcc-15-cross-ports/libgcc-15-dev-loong64-cross_15.2.0-4ubuntu4cross1_all.deb",
+	"size": 6719850,
+	"md5": "3740b8ae0a233ceb3e4f6af702ef6f59",
+	"sha1": "ef7bdb2da477c1898dd2ec180f3c3da6699b6df5",
+	"sha256": "2f50a1db9087fb11dee24b92d0cff3ed3c74376eb69791124c252d7133be3438",
+	"sha512": "937284d7dfc2d0a83b65e1a3b5f239ba35783090e41671d0ec1913ab3d72837887987848e7cb3e2b8e78591b833131461175806c67b7931596b25fef9be1f855",
+	"descriptionMd5": "4ab7cb439b47e1d0796fbaf8447229ac"
+}

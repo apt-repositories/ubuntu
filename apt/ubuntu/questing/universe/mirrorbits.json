@@ -1,0 +1,38 @@
+{
+	"raw": {},
+	"required": [
+		"Filename",
+		"Size"
+	],
+	"package": "mirrorbits",
+	"version": "0.6-1",
+	"section": "universe/net",
+	"priority": "optional",
+	"architecture": "amd64",
+	"depends": [
+		"adduser | systemd-sysusers",
+		"systemd | systemd-standalone-sysusers | systemd-sysusers",
+		"libc6 (>= 2.34)",
+		"zlib1g (>= 1:1.1.4)"
+	],
+	"recommends": [
+		"logrotate",
+		"rsync",
+		"valkey-server | redis-server"
+	],
+	"suggests": [
+		"geoipupdate"
+	],
+	"installedSize": 15366,
+	"maintainer": "Ubuntu Developers <ubuntu-devel-discuss@lists.ubuntu.com>",
+	"description": "geographical download redirector",
+	"homepage": "https://github.com/etix/mirrorbits",
+	"builtUsing": "golang-1.24 (= 1.24.2-1), golang-github-coreos-go-systemd (= 22.5.0-1), golang-github-golang-protobuf-1-5 (= 1.5.4-1), golang-github-gomodule-redigo (= 1:1.9.2-2), golang-github-howeyc-gopass (= 0.0~git20190910.7cb4b85+dfsg.1-1), golang-github-op-go-logging (= 1+git20160315.970db52-2), golang-github-oschwald-maxminddb-golang (= 1.12.0-1), golang-github-pkg-errors (= 0.9.1-3), golang-github-rafaeljusto-redigomock (= 3.1.2-2), golang-go.crypto (= 1:0.25.0-1), golang-golang-x-net (= 1:0.27.0-1), golang-golang-x-sys (= 0.22.0-1), golang-golang-x-term (= 0.22.0-1), golang-golang-x-text (= 0.22.0-1), golang-google-genproto (= 0.0~git20210726.e7812ac-4), golang-google-grpc (= 1.64.0-6), golang-google-protobuf (= 1.36.5-1), golang-gopkg-tylerb-graceful.v1 (= 1.2.15-6), golang-gopkg-yaml.v3 (= 3.0.1-3)",
+	"filename": "pool/universe/m/mirrorbits/mirrorbits_0.6-1_amd64.deb",
+	"size": 4741256,
+	"md5": "3d2747ddb713c175c5bb79ea08fa3395",
+	"sha1": "e841db9dacb31a7a6e6a17a8b4b48a24438ce15f",
+	"sha256": "73950ba66000ffb51258301be9188815ad1353dd5b66888d9caa04d039dafab1",
+	"sha512": "ae6420deea9e55335f6dc5b591c0efee397b9557c82eef241c4c27416460a7d48a311be50b4974f2c790595d9e22ce0184f819493ef46d0763c5501c18556573",
+	"descriptionMd5": "c531d9231641c8b8fca2e344fe1cc972"
+}

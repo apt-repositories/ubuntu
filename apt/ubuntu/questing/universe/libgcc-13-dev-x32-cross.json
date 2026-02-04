@@ -1,0 +1,44 @@
+{
+	"raw": {},
+	"required": [
+		"Filename",
+		"Size"
+	],
+	"package": "libgcc-13-dev-x32-cross",
+	"source": "gcc-13-cross-ports (24ubuntu1)",
+	"version": "13.4.0-4ubuntu1cross1",
+	"section": "universe/libdevel",
+	"priority": "optional",
+	"architecture": "all",
+	"depends": [
+		"gcc-13-cross-base-ports (= 13.4.0-4ubuntu1cross1)",
+		"libgcc-s1-x32-cross (>= 13.4.0-4ubuntu1cross1)",
+		"libgomp1-x32-cross (>= 13.4.0-4ubuntu1cross1)",
+		"libitm1-x32-cross (>= 13.4.0-4ubuntu1cross1)",
+		"libatomic1-x32-cross (>= 13.4.0-4ubuntu1cross1)",
+		"libasan8-x32-cross (>= 13.4.0-4ubuntu1cross1)",
+		"libubsan1-x32-cross (>= 13.4.0-4ubuntu1cross1)",
+		"libquadmath0-x32-cross (>= 13.4.0-4ubuntu1cross1)"
+	],
+	"recommends": [
+		"libc6-dev-x32-cross (>= 2.13-0ubuntu6)"
+	],
+	"replaces": [
+		"libtsan2-x32-cross (<< 12-20211113-2~)"
+	],
+	"breaks": [
+		"libtsan2-x32-cross (<< 12-20211113-2~)"
+	],
+	"installedSize": 10043,
+	"maintainer": "Ubuntu Core developers <ubuntu-devel-discuss@lists.ubuntu.com>",
+	"description": "GCC support library (development files)",
+	"homepage": "http://gcc.gnu.org/",
+	"builtUsing": "gcc-13 (= 13.4.0-4ubuntu1)",
+	"filename": "pool/universe/g/gcc-13-cross-ports/libgcc-13-dev-x32-cross_13.4.0-4ubuntu1cross1_all.deb",
+	"size": 2351610,
+	"md5": "fe2aa4b362a0eb330c280767e1ad452e",
+	"sha1": "1db6bbeedfb549b2458e88e11f2c857d8c30602f",
+	"sha256": "55ea75cb3a8ce70007aafa9236efb18d060481ae357173df24dc0eafe073f95a",
+	"sha512": "3759cd72867c2264bfd04199efa531fc6bfa0958cc9b815d4976c8e7017fdc8a94b11ef7384af90e4d7d266be1270a3f29188131a431b88636a2102a423acc90",
+	"descriptionMd5": "4ab7cb439b47e1d0796fbaf8447229ac"
+}

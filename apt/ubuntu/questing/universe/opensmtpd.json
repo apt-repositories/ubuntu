@@ -1,0 +1,61 @@
+{
+	"raw": {},
+	"required": [
+		"Filename",
+		"Size"
+	],
+	"package": "opensmtpd",
+	"version": "7.7.0p0-1",
+	"section": "universe/mail",
+	"priority": "extra",
+	"architecture": "amd64",
+	"depends": [
+		"adduser",
+		"ed",
+		"debconf (>= 0.5) | debconf-2.0",
+		"libc6 (>= 2.38)",
+		"libcrypt1 (>= 1:4.1.0)",
+		"libdb5.3t64",
+		"libevent-2.1-7t64 (>= 2.1.8-stable)",
+		"libpam0g (>= 0.99.7.1)",
+		"libssl3t64 (>= 3.0.0)",
+		"zlib1g (>= 1:1.1.4)"
+	],
+	"preDepends": [
+		"init-system-helpers (>= 1.54~)"
+	],
+	"suggests": [
+		"ca-certificates",
+		"opensmtpd-filter-dkimsign",
+		"opensmtpd-filter-rspamd",
+		"opensmtpd-filter-senderscore",
+		"opensmtpd-table-ldap",
+		"opensmtpd-table-mysql",
+		"opensmtpd-table-passwd",
+		"opensmtpd-table-postgres",
+		"opensmtpd-table-redis",
+		"opensmtpd-table-socketmap",
+		"opensmtpd-table-sqlite"
+	],
+	"replaces": [
+		"mail-transport-agent"
+	],
+	"breaks": [
+		"opensmtpd-extras (<< 6.7.1+ds0)"
+	],
+	"conflicts": [
+		"mail-transport-agent",
+		"sendmail-base"
+	],
+	"installedSize": 1142,
+	"maintainer": "Ubuntu Developers <ubuntu-devel-discuss@lists.ubuntu.com>",
+	"description": "secure, reliable, lean, and easy-to configure SMTP server",
+	"homepage": "https://www.opensmtpd.org/",
+	"filename": "pool/universe/o/opensmtpd/opensmtpd_7.7.0p0-1_amd64.deb",
+	"size": 390622,
+	"md5": "3b67c7e80da9fd4e2ddfc38b1a707b0c",
+	"sha1": "4bfe362a21de61b4c440e3ef6d6dd371c6ded233",
+	"sha256": "de59ea25b06dbff5bb2bc5a34e6ae7e6c55f9ba9b4ae5d2bca47e73829f55c82",
+	"sha512": "ce79dbcc32c1184f53e2d50cfe72f16a6ca27c279d2f4cf57ee79c0118bead5d849642a96ba93f477e717cd5eb62530a4d5598f1c673a906ecd31e5348e3886a",
+	"descriptionMd5": "be8df8944be13df6be34d92bf71cf048"
+}

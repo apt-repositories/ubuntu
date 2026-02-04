@@ -1,0 +1,42 @@
+{
+	"raw": {},
+	"required": [
+		"Filename",
+		"Size"
+	],
+	"package": "rpcbind",
+	"version": "1.2.7-1build1",
+	"section": "net",
+	"priority": "optional",
+	"architecture": "amd64",
+	"depends": [
+		"libc6 (>= 2.38)",
+		"libsystemd0",
+		"libtirpc3t64 (>= 1.3.4+ds-1.1)",
+		"libwrap0 (>= 7.6-4~)",
+		"adduser"
+	],
+	"preDepends": [
+		"init-system-helpers (>= 1.54~)"
+	],
+	"replaces": [
+		"libc-bin (<< 2.16)"
+	],
+	"breaks": [
+		"libc-bin (<< 2.16)"
+	],
+	"conflicts": [
+		"portmap"
+	],
+	"installedSize": 150,
+	"maintainer": "Ubuntu Developers <ubuntu-devel-discuss@lists.ubuntu.com>",
+	"description": "converts RPC program numbers into universal addresses",
+	"homepage": "http://sourceforge.net/projects/rpcbind/",
+	"filename": "pool/main/r/rpcbind/rpcbind_1.2.7-1build1_amd64.deb",
+	"size": 48620,
+	"md5": "1c59c0aefa5df5d14b6ded079b8fe890",
+	"sha1": "727d4cd7d06aacf18480532db76bb5ede6e5b782",
+	"sha256": "1f34dc37b0ff703e075172a370a77b66b6cd9d5297b6bd0a038ebd08072e7cad",
+	"sha512": "b8d155676bb30ea1cd3ad43e24de95854ac17f9ba8b930267bda4adcc729f6e6fd63c44f19ca7d6adfe5af954f97fa2bffaac3ffb33706a4349ff23fea5171cd",
+	"descriptionMd5": "595a8e4c17168e18f4843c47dfec5895"
+}

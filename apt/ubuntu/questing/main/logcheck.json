@@ -1,0 +1,41 @@
+{
+	"raw": {},
+	"required": [
+		"Filename",
+		"Size"
+	],
+	"package": "logcheck",
+	"version": "1.4.5",
+	"section": "admin",
+	"priority": "optional",
+	"architecture": "all",
+	"depends": [
+		"adduser",
+		"lockfile-progs",
+		"default-mta | mail-transport-agent",
+		"mime-construct",
+		"systemd-sysv | cron | anacron | cron-daemon",
+		"logtail"
+	],
+	"recommends": [
+		"logcheck-database (>= 1.4.5)"
+	],
+	"suggests": [
+		"rsyslog | system-log-daemon"
+	],
+	"enhances": [
+		"rsyslog",
+		"system-log-daemon",
+		"systemd"
+	],
+	"installedSize": 120,
+	"maintainer": "Ubuntu Developers <ubuntu-devel-discuss@lists.ubuntu.com>",
+	"description": "check the system log for unusual entries",
+	"filename": "pool/main/l/logcheck/logcheck_1.4.5_all.deb",
+	"size": 26844,
+	"md5": "3f2f3bbbfc96e8ea55e24dee2aab25e9",
+	"sha1": "914b42067e54e78e7f43d725bb26683169357c4c",
+	"sha256": "56a2f5a4d0ed428e0ce7884f6e213584697d04015399210534f1801eafe9a3f6",
+	"sha512": "1cdc14be1027360e5f9df0c08fea875296d380e3f260671cd3344079c4465e0bc698fc188ed43732a69e9a76f6471a2c1514f0beec44c96a5aafac4d7d2e5fa2",
+	"descriptionMd5": "99ef742d80b81f7128d270bdb5b5c7df"
+}

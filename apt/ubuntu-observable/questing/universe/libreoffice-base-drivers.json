@@ -1,0 +1,53 @@
+[{
+	"raw": {},
+	"required": [
+		"Filename",
+		"Size"
+	],
+	"package": "libreoffice-base-drivers",
+	"source": "libreoffice",
+	"version": "4:25.8.1~rc1-0ubuntu1",
+	"section": "universe/database",
+	"priority": "optional",
+	"architecture": "amd64",
+	"depends": [
+		"libreoffice-core-nogui | libreoffice-core",
+		"libc6 (>= 2.38)",
+		"libgcc-s1 (>= 3.0)",
+		"libreoffice-sal-private-abi (= 25.8.1)",
+		"libstdc++6 (>= 11)",
+		"libuno-cppu3t64 (>= 4.4.0~alpha)",
+		"libuno-cppuhelpergcc3-3t64 (>= 1:7.4.0~alpha)",
+		"libuno-sal3t64 (>= 1:7.3.0~beta1)",
+		"libuno-salhelpergcc3-3t64 (>= 1.4.0)",
+		"uno-libs-private"
+	],
+	"recommends": [
+		"libreoffice-sdbc-hsqldb",
+		"libreoffice-sdbc-firebird"
+	],
+	"suggests": [
+		"libjtds-java",
+		"libreoffice-sdbc-mysql | libmyodbc | libmariadb-java",
+		"libreoffice-sdbc-postgresql | odbc-postgresql | libpg-java",
+		"libsqliteodbc | tdsodbc | odbc-mdbtools"
+	],
+	"replaces": [
+		"libreoffice-base (<< 1:4.3.0-3)",
+		"libreoffice-core (<< 1:6.2.0~beta1~)"
+	],
+	"breaks": [
+		"libreoffice-base (<< 1:4.3.0-3)"
+	],
+	"installedSize": 2801,
+	"maintainer": "Ubuntu Developers <ubuntu-devel-discuss@lists.ubuntu.com>",
+	"description": "Database connectivity drivers for LibreOffice",
+	"homepage": "http://www.libreoffice.org",
+	"filename": "pool/universe/libr/libreoffice/libreoffice-base-drivers_25.8.1~rc1-0ubuntu1_amd64.deb",
+	"size": 620694,
+	"md5": "a630e9464be0950fa5ace2d9a10c2f36",
+	"sha1": "5ed174e359b578c59e53b2690ff3c8123b4bf932",
+	"sha256": "83b6d81fe7fc40fc93ca9bbdc686e3139771143f222c64a3c7f2c456e7d45031",
+	"sha512": "10d9ead20e647122e155bc906d8ec3d7e1e9436e0802377265a26ecea9ee1a82ebe68e7f6c8cf49a08444f18dbfe98f40bc7790cc4628ac74384b30622e77a82",
+	"descriptionMd5": "173080bc24315c0baac30ba492b8de8a"
+}]

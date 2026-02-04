@@ -1,0 +1,60 @@
+{
+	"raw": {},
+	"required": [
+		"Filename",
+		"Size"
+	],
+	"package": "open-vm-tools",
+	"version": "2:13.0.0-2ubuntu1",
+	"section": "admin",
+	"priority": "extra",
+	"architecture": "amd64",
+	"depends": [
+		"libc6 (>= 2.42)",
+		"libdrm2 (>= 2.4.3)",
+		"libfuse3-4 (>= 3.17.2)",
+		"libgcc-s1 (>= 3.3)",
+		"libglib2.0-0t64 (>= 2.32.0)",
+		"libmspack0t64 (>= 0.4)",
+		"libssl3t64 (>= 3.0.0)",
+		"libtirpc3t64 (>= 1.0.2)",
+		"libudev1 (>= 183)",
+		"libxml2-16 (>= 2.14.1)",
+		"libxmlsec1-1 (>= 1.2.31)",
+		"libxmlsec1-openssl1 (>= 1.2.31)",
+		"pciutils",
+		"iproute2",
+		"lsb-release"
+	],
+	"preDepends": [
+		"init-system-helpers (>= 1.54~)"
+	],
+	"recommends": [
+		"ethtool",
+		"zerofree",
+		"fuse3"
+	],
+	"suggests": [
+		"open-vm-tools-desktop",
+		"cloud-init",
+		"open-vm-tools-containerinfo",
+		"open-vm-tools-salt-minion"
+	],
+	"replaces": [
+		"open-vm-tools-sdmp (<< 2:12.1.0-2~)"
+	],
+	"breaks": [
+		"open-vm-tools-sdmp (<< 2:12.1.0-2~)"
+	],
+	"installedSize": 3038,
+	"maintainer": "Ubuntu Developers <ubuntu-devel-discuss@lists.ubuntu.com>",
+	"description": "Open VMware Tools for virtual machines hosted on VMware (CLI)",
+	"homepage": "https://github.com/vmware/open-vm-tools",
+	"filename": "pool/main/o/open-vm-tools/open-vm-tools_13.0.0-2ubuntu1_amd64.deb",
+	"size": 728864,
+	"md5": "3bd19df85765005c0b1e68918c1c5eb3",
+	"sha1": "1f0aabbc9d181acdacd0d6c756dfc186c85c9384",
+	"sha256": "aeb6354da7bb558360ddf105ce2f58f2fb0fad77b371a7c3a088109c7f79e9c5",
+	"sha512": "9d71a1cfd96823feb471c951f34acf9f9771315dce182f411c1e0c5d1ecb19d6920ce4910837ec523ba9aa2245e130e9b36b1f495e82ea97128afc2c0998b6f4",
+	"descriptionMd5": "a6ea22fad449711c4296720ce1ebe6b4"
+}

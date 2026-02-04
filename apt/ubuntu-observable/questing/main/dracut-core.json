@@ -1,0 +1,55 @@
+[{
+	"raw": {},
+	"required": [
+		"Filename",
+		"Size"
+	],
+	"package": "dracut-core",
+	"source": "dracut",
+	"version": "108-3ubuntu3",
+	"section": "utils",
+	"priority": "optional",
+	"architecture": "amd64",
+	"depends": [
+		"cpio | 3cpio",
+		"dracut-install",
+		"e2fsprogs",
+		"kmod",
+		"systemd-sysv | initscripts | sysvinit-core",
+		"udev",
+		"libc6 (>= 2.38)"
+	],
+	"recommends": [
+		"console-setup",
+		"systemd",
+		"zstd"
+	],
+	"suggests": [
+		"binutils",
+		"cryptsetup",
+		"dmsetup",
+		"kpartx",
+		"lvm2",
+		"mdadm",
+		"systemd-cryptsetup"
+	],
+	"replaces": [
+		"dracut-live (<< 059-2)",
+		"dracut-network (<< 057+157-2)"
+	],
+	"breaks": [
+		"dracut-live (<< 059-2)",
+		"dracut-network (<< 057+157-2)"
+	],
+	"installedSize": 1175,
+	"maintainer": "Ubuntu Developers <ubuntu-devel-discuss@lists.ubuntu.com>",
+	"description": "dracut is an event driven initramfs infrastructure (core tools)",
+	"homepage": "https://github.com/dracut-ng/dracut-ng/wiki",
+	"filename": "pool/main/d/dracut/dracut-core_108-3ubuntu3_amd64.deb",
+	"size": 299850,
+	"md5": "eea361ecb74d2d3d1465eb1d2fdb9dfd",
+	"sha1": "bdae433a00fbab6b78af821699d9437626736334",
+	"sha256": "acded7d6e3e47ff60ffb2833d33227511c6d71f759606de36eec5c813d64b90f",
+	"sha512": "cdf21eb2af9aa925bb71b7d8193a700de5d6ccf25c13816a5664a043ca5f2152a7a07196358262665d9252b07ccee0fddc54f5ffab7f58a046a3d5d6f688533b",
+	"descriptionMd5": "e406aeff68e5d5052162d2536e974a68"
+}]

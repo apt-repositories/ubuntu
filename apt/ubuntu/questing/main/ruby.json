@@ -1,0 +1,48 @@
+{
+	"raw": {},
+	"required": [
+		"Filename",
+		"Size"
+	],
+	"package": "ruby",
+	"source": "ruby-defaults",
+	"version": "1:3.3",
+	"section": "interpreters",
+	"priority": "optional",
+	"architecture": "amd64",
+	"depends": [
+		"ruby3.3",
+		"libruby (= 1:3.3)",
+		"ruby-rubygems"
+	],
+	"suggests": [
+		"ri",
+		"ruby-dev"
+	],
+	"replaces": [
+		"irb",
+		"rdoc",
+		"rubygems"
+	],
+	"breaks": [
+		"puppet-agent (<= 7.24.0)",
+		"ruby-bootsnap (<< 1.4.6-1)",
+		"ruby-marisa (<< 0.2.6-18+b4)",
+		"ruby-switch (<= 0.1.0)"
+	],
+	"conflicts": [
+		"ruby-activesupport-2.3",
+		"ruby-activesupport-3.2"
+	],
+	"installedSize": 31,
+	"maintainer": "Ubuntu Developers <ubuntu-devel-discuss@lists.ubuntu.com>",
+	"description": "Interpreter of object-oriented scripting language Ruby (default version)",
+	"homepage": "https://www.ruby-lang.org/",
+	"filename": "pool/main/r/ruby-defaults/ruby_3.3_amd64.deb",
+	"size": 3666,
+	"md5": "5662da2213912616eff9f6b4f11b6eef",
+	"sha1": "92990c44f5582592cf26825582f828e15508a18e",
+	"sha256": "5bd7d8986a92d195eacd87840f116f7a667e66a04f9cca39bc4b2573b075f914",
+	"sha512": "633f0db936146108ba4884d59d58bf36d78ee3452f76ddf6a307afc92faf1faa71d084a0f1cb2c62723cad001e560c7f943bade1bb030ab81556168e031d6bf5",
+	"descriptionMd5": "a1f92b9e90bebe2d085aa0c3c06549c5"
+}

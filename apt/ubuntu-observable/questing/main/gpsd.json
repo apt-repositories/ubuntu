@@ -1,0 +1,55 @@
+[{
+	"raw": {},
+	"required": [
+		"Filename",
+		"Size"
+	],
+	"package": "gpsd",
+	"version": "3.25-5ubuntu1",
+	"section": "misc",
+	"priority": "optional",
+	"architecture": "amd64",
+	"depends": [
+		"adduser (>= 3.34)",
+		"libgps30t64 (= 3.25-5ubuntu1)",
+		"netbase | systemd-sysv",
+		"python3",
+		"python3:any",
+		"libbluetooth3 (>= 4.91)",
+		"libc6 (>= 2.38)",
+		"libdbus-1-3 (>= 1.10)",
+		"libusb-1.0-0 (>= 2:1.0.8)"
+	],
+	"recommends": [
+		"gpsd-tools",
+		"udev"
+	],
+	"suggests": [
+		"apparmor",
+		"dbus",
+		"gpsd-clients"
+	],
+	"replaces": [
+		"gpsd-clients (<< 3.20-9)",
+		"gpsd-tools (<< 3.20-10)"
+	],
+	"breaks": [
+		"gpsd-clients (<< 3.20-9)",
+		"gpsd-tools (<< 3.20-10)",
+		"udev (<< 136-1)"
+	],
+	"conflicts": [
+		"fso-gpsd"
+	],
+	"installedSize": 1465,
+	"maintainer": "Ubuntu Developers <ubuntu-devel-discuss@lists.ubuntu.com>",
+	"description": "Global Positioning System - daemon",
+	"homepage": "https://gpsd.io",
+	"filename": "pool/main/g/gpsd/gpsd_3.25-5ubuntu1_amd64.deb",
+	"size": 427578,
+	"md5": "1245a70272d3f23bbf62930d2609f92b",
+	"sha1": "1d16ea307e848862cb122b7197fa71f363fc8252",
+	"sha256": "df019e29aed6f2ba83c9530d59570e361d4e11860bb21e0059e5c9099be636aa",
+	"sha512": "24a6b730962f8bf257d6bef4ff0ce2e5a91a1b2336649f4dc1be9bd6df740336c1c5e773810c4fe1fa54c8a4625fc1c61dca7e8c8364d826c86668980af4674a",
+	"descriptionMd5": "f4c594224d3953b094b99b3ab4e1fa72"
+}]

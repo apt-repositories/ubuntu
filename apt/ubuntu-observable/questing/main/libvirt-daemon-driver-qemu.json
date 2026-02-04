@@ -1,0 +1,61 @@
+[{
+	"raw": {},
+	"required": [
+		"Filename",
+		"Size"
+	],
+	"package": "libvirt-daemon-driver-qemu",
+	"source": "libvirt",
+	"version": "11.6.0-1ubuntu3",
+	"section": "admin",
+	"priority": "optional",
+	"architecture": "amd64",
+	"depends": [
+		"adduser",
+		"libvirt-common (= 11.6.0-1ubuntu3)",
+		"libvirt-daemon-log (= 11.6.0-1ubuntu3)",
+		"libvirt0 (= 11.6.0-1ubuntu3)",
+		"logrotate",
+		"qemu-kvm | qemu-system",
+		"systemd-container | sysvinit-core",
+		"debconf (>= 0.5) | debconf-2.0",
+		"libc6 (>= 2.38)",
+		"libgcc-s1 (>= 3.3.1)",
+		"libglib2.0-0t64 (>= 2.64.0)",
+		"libgnutls30t64 (>= 3.7.0)",
+		"libselinux1 (>= 3.1~)",
+		"libxml2-16 (>= 2.14.1)"
+	],
+	"recommends": [
+		"swtpm",
+		"swtpm-tools"
+	],
+	"suggests": [
+		"numad",
+		"passt"
+	],
+	"replaces": [
+		"libvirt-clients (<< 6.9.0-2~)",
+		"libvirt-daemon-system (<< 10.6.0-2~)"
+	],
+	"enhances": [
+		"qemu-kvm",
+		"qemu-system"
+	],
+	"breaks": [
+		"libvirt-clients (<< 6.9.0-2~)",
+		"libvirt-daemon-config-network (<< 11.0.0-2ubuntu9~)",
+		"libvirt-daemon-system (<< 10.6.0-2~)"
+	],
+	"installedSize": 2307,
+	"maintainer": "Ubuntu Developers <ubuntu-devel-discuss@lists.ubuntu.com>",
+	"description": "virtualization daemon - QEMU connection driver",
+	"homepage": "https://libvirt.org/drvqemu.html",
+	"filename": "pool/main/libv/libvirt/libvirt-daemon-driver-qemu_11.6.0-1ubuntu3_amd64.deb",
+	"size": 811354,
+	"md5": "750c2d1eeeb7e0e00257a99892d95efe",
+	"sha1": "4953a51d5ad8292020e80ce8c605cc491692d40e",
+	"sha256": "2d0e964ba6447782c6dd0646ec5357c9876b5823211cfdb465836fa4899fedc9",
+	"sha512": "4d2b0c9b5de4dabe15ada01d045f367a3e0eeb30bbed92334e8f51a09b6793048c987346bb7528dd3e4cd3f6e4e7eab9615e16317faa4c71880b7c37aee982a4",
+	"descriptionMd5": "c2d4ef64bc876424b917fe7a09035280"
+}]

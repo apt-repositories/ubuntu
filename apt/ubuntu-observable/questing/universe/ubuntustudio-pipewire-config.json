@@ -1,0 +1,45 @@
+[{
+	"raw": {},
+	"required": [
+		"Filename",
+		"Size"
+	],
+	"package": "ubuntustudio-pipewire-config",
+	"source": "ubuntustudio-default-settings",
+	"version": "25.10.9",
+	"section": "universe/x11",
+	"priority": "optional",
+	"architecture": "all",
+	"depends": [
+		"pipewire-audio",
+		"pipewire-jack",
+		"wireplumber"
+	],
+	"preDepends": [
+		"dpkg (>= 1.15.7.2~)"
+	],
+	"recommends": [
+		"qpwgraph"
+	],
+	"replaces": [
+		"ubuntustudio-pulseaudio-config (<< 25.10.9)"
+	],
+	"breaks": [
+		"pulseaudio",
+		"pulseaudio-module-bluetooth",
+		"pulseaudio-module-jack",
+		"studio-controls",
+		"ubuntustudio-pulseaudio-config (<< 25.10.9)"
+	],
+	"installedSize": 46,
+	"maintainer": "Ubuntu Studio Developers <ubuntu-studio-devel@lists.ubuntu.com>",
+	"description": "Configuration for PipeWire with JACK integration",
+	"homepage": "https://launchpad.net/ubuntustudio-default-settings",
+	"filename": "pool/universe/u/ubuntustudio-default-settings/ubuntustudio-pipewire-config_25.10.9_all.deb",
+	"size": 20086,
+	"md5": "9581e66b35aa5c62c1b14f04d422f8d5",
+	"sha1": "5de5d7c5745e13fca0d9216e9d8326f7f53de869",
+	"sha256": "215c09f01641273e3dc8d73c51a863e2035cc209b974cd5b1c865d744b1dc597",
+	"sha512": "992ce6242b95677baa586829ff99b8d2151065675d7fc4d720421f9fd0051d01c2825511d73423ff86926eb61da8bc9b938d522c71cd830eca4b1c9b4f7c9a8f",
+	"descriptionMd5": "a654bb9b17a5c3e300655acee63cd73c"
+}]

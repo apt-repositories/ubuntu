@@ -1,0 +1,49 @@
+{
+	"raw": {},
+	"required": [
+		"Filename",
+		"Size"
+	],
+	"package": "ircd-hybrid",
+	"version": "1:8.2.46+dfsg.1-1",
+	"section": "universe/net",
+	"priority": "optional",
+	"architecture": "amd64",
+	"depends": [
+		"libc6 (>= 2.38)",
+		"libcrypt1 (>= 1:4.1.0)",
+		"libgnutls30t64 (>= 3.8.6)",
+		"libltdl7 (>= 2.5.4)",
+		"openssl",
+		"lsb-base (>= 3.0-6)"
+	],
+	"preDepends": [
+		"debconf (>= 0.5) | debconf-2.0"
+	],
+	"recommends": [
+		"whois"
+	],
+	"suggests": [
+		"anope"
+	],
+	"breaks": [
+		"anope (<< 2.0.9-1~)"
+	],
+	"conflicts": [
+		"dancer-ircd",
+		"ircd-irc2",
+		"ircd-ircu",
+		"oftc-hybrid"
+	],
+	"installedSize": 2653,
+	"maintainer": "Ubuntu Developers <ubuntu-devel-discuss@lists.ubuntu.com>",
+	"description": "high-performance secure IRC server",
+	"homepage": "https://www.ircd-hybrid.org/",
+	"filename": "pool/universe/i/ircd-hybrid/ircd-hybrid_8.2.46+dfsg.1-1_amd64.deb",
+	"size": 400776,
+	"md5": "3731a4a8404edb43338d6d02ec320e1b",
+	"sha1": "6cc39a0fea09ddb77b5a82dbc83157929af00d5d",
+	"sha256": "68809dff6511d43d59a978179177b6dcbc7fd15dd4314f90bbda82164916fc1e",
+	"sha512": "4afb55f75a719596c6dee5a4ac6f287f3360665254ed22a82684da2761b78ca4cadd433819b24511c05075692ffad240cd412e680f6fc909808045af8456ec4f",
+	"descriptionMd5": "6d0ecd7f1095a9a8ad287cd1870f2be9"
+}

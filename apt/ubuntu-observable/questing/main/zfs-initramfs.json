@@ -1,0 +1,35 @@
+[{
+	"raw": {},
+	"required": [
+		"Filename",
+		"Size"
+	],
+	"package": "zfs-initramfs",
+	"source": "zfs-linux",
+	"version": "2.3.4-1ubuntu2",
+	"section": "kernel",
+	"priority": "extra",
+	"architecture": "all",
+	"depends": [
+		"busybox-initramfs | busybox-static | busybox",
+		"initramfs-tools",
+		"zfsutils-linux (>= 2.3.4-1ubuntu2)"
+	],
+	"replaces": [
+		"zfsutils-linux (<= 0.7.11-2)"
+	],
+	"breaks": [
+		"zfsutils-linux (<= 0.7.11-2)"
+	],
+	"installedSize": 122,
+	"maintainer": "Ubuntu Developers <ubuntu-devel-discuss@lists.ubuntu.com>",
+	"description": "OpenZFS root filesystem capabilities for Linux - initramfs",
+	"homepage": "https://zfsonlinux.org/",
+	"filename": "pool/main/z/zfs-linux/zfs-initramfs_2.3.4-1ubuntu2_all.deb",
+	"size": 25170,
+	"md5": "53faeb4f2244e0a62f4b6786b0f6b27e",
+	"sha1": "be667531a1c8b684fd2f91e13834acf24c676b99",
+	"sha256": "045d26108089f7ecdd4c8716d83b675d605433a90f11c8ab0934b237933899ae",
+	"sha512": "71d6a5ffa4f375b7fabf672655b5481fa71731da2954e17a36781222bf8bef0fc999da759f4ec3777313a8b59cefcfba454ab261da24d6f6b9430340e749acdc",
+	"descriptionMd5": "ed136876804c562cd1f81b87863a33a9"
+}]

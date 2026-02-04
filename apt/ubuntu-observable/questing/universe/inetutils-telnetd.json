@@ -1,0 +1,41 @@
+[{
+	"raw": {},
+	"required": [
+		"Filename",
+		"Size"
+	],
+	"package": "inetutils-telnetd",
+	"source": "inetutils",
+	"version": "2:2.6-1ubuntu3",
+	"section": "universe/net",
+	"priority": "optional",
+	"architecture": "amd64",
+	"depends": [
+		"libc6 (>= 2.42)",
+		"libcom-err2 (>= 1.43.9)",
+		"libk5crypto3 (>= 1.6.dfsg.2)",
+		"libkrb5-3 (>= 1.13~alpha1+dfsg)",
+		"libtinfo6 (>= 6)",
+		"inetutils-inetd | inet-superserver",
+		"inetutils-syslogd | system-log-daemon | systemd-sysv",
+		"login",
+		"netbase"
+	],
+	"breaks": [
+		"telnetd (<< 0.17-46)"
+	],
+	"conflicts": [
+		"telnet-server"
+	],
+	"installedSize": 180,
+	"maintainer": "Ubuntu Developers <ubuntu-devel-discuss@lists.ubuntu.com>",
+	"description": "telnet server",
+	"homepage": "https://www.gnu.org/software/inetutils/",
+	"filename": "pool/universe/i/inetutils/inetutils-telnetd_2.6-1ubuntu3_amd64.deb",
+	"size": 60686,
+	"md5": "1c36ee75eb3842cc4ce5f1779fb50039",
+	"sha1": "06758fe6227b715a4ef577ac863ce5e37809c565",
+	"sha256": "7d3ae399429da0e5d43aa86983241e07f5d8dd3fb708b79152e5a30ccadf0876",
+	"sha512": "0e3593212bb273d2b51410b88788059ddd8ce5a4a03c8cf6b502c0e52786b1e7215da7a6c5f3e9588d197be497db493b1e7d9920c13884df7635bf99b9e4098d",
+	"descriptionMd5": "b4d98d011a88706592d378a4d185b214"
+}]

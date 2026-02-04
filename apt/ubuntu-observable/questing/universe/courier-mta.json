@@ -1,0 +1,73 @@
+[{
+	"raw": {},
+	"required": [
+		"Filename",
+		"Size"
+	],
+	"package": "courier-mta",
+	"source": "courier",
+	"version": "1.4.1-3",
+	"section": "universe/mail",
+	"priority": "optional",
+	"architecture": "amd64",
+	"depends": [
+		"courier-base (= 1.4.1-3)",
+		"debconf",
+		"libnet-cidr-perl",
+		"wget",
+		"debconf (>= 0.5) | debconf-2.0",
+		"courier-authlib (>= 0.71)",
+		"libc6 (>= 2.38)",
+		"libcourier-unicode8 (>= 2.3.1)",
+		"libgcc-s1 (>= 3.3.1)",
+		"libgdbm6t64 (>= 1.16)",
+		"libidn2-0 (>= 2.0.0)",
+		"libperl5.40 (>= 5.40.0)",
+		"libstdc++6 (>= 13.1)",
+		"perl:any"
+	],
+	"suggests": [
+		"courier-doc",
+		"courier-filter-perl",
+		"mail-reader"
+	],
+	"replaces": [
+		"dma",
+		"esmtp-run",
+		"exim4-daemon-heavy",
+		"exim4-daemon-light",
+		"mail-transport-agent",
+		"msmtp-mta",
+		"nullmailer",
+		"opensmtpd",
+		"postfix",
+		"rmail",
+		"ssmtp"
+	],
+	"breaks": [
+		"dma",
+		"esmtp-run",
+		"exim4-daemon-heavy",
+		"exim4-daemon-light",
+		"msmtp-mta",
+		"nullmailer",
+		"opensmtpd",
+		"postfix",
+		"rmail",
+		"ssmtp"
+	],
+	"conflicts": [
+		"mail-transport-agent"
+	],
+	"installedSize": 2008,
+	"maintainer": "Ubuntu Developers <ubuntu-devel-discuss@lists.ubuntu.com>",
+	"description": "Courier mail server - ESMTP daemon",
+	"homepage": "https://www.courier-mta.org/",
+	"filename": "pool/universe/c/courier/courier-mta_1.4.1-3_amd64.deb",
+	"size": 566414,
+	"md5": "d1d16d27f0206b2192d626cc7455ccae",
+	"sha1": "bd6d364151461e81ebf3db599711d9601a6b2b3c",
+	"sha256": "4ea38b8b8d56570c3b39cd1ff7d6c5252729df17206198dbb2e570c8534baf26",
+	"sha512": "bb857d0d870603ae5744c30e5993ce066add36a76fbf5022bfce8ac2b322b944ec3c1f76a515ba059f1b185f50f7348bb5458448230f1992b3c118601d859575",
+	"descriptionMd5": "88c67d6433b0af4789d4e8a4fd1ecc42"
+}]

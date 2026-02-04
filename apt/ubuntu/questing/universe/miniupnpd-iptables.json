@@ -1,0 +1,40 @@
+{
+	"raw": {},
+	"required": [
+		"Filename",
+		"Size"
+	],
+	"package": "miniupnpd-iptables",
+	"source": "miniupnpd",
+	"version": "2.3.9-2",
+	"section": "universe/net",
+	"priority": "optional",
+	"architecture": "amd64",
+	"depends": [
+		"miniupnpd",
+		"iptables",
+		"libc6 (>= 2.38)",
+		"libip4tc2 (>= 1.8.3)",
+		"libip6tc2 (>= 1.8.3)"
+	],
+	"replaces": [
+		"miniupnpd (<< 2.3.3)"
+	],
+	"breaks": [
+		"miniupnpd (<< 2.3.3)"
+	],
+	"conflicts": [
+		"miniupnpd-nftables"
+	],
+	"installedSize": 228,
+	"maintainer": "Ubuntu Developers <ubuntu-devel-discuss@lists.ubuntu.com>",
+	"description": "Lightweight UPnP IGD & PCP/NAT-PMP daemon - legacy iptables backend",
+	"homepage": "https://miniupnp.tuxfamily.org/",
+	"filename": "pool/universe/m/miniupnpd/miniupnpd-iptables_2.3.9-2_amd64.deb",
+	"size": 90078,
+	"md5": "fdf1e176a89c4cc39c275b6c5cdb82a2",
+	"sha1": "3b42e883ca78747b8cb54493ad07ca5912ded41c",
+	"sha256": "553bd8614542558cf34b53a53d368f4ef8c72102fe00d82474f28b8164c40709",
+	"sha512": "1a05dbc8c9d5b83d4049628a8799430ed47f9e3a90bfc89ea2110b46f58b031dd68a47c462da21bd8a69854ba85f9e1fd8192d60e88fe78d865279f7bc83b5fb",
+	"descriptionMd5": "cd512f1bb75094df8ecd6b5d936436d2"
+}

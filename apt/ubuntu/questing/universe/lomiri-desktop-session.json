@@ -1,0 +1,66 @@
+{
+	"raw": {},
+	"required": [
+		"Filename",
+		"Size"
+	],
+	"package": "lomiri-desktop-session",
+	"source": "lomiri-session",
+	"version": "0.3-11",
+	"section": "universe/x11",
+	"priority": "optional",
+	"architecture": "all",
+	"depends": [
+		"dbus",
+		"pulseaudio | pipewire-pulse",
+		"lomiri (>= 0.2.1-12~)",
+		"lomiri-content-hub",
+		"lomiri-terminal-app",
+		"user-session-migration",
+		"xdg-user-dirs"
+	],
+	"recommends": [
+		"inotify-tools",
+		"lomiri-app-launch-tools",
+		"lomiri-addressbook-app",
+		"lomiri-calculator-app",
+		"lomiri-calendar-app",
+		"lomiri-camera-app",
+		"lomiri-clock-app",
+		"lomiri-cloudsync-app",
+		"lomiri-dekko-app",
+		"lomiri-docviewer-app",
+		"lomiri-filemanager-app",
+		"lomiri-gallery-app",
+		"lomiri-mediaplayer-app",
+		"lomiri-music-app",
+		"lomiri-polkit-agent",
+		"lomiri-teleports-app",
+		"lomiri-tfamanager-app",
+		"lomiri-weather-app",
+		"morph-browser",
+		"tecla",
+		"xwayland"
+	],
+	"replaces": [
+		"content-hub",
+		"lomiri-abook2cal-syncd",
+		"lomiri-sync-monitor"
+	],
+	"breaks": [
+		"content-hub",
+		"lomiri-abook2cal-syncd",
+		"lomiri-sync-monitor"
+	],
+	"installedSize": 70,
+	"maintainer": "Ubuntu Developers <ubuntu-devel-discuss@lists.ubuntu.com>",
+	"description": "Integrate Lomiri Desktop Session into Display Managers",
+	"homepage": "https://gitlab.com/ubports/development/core/lomiri-session",
+	"filename": "pool/universe/l/lomiri-session/lomiri-desktop-session_0.3-11_all.deb",
+	"size": 18486,
+	"md5": "1b224e558f27b82839730d2c088be016",
+	"sha1": "d740465ac9ef004c8340fe04f4f777ea475f7134",
+	"sha256": "c50f92e6e03c3726accf415be1ae1581314c46f86d726f3dddf9d186a88efb0e",
+	"sha512": "43293c7bca0986120437ff302600219391a9298d92794049c437ba181d6d5f521cc2887391b5d539b999e143f509a9db6f5894e99415b77f15382eb92562aa68",
+	"descriptionMd5": "479c8103085eceb6e6eb7bc8c4c67188"
+}

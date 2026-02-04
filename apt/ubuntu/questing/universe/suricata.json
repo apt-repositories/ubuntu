@@ -1,0 +1,75 @@
+{
+	"raw": {},
+	"required": [
+		"Filename",
+		"Size"
+	],
+	"package": "suricata",
+	"version": "1:7.0.10-1",
+	"section": "universe/net",
+	"priority": "optional",
+	"architecture": "amd64",
+	"depends": [
+		"python3:any",
+		"libbpf1 (>= 1:0.7.0)",
+		"libc6 (>= 2.39)",
+		"libcap-ng0 (>= 0.7.9)",
+		"libevent-2.1-7t64 (>= 2.1.8-stable)",
+		"libevent-pthreads-2.1-7t64 (>= 2.1.8-stable)",
+		"libgcc-s1 (>= 4.2)",
+		"libhiredis1.1.0 (>= 1.2.0)",
+		"libhtp2 (>= 1:0.5.50-1~)",
+		"libhyperscan5 (>= 5.4.2)",
+		"libjansson4 (>= 2.14)",
+		"libluajit-5.1-2 (>= 2.0.4) | libluajit-5.1-2 (>= 2.1.0+openresty)",
+		"liblz4-1 (>= 0.0~r127)",
+		"libmagic1t64 (>= 5.12)",
+		"libmaxminddb0 (>= 1.0.2)",
+		"libnet1 (>= 1.1.5)",
+		"libnetfilter-log1 (>= 0.0.13)",
+		"libnetfilter-queue1 (>= 1.0.2)",
+		"libnfnetlink0 (>= 1.0.2)",
+		"libnuma1 (>= 2.0.11)",
+		"libpcap0.8t64 (>= 1.0.0)",
+		"libpcre2-8-0 (>= 10.22)",
+		"librte-eal25 (>= 23.11)",
+		"librte-ethdev25 (>= 23.11)",
+		"librte-log25 (>= 23.11)",
+		"librte-mbuf25 (>= 23.11)",
+		"librte-mempool25 (>= 23.11)",
+		"librte-net-bond25 (>= 24.11~rc2)",
+		"libsystemd0",
+		"libxdp1 (>= 1.2.0)",
+		"libyaml-0-2",
+		"zlib1g (>= 1:1.1.4)"
+	],
+	"preDepends": [
+		"init-system-helpers (>= 1.54~)"
+	],
+	"recommends": [
+		"python3",
+		"snort-rules-default",
+		"suricata-update"
+	],
+	"suggests": [
+		"libtcmalloc-minimal4"
+	],
+	"replaces": [
+		"suricata-hyperscan"
+	],
+	"conflicts": [
+		"libhtp1",
+		"suricata-hyperscan"
+	],
+	"installedSize": 9853,
+	"maintainer": "Ubuntu Developers <ubuntu-devel-discuss@lists.ubuntu.com>",
+	"description": "Next Generation Intrusion Detection and Prevention Tool",
+	"homepage": "https://suricata.io",
+	"filename": "pool/universe/s/suricata/suricata_7.0.10-1_amd64.deb",
+	"size": 3230016,
+	"md5": "d3b185c3ef38c4b2075326ee24f6b220",
+	"sha1": "cf627d104aca7146eab55fdbbefbbdb311f67739",
+	"sha256": "e736aa9dc6cb4a01842f85a318b8efb0b3bd79d2460889b764ffaf1e25c3ebb0",
+	"sha512": "6d783d3a03b26992f790efecc71fd51c179666f55253d471a490bc7122c0eca8dda74e9cc611c50035a6cb24ec8d26d9e5bdc53d4e907630411699052e91f316",
+	"descriptionMd5": "d75d723de9cd9ee5828c14e079cfc931"
+}
