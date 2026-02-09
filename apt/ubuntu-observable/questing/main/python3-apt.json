@@ -6,6 +6,55 @@
 	],
 	"package": "python3-apt",
 	"source": "python-apt",
+	"version": "3.0.0ubuntu1.1",
+	"section": "python",
+	"priority": "important",
+	"architecture": "amd64",
+	"depends": [
+		"python3 (<< 3.14)",
+		"python3 (>= 3.13~)",
+		"python3:any",
+		"libapt-pkg7.0 (>= 2.9.27+exp1)",
+		"libc6 (>= 2.33)",
+		"libgcc-s1 (>= 3.3.1)",
+		"libstdc++6 (>= 13.1)",
+		"python-apt-common",
+		"distro-info-data"
+	],
+	"recommends": [
+		"lsb-release",
+		"iso-codes"
+	],
+	"suggests": [
+		"python-apt-doc",
+		"apt"
+	],
+	"replaces": [
+		"python-apt (<< 0.7.98+nmu1)"
+	],
+	"breaks": [
+		"apt-xapian-index (<< 0.51~)",
+		"kthresher (<= 1.4.0-1)",
+		"python-apt (<< 0.7.98+nmu1)"
+	],
+	"installedSize": 690,
+	"maintainer": "Ubuntu Developers <ubuntu-devel-discuss@lists.ubuntu.com>",
+	"description": "Python 3 interface to libapt-pkg",
+	"filename": "pool/main/p/python-apt/python3-apt_3.0.0ubuntu1.1_amd64.deb",
+	"size": 169260,
+	"md5": "6f5de736d432e89931cead41926e3497",
+	"sha1": "92df163a1f4ed44c3629d540daf2eb5f6e2399e8",
+	"sha256": "ead698b115a436d5c3b0c312323a7b4dce637d77f540243f19bc0569cef1646e",
+	"sha512": "413a53e5b2f0b393c11b8bc448305b8316620574a260bb33e22fb088add55d73826cc530073f303bdba9cbff9ab57638f9ba432ec6a723afce9681099ddf60d7",
+	"descriptionMd5": "4e7bf010b1b89e36309ea2f4b7005936"
+},{
+	"raw": {},
+	"required": [
+		"Filename",
+		"Size"
+	],
+	"package": "python3-apt",
+	"source": "python-apt",
 	"version": "3.0.0ubuntu1",
 	"section": "python",
 	"priority": "important",

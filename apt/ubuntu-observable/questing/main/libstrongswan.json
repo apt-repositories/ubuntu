@@ -6,6 +6,47 @@
 	],
 	"package": "libstrongswan",
 	"source": "strongswan",
+	"version": "6.0.1-6ubuntu4.1",
+	"section": "net",
+	"priority": "optional",
+	"architecture": "amd64",
+	"depends": [
+		"libc6 (>= 2.42)",
+		"libcap2 (>= 1:2.10)",
+		"libssl3t64 (>= 3.3.0)",
+		"libsystemd0 (>= 227)"
+	],
+	"recommends": [
+		"libstrongswan-standard-plugins"
+	],
+	"suggests": [
+		"libstrongswan-extra-plugins"
+	],
+	"replaces": [
+		"libstrongswan-standard-plugins (<< 6.0.0-1~)"
+	],
+	"breaks": [
+		"libstrongswan-standard-plugins (<< 6.0.0-1~)"
+	],
+	"installedSize": 1414,
+	"maintainer": "Ubuntu Developers <ubuntu-devel-discuss@lists.ubuntu.com>",
+	"description": "strongSwan utility and crypto library",
+	"homepage": "http://www.strongswan.org",
+	"filename": "pool/main/s/strongswan/libstrongswan_6.0.1-6ubuntu4.1_amd64.deb",
+	"size": 408236,
+	"md5": "b16dd563ccbb28c9ed50ac7752c777fd",
+	"sha1": "1050ed29db8c02d83b1f2638968c2c7d66dc56c2",
+	"sha256": "d97d04863d8436782084575c14c091c633554ae3c5b25b88cd21278557580518",
+	"sha512": "d8f6e9ce618e673bb97578ae43b55870d4cbccc753c36ff08db81cb7b2f918b52d43814d938dabe6118c2016dba669976d9df2dc06ac80b0e0daf10fa8966d44",
+	"descriptionMd5": "008d72bea35ef3db9bc3ab579f48d1d0"
+},{
+	"raw": {},
+	"required": [
+		"Filename",
+		"Size"
+	],
+	"package": "libstrongswan",
+	"source": "strongswan",
 	"version": "6.0.1-6ubuntu4",
 	"section": "net",
 	"priority": "optional",

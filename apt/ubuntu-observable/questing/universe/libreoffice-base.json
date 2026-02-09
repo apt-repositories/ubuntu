@@ -6,6 +6,64 @@
 	],
 	"package": "libreoffice-base",
 	"source": "libreoffice",
+	"version": "4:25.8.4-0ubuntu0.25.10.1",
+	"section": "universe/database",
+	"priority": "optional",
+	"architecture": "amd64",
+	"depends": [
+		"libreoffice-base-core (= 4:25.8.4-0ubuntu0.25.10.1)",
+		"libreoffice-base-drivers (= 4:25.8.4-0ubuntu0.25.10.1)",
+		"libreoffice-core (= 4:25.8.4-0ubuntu0.25.10.1)",
+		"libreoffice-uiconfig-base (= 4:25.8.4-0ubuntu0.25.10.1)",
+		"libc6 (>= 2.35)",
+		"libgcc-s1 (>= 3.0)",
+		"libreoffice-sal-private-abi (= 25.8.4)",
+		"libstdc++6 (>= 11)",
+		"libuno-cppu3t64 (>= 4.4.0~alpha)",
+		"libuno-cppuhelpergcc3-3t64 (>= 4.0.0~alpha)",
+		"libuno-sal3t64 (>= 1:7.3.0~beta1)",
+		"libuno-salhelpergcc3-3t64 (>= 1.4.0)",
+		"uno-libs-private"
+	],
+	"preDepends": [
+		"ucf",
+		"libreoffice-common (>= 4:25.2.1~rc1-3~)"
+	],
+	"recommends": [
+		"libreoffice-writer",
+		"libreoffice-java-common (>= 4:25.8.4~)",
+		"default-jre (>= 2:1.8) | java-runtime (>= 8) | java8-runtime | jre"
+	],
+	"suggests": [
+		"libreoffice-report-builder",
+		"python3-access2base",
+		"unixodbc"
+	],
+	"replaces": [
+		"libreoffice-common (<< 1:6.4.2~rc1~)"
+	],
+	"breaks": [
+		"libreoffice-common (<< 1:6.4.2~rc1~)"
+	],
+	"installedSize": 6079,
+	"maintainer": "Ubuntu Developers <ubuntu-devel-discuss@lists.ubuntu.com>",
+	"description": "office productivity suite -- database",
+	"homepage": "http://www.libreoffice.org",
+	"filename": "pool/universe/libr/libreoffice/libreoffice-base_25.8.4-0ubuntu0.25.10.1_amd64.deb",
+	"size": 1707350,
+	"md5": "deb1b0cec4cc6689d31814572df95558",
+	"sha1": "9513afd7438c256dffae8e2ed11799b42460e708",
+	"sha256": "c19245714a7c74d6734ad5dccc8608cdd36214ab4daf14be90a9ba2c90db7719",
+	"sha512": "f8b862576bcdb5500bf169c888b26bea0709b2ada8c6a3e2c479b115e49ba386668ae9a50346edbbd79d9835a5a1e07125fe4dc5eb449bdc47cc65042fa97fd4",
+	"descriptionMd5": "5529fff5c628ca6b70284749063daea4"
+},{
+	"raw": {},
+	"required": [
+		"Filename",
+		"Size"
+	],
+	"package": "libreoffice-base",
+	"source": "libreoffice",
 	"version": "4:25.8.1~rc1-0ubuntu1",
 	"section": "universe/database",
 	"priority": "optional",

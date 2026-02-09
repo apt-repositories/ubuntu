@@ -6,6 +6,44 @@
 	],
 	"package": "libsnmp40t64",
 	"source": "net-snmp",
+	"version": "5.9.4+dfsg-2ubuntu2.1",
+	"section": "libs",
+	"priority": "optional",
+	"architecture": "amd64",
+	"depends": [
+		"libc6 (>= 2.38)",
+		"libpci3 (>= 1:3.5.1)",
+		"libperl5.40 (>= 5.40.0)",
+		"libsensors5 (>= 1:3.5.0)",
+		"libssl3t64 (>= 3.0.0)",
+		"libwrap0 (>= 7.6-4~)",
+		"libsnmp-base"
+	],
+	"replaces": [
+		"libsnmp40"
+	],
+	"breaks": [
+		"libsnmp40 (<< 5.9.4+dfsg-2ubuntu2.1)"
+	],
+	"installedSize": 3734,
+	"maintainer": "Ubuntu Developers <ubuntu-devel-discuss@lists.ubuntu.com>",
+	"description": "SNMP (Simple Network Management Protocol) library",
+	"homepage": "https://net-snmp.sourceforge.net/",
+	"filename": "pool/main/n/net-snmp/libsnmp40t64_5.9.4+dfsg-2ubuntu2.1_amd64.deb",
+	"size": 1084028,
+	"md5": "f6df481fd1cb274b6cb6455b1347db21",
+	"sha1": "688d5cc0937400563c89caa2929ceb2ee0902fa4",
+	"sha256": "82f0271bad1ceeeb11783a99babc547d08971f8d4f1d9fabaa659c13ae807d9b",
+	"sha512": "34811b801095e27ae6db58b8de7ee638f5556d914958c6d217051a01ad68cbaaa36fe7854d89959d6f4e1329524d921c2b9bb32329b543c67d91e8c29969de62",
+	"descriptionMd5": "6e9915ae8820960c2c2746a9ba442686"
+},{
+	"raw": {},
+	"required": [
+		"Filename",
+		"Size"
+	],
+	"package": "libsnmp40t64",
+	"source": "net-snmp",
 	"version": "5.9.4+dfsg-2ubuntu2",
 	"section": "libs",
 	"priority": "optional",

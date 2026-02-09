@@ -6,6 +6,46 @@
 	],
 	"package": "netplan-generator",
 	"source": "netplan.io",
+	"version": "1.1.2-8ubuntu1~25.10.1",
+	"section": "net",
+	"priority": "important",
+	"architecture": "amd64",
+	"depends": [
+		"libc6 (>= 2.34)",
+		"libglib2.0-0t64 (>= 2.70.0)",
+		"libnetplan1 (= 1.1.2-8ubuntu1~25.10.1)",
+		"systemd (>= 257.2-3ubuntu1~)"
+	],
+	"suggests": [
+		"network-manager | wpasupplicant",
+		"openvswitch-switch",
+		"iw"
+	],
+	"replaces": [
+		"netplan.io (<< 0.106.1-8~)"
+	],
+	"breaks": [
+		"netplan.io (<< 0.106.1-8~)"
+	],
+	"installedSize": 291,
+	"maintainer": "Ubuntu Developers <ubuntu-devel-discuss@lists.ubuntu.com>",
+	"description": "Declarative network configuration for various backends at boot",
+	"homepage": "https://netplan.io/",
+	"filename": "pool/main/n/netplan.io/netplan-generator_1.1.2-8ubuntu1~25.10.1_amd64.deb",
+	"size": 61250,
+	"md5": "6b67bb2f307c8151bc6b0532c8077477",
+	"sha1": "11b619e908aea668b8b05e965dabd7471cb228dc",
+	"sha256": "dbfbaea940ce14f283df8c9162d05c952f02560b40b57930476daf505cf1693e",
+	"sha512": "68b20ce3a1cb17b324dfb57267e8f902b8abbe2e1794d88d2c1069f19857096b8e504bc7439a6367350573d5f5911975455d7ec24815f47bfe1c285dd2b9733d",
+	"descriptionMd5": "cbcba3fa237c18ff67f4a4db8776aa29"
+},{
+	"raw": {},
+	"required": [
+		"Filename",
+		"Size"
+	],
+	"package": "netplan-generator",
+	"source": "netplan.io",
 	"version": "1.1.2-7ubuntu3",
 	"section": "net",
 	"priority": "important",

@@ -6,6 +6,46 @@
 	],
 	"package": "libgps30t64",
 	"source": "gpsd",
+	"version": "3.25-5ubuntu1.25.10.1",
+	"section": "libs",
+	"priority": "optional",
+	"architecture": "amd64",
+	"depends": [
+		"libc6 (>= 2.38)",
+		"libdbus-1-3 (>= 1.10)",
+		"libstdc++6 (>= 5)"
+	],
+	"suggests": [
+		"gpsd"
+	],
+	"replaces": [
+		"libgps30"
+	],
+	"breaks": [
+		"libgps30 (<< 3.25-5ubuntu1.25.10.1)"
+	],
+	"conflicts": [
+		"fso-gpsd"
+	],
+	"installedSize": 187,
+	"maintainer": "Ubuntu Developers <ubuntu-devel-discuss@lists.ubuntu.com>",
+	"description": "Global Positioning System - library",
+	"homepage": "https://gpsd.io",
+	"filename": "pool/main/g/gpsd/libgps30t64_3.25-5ubuntu1.25.10.1_amd64.deb",
+	"size": 65762,
+	"md5": "1eb4a92a2a313a02e1e1d670f71df519",
+	"sha1": "b62d434498d360da3a23a5d52c140b0d887ac8fd",
+	"sha256": "335a87fdc67b34cf3f17a2ad10f1da0634bf5d55958abc010dad618c16da0871",
+	"sha512": "0d119bac57f5d6d7aaedb1ce503288a50a3db74a11bd83a10e2dde873b46a469916e99f31d03e05d0d08a6f57eb7d2a210c091c3e3694ada13eca6ed4ef1bafd",
+	"descriptionMd5": "dc7f47fc942723b517c23aead9afc361"
+},{
+	"raw": {},
+	"required": [
+		"Filename",
+		"Size"
+	],
+	"package": "libgps30t64",
+	"source": "gpsd",
 	"version": "3.25-5ubuntu1",
 	"section": "libs",
 	"priority": "optional",

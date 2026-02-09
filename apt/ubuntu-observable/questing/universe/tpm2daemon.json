@@ -6,6 +6,49 @@
 	],
 	"package": "tpm2daemon",
 	"source": "gnupg2",
+	"version": "2.4.8-2ubuntu2.1",
+	"section": "universe/utils",
+	"priority": "optional",
+	"architecture": "amd64",
+	"depends": [
+		"gpgconf (= 2.4.8-2ubuntu2.1)",
+		"libassuan9 (>= 2.5.0)",
+		"libc6 (>= 2.38)",
+		"libgcrypt20 (>= 1.11.0)",
+		"libgpg-error0 (>= 1.48)",
+		"libnpth0t64 (>= 1.2)",
+		"libtss2-esys-3.0.2-0t64 (>= 2.4.0)",
+		"libtss2-mu-4.0.1-0t64 (>= 3.0.1)",
+		"libtss2-rc0t64 (>= 3.0.1)",
+		"libtss2-tctildr0t64 (>= 3.0.1)"
+	],
+	"suggests": [
+		"gnupg (= 2.4.8-2ubuntu2.1)",
+		"dbus-user-session",
+		"libpam-systemd"
+	],
+	"enhances": [
+		"gpg-agent"
+	],
+	"installedSize": 116,
+	"maintainer": "Ubuntu Developers <ubuntu-devel-discuss@lists.ubuntu.com>",
+	"description": "GNU privacy guard - TPM2 support",
+	"homepage": "https://www.gnupg.org/",
+	"filename": "pool/universe/g/gnupg2/tpm2daemon_2.4.8-2ubuntu2.1_amd64.deb",
+	"size": 33180,
+	"md5": "0ed9a3cdf5cc1f5da4b65b75ac1a7fca",
+	"sha1": "473b4ab0006fe11a3ab3a1c949875b99a083b984",
+	"sha256": "ba475825e08b2601168f694d3dcfa3af8981567b2fe1564799d0986a93e5fa76",
+	"sha512": "d2d099cd601d7d6b942f08e5b4ff38d3d3e321de9772680bace592a357c044cc788bad96dbfc16dc115010cb3e4ac28eae9e08188b9f123e1aa2190ac46bf37f",
+	"descriptionMd5": "95b5a1d86b08d9077d5708769afa5b64"
+},{
+	"raw": {},
+	"required": [
+		"Filename",
+		"Size"
+	],
+	"package": "tpm2daemon",
+	"source": "gnupg2",
 	"version": "2.4.8-2ubuntu2",
 	"section": "universe/utils",
 	"priority": "optional",

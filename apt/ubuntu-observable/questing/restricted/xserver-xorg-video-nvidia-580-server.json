@@ -6,6 +6,43 @@
 	],
 	"package": "xserver-xorg-video-nvidia-580-server",
 	"source": "nvidia-graphics-drivers-580-server",
+	"version": "580.126.09-0ubuntu0.25.10.1",
+	"section": "restricted/x11",
+	"priority": "optional",
+	"architecture": "amd64",
+	"depends": [
+		"libnvidia-cfg1-580-server (= 580.126.09-0ubuntu0.25.10.1)",
+		"xorg-video-abi-25 | xorg-video-abi-24 | xorg-video-abi-23 | xorg-video-abi-20 | xorg-video-abi-19 | xorg-video-abi-18 | xorg-video-abi-15 | xorg-video-abi-14 | xorg-video-abi-13 | xorg-video-abi-12 | xorg-video-abi-11 | xorg-video-abi-10 | xorg-video-abi-8 | xorg-video-abi-6.0",
+		"xserver-xorg-core (>= 2:1.19.6-1ubuntu2~)",
+		"libc6 (>= 2.34)"
+	],
+	"replaces": [
+		"nvidia-driver-binary",
+		"xorg-driver-binary"
+	],
+	"conflicts": [
+		"nvidia-driver-binary",
+		"xorg-driver-binary"
+	],
+	"installedSize": 6717,
+	"maintainer": "Ubuntu Core Developers <ubuntu-devel-discuss@lists.ubuntu.com>",
+	"description": "NVIDIA binary Xorg driver",
+	"homepage": "http://www.nvidia.com",
+	"filename": "pool/restricted/n/nvidia-graphics-drivers-580-server/xserver-xorg-video-nvidia-580-server_580.126.09-0ubuntu0.25.10.1_amd64.deb",
+	"size": 1781692,
+	"md5": "036495ff178c40ba39999c1df9c7807a",
+	"sha1": "c692c33569b36452936b594eaab059c8986ec3c1",
+	"sha256": "79afef38747d1f3a3d656afdbe41e09e7b81b3155d0035d8d74110cd4d7676f2",
+	"sha512": "9ad3229bce8badccdb8ee87fec873bf540edbacab08dc3066ed1cbf932c6786e664ec0653cae646a5c89ea5c92d002445bc20aebd2aa71dfe3098d5d9be808b6",
+	"descriptionMd5": "c51bcc95fcd88d3b190e9b3da52e3c7b"
+},{
+	"raw": {},
+	"required": [
+		"Filename",
+		"Size"
+	],
+	"package": "xserver-xorg-video-nvidia-580-server",
+	"source": "nvidia-graphics-drivers-580-server",
 	"version": "580.82.07-0ubuntu2",
 	"section": "restricted/x11",
 	"priority": "optional",

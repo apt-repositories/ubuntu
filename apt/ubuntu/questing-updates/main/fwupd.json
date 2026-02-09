@@ -1,0 +1,85 @@
+{
+	"raw": {},
+	"required": [
+		"Filename",
+		"Size"
+	],
+	"package": "fwupd",
+	"version": "2.0.17-6~25.10.1",
+	"section": "admin",
+	"priority": "optional",
+	"architecture": "amd64",
+	"depends": [
+		"systemd-sysusers",
+		"libarchive13t64 (>= 3.2.1)",
+		"libblkid1 (>= 2.17.2)",
+		"libc6 (>= 2.38)",
+		"libcbor0.10 (>= 0.10.2)",
+		"libcurl3t64-gnutls (>= 7.63.0)",
+		"libdrm-amdgpu1 (>= 2.4.73)",
+		"libdrm2 (>= 2.4.3)",
+		"libflashrom1 (>= 1.4.0)",
+		"libfwupd3 (= 2.0.17-6~25.10.1)",
+		"libglib2.0-0t64 (>= 2.83.0)",
+		"libgnutls30t64 (>= 3.7.3)",
+		"libjcat1 (>= 0.2.0)",
+		"libjson-glib-1.0-0 (>= 1.5.2)",
+		"liblzma5 (>= 5.1.1alpha+20120614)",
+		"libmbim-glib4 (>= 1.28.0)",
+		"libmbim-proxy",
+		"libmm-glib0 (>= 1.22.0)",
+		"libmnl0 (>= 1.0.3-4~)",
+		"libpolkit-gobject-1-0 (>= 0.99)",
+		"libprotobuf-c1 (>= 1.3.1)",
+		"libqmi-glib5 (>= 1.32.0)",
+		"libqmi-proxy",
+		"libreadline8t64 (>= 6.0)",
+		"libsqlite3-0 (>= 3.20.0)",
+		"libsystemd0",
+		"libtss2-esys-3.0.2-0t64 (>= 2.3.1)",
+		"libusb-1.0-0 (>= 2:1.0.27~rc1)",
+		"libxmlb2 (>= 0.3.22)",
+		"zlib1g (>= 1:1.1.4)",
+		"shared-mime-info"
+	],
+	"recommends": [
+		"python3",
+		"bolt",
+		"default-dbus-system-bus | dbus-system-bus",
+		"secureboot-db",
+		"udisks2",
+		"fwupd-signed",
+		"jq"
+	],
+	"suggests": [
+		"gir1.2-fwupd-2.0"
+	],
+	"replaces": [
+		"fwupdate (<< 12-7)",
+		"gir1.2-dfu-1.0 (<< 0.9.7-1)",
+		"libdfu-dev (<< 0.9.7-1)",
+		"libdfu1 (<< 0.9.7-1)"
+	],
+	"breaks": [
+		"fwupdate (<< 12-7)",
+		"libdfu-dev (<< 0.9.7-1)",
+		"libdfu1 (<< 0.9.7-1)"
+	],
+	"conflicts": [
+		"fwupdate-amd64-signed",
+		"fwupdate-arm64-signed",
+		"fwupdate-armhf-signed",
+		"fwupdate-i386-signed"
+	],
+	"installedSize": 10532,
+	"maintainer": "Ubuntu Developers <ubuntu-devel-discuss@lists.ubuntu.com>",
+	"description": "Firmware update daemon",
+	"homepage": "https://github.com/fwupd/fwupd",
+	"filename": "pool/main/f/fwupd/fwupd_2.0.17-6~25.10.1_amd64.deb",
+	"size": 5729884,
+	"md5": "4f453de364c541d8c171f5bcc1c5ced2",
+	"sha1": "d79ab1b71bdf48199ac8cdc36a46f4ad0638894e",
+	"sha256": "23c4f73c289e6eda17eb88529b6247c4f517cb83736f496c9640a5afe7ae18db",
+	"sha512": "f92ad8979dd05bdf3e44a8424d7442990d2dff0319cb45d14d530be027270089b2559303bf5a2343b2b5093f950c8a83357ef237656c3920229c01bc4d60a296",
+	"descriptionMd5": "cdd6fee34520bc38e3f317c22bf0694b"
+}

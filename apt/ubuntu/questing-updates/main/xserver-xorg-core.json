@@ -1,0 +1,71 @@
+{
+	"raw": {},
+	"required": [
+		"Filename",
+		"Size"
+	],
+	"package": "xserver-xorg-core",
+	"source": "xorg-server",
+	"version": "2:21.1.18-1ubuntu1.1",
+	"section": "x11",
+	"priority": "optional",
+	"architecture": "amd64",
+	"depends": [
+		"xserver-common (>= 2:21.1.18-1ubuntu1.1)",
+		"keyboard-configuration",
+		"udev (>= 149)",
+		"libegl1",
+		"libaudit1 (>= 1:2.2.1)",
+		"libc6 (>= 2.42)",
+		"libdbus-1-3 (>= 1.10)",
+		"libdrm2 (>= 2.4.107-5~)",
+		"libepoxy0 (>= 1.5.4)",
+		"libgbm1 (>= 17.1.0~rc2)",
+		"libgl1",
+		"libnettle8t64",
+		"libpciaccess0 (>= 0.12.902)",
+		"libpixman-1-0 (>= 0.30.0)",
+		"libselinux1 (>= 3.1~)",
+		"libsystemd0",
+		"libudev1 (>= 183)",
+		"libunwind8",
+		"libxau6 (>= 1:1.0.11)",
+		"libxcvt0 (>= 0.1.0)",
+		"libxdmcp6",
+		"libxfont2 (>= 1:2.0.1)",
+		"libxshmfence1"
+	],
+	"recommends": [
+		"libgl1-mesa-dri (>= 7.10.2-4)",
+		"default-logind | logind",
+		"xcvt"
+	],
+	"suggests": [
+		"xfonts-100dpi | xfonts-75dpi",
+		"xfonts-scalable"
+	],
+	"replaces": [
+		"xserver-xorg (<< 1:7.7+10~)",
+		"xserver-xorg-video-modesetting"
+	],
+	"breaks": [
+		"libgl1-mesa-dri (<< 18.0.5)",
+		"systemd (<< 226-4~)",
+		"xserver-xorg (<< 1:7.7+10~)"
+	],
+	"conflicts": [
+		"xserver-xorg-input-evtouch",
+		"xserver-xorg-video-modesetting"
+	],
+	"installedSize": 3975,
+	"maintainer": "Ubuntu X-SWAT <ubuntu-x@lists.ubuntu.com>",
+	"description": "Xorg X server - core server",
+	"homepage": "https://www.x.org/",
+	"filename": "pool/main/x/xorg-server/xserver-xorg-core_21.1.18-1ubuntu1.1_amd64.deb",
+	"size": 1526274,
+	"md5": "a42ed8a0e0f606101f1a58457b2a0435",
+	"sha1": "046866f614612a54423ac277cc9b0bae0df852bd",
+	"sha256": "85de6f9eaf6272f2d31b9fd86e2544eee43f0f427ed5c2d3535c1a13a695d7c6",
+	"sha512": "f0a17df7fd21365371c1fb471532e0493b8d66a80c1a6500c27b147a84491439d340f75da51dab6da80d10454d5cbe05dc3809fe80f6cdfeb1364ce9133d4dfb",
+	"descriptionMd5": "018a15965c91ba9a09e0652c1c0fb9ac"
+}

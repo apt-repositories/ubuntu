@@ -6,6 +6,43 @@
 	],
 	"package": "strongswan-starter",
 	"source": "strongswan",
+	"version": "6.0.1-6ubuntu4.1",
+	"section": "universe/net",
+	"priority": "optional",
+	"architecture": "amd64",
+	"depends": [
+		"adduser",
+		"libstrongswan (= 6.0.1-6ubuntu4.1)",
+		"sysvinit-utils (>= 3.05-3)",
+		"strongswan-charon",
+		"debconf (>= 0.5) | debconf-2.0",
+		"libc6 (>= 2.38)"
+	],
+	"preDepends": [
+		"init-system-helpers (>= 1.54~)"
+	],
+	"conflicts": [
+		"libreswan"
+	],
+	"installedSize": 676,
+	"maintainer": "Ubuntu Developers <ubuntu-devel-discuss@lists.ubuntu.com>",
+	"description": "strongSwan daemon starter and configuration file parser",
+	"homepage": "http://www.strongswan.org",
+	"filename": "pool/universe/s/strongswan/strongswan-starter_6.0.1-6ubuntu4.1_amd64.deb",
+	"size": 163092,
+	"md5": "e5085797fbfaa0ddf077d06af478f8fd",
+	"sha1": "50adc00e823ff5b6869aae911f672142f8487492",
+	"sha256": "d42283e2b8f128f474dd6b7cf5ec4658eb4fd687e8f017958a1bc510b1606a2c",
+	"sha512": "78f04be24bcc378976530ee23112e8fdc5948b529f54dbe229e7348f39a3e534ed86aacd2c92efdd482110a419e025794557c7e01f9eda7edfb85eea49fc096e",
+	"descriptionMd5": "b25b8defb52457fc021a93ec427b9da8"
+},{
+	"raw": {},
+	"required": [
+		"Filename",
+		"Size"
+	],
+	"package": "strongswan-starter",
+	"source": "strongswan",
 	"version": "6.0.1-6ubuntu4",
 	"section": "universe/net",
 	"priority": "optional",

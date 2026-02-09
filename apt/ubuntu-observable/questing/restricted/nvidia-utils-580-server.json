@@ -6,6 +6,45 @@
 	],
 	"package": "nvidia-utils-580-server",
 	"source": "nvidia-graphics-drivers-580-server",
+	"version": "580.126.09-0ubuntu0.25.10.1",
+	"section": "restricted/libs",
+	"priority": "optional",
+	"architecture": "amd64",
+	"depends": [
+		"nvidia-kernel-common-580-server-580.126.09",
+		"libc6 (>= 2.34)",
+		"libnvidia-compute-580-server (>= 580.126.09)"
+	],
+	"suggests": [
+		"nvidia-driver-580-server"
+	],
+	"replaces": [
+		"nvidia-smi",
+		"nvidia-utils"
+	],
+	"conflicts": [
+		"nvidia-smi",
+		"nvidia-utils"
+	],
+	"installedSize": 1728,
+	"maintainer": "Ubuntu Core Developers <ubuntu-devel-discuss@lists.ubuntu.com>",
+	"description": "NVIDIA Server Driver support binaries",
+	"homepage": "http://www.nvidia.com",
+	"filename": "pool/restricted/n/nvidia-graphics-drivers-580-server/nvidia-utils-580-server_580.126.09-0ubuntu0.25.10.1_amd64.deb",
+	"size": 599272,
+	"md5": "6924956b203d841a8f8f9fbbdf650d3e",
+	"sha1": "c46e873c6e4ac4f69e58d344427889a312ae9deb",
+	"sha256": "59c59f563c59f69ca93c0201c0a0f93015df1da2a11990599ef2eb6d81d712e2",
+	"sha512": "ce538140d49fee269e5f6fb157c9b7f6e22a93722f1a2b4a66345a14e97464672b0bd3a863e7fb7b3cca235c8d5e3ad14cd739b365cd49336374180cdeeaec23",
+	"descriptionMd5": "4e4bcf98bdc87ac5b44ccdaec6901913"
+},{
+	"raw": {},
+	"required": [
+		"Filename",
+		"Size"
+	],
+	"package": "nvidia-utils-580-server",
+	"source": "nvidia-graphics-drivers-580-server",
 	"version": "580.82.07-0ubuntu2",
 	"section": "restricted/libs",
 	"priority": "optional",

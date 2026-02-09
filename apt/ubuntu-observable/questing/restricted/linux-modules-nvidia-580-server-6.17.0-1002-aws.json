@@ -6,6 +6,35 @@
 	],
 	"package": "linux-modules-nvidia-580-server-6.17.0-1002-aws",
 	"source": "linux-restricted-modules-aws",
+	"version": "6.17.0-1002.2+2",
+	"section": "restricted/kernel",
+	"priority": "optional",
+	"architecture": "amd64",
+	"depends": [
+		"debconf (>= 0.5) | debconf-2.0",
+		"linux-image-6.17.0-1002-aws | linux-image-unsigned-6.17.0-1002-aws",
+		"linux-signatures-nvidia-6.17.0-1002-aws (= 6.17.0-1002.2+2)",
+		"linux-objects-nvidia-580-server-6.17.0-1002-aws (= 6.17.0-1002.2+2)",
+		"nvidia-kernel-common-580-server (>= 580.95.05)"
+	],
+	"installedSize": 33,
+	"maintainer": "Canonical Kernel Team <kernel-team@lists.ubuntu.com>",
+	"description": "Linux kernel nvidia modules for version 6.17.0-1002",
+	"filename": "pool/restricted/l/linux-restricted-modules-aws/linux-modules-nvidia-580-server-6.17.0-1002-aws_6.17.0-1002.2+2_amd64.deb",
+	"size": 14184,
+	"md5": "11b24cd9776ccebff1da3a5948013bcf",
+	"sha1": "56cee676bbb10fd88c090bab4c73f527fdbb5de3",
+	"sha256": "a2bfa417ab67d1c6621a74ade989835808b2a31594a01241b1e40aae9be4a60f",
+	"sha512": "d71e6c221095a5ed793a385b3840f3d5704225c013c0787cc7c36f8e31f7d25d0a424784fd973915c5f607be93aee78fa32e78cee8255a71a6b00906743e5f79",
+	"descriptionMd5": "8394367f4316f2800d6facdcec7bfec0"
+},{
+	"raw": {},
+	"required": [
+		"Filename",
+		"Size"
+	],
+	"package": "linux-modules-nvidia-580-server-6.17.0-1002-aws",
+	"source": "linux-restricted-modules-aws",
 	"version": "6.17.0-1002.2+1",
 	"section": "restricted/kernel",
 	"priority": "optional",

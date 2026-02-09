@@ -6,6 +6,35 @@
 	],
 	"package": "linux-modules-nvidia-580-6.17.0-1003-azure",
 	"source": "linux-restricted-modules-azure",
+	"version": "6.17.0-1003.3+1",
+	"section": "restricted/kernel",
+	"priority": "optional",
+	"architecture": "amd64",
+	"depends": [
+		"debconf (>= 0.5) | debconf-2.0",
+		"linux-image-6.17.0-1003-azure | linux-image-unsigned-6.17.0-1003-azure",
+		"linux-signatures-nvidia-6.17.0-1003-azure (= 6.17.0-1003.3+1)",
+		"linux-objects-nvidia-580-6.17.0-1003-azure (= 6.17.0-1003.3+1)",
+		"nvidia-kernel-common-580 (>= 580.95.05)"
+	],
+	"installedSize": 29,
+	"maintainer": "Canonical Kernel Team <kernel-team@lists.ubuntu.com>",
+	"description": "Linux kernel nvidia modules for version 6.17.0-1003",
+	"filename": "pool/restricted/l/linux-restricted-modules-azure/linux-modules-nvidia-580-6.17.0-1003-azure_6.17.0-1003.3+1_amd64.deb",
+	"size": 10404,
+	"md5": "0dbf48b53823aeb4e4da9bcef3a64e79",
+	"sha1": "0a0c22ba061402d13258d9a08931855d37810ba5",
+	"sha256": "e2c9a8600383d6b2c34c31703f20a4a5dedbbf477b3cef80ece5f1e51b060770",
+	"sha512": "b939b71a8d7772fe65fd76f8e6e86f6907989a52160973c5fd6dc58b05011a1248b21519f20366deb275833d965a4f6d249d4cf9a950be152a7a1e463c83d695",
+	"descriptionMd5": "16dddfaed9474010a7e24d1e88351a15"
+},{
+	"raw": {},
+	"required": [
+		"Filename",
+		"Size"
+	],
+	"package": "linux-modules-nvidia-580-6.17.0-1003-azure",
+	"source": "linux-restricted-modules-azure",
 	"version": "6.17.0-1003.3",
 	"section": "restricted/kernel",
 	"priority": "optional",

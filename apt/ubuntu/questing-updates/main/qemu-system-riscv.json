@@ -1,0 +1,75 @@
+{
+	"raw": {},
+	"required": [
+		"Filename",
+		"Size"
+	],
+	"package": "qemu-system-riscv",
+	"source": "qemu",
+	"version": "1:10.1.0+ds-5ubuntu2.2",
+	"section": "otherosfs",
+	"priority": "optional",
+	"architecture": "amd64",
+	"depends": [
+		"libaio1t64 (>= 0.3.93)",
+		"libbpf1 (>= 1:0.0.8)",
+		"libc6 (>= 2.42)",
+		"libfdt1 (>= 1.7.2)",
+		"libfuse3-4 (>= 3.17.2)",
+		"libglib2.0-0t64 (>= 2.78.0)",
+		"libgmp10 (>= 2:6.3.0+dfsg)",
+		"libgnutls30t64 (>= 3.8.6)",
+		"libhogweed6t64",
+		"libibverbs1 (>= 1.1.6)",
+		"libjpeg8 (>= 8c)",
+		"libnettle8t64 (>= 3.9~)",
+		"libnuma1 (>= 2.0.15)",
+		"libpixman-1-0 (>= 0.19.6)",
+		"libpmem1 (>= 1.4)",
+		"libpng16-16t64 (>= 1.6.46)",
+		"librdmacm1t64 (>= 1.0.15)",
+		"libsasl2-2 (>= 2.1.28+dfsg1)",
+		"libseccomp2 (>= 2.1.0)",
+		"libslirp0 (>= 4.7.0)",
+		"libudev1 (>= 183)",
+		"liburing2 (>= 2.3)",
+		"libzstd1 (>= 1.5.5)",
+		"zlib1g (>= 1:1.2.0)",
+		"qemu-system-common (= 1:10.1.0+ds-5ubuntu2.2)",
+		"qemu-system-data (>> 1:10.1.0+ds~)",
+		"opensbi (>> 1.5.1-1~)"
+	],
+	"recommends": [
+		"qemu-utils",
+		"ipxe-qemu",
+		"qemu-efi-riscv64",
+		"qemu-system-gui (= 1:10.1.0+ds-5ubuntu2.2)",
+		"qemu-system-modules-spice (= 1:10.1.0+ds-5ubuntu2.2)",
+		"qemu-system-modules-opengl (= 1:10.1.0+ds-5ubuntu2.2)",
+		"qemu-block-extra (= 1:10.1.0+ds-5ubuntu2.2)"
+	],
+	"suggests": [
+		"samba",
+		"vde2",
+		"passt"
+	],
+	"replaces": [
+		"qemu-system-data (<< 1:9.1.0+ds-4~)",
+		"qemu-system-misc (<< 1:9.1.0+ds-9~)"
+	],
+	"breaks": [
+		"qemu-system-data (<< 1:9.1.0+ds-4~)",
+		"qemu-system-misc (<< 1:9.1.0+ds-9~)"
+	],
+	"installedSize": 35175,
+	"maintainer": "Ubuntu Developers <ubuntu-devel-discuss@lists.ubuntu.com>",
+	"description": "QEMU full system emulation binaries (riscv)",
+	"homepage": "http://www.qemu.org/",
+	"filename": "pool/main/q/qemu/qemu-system-riscv_10.1.0+ds-5ubuntu2.2_amd64.deb",
+	"size": 8561454,
+	"md5": "74231832adc756a3ca2c68f45d3cbfa6",
+	"sha1": "b1a813ba13fd814f3dbb74f05ae3d53d83b5d1e9",
+	"sha256": "dad5dca7126b9e2358f668ab1a6cacac57e770326e74ac64e48a88f98b94a309",
+	"sha512": "6985a42ef742592feddca6f69cb2582569448c1612d912c86bcaafed68a17d0d3df101361bb932aaa81c69746d859e62ef47a16b0583e8c41cc6a26c80d7a79e",
+	"descriptionMd5": "5e5887e91389f4d68f57148b82ac7aad"
+}

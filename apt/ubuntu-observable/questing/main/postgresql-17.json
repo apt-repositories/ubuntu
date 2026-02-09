@@ -5,6 +5,60 @@
 		"Size"
 	],
 	"package": "postgresql-17",
+	"version": "17.7-0ubuntu0.25.10.1",
+	"section": "database",
+	"priority": "optional",
+	"architecture": "amd64",
+	"depends": [
+		"locales | locales-all",
+		"postgresql-client-17",
+		"postgresql-common (>= 252~)",
+		"ssl-cert",
+		"tzdata",
+		"debconf (>= 0.5) | debconf-2.0",
+		"libc6 (>= 2.38)",
+		"libgcc-s1 (>= 3.3.1)",
+		"libgssapi-krb5-2 (>= 1.14+dfsg)",
+		"libicu76 (>= 76.1-1~)",
+		"libldap2 (>= 2.6.2)",
+		"libllvm20 (>= 1:20.1.0)",
+		"liblz4-1 (>= 0.0~r130)",
+		"libpam0g (>= 0.99.7.1)",
+		"libpq5 (>= 17~~)",
+		"libselinux1 (>= 3.1~)",
+		"libssl3t64 (>= 3.4.0)",
+		"libstdc++6 (>= 5.2)",
+		"libsystemd0",
+		"libuuid1 (>= 2.16)",
+		"libxml2-16 (>= 2.14.1)",
+		"libxslt1.1 (>= 1.1.25)",
+		"libzstd1 (>= 1.5.5)",
+		"zlib1g (>= 1:1.1.4)"
+	],
+	"recommends": [
+		"sysstat"
+	],
+	"breaks": [
+		"dbconfig-common (<< 2.0.22~)"
+	],
+	"installedSize": 45520,
+	"maintainer": "Ubuntu Developers <ubuntu-devel-discuss@lists.ubuntu.com>",
+	"description": "The World's Most Advanced Open Source Relational Database",
+	"homepage": "http://www.postgresql.org/",
+	"filename": "pool/main/p/postgresql-17/postgresql-17_17.7-0ubuntu0.25.10.1_amd64.deb",
+	"size": 15813502,
+	"md5": "27fe9cac7e06452289212db1ad22047e",
+	"sha1": "4a31c2f41edc576fc8304dde0d1310547234b70e",
+	"sha256": "43241ea05b98ae4c185eeeef1877835a5d7de9c682bd8a931025ef3ae4c9ec6e",
+	"sha512": "639c65c6d95cc41e512e544aa11add49c054918117f22206e20e193f4fb2ab3b5d8ffdb4bdc942d52356a20a1556ee1963c0b1c00deb64ffb3ab779bd9f91663",
+	"descriptionMd5": "b045ba4e9ac97ba71c16264f2467bd3c"
+},{
+	"raw": {},
+	"required": [
+		"Filename",
+		"Size"
+	],
+	"package": "postgresql-17",
 	"version": "17.6-1build1",
 	"section": "database",
 	"priority": "optional",

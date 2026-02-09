@@ -6,6 +6,48 @@
 	],
 	"package": "binutils-s390x-linux-gnu",
 	"source": "binutils",
+	"version": "2.45-7ubuntu1.2",
+	"section": "devel",
+	"priority": "extra",
+	"architecture": "amd64",
+	"depends": [
+		"binutils-common (= 2.45-7ubuntu1.2)",
+		"libc6 (>= 2.38)",
+		"libjansson4 (>= 2.14)",
+		"libsframe2 (>= 2.44.90)",
+		"libzstd1 (>= 1.5.5)",
+		"zlib1g (>= 1:1.1.4)"
+	],
+	"suggests": [
+		"binutils-doc (= 2.45-7ubuntu1.2)"
+	],
+	"replaces": [
+		"binutils (<< 2.29-6)",
+		"binutils-dev (<< 2.38.50.20220609-2)"
+	],
+	"breaks": [
+		"binutils (<< 2.29-6)",
+		"binutils-dev (<< 2.38.50.20220609-2)"
+	],
+	"installedSize": 6680,
+	"maintainer": "Ubuntu Developers <ubuntu-devel-discuss@lists.ubuntu.com>",
+	"description": "GNU binary utilities, for s390x-linux-gnu target",
+	"homepage": "https://www.gnu.org/software/binutils/",
+	"filename": "pool/main/b/binutils/binutils-s390x-linux-gnu_2.45-7ubuntu1.2_amd64.deb",
+	"size": 1406888,
+	"md5": "bde2135bb608655ee8eef9663ee3f544",
+	"sha1": "e3f3badf645a6b1cfdb369f402137e62ee1b275d",
+	"sha256": "f3a23a37ceef92c9f37621aea0877fd2a52c357f9d83b82bd3194e99eedb8e1d",
+	"sha512": "0aeed3faca768e9ad8291cab732b95e74243714a1cfead65c87a1c8cc160251d4497545cbc5f54a77aeedb17d6322a055ef569b6b1821947f7717ad489f63737",
+	"descriptionMd5": "fbec9c58067c885ede097ea1450a6669"
+},{
+	"raw": {},
+	"required": [
+		"Filename",
+		"Size"
+	],
+	"package": "binutils-s390x-linux-gnu",
+	"source": "binutils",
 	"version": "2.45-7ubuntu1",
 	"section": "devel",
 	"priority": "extra",

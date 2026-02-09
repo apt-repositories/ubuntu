@@ -6,6 +6,44 @@
 	],
 	"package": "openjdk-17-jdk-headless",
 	"source": "openjdk-17",
+	"version": "17.0.18+8-1~25.10.1",
+	"section": "universe/java",
+	"priority": "optional",
+	"architecture": "amd64",
+	"depends": [
+		"openjdk-17-jre-headless (= 17.0.18+8-1~25.10.1)",
+		"libc6 (>= 2.34)",
+		"zlib1g (>= 1:1.1.4)"
+	],
+	"suggests": [
+		"openjdk-17-demo",
+		"openjdk-17-source"
+	],
+	"replaces": [
+		"openjdk-17-jre-headless (<< 17~10)"
+	],
+	"breaks": [
+		"openjdk-17-jre-headless (<< 17~10)"
+	],
+	"installedSize": 77184,
+	"maintainer": "OpenJDK Team <openjdk-17@packages.debian.org>",
+	"description": "OpenJDK Development Kit (JDK) (headless)",
+	"homepage": "https://openjdk.java.net/",
+	"filename": "pool/universe/o/openjdk-17/openjdk-17-jdk-headless_17.0.18+8-1~25.10.1_amd64.deb",
+	"size": 71684098,
+	"md5": "5f8563f09a234115759a190a05a45180",
+	"sha1": "36284f3b3b0d1486b065147125874c1dff471bfe",
+	"sha256": "4b456b0a635fcacf7080febc4e52e28ab5a58803004947c613bc48723eb0aa1c",
+	"sha512": "1344ec504f56f6cf18ae583d0ab1b4005b88e8c87a45357bfad9c9ae3967bfdf716e3f8dbdda2c35fdbc052d2778f2f10cbcd2aedf05aa94f578b50eba74a376",
+	"descriptionMd5": "494a52f34d707a832270d6d51a78f511"
+},{
+	"raw": {},
+	"required": [
+		"Filename",
+		"Size"
+	],
+	"package": "openjdk-17-jdk-headless",
+	"source": "openjdk-17",
 	"version": "17.0.17~8ea-1",
 	"section": "universe/java",
 	"priority": "optional",
