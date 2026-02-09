@@ -1,0 +1,42 @@
+{
+	"raw": {},
+	"required": [
+		"Filename",
+		"Size"
+	],
+	"package": "linux-image-unsigned-6.17.0-1003-aws",
+	"source": "linux-aws",
+	"version": "6.17.0-1003.3",
+	"section": "kernel",
+	"priority": "optional",
+	"architecture": "amd64",
+	"depends": [
+		"kmod",
+		"linux-base (>= 4.5ubuntu1~16.04.1)",
+		"linux-modules-6.17.0-1003-aws"
+	],
+	"recommends": [
+		"grub-pc | grub-efi-amd64 | grub-efi-ia32 | grub | lilo",
+		"initramfs-tools | linux-initramfs-tool"
+	],
+	"suggests": [
+		"bpftool",
+		"linux-perf",
+		"linux-aws-doc-6.17.0 | linux-aws-source-6.17.0",
+		"linux-aws-tools",
+		"linux-headers-6.17.0-1003-aws"
+	],
+	"conflicts": [
+		"linux-image-6.17.0-1003-aws"
+	],
+	"installedSize": 16412,
+	"maintainer": "Ubuntu Kernel Team <kernel-team@lists.ubuntu.com>",
+	"description": "Linux kernel image for version 6.17.0",
+	"filename": "pool/main/l/linux-aws/linux-image-unsigned-6.17.0-1003-aws_6.17.0-1003.3_amd64.deb",
+	"size": 16476352,
+	"md5": "ed5fc0c96556c4307527c0e056d3131d",
+	"sha1": "fa30ce6734cec2008ba7460d7f891be66e279324",
+	"sha256": "35f41db3152e3cc46257a99de0134959b9a3e0283c2570735085c77b5df7a4ba",
+	"sha512": "0bfbe6f52ba53f0ffb55e17c9880573fc9969e63a890505e8f8cc410f5da2cb1142227e766502019cc88c4406a13a177bb901d50ff39fac48a3e2d8734aa3109",
+	"descriptionMd5": "90a8c69b00ce79b32dd03e32da90ad41"
+}

@@ -6,6 +6,48 @@
 	],
 	"package": "binutils-alpha-linux-gnu",
 	"source": "binutils",
+	"version": "2.45-7ubuntu1.2",
+	"section": "universe/devel",
+	"priority": "extra",
+	"architecture": "amd64",
+	"depends": [
+		"binutils-common (= 2.45-7ubuntu1.2)",
+		"libc6 (>= 2.38)",
+		"libjansson4 (>= 2.14)",
+		"libsframe2 (>= 2.44.90)",
+		"libzstd1 (>= 1.5.5)",
+		"zlib1g (>= 1:1.1.4)"
+	],
+	"suggests": [
+		"binutils-doc (= 2.45-7ubuntu1.2)"
+	],
+	"replaces": [
+		"binutils (<< 2.29-6)",
+		"binutils-dev (<< 2.38.50.20220609-2)"
+	],
+	"breaks": [
+		"binutils (<< 2.29-6)",
+		"binutils-dev (<< 2.38.50.20220609-2)"
+	],
+	"installedSize": 5385,
+	"maintainer": "Ubuntu Developers <ubuntu-devel-discuss@lists.ubuntu.com>",
+	"description": "GNU binary utilities, for alpha-linux-gnu target",
+	"homepage": "https://www.gnu.org/software/binutils/",
+	"filename": "pool/universe/b/binutils/binutils-alpha-linux-gnu_2.45-7ubuntu1.2_amd64.deb",
+	"size": 1411532,
+	"md5": "5627aa0289b20c056f8f665ba8216ed3",
+	"sha1": "73a91cec816cc08b853c80856d5c75aa522fbd51",
+	"sha256": "8c6b5b2c51ee7dc6a51b6305ae26c975491f34d167353cc0fe06131b88608bbc",
+	"sha512": "dbb5d5476150426f625bebf73d7b2e70f3f8e394b76b05077746b05a108beccdb7841bd09c595fd29b4b529e9d1df5a58e9d2d911e9f109937190c1a94042739",
+	"descriptionMd5": "af3b95cf468fa442f38551e20ab183d2"
+},{
+	"raw": {},
+	"required": [
+		"Filename",
+		"Size"
+	],
+	"package": "binutils-alpha-linux-gnu",
+	"source": "binutils",
 	"version": "2.45-7ubuntu1",
 	"section": "universe/devel",
 	"priority": "extra",

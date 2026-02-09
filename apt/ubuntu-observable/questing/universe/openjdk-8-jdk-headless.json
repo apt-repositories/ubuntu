@@ -6,6 +6,45 @@
 	],
 	"package": "openjdk-8-jdk-headless",
 	"source": "openjdk-8",
+	"version": "8u482-ga~us1-0ubuntu1~25.10",
+	"section": "universe/java",
+	"priority": "optional",
+	"architecture": "amd64",
+	"depends": [
+		"openjdk-8-jre-headless (= 8u482-ga~us1-0ubuntu1~25.10)",
+		"libc6 (>= 2.34)",
+		"zlib1g (>= 1:1.1.4)"
+	],
+	"suggests": [
+		"openjdk-8-demo",
+		"openjdk-8-source"
+	],
+	"replaces": [
+		"openjdk-8-jdk (<< 8u72-b15-4)",
+		"openjdk-8-jre-headless (<< 8u232-b07-1)"
+	],
+	"breaks": [
+		"openjdk-8-jre-headless (<< 8u232-b07-1)"
+	],
+	"installedSize": 38852,
+	"maintainer": "Ubuntu Developers <ubuntu-devel-discuss@lists.ubuntu.com>",
+	"description": "OpenJDK Development Kit (JDK) (headless)",
+	"homepage": "https://openjdk.org/projects/jdk8u/",
+	"filename": "pool/universe/o/openjdk-8/openjdk-8-jdk-headless_8u482-ga~us1-0ubuntu1~25.10_amd64.deb",
+	"size": 8826626,
+	"md5": "20538a5bfad27c7f7e3ae461ad5e5721",
+	"sha1": "1c8d32d5e6cc98341db120ed70e1b0d2a413f5c7",
+	"sha256": "a04c3813a5917e2560c4fe4e0fcd33f9f984e2eb330cf0dfe4f66baa4c9f9a37",
+	"sha512": "4ac7064ba03e93f27bf48c7b4669663f41edbf5cba5d405d60607c9acef5d182acfeb1462f9a252e9373502790df4e9a1583ecb727e36b5cbf0709b1be6bd09b",
+	"descriptionMd5": "8728353da59d7b1608e908f191d9b820"
+},{
+	"raw": {},
+	"required": [
+		"Filename",
+		"Size"
+	],
+	"package": "openjdk-8-jdk-headless",
+	"source": "openjdk-8",
 	"version": "8u462-ga-1",
 	"section": "universe/java",
 	"priority": "optional",

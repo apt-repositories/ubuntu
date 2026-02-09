@@ -6,6 +6,50 @@
 	],
 	"package": "libreoffice-sdbc-firebird",
 	"source": "libreoffice",
+	"version": "4:25.8.4-0ubuntu0.25.10.1",
+	"section": "universe/database",
+	"priority": "optional",
+	"architecture": "amd64",
+	"depends": [
+		"libreoffice-core-nogui | libreoffice-core",
+		"firebird4.0-server-core",
+		"libc6 (>= 2.14)",
+		"libfbclient2 (>= 4.0.6~)",
+		"libfbclient2 (<< 5.0~)",
+		"libgcc-s1 (>= 3.0)",
+		"libstdc++6 (>= 11)",
+		"libuno-cppu3t64 (>= 4.4.0~alpha)",
+		"libuno-cppuhelpergcc3-3t64 (>= 1:7.4.0~alpha)",
+		"libuno-sal3t64 (>= 5.3.0~alpha)",
+		"libuno-salhelpergcc3-3t64 (>= 1.4.0)",
+		"uno-libs-private"
+	],
+	"preDepends": [
+		"ucf",
+		"libreoffice-common (>= 4:25.2.1~rc1-3~)"
+	],
+	"enhances": [
+		"libreoffice-base-drivers"
+	],
+	"installedSize": 695,
+	"maintainer": "Ubuntu Developers <ubuntu-devel-discuss@lists.ubuntu.com>",
+	"description": "(embedded) Firebird SDBC driver for LibreOffice",
+	"homepage": "http://www.libreoffice.org",
+	"filename": "pool/universe/libr/libreoffice/libreoffice-sdbc-firebird_25.8.4-0ubuntu0.25.10.1_amd64.deb",
+	"size": 169998,
+	"md5": "ac0776125b6656934124bad63df4eb84",
+	"sha1": "11bf94e89854f57ad4f44d8a63489590c53d8851",
+	"sha256": "b0832ad1517303c6d57823960cd008d8956d19b56979e8e147bad41150771b7d",
+	"sha512": "89ebe9cba33a68dc1dbf08adc891ca84bca4f90d9edfcbd06f2788e1f7a90dcf501f43bd86771aed6e6e5d4832d3c7f95d6b5f5187e1f1b110a786803a9dc5a5",
+	"descriptionMd5": "17d206d15f4a6fbda10fa8da477a3e8c"
+},{
+	"raw": {},
+	"required": [
+		"Filename",
+		"Size"
+	],
+	"package": "libreoffice-sdbc-firebird",
+	"source": "libreoffice",
 	"version": "4:25.8.1~rc1-0ubuntu1",
 	"section": "universe/database",
 	"priority": "optional",

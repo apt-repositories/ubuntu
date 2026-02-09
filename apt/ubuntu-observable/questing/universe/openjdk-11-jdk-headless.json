@@ -6,6 +6,44 @@
 	],
 	"package": "openjdk-11-jdk-headless",
 	"source": "openjdk-lts",
+	"version": "11.0.30+7-1ubuntu1~25.10",
+	"section": "universe/java",
+	"priority": "optional",
+	"architecture": "amd64",
+	"depends": [
+		"openjdk-11-jre-headless (= 11.0.30+7-1ubuntu1~25.10)",
+		"libc6 (>= 2.34)",
+		"zlib1g (>= 1:1.1.4)"
+	],
+	"suggests": [
+		"openjdk-11-demo",
+		"openjdk-11-source"
+	],
+	"replaces": [
+		"openjdk-11-jre-headless (<< 11.0.11+3-2~)"
+	],
+	"breaks": [
+		"openjdk-11-jre-headless (<< 11.0.11+3-2~)"
+	],
+	"installedSize": 80401,
+	"maintainer": "Ubuntu Developers <ubuntu-devel-discuss@lists.ubuntu.com>",
+	"description": "OpenJDK Development Kit (JDK) (headless)",
+	"homepage": "https://openjdk.java.net/",
+	"filename": "pool/universe/o/openjdk-lts/openjdk-11-jdk-headless_11.0.30+7-1ubuntu1~25.10_amd64.deb",
+	"size": 73913700,
+	"md5": "cf804bf21849353e3aa4be6bb6025224",
+	"sha1": "54cb60675c178d4f4d4fb19b8b59cc4c0676ee8e",
+	"sha256": "8d11bbc711a52d903bde830c85e6ff78443f910e6fb09f08bb8b82c7e964340f",
+	"sha512": "a74a3f191a77008727ff775079f5df9a2bc4c681d0410061e4de4498548570939c0d3b67df02f44151a78ca6ee1973653eb7a7beb5c93d13eaf6d49230f0e055",
+	"descriptionMd5": "494a52f34d707a832270d6d51a78f511"
+},{
+	"raw": {},
+	"required": [
+		"Filename",
+		"Size"
+	],
+	"package": "openjdk-11-jdk-headless",
+	"source": "openjdk-lts",
 	"version": "11.0.28+6-1ubuntu1",
 	"section": "universe/java",
 	"priority": "optional",

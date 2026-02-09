@@ -1,0 +1,73 @@
+{
+	"raw": {},
+	"required": [
+		"Filename",
+		"Size"
+	],
+	"package": "cups-daemon",
+	"source": "cups",
+	"version": "2.4.12-0ubuntu3.5",
+	"section": "net",
+	"priority": "optional",
+	"architecture": "amd64",
+	"depends": [
+		"adduser",
+		"bc",
+		"libcups2t64 (= 2.4.12-0ubuntu3.5)",
+		"lsb-base",
+		"procps",
+		"ssl-cert",
+		"libapparmor1 (>= 2.7.0~beta1+bzr1772)",
+		"libavahi-client3 (>= 0.6.16)",
+		"libavahi-common3 (>= 0.6.16)",
+		"libc6 (>= 2.38)",
+		"libdbus-1-3 (>= 1.10)",
+		"libglib2.0-0t64 (>= 2.22.0)",
+		"libgssapi-krb5-2 (>= 1.17)",
+		"libpam0g (>= 0.99.7.1)",
+		"libpaper2 (>= 2.2.5)",
+		"libsnapd-glib-2-1 (>= 1.61)",
+		"libsystemd0"
+	],
+	"preDepends": [
+		"init-system-helpers (>= 1.54~)"
+	],
+	"recommends": [
+		"avahi-daemon",
+		"colord",
+		"cups-browsed",
+		"ipp-usb"
+	],
+	"suggests": [
+		"cups",
+		"cups-bsd",
+		"cups-client (>= 2.4.12-0ubuntu3.5)",
+		"cups-common (>= 2.4.12-0ubuntu3.5)",
+		"cups-filters",
+		"cups-pdf",
+		"cups-ppdc",
+		"cups-server-common (>= 2.4.12-0ubuntu3.5)",
+		"foomatic-db-compressed-ppds | foomatic-db",
+		"ghostscript",
+		"poppler-utils",
+		"smbclient",
+		"udev"
+	],
+	"replaces": [
+		"cups (<< 2.1.0-6~)"
+	],
+	"breaks": [
+		"cups (<< 2.1.0-6~)"
+	],
+	"installedSize": 920,
+	"maintainer": "Ubuntu Developers <ubuntu-devel-discuss@lists.ubuntu.com>",
+	"description": "Common UNIX Printing System(tm) - daemon",
+	"homepage": "https://github.com/OpenPrinting/cups/",
+	"filename": "pool/main/c/cups/cups-daemon_2.4.12-0ubuntu3.5_amd64.deb",
+	"size": 364632,
+	"md5": "2f90bcb21c71f76aa95f955829f25019",
+	"sha1": "7130fce329429b38a93e10ad97f6d85ff0b770de",
+	"sha256": "8ef874abd345ca9b909c818daad141ec401d35aebac2c65079753fdf1f89f848",
+	"sha512": "acf5e18c80f1fcc2b70e1bdde2f7f242186ec25c5af6cc7afa1d785bbc7ccc8f235b7ed29cbdb485f8d41a69cf2c9ade41c0d29276095b098f1ae46b4e19c022",
+	"descriptionMd5": "559bf8b849cd67e4ad13a2a638aea615"
+}

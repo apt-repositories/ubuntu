@@ -6,6 +6,58 @@
 	],
 	"package": "libpython3.14-dbg",
 	"source": "python3.14",
+	"version": "3.14.0-1ubuntu0.2",
+	"section": "universe/debug",
+	"priority": "optional",
+	"architecture": "amd64",
+	"depends": [
+		"libpython3.14-stdlib (= 3.14.0-1ubuntu0.2)",
+		"libbz2-1.0",
+		"libc6 (>= 2.42)",
+		"libdb5.3t64",
+		"libexpat1 (>= 2.6.0)",
+		"libffi8 (>= 3.4)",
+		"libgdbm6t64 (>= 1.16)",
+		"liblzma5 (>= 5.1.1alpha+20120614)",
+		"libncursesw6 (>= 6.1)",
+		"libreadline8t64 (>= 7.0~beta)",
+		"libsqlite3-0 (>= 3.36.0)",
+		"libssl3t64 (>= 3.4.0)",
+		"libtcl8.6 (>= 8.6.0)",
+		"libtinfo6 (>= 6)",
+		"libtk8.6 (>= 8.6.0)",
+		"libuuid1 (>= 2.20.1)",
+		"libzstd1 (>= 1.5.5)",
+		"zlib1g (>= 1:1.2.0)"
+	],
+	"replaces": [
+		"libpython3.14-dbg",
+		"python3-gdbm-dbg (<< 3.12.5-2~)",
+		"python3-tk-dbg (<< 3.12.5-2~)"
+	],
+	"breaks": [
+		"libpython3.14-dbg (<< 3.14.0-1ubuntu0.2)",
+		"python3-gdbm-dbg (<< 3.12.5-2~)",
+		"python3-tk-dbg (<< 3.12.5-2~)"
+	],
+	"installedSize": 122026,
+	"maintainer": "Ubuntu Core Developers <ubuntu-devel-discuss@lists.ubuntu.com>",
+	"description": "Debug Build of the Python Interpreter (version 3.14)",
+	"filename": "pool/universe/p/python3.14/libpython3.14-dbg_3.14.0-1ubuntu0.2_amd64.deb",
+	"size": 27935734,
+	"md5": "1a572d204bb99e9d881a45fc32ed616e",
+	"sha1": "31a88c0b59d5a5e6d2e7d5f6c933cc135418a57a",
+	"sha256": "2ca4f73ca642fff7c860dff20d9b4ad7d28d496c3a86a552c072841c124b984d",
+	"sha512": "14c24bfb992bd8be427832441dcc81942d236aeff499be81c6f4adc11a41e7dbda6d1fbf06a333cd40b1e430ef29975efd113200d323b3f46bc07cce1ce1e5f2",
+	"descriptionMd5": "66f6b70a13a54128ccb53461e125015a"
+},{
+	"raw": {},
+	"required": [
+		"Filename",
+		"Size"
+	],
+	"package": "libpython3.14-dbg",
+	"source": "python3.14",
 	"version": "3.14.0-1",
 	"section": "universe/debug",
 	"priority": "optional",

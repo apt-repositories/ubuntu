@@ -6,6 +6,56 @@
 	],
 	"package": "apache2-bin",
 	"source": "apache2",
+	"version": "2.4.64-1ubuntu3.2",
+	"section": "httpd",
+	"priority": "optional",
+	"architecture": "amd64",
+	"depends": [
+		"perl:any",
+		"libapr1t64 (>= 1.7.0)",
+		"libaprutil1-dbd-sqlite3 | libaprutil1-dbd-mysql | libaprutil1-dbd-odbc | libaprutil1-dbd-pgsql | libaprutil1-dbd-freetds",
+		"libaprutil1-ldap",
+		"libaprutil1t64 (>= 1.6.0)",
+		"libbrotli1 (>= 0.6.0)",
+		"libc6 (>= 2.38)",
+		"libcrypt1 (>= 1:4.1.0)",
+		"libcurl4t64 (>= 7.28.0)",
+		"libjansson4 (>= 2.14)",
+		"libldap2 (>= 2.6.2)",
+		"liblua5.4-0 (>= 5.4.6)",
+		"libnghttp2-14 (>= 1.50.0)",
+		"libpcre2-8-0 (>= 10.22)",
+		"libssl3t64 (>= 3.0.0)",
+		"libxml2-16 (>= 2.14.1)",
+		"zlib1g (>= 1:1.1.4)"
+	],
+	"suggests": [
+		"apache2-doc",
+		"apache2-suexec-pristine | apache2-suexec-custom",
+		"www-browser"
+	],
+	"breaks": [
+		"fossil (<< 1:2.24-5~)"
+	],
+	"installedSize": 5100,
+	"maintainer": "Ubuntu Developers <ubuntu-devel-discuss@lists.ubuntu.com>",
+	"description": "Apache HTTP Server (modules and other binary files)",
+	"homepage": "https://httpd.apache.org/",
+	"filename": "pool/main/a/apache2/apache2-bin_2.4.64-1ubuntu3.2_amd64.deb",
+	"size": 1355888,
+	"md5": "bcf1f09e842819238e258b41a94fc450",
+	"sha1": "516c0839db34135f3001bc6284fa7a5b3f7875e5",
+	"sha256": "5ee9817f6a932b5093f87808be9dd60541e944db421cf70639853af999c95d17",
+	"sha512": "d61efa0325f2adc909a1bb819adccd475c14844c3a8f8eb277d13f22fe4d0a796f01a497281a34030e71c7816ba1166455f97fe03ce7b978b6f3085e2fc35beb",
+	"descriptionMd5": "37901ca6bbb9305b61d0920ecc08204f"
+},{
+	"raw": {},
+	"required": [
+		"Filename",
+		"Size"
+	],
+	"package": "apache2-bin",
+	"source": "apache2",
 	"version": "2.4.64-1ubuntu3",
 	"section": "httpd",
 	"priority": "optional",

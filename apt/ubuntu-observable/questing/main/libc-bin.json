@@ -6,6 +6,39 @@
 	],
 	"package": "libc-bin",
 	"source": "glibc",
+	"version": "2.42-0ubuntu3.1",
+	"section": "libs",
+	"priority": "required",
+	"architecture": "amd64",
+	"depends": [
+		"libc6 (>> 2.42)",
+		"libc6 (<< 2.43)"
+	],
+	"suggests": [
+		"manpages"
+	],
+	"breaks": [
+		"dh-lua (<< 27+nmu1~)"
+	],
+	"installedSize": 2381,
+	"maintainer": "Ubuntu Developers <ubuntu-devel-discuss@lists.ubuntu.com>",
+	"description": "GNU C Library: Binaries",
+	"homepage": "https://www.gnu.org/software/libc/libc.html",
+	"filename": "pool/main/g/glibc/libc-bin_2.42-0ubuntu3.1_amd64.deb",
+	"size": 725002,
+	"md5": "ce798c31f66be66129ba1a1b0bcc74ed",
+	"sha1": "b6ff9b9463941524a92d0b1a588352eb4eccd2bb",
+	"sha256": "c34377754c64a5ba34e6088f6fc929ca740301e6451af609e14cd96f48c6600a",
+	"sha512": "6887e8c1fe4cd24a2ced17761f586a59b86c28f406c92418302d907e767d4fc5eedcd18f944de663464d0de98dc2da001937071b06113e0893bc1cf2782050b0",
+	"descriptionMd5": "23bffd7c48b5ed8394d07f8132ceb64c"
+},{
+	"raw": {},
+	"required": [
+		"Filename",
+		"Size"
+	],
+	"package": "libc-bin",
+	"source": "glibc",
 	"version": "2.42-0ubuntu3",
 	"section": "libs",
 	"priority": "required",

@@ -5,6 +5,45 @@
 		"Size"
 	],
 	"package": "python3-ldb",
+	"source": "samba (2:4.22.3+dfsg-4ubuntu2.2)",
+	"version": "2:2.11.0+samba4.22.3+dfsg-4ubuntu2.2",
+	"section": "python",
+	"priority": "optional",
+	"architecture": "amd64",
+	"depends": [
+		"libldb2 (= 2:2.11.0+samba4.22.3+dfsg-4ubuntu2.2)",
+		"python3 (<< 3.14)",
+		"python3 (>= 3.13~)",
+		"python3:any",
+		"libc6 (>= 2.25)",
+		"libpython3.13 (>= 3.13.0~rc3)",
+		"libtalloc2 (>= 2.0.4~git20101213)"
+	],
+	"replaces": [
+		"python3-ldb-dev",
+		"python3-samba (= 2:4.21.2+dfsg-1)"
+	],
+	"breaks": [
+		"python3-ldb-dev"
+	],
+	"installedSize": 208,
+	"maintainer": "Ubuntu Developers <ubuntu-devel-discuss@lists.ubuntu.com>",
+	"description": "Python 3 bindings for LDB",
+	"homepage": "https://www.samba.org",
+	"filename": "pool/main/s/samba/python3-ldb_2.11.0+samba4.22.3+dfsg-4ubuntu2.2_amd64.deb",
+	"size": 41774,
+	"md5": "033634337a085c921e5b3ffaf815ad98",
+	"sha1": "a5f006d9caf4abab538a91e6c962f32c488d4891",
+	"sha256": "abb580d3a6da1b0e751819db2a0c173e5f89dad1dc5257e1d191c96f8d58b02a",
+	"sha512": "78d68554ef23cf85f89e11ba8ff560b21b56d76823f887b5720bc3273396fe33c74e3246fbdb5c5c386d7af7d0298e66f1f5710ed4632160e8cc7680a4f1a8ae",
+	"descriptionMd5": "27d17d077a8174ae6fbe9499e8df3eca"
+},{
+	"raw": {},
+	"required": [
+		"Filename",
+		"Size"
+	],
+	"package": "python3-ldb",
 	"source": "samba (2:4.22.3+dfsg-4ubuntu2)",
 	"version": "2:2.11.0+samba4.22.3+dfsg-4ubuntu2",
 	"section": "python",

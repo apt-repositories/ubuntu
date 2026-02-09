@@ -6,6 +6,43 @@
 	],
 	"package": "libsmbclient0",
 	"source": "samba",
+	"version": "2:4.22.3+dfsg-4ubuntu2.2",
+	"section": "libs",
+	"priority": "optional",
+	"architecture": "amd64",
+	"depends": [
+		"samba-libs (= 2:4.22.3+dfsg-4ubuntu2.2)",
+		"libbsd0 (>= 0.0)",
+		"libc6 (>= 2.38)",
+		"libndr6 (>= 2:4.17.2)",
+		"libtalloc2 (>= 2.0.4~git20101213)",
+		"libtevent0t64 (>= 0.15.0)"
+	],
+	"replaces": [
+		"libsmbclient"
+	],
+	"breaks": [
+		"libsmbclient (<< 2:4.22.3+dfsg-4ubuntu2.2)"
+	],
+	"installedSize": 259,
+	"maintainer": "Ubuntu Developers <ubuntu-devel-discuss@lists.ubuntu.com>",
+	"description": "shared library for communication with SMB/CIFS servers",
+	"homepage": "https://www.samba.org",
+	"filename": "pool/main/s/samba/libsmbclient0_4.22.3+dfsg-4ubuntu2.2_amd64.deb",
+	"size": 62974,
+	"md5": "44b0eed293ef5453f36f3ae0a762088c",
+	"sha1": "28261c1e956a28a7a380e3b9593378c9316febcc",
+	"sha256": "4a2805f3b18741c2ddd910ba2755245d3552cec1dbef4b7eb568894b78d742df",
+	"sha512": "d96ab31f52b126a943ad33a6779a2b3e6791d4b48ffdb31246ac9d0008876e5d33848a337105f24492b6aa464c94046ba38ccb219ac66f98cdaa660d5502e53a",
+	"descriptionMd5": "483547748179a567c24665e99ab5439e"
+},{
+	"raw": {},
+	"required": [
+		"Filename",
+		"Size"
+	],
+	"package": "libsmbclient0",
+	"source": "samba",
 	"version": "2:4.22.3+dfsg-4ubuntu2",
 	"section": "libs",
 	"priority": "optional",

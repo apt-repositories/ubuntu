@@ -5,6 +5,54 @@
 		"Size"
 	],
 	"package": "wireplumber",
+	"version": "0.5.10-3ubuntu1",
+	"section": "video",
+	"priority": "optional",
+	"architecture": "amd64",
+	"depends": [
+		"libc6 (>= 2.38)",
+		"libglib2.0-0t64 (>= 2.68)",
+		"libpipewire-0.3-0t64 (>= 1.0.2)",
+		"libwireplumber-0.5-0 (= 0.5.10-3ubuntu1)",
+		"init-system-helpers (>= 1.52)",
+		"default-dbus-session-bus | dbus-session-bus",
+		"pipewire (>= 1.0.2)"
+	],
+	"recommends": [
+		"pipewire-pulse"
+	],
+	"suggests": [
+		"libspa-0.2-bluetooth",
+		"libspa-0.2-libcamera",
+		"wireplumber-doc"
+	],
+	"replaces": [
+		"pipewire-media-session"
+	],
+	"breaks": [
+		"asahi-audio (<< 2.0)"
+	],
+	"conflicts": [
+		"pipewire-media-session"
+	],
+	"installedSize": 700,
+	"maintainer": "Ubuntu Developers <ubuntu-devel-discuss@lists.ubuntu.com>",
+	"description": "modular session / policy manager for PipeWire",
+	"homepage": "https://gitlab.freedesktop.org/pipewire/wireplumber",
+	"filename": "pool/main/w/wireplumber/wireplumber_0.5.10-3ubuntu1_amd64.deb",
+	"size": 97772,
+	"md5": "75a2e20eee785d6bb9e462401a2844db",
+	"sha1": "371ce82f8906acbaaad923ed5677ce0398cff039",
+	"sha256": "982561b8ee629893df7c9966df42fb1128997118c675d94986a5d9c4ea2f0dc6",
+	"sha512": "80e78a35542649b6c9dc240d2c88038734dee40d57196fb629b988eed384ed7826383b05038b3d5c32cb68727cfb7839e4c2df9122b78b33776b65b9d606cfe8",
+	"descriptionMd5": "3063a276590e540513d209cfd5b8b411"
+},{
+	"raw": {},
+	"required": [
+		"Filename",
+		"Size"
+	],
+	"package": "wireplumber",
 	"version": "0.5.10-3",
 	"section": "video",
 	"priority": "optional",

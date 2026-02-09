@@ -6,6 +6,40 @@
 	],
 	"package": "systemd-coredump",
 	"source": "systemd",
+	"version": "257.9-0ubuntu2.1",
+	"section": "universe/admin",
+	"priority": "optional",
+	"architecture": "amd64",
+	"depends": [
+		"libc6 (>= 2.36)",
+		"libsystemd-shared (= 257.9-0ubuntu2.1)",
+		"systemd"
+	],
+	"replaces": [
+		"core-dump-handler"
+	],
+	"conflicts": [
+		"core-dump-handler"
+	],
+	"installedSize": 313,
+	"maintainer": "Ubuntu Developers <ubuntu-devel-discuss@lists.ubuntu.com>",
+	"description": "tools for storing and retrieving coredumps",
+	"homepage": "https://systemd.io",
+	"filename": "pool/universe/s/systemd/systemd-coredump_257.9-0ubuntu2.1_amd64.deb",
+	"size": 67030,
+	"md5": "eed66094cddd098c6c1ba681360bc224",
+	"sha1": "48040e5a891710c81cbe925fecc5a75a79a5e07a",
+	"sha256": "f3472d19d45822029b339ff2b9006775bb4acbf3be423a50cc3bb8f5cd304b75",
+	"sha512": "b2c759f14a243b35ae2ba2ac9f0ec3fafbfb7359ebbbb253c0926702407d77cf485446f36657ed9afabb7fef7540f448896f93e6c8733c6b074aaa1269c988c2",
+	"descriptionMd5": "149b22bdf2366b7d731957d1b710e54f"
+},{
+	"raw": {},
+	"required": [
+		"Filename",
+		"Size"
+	],
+	"package": "systemd-coredump",
+	"source": "systemd",
 	"version": "257.9-0ubuntu2",
 	"section": "universe/admin",
 	"priority": "optional",

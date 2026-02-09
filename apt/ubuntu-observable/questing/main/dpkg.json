@@ -5,6 +5,48 @@
 		"Size"
 	],
 	"package": "dpkg",
+	"version": "1.22.21ubuntu3.1",
+	"section": "admin",
+	"priority": "required",
+	"architecture": "amd64",
+	"depends": [
+		"tar (>= 1.28-1)"
+	],
+	"preDepends": [
+		"libbz2-1.0",
+		"libc6 (>= 2.38)",
+		"liblzma5 (>= 5.4.0)",
+		"libmd0 (>= 0.0.0)",
+		"libselinux1 (>= 3.1~)",
+		"libzstd1 (>= 1.5.5)",
+		"zlib1g (>= 1:1.1.4)"
+	],
+	"suggests": [
+		"apt",
+		"debsig-verify"
+	],
+	"breaks": [
+		"libapt-pkg5.0 (<< 1.7~b)",
+		"lsb-base (<< 10.2019031300)"
+	],
+	"installedSize": 6393,
+	"maintainer": "Ubuntu Developers <ubuntu-devel-discuss@lists.ubuntu.com>",
+	"description": "Debian package management system",
+	"homepage": "https://wiki.debian.org/Teams/Dpkg",
+	"filename": "pool/main/d/dpkg/dpkg_1.22.21ubuntu3.1_amd64.deb",
+	"size": 1297180,
+	"md5": "4f87a1b175d7f641ff1907d9580b18ad",
+	"sha1": "90cf5f91e0123a6481ad7d90f534b14d2e9492db",
+	"sha256": "3f2d0180c16fbd72d10e321d1cbaaa9053be3463b15f54691253679b3da015d5",
+	"sha512": "dda33bee4b063b0d5ae3ca03773dcd2c75c0cbaaac62894a0faad9ccccbb60f5dbc72a47b3b7738176d653ff89d34de48cc25befd454bc9a75d92394ea2d14a0",
+	"descriptionMd5": "2f156c6a30cc39895ad3487111e8c190"
+},{
+	"raw": {},
+	"required": [
+		"Filename",
+		"Size"
+	],
+	"package": "dpkg",
 	"version": "1.22.21ubuntu3",
 	"section": "admin",
 	"priority": "required",

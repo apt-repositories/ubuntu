@@ -6,6 +6,62 @@
 	],
 	"package": "dpkg-dev",
 	"source": "dpkg",
+	"version": "1.22.21ubuntu3.1",
+	"section": "utils",
+	"priority": "optional",
+	"architecture": "all",
+	"depends": [
+		"perl:any",
+		"libdpkg-perl (= 1.22.21ubuntu3.1)",
+		"tar (>= 1.28-1)",
+		"bzip2",
+		"xz-utils (>= 5.4.0)",
+		"patch (>= 2.7)",
+		"make",
+		"binutils",
+		"lto-disabled-list"
+	],
+	"recommends": [
+		"build-essential",
+		"gcc | c-compiler",
+		"fakeroot",
+		"gnupg | sq | sqop | rsop | gosop | pgpainless-cli | gpg-sq",
+		"gpgv | sqv | sqopv | rsopv | sopv | gosop | pgpainless-cli | gpgv-sq",
+		"libalgorithm-merge-perl"
+	],
+	"suggests": [
+		"debian-keyring",
+		"debian-tag2upload-keyring"
+	],
+	"breaks": [
+		"debhelper (<< 10.10.1~)",
+		"gosop (<< 1.1.0~)",
+		"libsop-java-java (<< 4.0.7~)",
+		"pgpainless-cli (<< 1.3.13~)",
+		"rsop (<< 0.4.0~)",
+		"sq (<< 0.40.0~)",
+		"sqop (<< 0.27.2~)",
+		"sqv (<< 1.3.0~)"
+	],
+	"installedSize": 1778,
+	"maintainer": "Ubuntu Developers <ubuntu-devel-discuss@lists.ubuntu.com>",
+	"description": "Debian package development tools",
+	"homepage": "https://wiki.debian.org/Teams/Dpkg",
+	"filename": "pool/main/d/dpkg/dpkg-dev_1.22.21ubuntu3.1_all.deb",
+	"size": 1088270,
+	"md5": "3e2bff3126e2ce35e7a7124602fde6e0",
+	"sha1": "214a68c2fe576bf55439aa567648836bb8da7819",
+	"sha256": "ac880d0858932daf1d85c84185d7f2e9377af4866d0d06d2adf8b10648084198",
+	"sha512": "03142555c8e2737eb304a51f96eb27c578e91492037d7d6672e83552c55cb6f699dc1923fd43c8855894dc44bbe615aa0ec81ba928b4ca4160dab17ffc475af1",
+	"descriptionMd5": "2eaf4b4a1cef9584869950f3a52106fc"
+},{
+	"raw": {},
+	"required": [
+		"Filename",
+		"Size"
+	],
+	"package": "dpkg-dev",
+	"source": "dpkg",
 	"version": "1.22.21ubuntu3",
 	"section": "utils",
 	"priority": "optional",

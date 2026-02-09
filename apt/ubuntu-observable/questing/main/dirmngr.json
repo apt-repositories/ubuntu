@@ -6,6 +6,54 @@
 	],
 	"package": "dirmngr",
 	"source": "gnupg2",
+	"version": "2.4.8-2ubuntu2.1",
+	"section": "utils",
+	"priority": "optional",
+	"architecture": "amd64",
+	"depends": [
+		"adduser",
+		"gpgconf (= 2.4.8-2ubuntu2.1)",
+		"init-system-helpers (>= 1.52)",
+		"libassuan9 (>= 2.5.0)",
+		"libc6 (>= 2.38)",
+		"libgcrypt20 (>= 1.11.0)",
+		"libgnutls30t64 (>= 3.8.1)",
+		"libgpg-error0 (>= 1.49)",
+		"libksba8 (>= 1.6.3)",
+		"libldap2 (>= 2.6.2)",
+		"libnpth0t64 (>= 1.8)"
+	],
+	"suggests": [
+		"gnupg (= 2.4.8-2ubuntu2.1)",
+		"dbus-user-session",
+		"libpam-systemd",
+		"pinentry-gnome3",
+		"tor"
+	],
+	"enhances": [
+		"gpg",
+		"gpgsm",
+		"squid"
+	],
+	"installedSize": 725,
+	"maintainer": "Ubuntu Developers <ubuntu-devel-discuss@lists.ubuntu.com>",
+	"description": "GNU privacy guard - network certificate management service",
+	"homepage": "https://www.gnupg.org/",
+	"filename": "pool/main/g/gnupg2/dirmngr_2.4.8-2ubuntu2.1_amd64.deb",
+	"size": 327030,
+	"md5": "0d20bc37fc8abb1533d066de9039f7dd",
+	"sha1": "1065b4d48c74e602f525dd045c12e55de7dd5fc8",
+	"sha256": "45acdbfa313e53fa2edd00e91715c2a3bcd3189c8e2390cde1d9a3b3e9ab11af",
+	"sha512": "54a8407ecc11cad7a3f03cf8ba487f55672a4ff4ce39d76c270c7223e33cd4f63a30ef506e65c482dd1a3374e114ae20dec4aab69b6bcd7fa9c27288a161fce4",
+	"descriptionMd5": "98983bb8fc50acb110a75a76f975cbdb"
+},{
+	"raw": {},
+	"required": [
+		"Filename",
+		"Size"
+	],
+	"package": "dirmngr",
+	"source": "gnupg2",
 	"version": "2.4.8-2ubuntu2",
 	"section": "utils",
 	"priority": "optional",

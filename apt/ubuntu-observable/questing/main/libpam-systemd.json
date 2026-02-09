@@ -6,6 +6,50 @@
 	],
 	"package": "libpam-systemd",
 	"source": "systemd",
+	"version": "257.9-0ubuntu2.1",
+	"section": "admin",
+	"priority": "important",
+	"architecture": "amd64",
+	"depends": [
+		"libc6 (>= 2.39)",
+		"libcap2 (>= 1:2.10)",
+		"libpam0g (>= 0.99.7.1)",
+		"systemd (= 257.9-0ubuntu2.1)",
+		"libpam-runtime",
+		"default-dbus-system-bus | dbus-system-bus",
+		"systemd-sysv"
+	],
+	"recommends": [
+		"dbus-user-session"
+	],
+	"suggests": [
+		"libcryptsetup12",
+		"libidn2-0",
+		"libp11-kit0",
+		"libtss2-rc0t64"
+	],
+	"conflicts": [
+		"libpam-elogind-compat"
+	],
+	"installedSize": 743,
+	"maintainer": "Ubuntu Developers <ubuntu-devel-discuss@lists.ubuntu.com>",
+	"description": "system and service manager - PAM module",
+	"homepage": "https://systemd.io",
+	"filename": "pool/main/s/systemd/libpam-systemd_257.9-0ubuntu2.1_amd64.deb",
+	"size": 256226,
+	"md5": "9aec10a77b5b9f18fb3a1f2ffe7b88e1",
+	"sha1": "adb7699c8c4bd5e5eb7c6ff6be2cfb96a62be1b4",
+	"sha256": "9ef829d10e83db07602e51a433364a39cbdbff67be1a3d0d43a53ff61eaa87f8",
+	"sha512": "92060b1fa00b0135452b63ecc5cb19b52a264d19865b7ce569688a292c590f2a128765361494eb414bf89be63320e6982d48a08c4713c5157c6d07078465de2b",
+	"descriptionMd5": "7acf141cc9da21b0ad349b6cecc40e46"
+},{
+	"raw": {},
+	"required": [
+		"Filename",
+		"Size"
+	],
+	"package": "libpam-systemd",
+	"source": "systemd",
 	"version": "257.9-0ubuntu2",
 	"section": "admin",
 	"priority": "important",

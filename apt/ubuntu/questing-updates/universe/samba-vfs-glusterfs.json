@@ -1,0 +1,43 @@
+{
+	"raw": {},
+	"required": [
+		"Filename",
+		"Size"
+	],
+	"package": "samba-vfs-glusterfs",
+	"source": "samba",
+	"version": "2:4.22.3+dfsg-4ubuntu2.2",
+	"section": "universe/net",
+	"priority": "optional",
+	"architecture": "amd64",
+	"depends": [
+		"samba (= 2:4.22.3+dfsg-4ubuntu2.2)",
+		"libc6 (>= 2.38)",
+		"libgfapi0 (>= 11.1)",
+		"libtalloc2 (>= 2.0.4~git20101213)",
+		"libtevent0t64 (>= 0.15.0)",
+		"samba-libs (= 2:4.22.3+dfsg-4ubuntu2.2)"
+	],
+	"replaces": [
+		"samba-vfs-modules (<< 2:4.20.2+dfsg-3~)",
+		"samba-vfs-modules-extra (<< 2:4.20.2+dfsg-3~)"
+	],
+	"enhances": [
+		"samba"
+	],
+	"breaks": [
+		"samba-vfs-modules (<< 2:4.20.2+dfsg-3~)",
+		"samba-vfs-modules-extra (<< 2:4.20.2+dfsg-3~)"
+	],
+	"installedSize": 185,
+	"maintainer": "Ubuntu Developers <ubuntu-devel-discuss@lists.ubuntu.com>",
+	"description": "Samba Virtual FileSystem glusterfs modules",
+	"homepage": "https://www.samba.org",
+	"filename": "pool/universe/s/samba/samba-vfs-glusterfs_4.22.3+dfsg-4ubuntu2.2_amd64.deb",
+	"size": 36468,
+	"md5": "4a28232d8549455ac99c64832daa0c33",
+	"sha1": "547e9f9e58d5743e2fab9fad45428d85f99e7925",
+	"sha256": "c88699570de1ad2708fdf940c9efd92ebe4fb594a77eb7a6352113253713ec64",
+	"sha512": "18f3b2c7ac31c9ef76c538a4c4186d87f75156d0f7da718bb75c1e939fd5f02eba6719ea5580dda7cfdb5a6f978d4a4f28bbdab279f9e1eeacff5687d14e7816",
+	"descriptionMd5": "e3b0be6d797b0246246b2e9ce209335e"
+}

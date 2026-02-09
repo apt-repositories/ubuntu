@@ -6,6 +6,66 @@
 	],
 	"package": "libvirt-daemon-common",
 	"source": "libvirt",
+	"version": "11.6.0-1ubuntu3.2",
+	"section": "admin",
+	"priority": "optional",
+	"architecture": "amd64",
+	"depends": [
+		"adduser",
+		"dmidecode",
+		"gettext-base",
+		"iproute2",
+		"kmod",
+		"libvirt-common (= 11.6.0-1ubuntu3.2)",
+		"libvirt0 (= 11.6.0-1ubuntu3.2)",
+		"polkitd (>= 121+compat0.1-2)",
+		"sensible-utils",
+		"libacl1 (>= 2.2.23)",
+		"libc6 (>= 2.34)",
+		"libgcc-s1 (>= 3.3.1)",
+		"libglib2.0-0t64 (>= 2.58.0)",
+		"libreadline8t64 (>= 6.0)"
+	],
+	"recommends": [
+		"netcat-openbsd"
+	],
+	"suggests": [
+		"apparmor",
+		"auditd",
+		"systemtap"
+	],
+	"replaces": [
+		"libvirt-clients (<< 10.6.0-2~)",
+		"libvirt-daemon (<< 10.6.0-2~)",
+		"libvirt-daemon-system-sysv (<< 10.6.0-2~)"
+	],
+	"breaks": [
+		"libvirt-clients (<< 10.6.0-2~)",
+		"libvirt-daemon (<< 10.6.0-2~)",
+		"libvirt-daemon-system-sysv (<< 10.6.0-2~)"
+	],
+	"conflicts": [
+		"libvirt-daemon-system (<< 10.6.0-2~)"
+	],
+	"installedSize": 466,
+	"maintainer": "Ubuntu Developers <ubuntu-devel-discuss@lists.ubuntu.com>",
+	"description": "virtualization daemon - common files",
+	"homepage": "https://libvirt.org/",
+	"filename": "pool/main/libv/libvirt/libvirt-daemon-common_11.6.0-1ubuntu3.2_amd64.deb",
+	"size": 110628,
+	"md5": "dba6c39f6936da960a8d5f8391fc0ef3",
+	"sha1": "d8720cb5192643b33c03155376ee61d49f12f173",
+	"sha256": "8e1f3ec355faa2c9d8ccdea93b0a0953d7ddde52b22ffac45f3844abb90b9502",
+	"sha512": "df930e960a164d16e7fec5f37a10f4b64d0994e924a1df64a763775def94081914b436fc266bc6219817c65a6ebf98818d1978b04193b95ca7bcbfac4beeeeaf",
+	"descriptionMd5": "bb15534ddc75f9c256177238a85ecbc0"
+},{
+	"raw": {},
+	"required": [
+		"Filename",
+		"Size"
+	],
+	"package": "libvirt-daemon-common",
+	"source": "libvirt",
 	"version": "11.6.0-1ubuntu3",
 	"section": "admin",
 	"priority": "optional",

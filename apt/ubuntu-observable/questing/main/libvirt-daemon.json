@@ -6,6 +6,80 @@
 	],
 	"package": "libvirt-daemon",
 	"source": "libvirt",
+	"version": "11.6.0-1ubuntu3.2",
+	"section": "admin",
+	"priority": "optional",
+	"architecture": "amd64",
+	"depends": [
+		"libvirt-common (= 11.6.0-1ubuntu3.2)",
+		"libvirt-daemon-common (= 11.6.0-1ubuntu3.2)",
+		"libvirt-daemon-log (= 11.6.0-1ubuntu3.2)",
+		"libvirt0 (= 11.6.0-1ubuntu3.2)",
+		"logrotate",
+		"libc6 (>= 2.34)",
+		"libgcc-s1 (>= 3.3.1)",
+		"libglib2.0-0t64 (>= 2.26.0)",
+		"libtirpc3t64 (>= 1.0.2)",
+		"libxml2-16 (>= 2.14.1)"
+	],
+	"recommends": [
+		"libvirt-daemon-driver-interface (= 11.6.0-1ubuntu3.2)",
+		"libvirt-daemon-driver-network (= 11.6.0-1ubuntu3.2)",
+		"libvirt-daemon-driver-nodedev (= 11.6.0-1ubuntu3.2)",
+		"libvirt-daemon-driver-nwfilter (= 11.6.0-1ubuntu3.2)",
+		"libvirt-daemon-driver-qemu (= 11.6.0-1ubuntu3.2)",
+		"libvirt-daemon-driver-secret (= 11.6.0-1ubuntu3.2)",
+		"libvirt-daemon-driver-storage (= 11.6.0-1ubuntu3.2)",
+		"libvirt-daemon-driver-storage-disk (= 11.6.0-1ubuntu3.2)",
+		"libvirt-daemon-driver-storage-iscsi (= 11.6.0-1ubuntu3.2)",
+		"libvirt-daemon-driver-storage-logical (= 11.6.0-1ubuntu3.2)",
+		"libvirt-daemon-driver-storage-mpath (= 11.6.0-1ubuntu3.2)",
+		"libvirt-daemon-driver-storage-scsi (= 11.6.0-1ubuntu3.2)",
+		"libvirt-daemon-lock (= 11.6.0-1ubuntu3.2)",
+		"libvirt-daemon-plugin-lockd (= 11.6.0-1ubuntu3.2)"
+	],
+	"suggests": [
+		"libvirt-daemon-driver-lxc (= 11.6.0-1ubuntu3.2)",
+		"libvirt-daemon-driver-storage-gluster (= 11.6.0-1ubuntu3.2)",
+		"libvirt-daemon-driver-storage-iscsi-direct (= 11.6.0-1ubuntu3.2)",
+		"libvirt-daemon-driver-storage-rbd (= 11.6.0-1ubuntu3.2)",
+		"libvirt-daemon-driver-storage-zfs (= 11.6.0-1ubuntu3.2)",
+		"libvirt-daemon-driver-vbox (= 11.6.0-1ubuntu3.2)",
+		"libvirt-daemon-driver-xen (= 11.6.0-1ubuntu3.2)",
+		"libvirt-daemon-plugin-sanlock (= 11.6.0-1ubuntu3.2)",
+		"libvirt-daemon-system (= 11.6.0-1ubuntu3.2)"
+	],
+	"replaces": [
+		"libvirt-daemon-system-sysv (<< 10.6.0-2~)"
+	],
+	"breaks": [
+		"libvirt-clients (<< 6.9.0-2~)",
+		"libvirt-daemon-driver-lxc (<< 6.9.0-2~)",
+		"libvirt-daemon-system-sysv (<< 10.6.0-2~)",
+		"libvirt-sanlock (<< 6.9.0-2~)"
+	],
+	"conflicts": [
+		"libvirt-daemon-system (<< 10.6.0-2~)"
+	],
+	"installedSize": 860,
+	"maintainer": "Ubuntu Developers <ubuntu-devel-discuss@lists.ubuntu.com>",
+	"description": "virtualization daemon",
+	"homepage": "https://libvirt.org/daemons.html#monolithic-driver-daemon",
+	"filename": "pool/main/libv/libvirt/libvirt-daemon_11.6.0-1ubuntu3.2_amd64.deb",
+	"size": 193280,
+	"md5": "3fac70c03a9d9126bea592fb43091df8",
+	"sha1": "8f84b08aa291b94b410c4456deb5733c6e5b1dd0",
+	"sha256": "0337958ed56ad77a16e657d90744b70d857b9d7069fa9a0a996c38e07e08f4a3",
+	"sha512": "7f404803144ef3ab0d113d664b05a5b1f031b4a8fc487b3cc1ffc6c24862da78977f02262d48877bde378b4b32490449aaa38f499b5de5641720718a3b95f9f4",
+	"descriptionMd5": "f1e7330bb9acecba96883cafaacdded9"
+},{
+	"raw": {},
+	"required": [
+		"Filename",
+		"Size"
+	],
+	"package": "libvirt-daemon",
+	"source": "libvirt",
 	"version": "11.6.0-1ubuntu3",
 	"section": "admin",
 	"priority": "optional",

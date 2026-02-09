@@ -1,0 +1,42 @@
+{
+	"raw": {},
+	"required": [
+		"Filename",
+		"Size"
+	],
+	"package": "systemd-boot",
+	"source": "systemd",
+	"version": "257.9-0ubuntu2.1",
+	"section": "universe/admin",
+	"priority": "optional",
+	"architecture": "amd64",
+	"depends": [
+		"libc6 (>= 2.34)",
+		"libsystemd-shared (= 257.9-0ubuntu2.1)",
+		"systemd (= 257.9-0ubuntu2.1)",
+		"systemd-boot-tools (= 257.9-0ubuntu2.1)",
+		"systemd-boot-efi-signed (>= 257.9-0ubuntu2.1) | systemd-boot-efi (= 257.9-0ubuntu2.1)"
+	],
+	"recommends": [
+		"efibootmgr",
+		"shim-signed"
+	],
+	"suggests": [
+		"systemd-ukify"
+	],
+	"conflicts": [
+		"systemd (<< 256-2~)",
+		"systemd-boot-efi (<< 256-2~)"
+	],
+	"installedSize": 243,
+	"maintainer": "Ubuntu Developers <ubuntu-devel-discuss@lists.ubuntu.com>",
+	"description": "simple UEFI boot manager - integration and services",
+	"homepage": "https://systemd.io",
+	"filename": "pool/universe/s/systemd/systemd-boot_257.9-0ubuntu2.1_amd64.deb",
+	"size": 45944,
+	"md5": "40b62a9638e7d30c6c92a7f9bcf644f0",
+	"sha1": "97e39c5566c0a226bb4b9b7f3e99f1fa79981606",
+	"sha256": "c736540922edbc5d88c68780921a14c49f0263ca37c96a366ea744b55d9201e4",
+	"sha512": "eaf0e2cb1b7c908c85a709b15b16e56ec57f6ec9f30214057fdf252105f2df89dacb65cef987305f7d8ef07707b6601bbb9ee06df1b770cf44a012d58939637e",
+	"descriptionMd5": "0df90775ace126cb973183972b57f509"
+}

@@ -6,6 +6,64 @@
 	],
 	"package": "libreoffice-gnome",
 	"source": "libreoffice",
+	"version": "4:25.8.4-0ubuntu0.25.10.1",
+	"section": "gnome",
+	"priority": "optional",
+	"architecture": "amd64",
+	"depends": [
+		"libreoffice-core (= 4:25.8.4-0ubuntu0.25.10.1)",
+		"libc6 (>= 2.32)",
+		"libgcc-s1 (>= 3.0)",
+		"libglib2.0-0t64 (>= 2.80.0)",
+		"libstdc++6 (>= 5)",
+		"libuno-cppu3t64 (>= 4.4.0~alpha)",
+		"libuno-cppuhelpergcc3-3t64 (>= 4.0.0~alpha)",
+		"libuno-sal3t64 (>= 5.1.0~alpha)",
+		"libuno-salhelpergcc3-3t64 (>= 1.4.0)",
+		"uno-libs-private"
+	],
+	"preDepends": [
+		"ucf",
+		"libreoffice-common (>= 4:25.2.1~rc1-3~)"
+	],
+	"recommends": [
+		"libreoffice-style-elementary",
+		"libreoffice-style-yaru",
+		"libreoffice-gtk3"
+	],
+	"suggests": [
+		"libreoffice-evolution",
+		"seahorse"
+	],
+	"replaces": [
+		"libreoffice-gtk (<< 1:5.0.0~rc2-1)",
+		"libreoffice-gtk3 (<< 1:7.2.0~)"
+	],
+	"enhances": [
+		"libreoffice"
+	],
+	"conflicts": [
+		"libreoffice-gtk3 (<< 1:7.2.0~)"
+	],
+	"installedSize": 302,
+	"maintainer": "Ubuntu Developers <ubuntu-devel-discuss@lists.ubuntu.com>",
+	"description": "office productivity suite -- GNOME integration",
+	"homepage": "http://www.libreoffice.org",
+	"filename": "pool/main/libr/libreoffice/libreoffice-gnome_25.8.4-0ubuntu0.25.10.1_amd64.deb",
+	"size": 72132,
+	"md5": "93d737e340f521ff64681baa43e4dee0",
+	"sha1": "5130cd68cc9a8c63df72d38f98018bde6371c5ba",
+	"sha256": "d1ca9789dc0a0be6cd23531e74a2556c2258b66c6857a7d5607b177359f995bd",
+	"sha512": "602ce5827e9a84055fc6c4a033254f9cf5c112ffbc595d062f49f2591576565c181a4db7e5042a8880f60bab7383a27f899bebfe2c0c072c68c571d636bcb17c",
+	"descriptionMd5": "c468d8fd91ddd9ba3bc4401d295be6e1"
+},{
+	"raw": {},
+	"required": [
+		"Filename",
+		"Size"
+	],
+	"package": "libreoffice-gnome",
+	"source": "libreoffice",
 	"version": "4:25.8.1~rc1-0ubuntu1",
 	"section": "gnome",
 	"priority": "optional",
