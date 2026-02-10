@@ -1,0 +1,42 @@
+[{
+	"raw": {},
+	"required": [
+		"Filename",
+		"Size"
+	],
+	"package": "linux-image-6.17.0-14-generic",
+	"source": "linux-signed",
+	"version": "6.17.0-14.14",
+	"section": "kernel",
+	"priority": "optional",
+	"architecture": "amd64",
+	"depends": [
+		"kmod",
+		"linux-base (>= 4.5ubuntu1~16.04.1)",
+		"linux-modules-6.17.0-14-generic"
+	],
+	"recommends": [
+		"grub-pc | grub-efi-amd64 | grub-efi-ia32 | grub | lilo",
+		"initramfs-tools | linux-initramfs-tool"
+	],
+	"suggests": [
+		"bpftool",
+		"linux-perf",
+		"linux-tools",
+		"linux-headers-6.17.0-14-generic"
+	],
+	"conflicts": [
+		"linux-image-unsigned-6.17.0-14-generic"
+	],
+	"installedSize": 16626,
+	"maintainer": "Canonical Kernel Team <kernel-team@lists.ubuntu.com>",
+	"description": "Signed kernel image generic",
+	"builtUsing": "linux (= 6.17.0-14.14)",
+	"filename": "pool/main/l/linux-signed/linux-image-6.17.0-14-generic_6.17.0-14.14_amd64.deb",
+	"size": 16308546,
+	"md5": "8db64826818026afc3669ec091616d98",
+	"sha1": "fc30faaae3edbfbbc2c463ef597a917057487bd6",
+	"sha256": "aee522163af9aec111bd06a6fb761076a5ff3afad7dd7c21ef8d0688321ef7cb",
+	"sha512": "7346102734636014ea8c486036a2258b011a3a090f8459115f92cf54d44b35e4c39d13cd3f6e29fc089b203f45afcf5f5c5d37b310c5e002c752c6587307cfde",
+	"descriptionMd5": "b0fd0df88b1cd31408007b00d2458952"
+}]
