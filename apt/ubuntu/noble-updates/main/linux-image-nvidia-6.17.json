@@ -6,15 +6,16 @@
 	],
 	"package": "linux-image-nvidia-6.17",
 	"source": "linux-meta-nvidia-6.17",
-	"version": "6.17.0-1004.4",
+	"version": "6.17.0-1008.8",
 	"section": "kernel",
 	"priority": "optional",
 	"architecture": "amd64",
 	"depends": [
-		"linux-image-6.17.0-1004-nvidia",
+		"linux-image-6.17.0-1008-nvidia",
 		"linux-firmware",
 		"intel-microcode",
-		"amd64-microcode"
+		"amd64-microcode",
+		"linux-modules-nvidia-fs-6.17.0-1008-nvidia"
 	],
 	"recommends": [
 		"thermald"
@@ -22,11 +23,11 @@
 	"installedSize": 18,
 	"maintainer": "Ubuntu Kernel Team <kernel-team@lists.ubuntu.com>",
 	"description": "NVIDIA Linux kernel image",
-	"filename": "pool/main/l/linux-meta-nvidia-6.17/linux-image-nvidia-6.17_6.17.0-1004.4_amd64.deb",
-	"size": 12064,
-	"md5": "c9ae6cf75ad82c5a66e3e49837462fc2",
-	"sha1": "e617cef05e125239093eebea3d1d6006dbd393ad",
-	"sha256": "242c0aadab9824f6d574a6b23527ffbcc6830585d569c4de69d3920e3fe94dd7",
-	"sha512": "90ed54ff53653bf540f739286d06f8513eae4c1a6a98be822eafe4e06c4d7886b13ecf7db65d402c6f39f3e25a739d0adff9fa447b09c56334296987123c5abc",
+	"filename": "pool/main/l/linux-meta-nvidia-6.17/linux-image-nvidia-6.17_6.17.0-1008.8_amd64.deb",
+	"size": 12208,
+	"md5": "f72cf7e4922587db63582f71e0bccb8c",
+	"sha1": "b8a85d7a9ad6c25b8e348c4ed8841f840e1517c1",
+	"sha256": "93909e97e9bcee8a276ff398d2c40da3b271560b7b5779161c3f35e95a0d64e6",
+	"sha512": "55fce0deb5fb770140d144d4cb6624d0380e4f347d9df65f969de69697b349b40525651d024bd2fe469f7b54e6331c93acfec422d7acf1865f821b86e4910190",
 	"descriptionMd5": "873cf0dd64bcd059b47ff0030432eacb"
 }

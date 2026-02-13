@@ -6,6 +6,43 @@
 	],
 	"package": "nginx-common",
 	"source": "nginx",
+	"version": "1.28.0-6ubuntu1.1",
+	"section": "httpd",
+	"priority": "optional",
+	"architecture": "all",
+	"depends": [
+		"debconf (>= 0.5) | debconf-2.0"
+	],
+	"suggests": [
+		"fcgiwrap",
+		"nginx-doc",
+		"ssl-cert"
+	],
+	"replaces": [
+		"nginx (<< 1.22.1-8)"
+	],
+	"breaks": [
+		"nginx (<< 1.22.1-8)"
+	],
+	"installedSize": 234,
+	"maintainer": "Ubuntu Developers <ubuntu-devel-discuss@lists.ubuntu.com>",
+	"description": "small, powerful, scalable web/proxy server - common files",
+	"homepage": "https://nginx.org",
+	"filename": "pool/main/n/nginx/nginx-common_1.28.0-6ubuntu1.1_all.deb",
+	"size": 44800,
+	"md5": "4f5ce2a0c2e0a3cf1bf73bc4ae56ec73",
+	"sha1": "c8c03ef76b95d907e612723fefe097976bf61257",
+	"sha256": "c98bc0126b03a982cda35094ff043da5addcd211170de1804125b264b00dc484",
+	"sha512": "392bf4b823a034733c5c1a6483473a7be963daec2d832a2262cb3adacef3d8529926a0a71d12ce6d2e26d0dc7d7bc2251f0537a3f79c9c78d50758f1ad2eaa7b",
+	"descriptionMd5": "9e23931d84d07adbee5412aefdad8a90"
+},{
+	"raw": {},
+	"required": [
+		"Filename",
+		"Size"
+	],
+	"package": "nginx-common",
+	"source": "nginx",
 	"version": "1.28.0-6ubuntu1",
 	"section": "httpd",
 	"priority": "optional",
