@@ -5,6 +5,46 @@
 		"Size"
 	],
 	"package": "nginx",
+	"version": "1.28.0-6ubuntu1.1",
+	"section": "web",
+	"priority": "optional",
+	"architecture": "amd64",
+	"depends": [
+		"libc6 (>= 2.34)",
+		"libcrypt1 (>= 1:4.1.0)",
+		"libpcre2-8-0 (>= 10.22)",
+		"libssl3t64 (>= 3.0.0)",
+		"zlib1g (>= 1:1.1.4)",
+		"nginx-common (= 1.28.0-6ubuntu1.1)"
+	],
+	"replaces": [
+		"nginx-core (<< 1.22.1-6~)",
+		"nginx-extras (<< 1.22.1-6~)",
+		"nginx-light (<< 1.22.1-6~)"
+	],
+	"breaks": [
+		"nginx-core (<< 1.22.1-6~)",
+		"nginx-extras (<< 1.22.1-6~)",
+		"nginx-light (<< 1.22.1-6~)"
+	],
+	"installedSize": 1588,
+	"maintainer": "Ubuntu Developers <ubuntu-devel-discuss@lists.ubuntu.com>",
+	"description": "small, powerful, scalable web/proxy server",
+	"homepage": "https://nginx.org",
+	"filename": "pool/main/n/nginx/nginx_1.28.0-6ubuntu1.1_amd64.deb",
+	"size": 623754,
+	"md5": "b3474ae89c35c5fa0a8aaf955bc89de5",
+	"sha1": "bbbfd2fdf8ad9d68aa418851f802201ca302520d",
+	"sha256": "bccaab0e7ea1cfaa774b4568f10e7b3d4cf8f737084d1f40a37dbab74adc3802",
+	"sha512": "8e968299424fd233a62005855c6971e5ca7f757da25a78e3cb9fb32695800297bb977a9b6b04b851b36f3c33eaeea60e6a029df471267e7243e445b83eb3d602",
+	"descriptionMd5": "cb534cf82475d3e706f730549c99229f"
+},{
+	"raw": {},
+	"required": [
+		"Filename",
+		"Size"
+	],
+	"package": "nginx",
 	"version": "1.28.0-6ubuntu1",
 	"section": "web",
 	"priority": "optional",
