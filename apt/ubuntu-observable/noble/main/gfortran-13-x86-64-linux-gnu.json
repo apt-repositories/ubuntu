@@ -52,6 +52,52 @@
 	],
 	"package": "gfortran-13-x86-64-linux-gnu",
 	"source": "gcc-13",
+	"version": "13.3.0-6ubuntu2~24.04.1",
+	"section": "devel",
+	"priority": "optional",
+	"architecture": "amd64",
+	"depends": [
+		"gcc-13-base (= 13.3.0-6ubuntu2~24.04.1)",
+		"gcc-13-x86-64-linux-gnu (= 13.3.0-6ubuntu2~24.04.1)",
+		"libgfortran-13-dev (= 13.3.0-6ubuntu2~24.04.1)",
+		"libc6-dev (>= 2.13-0ubuntu6)",
+		"libc6 (>= 2.38)",
+		"libgmp10 (>= 2:6.3.0+dfsg)",
+		"libisl23 (>= 0.15)",
+		"libmpc3 (>= 1.1.0)",
+		"libmpfr6 (>= 3.1.3)",
+		"libzstd1 (>= 1.5.5)",
+		"zlib1g (>= 1:1.1.4)"
+	],
+	"suggests": [
+		"gfortran-13-doc",
+		"libcoarrays-dev"
+	],
+	"replaces": [
+		"gfortran-13 (<< 13.2.0-11)"
+	],
+	"breaks": [
+		"gfortran-13 (<< 13.2.0-11)"
+	],
+	"installedSize": 32453,
+	"maintainer": "Ubuntu Core developers <ubuntu-devel-discuss@lists.ubuntu.com>",
+	"description": "GNU Fortran compiler for the x86_64-linux-gnu architecture",
+	"homepage": "http://gcc.gnu.org/",
+	"filename": "pool/main/g/gcc-13/gfortran-13-x86-64-linux-gnu_13.3.0-6ubuntu2~24.04.1_amd64.deb",
+	"size": 11408640,
+	"md5": "1ace0efe31cd92f60a5430bc6bcf16be",
+	"sha1": "601db22a3fefd1ad5fcd2ade3d9e74cce962273b",
+	"sha256": "82382cb8506616ef7df5b9927694bfaacf97bdfb317b1f995453cc17c96aa071",
+	"sha512": "1188224a7c27485b939874eca3a02ad86c9a5d0d134538ead20ea24d1119bf1c53c210b13f5fab214dc1c997f7b80377293ac0c19a2d4f02dd7148e64273f9c5",
+	"descriptionMd5": "d58c4dfdb182f598353d755dda19253d"
+},{
+	"raw": {},
+	"required": [
+		"Filename",
+		"Size"
+	],
+	"package": "gfortran-13-x86-64-linux-gnu",
+	"source": "gcc-13",
 	"version": "13.2.0-23ubuntu4",
 	"section": "devel",
 	"priority": "optional",

@@ -48,6 +48,48 @@
 	],
 	"package": "gdc-13-x86-64-linux-gnu",
 	"source": "gcc-13",
+	"version": "13.3.0-6ubuntu2~24.04.1",
+	"section": "universe/devel",
+	"priority": "optional",
+	"architecture": "amd64",
+	"depends": [
+		"gcc-13-base (>= 13)",
+		"g++-13-x86-64-linux-gnu (>= 13.3.0-6ubuntu2~24.04.1)",
+		"libgphobos-13-dev (>= 13)",
+		"libc6 (>= 2.38)",
+		"libgmp10 (>= 2:6.3.0+dfsg)",
+		"libisl23 (>= 0.15)",
+		"libmpc3 (>= 1.1.0)",
+		"libmpfr6 (>= 3.1.3)",
+		"libzstd1 (>= 1.5.5)",
+		"zlib1g (>= 1:1.1.4)"
+	],
+	"replaces": [
+		"gdc (<< 4.4.6-5)",
+		"gdc-13 (<< 13.2.0-11)"
+	],
+	"breaks": [
+		"gdc-13 (<< 13.2.0-11)"
+	],
+	"installedSize": 35204,
+	"maintainer": "Ubuntu Core developers <ubuntu-devel-discuss@lists.ubuntu.com>",
+	"description": "GNU D compiler (version 2) for the x86_64-linux-gnu architecture",
+	"homepage": "http://gcc.gnu.org/",
+	"filename": "pool/universe/g/gcc-13/gdc-13-x86-64-linux-gnu_13.3.0-6ubuntu2~24.04.1_amd64.deb",
+	"size": 11804370,
+	"md5": "196d79c66d129c1f116a0733fba6949c",
+	"sha1": "a8b029c81fd7263b5457cac96dea64a235a4b1c8",
+	"sha256": "0b6e6e80902285dbd5d6adcc740f1221f7c41fcb5f40d803d97d83c6bbfa1205",
+	"sha512": "b86b2d4ea803b7fde58ce8bb59206f5b1747be1344a9eafe69d73fe78cbdda390f99ec5c6e6097ef45e139f1a4bd3e7a81db5593bd1a066b9743fb41df44287c",
+	"descriptionMd5": "3370d98e61f8c9ed857813919b9a5f4c"
+},{
+	"raw": {},
+	"required": [
+		"Filename",
+		"Size"
+	],
+	"package": "gdc-13-x86-64-linux-gnu",
+	"source": "gcc-13",
 	"version": "13.2.0-23ubuntu4",
 	"section": "universe/devel",
 	"priority": "optional",

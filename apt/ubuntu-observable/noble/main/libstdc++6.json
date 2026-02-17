@@ -45,6 +45,45 @@
 	],
 	"package": "libstdc++6",
 	"source": "gcc-14",
+	"version": "14.2.0-4ubuntu2~24.04.1",
+	"section": "libs",
+	"priority": "important",
+	"architecture": "amd64",
+	"depends": [
+		"gcc-14-base (= 14.2.0-4ubuntu2~24.04.1)",
+		"libc6 (>= 2.38)",
+		"libgcc-s1 (>= 4.3)"
+	],
+	"replaces": [
+		"libstdc++6-14-dbg (<< 4.9.0-3)"
+	],
+	"breaks": [
+		"gcc-4.3 (<< 4.3.6-1)",
+		"gcc-4.4 (<< 4.4.6-4)",
+		"gcc-4.5 (<< 4.5.3-2)"
+	],
+	"conflicts": [
+		"scim (<< 1.4.2-1)"
+	],
+	"installedSize": 3110,
+	"maintainer": "Ubuntu Core developers <ubuntu-devel-discuss@lists.ubuntu.com>",
+	"description": "GNU Standard C++ Library v3",
+	"homepage": "http://gcc.gnu.org/",
+	"filename": "pool/main/g/gcc-14/libstdc++6_14.2.0-4ubuntu2~24.04.1_amd64.deb",
+	"size": 792064,
+	"md5": "e75dd005d377d610d20a2c9066ba062f",
+	"sha1": "497e4329313d7460e09b1cc96f7be4bcada8d358",
+	"sha256": "a51f8de7829211db961a31f02158058ad1a95f92ac6d0a5dff6350e2821c54c0",
+	"sha512": "a62224c9cda81e4a500fb71e40ecfc1a9b910685b75b693012490a3a0f84fc5e1eee56949c12d83565f98df7933a1b30bcaddf5caf28f95da74d940889c595f7",
+	"descriptionMd5": "724ab84919e0e220afb960e36463914d"
+},{
+	"raw": {},
+	"required": [
+		"Filename",
+		"Size"
+	],
+	"package": "libstdc++6",
+	"source": "gcc-14",
 	"version": "14-20240412-0ubuntu1",
 	"section": "libs",
 	"priority": "important",
