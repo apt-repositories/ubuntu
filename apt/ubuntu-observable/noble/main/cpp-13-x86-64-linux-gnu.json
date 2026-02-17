@@ -51,6 +51,51 @@
 	],
 	"package": "cpp-13-x86-64-linux-gnu",
 	"source": "gcc-13",
+	"version": "13.3.0-6ubuntu2~24.04.1",
+	"section": "devel",
+	"priority": "optional",
+	"architecture": "amd64",
+	"depends": [
+		"gcc-13-base (= 13.3.0-6ubuntu2~24.04.1)",
+		"libc6 (>= 2.38)",
+		"libgmp10 (>= 2:6.3.0+dfsg)",
+		"libisl23 (>= 0.15)",
+		"libmpc3 (>= 1.1.0)",
+		"libmpfr6 (>= 3.1.3)",
+		"libzstd1 (>= 1.5.5)",
+		"zlib1g (>= 1:1.1.4)"
+	],
+	"suggests": [
+		"gcc-13-locales (>= 13)",
+		"cpp-13-doc (>= 13)"
+	],
+	"replaces": [
+		"cpp-13 (<< 13.2.0-11)"
+	],
+	"breaks": [
+		"cpp-13 (<< 13.2.0-11)",
+		"hardening-wrapper (<< 2.8+nmu3)",
+		"libmagics++-dev (<< 2.28.0-4)"
+	],
+	"installedSize": 30807,
+	"maintainer": "Ubuntu Core developers <ubuntu-devel-discuss@lists.ubuntu.com>",
+	"description": "GNU C preprocessor for x86_64-linux-gnu",
+	"homepage": "http://gcc.gnu.org/",
+	"filename": "pool/main/g/gcc-13/cpp-13-x86-64-linux-gnu_13.3.0-6ubuntu2~24.04.1_amd64.deb",
+	"size": 10714542,
+	"md5": "e8f6938b588e32e4b04ef3d40e33846c",
+	"sha1": "43d96a39ce51bfcd72fecf4df06d38eca734534a",
+	"sha256": "2ca48bf0c2d6465bc39322899715a85d934b4d7442dd5586a7bebbe3ce0f806b",
+	"sha512": "2ce4169974312e12e14679b6cff5612f3982e66726081c78c5df66bc4ef3f96a3138714fc13de3bded7c7cc25e416db9ece899d3e71c2d2f75196f87b047eb96",
+	"descriptionMd5": "43b850052510e8ce407b526ada2b0877"
+},{
+	"raw": {},
+	"required": [
+		"Filename",
+		"Size"
+	],
+	"package": "cpp-13-x86-64-linux-gnu",
+	"source": "gcc-13",
 	"version": "13.2.0-23ubuntu4",
 	"section": "devel",
 	"priority": "optional",

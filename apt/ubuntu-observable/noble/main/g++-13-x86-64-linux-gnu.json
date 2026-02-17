@@ -50,6 +50,50 @@
 	],
 	"package": "g++-13-x86-64-linux-gnu",
 	"source": "gcc-13",
+	"version": "13.3.0-6ubuntu2~24.04.1",
+	"section": "devel",
+	"priority": "optional",
+	"architecture": "amd64",
+	"depends": [
+		"gcc-13-base (= 13.3.0-6ubuntu2~24.04.1)",
+		"gcc-13-x86-64-linux-gnu (= 13.3.0-6ubuntu2~24.04.1)",
+		"libstdc++-13-dev (= 13.3.0-6ubuntu2~24.04.1)",
+		"libc6 (>= 2.38)",
+		"libgmp10 (>= 2:6.3.0+dfsg)",
+		"libisl23 (>= 0.15)",
+		"libmpc3 (>= 1.1.0)",
+		"libmpfr6 (>= 3.1.3)",
+		"libzstd1 (>= 1.5.5)",
+		"zlib1g (>= 1:1.1.4)"
+	],
+	"suggests": [
+		"gcc-13-doc (>= 13)"
+	],
+	"replaces": [
+		"g++-13 (<< 13.2.0-11)"
+	],
+	"breaks": [
+		"g++-13 (<< 13.2.0-11)"
+	],
+	"installedSize": 33545,
+	"maintainer": "Ubuntu Core developers <ubuntu-devel-discuss@lists.ubuntu.com>",
+	"description": "GNU C++ compiler for x86_64-linux-gnu architecture",
+	"homepage": "http://gcc.gnu.org/",
+	"filename": "pool/main/g/gcc-13/g++-13-x86-64-linux-gnu_13.3.0-6ubuntu2~24.04.1_amd64.deb",
+	"size": 12161938,
+	"md5": "90ea28b82bebea013965566f3474a3ce",
+	"sha1": "013bf1a443886f97d5d8aaa808aee3da39419e71",
+	"sha256": "0bd6af6164252d4ea9170d201ee4c10a3120fe0fc04985a00be3bc9076353844",
+	"sha512": "ba3b3e670436c3ba8255e8ab68a2625121200bb44171a0b1bbfbcc3e107b0666eb3ac87a47b895192f4d34f6ee5c08d37ace35f0bf2fed961b2bd4e3c449e367",
+	"descriptionMd5": "f28641d421c551d47a5e989009efe119"
+},{
+	"raw": {},
+	"required": [
+		"Filename",
+		"Size"
+	],
+	"package": "g++-13-x86-64-linux-gnu",
+	"source": "gcc-13",
 	"version": "13.2.0-23ubuntu4",
 	"section": "devel",
 	"priority": "optional",

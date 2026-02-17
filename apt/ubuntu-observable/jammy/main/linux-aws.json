@@ -35,6 +35,36 @@
 		"Size"
 	],
 	"package": "linux-aws",
+	"source": "linux-meta-aws-6.8",
+	"version": "6.8.0-1046.49~22.04.1",
+	"section": "kernel",
+	"priority": "optional",
+	"architecture": "amd64",
+	"depends": [
+		"linux-image-aws (= 6.8.0-1046.49~22.04.1)",
+		"linux-headers-aws (= 6.8.0-1046.49~22.04.1)"
+	],
+	"recommends": [
+		"linux-tools-6.8.0-1046-aws",
+		"ubuntu-kernel-accessories"
+	],
+	"installedSize": 10,
+	"maintainer": "Ubuntu Kernel Team <kernel-team@lists.ubuntu.com>",
+	"description": "Complete Linux kernel for Amazon Web Services (AWS) systems.",
+	"filename": "pool/main/l/linux-meta-aws-6.8/linux-aws_6.8.0-1046.49~22.04.1_amd64.deb",
+	"size": 1722,
+	"md5": "eb8a3656155b045063aca8ad3b05d07d",
+	"sha1": "a8edb4300b54b4bc6fe2e359fc42c457f247498f",
+	"sha256": "59b17ecf8771c4406191aa00f870fcd4bcc56b853692264129c4106b1a1fae8e",
+	"sha512": "132fbdc774ed696d35cb8c79101665292408a83d52a4dc6102bd72b4a9d7a1498dbc3616fb316464ef0a18780b58d7543e2d7ee8c17f2e6edd408ea5ee8606c4",
+	"descriptionMd5": "7e69860171c6c8a0efda6ea26320ac20"
+},{
+	"raw": {},
+	"required": [
+		"Filename",
+		"Size"
+	],
+	"package": "linux-aws",
 	"source": "linux-meta-aws",
 	"version": "5.15.0.1004.6",
 	"section": "kernel",

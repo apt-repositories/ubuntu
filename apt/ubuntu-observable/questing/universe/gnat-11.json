@@ -6,6 +6,62 @@
 	],
 	"package": "gnat-11",
 	"source": "gcc-11",
+	"version": "11.5.0-7ubuntu1.1",
+	"section": "universe/devel",
+	"priority": "optional",
+	"architecture": "amd64",
+	"depends": [
+		"gcc-11-base (= 11.5.0-7ubuntu1.1)",
+		"gcc-11 (>= 11)",
+		"libgnat-11 (>= 11.5.0-7ubuntu1.1)",
+		"libc6-dev (>= 2.13-0ubuntu6)",
+		"libc6 (>= 2.38)",
+		"libgmp10 (>= 2:6.3.0+dfsg)",
+		"libisl23 (>= 0.15)",
+		"libmpc3 (>= 1.1.0)",
+		"libmpfr6 (>= 3.1.3)",
+		"libzstd1 (>= 1.5.5)",
+		"zlib1g (>= 1:1.1.4)"
+	],
+	"suggests": [
+		"gnat-11-doc",
+		"ada-reference-manual-2012",
+		"gnat-11-sjlj"
+	],
+	"replaces": [
+		"gnat-4.9-base (= 4.9-20140330-1)"
+	],
+	"breaks": [
+		"gnat-4.9-base (= 4.9-20140330-1)"
+	],
+	"conflicts": [
+		"gnat-10",
+		"gnat-4.9",
+		"gnat-5",
+		"gnat-6",
+		"gnat-7",
+		"gnat-8",
+		"gnat-9"
+	],
+	"installedSize": 82670,
+	"maintainer": "Ubuntu Core developers <ubuntu-devel-discuss@lists.ubuntu.com>",
+	"description": "GNU Ada compiler",
+	"homepage": "http://gcc.gnu.org/",
+	"filename": "pool/universe/g/gcc-11/gnat-11_11.5.0-7ubuntu1.1_amd64.deb",
+	"size": 18445482,
+	"md5": "0089c07ba66b567df8d3bd475da5f048",
+	"sha1": "eb4e4b4eb2f93a018c80d81e87eba0bdc637e6f7",
+	"sha256": "44f9ba141abc5280628bf2a9e89cddaa067f645df1a6ec0822edec96c5838829",
+	"sha512": "6feff1e6cf822dfd2380f71c65db278f7a5c30bca2487c5c622233b8cd3466eca7e46a14c4f77bab1b898f41f3b2184473a1943c235ffb379b64d64ba92ed74c",
+	"descriptionMd5": "8cebde0cd6b861927a7a457cacc8851f"
+},{
+	"raw": {},
+	"required": [
+		"Filename",
+		"Size"
+	],
+	"package": "gnat-11",
+	"source": "gcc-11",
 	"version": "11.5.0-7ubuntu1",
 	"section": "universe/devel",
 	"priority": "optional",
