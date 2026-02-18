@@ -6,6 +6,36 @@
 	],
 	"package": "nova-compute-xen",
 	"source": "nova",
+	"version": "3:32.0.0-0ubuntu1.1",
+	"section": "universe/net",
+	"priority": "extra",
+	"architecture": "all",
+	"depends": [
+		"nova-compute-libvirt (= 3:32.0.0-0ubuntu1.1)",
+		"xen-system-amd64 | xen-system-i386"
+	],
+	"conflicts": [
+		"nova-compute-hypervisor"
+	],
+	"installedSize": 22,
+	"maintainer": "Ubuntu Developers <ubuntu-devel-discuss@lists.ubuntu.com>",
+	"description": "OpenStack Compute - compute node (Xen)",
+	"homepage": "https://launchpad.net/nova",
+	"filename": "pool/universe/n/nova/nova-compute-xen_32.0.0-0ubuntu1.1_all.deb",
+	"size": 2744,
+	"md5": "34f5af657a4fb8867b0d96721481b015",
+	"sha1": "1653e733a84480f9009cbdfacf77f15bce45d3b3",
+	"sha256": "91bbcbed3cac83e4c256cb008a30ed0e24fc68cb1195e74401c944e08febca22",
+	"sha512": "3f88e1a3e8bf37c8bac397b061a2745e05c9c44ae8489b25a89138c8789b25016038890b3fba5e7599d66f97eda7610a386a4f31f53ac6ed970c04f099cdd78b",
+	"descriptionMd5": "8268c70ad765a6427d184e1c58a4472c"
+},{
+	"raw": {},
+	"required": [
+		"Filename",
+		"Size"
+	],
+	"package": "nova-compute-xen",
+	"source": "nova",
 	"version": "3:32.0.0-0ubuntu1",
 	"section": "universe/net",
 	"priority": "extra",
