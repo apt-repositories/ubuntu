@@ -1,0 +1,42 @@
+{
+	"raw": {},
+	"required": [
+		"Filename",
+		"Size"
+	],
+	"package": "linux-image-unsigned-6.8.0-101-lowlatency",
+	"source": "linux-lowlatency-hwe-6.8",
+	"version": "6.8.0-101.101.1~22.04.1",
+	"section": "kernel",
+	"priority": "optional",
+	"architecture": "amd64",
+	"depends": [
+		"kmod",
+		"linux-base (>= 4.5ubuntu1~16.04.1)",
+		"linux-modules-6.8.0-101-lowlatency"
+	],
+	"recommends": [
+		"grub-pc | grub-efi-amd64 | grub-efi-ia32 | grub | lilo",
+		"initramfs-tools | linux-initramfs-tool"
+	],
+	"suggests": [
+		"fdutils",
+		"linux-doc | linux-lowlatency-hwe-6.8-source-6.8.0",
+		"linux-lowlatency-hwe-6.8-tools",
+		"linux-headers-6.8.0-101-lowlatency",
+		"linux-modules-extra-6.8.0-101-lowlatency"
+	],
+	"conflicts": [
+		"linux-image-6.8.0-101-lowlatency"
+	],
+	"installedSize": 15487,
+	"maintainer": "Ubuntu Kernel Team <kernel-team@lists.ubuntu.com>",
+	"description": "Linux kernel image for version 6.8.0 on 64 bit x86 SMP",
+	"filename": "pool/main/l/linux-lowlatency-hwe-6.8/linux-image-unsigned-6.8.0-101-lowlatency_6.8.0-101.101.1~22.04.1_amd64.deb",
+	"size": 15155392,
+	"md5": "f65a38746f0b2122a80278d2ba7a9577",
+	"sha1": "1c9f299959f48e1c0cbb469469f125093ff5425f",
+	"sha256": "f16992285bcdc1dbe4cccdadb087d77ed9b8c4a643b7fe725ba9d63b2a320e10",
+	"sha512": "7f5cf473d5e2cd6573c3ce51a16f80e05867ef6a87d2cc458ee35de32780917ad919a2c05fe3f40d139718ef6e79ece48d4cbc93019052496aac74d4433178b1",
+	"descriptionMd5": "7f18d1f8a653a43f6df1cba7fbcf8123"
+}
