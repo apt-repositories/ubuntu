@@ -6,6 +6,53 @@
 	],
 	"package": "libcurl3t64-gnutls",
 	"source": "curl",
+	"version": "8.5.0-2ubuntu10.7",
+	"section": "libs",
+	"priority": "optional",
+	"architecture": "amd64",
+	"depends": [
+		"libbrotli1 (>= 0.6.0)",
+		"libc6 (>= 2.36)",
+		"libgnutls30t64 (>= 3.8.2)",
+		"libgssapi-krb5-2 (>= 1.17)",
+		"libidn2-0 (>= 2.0.0)",
+		"libldap2 (>= 2.6.2)",
+		"libnettle8t64",
+		"libnghttp2-14 (>= 1.50.0)",
+		"libpsl5t64 (>= 0.16.0)",
+		"librtmp1 (>= 2.3)",
+		"libssh-4 (>= 0.9.0)",
+		"libzstd1 (>= 1.5.5)",
+		"zlib1g (>= 1:1.1.4)"
+	],
+	"recommends": [
+		"ca-certificates"
+	],
+	"replaces": [
+		"libcurl3-gnutls"
+	],
+	"breaks": [
+		"libcurl3-gnutls (<< 8.5.0-2ubuntu10.7)"
+	],
+	"installedSize": 906,
+	"maintainer": "Ubuntu Developers <ubuntu-devel-discuss@lists.ubuntu.com>",
+	"description": "easy-to-use client-side URL transfer library (GnuTLS flavour)",
+	"homepage": "https://curl.se/",
+	"filename": "pool/main/c/curl/libcurl3t64-gnutls_8.5.0-2ubuntu10.7_amd64.deb",
+	"size": 333762,
+	"md5": "43b0c371267cc1cc90c265716beeaefc",
+	"sha1": "52f578fc58450d673496f85a8eaaa93edc3bc838",
+	"sha256": "650b778d627c7b4397c3b464815addc0f5c1cd86c8d86f8f618e68d244587156",
+	"sha512": "8fe61385ae8dccedd010a94482fd775debaca106bd11ecd1062b2e2113680d0252f5b4c34996847c88df37669a9694599169d567939a595857badc877cde53d3",
+	"descriptionMd5": "785baf29d91f9f781677a7f569940052"
+},{
+	"raw": {},
+	"required": [
+		"Filename",
+		"Size"
+	],
+	"package": "libcurl3t64-gnutls",
+	"source": "curl",
 	"version": "8.5.0-2ubuntu10.6",
 	"section": "libs",
 	"priority": "optional",

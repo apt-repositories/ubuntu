@@ -1,0 +1,42 @@
+[{
+	"raw": {},
+	"required": [
+		"Filename",
+		"Size"
+	],
+	"package": "linux-image-6.8.0-1047-aws",
+	"source": "linux-signed-aws",
+	"version": "6.8.0-1047.50",
+	"section": "kernel",
+	"priority": "optional",
+	"architecture": "amd64",
+	"depends": [
+		"kmod",
+		"linux-base (>= 4.5ubuntu1~16.04.1)",
+		"linux-modules-6.8.0-1047-aws"
+	],
+	"recommends": [
+		"grub-pc | grub-efi-amd64 | grub-efi-ia32 | grub | lilo",
+		"initramfs-tools | linux-initramfs-tool"
+	],
+	"suggests": [
+		"fdutils",
+		"linux-aws-doc-6.8.0 | linux-aws-source-6.8.0",
+		"linux-aws-tools",
+		"linux-headers-6.8.0-1047-aws"
+	],
+	"conflicts": [
+		"linux-image-unsigned-6.8.0-1047-aws"
+	],
+	"installedSize": 14603,
+	"maintainer": "Canonical Kernel Team <kernel-team@lists.ubuntu.com>",
+	"description": "Signed kernel image aws",
+	"builtUsing": "linux-aws (= 6.8.0-1047.50)",
+	"filename": "pool/main/l/linux-signed-aws/linux-image-6.8.0-1047-aws_6.8.0-1047.50_amd64.deb",
+	"size": 14686698,
+	"md5": "81f083bcb750f4628d57bcd0b2c6a37d",
+	"sha1": "318ab40c14b5c2518d2c3736d20d122d72086497",
+	"sha256": "74a0e1f1b6ebca782bf10eeeb00ba2f04cf01e44e77b0962237d6e2566f44522",
+	"sha512": "335004be358e38478e76dcbc45ff1d46e7d27c96c2ed8c412de82832417cb53d1f28be4f8a44d310d56fa7278d3b751ee78bde9fb6c854c0a7d8a3b8dc147419",
+	"descriptionMd5": "3bd6562c83cb5afe5572bc5750e414b3"
+}]
