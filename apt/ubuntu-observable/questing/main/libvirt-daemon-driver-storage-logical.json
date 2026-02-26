@@ -45,6 +45,45 @@
 	],
 	"package": "libvirt-daemon-driver-storage-logical",
 	"source": "libvirt",
+	"version": "11.6.0-1ubuntu3.3",
+	"section": "admin",
+	"priority": "optional",
+	"architecture": "amd64",
+	"depends": [
+		"libvirt-common (= 11.6.0-1ubuntu3.3)",
+		"libvirt-daemon (= 11.6.0-1ubuntu3.3)",
+		"libvirt-daemon-driver-storage (= 11.6.0-1ubuntu3.3)",
+		"libvirt0 (= 11.6.0-1ubuntu3.3)",
+		"lvm2",
+		"libc6 (>= 2.4)",
+		"libgcc-s1 (>= 3.3.1)",
+		"libglib2.0-0t64 (>= 2.30.0)"
+	],
+	"replaces": [
+		"libvirt-daemon (<< 10.6.0-2~)"
+	],
+	"breaks": [
+		"libvirt-daemon (<< 10.6.0-2~)"
+	],
+	"installedSize": 41,
+	"maintainer": "Ubuntu Developers <ubuntu-devel-discuss@lists.ubuntu.com>",
+	"description": "virtualization daemon - Logical Volume Manager (LVM) storage driver",
+	"homepage": "https://libvirt.org/storage.html#logical-volume-pool",
+	"filename": "pool/main/libv/libvirt/libvirt-daemon-driver-storage-logical_11.6.0-1ubuntu3.3_amd64.deb",
+	"size": 11140,
+	"md5": "b593e8a6f250ef4d875c45b786c62998",
+	"sha1": "69c28c9d69836d435fe4b7a0f8707055248a7693",
+	"sha256": "79049c95cff465d91bc983265d544ea755109b9beccc829e6e4af0bb3b9a1cc4",
+	"sha512": "bbd7550d5cf5c318458ec7347ef5be8d7063be2a272113de5a9cfc0fc95b207bd11d4f10b680931d27cab158cd3dab99037e6262e613e14d778d366477a9c334",
+	"descriptionMd5": "55fe494f52a7e3aab7337faabc21a71f"
+},{
+	"raw": {},
+	"required": [
+		"Filename",
+		"Size"
+	],
+	"package": "libvirt-daemon-driver-storage-logical",
+	"source": "libvirt",
 	"version": "11.6.0-1ubuntu3",
 	"section": "admin",
 	"priority": "optional",
