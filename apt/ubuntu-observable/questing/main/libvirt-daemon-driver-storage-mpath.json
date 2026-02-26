@@ -45,6 +45,45 @@
 	],
 	"package": "libvirt-daemon-driver-storage-mpath",
 	"source": "libvirt",
+	"version": "11.6.0-1ubuntu3.3",
+	"section": "admin",
+	"priority": "optional",
+	"architecture": "amd64",
+	"depends": [
+		"libvirt-common (= 11.6.0-1ubuntu3.3)",
+		"libvirt-daemon (= 11.6.0-1ubuntu3.3)",
+		"libvirt-daemon-driver-storage (= 11.6.0-1ubuntu3.3)",
+		"libvirt0 (= 11.6.0-1ubuntu3.3)",
+		"libc6 (>= 2.4)",
+		"libdevmapper1.02.1 (>= 2:1.02.197)",
+		"libgcc-s1 (>= 3.3.1)",
+		"libglib2.0-0t64 (>= 2.16.0)"
+	],
+	"replaces": [
+		"libvirt-daemon (<< 10.6.0-2~)"
+	],
+	"breaks": [
+		"libvirt-daemon (<< 10.6.0-2~)"
+	],
+	"installedSize": 25,
+	"maintainer": "Ubuntu Developers <ubuntu-devel-discuss@lists.ubuntu.com>",
+	"description": "virtualization daemon - multipath (mpath) storage driver",
+	"homepage": "https://libvirt.org/storage.html#multipath-pool",
+	"filename": "pool/main/libv/libvirt/libvirt-daemon-driver-storage-mpath_11.6.0-1ubuntu3.3_amd64.deb",
+	"size": 4804,
+	"md5": "65e2c5999fa84eb953e6fd1b60ee144b",
+	"sha1": "0ecf5f5d9fe8c729baac88332460aa62f414afa4",
+	"sha256": "6fc913656ed3cb2e4646ee94138b16e3ba6b4c1541e1d5e84209856c4a21975d",
+	"sha512": "f492fc4406f849e0681b3654790cb500be57763417f4fe69a7306def6be648384f9a564c3df5f007b226411cbc31954cded4a444aa1ee32c4340b53dc38dd3db",
+	"descriptionMd5": "676250d0ed39df45568ab019323bd8bd"
+},{
+	"raw": {},
+	"required": [
+		"Filename",
+		"Size"
+	],
+	"package": "libvirt-daemon-driver-storage-mpath",
+	"source": "libvirt",
 	"version": "11.6.0-1ubuntu3",
 	"section": "admin",
 	"priority": "optional",

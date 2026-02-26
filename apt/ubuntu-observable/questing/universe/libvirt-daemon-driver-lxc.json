@@ -52,6 +52,52 @@
 	],
 	"package": "libvirt-daemon-driver-lxc",
 	"source": "libvirt",
+	"version": "11.6.0-1ubuntu3.3",
+	"section": "universe/admin",
+	"priority": "optional",
+	"architecture": "amd64",
+	"depends": [
+		"libvirt-common (= 11.6.0-1ubuntu3.3)",
+		"libvirt-daemon (= 11.6.0-1ubuntu3.3)",
+		"libvirt-daemon-driver-network (= 11.6.0-1ubuntu3.3)",
+		"libvirt0 (= 11.6.0-1ubuntu3.3)",
+		"logrotate",
+		"systemd-container | sysvinit-core",
+		"libblkid1 (>= 2.17.2)",
+		"libc6 (>= 2.38)",
+		"libcap-ng0 (>= 0.7.9)",
+		"libfuse3-4 (>= 3.17.2)",
+		"libgcc-s1 (>= 3.3.1)",
+		"libglib2.0-0t64 (>= 2.44.0)",
+		"libtirpc3t64 (>= 1.0.2)"
+	],
+	"replaces": [
+		"libvirt-daemon (<< 6.9.0-2~)",
+		"libvirt-daemon-system (<< 10.6.0-2~)"
+	],
+	"breaks": [
+		"libvirt-daemon (<< 6.9.0-2~)",
+		"libvirt-daemon-system (<< 10.6.0-2~)"
+	],
+	"installedSize": 446,
+	"maintainer": "Ubuntu Developers <ubuntu-devel-discuss@lists.ubuntu.com>",
+	"description": "virtualization daemon - LXC connection driver",
+	"homepage": "https://libvirt.org/drvlxc.html",
+	"filename": "pool/universe/libv/libvirt/libvirt-daemon-driver-lxc_11.6.0-1ubuntu3.3_amd64.deb",
+	"size": 129734,
+	"md5": "7f9281a63cfc7fbcca2836bdbfc352d7",
+	"sha1": "e9eeeab5bd4cc7cfe8dba6830c7bf71675ad0a9e",
+	"sha256": "ce03fec34a3050c459349aa4ab3ce0735951a3fe12b1139c1917155d8ed80a6d",
+	"sha512": "220d76931b2370eba9c450434f8cb19076addd8107c4946242eddfe0a62d5d35de45989f07ee34e218314f4d636e2ded45d5e737fd76ccb3eb1a66a0894afad8",
+	"descriptionMd5": "ca2e42014970d5eaf7e708d06d6e1491"
+},{
+	"raw": {},
+	"required": [
+		"Filename",
+		"Size"
+	],
+	"package": "libvirt-daemon-driver-lxc",
+	"source": "libvirt",
 	"version": "11.6.0-1ubuntu3",
 	"section": "universe/admin",
 	"priority": "optional",

@@ -45,6 +45,45 @@
 	],
 	"package": "libvirt-daemon-driver-storage-iscsi",
 	"source": "libvirt",
+	"version": "11.6.0-1ubuntu3.3",
+	"section": "admin",
+	"priority": "optional",
+	"architecture": "amd64",
+	"depends": [
+		"libvirt-common (= 11.6.0-1ubuntu3.3)",
+		"libvirt-daemon (= 11.6.0-1ubuntu3.3)",
+		"libvirt-daemon-driver-storage (= 11.6.0-1ubuntu3.3)",
+		"libvirt0 (= 11.6.0-1ubuntu3.3)",
+		"open-iscsi",
+		"libc6 (>= 2.38)",
+		"libgcc-s1 (>= 3.3.1)",
+		"libglib2.0-0t64 (>= 2.24.0)"
+	],
+	"replaces": [
+		"libvirt-daemon (<< 10.6.0-2~)"
+	],
+	"breaks": [
+		"libvirt-daemon (<< 10.6.0-2~)"
+	],
+	"installedSize": 33,
+	"maintainer": "Ubuntu Developers <ubuntu-devel-discuss@lists.ubuntu.com>",
+	"description": "virtualization daemon - iSCSI storage driver",
+	"homepage": "https://libvirt.org/storage.html#iscsi-pool",
+	"filename": "pool/main/libv/libvirt/libvirt-daemon-driver-storage-iscsi_11.6.0-1ubuntu3.3_amd64.deb",
+	"size": 7324,
+	"md5": "d2bd7a9b21ddbc6160bd8a0f2b8aa54c",
+	"sha1": "99dded88bded77adc68f556f2f3e2b464ffe9f72",
+	"sha256": "aaec09a8578a1c0d1c642d49918effd7c446479f01effa81e4e45d109317580e",
+	"sha512": "0811dbf6a39778b264f1858e23549f927fb41e43dbd74a782c05e96b3290113caf7541990b6bf60cf75dc075d2ce31d8ee3ad0b7bca8f47d9af04430de2e0526",
+	"descriptionMd5": "07d56f19991d6c86a8e673725c1788e7"
+},{
+	"raw": {},
+	"required": [
+		"Filename",
+		"Size"
+	],
+	"package": "libvirt-daemon-driver-storage-iscsi",
+	"source": "libvirt",
 	"version": "11.6.0-1ubuntu3",
 	"section": "admin",
 	"priority": "optional",

@@ -48,6 +48,48 @@
 	],
 	"package": "libvirt-daemon-log",
 	"source": "libvirt",
+	"version": "11.6.0-1ubuntu3.3",
+	"section": "admin",
+	"priority": "optional",
+	"architecture": "amd64",
+	"depends": [
+		"libvirt-common (= 11.6.0-1ubuntu3.3)",
+		"libvirt0 (= 11.6.0-1ubuntu3.3)",
+		"libc6 (>= 2.34)",
+		"libgcc-s1 (>= 3.3.1)",
+		"libglib2.0-0t64 (>= 2.32.0)",
+		"libtirpc3t64 (>= 1.0.2)"
+	],
+	"replaces": [
+		"libvirt-daemon (<< 10.6.0-2~)",
+		"libvirt-daemon-system-sysv (<< 10.6.0-2~)"
+	],
+	"breaks": [
+		"libvirt-daemon (<< 10.6.0-2~)",
+		"libvirt-daemon-system-sysv (<< 10.6.0-2~)"
+	],
+	"conflicts": [
+		"libvirt-daemon-system (<< 10.6.0-2~)"
+	],
+	"installedSize": 155,
+	"maintainer": "Ubuntu Developers <ubuntu-devel-discuss@lists.ubuntu.com>",
+	"description": "virtualization daemon - logging daemon",
+	"homepage": "https://libvirt.org/daemons.html#logging-daemon",
+	"filename": "pool/main/libv/libvirt/libvirt-daemon-log_11.6.0-1ubuntu3.3_amd64.deb",
+	"size": 39980,
+	"md5": "9a19ce219a1fe84b49eb8268c8474ca9",
+	"sha1": "a0bcf5bc53385fdc34e07e8a28b755c0138cfe50",
+	"sha256": "0adc6907021fbfc2dd2be1c85859d3812844be68df27684f24bb64ac92a61bb4",
+	"sha512": "7796422f4431c35e74e6fd2e45eddf4d7a6a5db3a9e9290b16551c06cb323d313cde0cc62a59e8cc90c6d3050fbee12cec9b6120f6d2fe37aa7d98741a918955",
+	"descriptionMd5": "afd91141bcf26ffc0373ea746dccdca9"
+},{
+	"raw": {},
+	"required": [
+		"Filename",
+		"Size"
+	],
+	"package": "libvirt-daemon-log",
+	"source": "libvirt",
 	"version": "11.6.0-1ubuntu3",
 	"section": "admin",
 	"priority": "optional",

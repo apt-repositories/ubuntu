@@ -46,6 +46,46 @@
 	],
 	"package": "libvirt-daemon-driver-nodedev",
 	"source": "libvirt",
+	"version": "11.6.0-1ubuntu3.3",
+	"section": "admin",
+	"priority": "optional",
+	"architecture": "amd64",
+	"depends": [
+		"libvirt-common (= 11.6.0-1ubuntu3.3)",
+		"libvirt-daemon (= 11.6.0-1ubuntu3.3)",
+		"libvirt0 (= 11.6.0-1ubuntu3.3)",
+		"mdevctl",
+		"libc6 (>= 2.4)",
+		"libgcc-s1 (>= 3.3.1)",
+		"libglib2.0-0t64 (>= 2.44.0)",
+		"libpciaccess0",
+		"libudev1 (>= 183)"
+	],
+	"replaces": [
+		"libvirt-daemon (<< 10.6.0-2~)"
+	],
+	"breaks": [
+		"libvirt-daemon (<< 10.6.0-2~)"
+	],
+	"installedSize": 117,
+	"maintainer": "Ubuntu Developers <ubuntu-devel-discuss@lists.ubuntu.com>",
+	"description": "virtualization daemon - node device (nodedev) driver",
+	"homepage": "https://libvirt.org/drvnodedev.html",
+	"filename": "pool/main/libv/libvirt/libvirt-daemon-driver-nodedev_11.6.0-1ubuntu3.3_amd64.deb",
+	"size": 36618,
+	"md5": "3e7cae75b87ad0a0e7401f0892b64ee2",
+	"sha1": "ae8347d217b2e01fd9ef01d78e872ae4374b1f42",
+	"sha256": "aef2a73a6cfd2fbeec8d170777e9860ac47cf88e42975d5ac9af371850855767",
+	"sha512": "507177ce5d393e3846e8fcbc0b8107b8624efae2ebe7b8edc1f74083c470923a34a6025c8b2650c18237d236ac2cca939fd55448d6f74d2759437a53518901f0",
+	"descriptionMd5": "35c6a4d2b1a795283340e3bf3dc34d60"
+},{
+	"raw": {},
+	"required": [
+		"Filename",
+		"Size"
+	],
+	"package": "libvirt-daemon-driver-nodedev",
+	"source": "libvirt",
 	"version": "11.6.0-1ubuntu3",
 	"section": "admin",
 	"priority": "optional",
