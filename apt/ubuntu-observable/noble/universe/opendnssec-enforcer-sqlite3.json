@@ -6,6 +6,49 @@
 	],
 	"package": "opendnssec-enforcer-sqlite3",
 	"source": "opendnssec",
+	"version": "1:2.1.13-1.1ubuntu1",
+	"section": "universe/admin",
+	"priority": "extra",
+	"architecture": "amd64",
+	"depends": [
+		"libdbd-sqlite3-perl",
+		"opendnssec-common (= 1:2.1.13-1.1ubuntu1)",
+		"sqlite3",
+		"libc6 (>= 2.38)",
+		"libldns3t64 (>= 1.7.1)",
+		"libreadline8t64 (>= 6.0)",
+		"libsqlite3-0 (>= 3.6.0)",
+		"libxml2 (>= 2.7.4)"
+	],
+	"recommends": [
+		"opendnssec (= 1:2.1.13-1.1ubuntu1)",
+		"softhsm2"
+	],
+	"replaces": [
+		"opendnssec-enforcer-backend"
+	],
+	"conflicts": [
+		"opendnssec-enforcer-backend"
+	],
+	"installedSize": 947,
+	"maintainer": "Ubuntu Developers <ubuntu-devel-discuss@lists.ubuntu.com>",
+	"description": "tool to prepare DNSSEC keys (sqlite3 backend)",
+	"homepage": "https://www.opendnssec.org/",
+	"filename": "pool/universe/o/opendnssec/opendnssec-enforcer-sqlite3_2.1.13-1.1ubuntu1_amd64.deb",
+	"size": 262762,
+	"md5": "7bee5106da10cbba9449b4a0ea8112a1",
+	"sha1": "3e2bdf8c177503ebf21479a240038998c211cbc9",
+	"sha256": "d667776d08abc14a0aeee2ca007ea1f419b410b9a7187b2cdae3c586c9212341",
+	"sha512": "7dd82ba4e86820a35f97de1ee1c5896a4d30340d51fe081e88e785896d64373080117af4462777bec264ec563a2fcbf72214e253fe3d437b4520dd019b448495",
+	"descriptionMd5": "bb5604863c8cb8d2017e5b112b4a4fc8"
+},{
+	"raw": {},
+	"required": [
+		"Filename",
+		"Size"
+	],
+	"package": "opendnssec-enforcer-sqlite3",
+	"source": "opendnssec",
 	"version": "1:2.1.13-1.1",
 	"section": "universe/admin",
 	"priority": "extra",
