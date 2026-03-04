@@ -78,6 +78,78 @@
 	],
 	"package": "libvirt-daemon",
 	"source": "libvirt",
+	"version": "10.0.0-2ubuntu8.12",
+	"section": "admin",
+	"priority": "optional",
+	"architecture": "amd64",
+	"depends": [
+		"libvirt-daemon-driver-qemu (= 10.0.0-2ubuntu8.12)",
+		"libvirt0 (= 10.0.0-2ubuntu8.12)",
+		"libacl1 (>= 2.2.23)",
+		"libblkid1 (>= 2.17.2)",
+		"libc6 (>= 2.38)",
+		"libdevmapper1.02.1 (>= 2:1.02.97)",
+		"libgcc-s1 (>= 3.3.1)",
+		"libglib2.0-0t64 (>= 2.44.0)",
+		"libparted2t64 (>= 3.1)",
+		"libpcap0.8t64 (>= 1.5.1)",
+		"libpciaccess0",
+		"libselinux1 (>= 3.1~)",
+		"libtirpc3t64 (>= 1.0.2)",
+		"libudev1 (>= 183)",
+		"libxml2 (>= 2.7.4)"
+	],
+	"recommends": [
+		"libxml2-utils",
+		"lvm2",
+		"mount",
+		"netcat-openbsd",
+		"qemu-kvm | qemu-system"
+	],
+	"suggests": [
+		"libvirt-daemon-driver-storage-gluster (= 10.0.0-2ubuntu8.12)",
+		"libvirt-daemon-driver-storage-iscsi-direct (= 10.0.0-2ubuntu8.12)",
+		"libvirt-daemon-driver-storage-rbd (= 10.0.0-2ubuntu8.12)",
+		"libvirt-daemon-driver-storage-zfs (= 10.0.0-2ubuntu8.12)",
+		"libvirt-daemon-driver-lxc (= 10.0.0-2ubuntu8.12)",
+		"libvirt-daemon-driver-vbox (= 10.0.0-2ubuntu8.12)",
+		"libvirt-daemon-driver-xen (= 10.0.0-2ubuntu8.12)",
+		"libvirt-daemon-system (= 10.0.0-2ubuntu8.12)",
+		"numad"
+	],
+	"replaces": [
+		"libvirt-daemon-system (<< 6.9.0-3~)"
+	],
+	"enhances": [
+		"qemu-kvm",
+		"qemu-system",
+		"xen"
+	],
+	"breaks": [
+		"libvirt-clients (<< 6.9.0-2~)",
+		"libvirt-daemon-driver-lxc (<< 6.9.0-2~)",
+		"libvirt-daemon-system (<< 6.9.0-3~)",
+		"libvirt-sanlock (<< 6.9.0-2~)"
+	],
+	"installedSize": 1726,
+	"maintainer": "Ubuntu Developers <ubuntu-devel-discuss@lists.ubuntu.com>",
+	"description": "Virtualization daemon",
+	"homepage": "https://libvirt.org/",
+	"filename": "pool/main/libv/libvirt/libvirt-daemon_10.0.0-2ubuntu8.12_amd64.deb",
+	"size": 431344,
+	"md5": "8f00acee2e6efd8bfcb294a287094a56",
+	"sha1": "1d8e362bd129d026c3b1c9fc97367bee14701851",
+	"sha256": "87d0a193411c530f6e12fd039841b7c58d34dc9bec1e1a6daed9b04783812898",
+	"sha512": "9a11987c897fc681911a34bfc150acae85fd18c0f2b4e09952c77f434f42eac03bb695b4892112cbe11b0664658197ce6659eab8a6b6fe580e351e5cacaf3e0e",
+	"descriptionMd5": "f633393919dd0d9ae0c06cf15068e5ea"
+},{
+	"raw": {},
+	"required": [
+		"Filename",
+		"Size"
+	],
+	"package": "libvirt-daemon",
+	"source": "libvirt",
 	"version": "10.0.0-2ubuntu8",
 	"section": "admin",
 	"priority": "optional",

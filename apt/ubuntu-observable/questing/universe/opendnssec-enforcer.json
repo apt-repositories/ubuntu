@@ -6,6 +6,42 @@
 	],
 	"package": "opendnssec-enforcer",
 	"source": "opendnssec",
+	"version": "1:2.1.13-1.2ubuntu3.1",
+	"section": "universe/admin",
+	"priority": "extra",
+	"architecture": "all",
+	"depends": [
+		"opendnssec-enforcer-sqlite3 (>= 1:2.1.13-1.2ubuntu3.1) | opendnssec-enforcer-backend",
+		"opendnssec-common (>= 1:2.1.13-1.2ubuntu3.1)",
+		"procps"
+	],
+	"preDepends": [
+		"init-system-helpers (>= 1.54~)"
+	],
+	"recommends": [
+		"opendnssec (>= 1:2.1.13-1.2ubuntu3.1)",
+		"opendnssec-signer (>= 1:2.1.13-1.2ubuntu3.1)",
+		"softhsm2"
+	],
+	"installedSize": 23,
+	"maintainer": "Ubuntu Developers <ubuntu-devel-discuss@lists.ubuntu.com>",
+	"description": "tool to prepare DNSSEC keys (common package)",
+	"homepage": "https://www.opendnssec.org/",
+	"filename": "pool/universe/o/opendnssec/opendnssec-enforcer_2.1.13-1.2ubuntu3.1_all.deb",
+	"size": 3182,
+	"md5": "2f7525782ae1c61c121be35894466263",
+	"sha1": "c6d4e652652f882d588d36068b7d4c70e03a803c",
+	"sha256": "6ba737cb9bd8b0f75771d10033ae7026538d5cb610447988979f499dd5cadf4d",
+	"sha512": "2f192e1a2a947e6633af59efe4005252fedec9d2dd0d647c1a281665e7cb1c12a6470ed0c49d136af32f3d4715eb2f75aaf9597ffbc9119f00a3019b4cf27160",
+	"descriptionMd5": "2a8775485ba075e7ae59c0b13fe1822a"
+},{
+	"raw": {},
+	"required": [
+		"Filename",
+		"Size"
+	],
+	"package": "opendnssec-enforcer",
+	"source": "opendnssec",
 	"version": "1:2.1.13-1.2ubuntu3",
 	"section": "universe/admin",
 	"priority": "extra",

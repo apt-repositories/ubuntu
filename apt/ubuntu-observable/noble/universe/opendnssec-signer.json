@@ -6,6 +6,45 @@
 	],
 	"package": "opendnssec-signer",
 	"source": "opendnssec",
+	"version": "1:2.1.13-1.1ubuntu1",
+	"section": "universe/admin",
+	"priority": "extra",
+	"architecture": "amd64",
+	"depends": [
+		"opendnssec-common (= 1:2.1.13-1.1ubuntu1)",
+		"libc6 (>= 2.38)",
+		"libldns3t64 (>= 1.7.1)",
+		"libreadline8t64 (>= 6.0)",
+		"libssl3t64 (>= 3.0.0)",
+		"libxml2 (>= 2.7.4)"
+	],
+	"preDepends": [
+		"init-system-helpers (>= 1.54~)"
+	],
+	"recommends": [
+		"opendnssec (= 1:2.1.13-1.1ubuntu1)",
+		"opendnssec-enforcer (= 1:2.1.13-1.1ubuntu1)",
+		"softhsm2"
+	],
+	"installedSize": 528,
+	"maintainer": "Ubuntu Developers <ubuntu-devel-discuss@lists.ubuntu.com>",
+	"description": "daemon to sign DNS zone files periodically",
+	"homepage": "https://www.opendnssec.org/",
+	"filename": "pool/universe/o/opendnssec/opendnssec-signer_2.1.13-1.1ubuntu1_amd64.deb",
+	"size": 191408,
+	"md5": "158cc55b712a2bd9e4243f4ed63d0f5f",
+	"sha1": "50fafc572e484fd8db0f61e572b197b00f63032f",
+	"sha256": "12233045fc042c20d658c7ab3feeee9f175d9b4c5d33e74321c806fed029253e",
+	"sha512": "1d85f67297a975cfeff93866a0080be884d304365275041de5867c1a0552583e0eb29b3da8b613c7e4071c15c77ab0736aad8cb041e22ddc658f0fb6a135b7f5",
+	"descriptionMd5": "83118e821dd444e5d9a75fa1a5bf9a28"
+},{
+	"raw": {},
+	"required": [
+		"Filename",
+		"Size"
+	],
+	"package": "opendnssec-signer",
+	"source": "opendnssec",
 	"version": "1:2.1.13-1.1",
 	"section": "universe/admin",
 	"priority": "extra",

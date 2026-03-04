@@ -43,6 +43,43 @@
 	],
 	"package": "libvirt-sanlock",
 	"source": "libvirt",
+	"version": "10.0.0-2ubuntu8.12",
+	"section": "universe/libs",
+	"priority": "extra",
+	"architecture": "amd64",
+	"depends": [
+		"augeas-tools",
+		"libvirt0 (= 10.0.0-2ubuntu8.12)",
+		"libc6 (>= 2.34)",
+		"libgcc-s1 (>= 3.3.1)",
+		"libglib2.0-0t64 (>= 2.16.0)",
+		"libsanlock-client1 (>= 3.6.0)"
+	],
+	"replaces": [
+		"libvirt-daemon (<< 6.9.0-2~)"
+	],
+	"breaks": [
+		"libvirt-daemon (<< 6.9.0-2~)"
+	],
+	"installedSize": 75,
+	"maintainer": "Ubuntu Developers <ubuntu-devel-discuss@lists.ubuntu.com>",
+	"description": "Sanlock plugin for virtlockd",
+	"homepage": "https://libvirt.org/",
+	"filename": "pool/universe/libv/libvirt/libvirt-sanlock_10.0.0-2ubuntu8.12_amd64.deb",
+	"size": 17320,
+	"md5": "bc1bde02be558877483391d015b4879b",
+	"sha1": "188b2f7d75f37d006e2609c7d8c825472424d00b",
+	"sha256": "582932f132c8335daba2d920ace6c6c90a9f1fddeb5d89b15432b631b7ecccb6",
+	"sha512": "b22f6e8b67883ac90d8cfce84b6a8da0c2c90af7e7e61e1c025e62449fff2f1942bd199ef85bdf71b3461fa45aa22b02e28fdce996ea813fb1e3d5103293d85e",
+	"descriptionMd5": "b7c793f838fe9e323ae4910fd5c1fa9e"
+},{
+	"raw": {},
+	"required": [
+		"Filename",
+		"Size"
+	],
+	"package": "libvirt-sanlock",
+	"source": "libvirt",
 	"version": "10.0.0-2ubuntu8",
 	"section": "universe/libs",
 	"priority": "extra",
