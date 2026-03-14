@@ -37,6 +37,38 @@
 		"Size"
 	],
 	"package": "linux-image-generic-hwe-22.04-edge",
+	"source": "linux-meta-hwe-6.8",
+	"version": "6.8.0-106.106~22.04.1",
+	"section": "kernel",
+	"priority": "optional",
+	"architecture": "amd64",
+	"depends": [
+		"linux-image-6.8.0-106-generic",
+		"linux-modules-extra-6.8.0-106-generic",
+		"linux-firmware",
+		"intel-microcode",
+		"amd64-microcode"
+	],
+	"recommends": [
+		"thermald"
+	],
+	"installedSize": 24,
+	"maintainer": "Ubuntu Kernel Team <kernel-team@lists.ubuntu.com>",
+	"description": "Generic Linux kernel image",
+	"filename": "pool/main/l/linux-meta-hwe-6.8/linux-image-generic-hwe-22.04-edge_6.8.0-106.106~22.04.1_amd64.deb",
+	"size": 2558,
+	"md5": "6b159ef011ad6fabf4c5619316a029b3",
+	"sha1": "949230071ab6d033c92f68b414d48a74f560627b",
+	"sha256": "f2fa939fd4d92da522579067aa2560227aa9dab384770ff191ccae5c317f4fda",
+	"sha512": "1ebd47968c44ffeec9ad4d68bb7b49032cf6eb62950701be4bf82b558fff73614c0ee0ad3c21c08bb91e7776fbc7af8365a389b3efa48fc53fbb34da0b8e53ff",
+	"descriptionMd5": "6d632579c673704f44b290b16e7dbfd1"
+},{
+	"raw": {},
+	"required": [
+		"Filename",
+		"Size"
+	],
+	"package": "linux-image-generic-hwe-22.04-edge",
 	"source": "linux-meta",
 	"version": "5.15.0.25.27",
 	"section": "kernel",
