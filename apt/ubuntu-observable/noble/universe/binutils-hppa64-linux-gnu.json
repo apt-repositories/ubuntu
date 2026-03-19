@@ -50,6 +50,50 @@
 	],
 	"package": "binutils-hppa64-linux-gnu",
 	"source": "binutils",
+	"version": "2.42-4ubuntu2.10",
+	"section": "universe/devel",
+	"priority": "optional",
+	"architecture": "amd64",
+	"depends": [
+		"libc6 (>= 2.38)",
+		"libjansson4 (>= 2.14)",
+		"libsframe1 (>= 2.41)",
+		"libzstd1 (>= 1.5.5)",
+		"zlib1g (>= 1:1.2.0)",
+		"binutils (= 2.42-4ubuntu2.10)",
+		"binutils-common (= 2.42-4ubuntu2.10)"
+	],
+	"recommends": [
+		"libc6-dev"
+	],
+	"suggests": [
+		"binutils-doc (>= 2.42-4ubuntu2.10)"
+	],
+	"replaces": [
+		"binutils-hppa64 (<< 2.25.1-2)"
+	],
+	"breaks": [
+		"binutils-hppa64 (<< 2.25.1-2)"
+	],
+	"installedSize": 4754,
+	"maintainer": "Ubuntu Developers <ubuntu-devel-discuss@lists.ubuntu.com>",
+	"description": "GNU assembler, linker and binary utilities targeted for hppa64-linux",
+	"homepage": "https://www.gnu.org/software/binutils/",
+	"filename": "pool/universe/b/binutils/binutils-hppa64-linux-gnu_2.42-4ubuntu2.10_amd64.deb",
+	"size": 1278136,
+	"md5": "40a51403c88be5d44de7ed40279168a7",
+	"sha1": "21433ab1b890df321d72330ffe89b2baa80f65c2",
+	"sha256": "3ff2655e9d06c7c0c1c3b3c9429370dd2fe711ec76fc0602853257bcf603eb29",
+	"sha512": "9fb3538957a444fa5566e08a68032dd922494315499f08405603358313114892e2959c062884269b2442919e5c0f835edaeb396d80904aa050785b145b49bf56",
+	"descriptionMd5": "d10ea856859cb34c423f67db676441a0"
+},{
+	"raw": {},
+	"required": [
+		"Filename",
+		"Size"
+	],
+	"package": "binutils-hppa64-linux-gnu",
+	"source": "binutils",
 	"version": "2.42-4ubuntu2",
 	"section": "universe/devel",
 	"priority": "optional",

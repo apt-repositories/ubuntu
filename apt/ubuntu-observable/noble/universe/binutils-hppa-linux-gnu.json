@@ -48,6 +48,48 @@
 	],
 	"package": "binutils-hppa-linux-gnu",
 	"source": "binutils",
+	"version": "2.42-4ubuntu2.10",
+	"section": "universe/devel",
+	"priority": "extra",
+	"architecture": "amd64",
+	"depends": [
+		"binutils-common (= 2.42-4ubuntu2.10)",
+		"libc6 (>= 2.38)",
+		"libjansson4 (>= 2.14)",
+		"libsframe1 (>= 2.41)",
+		"libzstd1 (>= 1.5.5)",
+		"zlib1g (>= 1:1.1.4)"
+	],
+	"suggests": [
+		"binutils-doc (= 2.42-4ubuntu2.10)"
+	],
+	"replaces": [
+		"binutils (<< 2.29-6)",
+		"binutils-dev (<< 2.38.50.20220609-2)"
+	],
+	"breaks": [
+		"binutils (<< 2.29-6)",
+		"binutils-dev (<< 2.38.50.20220609-2)"
+	],
+	"installedSize": 5356,
+	"maintainer": "Ubuntu Developers <ubuntu-devel-discuss@lists.ubuntu.com>",
+	"description": "GNU binary utilities, for hppa-linux-gnu target",
+	"homepage": "https://www.gnu.org/software/binutils/",
+	"filename": "pool/universe/b/binutils/binutils-hppa-linux-gnu_2.42-4ubuntu2.10_amd64.deb",
+	"size": 1302228,
+	"md5": "0b7c29a64dcc7d46b2cdb5503c9d6cbc",
+	"sha1": "d219c6f09787a702be46696d261111ecb6e34fef",
+	"sha256": "597e03d92b898fc79e1d22537f8b82102b36f59200ca7d9bfd51358862f11eb0",
+	"sha512": "5c4b4aa7d2e1787a007d274cb10b3da188f850988f069cf3b4cec8f6601f4762da15efa5515ced7ef6dcf851b7d52989d268510e6887109bf57952acd7032a80",
+	"descriptionMd5": "0349a5ffa8e7cc3126545ca4fa04a5cf"
+},{
+	"raw": {},
+	"required": [
+		"Filename",
+		"Size"
+	],
+	"package": "binutils-hppa-linux-gnu",
+	"source": "binutils",
 	"version": "2.42-4ubuntu2",
 	"section": "universe/devel",
 	"priority": "extra",
