@@ -49,6 +49,49 @@
 	],
 	"package": "binutils-x86-64-kfreebsd-gnu",
 	"source": "binutils",
+	"version": "2.42-4ubuntu2.10",
+	"section": "devel",
+	"priority": "optional",
+	"architecture": "amd64",
+	"depends": [
+		"binutils-common (= 2.42-4ubuntu2.10)",
+		"libc6 (>= 2.38)",
+		"libgcc-s1 (>= 4.2)",
+		"libjansson4 (>= 2.14)",
+		"libsframe1 (>= 2.41)",
+		"libzstd1 (>= 1.5.5)",
+		"zlib1g (>= 1:1.1.4)"
+	],
+	"suggests": [
+		"binutils-doc (= 2.42-4ubuntu2.10)"
+	],
+	"replaces": [
+		"binutils (<< 2.29-6)",
+		"binutils-dev (<< 2.38.50.20220609-2)"
+	],
+	"breaks": [
+		"binutils (<< 2.29-6)",
+		"binutils-dev (<< 2.38.50.20220609-2)"
+	],
+	"installedSize": 17335,
+	"maintainer": "Ubuntu Developers <ubuntu-devel-discuss@lists.ubuntu.com>",
+	"description": "GNU binary utilities, for x86-64-kfreebsd-gnu target",
+	"homepage": "https://www.gnu.org/software/binutils/",
+	"filename": "pool/main/b/binutils/binutils-x86-64-kfreebsd-gnu_2.42-4ubuntu2.10_amd64.deb",
+	"size": 3585348,
+	"md5": "c8fc7abfaa4121710f9018a1f8ca52a0",
+	"sha1": "23c7fc9c91663d7c443ca8441a63776e1c44a314",
+	"sha256": "123096a83ce82aa4d50e25ec99d978abb10342fc659b6ccd434b6316325e2189",
+	"sha512": "d496fabf16b480b009c3a3ca6d8e8282bdb438e1d2ee2c6144a483cdae59b391a71dafd79e9efb01766448940d1a028cc9eb52a9d3392d7e86370173be3db2f1",
+	"descriptionMd5": "904f7d5feb6896a459703bb50ca05daf"
+},{
+	"raw": {},
+	"required": [
+		"Filename",
+		"Size"
+	],
+	"package": "binutils-x86-64-kfreebsd-gnu",
+	"source": "binutils",
 	"version": "2.42-4ubuntu2",
 	"section": "devel",
 	"priority": "optional",

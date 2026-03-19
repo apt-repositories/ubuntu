@@ -48,6 +48,48 @@
 	],
 	"package": "binutils-riscv64-linux-gnu",
 	"source": "binutils",
+	"version": "2.42-4ubuntu2.10",
+	"section": "devel",
+	"priority": "optional",
+	"architecture": "amd64",
+	"depends": [
+		"binutils-common (= 2.42-4ubuntu2.10)",
+		"libc6 (>= 2.38)",
+		"libjansson4 (>= 2.14)",
+		"libsframe1 (>= 2.41)",
+		"libzstd1 (>= 1.5.5)",
+		"zlib1g (>= 1:1.1.4)"
+	],
+	"suggests": [
+		"binutils-doc (= 2.42-4ubuntu2.10)"
+	],
+	"replaces": [
+		"binutils (<< 2.29-6)",
+		"binutils-dev (<< 2.38.50.20220609-2)"
+	],
+	"breaks": [
+		"binutils (<< 2.29-6)",
+		"binutils-dev (<< 2.38.50.20220609-2)"
+	],
+	"installedSize": 9421,
+	"maintainer": "Ubuntu Developers <ubuntu-devel-discuss@lists.ubuntu.com>",
+	"description": "GNU binary utilities, for riscv64-linux-gnu target",
+	"homepage": "https://www.gnu.org/software/binutils/",
+	"filename": "pool/main/b/binutils/binutils-riscv64-linux-gnu_2.42-4ubuntu2.10_amd64.deb",
+	"size": 1425246,
+	"md5": "a28f3bc490220cfde2af76f1c717ea1f",
+	"sha1": "7be8875f4165050cc2e46160a7739babc1d84285",
+	"sha256": "91a73e7b44662a072605a1973d2b43d608d12e16d599c1422f39b949d3214930",
+	"sha512": "4599e25b1f13d46658be2213bfc59257f93837db65a18e606ae50cd0e28dfdc305530157a5fa93a004f41cc0cc5c6040ab271bed6dae2515b9f21816fdc88a04",
+	"descriptionMd5": "59fff13b596b2ef3111f365a3641f639"
+},{
+	"raw": {},
+	"required": [
+		"Filename",
+		"Size"
+	],
+	"package": "binutils-riscv64-linux-gnu",
+	"source": "binutils",
 	"version": "2.42-4ubuntu2",
 	"section": "devel",
 	"priority": "optional",
