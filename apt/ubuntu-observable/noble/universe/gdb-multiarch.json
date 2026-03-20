@@ -6,6 +6,56 @@
 	],
 	"package": "gdb-multiarch",
 	"source": "gdb",
+	"version": "15.1-1ubuntu1~24.04.1",
+	"section": "universe/devel",
+	"priority": "optional",
+	"architecture": "amd64",
+	"depends": [
+		"gdb (= 15.1-1ubuntu1~24.04.1)",
+		"libbabeltrace1 (>= 1.5.4)",
+		"libc6 (>= 2.38)",
+		"libdebuginfod1t64 (>= 0.180)",
+		"libexpat1 (>= 2.0.1)",
+		"libgcc-s1 (>= 4.2)",
+		"libgmp10 (>= 2:6.3.0+dfsg)",
+		"libipt2 (>= 2.0)",
+		"liblzma5 (>= 5.1.1alpha+20110809)",
+		"libmpfr6 (>= 3.1.3)",
+		"libncursesw6 (>= 6)",
+		"libpython3.12t64 (>= 3.12.1)",
+		"libreadline8t64 (>= 8.2~beta)",
+		"libsource-highlight4t64 (>= 3.1.9)",
+		"libstdc++6 (>= 12)",
+		"libtinfo6 (>= 6)",
+		"libxxhash0 (>= 0.6.5)",
+		"libzstd1 (>= 1.5.5)",
+		"zlib1g (>= 1:1.2.0)"
+	],
+	"breaks": [
+		"gdb-arm-none-eabi"
+	],
+	"conflicts": [
+		"gdb-arm-none-eabi"
+	],
+	"installedSize": 14724,
+	"maintainer": "Ubuntu Developers <ubuntu-devel-discuss@lists.ubuntu.com>",
+	"description": "GNU Debugger (with support for multiple architectures)",
+	"homepage": "https://www.gnu.org/s/gdb/",
+	"filename": "pool/universe/g/gdb/gdb-multiarch_15.1-1ubuntu1~24.04.1_amd64.deb",
+	"size": 4550598,
+	"md5": "222289c2ebb3b6470eac958efd3bf25a",
+	"sha1": "c0d8be88e46015b4abcf83fe5133d327ae6edbe6",
+	"sha256": "40d0579432589631c8a59f9d6dcba737a15b2d6c72263650d06c9c646e9e3e06",
+	"sha512": "b073bd4247d57d3e59d7ac6206acd10c64e17ee3f125b742f59f0573540d72f850cde674b24fa48f891017f19bfff4828d52192e5a1d8eea8d2046735d60b096",
+	"descriptionMd5": "a1817b57c8908df620117da195d633bc"
+},{
+	"raw": {},
+	"required": [
+		"Filename",
+		"Size"
+	],
+	"package": "gdb-multiarch",
+	"source": "gdb",
 	"version": "15.0.50.20240403-0ubuntu1",
 	"section": "universe/devel",
 	"priority": "optional",
