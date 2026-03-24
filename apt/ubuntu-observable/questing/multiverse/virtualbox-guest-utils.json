@@ -6,6 +6,45 @@
 	],
 	"package": "virtualbox-guest-utils",
 	"source": "virtualbox",
+	"version": "7.2.2-dfsg-2ubuntu0.1",
+	"section": "multiverse/misc",
+	"priority": "optional",
+	"architecture": "amd64",
+	"depends": [
+		"adduser",
+		"pciutils",
+		"libc6 (>= 2.38)",
+		"libpam0g (>= 0.99.7.1)",
+		"zlib1g (>= 1:1.1.4)"
+	],
+	"suggests": [
+		"virtualbox-guest-x11 (= 7.2.2-dfsg-2ubuntu0.1)"
+	],
+	"replaces": [
+		"virtualbox-guest-utils-hwe (<< 7.0.16-dfsg-5)"
+	],
+	"breaks": [
+		"virtualbox-guest-utils-hwe (<< 7.0.16-dfsg-5)"
+	],
+	"installedSize": 1957,
+	"maintainer": "Ubuntu Developers <ubuntu-devel-discuss@lists.ubuntu.com>",
+	"description": "x86 virtualization solution - non-X11 guest utilities",
+	"homepage": "https://www.virtualbox.org",
+	"filename": "pool/multiverse/v/virtualbox/virtualbox-guest-utils_7.2.2-dfsg-2ubuntu0.1_amd64.deb",
+	"size": 460458,
+	"md5": "a5f30c0176609b928a1cb32b7b0b997d",
+	"sha1": "3a2f9058d5372d59a9b32db22908a8bec2324b7e",
+	"sha256": "d95ce571d349d3181db88b2c9387be6bc8a5eeb16028fbb78d97d5b572656e35",
+	"sha512": "2c6821636949949a9033c859b4204c1e69527ac0e45bca3bfd123bc76418d29b80c45caecb6fe800e013a22eeed496c0ce65573e51ff6458f6922253acedfc9a",
+	"descriptionMd5": "0c420aa026ad03a572b15c6e38dbebf7"
+},{
+	"raw": {},
+	"required": [
+		"Filename",
+		"Size"
+	],
+	"package": "virtualbox-guest-utils",
+	"source": "virtualbox",
 	"version": "7.2.2-dfsg-2",
 	"section": "multiverse/misc",
 	"priority": "optional",

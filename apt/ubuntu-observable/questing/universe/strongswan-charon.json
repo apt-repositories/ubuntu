@@ -6,6 +6,44 @@
 	],
 	"package": "strongswan-charon",
 	"source": "strongswan",
+	"version": "6.0.1-6ubuntu4.2",
+	"section": "universe/net",
+	"priority": "optional",
+	"architecture": "amd64",
+	"depends": [
+		"iproute2 | iproute",
+		"libstrongswan (= 6.0.1-6ubuntu4.2)",
+		"libc6 (>= 2.38)",
+		"strongswan-libcharon (>= 6.0.1)"
+	],
+	"preDepends": [
+		"debconf | debconf-2.0"
+	],
+	"recommends": [
+		"strongswan-starter"
+	],
+	"conflicts": [
+		"charon-systemd"
+	],
+	"installedSize": 304,
+	"maintainer": "Ubuntu Developers <ubuntu-devel-discuss@lists.ubuntu.com>",
+	"description": "strongSwan Internet Key Exchange daemon",
+	"homepage": "http://www.strongswan.org",
+	"filename": "pool/universe/s/strongswan/strongswan-charon_6.0.1-6ubuntu4.2_amd64.deb",
+	"size": 31816,
+	"md5": "41179b47428459bdb02e927730c19b54",
+	"sha1": "d979f9194aa44c73fdc443fbcc5b88dcf0955a02",
+	"sha256": "b148b4a57066fdcddcdad6352f63541bbb47a3606dc53fb4f393e9328e019d46",
+	"sha512": "d7a0aa383190189a0f2393a2623f410c1cd9f8716a81ece61ba394efe4369e5c16ec0920206365f2c2a94566d4e1f18b0cbb2649c8e01b20947d8fc72a026a02",
+	"descriptionMd5": "3f55915d17f7e36d9b31e2c4da5c11d2"
+},{
+	"raw": {},
+	"required": [
+		"Filename",
+		"Size"
+	],
+	"package": "strongswan-charon",
+	"source": "strongswan",
 	"version": "6.0.1-6ubuntu4.1",
 	"section": "universe/net",
 	"priority": "optional",
