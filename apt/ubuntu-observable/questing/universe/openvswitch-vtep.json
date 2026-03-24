@@ -6,6 +6,48 @@
 	],
 	"package": "openvswitch-vtep",
 	"source": "openvswitch",
+	"version": "3.6.0-2ubuntu0.1",
+	"section": "universe/net",
+	"priority": "extra",
+	"architecture": "amd64",
+	"depends": [
+		"lsb-release",
+		"openvswitch-common (>= 3.6.0-2ubuntu0.1)",
+		"openvswitch-switch (>= 3.6.0-2ubuntu0.1)",
+		"python3-openvswitch (>= 3.6.0-2ubuntu0.1)",
+		"libc6 (>= 2.38)",
+		"libcap-ng0 (>= 0.7.9)",
+		"libssl3t64 (>= 3.0.0)",
+		"libunbound8 (>= 1.8.0)"
+	],
+	"suggests": [
+		"python3:any"
+	],
+	"replaces": [
+		"openvswitch-common (<< 2.17~)"
+	],
+	"breaks": [
+		"openvswitch-common (<< 2.17~)"
+	],
+	"installedSize": 650,
+	"maintainer": "Ubuntu Developers <ubuntu-devel-discuss@lists.ubuntu.com>",
+	"description": "Open vSwitch VTEP utilities",
+	"homepage": "http://openvswitch.org/",
+	"filename": "pool/universe/o/openvswitch/openvswitch-vtep_3.6.0-2ubuntu0.1_amd64.deb",
+	"size": 231646,
+	"md5": "c55b8778e66a12e9be3cd5cd2cfa9045",
+	"sha1": "0970f7839c15deb343918d903699fa35e0471582",
+	"sha256": "b4543bda0fcb0bba7b99ac8f38b4d73861b8cae77441d0cc72e73da3abb3b210",
+	"sha512": "e87ab6325c026a7e10f017e89baa9f67c2ed7f272924955bf0856662c64192f5beacfd396df6c348ddb7cba3da9a8358b90ecf4a249046f6f82526c52192935e",
+	"descriptionMd5": "be45108f46f34bd9625673e3854b516b"
+},{
+	"raw": {},
+	"required": [
+		"Filename",
+		"Size"
+	],
+	"package": "openvswitch-vtep",
+	"source": "openvswitch",
 	"version": "3.6.0-2",
 	"section": "universe/net",
 	"priority": "extra",

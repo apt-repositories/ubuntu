@@ -6,6 +6,43 @@
 	],
 	"package": "virtualbox-guest-x11",
 	"source": "virtualbox",
+	"version": "7.2.2-dfsg-2ubuntu0.1",
+	"section": "multiverse/x11",
+	"priority": "optional",
+	"architecture": "amd64",
+	"depends": [
+		"libnotify-bin",
+		"x11-xserver-utils",
+		"virtualbox-guest-utils (= 7.2.2-dfsg-2ubuntu0.1)",
+		"libc6 (>= 2.34)",
+		"xorg-video-abi-25",
+		"xserver-xorg-core (>= 2:21.1.1)"
+	],
+	"replaces": [
+		"virtualbox-guest-x11-hwe (<< 7.0.16-dfsg-5)"
+	],
+	"breaks": [
+		"virtualbox-guest-x11-hwe (<< 7.0.16-dfsg-5)"
+	],
+	"installedSize": 930,
+	"maintainer": "Ubuntu Developers <ubuntu-devel-discuss@lists.ubuntu.com>",
+	"description": "x86 virtualization solution - X11 guest utilities",
+	"homepage": "https://www.virtualbox.org",
+	"filename": "pool/multiverse/v/virtualbox/virtualbox-guest-x11_7.2.2-dfsg-2ubuntu0.1_amd64.deb",
+	"size": 351282,
+	"md5": "1de45beacc1ebe0e600815313fa00e38",
+	"sha1": "e82f674ddcced057d55fd5789a0211d12d96a830",
+	"sha256": "b3d8dda48ff16b45b5e7e40782179e0ba0227cb41649a1edfc516cf51b432232",
+	"sha512": "e2cb2ebf9b5f9070356c473f7ae6d06b0edc8e85c811f5fa9bde7514bd6d36d32f3d515d40b67e02d4d469a823139b55d46b42c9c61d55e899c6272e1c746375",
+	"descriptionMd5": "3487afde0b114ec7e205b11f1dd3f7a5"
+},{
+	"raw": {},
+	"required": [
+		"Filename",
+		"Size"
+	],
+	"package": "virtualbox-guest-x11",
+	"source": "virtualbox",
 	"version": "7.2.2-dfsg-2",
 	"section": "multiverse/x11",
 	"priority": "optional",
