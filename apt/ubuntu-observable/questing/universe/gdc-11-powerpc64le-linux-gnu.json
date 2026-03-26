@@ -5,6 +5,46 @@
 		"Size"
 	],
 	"package": "gdc-11-powerpc64le-linux-gnu",
+	"source": "gcc-11-cross (24ubuntu1.1)",
+	"version": "11.5.0-7ubuntu1.1cross1",
+	"section": "universe/devel",
+	"priority": "optional",
+	"architecture": "amd64",
+	"depends": [
+		"gcc-11-powerpc64le-linux-gnu-base (>= 11)",
+		"g++-11-powerpc64le-linux-gnu (>= 11)",
+		"gdc-11 (>= 11)",
+		"libgphobos-11-dev-ppc64el-cross (>= 11)",
+		"libc6 (>= 2.38)",
+		"libgmp10 (>= 2:6.3.0+dfsg)",
+		"libisl23 (>= 0.15)",
+		"libmpc3 (>= 1.1.0)",
+		"libmpfr6 (>= 3.1.3)",
+		"libzstd1 (>= 1.5.5)",
+		"zlib1g (>= 1:1.1.4)"
+	],
+	"replaces": [
+		"gdc (<< 4.4.6-5)"
+	],
+	"installedSize": 26756,
+	"maintainer": "Ubuntu Core developers <ubuntu-devel-discuss@lists.ubuntu.com>",
+	"description": "GNU D compiler (version 2) (cross compiler for ppc64el architecture)",
+	"homepage": "http://gcc.gnu.org/",
+	"builtUsing": "gcc-11 (= 11.5.0-7ubuntu1.1)",
+	"filename": "pool/universe/g/gcc-11-cross/gdc-11-powerpc64le-linux-gnu_11.5.0-7ubuntu1.1cross1_amd64.deb",
+	"size": 9072170,
+	"md5": "4249c661277afb6e86b6dc2381e9797e",
+	"sha1": "a19ab96e287edbefe2e146bbc05b16e850823aeb",
+	"sha256": "01ed3500b3ae3ee339d75d8af4a643fa3fb71167c262c95acb1f11ad259fdd0f",
+	"sha512": "3c0df9e3d6887be4e860e1f381b3a343bff5db19b8b31bd6cb1995efa9147a6769382f1cabcbf84a986b54e2e2ac3481b0f997d2b408c48699b2eb764f594d63",
+	"descriptionMd5": "a4dee6d7250735908c2c95959b4db0be"
+},{
+	"raw": {},
+	"required": [
+		"Filename",
+		"Size"
+	],
+	"package": "gdc-11-powerpc64le-linux-gnu",
 	"source": "gcc-11-cross (24ubuntu1)",
 	"version": "11.5.0-7ubuntu1cross1",
 	"section": "universe/devel",

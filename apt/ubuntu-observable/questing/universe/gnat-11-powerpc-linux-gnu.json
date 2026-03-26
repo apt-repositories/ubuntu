@@ -5,6 +5,63 @@
 		"Size"
 	],
 	"package": "gnat-11-powerpc-linux-gnu",
+	"source": "gcc-11-cross (24ubuntu1.1)",
+	"version": "11.5.0-7ubuntu1.1cross1",
+	"section": "universe/devel",
+	"priority": "optional",
+	"architecture": "amd64",
+	"depends": [
+		"gcc-11-powerpc-linux-gnu-base (= 11.5.0-7ubuntu1.1cross1)",
+		"gcc-11-powerpc-linux-gnu (>= 11)",
+		"libgnat-11-powerpc-cross (>= 11.5.0-7ubuntu1.1cross1)",
+		"libc6-dev-powerpc-cross (>= 2.13-0ubuntu6)",
+		"libc6 (>= 2.38)",
+		"libgmp10 (>= 2:6.3.0+dfsg)",
+		"libisl23 (>= 0.15)",
+		"libmpc3 (>= 1.1.0)",
+		"libmpfr6 (>= 3.1.3)",
+		"libzstd1 (>= 1.5.5)",
+		"zlib1g (>= 1:1.1.4)"
+	],
+	"suggests": [
+		"gnat-11-doc",
+		"ada-reference-manual-2012",
+		"gnat-11-sjlj"
+	],
+	"replaces": [
+		"gnat-4.9-base (= 4.9-20140330-1)"
+	],
+	"breaks": [
+		"gnat-4.9-base (= 4.9-20140330-1)"
+	],
+	"conflicts": [
+		"gnat-10-powerpc-linux-gnu",
+		"gnat-4.9",
+		"gnat-5-powerpc-linux-gnu",
+		"gnat-6-powerpc-linux-gnu",
+		"gnat-7-powerpc-linux-gnu",
+		"gnat-8-powerpc-linux-gnu",
+		"gnat-9-powerpc-linux-gnu"
+	],
+	"installedSize": 91675,
+	"maintainer": "Ubuntu Core developers <ubuntu-devel-discuss@lists.ubuntu.com>",
+	"description": "GNU Ada compiler",
+	"homepage": "http://gcc.gnu.org/",
+	"builtUsing": "gcc-11 (= 11.5.0-7ubuntu1.1)",
+	"filename": "pool/universe/g/gcc-11-cross/gnat-11-powerpc-linux-gnu_11.5.0-7ubuntu1.1cross1_amd64.deb",
+	"size": 18628764,
+	"md5": "b4352b937683a829aaa0462936c033e2",
+	"sha1": "ec56f9d6a0d85a9c2a2a59c420d9c86ff39c5f73",
+	"sha256": "193be535d2cf74492cd0ea4eff0ae271abb90340a77650f956f4a0a3e7105285",
+	"sha512": "e7d3c8f6f4004cf1f08791b3568372006f54215ab62ebac4c9c171e79db0b551978206ca40a4dbaf5b7cc090bb26159c1bb56bb621afd2321d7acf2af369730d",
+	"descriptionMd5": "8cebde0cd6b861927a7a457cacc8851f"
+},{
+	"raw": {},
+	"required": [
+		"Filename",
+		"Size"
+	],
+	"package": "gnat-11-powerpc-linux-gnu",
 	"source": "gcc-11-cross (24ubuntu1)",
 	"version": "11.5.0-7ubuntu1cross1",
 	"section": "universe/devel",

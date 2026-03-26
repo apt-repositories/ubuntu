@@ -5,6 +5,46 @@
 		"Size"
 	],
 	"package": "cpp-10-arm-linux-gnueabihf",
+	"source": "gcc-10-cross (23ubuntu2.1)",
+	"version": "10.5.0-4ubuntu2.1cross1",
+	"section": "universe/devel",
+	"priority": "optional",
+	"architecture": "amd64",
+	"depends": [
+		"gcc-10-arm-linux-gnueabihf-base (= 10.5.0-4ubuntu2.1cross1)",
+		"libc6 (>= 2.38)",
+		"libgmp10 (>= 2:6.3.0+dfsg)",
+		"libisl23 (>= 0.15)",
+		"libmpc3 (>= 1.1.0)",
+		"libmpfr6 (>= 3.1.3)",
+		"libzstd1 (>= 1.5.5)",
+		"zlib1g (>= 1:1.1.4)"
+	],
+	"suggests": [
+		"gcc-10-locales (>= 10)"
+	],
+	"breaks": [
+		"libmagics++-dev (<< 2.28.0-4)"
+	],
+	"installedSize": 191489,
+	"maintainer": "Ubuntu Core developers <ubuntu-devel-discuss@lists.ubuntu.com>",
+	"description": "GNU C preprocessor",
+	"homepage": "http://gcc.gnu.org/",
+	"builtUsing": "gcc-10 (= 10.5.0-4ubuntu2.1)",
+	"filename": "pool/universe/g/gcc-10-cross/cpp-10-arm-linux-gnueabihf_10.5.0-4ubuntu2.1cross1_amd64.deb",
+	"size": 49729850,
+	"md5": "d1da23140d17cbdd5081404cb00ffb0c",
+	"sha1": "29f535da2fc00068155f15e6f7073253ae55a34f",
+	"sha256": "9fc7afae215362917624da4e819ee46e0a6488964a74d86a8ccdf21ee2c74ab6",
+	"sha512": "b6976b98d8f783ae705b6094daa5eabb4149454fc93c461024c90a022f2a9275bf4b3116714946d85dd86433c483ae2f08d0e0fd12f3257ee27bb3b28ef01fd7",
+	"descriptionMd5": "7f9493441e3cdf1166438a9959deefe1"
+},{
+	"raw": {},
+	"required": [
+		"Filename",
+		"Size"
+	],
+	"package": "cpp-10-arm-linux-gnueabihf",
 	"source": "gcc-10-cross (23ubuntu2)",
 	"version": "10.5.0-4ubuntu2cross1",
 	"section": "universe/devel",

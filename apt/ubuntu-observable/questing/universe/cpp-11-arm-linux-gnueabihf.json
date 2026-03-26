@@ -5,6 +5,46 @@
 		"Size"
 	],
 	"package": "cpp-11-arm-linux-gnueabihf",
+	"source": "gcc-11-cross (24ubuntu1.1)",
+	"version": "11.5.0-7ubuntu1.1cross1",
+	"section": "universe/devel",
+	"priority": "optional",
+	"architecture": "amd64",
+	"depends": [
+		"gcc-11-arm-linux-gnueabihf-base (= 11.5.0-7ubuntu1.1cross1)",
+		"libc6 (>= 2.38)",
+		"libgmp10 (>= 2:6.3.0+dfsg)",
+		"libisl23 (>= 0.15)",
+		"libmpc3 (>= 1.1.0)",
+		"libmpfr6 (>= 3.1.3)",
+		"libzstd1 (>= 1.5.5)",
+		"zlib1g (>= 1:1.1.4)"
+	],
+	"suggests": [
+		"gcc-11-locales (>= 11)"
+	],
+	"breaks": [
+		"libmagics++-dev (<< 2.28.0-4)"
+	],
+	"installedSize": 25544,
+	"maintainer": "Ubuntu Core developers <ubuntu-devel-discuss@lists.ubuntu.com>",
+	"description": "GNU C preprocessor",
+	"homepage": "http://gcc.gnu.org/",
+	"builtUsing": "gcc-11 (= 11.5.0-7ubuntu1.1)",
+	"filename": "pool/universe/g/gcc-11-cross/cpp-11-arm-linux-gnueabihf_11.5.0-7ubuntu1.1cross1_amd64.deb",
+	"size": 8766398,
+	"md5": "df41a05c84aefe4d7adae9a62a2dbd7d",
+	"sha1": "a1f0f50f43f5b9ec35b4e652760c578b47ede901",
+	"sha256": "657a716faec6d205efacaba9174361f48ef139c164117dd5867bc143488fef6e",
+	"sha512": "2179e281324357834fabde5395a1484f8e65ea1db9341e731e28e7788fac50894ddfcbf5a1e5b6de8fa7224a2ce93f9a3674ccfe447b693a28890066f27cef40",
+	"descriptionMd5": "7f9493441e3cdf1166438a9959deefe1"
+},{
+	"raw": {},
+	"required": [
+		"Filename",
+		"Size"
+	],
+	"package": "cpp-11-arm-linux-gnueabihf",
 	"source": "gcc-11-cross (24ubuntu1)",
 	"version": "11.5.0-7ubuntu1cross1",
 	"section": "universe/devel",

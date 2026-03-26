@@ -5,6 +5,47 @@
 		"Size"
 	],
 	"package": "gfortran-10-arm-linux-gnueabi",
+	"source": "gcc-10-cross (23ubuntu2.1)",
+	"version": "10.5.0-4ubuntu2.1cross1",
+	"section": "universe/devel",
+	"priority": "optional",
+	"architecture": "amd64",
+	"depends": [
+		"gcc-10-arm-linux-gnueabi-base (= 10.5.0-4ubuntu2.1cross1)",
+		"gcc-10-arm-linux-gnueabi (= 10.5.0-4ubuntu2.1cross1)",
+		"libgfortran-10-dev-armel-cross (>= 10)",
+		"libc6-dev-armel-cross (>= 2.13-0ubuntu6)",
+		"libc6 (>= 2.38)",
+		"libgmp10 (>= 2:6.3.0+dfsg)",
+		"libisl23 (>= 0.15)",
+		"libmpc3 (>= 1.1.0)",
+		"libmpfr6 (>= 3.1.3)",
+		"libzstd1 (>= 1.5.5)",
+		"zlib1g (>= 1:1.1.4)"
+	],
+	"suggests": [
+		"gfortran-10-doc",
+		"libcoarrays-dev"
+	],
+	"installedSize": 195189,
+	"maintainer": "Ubuntu Core developers <ubuntu-devel-discuss@lists.ubuntu.com>",
+	"description": "GNU Fortran compiler",
+	"homepage": "http://gcc.gnu.org/",
+	"builtUsing": "gcc-10 (= 10.5.0-4ubuntu2.1)",
+	"filename": "pool/universe/g/gcc-10-cross/gfortran-10-arm-linux-gnueabi_10.5.0-4ubuntu2.1cross1_amd64.deb",
+	"size": 51015206,
+	"md5": "9262a97136fa6735b9db4e59bdb96303",
+	"sha1": "97511b24c61d7097fa6bd5f8afddbe332cd8518a",
+	"sha256": "99aab514996cbbda90fbda45379c29328f300ca69f26e907256f33aa81c2d93d",
+	"sha512": "2c3d594b7ac487dd5551629405df4c59394c77e7f30225365dbb6275f955ab0eae58d20629af782bcda30535da0ecccde60b67262f617fcfe950f0ef57edf220",
+	"descriptionMd5": "5dd93c5d21d0717205bc5a3b538b0ca2"
+},{
+	"raw": {},
+	"required": [
+		"Filename",
+		"Size"
+	],
+	"package": "gfortran-10-arm-linux-gnueabi",
 	"source": "gcc-10-cross (23ubuntu2)",
 	"version": "10.5.0-4ubuntu2cross1",
 	"section": "universe/devel",

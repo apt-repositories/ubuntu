@@ -5,6 +5,45 @@
 		"Size"
 	],
 	"package": "g++-11-arm-linux-gnueabihf",
+	"source": "gcc-11-cross (24ubuntu1.1)",
+	"version": "11.5.0-7ubuntu1.1cross1",
+	"section": "universe/devel",
+	"priority": "optional",
+	"architecture": "amd64",
+	"depends": [
+		"gcc-11-arm-linux-gnueabihf-base (= 11.5.0-7ubuntu1.1cross1)",
+		"gcc-11-arm-linux-gnueabihf (= 11.5.0-7ubuntu1.1cross1)",
+		"libstdc++-11-dev-armhf-cross (>= 11)",
+		"libc6 (>= 2.38)",
+		"libgmp10 (>= 2:6.3.0+dfsg)",
+		"libisl23 (>= 0.15)",
+		"libmpc3 (>= 1.1.0)",
+		"libmpfr6 (>= 3.1.3)",
+		"libzstd1 (>= 1.5.5)",
+		"zlib1g (>= 1:1.1.4)"
+	],
+	"suggests": [
+		"gcc-11-doc (>= 11)"
+	],
+	"installedSize": 28168,
+	"maintainer": "Ubuntu Core developers <ubuntu-devel-discuss@lists.ubuntu.com>",
+	"description": "GNU C++ compiler (cross compiler for armhf architecture)",
+	"homepage": "http://gcc.gnu.org/",
+	"builtUsing": "gcc-11 (= 11.5.0-7ubuntu1.1)",
+	"filename": "pool/universe/g/gcc-11-cross/g++-11-arm-linux-gnueabihf_11.5.0-7ubuntu1.1cross1_amd64.deb",
+	"size": 10028304,
+	"md5": "af630a5c17af72e697cf4b48f20e1604",
+	"sha1": "fa16683c99149c6fef2210cde78f449ae16f8c5c",
+	"sha256": "2eff54209d3b576ae599ba63ab530ac28de0b54c98953c933a5770172c7653d0",
+	"sha512": "1a0eabe8b9a443c14f3723e8cb6215ded81e08e1f303a0ede784665f6d0925ea9695f850b82ec76eb0f39f2baf554f967ccfca87b7d7c2d7a02e5074139a3398",
+	"descriptionMd5": "466636539965b105eeffa2a5b48e2850"
+},{
+	"raw": {},
+	"required": [
+		"Filename",
+		"Size"
+	],
+	"package": "g++-11-arm-linux-gnueabihf",
 	"source": "gcc-11-cross (24ubuntu1)",
 	"version": "11.5.0-7ubuntu1cross1",
 	"section": "universe/devel",

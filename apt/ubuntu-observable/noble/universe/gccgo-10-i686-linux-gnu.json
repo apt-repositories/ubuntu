@@ -5,6 +5,49 @@
 		"Size"
 	],
 	"package": "gccgo-10-i686-linux-gnu",
+	"source": "gcc-10-cross (23ubuntu2.1)",
+	"version": "10.5.0-4ubuntu2.1cross1",
+	"section": "universe/devel",
+	"priority": "optional",
+	"architecture": "amd64",
+	"depends": [
+		"gcc-10-i686-linux-gnu-base (= 10.5.0-4ubuntu2.1cross1)",
+		"gcc-10-i686-linux-gnu (= 10.5.0-4ubuntu2.1cross1)",
+		"libgo-10-dev-i386-cross (>= 10)",
+		"libc6-dev-i386-cross (>= 2.13-0ubuntu6)",
+		"libc6 (>= 2.38)",
+		"libgmp10 (>= 2:6.3.0+dfsg)",
+		"libisl23 (>= 0.15)",
+		"libmpc3 (>= 1.1.0)",
+		"libmpfr6 (>= 3.1.3)",
+		"libzstd1 (>= 1.5.5)",
+		"zlib1g (>= 1:1.1.4)"
+	],
+	"suggests": [
+		"gccgo-10-doc"
+	],
+	"conflicts": [
+		"golang-go (<< 2:1.3.3-1ubuntu2)"
+	],
+	"installedSize": 239954,
+	"maintainer": "Ubuntu Core developers <ubuntu-devel-discuss@lists.ubuntu.com>",
+	"description": "GNU Go compiler",
+	"homepage": "http://gcc.gnu.org/",
+	"builtUsing": "gcc-10 (= 10.5.0-4ubuntu2.1)",
+	"filename": "pool/universe/g/gcc-10-cross/gccgo-10-i686-linux-gnu_10.5.0-4ubuntu2.1cross1_amd64.deb",
+	"size": 58690950,
+	"md5": "7ce44019e77898a3e1c868721ab35d28",
+	"sha1": "836f9e3f96ac39c28b299460259725ef517a86e0",
+	"sha256": "dbce0d4754ed2f5791fccf0b72f05491c4d99abd7b7cdb977a3181517ac6c7d1",
+	"sha512": "be133ad60a4bfde41b178eacafb5900bb6f810397f2b24c24319726537f747356f006daa528b4628de2094e89cafb6464ea5628a0ece4dc383a3fba9e36d46ee",
+	"descriptionMd5": "58c2a4ce4d3fe6815f7a6ee86b4db16d"
+},{
+	"raw": {},
+	"required": [
+		"Filename",
+		"Size"
+	],
+	"package": "gccgo-10-i686-linux-gnu",
 	"source": "gcc-10-cross (23ubuntu2)",
 	"version": "10.5.0-4ubuntu2cross1",
 	"section": "universe/devel",

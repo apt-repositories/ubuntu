@@ -5,6 +5,60 @@
 		"Size"
 	],
 	"package": "gcc-11-powerpc-linux-gnu",
+	"source": "gcc-11-cross (24ubuntu1.1)",
+	"version": "11.5.0-7ubuntu1.1cross1",
+	"section": "universe/devel",
+	"priority": "optional",
+	"architecture": "amd64",
+	"depends": [
+		"cpp-11-powerpc-linux-gnu (= 11.5.0-7ubuntu1.1cross1)",
+		"gcc-11-powerpc-linux-gnu-base (= 11.5.0-7ubuntu1.1cross1)",
+		"libcc1-0 (>= 11)",
+		"binutils-powerpc-linux-gnu (>= 2.45)",
+		"libgcc-11-dev-powerpc-cross (>= 11.5.0-7ubuntu1.1cross1)",
+		"libc6 (>= 2.38)",
+		"libgcc-s1 (>= 3.0)",
+		"libgmp10 (>= 2:6.3.0+dfsg)",
+		"libisl23 (>= 0.15)",
+		"libmpc3 (>= 1.1.0)",
+		"libmpfr6 (>= 3.1.3)",
+		"libstdc++6 (>= 5)",
+		"libzstd1 (>= 1.5.5)",
+		"zlib1g (>= 1:1.1.4)"
+	],
+	"recommends": [
+		"libc6-dev-powerpc-cross (>= 2.13-0ubuntu6)"
+	],
+	"suggests": [
+		"gcc-11-multilib-powerpc-linux-gnu",
+		"gcc-11-doc (>= 11)",
+		"gcc-11-locales (>= 11)"
+	],
+	"replaces": [
+		"cpp-11-powerpc-linux-gnu (<< 7.1.1-8)"
+	],
+	"conflicts": [
+		"gcc-multilib"
+	],
+	"installedSize": 52062,
+	"maintainer": "Ubuntu Core developers <ubuntu-devel-discuss@lists.ubuntu.com>",
+	"description": "GNU C compiler (cross compiler for powerpc architecture)",
+	"homepage": "http://gcc.gnu.org/",
+	"builtUsing": "gcc-11 (= 11.5.0-7ubuntu1.1)",
+	"filename": "pool/universe/g/gcc-11-cross/gcc-11-powerpc-linux-gnu_11.5.0-7ubuntu1.1cross1_amd64.deb",
+	"size": 17251784,
+	"md5": "a9853ccbaf7c2bcbf1a6fae453895c87",
+	"sha1": "62df64dd38aa185150dc3da53f7e1619ed138927",
+	"sha256": "8d1f8831fab3637b1ca335d89f68e62ace605aa00f94e8a98057452d8ab4682e",
+	"sha512": "2fd9ebc435b0867a88207b03f82c4465845517258a64e4273dee854df5236b432a9c46f811b3a29d4de5339f47fab37fee5e7c17a18a33e4331d5ac16a0e72d2",
+	"descriptionMd5": "45b8bb0736af15d214f67dae5a33875a"
+},{
+	"raw": {},
+	"required": [
+		"Filename",
+		"Size"
+	],
+	"package": "gcc-11-powerpc-linux-gnu",
 	"source": "gcc-11-cross (24ubuntu1)",
 	"version": "11.5.0-7ubuntu1cross1",
 	"section": "universe/devel",
