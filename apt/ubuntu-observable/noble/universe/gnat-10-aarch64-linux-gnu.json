@@ -5,6 +5,62 @@
 		"Size"
 	],
 	"package": "gnat-10-aarch64-linux-gnu",
+	"source": "gcc-10-cross (23ubuntu2.1)",
+	"version": "10.5.0-4ubuntu2.1cross1",
+	"section": "universe/devel",
+	"priority": "optional",
+	"architecture": "amd64",
+	"depends": [
+		"gcc-10-aarch64-linux-gnu-base (= 10.5.0-4ubuntu2.1cross1)",
+		"gcc-10-aarch64-linux-gnu (>= 10)",
+		"libgnat-10-arm64-cross (>= 10.5.0-4ubuntu2.1cross1)",
+		"libc6-dev-arm64-cross (>= 2.13-0ubuntu6)",
+		"libc6 (>= 2.38)",
+		"libgmp10 (>= 2:6.3.0+dfsg)",
+		"libisl23 (>= 0.15)",
+		"libmpc3 (>= 1.1.0)",
+		"libmpfr6 (>= 3.1.3)",
+		"libzstd1 (>= 1.5.5)",
+		"zlib1g (>= 1:1.1.4)"
+	],
+	"suggests": [
+		"gnat-10-doc",
+		"ada-reference-manual-2012",
+		"gnat-10-sjlj"
+	],
+	"replaces": [
+		"gnat-4.9-base (= 4.9-20140330-1)"
+	],
+	"breaks": [
+		"gnat-4.9-base (= 4.9-20140330-1)"
+	],
+	"conflicts": [
+		"gnat-4.9",
+		"gnat-5-aarch64-linux-gnu",
+		"gnat-6-aarch64-linux-gnu",
+		"gnat-7-aarch64-linux-gnu",
+		"gnat-8-aarch64-linux-gnu",
+		"gnat-9-aarch64-linux-gnu"
+	],
+	"installedSize": 90136,
+	"maintainer": "Ubuntu Core developers <ubuntu-devel-discuss@lists.ubuntu.com>",
+	"description": "GNU Ada compiler",
+	"homepage": "http://gcc.gnu.org/",
+	"builtUsing": "gcc-10 (= 10.5.0-4ubuntu2.1)",
+	"filename": "pool/universe/g/gcc-10-cross/gnat-10-aarch64-linux-gnu_10.5.0-4ubuntu2.1cross1_amd64.deb",
+	"size": 17829616,
+	"md5": "30c6aef06620f3f725573152d6f36d11",
+	"sha1": "bcc939f0fd1ec202f12c4321586b11e4a14184c4",
+	"sha256": "2506d342cf0334bbd70a63ac6a261570536bb6874cb361853285a4837b45b709",
+	"sha512": "030f222b20118894ab79d8ac14cb4c8ef234fc405c6ebdfbfba73a2550c56401c1aeb3bdbb675e7e98bc12a5e01a0aab450bd9b145287fae9f5a286591d9c519",
+	"descriptionMd5": "8cebde0cd6b861927a7a457cacc8851f"
+},{
+	"raw": {},
+	"required": [
+		"Filename",
+		"Size"
+	],
+	"package": "gnat-10-aarch64-linux-gnu",
 	"source": "gcc-10-cross (23ubuntu2)",
 	"version": "10.5.0-4ubuntu2cross1",
 	"section": "universe/devel",

@@ -5,6 +5,41 @@
 		"Size"
 	],
 	"package": "libgphobos1-armhf-cross",
+	"source": "gcc-10-cross (23ubuntu2.1)",
+	"version": "10.5.0-4ubuntu2.1cross1",
+	"section": "universe/devel",
+	"priority": "optional",
+	"architecture": "all",
+	"depends": [
+		"gcc-10-cross-base (>= 10.5.0-4ubuntu2.1)",
+		"libc6-armhf-cross (>= 2.39)",
+		"libgcc-s1-armhf-cross"
+	],
+	"replaces": [
+		"libgphobos68-armhf-cross"
+	],
+	"breaks": [
+		"dub (<< 1.16.0-1~)"
+	],
+	"installedSize": 7678,
+	"maintainer": "Ubuntu Core developers <ubuntu-devel-discuss@lists.ubuntu.com>",
+	"description": "Phobos D standard library (runtime library)",
+	"homepage": "http://gcc.gnu.org/",
+	"builtUsing": "gcc-10 (= 10.5.0-4ubuntu2.1)",
+	"filename": "pool/universe/g/gcc-10-cross/libgphobos1-armhf-cross_10.5.0-4ubuntu2.1cross1_all.deb",
+	"size": 1394518,
+	"md5": "156b3d45845bbfe699d2e1a2a72b33ec",
+	"sha1": "5be5bfdd259ba57ab666c7069a0c786d66d71148",
+	"sha256": "43bd512cf9ca94a21770c17db8eafcd0bd11dacdb0877d0975918ca817b6256f",
+	"sha512": "7c8f88eda7a8918e5a4a206ed05914d0032164274f56973183ac07b3d6c2b1d9b21460a0f6c9c0b24e2a56801635c5910e61968f73f6d1039f29a4746d3bf979",
+	"descriptionMd5": "2086a0c7f5831c82fec492e812bdd6c1"
+},{
+	"raw": {},
+	"required": [
+		"Filename",
+		"Size"
+	],
+	"package": "libgphobos1-armhf-cross",
 	"source": "gcc-10-cross (23ubuntu2)",
 	"version": "10.5.0-4ubuntu2cross1",
 	"section": "universe/devel",

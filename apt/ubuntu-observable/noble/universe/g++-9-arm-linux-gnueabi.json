@@ -5,6 +5,44 @@
 		"Size"
 	],
 	"package": "g++-9-arm-linux-gnueabi",
+	"source": "gcc-9-cross (29ubuntu2.1)",
+	"version": "9.5.0-6ubuntu2.1cross1",
+	"section": "universe/devel",
+	"priority": "optional",
+	"architecture": "amd64",
+	"depends": [
+		"gcc-9-arm-linux-gnueabi-base (= 9.5.0-6ubuntu2.1cross1)",
+		"gcc-9-arm-linux-gnueabi (= 9.5.0-6ubuntu2.1cross1)",
+		"libstdc++-9-dev-armel-cross (>= 8)",
+		"libc6 (>= 2.38)",
+		"libgmp10 (>= 2:6.3.0+dfsg)",
+		"libisl23 (>= 0.15)",
+		"libmpc3 (>= 1.1.0)",
+		"libmpfr6 (>= 3.1.3)",
+		"zlib1g (>= 1:1.1.4)"
+	],
+	"suggests": [
+		"gcc-9-doc (>= 8)"
+	],
+	"installedSize": 23180,
+	"maintainer": "Ubuntu Core developers <ubuntu-devel-discuss@lists.ubuntu.com>",
+	"description": "GNU C++ compiler (cross compiler for armel architecture)",
+	"homepage": "http://gcc.gnu.org/",
+	"builtUsing": "gcc-9 (= 9.5.0-6ubuntu2.1)",
+	"filename": "pool/universe/g/gcc-9-cross/g++-9-arm-linux-gnueabi_9.5.0-6ubuntu2.1cross1_amd64.deb",
+	"size": 8392774,
+	"md5": "1e0a2be13b1d471105ab01b9ca38e0ca",
+	"sha1": "f72ab0ec3fb062c30c6509fa7337e603938a6449",
+	"sha256": "8e62edb1e1e5497e4626206d5687a5334ee095c46d7e37ae08b5610d94f02b8f",
+	"sha512": "578861af1bda58686a9e0d1da3fe3919168bb74f52ab033ef1ccec302f243c988b3a1be8299bdb94c08e574effaed0d70999441c6fad29f525fbd98a7b047d40",
+	"descriptionMd5": "5046662fa8830ee3b7e41bd1fb621aa8"
+},{
+	"raw": {},
+	"required": [
+		"Filename",
+		"Size"
+	],
+	"package": "g++-9-arm-linux-gnueabi",
 	"source": "gcc-9-cross (29ubuntu2)",
 	"version": "9.5.0-6ubuntu2cross1",
 	"section": "universe/devel",

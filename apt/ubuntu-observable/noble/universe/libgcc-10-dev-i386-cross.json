@@ -5,6 +5,49 @@
 		"Size"
 	],
 	"package": "libgcc-10-dev-i386-cross",
+	"source": "gcc-10-cross (23ubuntu2.1)",
+	"version": "10.5.0-4ubuntu2.1cross1",
+	"section": "universe/libdevel",
+	"priority": "optional",
+	"architecture": "all",
+	"depends": [
+		"gcc-10-cross-base (>= 10.5.0-4ubuntu2.1)",
+		"libgcc-s1-i386-cross (>= 10.5.0-4ubuntu2.1cross1)",
+		"libgomp1-i386-cross (>= 10.5.0-4ubuntu2.1cross1)",
+		"libitm1-i386-cross (>= 10.5.0-4ubuntu2.1cross1)",
+		"libatomic1-i386-cross (>= 10.5.0-4ubuntu2.1cross1)",
+		"libasan6-i386-cross (>= 10.5.0-4ubuntu2.1cross1)",
+		"libubsan1-i386-cross (>= 10.5.0-4ubuntu2.1cross1)",
+		"libquadmath0-i386-cross (>= 10.5.0-4ubuntu2.1cross1)"
+	],
+	"recommends": [
+		"libc6-dev-i386-cross (>= 2.13-0ubuntu6)"
+	],
+	"replaces": [
+		"libtsan0-i386-cross (<< 10.3.0-13)"
+	],
+	"breaks": [
+		"libtsan0-i386-cross (<< 10.3.0-13)"
+	],
+	"installedSize": 9992,
+	"maintainer": "Ubuntu Core developers <ubuntu-devel-discuss@lists.ubuntu.com>",
+	"description": "GCC support library (development files)",
+	"homepage": "http://gcc.gnu.org/",
+	"builtUsing": "gcc-10 (= 10.5.0-4ubuntu2.1)",
+	"filename": "pool/universe/g/gcc-10-cross/libgcc-10-dev-i386-cross_10.5.0-4ubuntu2.1cross1_all.deb",
+	"size": 2445718,
+	"md5": "8a9da151d81f50063e17d35cada57fd0",
+	"sha1": "dbd8549ef1eac7e433e20d853fff126b1d4dfb55",
+	"sha256": "d8053d29ae67ad59f6bef1dc378d32cc703ea1142f340295caf4e17e8e3e9a7c",
+	"sha512": "f4898cdedc8df5bd01f71ba2fa0a9fb154f7b3a3c2487a0a4c7345efc3d87344f436962deefb73ae26054487a3e6f9772b64998b5b84a66441d7fe8f8ba971d3",
+	"descriptionMd5": "4ab7cb439b47e1d0796fbaf8447229ac"
+},{
+	"raw": {},
+	"required": [
+		"Filename",
+		"Size"
+	],
+	"package": "libgcc-10-dev-i386-cross",
 	"source": "gcc-10-cross (23ubuntu2)",
 	"version": "10.5.0-4ubuntu2cross1",
 	"section": "universe/libdevel",

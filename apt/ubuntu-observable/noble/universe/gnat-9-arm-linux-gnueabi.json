@@ -5,6 +5,60 @@
 		"Size"
 	],
 	"package": "gnat-9-arm-linux-gnueabi",
+	"source": "gcc-9-cross (29ubuntu2.1)",
+	"version": "9.5.0-6ubuntu2.1cross1",
+	"section": "universe/devel",
+	"priority": "optional",
+	"architecture": "amd64",
+	"depends": [
+		"gcc-9-arm-linux-gnueabi-base (= 9.5.0-6ubuntu2.1cross1)",
+		"gcc-9-arm-linux-gnueabi (>= 8)",
+		"libgnat-9-armel-cross (>= 9.5.0-6ubuntu2.1cross1)",
+		"libc6-dev-armel-cross (>= 2.13-0ubuntu6)",
+		"libc6 (>= 2.38)",
+		"libgmp10 (>= 2:6.3.0+dfsg)",
+		"libisl23 (>= 0.15)",
+		"libmpc3 (>= 1.1.0)",
+		"libmpfr6 (>= 3.1.3)",
+		"zlib1g (>= 1:1.1.4)"
+	],
+	"suggests": [
+		"gnat-9-doc",
+		"ada-reference-manual-2012",
+		"gnat-9-sjlj"
+	],
+	"replaces": [
+		"gnat-4.9-base (= 4.9-20140330-1)"
+	],
+	"breaks": [
+		"gnat-4.9-base (= 4.9-20140330-1)"
+	],
+	"conflicts": [
+		"gnat-4.9",
+		"gnat-5-arm-linux-gnueabi",
+		"gnat-6-arm-linux-gnueabi",
+		"gnat-7-arm-linux-gnueabi",
+		"gnat-8-arm-linux-gnueabi"
+	],
+	"installedSize": 79081,
+	"maintainer": "Ubuntu Core developers <ubuntu-devel-discuss@lists.ubuntu.com>",
+	"description": "GNU Ada compiler",
+	"homepage": "http://gcc.gnu.org/",
+	"builtUsing": "gcc-9 (= 9.5.0-6ubuntu2.1)",
+	"filename": "pool/universe/g/gcc-9-cross/gnat-9-arm-linux-gnueabi_9.5.0-6ubuntu2.1cross1_amd64.deb",
+	"size": 16259558,
+	"md5": "0a906742dcd0b7a75036b084c14be251",
+	"sha1": "1e8d0833ee6a1a039678f4f02deac51450b9acff",
+	"sha256": "2fe862be5d9d5cb5188801b8530f4eef92be306596680b24c5a9e90e7329338a",
+	"sha512": "cd72b5119147054379798dac43ae913662bf4f50e7e7e74ae8c8d7c4b13862249638d878649fe37d45ef824f6fc1e1bf099c83c91ce1ee13917e65a512d184ab",
+	"descriptionMd5": "8cebde0cd6b861927a7a457cacc8851f"
+},{
+	"raw": {},
+	"required": [
+		"Filename",
+		"Size"
+	],
+	"package": "gnat-9-arm-linux-gnueabi",
 	"source": "gcc-9-cross (29ubuntu2)",
 	"version": "9.5.0-6ubuntu2cross1",
 	"section": "universe/devel",

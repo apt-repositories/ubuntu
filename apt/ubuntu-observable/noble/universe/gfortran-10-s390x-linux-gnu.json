@@ -5,6 +5,48 @@
 		"Size"
 	],
 	"package": "gfortran-10-s390x-linux-gnu",
+	"source": "gcc-10-cross (23ubuntu2.1)",
+	"version": "10.5.0-4ubuntu2.1cross1",
+	"section": "universe/devel",
+	"priority": "optional",
+	"architecture": "amd64",
+	"depends": [
+		"gcc-10-s390x-linux-gnu-base (= 10.5.0-4ubuntu2.1cross1)",
+		"gcc-10-s390x-linux-gnu (= 10.5.0-4ubuntu2.1cross1)",
+		"libgfortran-10-dev-s390x-cross (>= 10)",
+		"libc6-dev-s390x-cross (>= 2.13-0ubuntu6)",
+		"libc6 (>= 2.38)",
+		"libgmp10 (>= 2:6.3.0+dfsg)",
+		"libisl23 (>= 0.15)",
+		"libmpc3 (>= 1.1.0)",
+		"libmpfr6 (>= 3.1.3)",
+		"libzstd1 (>= 1.5.5)",
+		"zlib1g (>= 1:1.1.4)"
+	],
+	"suggests": [
+		"gfortran-10-multilib-s390x-linux-gnu",
+		"gfortran-10-doc",
+		"libcoarrays-dev"
+	],
+	"installedSize": 178004,
+	"maintainer": "Ubuntu Core developers <ubuntu-devel-discuss@lists.ubuntu.com>",
+	"description": "GNU Fortran compiler",
+	"homepage": "http://gcc.gnu.org/",
+	"builtUsing": "gcc-10 (= 10.5.0-4ubuntu2.1)",
+	"filename": "pool/universe/g/gcc-10-cross/gfortran-10-s390x-linux-gnu_10.5.0-4ubuntu2.1cross1_amd64.deb",
+	"size": 47405188,
+	"md5": "54a59365ae0db584dc206261cc7af41c",
+	"sha1": "2d88224f1726ce1b3762ea02e6fb802d19ed16b2",
+	"sha256": "b3f7d53cc8c326032522a4630e40afe87b8ffd3d1161b7ef3b140da7b5e466cb",
+	"sha512": "aa8390c7bd63d86651c43f9ca90c6e42c23409a479fa027610e32de4b41fbf26da6fa8db5fd0512891efc3ebd664d170898e0b88c27eaae8d1c94d7998d6b056",
+	"descriptionMd5": "5dd93c5d21d0717205bc5a3b538b0ca2"
+},{
+	"raw": {},
+	"required": [
+		"Filename",
+		"Size"
+	],
+	"package": "gfortran-10-s390x-linux-gnu",
 	"source": "gcc-10-cross (23ubuntu2)",
 	"version": "10.5.0-4ubuntu2cross1",
 	"section": "universe/devel",

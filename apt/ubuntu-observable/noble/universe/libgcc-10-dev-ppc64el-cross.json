@@ -5,6 +5,51 @@
 		"Size"
 	],
 	"package": "libgcc-10-dev-ppc64el-cross",
+	"source": "gcc-10-cross (23ubuntu2.1)",
+	"version": "10.5.0-4ubuntu2.1cross1",
+	"section": "universe/libdevel",
+	"priority": "optional",
+	"architecture": "all",
+	"depends": [
+		"gcc-10-cross-base (>= 10.5.0-4ubuntu2.1)",
+		"libgcc-s1-ppc64el-cross (>= 10.5.0-4ubuntu2.1cross1)",
+		"libgomp1-ppc64el-cross (>= 10.5.0-4ubuntu2.1cross1)",
+		"libitm1-ppc64el-cross (>= 10.5.0-4ubuntu2.1cross1)",
+		"libatomic1-ppc64el-cross (>= 10.5.0-4ubuntu2.1cross1)",
+		"libasan6-ppc64el-cross (>= 10.5.0-4ubuntu2.1cross1)",
+		"liblsan0-ppc64el-cross (>= 10.5.0-4ubuntu2.1cross1)",
+		"libtsan0-ppc64el-cross (>= 10.5.0-4ubuntu2.1cross1)",
+		"libubsan1-ppc64el-cross (>= 10.5.0-4ubuntu2.1cross1)",
+		"libquadmath0-ppc64el-cross (>= 10.5.0-4ubuntu2.1cross1)"
+	],
+	"recommends": [
+		"libc6-dev-ppc64el-cross (>= 2.13-0ubuntu6)"
+	],
+	"replaces": [
+		"libtsan0-ppc64el-cross (<< 10.3.0-13)"
+	],
+	"breaks": [
+		"libtsan0-ppc64el-cross (<< 10.3.0-13)"
+	],
+	"installedSize": 11615,
+	"maintainer": "Ubuntu Core developers <ubuntu-devel-discuss@lists.ubuntu.com>",
+	"description": "GCC support library (development files)",
+	"homepage": "http://gcc.gnu.org/",
+	"builtUsing": "gcc-10 (= 10.5.0-4ubuntu2.1)",
+	"filename": "pool/universe/g/gcc-10-cross/libgcc-10-dev-ppc64el-cross_10.5.0-4ubuntu2.1cross1_all.deb",
+	"size": 1440126,
+	"md5": "db98512d93870346ff6567b8364e1bbd",
+	"sha1": "5d08e40737cea346ffb25bf520d17321fb4100de",
+	"sha256": "ecbc6609eec5699c289d36f77f474aee0bd5e30b9c43a2fefba8c37ba4b46fdc",
+	"sha512": "1fb1c6483e0f85081f122ff395d5715a39fc1a0f74642452d3fab37f14f654a0a2335e987b259623af492f9d16f0a3aba2dd3fb1898cd1330fa5fc5d0755da3f",
+	"descriptionMd5": "4ab7cb439b47e1d0796fbaf8447229ac"
+},{
+	"raw": {},
+	"required": [
+		"Filename",
+		"Size"
+	],
+	"package": "libgcc-10-dev-ppc64el-cross",
 	"source": "gcc-10-cross (23ubuntu2)",
 	"version": "10.5.0-4ubuntu2cross1",
 	"section": "universe/libdevel",

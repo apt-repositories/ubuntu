@@ -5,6 +5,41 @@
 		"Size"
 	],
 	"package": "libgphobos2-amd64-cross",
+	"source": "gcc-11-cross (24ubuntu1.1)",
+	"version": "11.5.0-7ubuntu1.1cross1",
+	"section": "universe/devel",
+	"priority": "optional",
+	"architecture": "all",
+	"depends": [
+		"gcc-11-cross-base (>= 11.5.0-7ubuntu1.1)",
+		"libc6 (>= 2.34)",
+		"libgcc-s1-amd64-cross"
+	],
+	"replaces": [
+		"libgphobos68-amd64-cross"
+	],
+	"breaks": [
+		"dub (<< 1.16.0-1~)"
+	],
+	"installedSize": 10020,
+	"maintainer": "Ubuntu Core developers <ubuntu-devel-discuss@lists.ubuntu.com>",
+	"description": "Phobos D standard library (runtime library)",
+	"homepage": "http://gcc.gnu.org/",
+	"builtUsing": "gcc-11 (= 11.5.0-7ubuntu1.1)",
+	"filename": "pool/universe/g/gcc-11-cross/libgphobos2-amd64-cross_11.5.0-7ubuntu1.1cross1_all.deb",
+	"size": 1682538,
+	"md5": "614f4dc1362c716a8a68ca11d3c93c28",
+	"sha1": "c53501de2b84e00679066cbbc8aac82d576b7374",
+	"sha256": "6d647d7a23bafd5c6528fc746f337495337a6f6baa066ce548ec008d7d308f8f",
+	"sha512": "d1cf7d2d09d934ab7a962dd807e2678cab050655e87fa3042d57b52ff671c35ebb8a90cca61c1235f753244b40b3f1e46e94dd824bcc0262c1a53e9dd1aaef8b",
+	"descriptionMd5": "2086a0c7f5831c82fec492e812bdd6c1"
+},{
+	"raw": {},
+	"required": [
+		"Filename",
+		"Size"
+	],
+	"package": "libgphobos2-amd64-cross",
 	"source": "gcc-11-cross (24ubuntu1)",
 	"version": "11.5.0-7ubuntu1cross1",
 	"section": "universe/devel",

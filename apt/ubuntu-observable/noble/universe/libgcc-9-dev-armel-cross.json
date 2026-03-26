@@ -5,6 +5,47 @@
 		"Size"
 	],
 	"package": "libgcc-9-dev-armel-cross",
+	"source": "gcc-9-cross (29ubuntu2.1)",
+	"version": "9.5.0-6ubuntu2.1cross1",
+	"section": "universe/libdevel",
+	"priority": "optional",
+	"architecture": "all",
+	"depends": [
+		"gcc-9-cross-base (>= 9.5.0-6ubuntu2.1)",
+		"libgcc-s1-armel-cross (>= 9.5.0-6ubuntu2.1cross1)",
+		"libgomp1-armel-cross (>= 9.5.0-6ubuntu2.1cross1)",
+		"libatomic1-armel-cross (>= 9.5.0-6ubuntu2.1cross1)",
+		"libasan5-armel-cross (>= 9.5.0-6ubuntu2.1cross1)",
+		"libubsan1-armel-cross (>= 9.5.0-6ubuntu2.1cross1)"
+	],
+	"recommends": [
+		"libc6-dev-armel-cross (>= 2.13-0ubuntu6)"
+	],
+	"replaces": [
+		"libtsan0-armel-cross (<< 10.3.0-13)"
+	],
+	"breaks": [
+		"libtsan0-armel-cross (<< 10.3.0-13)"
+	],
+	"installedSize": 5744,
+	"maintainer": "Ubuntu Core developers <ubuntu-devel-discuss@lists.ubuntu.com>",
+	"description": "GCC support library (development files)",
+	"homepage": "http://gcc.gnu.org/",
+	"builtUsing": "gcc-9 (= 9.5.0-6ubuntu2.1)",
+	"filename": "pool/universe/g/gcc-9-cross/libgcc-9-dev-armel-cross_9.5.0-6ubuntu2.1cross1_all.deb",
+	"size": 771776,
+	"md5": "52f66937b4e2ad91cac3267253fbe4f9",
+	"sha1": "944b9d6d1c4bbd4b44bea9c90679913a9a10b21a",
+	"sha256": "7715f7d61387559db2bc932efc76f2d61d0515dab42ee40a96f59e49a34a2b54",
+	"sha512": "5afb3f2637e4b756f97b326714bb6cd0fcef54652a2396be71dcc347259fef00f4945bdeb14c4a1eec502a3ff5befda7b81f75ad3ac9293598e9a0ca0cbb952e",
+	"descriptionMd5": "4ab7cb439b47e1d0796fbaf8447229ac"
+},{
+	"raw": {},
+	"required": [
+		"Filename",
+		"Size"
+	],
+	"package": "libgcc-9-dev-armel-cross",
 	"source": "gcc-9-cross (29ubuntu2)",
 	"version": "9.5.0-6ubuntu2cross1",
 	"section": "universe/libdevel",
