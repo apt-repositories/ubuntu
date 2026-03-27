@@ -52,6 +52,53 @@
 		"Size"
 	],
 	"package": "gobjc++-13-i686-linux-gnu",
+	"source": "gcc-13-cross (14ubuntu4.4)",
+	"version": "13.3.0-6ubuntu2~24.04.1cross1",
+	"section": "universe/devel",
+	"priority": "optional",
+	"architecture": "amd64",
+	"depends": [
+		"gcc-13-i686-linux-gnu-base (= 13.3.0-6ubuntu2~24.04.1cross1)",
+		"gobjc-13-i686-linux-gnu (= 13.3.0-6ubuntu2~24.04.1cross1)",
+		"g++-13-i686-linux-gnu (= 13.3.0-6ubuntu2~24.04.1cross1)",
+		"libc6 (>= 2.38)",
+		"libgmp10 (>= 2:6.3.0+dfsg)",
+		"libisl23 (>= 0.15)",
+		"libmpc3 (>= 1.1.0)",
+		"libmpfr6 (>= 3.1.3)",
+		"libzstd1 (>= 1.5.5)",
+		"zlib1g (>= 1:1.1.4)",
+		"libobjc-13-dev-i386-cross (>= 13)"
+	],
+	"suggests": [
+		"gobjc++-13-multilib-i686-linux-gnu",
+		"gcc-13-doc (>= 13)"
+	],
+	"replaces": [
+		"gobjc++-13 (<< 13.2.0-11)"
+	],
+	"breaks": [
+		"gobjc++-13 (<< 13.2.0-11)"
+	],
+	"installedSize": 36107,
+	"maintainer": "Ubuntu Core developers <ubuntu-devel-discuss@lists.ubuntu.com>",
+	"description": "GNU Objective-C++ compiler for the i686-linux-gnu architecture",
+	"homepage": "http://gcc.gnu.org/",
+	"builtUsing": "gcc-13 (= 13.3.0-6ubuntu2~24.04.1)",
+	"filename": "pool/universe/g/gcc-13-cross/gobjc++-13-i686-linux-gnu_13.3.0-6ubuntu2~24.04.1cross1_amd64.deb",
+	"size": 11605090,
+	"md5": "be4dfbe2c023f6ad482d803de4238df0",
+	"sha1": "7ca9e497da5e7b411a9217b497eb2f825ec8898d",
+	"sha256": "7df0f1472572f2244af941b6c0a0c311602a20729f07820038614be735d8125d",
+	"sha512": "6d31274476ebfc84172e7c36a8c3d75ac267ec5f97b676e9d978302aba424d4643047bc6b3b8e31805ee91e8187770b8e2aeedcff975e93b58052ac5339b8301",
+	"descriptionMd5": "b39381afe15d2749b764ed69f8ebf869"
+},{
+	"raw": {},
+	"required": [
+		"Filename",
+		"Size"
+	],
+	"package": "gobjc++-13-i686-linux-gnu",
 	"source": "gcc-13-cross (14ubuntu4)",
 	"version": "13.2.0-23ubuntu4cross1",
 	"section": "universe/devel",

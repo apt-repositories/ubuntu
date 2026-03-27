@@ -56,6 +56,57 @@
 		"Size"
 	],
 	"package": "gccgo-13-powerpc-linux-gnu",
+	"source": "gcc-13-cross (14ubuntu4.4)",
+	"version": "13.3.0-6ubuntu2~24.04.1cross1",
+	"section": "universe/devel",
+	"priority": "optional",
+	"architecture": "amd64",
+	"depends": [
+		"gcc-13-powerpc-linux-gnu-base (= 13.3.0-6ubuntu2~24.04.1cross1)",
+		"gcc-13-powerpc-linux-gnu (= 13.3.0-6ubuntu2~24.04.1cross1)",
+		"libgo-13-dev-powerpc-cross (>= 13)",
+		"libc6-dev-powerpc-cross (>= 2.13-0ubuntu6)",
+		"libc6 (>= 2.38)",
+		"libgmp10 (>= 2:6.3.0+dfsg)",
+		"libisl23 (>= 0.15)",
+		"libmpc3 (>= 1.1.0)",
+		"libmpfr6 (>= 3.1.3)",
+		"libzstd1 (>= 1.5.5)",
+		"zlib1g (>= 1:1.1.4)"
+	],
+	"suggests": [
+		"gccgo-13-doc"
+	],
+	"replaces": [
+		"gccgo-13 (<< 13.2.0-11)",
+		"libgo12-powerpc-cross (<< 8-20171209-2)"
+	],
+	"breaks": [
+		"gccgo-13 (<< 13.2.0-11)",
+		"libgo12-powerpc-cross (<< 8-20171209-2)"
+	],
+	"conflicts": [
+		"golang-go (<< 2:1.3.3-1ubuntu2)"
+	],
+	"installedSize": 30102,
+	"maintainer": "Ubuntu Core developers <ubuntu-devel-discuss@lists.ubuntu.com>",
+	"description": "GNU Go compiler for the powerpc-linux-gnu architecture",
+	"homepage": "http://gcc.gnu.org/",
+	"builtUsing": "gcc-13 (= 13.3.0-6ubuntu2~24.04.1)",
+	"filename": "pool/universe/g/gcc-13-cross/gccgo-13-powerpc-linux-gnu_13.3.0-6ubuntu2~24.04.1cross1_amd64.deb",
+	"size": 10390238,
+	"md5": "fca9f89ef2148f822543951b9b2bb8da",
+	"sha1": "da148fa9dc49c5d30d8b8ce7eacfa32f29095e30",
+	"sha256": "13cc9d68f7c4e2aca56f941732dd42ae5baa705538e1f3ac3624031ef8ae7ac4",
+	"sha512": "2996f9a9ea13471b522f7d5da90fc06d903997bef26c7c0477551ff0dfa46ff0a7be61fec28d8688bfd6aa7c84512738ae12cf2961b863bbfcdb83ebfcdccdc8",
+	"descriptionMd5": "a460eee18c3b05cc794f521c3b381230"
+},{
+	"raw": {},
+	"required": [
+		"Filename",
+		"Size"
+	],
+	"package": "gccgo-13-powerpc-linux-gnu",
 	"source": "gcc-13-cross (14ubuntu4)",
 	"version": "13.2.0-23ubuntu4cross1",
 	"section": "universe/devel",

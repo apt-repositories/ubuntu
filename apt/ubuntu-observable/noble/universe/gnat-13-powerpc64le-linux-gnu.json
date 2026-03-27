@@ -63,6 +63,64 @@
 		"Size"
 	],
 	"package": "gnat-13-powerpc64le-linux-gnu",
+	"source": "gcc-13-cross (14ubuntu4.4)",
+	"version": "13.3.0-6ubuntu2~24.04.1cross1",
+	"section": "universe/devel",
+	"priority": "optional",
+	"architecture": "amd64",
+	"depends": [
+		"gcc-13-powerpc64le-linux-gnu-base (= 13.3.0-6ubuntu2~24.04.1cross1)",
+		"gcc-13-powerpc64le-linux-gnu (>= 13)",
+		"libgnat-13-ppc64el-cross (>= 13.3.0-6ubuntu2~24.04.1cross1)",
+		"libc6-dev-ppc64el-cross (>= 2.13-0ubuntu6)",
+		"libc6 (>= 2.38)",
+		"libgmp10 (>= 2:6.3.0+dfsg)",
+		"libisl23 (>= 0.15)",
+		"libmpc3 (>= 1.1.0)",
+		"libmpfr6 (>= 3.1.3)",
+		"libzstd1 (>= 1.5.5)",
+		"zlib1g (>= 1:1.1.4)"
+	],
+	"suggests": [
+		"gnat-13-doc",
+		"ada-reference-manual-2012"
+	],
+	"replaces": [
+		"gnat-13 (<< 13.2.0-11)"
+	],
+	"breaks": [
+		"gnat-13 (<< 13.2.0-11)"
+	],
+	"conflicts": [
+		"gnat-10-powerpc64le-linux-gnu",
+		"gnat-11-powerpc64le-linux-gnu",
+		"gnat-12-powerpc64le-linux-gnu",
+		"gnat-4.9",
+		"gnat-5-powerpc64le-linux-gnu",
+		"gnat-6-powerpc64le-linux-gnu",
+		"gnat-7-powerpc64le-linux-gnu",
+		"gnat-8-powerpc64le-linux-gnu",
+		"gnat-9-powerpc64le-linux-gnu"
+	],
+	"installedSize": 103967,
+	"maintainer": "Ubuntu Core developers <ubuntu-devel-discuss@lists.ubuntu.com>",
+	"description": "GNU Ada compiler for the powerpc64le-linux-gnu architecture",
+	"homepage": "http://gcc.gnu.org/",
+	"builtUsing": "gcc-13 (= 13.3.0-6ubuntu2~24.04.1)",
+	"filename": "pool/universe/g/gcc-13-cross/gnat-13-powerpc64le-linux-gnu_13.3.0-6ubuntu2~24.04.1cross1_amd64.deb",
+	"size": 20880186,
+	"md5": "5a027db0caac9a0e9eb5ad1d7c7f817d",
+	"sha1": "cc37220f72bfe9021ab93721bc76314d550f6a6d",
+	"sha256": "fde92bef67ce0408395f90be293cb8b318d70f72dc16d18ce82d56f8a8d44c46",
+	"sha512": "afffcd61f0c7112e4c88f2983988c7dda164b3018cc8ade3a1a847038a27992d3891066e652ce222fb3fe7d42732dbb5e38cc2c2a390f7761bcb3edc7bef4da1",
+	"descriptionMd5": "8ac95f73f66a0ce812744beb89e351e5"
+},{
+	"raw": {},
+	"required": [
+		"Filename",
+		"Size"
+	],
+	"package": "gnat-13-powerpc64le-linux-gnu",
 	"source": "gcc-13-cross (14ubuntu4)",
 	"version": "13.2.0-23ubuntu4cross1",
 	"section": "universe/devel",

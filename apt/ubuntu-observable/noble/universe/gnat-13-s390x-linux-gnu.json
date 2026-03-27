@@ -63,6 +63,64 @@
 		"Size"
 	],
 	"package": "gnat-13-s390x-linux-gnu",
+	"source": "gcc-13-cross (14ubuntu4.4)",
+	"version": "13.3.0-6ubuntu2~24.04.1cross1",
+	"section": "universe/devel",
+	"priority": "optional",
+	"architecture": "amd64",
+	"depends": [
+		"gcc-13-s390x-linux-gnu-base (= 13.3.0-6ubuntu2~24.04.1cross1)",
+		"gcc-13-s390x-linux-gnu (>= 13)",
+		"libgnat-13-s390x-cross (>= 13.3.0-6ubuntu2~24.04.1cross1)",
+		"libc6-dev-s390x-cross (>= 2.13-0ubuntu6)",
+		"libc6 (>= 2.38)",
+		"libgmp10 (>= 2:6.3.0+dfsg)",
+		"libisl23 (>= 0.15)",
+		"libmpc3 (>= 1.1.0)",
+		"libmpfr6 (>= 3.1.3)",
+		"libzstd1 (>= 1.5.5)",
+		"zlib1g (>= 1:1.1.4)"
+	],
+	"suggests": [
+		"gnat-13-doc",
+		"ada-reference-manual-2012"
+	],
+	"replaces": [
+		"gnat-13 (<< 13.2.0-11)"
+	],
+	"breaks": [
+		"gnat-13 (<< 13.2.0-11)"
+	],
+	"conflicts": [
+		"gnat-10-s390x-linux-gnu",
+		"gnat-11-s390x-linux-gnu",
+		"gnat-12-s390x-linux-gnu",
+		"gnat-4.9",
+		"gnat-5-s390x-linux-gnu",
+		"gnat-6-s390x-linux-gnu",
+		"gnat-7-s390x-linux-gnu",
+		"gnat-8-s390x-linux-gnu",
+		"gnat-9-s390x-linux-gnu"
+	],
+	"installedSize": 92602,
+	"maintainer": "Ubuntu Core developers <ubuntu-devel-discuss@lists.ubuntu.com>",
+	"description": "GNU Ada compiler for the s390x-linux-gnu architecture",
+	"homepage": "http://gcc.gnu.org/",
+	"builtUsing": "gcc-13 (= 13.3.0-6ubuntu2~24.04.1)",
+	"filename": "pool/universe/g/gcc-13-cross/gnat-13-s390x-linux-gnu_13.3.0-6ubuntu2~24.04.1cross1_amd64.deb",
+	"size": 19497672,
+	"md5": "ada7f845b349886acee25ca2b445d6ed",
+	"sha1": "5fb9bac740aeb949da2bedc0bb8c9b9fe3b0d877",
+	"sha256": "7550e7689214bff5b4d92720a9a6a25ff1fc245d6997f5105bf9f19e706dd5c3",
+	"sha512": "33cc8bf034c862f077e67708e2e62633dc60b01ddba0a18d3a24da0e75f83041c29965652df5644f5160a8e6abc0990b507a62b72b4fd383e367b3574ce08c0b",
+	"descriptionMd5": "cbfa1b3916e07b6428ca157c12823364"
+},{
+	"raw": {},
+	"required": [
+		"Filename",
+		"Size"
+	],
+	"package": "gnat-13-s390x-linux-gnu",
 	"source": "gcc-13-cross (14ubuntu4)",
 	"version": "13.2.0-23ubuntu4cross1",
 	"section": "universe/devel",
