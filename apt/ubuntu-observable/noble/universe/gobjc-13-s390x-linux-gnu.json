@@ -51,6 +51,52 @@
 		"Size"
 	],
 	"package": "gobjc-13-s390x-linux-gnu",
+	"source": "gcc-13-cross (14ubuntu4.4)",
+	"version": "13.3.0-6ubuntu2~24.04.1cross1",
+	"section": "universe/devel",
+	"priority": "optional",
+	"architecture": "amd64",
+	"depends": [
+		"gcc-13-s390x-linux-gnu-base (= 13.3.0-6ubuntu2~24.04.1cross1)",
+		"gcc-13-s390x-linux-gnu (= 13.3.0-6ubuntu2~24.04.1cross1)",
+		"libc6-dev-s390x-cross (>= 2.13-0ubuntu6)",
+		"libc6 (>= 2.38)",
+		"libgmp10 (>= 2:6.3.0+dfsg)",
+		"libisl23 (>= 0.15)",
+		"libmpc3 (>= 1.1.0)",
+		"libmpfr6 (>= 3.1.3)",
+		"libzstd1 (>= 1.5.5)",
+		"zlib1g (>= 1:1.1.4)",
+		"libobjc-13-dev-s390x-cross (>= 13)"
+	],
+	"suggests": [
+		"gcc-13-doc (>= 13)"
+	],
+	"replaces": [
+		"gobjc-13 (<< 13.2.0-11)"
+	],
+	"breaks": [
+		"gobjc-13 (<< 13.2.0-11)"
+	],
+	"installedSize": 23890,
+	"maintainer": "Ubuntu Core developers <ubuntu-devel-discuss@lists.ubuntu.com>",
+	"description": "GNU Objective-C compiler for the s390x-linux-gnu architecture",
+	"homepage": "http://gcc.gnu.org/",
+	"builtUsing": "gcc-13 (= 13.3.0-6ubuntu2~24.04.1)",
+	"filename": "pool/universe/g/gcc-13-cross/gobjc-13-s390x-linux-gnu_13.3.0-6ubuntu2~24.04.1cross1_amd64.deb",
+	"size": 8572342,
+	"md5": "8d84120a767c722c0d8a254d5be2e423",
+	"sha1": "3ec72f2b3bd5cfc216c20a3de30a02cd6e12e127",
+	"sha256": "144acd5b013c657e4366e3a67fff345c8f727a357353a035e07e24ee1045957f",
+	"sha512": "8dcdea78654df7b6433e9a1a35a509bed2fb25dfc06e74e94dd2fbf3772a45c24cb8ed7244e5d64fdbe59a8f014390f981e4eaa682d532109d7fb8a239c7a8ba",
+	"descriptionMd5": "e59ac85e61be3dcab6b065120e050280"
+},{
+	"raw": {},
+	"required": [
+		"Filename",
+		"Size"
+	],
+	"package": "gobjc-13-s390x-linux-gnu",
 	"source": "gcc-13-cross (14ubuntu4)",
 	"version": "13.2.0-23ubuntu4cross1",
 	"section": "universe/devel",

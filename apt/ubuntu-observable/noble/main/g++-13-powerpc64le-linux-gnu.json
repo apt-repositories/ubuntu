@@ -50,6 +50,51 @@
 		"Size"
 	],
 	"package": "g++-13-powerpc64le-linux-gnu",
+	"source": "gcc-13-cross (14ubuntu4.4)",
+	"version": "13.3.0-6ubuntu2~24.04.1cross1",
+	"section": "devel",
+	"priority": "optional",
+	"architecture": "amd64",
+	"depends": [
+		"gcc-13-powerpc64le-linux-gnu-base (= 13.3.0-6ubuntu2~24.04.1cross1)",
+		"gcc-13-powerpc64le-linux-gnu (= 13.3.0-6ubuntu2~24.04.1cross1)",
+		"libstdc++-13-dev-ppc64el-cross (>= 13)",
+		"libc6 (>= 2.38)",
+		"libgmp10 (>= 2:6.3.0+dfsg)",
+		"libisl23 (>= 0.15)",
+		"libmpc3 (>= 1.1.0)",
+		"libmpfr6 (>= 3.1.3)",
+		"libzstd1 (>= 1.5.5)",
+		"zlib1g (>= 1:1.1.4)"
+	],
+	"suggests": [
+		"gcc-13-doc (>= 13)"
+	],
+	"replaces": [
+		"g++-13 (<< 13.2.0-11)"
+	],
+	"breaks": [
+		"g++-13 (<< 13.2.0-11)"
+	],
+	"installedSize": 31689,
+	"maintainer": "Ubuntu Core developers <ubuntu-devel-discuss@lists.ubuntu.com>",
+	"description": "GNU C++ compiler for powerpc64le-linux-gnu architecture",
+	"homepage": "http://gcc.gnu.org/",
+	"builtUsing": "gcc-13 (= 13.3.0-6ubuntu2~24.04.1)",
+	"filename": "pool/main/g/gcc-13-cross/g++-13-powerpc64le-linux-gnu_13.3.0-6ubuntu2~24.04.1cross1_amd64.deb",
+	"size": 11462588,
+	"md5": "9b20e0b7f54c4ebf88988d0a994173b5",
+	"sha1": "33e1ac948ad5a5cf96208a83079f319d2c8d6583",
+	"sha256": "0d0d20a2213944040d3fa28bc7e5f828beea17007327db3153110fc99e441c84",
+	"sha512": "6c3960bb0b01cbf8bee5f0303928b0c5017aa8652cb605f97d38dff22fca6f2531142c4053ceba8465908123f66a4d844490f8f14e1b45e5231ea975ec55f5c7",
+	"descriptionMd5": "0be28451d4d61c7a7c7261ee29e52e35"
+},{
+	"raw": {},
+	"required": [
+		"Filename",
+		"Size"
+	],
+	"package": "g++-13-powerpc64le-linux-gnu",
 	"source": "gcc-13-cross (14ubuntu4)",
 	"version": "13.2.0-23ubuntu4cross1",
 	"section": "devel",

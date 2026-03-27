@@ -51,6 +51,52 @@
 		"Size"
 	],
 	"package": "cpp-13-powerpc64le-linux-gnu",
+	"source": "gcc-13-cross (14ubuntu4.4)",
+	"version": "13.3.0-6ubuntu2~24.04.1cross1",
+	"section": "devel",
+	"priority": "optional",
+	"architecture": "amd64",
+	"depends": [
+		"gcc-13-powerpc64le-linux-gnu-base (= 13.3.0-6ubuntu2~24.04.1cross1)",
+		"libc6 (>= 2.38)",
+		"libgmp10 (>= 2:6.3.0+dfsg)",
+		"libisl23 (>= 0.15)",
+		"libmpc3 (>= 1.1.0)",
+		"libmpfr6 (>= 3.1.3)",
+		"libzstd1 (>= 1.5.5)",
+		"zlib1g (>= 1:1.1.4)"
+	],
+	"suggests": [
+		"gcc-13-locales (>= 13)",
+		"cpp-13-doc (>= 13)"
+	],
+	"replaces": [
+		"cpp-13 (<< 13.2.0-11)"
+	],
+	"breaks": [
+		"cpp-13 (<< 13.2.0-11)",
+		"hardening-wrapper (<< 2.8+nmu3)",
+		"libmagics++-dev (<< 2.28.0-4)"
+	],
+	"installedSize": 28831,
+	"maintainer": "Ubuntu Core developers <ubuntu-devel-discuss@lists.ubuntu.com>",
+	"description": "GNU C preprocessor for powerpc64le-linux-gnu",
+	"homepage": "http://gcc.gnu.org/",
+	"builtUsing": "gcc-13 (= 13.3.0-6ubuntu2~24.04.1)",
+	"filename": "pool/main/g/gcc-13-cross/cpp-13-powerpc64le-linux-gnu_13.3.0-6ubuntu2~24.04.1cross1_amd64.deb",
+	"size": 10059774,
+	"md5": "6938e27347154b0f647145886f72a26d",
+	"sha1": "9e9b83610d2f1b63cf3a1a5c5a10a7146d969965",
+	"sha256": "fa4cd25aaef92b567f1547594f5a81bdd2e6813bb366c344f3ddef1189a37872",
+	"sha512": "5910e53477fc327e6c348690d31538c2f9fd2711b36af6a0a0c2ae44a84f2221d66d4f5336b18889893a4a7fe16a53e3351bc0fea1916928321e51e2f934d551",
+	"descriptionMd5": "2c7bd4237665c7473651107af2193fed"
+},{
+	"raw": {},
+	"required": [
+		"Filename",
+		"Size"
+	],
+	"package": "cpp-13-powerpc64le-linux-gnu",
 	"source": "gcc-13-cross (14ubuntu4)",
 	"version": "13.2.0-23ubuntu4cross1",
 	"section": "devel",
