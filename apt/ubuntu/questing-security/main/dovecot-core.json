@@ -1,0 +1,76 @@
+{
+	"raw": {},
+	"required": [
+		"Filename",
+		"Size"
+	],
+	"package": "dovecot-core",
+	"source": "dovecot",
+	"version": "1:2.4.1+dfsg1-5ubuntu4.1",
+	"section": "mail",
+	"priority": "optional",
+	"architecture": "amd64",
+	"depends": [
+		"adduser",
+		"libpam-runtime",
+		"openssl",
+		"ssl-cert",
+		"ucf",
+		"dovecot-sieve (>= 1:2.4.1+dfsg1)",
+		"libapparmor1 (>= 2.7.0~beta1+bzr1772)",
+		"libbz2-1.0",
+		"libc6 (>= 2.36)",
+		"libcap2 (>= 1:2.10)",
+		"libcrypt1 (>= 1:4.1.0)",
+		"libexttextcat-2.0-0 (>= 3.3.0)",
+		"libicu76 (>= 76.1-1~)",
+		"liblua5.4-0 (>= 5.4.6)",
+		"liblz4-1 (>= 0.0~r130)",
+		"libpam0g (>= 0.99.7.1)",
+		"libsodium23 (>= 1.0.13)",
+		"libssl3t64 (>= 3.0.0)",
+		"libstemmer0d (>= 0+svn527)",
+		"libsystemd0",
+		"libtirpc3t64 (>= 1.0.2)",
+		"libunwind8",
+		"libzstd1 (>= 1.5.5)",
+		"zlib1g (>= 1:1.1.4)"
+	],
+	"preDepends": [
+		"init-system-helpers (>= 1.54~)"
+	],
+	"suggests": [
+		"dovecot-flatcurve",
+		"dovecot-gssapi",
+		"dovecot-imapd",
+		"dovecot-ldap",
+		"dovecot-lmtpd",
+		"dovecot-managesieved",
+		"dovecot-mysql",
+		"dovecot-pgsql",
+		"dovecot-pop3d",
+		"dovecot-solr",
+		"dovecot-sqlite",
+		"dovecot-submissiond",
+		"ntp"
+	],
+	"replaces": [
+		"dovecot-common (<< 1:2.0.14-2~)",
+		"mailavenger (<< 0.8.1-4)"
+	],
+	"breaks": [
+		"dovecot-common (<< 1:2.0.14-2~)",
+		"mailavenger (<< 0.8.1-4)"
+	],
+	"installedSize": 9925,
+	"maintainer": "Ubuntu Developers <ubuntu-devel-discuss@lists.ubuntu.com>",
+	"description": "secure POP3/IMAP server - core files",
+	"homepage": "https://dovecot.org/",
+	"filename": "pool/main/d/dovecot/dovecot-core_2.4.1+dfsg1-5ubuntu4.1_amd64.deb",
+	"size": 2906998,
+	"md5": "92412a235c220f23fcc1b3fb76b363a1",
+	"sha1": "86b00976b3814c3072b2123c14a1c950e3170049",
+	"sha256": "6e91615a4f983aa3a277f6f2a3ae2ce2070874dd1484224307e00e62a87bc793",
+	"sha512": "bbee8661b1b29d4e78f19b91f5537de37e66c4e712953aa39ceeb7b7c72a80d60236a56cf53c4e01c2e3802008745b7a642e5bec79af248a503e36b1c7e4c83c",
+	"descriptionMd5": "42825422b1ef9e3a592c94dfafed375c"
+}
