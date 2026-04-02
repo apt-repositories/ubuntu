@@ -48,6 +48,48 @@
 	],
 	"package": "qemu-block-extra",
 	"source": "qemu",
+	"version": "1:8.2.2+ds-0ubuntu1.14",
+	"section": "otherosfs",
+	"priority": "optional",
+	"architecture": "amd64",
+	"depends": [
+		"libbz2-1.0",
+		"libc6 (>= 2.29)",
+		"libcurl3t64-gnutls (>= 7.16.3)",
+		"libiscsi7 (>= 1.18.0)",
+		"libnfs14 (>= 4.0.0)",
+		"librados2 (>= 0.72.2)",
+		"librbd1 (>= 19.2.3-0ubuntu0.24.04.3)",
+		"libssh-4 (>= 0.8.4)",
+		"qemu-system-any (= 1:8.2.2+ds-0ubuntu1.14) | qemu-utils (= 1:8.2.2+ds-0ubuntu1.14)"
+	],
+	"enhances": [
+		"qemu-system-arm",
+		"qemu-system-mips",
+		"qemu-system-misc",
+		"qemu-system-sparc",
+		"qemu-system-x86",
+		"qemu-utils"
+	],
+	"installedSize": 310,
+	"maintainer": "Ubuntu Developers <ubuntu-devel-discuss@lists.ubuntu.com>",
+	"description": "extra block backend modules for qemu-system and qemu-utils",
+	"homepage": "http://www.qemu.org/",
+	"filename": "pool/main/q/qemu/qemu-block-extra_8.2.2+ds-0ubuntu1.14_amd64.deb",
+	"size": 113158,
+	"md5": "6fa87d649fddf0d03cf8fca63a1717af",
+	"sha1": "fd4760ff730cca4c24327748256d60f11afa9238",
+	"sha256": "fa443f8a7428b249803e4c72b1600bf08c37819774bb1cde72712a84b90bee23",
+	"sha512": "a2bbc5b89b6cb2379053a6f9ca4356148567803717bda4570bc641faa1a4b645da77a447c28f14ed52a5da5c086ec6a265dbfeb72f80267bba19721725e10451",
+	"descriptionMd5": "b5e1c6baef0716841da073a7551acbc5"
+},{
+	"raw": {},
+	"required": [
+		"Filename",
+		"Size"
+	],
+	"package": "qemu-block-extra",
+	"source": "qemu",
 	"version": "1:8.2.2+ds-0ubuntu1",
 	"section": "otherosfs",
 	"priority": "optional",
