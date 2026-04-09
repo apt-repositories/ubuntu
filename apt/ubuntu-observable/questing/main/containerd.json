@@ -43,6 +43,43 @@
 	],
 	"package": "containerd",
 	"source": "containerd-app",
+	"version": "2.2.1-0ubuntu1~25.10.1",
+	"section": "admin",
+	"priority": "optional",
+	"architecture": "amd64",
+	"depends": [
+		"runc",
+		"libc6 (>= 2.34)"
+	],
+	"replaces": [
+		"containerd"
+	],
+	"breaks": [
+		"docker.io (<< 19.03.13-0ubuntu4)"
+	],
+	"conflicts": [
+		"containerd"
+	],
+	"installedSize": 100784,
+	"maintainer": "Ubuntu Developers <ubuntu-devel-discuss@lists.ubuntu.com>",
+	"description": "daemon to control runC",
+	"homepage": "https://containerd.io",
+	"builtUsing": "golang-1.24 (= 1.24.4-1ubuntu1)",
+	"filename": "pool/main/c/containerd-app/containerd_2.2.1-0ubuntu1~25.10.1_amd64.deb",
+	"size": 28004594,
+	"md5": "68b39d0dc337d9ec79ad1ba8afc4866f",
+	"sha1": "22848fa366e1bc2d8b682896e01ccffb8f0bbf31",
+	"sha256": "1bcaa0b1e19001bc480a8403486a0b4a295fefc8a28d798c7b5fe3e10dd6155e",
+	"sha512": "9608260a14602a3428a73941fc635661b9dc4dc4968dc13248b7e920bd983c676939970b103261d68368fcdbdd19ae39361c5426a9b2b2c48e6bcd83a07de296",
+	"descriptionMd5": "6774fdb589531e9db829619bf5dbf3ad"
+},{
+	"raw": {},
+	"required": [
+		"Filename",
+		"Size"
+	],
+	"package": "containerd",
+	"source": "containerd-app",
 	"version": "2.1.3-0ubuntu3",
 	"section": "admin",
 	"priority": "optional",

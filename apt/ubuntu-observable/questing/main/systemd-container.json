@@ -50,6 +50,50 @@
 	],
 	"package": "systemd-container",
 	"source": "systemd",
+	"version": "257.9-0ubuntu2.4",
+	"section": "admin",
+	"priority": "optional",
+	"architecture": "amd64",
+	"depends": [
+		"libacl1 (>= 2.2.23)",
+		"libbz2-1.0",
+		"libc6 (>= 2.38)",
+		"libcurl4t64 (>= 7.16.3)",
+		"libfdisk1 (>= 2.33)",
+		"liblzma5 (>= 5.1.1alpha+20120614)",
+		"libseccomp2 (>= 2.3.1)",
+		"libselinux1 (>= 3.1~)",
+		"libssl3t64 (>= 3.0.0)",
+		"libsystemd-shared (= 257.9-0ubuntu2.4)",
+		"zlib1g (>= 1:1.1.4)",
+		"systemd",
+		"default-dbus-system-bus | dbus-system-bus"
+	],
+	"recommends": [
+		"libnss-mymachines"
+	],
+	"conflicts": [
+		"systemd (<< 256-2~)"
+	],
+	"installedSize": 2095,
+	"maintainer": "Ubuntu Developers <ubuntu-devel-discuss@lists.ubuntu.com>",
+	"description": "systemd container/nspawn tools",
+	"homepage": "https://systemd.io",
+	"filename": "pool/main/s/systemd/systemd-container_257.9-0ubuntu2.4_amd64.deb",
+	"size": 640416,
+	"md5": "d23534da4330918c0e306175a9cadc27",
+	"sha1": "99daa5f44de396392242724346fd5f1e6e87b56b",
+	"sha256": "96a1964ebc1c7e0e7c199d23f49e5b0a5ae1eace845c3ad44bb7460e0c9d2e39",
+	"sha512": "f881596731ddbb7073e0363e297a0d0e7f1ba24b2e5367da2c3867b797b2dcb105b7a46931947d8019d6a2deb99d17477ee9f99fb218b82fd427955332bf5afa",
+	"descriptionMd5": "06057fffc2ba14e4be80360a092a18b4"
+},{
+	"raw": {},
+	"required": [
+		"Filename",
+		"Size"
+	],
+	"package": "systemd-container",
+	"source": "systemd",
 	"version": "257.9-0ubuntu2",
 	"section": "admin",
 	"priority": "optional",
