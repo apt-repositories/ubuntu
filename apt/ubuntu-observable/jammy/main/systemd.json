@@ -79,6 +79,80 @@
 		"Size"
 	],
 	"package": "systemd",
+	"version": "249.11-0ubuntu3.20",
+	"section": "admin",
+	"priority": "important",
+	"architecture": "amd64",
+	"depends": [
+		"libacl1 (>= 2.2.23)",
+		"libapparmor1 (>= 2.13)",
+		"libaudit1 (>= 1:2.2.1)",
+		"libcrypt1 (>= 1:4.4.0)",
+		"libcryptsetup12 (>= 2:2.4)",
+		"libgnutls30 (>= 3.7.2)",
+		"libgpg-error0 (>= 1.14)",
+		"libip4tc2 (>= 1.8.3)",
+		"libkmod2 (>= 5~)",
+		"liblz4-1 (>= 0.0~r130)",
+		"libmount1 (>= 2.30)",
+		"libpam0g (>= 0.99.7.1)",
+		"libseccomp2 (>= 2.4.1)",
+		"libssl3 (>= 3.0.0~~alpha1)",
+		"libsystemd0 (= 249.11-0ubuntu3.20)",
+		"util-linux (>= 2.27.1)",
+		"mount (>= 2.26)",
+		"adduser"
+	],
+	"preDepends": [
+		"libblkid1 (>= 2.24)",
+		"libc6 (>= 2.34)",
+		"libcap2 (>= 1:2.24-9~)",
+		"libgcrypt20 (>= 1.9.0)",
+		"liblz4-1 (>= 0.0~r122)",
+		"liblzma5 (>= 5.1.1alpha+20120614)",
+		"libselinux1 (>= 3.1~)",
+		"libzstd1 (>= 1.4.0)"
+	],
+	"recommends": [
+		"default-dbus-system-bus | dbus-system-bus",
+		"networkd-dispatcher",
+		"systemd-timesyncd | time-daemon"
+	],
+	"suggests": [
+		"systemd-container",
+		"libfido2-1",
+		"libtss2-esys-3.0.2-0",
+		"libtss2-mu0",
+		"libtss2-rc0",
+		"policykit-1"
+	],
+	"breaks": [
+		"resolvconf (<< 1.83~)",
+		"udev (<< 247~)"
+	],
+	"conflicts": [
+		"consolekit",
+		"libpam-ck-connector",
+		"systemd-shim"
+	],
+	"installedSize": 16296,
+	"maintainer": "Ubuntu Developers <ubuntu-devel-discuss@lists.ubuntu.com>",
+	"description": "system and service manager",
+	"homepage": "https://www.freedesktop.org/wiki/Software/systemd",
+	"filename": "pool/main/s/systemd/systemd_249.11-0ubuntu3.20_amd64.deb",
+	"size": 4584836,
+	"md5": "521d731dd8962631e693bcb720b436cd",
+	"sha1": "65f76f2620c315e9001a726131071c7432a42003",
+	"sha256": "3bd2171c3b87f1cc0bf39065aa6930af246f93e6799b10f3b26ba6ecb770fe78",
+	"sha512": "4db1a92abb814be1764c71f1408424d40fb9a878614f3f715f361c83e7d4bb6d8970e9184343d75f0e75ec44bf336831318f6174fe15ef635684c3cc8a154aea",
+	"descriptionMd5": "19399579cbc0c47a303288bf15eadcd4"
+},{
+	"raw": {},
+	"required": [
+		"Filename",
+		"Size"
+	],
+	"package": "systemd",
 	"version": "249.11-0ubuntu3",
 	"section": "admin",
 	"priority": "important",

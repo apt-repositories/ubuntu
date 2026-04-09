@@ -44,6 +44,44 @@
 	],
 	"package": "libpam-systemd",
 	"source": "systemd",
+	"version": "255.4-1ubuntu8.15",
+	"section": "admin",
+	"priority": "important",
+	"architecture": "amd64",
+	"depends": [
+		"libc6 (>= 2.39)",
+		"libcap2 (>= 1:2.10)",
+		"libpam0g (>= 0.99.7.1)",
+		"systemd (= 255.4-1ubuntu8.15)",
+		"libpam-runtime",
+		"default-dbus-system-bus | dbus-system-bus",
+		"systemd-sysv"
+	],
+	"recommends": [
+		"dbus-user-session"
+	],
+	"conflicts": [
+		"libpam-elogind-compat"
+	],
+	"installedSize": 678,
+	"maintainer": "Ubuntu Developers <ubuntu-devel-discuss@lists.ubuntu.com>",
+	"description": "system and service manager - PAM module",
+	"homepage": "https://www.freedesktop.org/wiki/Software/systemd",
+	"filename": "pool/main/s/systemd/libpam-systemd_255.4-1ubuntu8.15_amd64.deb",
+	"size": 235216,
+	"md5": "f1f5a6a8416f248a1069a8c853ef17d0",
+	"sha1": "e6e18eae4f21ca1f0bf4d7767d9a81b8841b0edd",
+	"sha256": "29d9f1acf929c047ec9b957e5d17afac616537f5e2216a54b39dcb4bfa8313d0",
+	"sha512": "723051ee30684c46f5bab6582466af3579419a81339a983fa1fa007d76310c619c0ec05151c3982b3d28c1f6e5068bdbd3680a6fe0daccdacbc6356791212b18",
+	"descriptionMd5": "7acf141cc9da21b0ad349b6cecc40e46"
+},{
+	"raw": {},
+	"required": [
+		"Filename",
+		"Size"
+	],
+	"package": "libpam-systemd",
+	"source": "systemd",
 	"version": "255.4-1ubuntu8",
 	"section": "admin",
 	"priority": "important",

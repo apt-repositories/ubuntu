@@ -6,7 +6,7 @@
 	],
 	"package": "docker.io",
 	"source": "docker.io-app",
-	"version": "28.2.2-0ubuntu1~22.04.1",
+	"version": "29.1.3-0ubuntu3~22.04.1",
 	"section": "universe/admin",
 	"priority": "optional",
 	"architecture": "amd64",
@@ -16,6 +16,7 @@
 		"iptables",
 		"debconf (>= 0.5) | debconf-2.0",
 		"libc6 (>= 2.34)",
+		"libnftables1 (>= 1.0.2)",
 		"libsystemd0 (>= 209~)"
 	],
 	"recommends": [
@@ -43,16 +44,16 @@
 	"conflicts": [
 		"podman-docker"
 	],
-	"installedSize": 106969,
+	"installedSize": 134182,
 	"maintainer": "Ubuntu Developers <ubuntu-devel-discuss@lists.ubuntu.com>",
 	"description": "Linux container runtime",
 	"homepage": "https://mobyproject.org/",
-	"builtUsing": "glibc (= 2.35-0ubuntu3.11), golang-1.23 (= 1.23.1-1~22.04)",
-	"filename": "pool/universe/d/docker.io-app/docker.io_28.2.2-0ubuntu1~22.04.1_amd64.deb",
-	"size": 28392182,
-	"md5": "1a7f2dbddbdb65d11cfd4ccdda1475ce",
-	"sha1": "bb06df578cf681ac7f5b320a4b38d0f858c15732",
-	"sha256": "b526b8d9b34b141560a902b0ce5c971843707fda254164315dbe5a1749d4d48a",
-	"sha512": "554c7a52bba9c146fd81f10916157e4f4dff8285f56ae61a7d98b4c2c5adde90e848b8c95eb479565c0d601c40c5eb69f1f2376f911f6367fd470e058184e224",
+	"builtUsing": "glibc (= 2.35-0ubuntu3.13), golang-1.24 (= 1.24.4-1ubuntu1~22.04.1)",
+	"filename": "pool/universe/d/docker.io-app/docker.io_29.1.3-0ubuntu3~22.04.1_amd64.deb",
+	"size": 35738324,
+	"md5": "0cf54171f287cc1ea1bfc780e64e4261",
+	"sha1": "625907375319c04f722beff71174e66c09e13f1f",
+	"sha256": "f9626aaafa6b5d4605179986ede30f5948d2297b9957c0066008ecbe6c1048de",
+	"sha512": "c9b234f80d039e55d5a016507abec1a5fe2171822e743775c343b9feb6892172de092ed5ea60243b843bb0c3c419a830b1a23463c653fe5ff63dc9c0bfdf9833",
 	"descriptionMd5": "e493e693fe77bf3c8bec9a4fc91c75cc"
 }

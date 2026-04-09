@@ -5,6 +5,77 @@
 		"Size"
 	],
 	"package": "squid",
+	"version": "5.9-0ubuntu0.22.04.5",
+	"section": "web",
+	"priority": "optional",
+	"architecture": "amd64",
+	"depends": [
+		"libc6 (>= 2.34)",
+		"libcap2 (>= 1:2.10)",
+		"libcom-err2 (>= 1.43.9)",
+		"libcrypt1 (>= 1:4.1.0)",
+		"libecap3 (>= 1.0.1)",
+		"libexpat1 (>= 2.0.1)",
+		"libgcc-s1 (>= 3.4)",
+		"libgnutls30 (>= 3.7.3)",
+		"libgssapi-krb5-2 (>= 1.17)",
+		"libkrb5-3 (>= 1.10+dfsg~)",
+		"libldap-2.5-0 (>= 2.5.4)",
+		"libltdl7 (>= 2.4.6)",
+		"libnetfilter-conntrack3 (>= 1.0.1)",
+		"libnettle8",
+		"libpam0g (>= 0.99.7.1)",
+		"libsasl2-2 (>= 2.1.27+dfsg2)",
+		"libstdc++6 (>= 11)",
+		"libsystemd0",
+		"libtdb1 (>= 1.2.7+git20101214)",
+		"libxml2 (>= 2.7.4)",
+		"netbase",
+		"logrotate (>= 3.5.4-1)",
+		"squid-common (>= 5.9-0ubuntu0.22.04.5)",
+		"lsb-base",
+		"libdbi-perl",
+		"ssl-cert"
+	],
+	"preDepends": [
+		"init-system-helpers (>= 1.54~)",
+		"adduser"
+	],
+	"recommends": [
+		"libcap2-bin",
+		"ca-certificates"
+	],
+	"suggests": [
+		"squidclient",
+		"squid-cgi",
+		"squid-purge",
+		"resolvconf (>= 0.40)",
+		"smbclient",
+		"ufw",
+		"winbind",
+		"apparmor"
+	],
+	"conflicts": [
+		"squid-openssl"
+	],
+	"installedSize": 7960,
+	"maintainer": "Ubuntu Developers <ubuntu-devel-discuss@lists.ubuntu.com>",
+	"description": "Full featured Web Proxy cache (HTTP proxy GnuTLS flavour)",
+	"homepage": "http://www.squid-cache.org",
+	"filename": "pool/main/s/squid/squid_5.9-0ubuntu0.22.04.5_amd64.deb",
+	"size": 2681186,
+	"md5": "a7005c00623882cf829cc7267029671b",
+	"sha1": "542360bdba07db04885b346f73a565d17dab3577",
+	"sha256": "63e388fc690414b6d93bfa8d98d6f317088e0a24a6f590c91293d0d2974b5994",
+	"sha512": "18dd8e29513f9bad970308471b231a3370c94d2550333e9f62872fbbfe1880b36a116f33212805b064f6c542faa36d8ddf1d535a5db10283b2ee56bff15e9acb",
+	"descriptionMd5": "b87c39c34d2257909d3430ecc70c8bfb"
+},{
+	"raw": {},
+	"required": [
+		"Filename",
+		"Size"
+	],
+	"package": "squid",
 	"version": "5.9-0ubuntu0.22.04.4",
 	"section": "web",
 	"priority": "optional",

@@ -71,6 +71,72 @@
 		"Size"
 	],
 	"package": "systemd",
+	"version": "257.9-0ubuntu2.4",
+	"section": "admin",
+	"priority": "important",
+	"architecture": "amd64",
+	"depends": [
+		"libacl1 (>= 2.2.23)",
+		"libapparmor1 (>= 2.13)",
+		"libc6 (>= 2.41)",
+		"libmount1 (>= 2.30)",
+		"libpam0g (>= 0.99.7.1)",
+		"libseccomp2 (>= 2.3.1)",
+		"libselinux1 (>= 3.1~)",
+		"libssl3t64 (>= 3.4.0)",
+		"libsystemd0 (= 257.9-0ubuntu2.4)",
+		"mount"
+	],
+	"preDepends": [
+		"libc6 (>= 2.38)",
+		"libsystemd-shared (= 257.9-0ubuntu2.4)"
+	],
+	"recommends": [
+		"default-dbus-system-bus | dbus-system-bus",
+		"linux-sysctl-defaults",
+		"networkd-dispatcher",
+		"systemd-timesyncd | time-daemon",
+		"systemd-resolved",
+		"systemd-cryptsetup"
+	],
+	"suggests": [
+		"systemd-container",
+		"systemd-homed",
+		"systemd-userdbd",
+		"systemd-boot",
+		"systemd-repart",
+		"libtss2-tcti-device0",
+		"polkitd"
+	],
+	"breaks": [
+		"dracut-core (<< 102-2~)",
+		"less (<< 563)",
+		"sicherboot (<< 0.1.6)"
+	],
+	"conflicts": [
+		"consolekit",
+		"libpam-ck-connector",
+		"opensysusers (<< 0.7.3-4.1~)",
+		"systemd-shim"
+	],
+	"installedSize": 10432,
+	"maintainer": "Ubuntu Developers <ubuntu-devel-discuss@lists.ubuntu.com>",
+	"description": "system and service manager",
+	"homepage": "https://systemd.io",
+	"filename": "pool/main/s/systemd/systemd_257.9-0ubuntu2.4_amd64.deb",
+	"size": 2981816,
+	"md5": "4e44fcc62473bfd64d8a860adec15e30",
+	"sha1": "9ae54be8c4c5640949f9ee59de07636868e7b363",
+	"sha256": "3e572047056228cb9c9f42d82d8e45734b498cdd8d4bed297e8d48700ef4527e",
+	"sha512": "09091657d79cb1e0d6e325de74b7ee8aab09ed2ee42a0a5ef8d0ae49e3925c5b6551759b544d83e887bad1ebdbe476a860b9dfc37a0a4a0dad24b7645bf3a11b",
+	"descriptionMd5": "2728f00e9cb47f195aa39097a3afbc42"
+},{
+	"raw": {},
+	"required": [
+		"Filename",
+		"Size"
+	],
+	"package": "systemd",
 	"version": "257.9-0ubuntu2",
 	"section": "admin",
 	"priority": "important",

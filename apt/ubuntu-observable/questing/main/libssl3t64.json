@@ -6,6 +6,44 @@
 	],
 	"package": "libssl3t64",
 	"source": "openssl",
+	"version": "3.5.3-1ubuntu3.3",
+	"section": "libs",
+	"priority": "required",
+	"architecture": "amd64",
+	"depends": [
+		"libc6 (>= 2.38)",
+		"libzstd1 (>= 1.5.5)",
+		"zlib1g (>= 1:1.1.4)",
+		"openssl-provider-legacy"
+	],
+	"replaces": [
+		"libssl3"
+	],
+	"breaks": [
+		"libssl3 (<< 3.5.3-1ubuntu3.3)",
+		"openssh-client (<< 1:9.4p1)",
+		"openssh-server (<< 1:9.4p1)",
+		"python3-m2crypto (<< 0.38.0-4)"
+	],
+	"installedSize": 7954,
+	"maintainer": "Ubuntu Developers <ubuntu-devel-discuss@lists.ubuntu.com>",
+	"description": "Secure Sockets Layer toolkit - shared libraries",
+	"homepage": "https://openssl-library.org",
+	"filename": "pool/main/o/openssl/libssl3t64_3.5.3-1ubuntu3.3_amd64.deb",
+	"size": 2358602,
+	"md5": "978915034000288d46fca8f177a1e46a",
+	"sha1": "6e477165b50f69aad216d55e3ab7c5c1d84c3836",
+	"sha256": "859562e0d9d34994b2ecc3999fa554f539fe35346d6d5057bb50b085ca01abdb",
+	"sha512": "90e793ef6bb4946b9076da729db9e62301ea1d215c3e0f28838cf7f0da9bfb34667359bdb9f35a9d4bd6d16c882c8323797787da567ff2bc4fbfcb8d3e6d8e0e",
+	"descriptionMd5": "88547c6206c7fbc4fcc7d09ce100d210"
+},{
+	"raw": {},
+	"required": [
+		"Filename",
+		"Size"
+	],
+	"package": "libssl3t64",
+	"source": "openssl",
 	"version": "3.5.3-1ubuntu3",
 	"section": "libs",
 	"priority": "required",
