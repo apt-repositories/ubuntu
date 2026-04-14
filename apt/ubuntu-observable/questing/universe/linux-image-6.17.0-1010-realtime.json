@@ -1,0 +1,42 @@
+[{
+	"raw": {},
+	"required": [
+		"Filename",
+		"Size"
+	],
+	"package": "linux-image-6.17.0-1010-realtime",
+	"source": "linux-signed-realtime",
+	"version": "6.17.0-1010.11",
+	"section": "universe/kernel",
+	"priority": "optional",
+	"architecture": "amd64",
+	"depends": [
+		"kmod",
+		"linux-base (>= 4.5ubuntu1~16.04.1)",
+		"linux-modules-6.17.0-1010-realtime"
+	],
+	"recommends": [
+		"grub-pc | grub-efi-amd64 | grub-efi-ia32 | grub | lilo",
+		"initramfs-tools | linux-initramfs-tool"
+	],
+	"suggests": [
+		"bpftool",
+		"linux-perf",
+		"linux-realtime-tools",
+		"linux-headers-6.17.0-1010-realtime"
+	],
+	"conflicts": [
+		"linux-image-unsigned-6.17.0-1010-realtime"
+	],
+	"installedSize": 16325,
+	"maintainer": "Canonical Kernel Team <kernel-team@lists.ubuntu.com>",
+	"description": "Signed kernel image realtime",
+	"builtUsing": "linux-realtime (= 6.17.0-1010.11)",
+	"filename": "pool/universe/l/linux-signed-realtime/linux-image-6.17.0-1010-realtime_6.17.0-1010.11_amd64.deb",
+	"size": 16015342,
+	"md5": "8843dbe95c60013d676cfce37c7ec459",
+	"sha1": "e76bad38d8fbe3f81dcefe750ebedeb7ecb86a16",
+	"sha256": "acdcdb3d9d1b84b754457623ec55f43ef93474bde51741d9f1c7404bb25c8d73",
+	"sha512": "1fd369a4691c5666ae86016d71f47820b923f5c7afa19f32dfe4ef2d651a65bee5eba01748599874cb0ae3ed27c038f448eb84d2bbe7e45a7d19a831786af064",
+	"descriptionMd5": "79beaec48d8d231cee72ce47d9c6703a"
+}]
