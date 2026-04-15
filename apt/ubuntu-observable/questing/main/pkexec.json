@@ -6,6 +6,43 @@
 	],
 	"package": "pkexec",
 	"source": "policykit-1",
+	"version": "126-2ubuntu0.1",
+	"section": "admin",
+	"priority": "optional",
+	"architecture": "amd64",
+	"depends": [
+		"polkitd (= 126-2ubuntu0.1)",
+		"libc6 (>= 2.34)",
+		"libglib2.0-0t64 (>= 2.36.0)",
+		"libpam0g (>= 0.99.7.1)",
+		"libpolkit-agent-1-0 (= 126-2ubuntu0.1)",
+		"libpolkit-gobject-1-0 (= 126-2ubuntu0.1)"
+	],
+	"replaces": [
+		"policykit-1 (<< 0.120-4~)"
+	],
+	"breaks": [
+		"policykit-1 (<< 0.120-4~)"
+	],
+	"installedSize": 62,
+	"maintainer": "Ubuntu Developers <ubuntu-devel-discuss@lists.ubuntu.com>",
+	"description": "run commands as another user with polkit authorization",
+	"homepage": "https://github.com/polkit-org/polkit/",
+	"filename": "pool/main/p/policykit-1/pkexec_126-2ubuntu0.1_amd64.deb",
+	"size": 15722,
+	"md5": "670c14aeffa24c3f972fe380eb1f9583",
+	"sha1": "cde6ca3e0f055128e037204c791a5e3dc5d8add5",
+	"sha256": "3b0e27ee2a4381ca74a813ebe975af9e593986b5bccdfd7600280bdff816d88a",
+	"sha512": "f4d0cae187a0ce8058918a2909717396c28a887a3a156180ca641f057cf1ebb4b6bd468f55520c78fb92e135148fa14bc045183910a6d5661aae0633c29b3a9b",
+	"descriptionMd5": "220b2dc5fa280403052088b9c3dcca5a"
+},{
+	"raw": {},
+	"required": [
+		"Filename",
+		"Size"
+	],
+	"package": "pkexec",
+	"source": "policykit-1",
 	"version": "126-2",
 	"section": "admin",
 	"priority": "optional",
