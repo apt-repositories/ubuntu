@@ -36,6 +36,36 @@
 	],
 	"package": "nova-compute-ironic",
 	"source": "nova",
+	"version": "3:32.0.0-0ubuntu1.2",
+	"section": "universe/net",
+	"priority": "extra",
+	"architecture": "all",
+	"depends": [
+		"python3-ironicclient (>= 2.7.0)",
+		"python3-nova (= 3:32.0.0-0ubuntu1.2)"
+	],
+	"conflicts": [
+		"nova-compute-hypervisor"
+	],
+	"installedSize": 21,
+	"maintainer": "Ubuntu Developers <ubuntu-devel-discuss@lists.ubuntu.com>",
+	"description": "OpenStack Compute - compute node (Ironic)",
+	"homepage": "https://launchpad.net/nova",
+	"filename": "pool/universe/n/nova/nova-compute-ironic_32.0.0-0ubuntu1.2_all.deb",
+	"size": 2486,
+	"md5": "ea7f0609cc457549924a422c3e82d9e2",
+	"sha1": "faceb517d067b142083ffa1469d73ac97a3a3238",
+	"sha256": "80aa9b199979ce2ba282b3db35a457fc6e1a47e48693e44247d99f985b2e5e31",
+	"sha512": "582bfbd7b99ecbdf72fabdbc3609b6989c2e21626d756a29468b8fd9bf0f8ccb163b09210e63f08513d3fe2cbe12dc5508bc430fa7069535c8c3c64daec1e206",
+	"descriptionMd5": "aa367d7b097bfd444b2d66cc349df0b7"
+},{
+	"raw": {},
+	"required": [
+		"Filename",
+		"Size"
+	],
+	"package": "nova-compute-ironic",
+	"source": "nova",
 	"version": "3:32.0.0-0ubuntu1",
 	"section": "universe/net",
 	"priority": "extra",

@@ -30,4 +30,36 @@
 	"sha256": "6d4b5bac4e3847d8f12a272efe7d9a2dba4b4c4f2b77fa7c1c2c43b1b8c6304f",
 	"sha512": "287d6dc2d11d1ab466610088e5ea3721f4c24b2a3832c13a8fee7105d00ca2d0f98889aa69c278559a45c6916303d0c9ae8997a2f147244d4ec797d91b40ec55",
 	"descriptionMd5": "32f0a618356a70daa88f54cec3c31344"
+},{
+	"raw": {},
+	"required": [
+		"Filename",
+		"Size"
+	],
+	"package": "linux-image-nvidia-lowlatency",
+	"source": "linux-meta-nvidia",
+	"version": "5.15.0.1100.100",
+	"section": "kernel",
+	"priority": "optional",
+	"architecture": "amd64",
+	"depends": [
+		"linux-image-5.15.0-1100-nvidia-lowlatency",
+		"linux-modules-extra-5.15.0-1100-nvidia-lowlatency",
+		"linux-firmware",
+		"intel-microcode",
+		"amd64-microcode"
+	],
+	"recommends": [
+		"thermald"
+	],
+	"installedSize": 21,
+	"maintainer": "Ubuntu Kernel Team <kernel-team@lists.ubuntu.com>",
+	"description": "Linux kernel image for Nvidia systems.",
+	"filename": "pool/main/l/linux-meta-nvidia/linux-image-nvidia-lowlatency_5.15.0.1100.100_amd64.deb",
+	"size": 15290,
+	"md5": "8ee249390c81cc7a09db3e49fa047059",
+	"sha1": "436c46fae37329eea5a09239e269b381c2bbe221",
+	"sha256": "cfb608464823f810a5e3744109699b539f9358f46d0bfb00d73e7a5473299ac2",
+	"sha512": "23e4396de53a60c06410b934d51efde93c03b32f8f7b0e9dd3a29b3ec41a18fb6468d603bf26aa8ed0b55d5d3f438cdf7d345b9974b68841587522f69559d1dc",
+	"descriptionMd5": "32f0a618356a70daa88f54cec3c31344"
 }]

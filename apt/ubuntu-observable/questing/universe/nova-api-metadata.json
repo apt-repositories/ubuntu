@@ -37,6 +37,37 @@
 	],
 	"package": "nova-api-metadata",
 	"source": "nova",
+	"version": "3:32.0.0-0ubuntu1.2",
+	"section": "universe/net",
+	"priority": "extra",
+	"architecture": "all",
+	"depends": [
+		"apache2 | httpd",
+		"libapache2-mod-wsgi-py3",
+		"python3-nova (= 3:32.0.0-0ubuntu1.2)"
+	],
+	"conflicts": [
+		"nova-api"
+	],
+	"installedSize": 28,
+	"maintainer": "Ubuntu Developers <ubuntu-devel-discuss@lists.ubuntu.com>",
+	"description": "OpenStack Compute - metadata API frontend",
+	"homepage": "https://launchpad.net/nova",
+	"filename": "pool/universe/n/nova/nova-api-metadata_32.0.0-0ubuntu1.2_all.deb",
+	"size": 3326,
+	"md5": "af60e14f4dc88fd5be8ff7adc65dd76e",
+	"sha1": "62d39f635146e7944c2d8c8ee232676e49cdb678",
+	"sha256": "ba265cc4ce04800f0983815e915fec1bf4124f3eca91783e31fb9e190d5a682f",
+	"sha512": "efbc547f8476a7a634a0967d1a8cbd906a9ea081fce0318e4934bffcec129775068423b2fb87b96b0171165dbb8e9c54406dfca187cf2efb082928a64c742a61",
+	"descriptionMd5": "ae9cd778d7894b1a89d138fe3587a7da"
+},{
+	"raw": {},
+	"required": [
+		"Filename",
+		"Size"
+	],
+	"package": "nova-api-metadata",
+	"source": "nova",
 	"version": "3:32.0.0-0ubuntu1",
 	"section": "universe/net",
 	"priority": "extra",
