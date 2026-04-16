@@ -37,6 +37,37 @@
 	],
 	"package": "nova-compute",
 	"source": "nova",
+	"version": "3:32.0.0-0ubuntu1.2",
+	"section": "net",
+	"priority": "extra",
+	"architecture": "all",
+	"depends": [
+		"bridge-utils",
+		"nova-compute-kvm | nova-compute-hypervisor",
+		"python3-nova (= 3:32.0.0-0ubuntu1.2)"
+	],
+	"preDepends": [
+		"init-system-helpers (>= 1.54~)"
+	],
+	"installedSize": 42,
+	"maintainer": "Ubuntu Developers <ubuntu-devel-discuss@lists.ubuntu.com>",
+	"description": "OpenStack Compute - compute node base",
+	"homepage": "https://launchpad.net/nova",
+	"filename": "pool/main/n/nova/nova-compute_32.0.0-0ubuntu1.2_all.deb",
+	"size": 8772,
+	"md5": "857e674998651cdabf0f47123eac502f",
+	"sha1": "40964f5b736efd81c98cef60d388015d5f9cd98d",
+	"sha256": "9058c6eeabee115d71b800dae747a49cc47d8100913890940fe90de36f1a2a68",
+	"sha512": "301d3fb0bdaba034d612b08cb04fa21ea0100b91ed3b81ea5c3500b85f82dc584e333f9cb5d333dff5f8539cc6df9ab3a5ca6d5b9ef1f90e59fa9d1ecfd0d132",
+	"descriptionMd5": "3ba5242ed5b20ea217068529d959352e"
+},{
+	"raw": {},
+	"required": [
+		"Filename",
+		"Size"
+	],
+	"package": "nova-compute",
+	"source": "nova",
 	"version": "3:32.0.0-0ubuntu1",
 	"section": "net",
 	"priority": "extra",

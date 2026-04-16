@@ -6,6 +6,46 @@
 	],
 	"package": "ubuntu-release-upgrader-core",
 	"source": "ubuntu-release-upgrader",
+	"version": "1:25.10.9",
+	"section": "admin",
+	"priority": "standard",
+	"architecture": "all",
+	"depends": [
+		"ca-certificates",
+		"python3-distupgrade (= 1:25.10.9)",
+		"python3:any",
+		"screen"
+	],
+	"recommends": [
+		"libpam-modules (>= 1.0.1-9ubuntu3)"
+	],
+	"replaces": [
+		"update-manager (<< 1:0.165)",
+		"update-manager-core (<< 1:0.165)"
+	],
+	"breaks": [
+		"software-properties (<< 0.9.27)",
+		"update-manager (<< 1:0.165)",
+		"update-manager-core (<< 1:0.165)"
+	],
+	"installedSize": 264,
+	"maintainer": "Ubuntu Developers <ubuntu-devel-discuss@lists.ubuntu.com>",
+	"description": "manage release upgrades",
+	"filename": "pool/main/u/ubuntu-release-upgrader/ubuntu-release-upgrader-core_25.10.9_all.deb",
+	"size": 24980,
+	"md5": "575ca4b22d1113333036302eab6c6fa1",
+	"sha1": "6f2da93100dad10ae61aafbbd1012c8bbdac9f44",
+	"sha256": "5d66e95a7463f54d13a2abf5b1c192d96c635910f76d6f175bca4fa42ec56b13",
+	"sha512": "86036aad3493c9b4ec038e91a1136045b5499d6f8c4c3960dac0eae1bfa576499d09f58eb9f81985911e33066d60855027dd9181e6dc398fe2e326b9b91af28c",
+	"descriptionMd5": "9b6ae3ba71aff05989e4c93c17227206"
+},{
+	"raw": {},
+	"required": [
+		"Filename",
+		"Size"
+	],
+	"package": "ubuntu-release-upgrader-core",
+	"source": "ubuntu-release-upgrader",
 	"version": "1:25.10.8",
 	"section": "admin",
 	"priority": "standard",
