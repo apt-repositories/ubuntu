@@ -6,36 +6,38 @@
 	],
 	"package": "libreoffice-l10n-mr",
 	"source": "libreoffice",
-	"version": "4:7.5.9-0ubuntu0.23.04.1~bpo22.04.1",
+	"version": "4:25.8.5-0ubuntu0.25.10.1~bpo22.04.1",
 	"section": "localization",
 	"priority": "optional",
 	"architecture": "all",
 	"depends": [
-		"libreoffice-common (>= 1:7.0.0~alpha~)",
-		"locales | locales-all",
-		"ucf"
+		"locales | locales-all"
+	],
+	"preDepends": [
+		"ucf",
+		"libreoffice-common (>= 4:25.2.1~rc1-3~)"
 	],
 	"recommends": [
 		"fonts-deva",
-		"libreoffice-core (>> 4:7.5.9)"
+		"libreoffice-core (>> 4:25.8.5)"
 	],
 	"suggests": [
-		"hunspell-dictionary-mr | myspell-dictionary-mr",
-		"hyphen-mr",
+		"hunspell-dictionary-mr | myspell-dictionary-mr | libreoffice-spellcheck-mr",
+		"hyphen-mr | libreoffice-hyphenation-mr",
 		"libreoffice-grammarcheck-mr",
 		"libreoffice-help-mr",
 		"mythes-mr"
 	],
-	"installedSize": 3170,
+	"installedSize": 2706,
 	"maintainer": "Ubuntu Developers <ubuntu-devel-discuss@lists.ubuntu.com>",
 	"description": "office productivity suite -- Marathi language package",
 	"homepage": "http://www.libreoffice.org",
-	"filename": "pool/main/libr/libreoffice/libreoffice-l10n-mr_7.5.9-0ubuntu0.23.04.1~bpo22.04.1_all.deb",
-	"size": 450624,
-	"md5": "d6daae1b0ecaee32e45d8b5b9dc8deb3",
-	"sha1": "df44129ae9e03cd6e5a119ecc2f3347218d3327e",
-	"sha256": "88d78b993d70834b07e0d87ec7d42c550d11eaa35bbd60567fc4fc3c416bfe57",
-	"sha512": "148785989729f067bc78b6d6f6cb285a8c6b3eda1967bc89961590eb708c534151a1da7263bbdf6b124d0300361f3591154a9091d6707bdefaf34eac225774a9",
+	"filename": "pool/main/libr/libreoffice/libreoffice-l10n-mr_25.8.5-0ubuntu0.25.10.1~bpo22.04.1_all.deb",
+	"size": 431348,
+	"md5": "fbba54aec7c658c5ce66bb45b3661763",
+	"sha1": "03810e345ccf6df15b4da5f2fc5fdd3b3cee193f",
+	"sha256": "738e493b62a2e254ca14e49b69897c3961b6974d51bd5af1ea1d365c5a575b9d",
+	"sha512": "f0c96ac255c5820887400fdd18c99089339ea079335d17147f3a1458e6735c9a2140ba34a77a117c4afc52187766eeeb1bce47a7cdc10120f4bc1c5a9381a19d",
 	"descriptionMd5": "8222f55840ec7b6dfe5f1d5507393b3c"
 },{
 	"raw": {},

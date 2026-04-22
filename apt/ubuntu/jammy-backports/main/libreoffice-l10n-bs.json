@@ -6,34 +6,36 @@
 	],
 	"package": "libreoffice-l10n-bs",
 	"source": "libreoffice",
-	"version": "4:7.5.9-0ubuntu0.23.04.1~bpo22.04.1",
+	"version": "4:25.8.5-0ubuntu0.25.10.1~bpo22.04.1",
 	"section": "localization",
 	"priority": "optional",
 	"architecture": "all",
 	"depends": [
-		"libreoffice-common (>= 1:7.0.0~alpha~)",
-		"locales | locales-all",
-		"ucf"
+		"locales | locales-all"
+	],
+	"preDepends": [
+		"ucf",
+		"libreoffice-common (>= 4:25.2.1~rc1-3~)"
 	],
 	"recommends": [
-		"libreoffice-core (>> 4:7.5.9)"
+		"libreoffice-core (>> 4:25.8.5)"
 	],
 	"suggests": [
-		"hunspell-dictionary-bs | myspell-dictionary-bs",
-		"hyphen-bs",
+		"hunspell-dictionary-bs | myspell-dictionary-bs | libreoffice-spellcheck-bs",
+		"hyphen-bs | libreoffice-hyphenation-bs",
 		"libreoffice-grammarcheck-bs",
 		"libreoffice-help-bs",
 		"mythes-bs"
 	],
-	"installedSize": 2648,
+	"installedSize": 2343,
 	"maintainer": "Ubuntu Developers <ubuntu-devel-discuss@lists.ubuntu.com>",
 	"description": "office productivity suite -- Bosnian language package",
 	"homepage": "http://www.libreoffice.org",
-	"filename": "pool/main/libr/libreoffice/libreoffice-l10n-bs_7.5.9-0ubuntu0.23.04.1~bpo22.04.1_all.deb",
-	"size": 449138,
-	"md5": "a8a9e039d869abad11dc6cdd97e3af2e",
-	"sha1": "fb9d5c172f8579bc0b105da5bcd36b4dcf0d74f3",
-	"sha256": "52821d5202e976b0b34b7092879e3abb388482f934a1ae427d0646a5fa0cc067",
-	"sha512": "82a38b52dc14158b932cf669514ab0408675fc8443ea4dc519f1f5fcbdf988d8e03392fb6e2785d0b749e1396d8960e1b37852757f0aa83db0ae69b243613cab",
+	"filename": "pool/main/libr/libreoffice/libreoffice-l10n-bs_25.8.5-0ubuntu0.25.10.1~bpo22.04.1_all.deb",
+	"size": 434850,
+	"md5": "fd30ed47a95e4de6db8e827a1e5c3111",
+	"sha1": "b251ffc1e728bd8c9fd2fdc29f1cfa3a6ce22d7d",
+	"sha256": "e6fe940ee758925b6325ceff331eb0a6a8bc138125b034178cd20c1a2f65f1b8",
+	"sha512": "bc8fa237a0efeede6e34b5f24953f609856b059bbe8f6d8962fcb327a5bbbdacfcdec3e4c1ca9ab92a1abe0ff7667fdb79c9e25f414c3e5bb68299ac3c609b24",
 	"descriptionMd5": "7fc91db4c49442d4457804a807e892f1"
 }

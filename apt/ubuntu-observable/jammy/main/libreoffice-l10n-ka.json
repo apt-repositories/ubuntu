@@ -6,35 +6,37 @@
 	],
 	"package": "libreoffice-l10n-ka",
 	"source": "libreoffice",
-	"version": "4:7.5.9-0ubuntu0.23.04.1~bpo22.04.1",
+	"version": "4:25.8.5-0ubuntu0.25.10.1~bpo22.04.1",
 	"section": "localization",
 	"priority": "optional",
 	"architecture": "all",
 	"depends": [
-		"libreoffice-common (>= 1:7.0.0~alpha~)",
-		"locales | locales-all",
-		"ucf"
+		"locales | locales-all"
+	],
+	"preDepends": [
+		"ucf",
+		"libreoffice-common (>= 4:25.2.1~rc1-3~)"
 	],
 	"recommends": [
-		"libreoffice-core (>> 4:7.5.9)"
+		"libreoffice-core (>> 4:25.8.5)"
 	],
 	"suggests": [
-		"hunspell-dictionary-ka | myspell-dictionary-ka",
-		"hyphen-ka",
+		"hunspell-dictionary-ka | myspell-dictionary-ka | libreoffice-spellcheck-ka",
+		"hyphen-ka | libreoffice-hyphenation-ka",
 		"libreoffice-grammarcheck-ka",
 		"libreoffice-help-ka",
 		"mythes-ka"
 	],
-	"installedSize": 2664,
+	"installedSize": 6041,
 	"maintainer": "Ubuntu Developers <ubuntu-devel-discuss@lists.ubuntu.com>",
 	"description": "office productivity suite -- Georgian language package",
 	"homepage": "http://www.libreoffice.org",
-	"filename": "pool/main/libr/libreoffice/libreoffice-l10n-ka_7.5.9-0ubuntu0.23.04.1~bpo22.04.1_all.deb",
-	"size": 317216,
-	"md5": "ad4d522c02b065f41f7c1ff5ee7adb89",
-	"sha1": "742c561c122cb27de5c49050a63a714f153bafe2",
-	"sha256": "3bbcd2265e386c59be3a31179c834d5eb9b08edcd6973b4dbbd2e9da1bfa6897",
-	"sha512": "4c5c385299eda8e9593b45d485573e4c13f487621c94ca0cd676fe4262701d309633d88fcea9b58eddf5d4385d688b13ea04e061203d005c53e3857b4a8a8bd1",
+	"filename": "pool/main/libr/libreoffice/libreoffice-l10n-ka_25.8.5-0ubuntu0.25.10.1~bpo22.04.1_all.deb",
+	"size": 956110,
+	"md5": "c021e7cb88fcf7bc7771719b2b1c547b",
+	"sha1": "e735a1804146ed8fb8c4ee67037e77f98e4ae128",
+	"sha256": "6ae66db95b1aaee137d1bb8095b875d082d1a287073e9b978b381a29ac644cbe",
+	"sha512": "35da47b492fecb9ac50de8692e6f738947f76a61814b6035e26baecad2ef54a885fa5f57924a80ddd29c27d2c5ca9effc9730d5645de78ead65f822aa2ee8cc0",
 	"descriptionMd5": "1efb8e2732132342f73ee09022329760"
 },{
 	"raw": {},

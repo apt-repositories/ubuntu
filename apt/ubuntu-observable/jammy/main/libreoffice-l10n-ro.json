@@ -6,35 +6,37 @@
 	],
 	"package": "libreoffice-l10n-ro",
 	"source": "libreoffice",
-	"version": "4:7.5.9-0ubuntu0.23.04.1~bpo22.04.1",
+	"version": "4:25.8.5-0ubuntu0.25.10.1~bpo22.04.1",
 	"section": "localization",
 	"priority": "optional",
 	"architecture": "all",
 	"depends": [
-		"libreoffice-common (>= 1:7.0.0~alpha~)",
-		"locales | locales-all",
-		"ucf"
+		"locales | locales-all"
+	],
+	"preDepends": [
+		"ucf",
+		"libreoffice-common (>= 4:25.2.1~rc1-3~)"
 	],
 	"recommends": [
-		"libreoffice-core (>> 4:7.5.9)"
+		"libreoffice-core (>> 4:25.8.5)"
 	],
 	"suggests": [
-		"hunspell-dictionary-ro | myspell-dictionary-ro",
-		"hyphen-ro",
+		"hunspell-dictionary-ro | myspell-dictionary-ro | libreoffice-spellcheck-ro",
+		"hyphen-ro | libreoffice-hyphenation-ro",
 		"libreoffice-grammarcheck-ro",
 		"libreoffice-help-ro",
 		"mythes-ro"
 	],
-	"installedSize": 3412,
+	"installedSize": 4037,
 	"maintainer": "Ubuntu Developers <ubuntu-devel-discuss@lists.ubuntu.com>",
 	"description": "office productivity suite -- Romanian language package",
 	"homepage": "http://www.libreoffice.org",
-	"filename": "pool/main/libr/libreoffice/libreoffice-l10n-ro_7.5.9-0ubuntu0.23.04.1~bpo22.04.1_all.deb",
-	"size": 633070,
-	"md5": "3a6859f4c9292370b6bab683c61a019b",
-	"sha1": "fd0b28598a6333d596acfa588d43a7d7df15175c",
-	"sha256": "ea5b5dce0cc45fe90ca045bfe53fb9e9b344b763a5c10336a71039c333585b16",
-	"sha512": "c0a580b32b582e95d69cbb6ced323c9b0c7d2fe618f74242cc0147019ec54aa455207a161dc1ab893c066180ffa8a7ee5014ba52a14139ab61b05f029fb4f682",
+	"filename": "pool/main/libr/libreoffice/libreoffice-l10n-ro_25.8.5-0ubuntu0.25.10.1~bpo22.04.1_all.deb",
+	"size": 830734,
+	"md5": "ae3f43394d382a005638c05f83b7f140",
+	"sha1": "09c52a1426c89453113483d8c573094b0243ad88",
+	"sha256": "39fd5d8d927af3d7decd96971fe96a5443c016b15ddb462ef479f9cf8ce6426a",
+	"sha512": "998b5e17769ab94d874b6711c5c4d785b2257d81af0e6c4fdf7aaf621bd9992d334d220d0f73e4b909853d4b7d4bf88d8080870621ee3262ffee88e5e8f8f8f5",
 	"descriptionMd5": "e4018d28105361bb391246001caccf0c"
 },{
 	"raw": {},

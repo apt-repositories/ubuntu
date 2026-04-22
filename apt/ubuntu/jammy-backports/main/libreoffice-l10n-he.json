@@ -6,35 +6,37 @@
 	],
 	"package": "libreoffice-l10n-he",
 	"source": "libreoffice",
-	"version": "4:7.5.9-0ubuntu0.23.04.1~bpo22.04.1",
+	"version": "4:25.8.5-0ubuntu0.25.10.1~bpo22.04.1",
 	"section": "localization",
 	"priority": "optional",
 	"architecture": "all",
 	"depends": [
-		"libreoffice-common (>= 1:7.0.0~alpha~)",
-		"locales | locales-all",
-		"ucf"
+		"locales | locales-all"
+	],
+	"preDepends": [
+		"ucf",
+		"libreoffice-common (>= 4:25.2.1~rc1-3~)"
 	],
 	"recommends": [
 		"culmus",
-		"libreoffice-core (>> 4:7.5.9)"
+		"libreoffice-core (>> 4:25.8.5)"
 	],
 	"suggests": [
-		"hunspell-dictionary-he | myspell-dictionary-he",
-		"hyphen-he",
+		"hunspell-dictionary-he | myspell-dictionary-he | libreoffice-spellcheck-he",
+		"hyphen-he | libreoffice-hyphenation-he",
 		"libreoffice-grammarcheck-he",
 		"libreoffice-help-he",
 		"mythes-he"
 	],
-	"installedSize": 3518,
+	"installedSize": 3129,
 	"maintainer": "Ubuntu Developers <ubuntu-devel-discuss@lists.ubuntu.com>",
 	"description": "office productivity suite -- Hebrew language package",
 	"homepage": "http://www.libreoffice.org",
-	"filename": "pool/main/libr/libreoffice/libreoffice-l10n-he_7.5.9-0ubuntu0.23.04.1~bpo22.04.1_all.deb",
-	"size": 581640,
-	"md5": "bffd9f3e5fc88a64eadb7dd0d820f9c4",
-	"sha1": "26d16d474ae6391d4cda0afc1b92e69f2f92d9c2",
-	"sha256": "33a319fe217465cdb4f89d4906a38312b7c006aa326e890bcef50eedd1fcc835",
-	"sha512": "9a9217d7fb542df7eeda79f8d772d4efe3a37240097c2f0ed40df4a06dd5dd3bdb393404f40990027bda18ef5e3d4a7e5b189f8d0fd4e5d7db9ba8c38038d0b0",
+	"filename": "pool/main/libr/libreoffice/libreoffice-l10n-he_25.8.5-0ubuntu0.25.10.1~bpo22.04.1_all.deb",
+	"size": 601732,
+	"md5": "629a33c9063be115cacdeaddb3bac734",
+	"sha1": "788f834b275c107eb9be508b032e16ee38e6c21e",
+	"sha256": "c5460e4f22853233c66a4523e4d43891ff01dc3344eea67a244547d0547542a7",
+	"sha512": "172ae822b61faa950db2f6c240025aee29e7e14b18aa2610ee06d1411117966a58d51a6536c94358aaa3ba0046e122c3eae5b396230bbfa6c00bf270c7a3e351",
 	"descriptionMd5": "162257c4fc07447259f3f6ba8311eab8"
 }

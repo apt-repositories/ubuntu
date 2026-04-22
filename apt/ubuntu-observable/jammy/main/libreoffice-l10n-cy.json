@@ -6,35 +6,37 @@
 	],
 	"package": "libreoffice-l10n-cy",
 	"source": "libreoffice",
-	"version": "4:7.5.9-0ubuntu0.23.04.1~bpo22.04.1",
+	"version": "4:25.8.5-0ubuntu0.25.10.1~bpo22.04.1",
 	"section": "localization",
 	"priority": "optional",
 	"architecture": "all",
 	"depends": [
-		"libreoffice-common (>= 1:7.0.0~alpha~)",
-		"locales | locales-all",
-		"ucf"
+		"locales | locales-all"
+	],
+	"preDepends": [
+		"ucf",
+		"libreoffice-common (>= 4:25.2.1~rc1-3~)"
 	],
 	"recommends": [
-		"libreoffice-core (>> 4:7.5.9)"
+		"libreoffice-core (>> 4:25.8.5)"
 	],
 	"suggests": [
-		"hunspell-dictionary-cy | myspell-dictionary-cy",
-		"hyphen-cy",
+		"hunspell-dictionary-cy | myspell-dictionary-cy | libreoffice-spellcheck-cy",
+		"hyphen-cy | libreoffice-hyphenation-cy",
 		"libreoffice-grammarcheck-cy",
 		"libreoffice-help-cy",
 		"mythes-cy"
 	],
-	"installedSize": 4365,
+	"installedSize": 4274,
 	"maintainer": "Ubuntu Developers <ubuntu-devel-discuss@lists.ubuntu.com>",
 	"description": "office productivity suite -- Welsh language package",
 	"homepage": "http://www.libreoffice.org",
-	"filename": "pool/main/libr/libreoffice/libreoffice-l10n-cy_7.5.9-0ubuntu0.23.04.1~bpo22.04.1_all.deb",
-	"size": 857982,
-	"md5": "616972bd2aad75b799ab81ed43b7f845",
-	"sha1": "ca4ffb2b824d4f8a12bc5d051153a5a8e8829bed",
-	"sha256": "96cdd03de4171e7ad6a99f13ebf2b0ae8adaa95c3ec24d246ad244d94eaf7c44",
-	"sha512": "d70b77447ee0bc1b04988e9a0f954df4762e7b6306e59258a4f402d135db910fced3e5a4bfe6af70c4e3b03c1493b109c583a12e9b9407fec09fb4894c726b32",
+	"filename": "pool/main/libr/libreoffice/libreoffice-l10n-cy_25.8.5-0ubuntu0.25.10.1~bpo22.04.1_all.deb",
+	"size": 900948,
+	"md5": "12ee627621326fde0ebbccbf52279546",
+	"sha1": "33d9fc79dfc3ed1b122d889625946690ca0d6d8c",
+	"sha256": "bb8fcdd80ef9eabc39d960253928cd31a082c6cc976520c215b974454e56b291",
+	"sha512": "878a94b0e63f0e315c1cee5f51cd955fde180b9044f0e5b24503a5468838c9fecabdf149e83070b010f807fd83dba41074862ba9fb9438ae06e021c179c80595",
 	"descriptionMd5": "05accff0a8db25ee2b5bbfa42b627da5"
 },{
 	"raw": {},

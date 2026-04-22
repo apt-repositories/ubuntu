@@ -6,34 +6,36 @@
 	],
 	"package": "libreoffice-l10n-ru",
 	"source": "libreoffice",
-	"version": "4:7.5.9-0ubuntu0.23.04.1~bpo22.04.1",
+	"version": "4:25.8.5-0ubuntu0.25.10.1~bpo22.04.1",
 	"section": "localization",
 	"priority": "optional",
 	"architecture": "all",
 	"depends": [
-		"libreoffice-common (>= 1:7.0.0~alpha~)",
-		"locales | locales-all",
-		"ucf"
+		"locales | locales-all"
+	],
+	"preDepends": [
+		"ucf",
+		"libreoffice-common (>= 4:25.2.1~rc1-3~)"
 	],
 	"recommends": [
-		"libreoffice-core (>> 4:7.5.9)"
+		"libreoffice-core (>> 4:25.8.5)"
 	],
 	"suggests": [
-		"hunspell-dictionary-ru | myspell-dictionary-ru",
-		"hyphen-ru",
+		"hunspell-dictionary-ru | myspell-dictionary-ru | libreoffice-spellcheck-ru",
+		"hyphen-ru | libreoffice-hyphenation-ru",
 		"libreoffice-grammarcheck-ru",
 		"libreoffice-help-ru",
 		"mythes-ru"
 	],
-	"installedSize": 5644,
+	"installedSize": 5231,
 	"maintainer": "Ubuntu Developers <ubuntu-devel-discuss@lists.ubuntu.com>",
 	"description": "office productivity suite -- Russian language package",
 	"homepage": "http://www.libreoffice.org",
-	"filename": "pool/main/libr/libreoffice/libreoffice-l10n-ru_7.5.9-0ubuntu0.23.04.1~bpo22.04.1_all.deb",
-	"size": 971840,
-	"md5": "e4e6e678955c1d5656f935781b17eede",
-	"sha1": "51f33e49299ea87fccb537a275c0f58ca8cc23cd",
-	"sha256": "b40283f124105b0a9d35351a1a1db862ab55a8717058b915f03f86ea93c23f5b",
-	"sha512": "7c786d5997e74d596e012913915c47fdf0974f1885f05a3badf90e8b924ceea3b2b67af2143731e1d2cf195ed417d304e00789b808f9141322e1c88a07f5e29a",
+	"filename": "pool/main/libr/libreoffice/libreoffice-l10n-ru_25.8.5-0ubuntu0.25.10.1~bpo22.04.1_all.deb",
+	"size": 1004332,
+	"md5": "89ff9c868234f5fe737c17f0c480333c",
+	"sha1": "8a123a2ed2157cd641e6a2cb9452ff4ce23b81e3",
+	"sha256": "bac898e37f40ec5cc7969813a2ada0a10be0f339e53e8f50355a6d16a26ea948",
+	"sha512": "906bbe0fb8c98abcd112014bf26d5e93e3b24cf278045b9302279c4dfc11ca5eb93967c39912a81381f202cf1f76d84ab8cee269e52acbd6cf4742c7d7a57cf1",
 	"descriptionMd5": "58787e12e170fc436c645c007bfdc3a3"
 }

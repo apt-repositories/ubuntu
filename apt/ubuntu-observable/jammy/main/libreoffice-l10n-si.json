@@ -6,35 +6,37 @@
 	],
 	"package": "libreoffice-l10n-si",
 	"source": "libreoffice",
-	"version": "4:7.5.9-0ubuntu0.23.04.1~bpo22.04.1",
+	"version": "4:25.8.5-0ubuntu0.25.10.1~bpo22.04.1",
 	"section": "localization",
 	"priority": "optional",
 	"architecture": "all",
 	"depends": [
-		"libreoffice-common (>= 1:7.0.0~alpha~)",
-		"locales | locales-all",
-		"ucf"
+		"locales | locales-all"
+	],
+	"preDepends": [
+		"ucf",
+		"libreoffice-common (>= 4:25.2.1~rc1-3~)"
 	],
 	"recommends": [
-		"libreoffice-core (>> 4:7.5.9)"
+		"libreoffice-core (>> 4:25.8.5)"
 	],
 	"suggests": [
-		"hunspell-dictionary-si | myspell-dictionary-si",
-		"hyphen-si",
+		"hunspell-dictionary-si | myspell-dictionary-si | libreoffice-spellcheck-si",
+		"hyphen-si | libreoffice-hyphenation-si",
 		"libreoffice-grammarcheck-si",
 		"libreoffice-help-si",
 		"mythes-si"
 	],
-	"installedSize": 2825,
+	"installedSize": 2380,
 	"maintainer": "Ubuntu Developers <ubuntu-devel-discuss@lists.ubuntu.com>",
 	"description": "office productivity suite -- Sinhala language package",
 	"homepage": "http://www.libreoffice.org",
-	"filename": "pool/main/libr/libreoffice/libreoffice-l10n-si_7.5.9-0ubuntu0.23.04.1~bpo22.04.1_all.deb",
-	"size": 369852,
-	"md5": "88c7e11fdccc14e35ff439b99df5f138",
-	"sha1": "8e939e7c67347a430a9087e2b424b8f1ba39b5e0",
-	"sha256": "9ec44bc81a23c7285163ac80fc6376148c7f4ec8fe7a14af03ff005fa6a75ddf",
-	"sha512": "c7e45d726de67fad4da378b2ba9a914fca2101cd52163a4c57e431bc357a9f9f972cefc61698b780669f41fcd0d988f39dc5af89c996630e40e10fffeac7188c",
+	"filename": "pool/main/libr/libreoffice/libreoffice-l10n-si_25.8.5-0ubuntu0.25.10.1~bpo22.04.1_all.deb",
+	"size": 356936,
+	"md5": "f4834fa70a0ec1e0dcbee5deed4b4621",
+	"sha1": "70c9e5a9c08bc19076bdf3fdc6d28fdc36ec710b",
+	"sha256": "8f268604023c77e0acdf1a0fbf176e686dfe5e2345a5da5db9814ebfc1c309df",
+	"sha512": "924e9579f8b140f3a0ddc7d32a2a25466b956ae1d146c1950e36e772dd60e22d91a22397691302812a3da92c70f769334f74555ad6f6c91769e6e2ff0f586535",
 	"descriptionMd5": "1f61af11cbbfd06c45ff93fd66708f91"
 },{
 	"raw": {},

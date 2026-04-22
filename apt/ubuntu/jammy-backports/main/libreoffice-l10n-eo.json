@@ -6,34 +6,36 @@
 	],
 	"package": "libreoffice-l10n-eo",
 	"source": "libreoffice",
-	"version": "4:7.5.9-0ubuntu0.23.04.1~bpo22.04.1",
+	"version": "4:25.8.5-0ubuntu0.25.10.1~bpo22.04.1",
 	"section": "localization",
 	"priority": "optional",
 	"architecture": "all",
 	"depends": [
-		"libreoffice-common (>= 1:7.0.0~alpha~)",
-		"locales | locales-all",
-		"ucf"
+		"locales | locales-all"
+	],
+	"preDepends": [
+		"ucf",
+		"libreoffice-common (>= 4:25.2.1~rc1-3~)"
 	],
 	"recommends": [
-		"libreoffice-core (>> 4:7.5.9)"
+		"libreoffice-core (>> 4:25.8.5)"
 	],
 	"suggests": [
-		"hunspell-dictionary-eo | myspell-dictionary-eo",
-		"hyphen-eo",
+		"hunspell-dictionary-eo | myspell-dictionary-eo | libreoffice-spellcheck-eo",
+		"hyphen-eo | libreoffice-hyphenation-eo",
 		"libreoffice-grammarcheck-eo",
 		"libreoffice-help-eo",
 		"mythes-eo"
 	],
-	"installedSize": 4362,
+	"installedSize": 4237,
 	"maintainer": "Ubuntu Developers <ubuntu-devel-discuss@lists.ubuntu.com>",
 	"description": "office productivity suite -- Esperanto language package",
 	"homepage": "http://www.libreoffice.org",
-	"filename": "pool/main/libr/libreoffice/libreoffice-l10n-eo_7.5.9-0ubuntu0.23.04.1~bpo22.04.1_all.deb",
-	"size": 852058,
-	"md5": "33df224121a7fcba0ba3f465c68cb06b",
-	"sha1": "fcbef68babd3ba4442fe4ce869d880ef1995778b",
-	"sha256": "59e0345c3a3a2f2745f5011dc75fbaeea83df422c364a213f270329a3be5cc6c",
-	"sha512": "57b642d8abb24e2bfe49c20fecb2eeddabdc6ffd4d70ae3112cbf03d0e38849cc53e4e061b7300aecb071a7188c7e09bfd06ec9906b6b5a9c2d3e18be94d885f",
+	"filename": "pool/main/libr/libreoffice/libreoffice-l10n-eo_25.8.5-0ubuntu0.25.10.1~bpo22.04.1_all.deb",
+	"size": 885344,
+	"md5": "181d325008f5f299b956400ab702ddac",
+	"sha1": "4b2ef3fa9c6276dcb5b9c33e8263e6d575089b19",
+	"sha256": "ebe85bd398b6cc49dda726509662ff61fed57064f3da86847e47446bcfa5ca67",
+	"sha512": "3d3f95d1ebf9ddd4b06ae81f320ea3e6ca2139f6bdec9a465853ef077fc17ff8aa0226cf68d70f1e0d393cf7c29c76808f5faa7ed9344d72214ee584f4827f32",
 	"descriptionMd5": "ceec53900ab8424d55b41ca9805f4477"
 }

@@ -6,34 +6,36 @@
 	],
 	"package": "libreoffice-l10n-da",
 	"source": "libreoffice",
-	"version": "4:7.5.9-0ubuntu0.23.04.1~bpo22.04.1",
+	"version": "4:25.8.5-0ubuntu0.25.10.1~bpo22.04.1",
 	"section": "localization",
 	"priority": "optional",
 	"architecture": "all",
 	"depends": [
-		"libreoffice-common (>= 1:7.0.0~alpha~)",
-		"locales | locales-all",
-		"ucf"
+		"locales | locales-all"
+	],
+	"preDepends": [
+		"ucf",
+		"libreoffice-common (>= 4:25.2.1~rc1-3~)"
 	],
 	"recommends": [
-		"libreoffice-core (>> 4:7.5.9)"
+		"libreoffice-core (>> 4:25.8.5)"
 	],
 	"suggests": [
-		"hunspell-dictionary-da | myspell-dictionary-da",
-		"hyphen-da",
+		"hunspell-dictionary-da | myspell-dictionary-da | libreoffice-spellcheck-da",
+		"hyphen-da | libreoffice-hyphenation-da",
 		"libreoffice-grammarcheck-da",
 		"libreoffice-help-da",
 		"mythes-da"
 	],
-	"installedSize": 4428,
+	"installedSize": 4397,
 	"maintainer": "Ubuntu Developers <ubuntu-devel-discuss@lists.ubuntu.com>",
 	"description": "office productivity suite -- Danish language package",
 	"homepage": "http://www.libreoffice.org",
-	"filename": "pool/main/libr/libreoffice/libreoffice-l10n-da_7.5.9-0ubuntu0.23.04.1~bpo22.04.1_all.deb",
-	"size": 917522,
-	"md5": "e58d7c678d8fcc5e9ced95c16b2d2d0d",
-	"sha1": "633dc31e4e3fcd7dfadb85a36837f9f3aad62556",
-	"sha256": "3ebcc5bdbc30025b5c876fe77ca04376adb8e85f581ed20deab37490dc352319",
-	"sha512": "5c91643cb5c42fad4e57f286c48c8c9420bb9047c16a65db69d915a906934ae0104aeade67dab3d77d0904482e30db9fe355b58a0d72a06ff2c339ea2681df5e",
+	"filename": "pool/main/libr/libreoffice/libreoffice-l10n-da_25.8.5-0ubuntu0.25.10.1~bpo22.04.1_all.deb",
+	"size": 971256,
+	"md5": "a002393df3fe1fca8c6a95d1f18cc466",
+	"sha1": "aaed0e92c938c40a06a3669653bd37c0bce91c55",
+	"sha256": "7dce5d264ec44c1c83cfcffabdefdc772b87633efbdd0c13bb95bc93465aeb70",
+	"sha512": "e73dcbef07ed5a84519fe5c94d569b3b74a5d2cc0ec1181ea8ddb73f81245d4b82524a7eca19fe138244b63654fc571ea7d0c69af1583e7b21b502bcc9e707c5",
 	"descriptionMd5": "3baa4ced7ad5463e2aeedc011515df6f"
 }

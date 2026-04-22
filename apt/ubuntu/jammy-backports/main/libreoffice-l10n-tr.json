@@ -6,34 +6,36 @@
 	],
 	"package": "libreoffice-l10n-tr",
 	"source": "libreoffice",
-	"version": "4:7.5.9-0ubuntu0.23.04.1~bpo22.04.1",
+	"version": "4:25.8.5-0ubuntu0.25.10.1~bpo22.04.1",
 	"section": "localization",
 	"priority": "optional",
 	"architecture": "all",
 	"depends": [
-		"libreoffice-common (>= 1:7.0.0~alpha~)",
-		"locales | locales-all",
-		"ucf"
+		"locales | locales-all"
+	],
+	"preDepends": [
+		"ucf",
+		"libreoffice-common (>= 4:25.2.1~rc1-3~)"
 	],
 	"recommends": [
-		"libreoffice-core (>> 4:7.5.9)"
+		"libreoffice-core (>> 4:25.8.5)"
 	],
 	"suggests": [
-		"hunspell-dictionary-tr | myspell-dictionary-tr",
-		"hyphen-tr",
+		"hunspell-dictionary-tr | myspell-dictionary-tr | libreoffice-spellcheck-tr",
+		"hyphen-tr | libreoffice-hyphenation-tr",
 		"libreoffice-grammarcheck-tr",
 		"libreoffice-help-tr",
 		"mythes-tr"
 	],
-	"installedSize": 4500,
+	"installedSize": 4309,
 	"maintainer": "Ubuntu Developers <ubuntu-devel-discuss@lists.ubuntu.com>",
 	"description": "office productivity suite -- Turkish language package",
 	"homepage": "http://www.libreoffice.org",
-	"filename": "pool/main/libr/libreoffice/libreoffice-l10n-tr_7.5.9-0ubuntu0.23.04.1~bpo22.04.1_all.deb",
-	"size": 902734,
-	"md5": "11ee3efda5ed102cb997421d2e8b8f52",
-	"sha1": "48a40bba4e17606141d16f7859b85bfdfc846e82",
-	"sha256": "f942d394d3f6e79b23445b6763578cab7fcedae4d4d271cb8bf164a0e1d605f7",
-	"sha512": "e38c2f621682ac8c41964ee1eea9ad9e2421a9980d872723193f2638ec105fd4ce6960b16bba6593b9654605d8a3397e7c462f9b3676b8dcfcab1a6aad2479f9",
+	"filename": "pool/main/libr/libreoffice/libreoffice-l10n-tr_25.8.5-0ubuntu0.25.10.1~bpo22.04.1_all.deb",
+	"size": 926808,
+	"md5": "0d7a5088f7fb987a959a33f17d61a968",
+	"sha1": "e2f97106515108ca66cd50c5ee979f8334f895e3",
+	"sha256": "01407c3802441551b234ba0ac5ab8cafef3ffd64ae1e52b549e58f4a68bf22a3",
+	"sha512": "32ca8e47c723b5bc4fbd002198b06859a85aa7aa8fb021648791cf3681d773dc2fa5eeceb23e29fe0c96920af714c20665df4420adc85f6e95bcec590871a0e1",
 	"descriptionMd5": "df7d8cde01531055398d2aa9010f77bc"
 }

@@ -6,35 +6,37 @@
 	],
 	"package": "libreoffice-l10n-ne",
 	"source": "libreoffice",
-	"version": "4:7.5.9-0ubuntu0.23.04.1~bpo22.04.1",
+	"version": "4:25.8.5-0ubuntu0.25.10.1~bpo22.04.1",
 	"section": "localization",
 	"priority": "optional",
 	"architecture": "all",
 	"depends": [
-		"libreoffice-common (>= 1:7.0.0~alpha~)",
-		"locales | locales-all",
-		"ucf"
+		"locales | locales-all"
+	],
+	"preDepends": [
+		"ucf",
+		"libreoffice-common (>= 4:25.2.1~rc1-3~)"
 	],
 	"recommends": [
 		"fonts-deva",
-		"libreoffice-core (>> 4:7.5.9)"
+		"libreoffice-core (>> 4:25.8.5)"
 	],
 	"suggests": [
-		"hunspell-dictionary-ne | myspell-dictionary-ne",
-		"hyphen-ne",
+		"hunspell-dictionary-ne | myspell-dictionary-ne | libreoffice-spellcheck-ne",
+		"hyphen-ne | libreoffice-hyphenation-ne",
 		"libreoffice-grammarcheck-ne",
 		"libreoffice-help-ne",
 		"mythes-ne"
 	],
-	"installedSize": 3362,
+	"installedSize": 2876,
 	"maintainer": "Ubuntu Developers <ubuntu-devel-discuss@lists.ubuntu.com>",
 	"description": "office productivity suite -- Nepalese language package",
 	"homepage": "http://www.libreoffice.org",
-	"filename": "pool/main/libr/libreoffice/libreoffice-l10n-ne_7.5.9-0ubuntu0.23.04.1~bpo22.04.1_all.deb",
-	"size": 438640,
-	"md5": "06ca7e73d95c9e5ad75f182f3f56f747",
-	"sha1": "d2ee4dc56c72c19c0080cb328a15901bd5986510",
-	"sha256": "cc75bb38c550e9f883438534682a5b8a96fe38f992e82253bd2b911c4298e83d",
-	"sha512": "f1141c8c81e6c6291413e869ba8acc6edd6fdf6d3b81df6851f7f70e693dce77dbe3a388ef486579d7dcfdbe94b2e5917b56acc6a0de996a280329d672f764d9",
+	"filename": "pool/main/libr/libreoffice/libreoffice-l10n-ne_25.8.5-0ubuntu0.25.10.1~bpo22.04.1_all.deb",
+	"size": 419724,
+	"md5": "e299bbe010e1d3c18c5a50c99b9bd795",
+	"sha1": "fa0061c943b0d0bc0f6de687013319af998acca8",
+	"sha256": "63362841566465aa7ff6c35812b9d3c96025aa2aab901fa6445ae20a89e22aa7",
+	"sha512": "7436d0f68e62de36c76f51ce755315b2293c512e40e3e174a2b10f467d4166fc00e703db20fc229bbb4dd0aac7b01d89b9c7eff8f3f562e2d4d2b91c37e2e7f8",
 	"descriptionMd5": "b943bce9f69b671bef2b0962294dd15e"
 }

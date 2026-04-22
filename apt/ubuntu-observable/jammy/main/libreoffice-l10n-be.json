@@ -6,35 +6,37 @@
 	],
 	"package": "libreoffice-l10n-be",
 	"source": "libreoffice",
-	"version": "4:7.5.9-0ubuntu0.23.04.1~bpo22.04.1",
+	"version": "4:25.8.5-0ubuntu0.25.10.1~bpo22.04.1",
 	"section": "localization",
 	"priority": "optional",
 	"architecture": "all",
 	"depends": [
-		"libreoffice-common (>= 1:7.0.0~alpha~)",
-		"locales | locales-all",
-		"ucf"
+		"locales | locales-all"
+	],
+	"preDepends": [
+		"ucf",
+		"libreoffice-common (>= 4:25.2.1~rc1-3~)"
 	],
 	"recommends": [
-		"libreoffice-core (>> 4:7.5.9)"
+		"libreoffice-core (>> 4:25.8.5)"
 	],
 	"suggests": [
-		"hunspell-dictionary-be | myspell-dictionary-be",
-		"hyphen-be",
+		"hunspell-dictionary-be | myspell-dictionary-be | libreoffice-spellcheck-be",
+		"hyphen-be | libreoffice-hyphenation-be",
 		"libreoffice-grammarcheck-be",
 		"libreoffice-help-be",
 		"mythes-be"
 	],
-	"installedSize": 3406,
+	"installedSize": 5116,
 	"maintainer": "Ubuntu Developers <ubuntu-devel-discuss@lists.ubuntu.com>",
 	"description": "office productivity suite -- Belarusian language package",
 	"homepage": "http://www.libreoffice.org",
-	"filename": "pool/main/libr/libreoffice/libreoffice-l10n-be_7.5.9-0ubuntu0.23.04.1~bpo22.04.1_all.deb",
-	"size": 532870,
-	"md5": "3b24dc13fee07b0055a6d8b179021d61",
-	"sha1": "d0681ddc4508ab777969db38c0a37d0779ab1350",
-	"sha256": "b03f517043262f8686b637290e08046f93a2c377d60f33278cef676fce1befda",
-	"sha512": "01f926e1cbf5f205073fc6c6991f26c3d5c3ef3516ff721fe8bbfdc3faff2c59e7a4fb9db28db3a74c0f6d1695a032e9bb0530206363920a352a6fac17a38b6e",
+	"filename": "pool/main/libr/libreoffice/libreoffice-l10n-be_25.8.5-0ubuntu0.25.10.1~bpo22.04.1_all.deb",
+	"size": 951742,
+	"md5": "157e7d3af839fa3540efef0f2f91b027",
+	"sha1": "931abf90587e6eb44dff57cba57e03fe49ffb1a6",
+	"sha256": "5d5621e51d1b872a288d1716d6aa91b535eb21484c8909f0fad1b40ace11a886",
+	"sha512": "6ab9ba3eedf3d615b2b6841cd13b1eb205de922d8cc751a4c7e22c88d21c04192129da92621a1b01ad3ad2786a6d2b2384ef212f11e8eb65d402da024561fdf0",
 	"descriptionMd5": "4e120b250b345e0e6dc4ca4cf4767d2b"
 },{
 	"raw": {},

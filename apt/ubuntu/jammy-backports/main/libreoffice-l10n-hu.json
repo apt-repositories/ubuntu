@@ -6,34 +6,36 @@
 	],
 	"package": "libreoffice-l10n-hu",
 	"source": "libreoffice",
-	"version": "4:7.5.9-0ubuntu0.23.04.1~bpo22.04.1",
+	"version": "4:25.8.5-0ubuntu0.25.10.1~bpo22.04.1",
 	"section": "localization",
 	"priority": "optional",
 	"architecture": "all",
 	"depends": [
-		"libreoffice-common (>= 1:7.0.0~alpha~)",
-		"locales | locales-all",
-		"ucf"
+		"locales | locales-all"
+	],
+	"preDepends": [
+		"ucf",
+		"libreoffice-common (>= 4:25.2.1~rc1-3~)"
 	],
 	"recommends": [
-		"libreoffice-core (>> 4:7.5.9)"
+		"libreoffice-core (>> 4:25.8.5)"
 	],
 	"suggests": [
-		"hunspell-dictionary-hu | myspell-dictionary-hu",
-		"hyphen-hu",
+		"hunspell-dictionary-hu | myspell-dictionary-hu | libreoffice-spellcheck-hu",
+		"hyphen-hu | libreoffice-hyphenation-hu",
 		"libreoffice-grammarcheck-hu",
 		"libreoffice-help-hu",
 		"mythes-hu"
 	],
-	"installedSize": 4693,
+	"installedSize": 4507,
 	"maintainer": "Ubuntu Developers <ubuntu-devel-discuss@lists.ubuntu.com>",
 	"description": "office productivity suite -- Hungarian language package",
 	"homepage": "http://www.libreoffice.org",
-	"filename": "pool/main/libr/libreoffice/libreoffice-l10n-hu_7.5.9-0ubuntu0.23.04.1~bpo22.04.1_all.deb",
-	"size": 964044,
-	"md5": "910f159c96a24e8d477fd936d1a7fd3a",
-	"sha1": "eca9ac34ccad033c2df77a6d26216733c043379c",
-	"sha256": "1799d2d7bc4acd6cff054fabd0d6c04d519c72f4525adff411c47c521c298d47",
-	"sha512": "b146596aa718db341cb3a9904acd654955da8b64b25310c64ada9cba2030bb2e899af215e319e59c793915b133a767058d7261ce0a205f0d24348111298e53cb",
+	"filename": "pool/main/libr/libreoffice/libreoffice-l10n-hu_25.8.5-0ubuntu0.25.10.1~bpo22.04.1_all.deb",
+	"size": 990180,
+	"md5": "4aba5b85a37fd06601700f04dc18a9fb",
+	"sha1": "f46e402a7934b80a2590f2bfb6992f27bb6ef39f",
+	"sha256": "def51039fcd818091cde5cbaddfd147c05f6a37a066a6006afded68e3682834f",
+	"sha512": "2bcdf891aa855bd0d68a2de87cbcbb7503e1e2bce80a8f75f91b53a500ed685548ee925f3af9ef6d733677e6137c92b01186a9ce7389ffab5c58314998741ef2",
 	"descriptionMd5": "03faefa7ee83b9dbc4ee7a082d63744e"
 }

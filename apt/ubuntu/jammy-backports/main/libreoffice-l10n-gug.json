@@ -6,34 +6,36 @@
 	],
 	"package": "libreoffice-l10n-gug",
 	"source": "libreoffice",
-	"version": "4:7.5.9-0ubuntu0.23.04.1~bpo22.04.1",
+	"version": "4:25.8.5-0ubuntu0.25.10.1~bpo22.04.1",
 	"section": "localization",
 	"priority": "optional",
 	"architecture": "all",
 	"depends": [
-		"libreoffice-common (>= 1:7.0.0~alpha~)",
-		"locales | locales-all",
-		"ucf"
+		"locales | locales-all"
+	],
+	"preDepends": [
+		"ucf",
+		"libreoffice-common (>= 4:25.2.1~rc1-3~)"
 	],
 	"recommends": [
-		"libreoffice-core (>> 4:7.5.9)"
+		"libreoffice-core (>> 4:25.8.5)"
 	],
 	"suggests": [
-		"hunspell-dictionary-gug | myspell-dictionary-gug",
-		"hyphen-gug",
+		"hunspell-dictionary-gug | myspell-dictionary-gug | libreoffice-spellcheck-gug",
+		"hyphen-gug | libreoffice-hyphenation-gug",
 		"libreoffice-grammarcheck-gug",
 		"libreoffice-help-gug",
 		"mythes-gug"
 	],
-	"installedSize": 2545,
+	"installedSize": 2227,
 	"maintainer": "Ubuntu Developers <ubuntu-devel-discuss@lists.ubuntu.com>",
 	"description": "office productivity suite -- Guarani language package",
 	"homepage": "http://www.libreoffice.org",
-	"filename": "pool/main/libr/libreoffice/libreoffice-l10n-gug_7.5.9-0ubuntu0.23.04.1~bpo22.04.1_all.deb",
-	"size": 420350,
-	"md5": "7a6f3572ace36b2ea4b4b82b44ebde68",
-	"sha1": "c9b058f34dea5f519807ae3fe3e301658973e7d0",
-	"sha256": "ed00ebfa1a93f46edf4a514c324a116513c1d29a1930f67c09aadf2becc0e0d0",
-	"sha512": "8af9930852d878fbfdb911e9fc3ce27e3e141863e4dbc4d0a546193c79aef546334ed40171cd264a394ca605915509cdb9ce630ac1893af638c658bdd34107eb",
+	"filename": "pool/main/libr/libreoffice/libreoffice-l10n-gug_25.8.5-0ubuntu0.25.10.1~bpo22.04.1_all.deb",
+	"size": 405710,
+	"md5": "8c1a02276c93a61d9f8eb349fa9b249d",
+	"sha1": "eecca902e3897f44573968626cc1c8a09736bfc1",
+	"sha256": "eb166940aad40960a90a44eed017349b7b87f65bed71a91787e48ffc0839b748",
+	"sha512": "c571721b7cbdd17b101bc122e68f80949b96cb48e384fd0391805eda423a8cef22027fbb0e02d1cff38751c4acacadf38f744331e2ccc84e262886a6098c2bba",
 	"descriptionMd5": "8a60db7a8c323661ed589467da797a53"
 }

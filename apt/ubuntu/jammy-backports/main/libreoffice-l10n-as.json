@@ -6,34 +6,36 @@
 	],
 	"package": "libreoffice-l10n-as",
 	"source": "libreoffice",
-	"version": "4:7.5.9-0ubuntu0.23.04.1~bpo22.04.1",
+	"version": "4:25.8.5-0ubuntu0.25.10.1~bpo22.04.1",
 	"section": "localization",
 	"priority": "optional",
 	"architecture": "all",
 	"depends": [
-		"libreoffice-common (>= 1:7.0.0~alpha~)",
-		"locales | locales-all",
-		"ucf"
+		"locales | locales-all"
+	],
+	"preDepends": [
+		"ucf",
+		"libreoffice-common (>= 4:25.2.1~rc1-3~)"
 	],
 	"recommends": [
-		"libreoffice-core (>> 4:7.5.9)"
+		"libreoffice-core (>> 4:25.8.5)"
 	],
 	"suggests": [
-		"hunspell-dictionary-as | myspell-dictionary-as",
-		"hyphen-as",
+		"hunspell-dictionary-as | myspell-dictionary-as | libreoffice-spellcheck-as",
+		"hyphen-as | libreoffice-hyphenation-as",
 		"libreoffice-grammarcheck-as",
 		"libreoffice-help-as",
 		"mythes-as"
 	],
-	"installedSize": 3093,
+	"installedSize": 2621,
 	"maintainer": "Ubuntu Developers <ubuntu-devel-discuss@lists.ubuntu.com>",
 	"description": "office productivity suite -- Assamese language package",
 	"homepage": "http://www.libreoffice.org",
-	"filename": "pool/main/libr/libreoffice/libreoffice-l10n-as_7.5.9-0ubuntu0.23.04.1~bpo22.04.1_all.deb",
-	"size": 418114,
-	"md5": "e9092fc32a171f1bae5bd6bf006e2c96",
-	"sha1": "ec35db2a41055db3a2f7dafa25ecdc5b0b017c3a",
-	"sha256": "1f032a16909b467d35d68cc6d02ea6d792ea5a73690e6f338d0d9a7e231c4a7f",
-	"sha512": "afdaee948c249bf206ea1bcf858e92400a11b3ebf4fdd099d95cf5f4349450e20ef73a212e41c90d92c49171833a19d2faa592137d989ee0b20a690de30b4b10",
+	"filename": "pool/main/libr/libreoffice/libreoffice-l10n-as_25.8.5-0ubuntu0.25.10.1~bpo22.04.1_all.deb",
+	"size": 402722,
+	"md5": "a47b129dee8ab249b81382ffb4aa4669",
+	"sha1": "585ffbf4db02a6e241c7d628ce431c1d03158056",
+	"sha256": "aefbe3d2b44cc7bc696c5625fc6bc36b9369c1aeb3839acaef952c1221aa29b2",
+	"sha512": "7eebf9d71aab2dac1adb4aac192e8f492769a25a86a9789b2058b34cc1502b36c0f73eb6cb442efe6c5be3ef0296d81df7e16137e576c3027eb57f594187fd3b",
 	"descriptionMd5": "4ac2e69fa5a27abf0c1dea94b43a4a7a"
 }

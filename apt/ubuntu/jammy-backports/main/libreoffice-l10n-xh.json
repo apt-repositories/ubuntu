@@ -6,34 +6,36 @@
 	],
 	"package": "libreoffice-l10n-xh",
 	"source": "libreoffice",
-	"version": "4:7.5.9-0ubuntu0.23.04.1~bpo22.04.1",
+	"version": "4:25.8.5-0ubuntu0.25.10.1~bpo22.04.1",
 	"section": "localization",
 	"priority": "optional",
 	"architecture": "all",
 	"depends": [
-		"libreoffice-common (>= 1:7.0.0~alpha~)",
-		"locales | locales-all",
-		"ucf"
+		"locales | locales-all"
+	],
+	"preDepends": [
+		"ucf",
+		"libreoffice-common (>= 4:25.2.1~rc1-3~)"
 	],
 	"recommends": [
-		"libreoffice-core (>> 4:7.5.9)"
+		"libreoffice-core (>> 4:25.8.5)"
 	],
 	"suggests": [
-		"hunspell-dictionary-xh | myspell-dictionary-xh",
-		"hyphen-xh",
+		"hunspell-dictionary-xh | myspell-dictionary-xh | libreoffice-spellcheck-xh",
+		"hyphen-xh | libreoffice-hyphenation-xh",
 		"libreoffice-grammarcheck-xh",
 		"libreoffice-help-xh",
 		"mythes-xh"
 	],
-	"installedSize": 1890,
+	"installedSize": 1617,
 	"maintainer": "Ubuntu Developers <ubuntu-devel-discuss@lists.ubuntu.com>",
 	"description": "office productivity suite -- Xhosa language package",
 	"homepage": "http://www.libreoffice.org",
-	"filename": "pool/main/libr/libreoffice/libreoffice-l10n-xh_7.5.9-0ubuntu0.23.04.1~bpo22.04.1_all.deb",
-	"size": 239488,
-	"md5": "57a8268500b7e28e0e0d552d7ac92f3a",
-	"sha1": "2f634b4d02eb6403b81a7a88da09b6eba8972722",
-	"sha256": "526b23eb013246130d2f6aff92fa7711e0cf492bd748c9b998628105515a6a36",
-	"sha512": "77e450d08191a4783688df3041993a2b4a5819ba4ea233606a4cbe1cdfe4d4f0f855af9605eb6a01771c5b2ba8188f12e673f40888459007c7e13225da218c02",
+	"filename": "pool/main/libr/libreoffice/libreoffice-l10n-xh_25.8.5-0ubuntu0.25.10.1~bpo22.04.1_all.deb",
+	"size": 234772,
+	"md5": "bffd0270c2a474b95377180e541dfe3a",
+	"sha1": "ab4d423c7c7685aabb3894b84f2490701d643ac2",
+	"sha256": "337e957d580f5c8dc5567609ec6d96fa7090209f29089e09461db795d2a1ac46",
+	"sha512": "03050814e4efdbb07e8ef2f4542a47d48282561575e277592f40adff5ae0626fe84b3d1e44f732514443e6e013798699b04ce1d83089ab4663915001799d2e57",
 	"descriptionMd5": "6124cc72bfc02b25a2a78aaa09e77b01"
 }

@@ -6,35 +6,37 @@
 	],
 	"package": "libreoffice-l10n-ss",
 	"source": "libreoffice",
-	"version": "4:7.5.9-0ubuntu0.23.04.1~bpo22.04.1",
+	"version": "4:25.8.5-0ubuntu0.25.10.1~bpo22.04.1",
 	"section": "localization",
 	"priority": "optional",
 	"architecture": "all",
 	"depends": [
-		"libreoffice-common (>= 1:7.0.0~alpha~)",
-		"locales | locales-all",
-		"ucf"
+		"locales | locales-all"
+	],
+	"preDepends": [
+		"ucf",
+		"libreoffice-common (>= 4:25.2.1~rc1-3~)"
 	],
 	"recommends": [
-		"libreoffice-core (>> 4:7.5.9)"
+		"libreoffice-core (>> 4:25.8.5)"
 	],
 	"suggests": [
-		"hunspell-dictionary-ss | myspell-dictionary-ss",
-		"hyphen-ss",
+		"hunspell-dictionary-ss | myspell-dictionary-ss | libreoffice-spellcheck-ss",
+		"hyphen-ss | libreoffice-hyphenation-ss",
 		"libreoffice-grammarcheck-ss",
 		"libreoffice-help-ss",
 		"mythes-ss"
 	],
-	"installedSize": 1867,
+	"installedSize": 1596,
 	"maintainer": "Ubuntu Developers <ubuntu-devel-discuss@lists.ubuntu.com>",
 	"description": "office productivity suite -- Swazi language package",
 	"homepage": "http://www.libreoffice.org",
-	"filename": "pool/main/libr/libreoffice/libreoffice-l10n-ss_7.5.9-0ubuntu0.23.04.1~bpo22.04.1_all.deb",
-	"size": 238736,
-	"md5": "fbff3f3e3bd5f82adab3ddedb650d498",
-	"sha1": "73d013780cdb6872f486d9991d224767a5b1294e",
-	"sha256": "4e0df722d895194677a294e2a7b25ff7b6c4d9fbe0877f40ffe38106601dbf18",
-	"sha512": "3d1a32a891841a89d8cbe6a8ade8ea928c8dab582c49cc3bc55d79afa86e34b033f84d7b002b6488c15c7d78844b448e2edbb056b3a04d643fe9036f82571821",
+	"filename": "pool/main/libr/libreoffice/libreoffice-l10n-ss_25.8.5-0ubuntu0.25.10.1~bpo22.04.1_all.deb",
+	"size": 234048,
+	"md5": "754a55ce37c00ee3231bd567bf5006fc",
+	"sha1": "ea4fea1090ca82668c37c075b6e1a86967ad62c2",
+	"sha256": "88c6e284492b33b895c47b1f48679061fa430bcfebcedb953167c884c4b17400",
+	"sha512": "710e2f990e9d3129f794afced445cfadb29c70980870dd013555e97ad6617c4a8a47e1bc9035fc06898f90d14f8d5ecb154db8859b6c62187b199e388b34bd10",
 	"descriptionMd5": "b3cd9971feec09abdc68c846c96340a6"
 },{
 	"raw": {},

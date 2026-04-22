@@ -6,35 +6,37 @@
 	],
 	"package": "libreoffice-l10n-et",
 	"source": "libreoffice",
-	"version": "4:7.5.9-0ubuntu0.23.04.1~bpo22.04.1",
+	"version": "4:25.8.5-0ubuntu0.25.10.1~bpo22.04.1",
 	"section": "localization",
 	"priority": "optional",
 	"architecture": "all",
 	"depends": [
-		"libreoffice-common (>= 1:7.0.0~alpha~)",
-		"locales | locales-all",
-		"ucf"
+		"locales | locales-all"
+	],
+	"preDepends": [
+		"ucf",
+		"libreoffice-common (>= 4:25.2.1~rc1-3~)"
 	],
 	"recommends": [
-		"libreoffice-core (>> 4:7.5.9)"
+		"libreoffice-core (>> 4:25.8.5)"
 	],
 	"suggests": [
-		"hunspell-dictionary-et | myspell-dictionary-et",
-		"hyphen-et",
+		"hunspell-dictionary-et | myspell-dictionary-et | libreoffice-spellcheck-et",
+		"hyphen-et | libreoffice-hyphenation-et",
 		"libreoffice-grammarcheck-et",
 		"libreoffice-help-et",
 		"mythes-et"
 	],
-	"installedSize": 4004,
+	"installedSize": 3614,
 	"maintainer": "Ubuntu Developers <ubuntu-devel-discuss@lists.ubuntu.com>",
 	"description": "office productivity suite -- Estonian language package",
 	"homepage": "http://www.libreoffice.org",
-	"filename": "pool/main/libr/libreoffice/libreoffice-l10n-et_7.5.9-0ubuntu0.23.04.1~bpo22.04.1_all.deb",
-	"size": 775332,
-	"md5": "a7a406b441a811650ed9d3bacb292da9",
-	"sha1": "3d4fd93a04cdba3dced01fa972e1872f930133d6",
-	"sha256": "46e3044414d946aa4a1f9689bdff66db9ca099c509d7dcc58f6d58a5e37a443b",
-	"sha512": "843fa012fc8a6f6958379a27abd1e6ec01b52d6d6655f1b557d4fc5481045576e38478d51c843d028c1e2c1c14fd6ab35c000d6c3fc1561912ebaf4e5561643b",
+	"filename": "pool/main/libr/libreoffice/libreoffice-l10n-et_25.8.5-0ubuntu0.25.10.1~bpo22.04.1_all.deb",
+	"size": 750464,
+	"md5": "c665a33e96a7e3b3a720f8cd11dc6a04",
+	"sha1": "301180e609d2f7b4f7ce34da31205dd7313ae876",
+	"sha256": "fc65f4b7b4eb88a012e083173ca5f4c558422074a920fca88a57799cea25fbf7",
+	"sha512": "f775b50a70b5f0886e472fafde58b05b22f6d8d0a1ae3769fbad2cec90d45ad7c55df31603246e40be351da19c831b5a2448b829d40f6ed3ee5744472a7761a5",
 	"descriptionMd5": "48b61d8af6c926ad0fc569a88eff07f2"
 },{
 	"raw": {},

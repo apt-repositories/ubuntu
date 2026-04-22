@@ -6,35 +6,37 @@
 	],
 	"package": "libreoffice-l10n-pt",
 	"source": "libreoffice",
-	"version": "4:7.5.9-0ubuntu0.23.04.1~bpo22.04.1",
+	"version": "4:25.8.5-0ubuntu0.25.10.1~bpo22.04.1",
 	"section": "localization",
 	"priority": "optional",
 	"architecture": "all",
 	"depends": [
-		"libreoffice-common (>= 1:7.0.0~alpha~)",
-		"locales | locales-all",
-		"ucf"
+		"locales | locales-all"
+	],
+	"preDepends": [
+		"ucf",
+		"libreoffice-common (>= 4:25.2.1~rc1-3~)"
 	],
 	"recommends": [
-		"libreoffice-core (>> 4:7.5.9)"
+		"libreoffice-core (>> 4:25.8.5)"
 	],
 	"suggests": [
-		"hunspell-dictionary-pt | myspell-dictionary-pt",
-		"hyphen-pt",
+		"hunspell-dictionary-pt | myspell-dictionary-pt | libreoffice-spellcheck-pt",
+		"hyphen-pt | libreoffice-hyphenation-pt",
 		"libreoffice-grammarcheck-pt",
 		"libreoffice-help-pt",
 		"mythes-pt"
 	],
-	"installedSize": 4511,
+	"installedSize": 4145,
 	"maintainer": "Ubuntu Developers <ubuntu-devel-discuss@lists.ubuntu.com>",
 	"description": "office productivity suite -- Portuguese language package",
 	"homepage": "http://www.libreoffice.org",
-	"filename": "pool/main/libr/libreoffice/libreoffice-l10n-pt_7.5.9-0ubuntu0.23.04.1~bpo22.04.1_all.deb",
-	"size": 891226,
-	"md5": "e8e8ecdd9e1a4c4fc94d610cd0657a22",
-	"sha1": "c8a596d5ef5480a30a12406e927cde24f814dfad",
-	"sha256": "4cf5e536c5249619e4b3c543c9bca773e3b3cb3a4aef852d5101f4d6d3166b0c",
-	"sha512": "13163c762480704409239dd9e6a79d7e51ccfa7af3003c9d881bd456ac520d4462959d36d304040e43596fbcb937c498fd5a3b428526062274b37ba3199a8f14",
+	"filename": "pool/main/libr/libreoffice/libreoffice-l10n-pt_25.8.5-0ubuntu0.25.10.1~bpo22.04.1_all.deb",
+	"size": 873158,
+	"md5": "e3bca5c9461e3b8dddc737360dfb6db8",
+	"sha1": "77e3a27d79a207328288e64f87ae8dd2a74fef46",
+	"sha256": "8b6835370afb885efd34ed43628138e9a13c031d8c4229a9dbb8908c7b0b6bfe",
+	"sha512": "7f8bb923a2c442ed07900a37cd0aede85ac488a3ce9fa243e1ec3fdbc7f3182a9dd9ef1e31ba9bf6668c48ec7a389bda0f4f7b77fba3d70021cbcbf6a6ba9aee",
 	"descriptionMd5": "3ebb2c295967229068d690bf4004b6e4"
 },{
 	"raw": {},

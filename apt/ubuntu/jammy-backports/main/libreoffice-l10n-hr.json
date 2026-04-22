@@ -6,34 +6,36 @@
 	],
 	"package": "libreoffice-l10n-hr",
 	"source": "libreoffice",
-	"version": "4:7.5.9-0ubuntu0.23.04.1~bpo22.04.1",
+	"version": "4:25.8.5-0ubuntu0.25.10.1~bpo22.04.1",
 	"section": "localization",
 	"priority": "optional",
 	"architecture": "all",
 	"depends": [
-		"libreoffice-common (>= 1:7.0.0~alpha~)",
-		"locales | locales-all",
-		"ucf"
+		"locales | locales-all"
+	],
+	"preDepends": [
+		"ucf",
+		"libreoffice-common (>= 4:25.2.1~rc1-3~)"
 	],
 	"recommends": [
-		"libreoffice-core (>> 4:7.5.9)"
+		"libreoffice-core (>> 4:25.8.5)"
 	],
 	"suggests": [
-		"hunspell-dictionary-hr | myspell-dictionary-hr",
-		"hyphen-hr",
+		"hunspell-dictionary-hr | myspell-dictionary-hr | libreoffice-spellcheck-hr",
+		"hyphen-hr | libreoffice-hyphenation-hr",
 		"libreoffice-grammarcheck-hr",
 		"libreoffice-help-hr",
 		"mythes-hr"
 	],
-	"installedSize": 3284,
+	"installedSize": 2950,
 	"maintainer": "Ubuntu Developers <ubuntu-devel-discuss@lists.ubuntu.com>",
 	"description": "office productivity suite -- Croatian language package",
 	"homepage": "http://www.libreoffice.org",
-	"filename": "pool/main/libr/libreoffice/libreoffice-l10n-hr_7.5.9-0ubuntu0.23.04.1~bpo22.04.1_all.deb",
-	"size": 623864,
-	"md5": "eecdedc1f09155277115dfc14c2b64fb",
-	"sha1": "b4a3576cf5cc215a5a136440c4b453a2fd5015a7",
-	"sha256": "c50dc92c67c7a0108ba5fd40bad5356c40a10564b1735038936f886c40495ee0",
-	"sha512": "5caa92b8610b6bd5372e0a64055b45928e2584636e5c58b23c709a574de414b1de1149c99225b22085e2c9ee24a81c4ddbafa471c6acc8bbe8f76fa393296944",
+	"filename": "pool/main/libr/libreoffice/libreoffice-l10n-hr_25.8.5-0ubuntu0.25.10.1~bpo22.04.1_all.deb",
+	"size": 602318,
+	"md5": "1f9c1c67a630b9ab67394137800a25cb",
+	"sha1": "52e7d47d9b4340bdc045749a35c5e29d52955411",
+	"sha256": "a856b6a5751e15e942340dd7d2214324a72c3063740e21a78f071bf0f05d7a7b",
+	"sha512": "20031ad991c1be45d4b14c14cc186d73a8e7809d568be753e2e69218510d04e3ec468234cae77fd3633c3864b0abde6a3b222bf7adeb8a0d1c4dbe8ac99b9ac8",
 	"descriptionMd5": "c1f7ed74f344f50c39b1b97d22d34b76"
 }

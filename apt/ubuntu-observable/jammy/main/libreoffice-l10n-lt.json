@@ -6,35 +6,37 @@
 	],
 	"package": "libreoffice-l10n-lt",
 	"source": "libreoffice",
-	"version": "4:7.5.9-0ubuntu0.23.04.1~bpo22.04.1",
+	"version": "4:25.8.5-0ubuntu0.25.10.1~bpo22.04.1",
 	"section": "localization",
 	"priority": "optional",
 	"architecture": "all",
 	"depends": [
-		"libreoffice-common (>= 1:7.0.0~alpha~)",
-		"locales | locales-all",
-		"ucf"
+		"locales | locales-all"
+	],
+	"preDepends": [
+		"ucf",
+		"libreoffice-common (>= 4:25.2.1~rc1-3~)"
 	],
 	"recommends": [
-		"libreoffice-core (>> 4:7.5.9)"
+		"libreoffice-core (>> 4:25.8.5)"
 	],
 	"suggests": [
-		"hunspell-dictionary-lt | myspell-dictionary-lt",
-		"hyphen-lt",
+		"hunspell-dictionary-lt | myspell-dictionary-lt | libreoffice-spellcheck-lt",
+		"hyphen-lt | libreoffice-hyphenation-lt",
 		"libreoffice-grammarcheck-lt",
 		"libreoffice-help-lt",
 		"mythes-lt"
 	],
-	"installedSize": 3915,
+	"installedSize": 3540,
 	"maintainer": "Ubuntu Developers <ubuntu-devel-discuss@lists.ubuntu.com>",
 	"description": "office productivity suite -- Lithuanian language package",
 	"homepage": "http://www.libreoffice.org",
-	"filename": "pool/main/libr/libreoffice/libreoffice-l10n-lt_7.5.9-0ubuntu0.23.04.1~bpo22.04.1_all.deb",
-	"size": 733244,
-	"md5": "61a692b2f120dc40df6ee7cedfca0c83",
-	"sha1": "707de6125945e4eb5598b75ff904cfcdb84701dc",
-	"sha256": "3bd27db24214765fd3f6922adef5d9f04320a140de1049f65439e7446ee57a60",
-	"sha512": "1811a44672cc91db3dc79fd23880d174ab317917b6a0fa1a0947b5962f1490864871856863f18555259e77f9c040f0eab41d2f9660677aca4b7001d652c4dbb7",
+	"filename": "pool/main/libr/libreoffice/libreoffice-l10n-lt_25.8.5-0ubuntu0.25.10.1~bpo22.04.1_all.deb",
+	"size": 715254,
+	"md5": "e9fb03df77c77ce23c6dce848bdb0eb0",
+	"sha1": "e3640a5d77479afa371b3c9669314627e30340b7",
+	"sha256": "4b82263e6c07a8965dbb77ac7c960173c6bd44512b2b1867d555802f5b4f6a9c",
+	"sha512": "ab634378076ec9e7952efdfb7989ccfe6cb92825e45594d32202bf462027995b74b2b3753174dab58a48199f581be16e1ad357f9fef08b2a60ab3878389ec68c",
 	"descriptionMd5": "034b11c582987c822f6f0f155d0a2dca"
 },{
 	"raw": {},

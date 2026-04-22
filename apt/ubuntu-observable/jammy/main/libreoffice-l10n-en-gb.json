@@ -6,35 +6,37 @@
 	],
 	"package": "libreoffice-l10n-en-gb",
 	"source": "libreoffice",
-	"version": "4:7.5.9-0ubuntu0.23.04.1~bpo22.04.1",
+	"version": "4:25.8.5-0ubuntu0.25.10.1~bpo22.04.1",
 	"section": "localization",
 	"priority": "optional",
 	"architecture": "all",
 	"depends": [
-		"libreoffice-common (>= 1:7.0.0~alpha~)",
-		"locales | locales-all",
-		"ucf"
+		"locales | locales-all"
+	],
+	"preDepends": [
+		"ucf",
+		"libreoffice-common (>= 4:25.2.1~rc1-3~)"
 	],
 	"recommends": [
-		"libreoffice-core (>> 4:7.5.9)"
+		"libreoffice-core (>> 4:25.8.5)"
 	],
 	"suggests": [
-		"hunspell-dictionary-en-gb | myspell-dictionary-en-gb",
-		"hyphen-en-gb",
+		"hunspell-dictionary-en-gb | myspell-dictionary-en-gb | libreoffice-spellcheck-en-gb",
+		"hyphen-en-gb | libreoffice-hyphenation-en-gb",
 		"libreoffice-grammarcheck-en-gb",
 		"libreoffice-help-en-gb",
 		"mythes-en-gb"
 	],
-	"installedSize": 4434,
+	"installedSize": 4366,
 	"maintainer": "Ubuntu Developers <ubuntu-devel-discuss@lists.ubuntu.com>",
 	"description": "office productivity suite -- English_british language package",
 	"homepage": "http://www.libreoffice.org",
-	"filename": "pool/main/libr/libreoffice/libreoffice-l10n-en-gb_7.5.9-0ubuntu0.23.04.1~bpo22.04.1_all.deb",
-	"size": 801782,
-	"md5": "447af2a7c4eee8f1996d8010bbd5585a",
-	"sha1": "70212e4154960d6c6a052c27b701b0b34738d02c",
-	"sha256": "49dc3d033431770231ea4b2b54d0126b535a6765a86f53417168d006124bc284",
-	"sha512": "28e6a6e2c3095733712ef2bf895a114d32bb0cf35147ddbc1a697097d920f1431651c0d59c6bba179f1949aa34a1484d86000191feef9a5b9751ea5ea26a6b8c",
+	"filename": "pool/main/libr/libreoffice/libreoffice-l10n-en-gb_25.8.5-0ubuntu0.25.10.1~bpo22.04.1_all.deb",
+	"size": 836010,
+	"md5": "5cd4d72b14ca5335deb6a4fea60ccbca",
+	"sha1": "8f9dd149bbc59287274d309fdac1c6fcd8b97e3a",
+	"sha256": "96b3232862216720a9253e76ef34cb5f4ea9911a9dd2e0ab950e8b38fdbaeba0",
+	"sha512": "0e7c0de97491576f69435e73c2c4f3a2fec48603f00c464812869de960bf4a36372de10ef62e19ab82300bca467f25cb1a5e293e4e0f412ed73039a77b777043",
 	"descriptionMd5": "2175d49557a4317b25abdfef0508de34"
 },{
 	"raw": {},

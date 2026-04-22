@@ -6,34 +6,36 @@
 	],
 	"package": "libreoffice-l10n-pl",
 	"source": "libreoffice",
-	"version": "4:7.5.9-0ubuntu0.23.04.1~bpo22.04.1",
+	"version": "4:25.8.5-0ubuntu0.25.10.1~bpo22.04.1",
 	"section": "localization",
 	"priority": "optional",
 	"architecture": "all",
 	"depends": [
-		"libreoffice-common (>= 1:7.0.0~alpha~)",
-		"locales | locales-all",
-		"ucf"
+		"locales | locales-all"
+	],
+	"preDepends": [
+		"ucf",
+		"libreoffice-common (>= 4:25.2.1~rc1-3~)"
 	],
 	"recommends": [
-		"libreoffice-core (>> 4:7.5.9)"
+		"libreoffice-core (>> 4:25.8.5)"
 	],
 	"suggests": [
-		"hunspell-dictionary-pl | myspell-dictionary-pl",
-		"hyphen-pl",
+		"hunspell-dictionary-pl | myspell-dictionary-pl | libreoffice-spellcheck-pl",
+		"hyphen-pl | libreoffice-hyphenation-pl",
 		"libreoffice-grammarcheck-pl",
 		"libreoffice-help-pl",
 		"mythes-pl"
 	],
-	"installedSize": 4517,
+	"installedSize": 4419,
 	"maintainer": "Ubuntu Developers <ubuntu-devel-discuss@lists.ubuntu.com>",
 	"description": "office productivity suite -- Polish language package",
 	"homepage": "http://www.libreoffice.org",
-	"filename": "pool/main/libr/libreoffice/libreoffice-l10n-pl_7.5.9-0ubuntu0.23.04.1~bpo22.04.1_all.deb",
-	"size": 912260,
-	"md5": "0593ad0da88f83eb6afbe8fb7a432803",
-	"sha1": "5a1ba942a31d1d8026fa8e3fc80d60741a4795fe",
-	"sha256": "77195af7a54203f1bc1d8d8a2c41d19960b4bc0cb4f4f59c4686fed2aeda94ca",
-	"sha512": "e77f29aebab4f4d8534ce017d6aa7328f09885747a73010cd7f47681fab67babaad40e255ef0c079ae12be37955b3d7242af48e013d15e69c6164300f592ca94",
+	"filename": "pool/main/libr/libreoffice/libreoffice-l10n-pl_25.8.5-0ubuntu0.25.10.1~bpo22.04.1_all.deb",
+	"size": 952050,
+	"md5": "34ef70c15a56d467f4145042b593bbd7",
+	"sha1": "bbe66079ff4fbe30ad27aa0db3ee1fe5799e91ce",
+	"sha256": "4b445c8b88eac5e8cf4f1056c92cc0477ca5177d7740f94c2f4a373e093f9d21",
+	"sha512": "6040dd4dab0fbb3e7335b4370949d0faadcb00e575f19da9f9651fc31f967cb233d62998af72b8d7c1f4b54ce1f76287f5cb7f668b39bfbf0e25d13adb0f07a9",
 	"descriptionMd5": "af3855564491f6adf7a5d23e57e3d07f"
 }

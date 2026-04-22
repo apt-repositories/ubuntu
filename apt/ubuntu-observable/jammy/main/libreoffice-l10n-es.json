@@ -6,35 +6,37 @@
 	],
 	"package": "libreoffice-l10n-es",
 	"source": "libreoffice",
-	"version": "4:7.5.9-0ubuntu0.23.04.1~bpo22.04.1",
+	"version": "4:25.8.5-0ubuntu0.25.10.1~bpo22.04.1",
 	"section": "localization",
 	"priority": "optional",
 	"architecture": "all",
 	"depends": [
-		"libreoffice-common (>= 1:7.0.0~alpha~)",
-		"locales | locales-all",
-		"ucf"
+		"locales | locales-all"
+	],
+	"preDepends": [
+		"ucf",
+		"libreoffice-common (>= 4:25.2.1~rc1-3~)"
 	],
 	"recommends": [
-		"libreoffice-core (>> 4:7.5.9)"
+		"libreoffice-core (>> 4:25.8.5)"
 	],
 	"suggests": [
-		"hunspell-dictionary-es | myspell-dictionary-es",
-		"hyphen-es",
+		"hunspell-dictionary-es | myspell-dictionary-es | libreoffice-spellcheck-es",
+		"hyphen-es | libreoffice-hyphenation-es",
 		"libreoffice-grammarcheck-es",
 		"libreoffice-help-es",
 		"mythes-es"
 	],
-	"installedSize": 4636,
+	"installedSize": 4505,
 	"maintainer": "Ubuntu Developers <ubuntu-devel-discuss@lists.ubuntu.com>",
 	"description": "office productivity suite -- Spanish language package",
 	"homepage": "http://www.libreoffice.org",
-	"filename": "pool/main/libr/libreoffice/libreoffice-l10n-es_7.5.9-0ubuntu0.23.04.1~bpo22.04.1_all.deb",
-	"size": 943948,
-	"md5": "4a55d073140ddc030f615ce57eeaf99f",
-	"sha1": "f163b253d8e5bf137684b33bcaba5ff17975d373",
-	"sha256": "4cfa44f2f4de4b2bd7e18e7511388cba110b63bce390d19064c9dca8e8632bcf",
-	"sha512": "485d81af9d3bc326cf0583c3083f6ab364f9d7cf908725415b3088fd994068a36b1cfba447170255e37b35bd3c29101351d297967b9d3462f89ad76cc84c3b72",
+	"filename": "pool/main/libr/libreoffice/libreoffice-l10n-es_25.8.5-0ubuntu0.25.10.1~bpo22.04.1_all.deb",
+	"size": 976526,
+	"md5": "ada139690f4013114c8354f4015e03a9",
+	"sha1": "6f2eb7d24feeda5aff1363631a4c4436c96de922",
+	"sha256": "4424d4be3e872ec6cd7518acbbea9fe25920a5896fa17ebce438bdfb8e871f17",
+	"sha512": "bcc72759cef7bc693c434cc8eaed758a8941ad8c16c381d6481fcf74e45e811c8dd162eb86558c80b9e3428aded58ebf0c68d2ade755470f60490b5a64be34db",
 	"descriptionMd5": "9ca224f2e6cdf51887ac42db8c56be1b"
 },{
 	"raw": {},

@@ -6,35 +6,37 @@
 	],
 	"package": "libreoffice-l10n-zu",
 	"source": "libreoffice",
-	"version": "4:7.5.9-0ubuntu0.23.04.1~bpo22.04.1",
+	"version": "4:25.8.5-0ubuntu0.25.10.1~bpo22.04.1",
 	"section": "localization",
 	"priority": "optional",
 	"architecture": "all",
 	"depends": [
-		"libreoffice-common (>= 1:7.0.0~alpha~)",
-		"locales | locales-all",
-		"ucf"
+		"locales | locales-all"
+	],
+	"preDepends": [
+		"ucf",
+		"libreoffice-common (>= 4:25.2.1~rc1-3~)"
 	],
 	"recommends": [
-		"libreoffice-core (>> 4:7.5.9)"
+		"libreoffice-core (>> 4:25.8.5)"
 	],
 	"suggests": [
-		"hunspell-dictionary-zu | myspell-dictionary-zu",
-		"hyphen-zu",
+		"hunspell-dictionary-zu | myspell-dictionary-zu | libreoffice-spellcheck-zu",
+		"hyphen-zu | libreoffice-hyphenation-zu",
 		"libreoffice-grammarcheck-zu",
 		"libreoffice-help-zu",
 		"mythes-zu"
 	],
-	"installedSize": 1941,
+	"installedSize": 1669,
 	"maintainer": "Ubuntu Developers <ubuntu-devel-discuss@lists.ubuntu.com>",
 	"description": "office productivity suite -- Zulu language package",
 	"homepage": "http://www.libreoffice.org",
-	"filename": "pool/main/libr/libreoffice/libreoffice-l10n-zu_7.5.9-0ubuntu0.23.04.1~bpo22.04.1_all.deb",
-	"size": 257610,
-	"md5": "f861223a1eea0d8bd1dc85e740fe8595",
-	"sha1": "86a28661a35a8285da091328d4ca2accc95b4684",
-	"sha256": "d58e03df48e110ae8fed5bbbbd440f75adbcde602e92b39a79eff9b4faed4f2f",
-	"sha512": "2d7da2799a94b064c41b5e3c0a00ab09bbf39e7f0e47c4d30d0ee771251822fcfa51e5d52900ae783376d85dc702b72abebe8049673a9c54fc1688f7a5d1d0cc",
+	"filename": "pool/main/libr/libreoffice/libreoffice-l10n-zu_25.8.5-0ubuntu0.25.10.1~bpo22.04.1_all.deb",
+	"size": 252408,
+	"md5": "273731bdef769a9eae2eb98ffaac232e",
+	"sha1": "def6bcce39a25a49d45ae80d5f457a8f0472ef51",
+	"sha256": "e991200b2284058867b3f9ab87d5f61fe2b0eb6254350ff91f0c79aae488a494",
+	"sha512": "8f68b4804f50a0e710d531bfea8c42ebf264723666618615941094d3a191884646738e88a75761cda76255f64eda401c77ba318e6d578ddc68b332869f6dbeaf",
 	"descriptionMd5": "1826bfebd2ace6bb52d52081479ab115"
 },{
 	"raw": {},

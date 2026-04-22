@@ -6,34 +6,36 @@
 	],
 	"package": "libreoffice-l10n-pt-br",
 	"source": "libreoffice",
-	"version": "4:7.5.9-0ubuntu0.23.04.1~bpo22.04.1",
+	"version": "4:25.8.5-0ubuntu0.25.10.1~bpo22.04.1",
 	"section": "localization",
 	"priority": "optional",
 	"architecture": "all",
 	"depends": [
-		"libreoffice-common (>= 1:7.0.0~alpha~)",
-		"locales | locales-all",
-		"ucf"
+		"locales | locales-all"
+	],
+	"preDepends": [
+		"ucf",
+		"libreoffice-common (>= 4:25.2.1~rc1-3~)"
 	],
 	"recommends": [
-		"libreoffice-core (>> 4:7.5.9)"
+		"libreoffice-core (>> 4:25.8.5)"
 	],
 	"suggests": [
-		"hunspell-dictionary-pt-br | myspell-dictionary-pt-br",
-		"hyphen-pt-br",
+		"hunspell-dictionary-pt-br | myspell-dictionary-pt-br | libreoffice-spellcheck-pt-br",
+		"hyphen-pt-br | libreoffice-hyphenation-pt-br",
 		"libreoffice-grammarcheck-pt-br",
 		"libreoffice-help-pt-br",
 		"mythes-pt-br"
 	],
-	"installedSize": 4599,
+	"installedSize": 4499,
 	"maintainer": "Ubuntu Developers <ubuntu-devel-discuss@lists.ubuntu.com>",
 	"description": "office productivity suite -- Portuguese_brazilian language package",
 	"homepage": "http://www.libreoffice.org",
-	"filename": "pool/main/libr/libreoffice/libreoffice-l10n-pt-br_7.5.9-0ubuntu0.23.04.1~bpo22.04.1_all.deb",
-	"size": 936126,
-	"md5": "0503ebf4d5232ed1c0a90d98b092002c",
-	"sha1": "65a9531a3575376cf650a9872fa0b6ef1d9d7746",
-	"sha256": "88ea96edcabf7e147aa11bb80fa40b429129c78f8ceb7fde4aa0c8f70192820d",
-	"sha512": "7cdeb6e8a279a62c5a81512abb81bd8620fb75ddd6e48ae7e3926a4025fde3958fea68be6c847e0973e014e031de61d6b793161007084ef269c5ea03460a0361",
+	"filename": "pool/main/libr/libreoffice/libreoffice-l10n-pt-br_25.8.5-0ubuntu0.25.10.1~bpo22.04.1_all.deb",
+	"size": 977310,
+	"md5": "a380712c0a3861e80bbabb78cf13f064",
+	"sha1": "45caa0b22f5103e309229e58369cbdcb23a919f5",
+	"sha256": "06b85c457fe9cb71f45dee95bb8902fce79707b44e909e6116988b38407f891d",
+	"sha512": "b53b2834e04a5ab8c3c01578222ed6a63cc7d299013dc31e43584d5e321e50d702c50eeb46c00a8a4e7bef0f07eb27fdd64bb34f5a750a096edee36ad2322a18",
 	"descriptionMd5": "bca2f0a66f444a733b61ca3bb45846ca"
 }

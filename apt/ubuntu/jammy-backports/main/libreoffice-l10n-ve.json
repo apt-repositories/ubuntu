@@ -6,34 +6,36 @@
 	],
 	"package": "libreoffice-l10n-ve",
 	"source": "libreoffice",
-	"version": "4:7.5.9-0ubuntu0.23.04.1~bpo22.04.1",
+	"version": "4:25.8.5-0ubuntu0.25.10.1~bpo22.04.1",
 	"section": "localization",
 	"priority": "optional",
 	"architecture": "all",
 	"depends": [
-		"libreoffice-common (>= 1:7.0.0~alpha~)",
-		"locales | locales-all",
-		"ucf"
+		"locales | locales-all"
+	],
+	"preDepends": [
+		"ucf",
+		"libreoffice-common (>= 4:25.2.1~rc1-3~)"
 	],
 	"recommends": [
-		"libreoffice-core (>> 4:7.5.9)"
+		"libreoffice-core (>> 4:25.8.5)"
 	],
 	"suggests": [
-		"hunspell-dictionary-ve | myspell-dictionary-ve",
-		"hyphen-ve",
+		"hunspell-dictionary-ve | myspell-dictionary-ve | libreoffice-spellcheck-ve",
+		"hyphen-ve | libreoffice-hyphenation-ve",
 		"libreoffice-grammarcheck-ve",
 		"libreoffice-help-ve",
 		"mythes-ve"
 	],
-	"installedSize": 1875,
+	"installedSize": 1598,
 	"maintainer": "Ubuntu Developers <ubuntu-devel-discuss@lists.ubuntu.com>",
 	"description": "office productivity suite -- Venda language package",
 	"homepage": "http://www.libreoffice.org",
-	"filename": "pool/main/libr/libreoffice/libreoffice-l10n-ve_7.5.9-0ubuntu0.23.04.1~bpo22.04.1_all.deb",
-	"size": 234994,
-	"md5": "32dc93d508a4fad9781e38181fe94bb8",
-	"sha1": "72ad919fe9d0be440d65fd349d33509b92a70f06",
-	"sha256": "bafc3813593c2305dc3ab7b9575af9b0dde59d42054cca670ea67f1937ab472a",
-	"sha512": "8fb8593e7859ffbcea835f3c7aed49635329e1fdc07eef658435f43238fa8ad9d959c9466cd7991487815086fb9755bca6f02e6187e055f63dbda075976d1213",
+	"filename": "pool/main/libr/libreoffice/libreoffice-l10n-ve_25.8.5-0ubuntu0.25.10.1~bpo22.04.1_all.deb",
+	"size": 230006,
+	"md5": "a0f6a759e91ed8933289833fa7b1257f",
+	"sha1": "018035c8e754cb33f0a054f2cc95e53892674e80",
+	"sha256": "3f1887afc531b5e73bcd4ff4de280dd8249579ffc67a1826276524431236b811",
+	"sha512": "46268dd06b1f1a1a28aeeb5ec4c0af2916184fa369babd5048684d801a58181b7c734dab3bacbbb2aa6f14a42b689cbcd3c46b14902265bce756af3521b56737",
 	"descriptionMd5": "7bb286307dfd6105c62d2c54772e83fd"
 }

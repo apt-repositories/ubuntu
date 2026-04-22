@@ -6,34 +6,36 @@
 	],
 	"package": "libreoffice-l10n-kk",
 	"source": "libreoffice",
-	"version": "4:7.5.9-0ubuntu0.23.04.1~bpo22.04.1",
+	"version": "4:25.8.5-0ubuntu0.25.10.1~bpo22.04.1",
 	"section": "localization",
 	"priority": "optional",
 	"architecture": "all",
 	"depends": [
-		"libreoffice-common (>= 1:7.0.0~alpha~)",
-		"locales | locales-all",
-		"ucf"
+		"locales | locales-all"
+	],
+	"preDepends": [
+		"ucf",
+		"libreoffice-common (>= 4:25.2.1~rc1-3~)"
 	],
 	"recommends": [
-		"libreoffice-core (>> 4:7.5.9)"
+		"libreoffice-core (>> 4:25.8.5)"
 	],
 	"suggests": [
-		"hunspell-dictionary-kk | myspell-dictionary-kk",
-		"hyphen-kk",
+		"hunspell-dictionary-kk | myspell-dictionary-kk | libreoffice-spellcheck-kk",
+		"hyphen-kk | libreoffice-hyphenation-kk",
 		"libreoffice-grammarcheck-kk",
 		"libreoffice-help-kk",
 		"mythes-kk"
 	],
-	"installedSize": 5219,
+	"installedSize": 5133,
 	"maintainer": "Ubuntu Developers <ubuntu-devel-discuss@lists.ubuntu.com>",
 	"description": "office productivity suite -- Kazakh language package",
 	"homepage": "http://www.libreoffice.org",
-	"filename": "pool/main/libr/libreoffice/libreoffice-l10n-kk_7.5.9-0ubuntu0.23.04.1~bpo22.04.1_all.deb",
-	"size": 843912,
-	"md5": "5c21ab4792acb7a0dd5054935a2052fe",
-	"sha1": "1e2c0f2ac0fc7f75410f6c43c7d6def6a17dae6a",
-	"sha256": "d9ff628d0450bcd2aeb3d2829b1554bac1f115aa7f9e6693020c5f86861bfa8e",
-	"sha512": "7d3c7fad8f10c2561553a268369f6385d642c9a949609c6d6537dd7c31a59472853c1a9d636f50c24d92c230e63aa2d4ab82a96bed87c23791dcda3c65cd454f",
+	"filename": "pool/main/libr/libreoffice/libreoffice-l10n-kk_25.8.5-0ubuntu0.25.10.1~bpo22.04.1_all.deb",
+	"size": 935228,
+	"md5": "4cebf3885dadb46f5acb1d7d3fe2e4bf",
+	"sha1": "1e6858a2536d835c47c70019e708dbfdb91fa9e6",
+	"sha256": "a6af989e2278f1dc801da0731db92be82d2e66e1b9a9b306b9d9317f3195acd7",
+	"sha512": "3722ca9cb7ddfc6b4bf15f38d2b4716f58ad41196a8198cedcf0f3350b3f225946d3511f16c2ac06902a5ea6aff46b5a59498418e5ce02660cd33fb265cafa28",
 	"descriptionMd5": "0f55a645c29d349c14ae394b15a44300"
 }

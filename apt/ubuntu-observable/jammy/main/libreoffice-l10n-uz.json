@@ -6,35 +6,37 @@
 	],
 	"package": "libreoffice-l10n-uz",
 	"source": "libreoffice",
-	"version": "4:7.5.9-0ubuntu0.23.04.1~bpo22.04.1",
+	"version": "4:25.8.5-0ubuntu0.25.10.1~bpo22.04.1",
 	"section": "localization",
 	"priority": "optional",
 	"architecture": "all",
 	"depends": [
-		"libreoffice-common (>= 1:7.0.0~alpha~)",
-		"locales | locales-all",
-		"ucf"
+		"locales | locales-all"
+	],
+	"preDepends": [
+		"ucf",
+		"libreoffice-common (>= 4:25.2.1~rc1-3~)"
 	],
 	"recommends": [
-		"libreoffice-core (>> 4:7.5.9)"
+		"libreoffice-core (>> 4:25.8.5)"
 	],
 	"suggests": [
-		"hunspell-dictionary-uz | myspell-dictionary-uz",
-		"hyphen-uz",
+		"hunspell-dictionary-uz | myspell-dictionary-uz | libreoffice-spellcheck-uz",
+		"hyphen-uz | libreoffice-hyphenation-uz",
 		"libreoffice-grammarcheck-uz",
 		"libreoffice-help-uz",
 		"mythes-uz"
 	],
-	"installedSize": 1934,
+	"installedSize": 1657,
 	"maintainer": "Ubuntu Developers <ubuntu-devel-discuss@lists.ubuntu.com>",
 	"description": "office productivity suite -- Uzbek language package",
 	"homepage": "http://www.libreoffice.org",
-	"filename": "pool/main/libr/libreoffice/libreoffice-l10n-uz_7.5.9-0ubuntu0.23.04.1~bpo22.04.1_all.deb",
-	"size": 254028,
-	"md5": "009013f920897fc0bb51f09fc469321d",
-	"sha1": "c7ea90babefcf610e4bae9ab3e6a9295606241f5",
-	"sha256": "1471b129e88358a672ac6721a83d9d287475b568e5f403e9ab3a624607e2bd06",
-	"sha512": "0c44deb12101fb498db4f2360b4b7a4ec2eaa54c09ee4076a798d3b1e3c724f0baf8ffef26d6ebddbd13297369565f07faa7b71651928a104b9b7a0daeea08c1",
+	"filename": "pool/main/libr/libreoffice/libreoffice-l10n-uz_25.8.5-0ubuntu0.25.10.1~bpo22.04.1_all.deb",
+	"size": 248852,
+	"md5": "4ffaf38e9653ccfbbbb06b3b7a006ffa",
+	"sha1": "035239a9224f9d434c8eaa909baf6ea281e82b2d",
+	"sha256": "84ba5d9654b4191f1d8242564ac437913391fa9ca87371d7b21da50a4edcb223",
+	"sha512": "6c2ef09086f486d570608253b66cfdbf69e6fb1547ff38e77e7996c18351a5fc176c3c702bc0158d708b2ed40fbd6d4c113f8bfa1d83780b55c28f59a8f12e5f",
 	"descriptionMd5": "a7da1f6ae1fcdfa64f696aed12dc759d"
 },{
 	"raw": {},

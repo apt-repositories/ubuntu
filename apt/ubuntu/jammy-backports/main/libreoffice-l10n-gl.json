@@ -6,34 +6,36 @@
 	],
 	"package": "libreoffice-l10n-gl",
 	"source": "libreoffice",
-	"version": "4:7.5.9-0ubuntu0.23.04.1~bpo22.04.1",
+	"version": "4:25.8.5-0ubuntu0.25.10.1~bpo22.04.1",
 	"section": "localization",
 	"priority": "optional",
 	"architecture": "all",
 	"depends": [
-		"libreoffice-common (>= 1:7.0.0~alpha~)",
-		"locales | locales-all",
-		"ucf"
+		"locales | locales-all"
+	],
+	"preDepends": [
+		"ucf",
+		"libreoffice-common (>= 4:25.2.1~rc1-3~)"
 	],
 	"recommends": [
-		"libreoffice-core (>> 4:7.5.9)"
+		"libreoffice-core (>> 4:25.8.5)"
 	],
 	"suggests": [
-		"hunspell-dictionary-gl | myspell-dictionary-gl",
-		"hyphen-gl",
+		"hunspell-dictionary-gl | myspell-dictionary-gl | libreoffice-spellcheck-gl",
+		"hyphen-gl | libreoffice-hyphenation-gl",
 		"libreoffice-grammarcheck-gl",
 		"libreoffice-help-gl",
 		"mythes-gl"
 	],
-	"installedSize": 4477,
+	"installedSize": 4379,
 	"maintainer": "Ubuntu Developers <ubuntu-devel-discuss@lists.ubuntu.com>",
 	"description": "office productivity suite -- Galician language package",
 	"homepage": "http://www.libreoffice.org",
-	"filename": "pool/main/libr/libreoffice/libreoffice-l10n-gl_7.5.9-0ubuntu0.23.04.1~bpo22.04.1_all.deb",
-	"size": 867006,
-	"md5": "b6fdab86ed4e280b4695925c55334bce",
-	"sha1": "77dcd3cbcc05297d69bf252c0f084ddbad8caa99",
-	"sha256": "2d3d1e0130b5428cb2803e48dcf36bcb1b2889e0ab452014edcc131d7a19c894",
-	"sha512": "518b89a9018181b39c826713644d441c1852a86fd2ecaf8ba48a6106e1f760b63f16b15afc523a3e61e5f93bfb585c08204d12885d0bdf25386bcc8d255b116b",
+	"filename": "pool/main/libr/libreoffice/libreoffice-l10n-gl_25.8.5-0ubuntu0.25.10.1~bpo22.04.1_all.deb",
+	"size": 910390,
+	"md5": "7abb5c73a927dd9fd473d103412ac506",
+	"sha1": "c296ca1622711eb076c9b083556b0f6ca574930c",
+	"sha256": "63d817bab35483045ba21fce7c51d2c924fadd5b503fe1665c88c5197d658f10",
+	"sha512": "2dbd3d849d5c6c7cfa5846fa0b2ec10ff1178f444d7c06a4984d4044ce525108d3af4f3206d6ebee66efd5dc293de117796a65bbd335c13a69c928371195e418",
 	"descriptionMd5": "91aaf32f09c1b953e8cf6a0878954eea"
 }
