@@ -6,34 +6,36 @@
 	],
 	"package": "libreoffice-l10n-ja",
 	"source": "libreoffice",
-	"version": "4:7.5.9-0ubuntu0.23.04.1~bpo22.04.1",
+	"version": "4:25.8.5-0ubuntu0.25.10.1~bpo22.04.1",
 	"section": "localization",
 	"priority": "optional",
 	"architecture": "all",
 	"depends": [
-		"libreoffice-common (>= 1:7.0.0~alpha~)",
-		"locales | locales-all",
-		"ucf"
+		"locales | locales-all"
+	],
+	"preDepends": [
+		"ucf",
+		"libreoffice-common (>= 4:25.2.1~rc1-3~)"
 	],
 	"recommends": [
-		"libreoffice-core (>> 4:7.5.9)"
+		"libreoffice-core (>> 4:25.8.5)"
 	],
 	"suggests": [
-		"hunspell-dictionary-ja | myspell-dictionary-ja",
-		"hyphen-ja",
+		"hunspell-dictionary-ja | myspell-dictionary-ja | libreoffice-spellcheck-ja",
+		"hyphen-ja | libreoffice-hyphenation-ja",
 		"libreoffice-grammarcheck-ja",
 		"libreoffice-help-ja",
 		"mythes-ja"
 	],
-	"installedSize": 4458,
+	"installedSize": 4124,
 	"maintainer": "Ubuntu Developers <ubuntu-devel-discuss@lists.ubuntu.com>",
 	"description": "office productivity suite -- Japanese language package",
 	"homepage": "http://www.libreoffice.org",
-	"filename": "pool/main/libr/libreoffice/libreoffice-l10n-ja_7.5.9-0ubuntu0.23.04.1~bpo22.04.1_all.deb",
-	"size": 854780,
-	"md5": "4df8ec79a4598117f56cc1f17dddcba3",
-	"sha1": "33dd3a6b6d518bf6561b62cb035dbdc0c6669fb0",
-	"sha256": "7a8c2a5033f4b75fa21f42ceca29a0d6c6d0f27602d2e05fa4b2ae00033cf57c",
-	"sha512": "8025167939c42fc0ef6dd16d72fd2d17d4a7318c565ad37ddaa1b559cd732fc3243b98d20205aad0d79a05bb4146251073b943456266fd8ef5187d4b2b835fb7",
+	"filename": "pool/main/libr/libreoffice/libreoffice-l10n-ja_25.8.5-0ubuntu0.25.10.1~bpo22.04.1_all.deb",
+	"size": 868996,
+	"md5": "e4e5393bf9b6e580e78a2441a1d47e82",
+	"sha1": "5145c0d6ce1a93d88f1b08a8890fab2b18a57513",
+	"sha256": "6ea65f2646d61a2153c52f4efc55159bb0b483d105962a51612e83c1fc32f967",
+	"sha512": "81cbe57346aee5213c39900b6f98291687ea55758ccc9d15b9fe591281e419c879dd069b29eda9181d2bc9a0372f639e1a2618e1108c33f797630ecf39f6c1fa",
 	"descriptionMd5": "711d02c365f10214733d3d63a55bf474"
 }

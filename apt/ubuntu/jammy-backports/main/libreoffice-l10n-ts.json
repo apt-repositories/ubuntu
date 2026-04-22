@@ -6,34 +6,36 @@
 	],
 	"package": "libreoffice-l10n-ts",
 	"source": "libreoffice",
-	"version": "4:7.5.9-0ubuntu0.23.04.1~bpo22.04.1",
+	"version": "4:25.8.5-0ubuntu0.25.10.1~bpo22.04.1",
 	"section": "localization",
 	"priority": "optional",
 	"architecture": "all",
 	"depends": [
-		"libreoffice-common (>= 1:7.0.0~alpha~)",
-		"locales | locales-all",
-		"ucf"
+		"locales | locales-all"
+	],
+	"preDepends": [
+		"ucf",
+		"libreoffice-common (>= 4:25.2.1~rc1-3~)"
 	],
 	"recommends": [
-		"libreoffice-core (>> 4:7.5.9)"
+		"libreoffice-core (>> 4:25.8.5)"
 	],
 	"suggests": [
-		"hunspell-dictionary-ts | myspell-dictionary-ts",
-		"hyphen-ts",
+		"hunspell-dictionary-ts | myspell-dictionary-ts | libreoffice-spellcheck-ts",
+		"hyphen-ts | libreoffice-hyphenation-ts",
 		"libreoffice-grammarcheck-ts",
 		"libreoffice-help-ts",
 		"mythes-ts"
 	],
-	"installedSize": 1862,
+	"installedSize": 1591,
 	"maintainer": "Ubuntu Developers <ubuntu-devel-discuss@lists.ubuntu.com>",
 	"description": "office productivity suite -- Tsonga language package",
 	"homepage": "http://www.libreoffice.org",
-	"filename": "pool/main/libr/libreoffice/libreoffice-l10n-ts_7.5.9-0ubuntu0.23.04.1~bpo22.04.1_all.deb",
-	"size": 231296,
-	"md5": "88cb45842a2482f6964b9dd6f9bf5e7f",
-	"sha1": "25f74003e635cc87bf5702f8cca14c6d61bbd4c8",
-	"sha256": "647b1a0671bfdc7c8257dbfdd3607104fb521260996a614350b1014f4af56df0",
-	"sha512": "14786fe9ec77664e8099a89a5a519d27b1868ffdf3d734455e5e240647205a1b64106ccbc58cd37f95818fbd2bdc9e0a56e7a147d59c218b9d2f382c3ebd7ddc",
+	"filename": "pool/main/libr/libreoffice/libreoffice-l10n-ts_25.8.5-0ubuntu0.25.10.1~bpo22.04.1_all.deb",
+	"size": 226822,
+	"md5": "40088c9d4348bd4a83e15c0fea6dc847",
+	"sha1": "06010f19f14f4b2ffaa2d8e05545390d7918592b",
+	"sha256": "cd96b58df62ea9e2914e941450bfce9954a1fa97669ba4c58e34970d58ddf202",
+	"sha512": "42f3e58322d2b37377928900739a61169179bffb56afcf9e96ac87264d958eb72e6318ebfb88a9231ccd5adfa28ef5087aaeab23435586aab6e12ee722f585e4",
 	"descriptionMd5": "29ca3694d6ba2d256e546fdcdc5b65bb"
 }

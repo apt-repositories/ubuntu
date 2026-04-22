@@ -6,36 +6,38 @@
 	],
 	"package": "libreoffice-l10n-th",
 	"source": "libreoffice",
-	"version": "4:7.5.9-0ubuntu0.23.04.1~bpo22.04.1",
+	"version": "4:25.8.5-0ubuntu0.25.10.1~bpo22.04.1",
 	"section": "localization",
 	"priority": "optional",
 	"architecture": "all",
 	"depends": [
-		"libreoffice-common (>= 1:7.0.0~alpha~)",
-		"locales | locales-all",
-		"ucf"
+		"locales | locales-all"
+	],
+	"preDepends": [
+		"ucf",
+		"libreoffice-common (>= 4:25.2.1~rc1-3~)"
 	],
 	"recommends": [
 		"fonts-thai-tlwg",
-		"libreoffice-core (>> 4:7.5.9)"
+		"libreoffice-core (>> 4:25.8.5)"
 	],
 	"suggests": [
-		"hunspell-dictionary-th | myspell-dictionary-th",
-		"hyphen-th",
+		"hunspell-dictionary-th | myspell-dictionary-th | libreoffice-spellcheck-th",
+		"hyphen-th | libreoffice-hyphenation-th",
 		"libreoffice-grammarcheck-th",
 		"libreoffice-help-th",
 		"mythes-th"
 	],
-	"installedSize": 5632,
+	"installedSize": 5442,
 	"maintainer": "Ubuntu Developers <ubuntu-devel-discuss@lists.ubuntu.com>",
 	"description": "office productivity suite -- Thai language package",
 	"homepage": "http://www.libreoffice.org",
-	"filename": "pool/main/libr/libreoffice/libreoffice-l10n-th_7.5.9-0ubuntu0.23.04.1~bpo22.04.1_all.deb",
-	"size": 843482,
-	"md5": "9f5a99f96d4e78ab88e7e0be4bea7e7f",
-	"sha1": "2e8424b6cd28edbaaad844ef76d00ab7efc23792",
-	"sha256": "4b0a0bf0ea002d1ecc8ecb83e686b2e471e359f59bd3becf0892969ff19e72e4",
-	"sha512": "8098cad523ce907042d70a12819e507c1c48237351665314639add167ce54282833e4d9399adeb20d8605cb22bdc8fbd85fa9873ff99a5c1123f49e7b505baf2",
+	"filename": "pool/main/libr/libreoffice/libreoffice-l10n-th_25.8.5-0ubuntu0.25.10.1~bpo22.04.1_all.deb",
+	"size": 886638,
+	"md5": "744ffbfeea420070e132c44e7dfb0ba3",
+	"sha1": "c1876739d9b980cc179f6f01513eab41f5d7afdd",
+	"sha256": "67c157a0e464df2179e12bb233e677fdbfae4a758b2f4a692e0430847237c80c",
+	"sha512": "78f08b6c6c48c835cc3925568c4e40b8f0dd8ce5881227e18b8e4018ac133ead720d9179fbf22a24a47e5fee8371ded6fffada64374bda1ad91647406574d7cc",
 	"descriptionMd5": "94a998c14aeff6049d9b90810598f1dd"
 },{
 	"raw": {},

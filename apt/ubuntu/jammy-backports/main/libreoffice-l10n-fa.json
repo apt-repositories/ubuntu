@@ -6,35 +6,37 @@
 	],
 	"package": "libreoffice-l10n-fa",
 	"source": "libreoffice",
-	"version": "4:7.5.9-0ubuntu0.23.04.1~bpo22.04.1",
+	"version": "4:25.8.5-0ubuntu0.25.10.1~bpo22.04.1",
 	"section": "localization",
 	"priority": "optional",
 	"architecture": "all",
 	"depends": [
-		"libreoffice-common (>= 1:7.0.0~alpha~)",
-		"locales | locales-all",
-		"ucf"
+		"locales | locales-all"
+	],
+	"preDepends": [
+		"ucf",
+		"libreoffice-common (>= 4:25.2.1~rc1-3~)"
 	],
 	"recommends": [
 		"fonts-farsiweb",
-		"libreoffice-core (>> 4:7.5.9)"
+		"libreoffice-core (>> 4:25.8.5)"
 	],
 	"suggests": [
-		"hunspell-dictionary-fa | myspell-dictionary-fa",
-		"hyphen-fa",
+		"hunspell-dictionary-fa | myspell-dictionary-fa | libreoffice-spellcheck-fa",
+		"hyphen-fa | libreoffice-hyphenation-fa",
 		"libreoffice-grammarcheck-fa",
 		"libreoffice-help-fa",
 		"mythes-fa"
 	],
-	"installedSize": 2452,
+	"installedSize": 2008,
 	"maintainer": "Ubuntu Developers <ubuntu-devel-discuss@lists.ubuntu.com>",
 	"description": "office productivity suite -- Farsi language package",
 	"homepage": "http://www.libreoffice.org",
-	"filename": "pool/main/libr/libreoffice/libreoffice-l10n-fa_7.5.9-0ubuntu0.23.04.1~bpo22.04.1_all.deb",
-	"size": 325450,
-	"md5": "3eec68e61f45bb94ee986fbe8ee57145",
-	"sha1": "ac49f7d6ffd4addceb38bb4abeb31c42e474f777",
-	"sha256": "b7e117379fb1757d4563d2e45342be88c740a204b9a00a080c747a5b92541332",
-	"sha512": "3de0bc0ff14209fc0b85c1f7384acc83b0cd166b24b0b1f320539506f1c1d60ad543bf0cf75dcfbe63c06443fa1ccf0e3f17ae3ed898f62800b821e63a96ab3c",
+	"filename": "pool/main/libr/libreoffice/libreoffice-l10n-fa_25.8.5-0ubuntu0.25.10.1~bpo22.04.1_all.deb",
+	"size": 317892,
+	"md5": "9d6db73b2887ab4d89601cb62f98be4e",
+	"sha1": "ba2f600a2fe097a9dd827f622a3581c6a85ae936",
+	"sha256": "811c79e53ccd57ebbdf532e9e34ac74b933f9a9ab449c8c4cd9e9350ba6a7d30",
+	"sha512": "453fee0eb8f455a339dfae9a83601086ad4ab22737fde1866eb7da89417bbd8e04130765521306946385019db6b671053ac23b4f67f9bbbed68368520cbba6af",
 	"descriptionMd5": "6fb22f6ccd00a52dcb073d05bdb131d9"
 }

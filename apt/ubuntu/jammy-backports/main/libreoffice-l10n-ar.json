@@ -6,36 +6,38 @@
 	],
 	"package": "libreoffice-l10n-ar",
 	"source": "libreoffice",
-	"version": "4:7.5.9-0ubuntu0.23.04.1~bpo22.04.1",
+	"version": "4:25.8.5-0ubuntu0.25.10.1~bpo22.04.1",
 	"section": "localization",
 	"priority": "optional",
 	"architecture": "all",
 	"depends": [
-		"libreoffice-common (>= 1:7.0.0~alpha~)",
-		"locales | locales-all",
-		"ucf"
+		"locales | locales-all"
+	],
+	"preDepends": [
+		"ucf",
+		"libreoffice-common (>= 4:25.2.1~rc1-3~)"
 	],
 	"recommends": [
 		"fonts-hosny-amiri",
 		"fonts-sil-scheherazade",
-		"libreoffice-core (>> 4:7.5.9)"
+		"libreoffice-core (>> 4:25.8.5)"
 	],
 	"suggests": [
-		"hunspell-dictionary-ar | myspell-dictionary-ar",
-		"hyphen-ar",
+		"hunspell-dictionary-ar | myspell-dictionary-ar | libreoffice-spellcheck-ar",
+		"hyphen-ar | libreoffice-hyphenation-ar",
 		"libreoffice-grammarcheck-ar",
 		"libreoffice-help-ar",
 		"mythes-ar"
 	],
-	"installedSize": 3939,
+	"installedSize": 3327,
 	"maintainer": "Ubuntu Developers <ubuntu-devel-discuss@lists.ubuntu.com>",
 	"description": "office productivity suite -- Arabic language package",
 	"homepage": "http://www.libreoffice.org",
-	"filename": "pool/main/libr/libreoffice/libreoffice-l10n-ar_7.5.9-0ubuntu0.23.04.1~bpo22.04.1_all.deb",
-	"size": 667550,
-	"md5": "4e3de8ae8fea6108b8d7108986275492",
-	"sha1": "d35c5604e73c9cba2fe91bbbb304fc6923ca8d3c",
-	"sha256": "be87f13135a7c95f483aa35517d9546c57ab0be3017879adeb86caaf93120091",
-	"sha512": "71e209ae5da733a9bdfb7fb58d72bb7c0df69a0898a97f9a765a907e83a4b14c34f43f560975dbdd1273ecb3c8aeb04bbd603162f0727279d19badb7f786210e",
+	"filename": "pool/main/libr/libreoffice/libreoffice-l10n-ar_25.8.5-0ubuntu0.25.10.1~bpo22.04.1_all.deb",
+	"size": 635826,
+	"md5": "01f5a21d3fedd1d0aa21d212eb740fcf",
+	"sha1": "c445fc15642eabb7e99d4ad2a1320dfa3e9b7a0f",
+	"sha256": "8434cb18da1cb9a118f6310bcb769a48b1570cd6438eff72790a3f1a6b2acc04",
+	"sha512": "498c4ca7843d696e7d7b8f2f9d8bad508d8af31b46172a6daee37450177edb1dbf95ae74ad79310fd40faf5e88b2d334126aa21dc8805c77aea8d0c272202544",
 	"descriptionMd5": "587caaeee146ae2e8c3996cb98f27e14"
 }

@@ -6,35 +6,37 @@
 	],
 	"package": "libreoffice-l10n-zh-cn",
 	"source": "libreoffice",
-	"version": "4:7.5.9-0ubuntu0.23.04.1~bpo22.04.1",
+	"version": "4:25.8.5-0ubuntu0.25.10.1~bpo22.04.1",
 	"section": "localization",
 	"priority": "optional",
 	"architecture": "all",
 	"depends": [
-		"libreoffice-common (>= 1:7.0.0~alpha~)",
-		"locales | locales-all",
-		"ucf"
+		"locales | locales-all"
+	],
+	"preDepends": [
+		"ucf",
+		"libreoffice-common (>= 4:25.2.1~rc1-3~)"
 	],
 	"recommends": [
-		"libreoffice-core (>> 4:7.5.9)"
+		"libreoffice-core (>> 4:25.8.5)"
 	],
 	"suggests": [
-		"hunspell-dictionary-zh-cn | myspell-dictionary-zh-cn",
-		"hyphen-zh-cn",
+		"hunspell-dictionary-zh-cn | myspell-dictionary-zh-cn | libreoffice-spellcheck-zh-cn",
+		"hyphen-zh-cn | libreoffice-hyphenation-zh-cn",
 		"libreoffice-grammarcheck-zh-cn",
 		"libreoffice-help-zh-cn",
 		"mythes-zh-cn"
 	],
-	"installedSize": 4436,
+	"installedSize": 4279,
 	"maintainer": "Ubuntu Developers <ubuntu-devel-discuss@lists.ubuntu.com>",
 	"description": "office productivity suite -- Chinese_simplified language package",
 	"homepage": "http://www.libreoffice.org",
-	"filename": "pool/main/libr/libreoffice/libreoffice-l10n-zh-cn_7.5.9-0ubuntu0.23.04.1~bpo22.04.1_all.deb",
-	"size": 918262,
-	"md5": "65c867fca8f75dc89d59b6b1ca917ccd",
-	"sha1": "2d54a1b39111d1dd17047869594d2f988d20d3da",
-	"sha256": "07bfbd59246c36c695191478f7f335c8fa95a7bf2ecfff65dcdb522a7bd5bda5",
-	"sha512": "0d168dc444b6fbde11ed5f9ff6a9761b157f2cf7755432910476d8309c5968dc039d65b0e440a8ec2dcc406e1242273e622e0bfbd5641a5929fd09307dca0ad0",
+	"filename": "pool/main/libr/libreoffice/libreoffice-l10n-zh-cn_25.8.5-0ubuntu0.25.10.1~bpo22.04.1_all.deb",
+	"size": 957294,
+	"md5": "169ab1e37f210e39464d078fcb0e39c1",
+	"sha1": "5e275eec00115dc0a7d33dbea65be801757de673",
+	"sha256": "b31165c6ebd2424b881a8443db3c08f89e6e55794f357b252f65bfe07beed8ca",
+	"sha512": "4a9917d3f6f2c373d87ebb4cbf042f04fde372db54cf6f7ef79636064df8ddbd569a696df6730420b1dcb9da5f2b6a164b35f9a46216d0a05852babb32441bbc",
 	"descriptionMd5": "b8e748f9a21ee8996147f93a46daa148"
 },{
 	"raw": {},

@@ -6,36 +6,38 @@
 	],
 	"package": "libreoffice-l10n-gu",
 	"source": "libreoffice",
-	"version": "4:7.5.9-0ubuntu0.23.04.1~bpo22.04.1",
+	"version": "4:25.8.5-0ubuntu0.25.10.1~bpo22.04.1",
 	"section": "localization",
 	"priority": "optional",
 	"architecture": "all",
 	"depends": [
-		"libreoffice-common (>= 1:7.0.0~alpha~)",
-		"locales | locales-all",
-		"ucf"
+		"locales | locales-all"
+	],
+	"preDepends": [
+		"ucf",
+		"libreoffice-common (>= 4:25.2.1~rc1-3~)"
 	],
 	"recommends": [
 		"fonts-gujr",
-		"libreoffice-core (>> 4:7.5.9)"
+		"libreoffice-core (>> 4:25.8.5)"
 	],
 	"suggests": [
-		"hunspell-dictionary-gu | myspell-dictionary-gu",
-		"hyphen-gu",
+		"hunspell-dictionary-gu | myspell-dictionary-gu | libreoffice-spellcheck-gu",
+		"hyphen-gu | libreoffice-hyphenation-gu",
 		"libreoffice-grammarcheck-gu",
 		"libreoffice-help-gu",
 		"mythes-gu"
 	],
-	"installedSize": 3490,
+	"installedSize": 3006,
 	"maintainer": "Ubuntu Developers <ubuntu-devel-discuss@lists.ubuntu.com>",
 	"description": "office productivity suite -- Gujarati language package",
 	"homepage": "http://www.libreoffice.org",
-	"filename": "pool/main/libr/libreoffice/libreoffice-l10n-gu_7.5.9-0ubuntu0.23.04.1~bpo22.04.1_all.deb",
-	"size": 505076,
-	"md5": "e4cb3c0834a72b2e8fb16efd120b54a2",
-	"sha1": "ae1020e94f45592b2e9d5f73d081bed65420169e",
-	"sha256": "e029518c35b7e2fb007c2d2f8b3ad359c824b1317e7c3e2e09ae40c741d8fa43",
-	"sha512": "ed100caf9002f90207afd95c96c93dc2069d74c124ea87d0c7b76a881731b7e35995c09a3a66661510a57f9fbfe3a255ec1dd0682c2982d4514809930c881d8c",
+	"filename": "pool/main/libr/libreoffice/libreoffice-l10n-gu_25.8.5-0ubuntu0.25.10.1~bpo22.04.1_all.deb",
+	"size": 482604,
+	"md5": "327c1ace5aed16e024ac092a158f91d6",
+	"sha1": "131a46da25556e7d3a5c25d3650e54fc884cf531",
+	"sha256": "86da4492d38c51b524ba7149001df17e04beffe378a50b3029de6bb513fe3af0",
+	"sha512": "02f3269634142200255d7645b4420f00510841392c68e02438694fb4ad109b8ea52f28a78a7ac54575e6c8540c230aba5e4a8dc1b325776ea1e8e0293805ef0e",
 	"descriptionMd5": "d33d0bf909d9ce8566c829e9e8c7958d"
 },{
 	"raw": {},

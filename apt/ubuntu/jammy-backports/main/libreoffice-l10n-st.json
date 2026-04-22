@@ -6,34 +6,36 @@
 	],
 	"package": "libreoffice-l10n-st",
 	"source": "libreoffice",
-	"version": "4:7.5.9-0ubuntu0.23.04.1~bpo22.04.1",
+	"version": "4:25.8.5-0ubuntu0.25.10.1~bpo22.04.1",
 	"section": "localization",
 	"priority": "optional",
 	"architecture": "all",
 	"depends": [
-		"libreoffice-common (>= 1:7.0.0~alpha~)",
-		"locales | locales-all",
-		"ucf"
+		"locales | locales-all"
+	],
+	"preDepends": [
+		"ucf",
+		"libreoffice-common (>= 4:25.2.1~rc1-3~)"
 	],
 	"recommends": [
-		"libreoffice-core (>> 4:7.5.9)"
+		"libreoffice-core (>> 4:25.8.5)"
 	],
 	"suggests": [
-		"hunspell-dictionary-st | myspell-dictionary-st",
-		"hyphen-st",
+		"hunspell-dictionary-st | myspell-dictionary-st | libreoffice-spellcheck-st",
+		"hyphen-st | libreoffice-hyphenation-st",
 		"libreoffice-grammarcheck-st",
 		"libreoffice-help-st",
 		"mythes-st"
 	],
-	"installedSize": 1862,
+	"installedSize": 1591,
 	"maintainer": "Ubuntu Developers <ubuntu-devel-discuss@lists.ubuntu.com>",
 	"description": "office productivity suite -- Southern_sotho language package",
 	"homepage": "http://www.libreoffice.org",
-	"filename": "pool/main/libr/libreoffice/libreoffice-l10n-st_7.5.9-0ubuntu0.23.04.1~bpo22.04.1_all.deb",
-	"size": 233908,
-	"md5": "2186cabb4a4506f65d98171b08ca87d4",
-	"sha1": "bc49a3c5e4d128a52e75fd9e4cd666cc1600aad4",
-	"sha256": "c672432e8131eaa574d49c2cf4d7f41587fcb1f4a835660119a0d1807a775bd8",
-	"sha512": "b9e0cb53ea976315449e59500c929d7cc62ecdaa8eae0510954dcbeb24144cdea671a25561976101e92e05927b5de951a10ecb0c570f63d0e3e10cbb2e4e50e6",
+	"filename": "pool/main/libr/libreoffice/libreoffice-l10n-st_25.8.5-0ubuntu0.25.10.1~bpo22.04.1_all.deb",
+	"size": 229028,
+	"md5": "bd5970dc1d4d75cbce947445593e0770",
+	"sha1": "88575ef1cf6e25204232c2eaca660aeb3f1f2ac2",
+	"sha256": "6283b9a15f029caaa1d3cbb041b84e258d86ba6aaab4d1eb027d60af76f01b16",
+	"sha512": "21781c2512313c9e628528f9c18742bd6659def2c5a3034d080f39813d290bb4c7fa80cf1668ed26c7a34645522599e6805fae153b1c361fd2e16d58dbbf59f6",
 	"descriptionMd5": "3eddf8b8a781fcc8d00658fd683751c6"
 }

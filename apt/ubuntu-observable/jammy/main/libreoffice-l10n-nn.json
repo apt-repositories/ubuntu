@@ -6,35 +6,37 @@
 	],
 	"package": "libreoffice-l10n-nn",
 	"source": "libreoffice",
-	"version": "4:7.5.9-0ubuntu0.23.04.1~bpo22.04.1",
+	"version": "4:25.8.5-0ubuntu0.25.10.1~bpo22.04.1",
 	"section": "localization",
 	"priority": "optional",
 	"architecture": "all",
 	"depends": [
-		"libreoffice-common (>= 1:7.0.0~alpha~)",
-		"locales | locales-all",
-		"ucf"
+		"locales | locales-all"
+	],
+	"preDepends": [
+		"ucf",
+		"libreoffice-common (>= 4:25.2.1~rc1-3~)"
 	],
 	"recommends": [
-		"libreoffice-core (>> 4:7.5.9)"
+		"libreoffice-core (>> 4:25.8.5)"
 	],
 	"suggests": [
-		"hunspell-dictionary-nn | myspell-dictionary-nn",
-		"hyphen-nn",
+		"hunspell-dictionary-nn | myspell-dictionary-nn | libreoffice-spellcheck-nn",
+		"hyphen-nn | libreoffice-hyphenation-nn",
 		"libreoffice-grammarcheck-nn",
 		"libreoffice-help-nn",
 		"mythes-nn"
 	],
-	"installedSize": 4361,
+	"installedSize": 4263,
 	"maintainer": "Ubuntu Developers <ubuntu-devel-discuss@lists.ubuntu.com>",
 	"description": "office productivity suite -- Norwegian_nynorsk language package",
 	"homepage": "http://www.libreoffice.org",
-	"filename": "pool/main/libr/libreoffice/libreoffice-l10n-nn_7.5.9-0ubuntu0.23.04.1~bpo22.04.1_all.deb",
-	"size": 856466,
-	"md5": "42e8bf8951d0526fc53a02b53c8275cf",
-	"sha1": "2f5a356596c316d551e2594f08514b43f9ee945f",
-	"sha256": "536acebc40612f4a554cca2e522e133f52eced7ca95d717a0fdcfcb51778d882",
-	"sha512": "471c356bcfc50e100eb4cc4d68a8571aaebb54a284f11c22e9dc01a12ee2eb2c4f5e627d467f25bb5b1eafd3eafe10fe42cd8353b60cb942ff14aa2f8e879773",
+	"filename": "pool/main/libr/libreoffice/libreoffice-l10n-nn_25.8.5-0ubuntu0.25.10.1~bpo22.04.1_all.deb",
+	"size": 895956,
+	"md5": "7871c9b7d25aeac223e763be698a04a3",
+	"sha1": "8ba5863535167771385f890bcfa1a0c512863998",
+	"sha256": "ece0e67a3f3edd938d3b30737b5eee519693263824bf1affae078b5107031a2b",
+	"sha512": "f35be5690d935f83e9ce2ef8e1a9a01ff1906cf95b8be8c5fa549e13840320a000b07fb3fb34d737a86b80bf326876d74eceecedbec2983f3e5a480688f63096",
 	"descriptionMd5": "bbdb9d7bd3b045feb8b26450f0b1e84d"
 },{
 	"raw": {},

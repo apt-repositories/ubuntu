@@ -6,34 +6,36 @@
 	],
 	"package": "libreoffice-l10n-el",
 	"source": "libreoffice",
-	"version": "4:7.5.9-0ubuntu0.23.04.1~bpo22.04.1",
+	"version": "4:25.8.5-0ubuntu0.25.10.1~bpo22.04.1",
 	"section": "localization",
 	"priority": "optional",
 	"architecture": "all",
 	"depends": [
-		"libreoffice-common (>= 1:7.0.0~alpha~)",
-		"locales | locales-all",
-		"ucf"
+		"locales | locales-all"
+	],
+	"preDepends": [
+		"ucf",
+		"libreoffice-common (>= 4:25.2.1~rc1-3~)"
 	],
 	"recommends": [
-		"libreoffice-core (>> 4:7.5.9)"
+		"libreoffice-core (>> 4:25.8.5)"
 	],
 	"suggests": [
-		"hunspell-dictionary-el | myspell-dictionary-el",
-		"hyphen-el",
+		"hunspell-dictionary-el | myspell-dictionary-el | libreoffice-spellcheck-el",
+		"hyphen-el | libreoffice-hyphenation-el",
 		"libreoffice-grammarcheck-el",
 		"libreoffice-help-el",
 		"mythes-el"
 	],
-	"installedSize": 5857,
+	"installedSize": 5414,
 	"maintainer": "Ubuntu Developers <ubuntu-devel-discuss@lists.ubuntu.com>",
 	"description": "office productivity suite -- Greek language package",
 	"homepage": "http://www.libreoffice.org",
-	"filename": "pool/main/libr/libreoffice/libreoffice-l10n-el_7.5.9-0ubuntu0.23.04.1~bpo22.04.1_all.deb",
-	"size": 925118,
-	"md5": "5b25ce06717079490f4ddffb73d45969",
-	"sha1": "3796bf48077592d283140b8cfc9b04afdcc4a3c7",
-	"sha256": "4a70fe36ac663c252f66a3303e8f1609c203f6b545580c93a9a61ababdb3b347",
-	"sha512": "9f0307d51cc4c2d4870b48e70c2868dfd85714346160e16f061dfcea83c0a820714754f9434caddfa52766bcdb477ec5f8d07be0458a3c1ff3e82092ffaba4f1",
+	"filename": "pool/main/libr/libreoffice/libreoffice-l10n-el_25.8.5-0ubuntu0.25.10.1~bpo22.04.1_all.deb",
+	"size": 956696,
+	"md5": "859fa23456b55c8c157f13982192cecc",
+	"sha1": "435a519e43be95a676b30c796be5a454cd8fc3b1",
+	"sha256": "4213cc0d852587a57099cdef9109c517dcc9110fcc8d286c90f620f590fee086",
+	"sha512": "4a3437287361b224e67d79ca2808d99e2ef26e4af3e5130a4064674714755f918bdcc481c1fbf515f1a86f78f3eda4a10c83c915ad453886f45d81cb6b2d38ca",
 	"descriptionMd5": "4f78a8507785668c597339f89484e181"
 }

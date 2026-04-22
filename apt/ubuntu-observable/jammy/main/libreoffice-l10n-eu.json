@@ -6,35 +6,37 @@
 	],
 	"package": "libreoffice-l10n-eu",
 	"source": "libreoffice",
-	"version": "4:7.5.9-0ubuntu0.23.04.1~bpo22.04.1",
+	"version": "4:25.8.5-0ubuntu0.25.10.1~bpo22.04.1",
 	"section": "localization",
 	"priority": "optional",
 	"architecture": "all",
 	"depends": [
-		"libreoffice-common (>= 1:7.0.0~alpha~)",
-		"locales | locales-all",
-		"ucf"
+		"locales | locales-all"
+	],
+	"preDepends": [
+		"ucf",
+		"libreoffice-common (>= 4:25.2.1~rc1-3~)"
 	],
 	"recommends": [
-		"libreoffice-core (>> 4:7.5.9)"
+		"libreoffice-core (>> 4:25.8.5)"
 	],
 	"suggests": [
-		"hunspell-dictionary-eu | myspell-dictionary-eu",
-		"hyphen-eu",
+		"hunspell-dictionary-eu | myspell-dictionary-eu | libreoffice-spellcheck-eu",
+		"hyphen-eu | libreoffice-hyphenation-eu",
 		"libreoffice-grammarcheck-eu",
 		"libreoffice-help-eu",
 		"mythes-eu"
 	],
-	"installedSize": 4441,
+	"installedSize": 4047,
 	"maintainer": "Ubuntu Developers <ubuntu-devel-discuss@lists.ubuntu.com>",
 	"description": "office productivity suite -- Basque language package",
 	"homepage": "http://www.libreoffice.org",
-	"filename": "pool/main/libr/libreoffice/libreoffice-l10n-eu_7.5.9-0ubuntu0.23.04.1~bpo22.04.1_all.deb",
-	"size": 859544,
-	"md5": "c670641e515b7d2144b08fa4c3e212e9",
-	"sha1": "0605669dbeb85f8058683c81795beefcf824da4f",
-	"sha256": "e6d94d3f3af5182d14bbfaf5a46e84768381c6359e0b8b17446b1ff02909ee53",
-	"sha512": "5db7de15843d86c9f50fa6204ac2bb2f6032f85cabc0adddc72dd62be54197f3ec2a78645352e46311a8f9ab2b926894d5c5105eee8483b8961101c8faadae5b",
+	"filename": "pool/main/libr/libreoffice/libreoffice-l10n-eu_25.8.5-0ubuntu0.25.10.1~bpo22.04.1_all.deb",
+	"size": 828860,
+	"md5": "a649c19f25896db69d01af1904071f68",
+	"sha1": "f22bdcf025ea7fc6cdf232ba83e94c2183d5fd67",
+	"sha256": "e9aa6eeed948bd36589e0a79ad632620b296613ec174470b637e46f50c3153ca",
+	"sha512": "1a0e33d069fa376db98a9d3360bc97e096a3903106bd3e670cc73ad2230b3fb282f03d3f9bba533325dd938bf8b46ca5e8cf1a632410abfcacb039c0f02ad2be",
 	"descriptionMd5": "a9ce34217df35bf42f382c34b328939c"
 },{
 	"raw": {},

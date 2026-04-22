@@ -6,34 +6,36 @@
 	],
 	"package": "libreoffice-l10n-nr",
 	"source": "libreoffice",
-	"version": "4:7.5.9-0ubuntu0.23.04.1~bpo22.04.1",
+	"version": "4:25.8.5-0ubuntu0.25.10.1~bpo22.04.1",
 	"section": "localization",
 	"priority": "optional",
 	"architecture": "all",
 	"depends": [
-		"libreoffice-common (>= 1:7.0.0~alpha~)",
-		"locales | locales-all",
-		"ucf"
+		"locales | locales-all"
+	],
+	"preDepends": [
+		"ucf",
+		"libreoffice-common (>= 4:25.2.1~rc1-3~)"
 	],
 	"recommends": [
-		"libreoffice-core (>> 4:7.5.9)"
+		"libreoffice-core (>> 4:25.8.5)"
 	],
 	"suggests": [
-		"hunspell-dictionary-nr | myspell-dictionary-nr",
-		"hyphen-nr",
+		"hunspell-dictionary-nr | myspell-dictionary-nr | libreoffice-spellcheck-nr",
+		"hyphen-nr | libreoffice-hyphenation-nr",
 		"libreoffice-grammarcheck-nr",
 		"libreoffice-help-nr",
 		"mythes-nr"
 	],
-	"installedSize": 1846,
+	"installedSize": 1576,
 	"maintainer": "Ubuntu Developers <ubuntu-devel-discuss@lists.ubuntu.com>",
 	"description": "office productivity suite -- Ndebele language package",
 	"homepage": "http://www.libreoffice.org",
-	"filename": "pool/main/libr/libreoffice/libreoffice-l10n-nr_7.5.9-0ubuntu0.23.04.1~bpo22.04.1_all.deb",
-	"size": 232340,
-	"md5": "c1d86fc1f47243899f6813c0273a2f35",
-	"sha1": "929f3a91aa35e879d8d9ac86898cbe3716fcf157",
-	"sha256": "029b41b5054ac01eee1abbbd0335524fd64adaffee7634cab6244d3fe30baf1d",
-	"sha512": "3268bc63d092348355339fe7460f851ecbc2de030c6b4dd9505c4397742549d59c943e2e435812133a8109bcd210d3a2d0ecdc18a485149320b128e66bc45e3c",
+	"filename": "pool/main/libr/libreoffice/libreoffice-l10n-nr_25.8.5-0ubuntu0.25.10.1~bpo22.04.1_all.deb",
+	"size": 227196,
+	"md5": "a56624e6e203d4c256dc5feb47386ff6",
+	"sha1": "5c52e99e0e1b6e05c7d7aaea1f6c159181ffaf59",
+	"sha256": "cfb7d996758b81abf674c63e8a7ba5f868260a2da93cbe57411e316ef753ab2f",
+	"sha512": "1a61013b1f8b6e9e5e309829c0f58af9fec4bad8130447f2cd63f67706892e117ab6e092f2d26af44f84492417f0b3dedd1111a676cc2a795109202ecacbd5f2",
 	"descriptionMd5": "43bc32c188cfe5924ea7f2995a36995d"
 }

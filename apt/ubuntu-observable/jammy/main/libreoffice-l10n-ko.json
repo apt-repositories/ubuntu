@@ -6,35 +6,37 @@
 	],
 	"package": "libreoffice-l10n-ko",
 	"source": "libreoffice",
-	"version": "4:7.5.9-0ubuntu0.23.04.1~bpo22.04.1",
+	"version": "4:25.8.5-0ubuntu0.25.10.1~bpo22.04.1",
 	"section": "localization",
 	"priority": "optional",
 	"architecture": "all",
 	"depends": [
-		"libreoffice-common (>= 1:7.0.0~alpha~)",
-		"locales | locales-all",
-		"ucf"
+		"locales | locales-all"
+	],
+	"preDepends": [
+		"ucf",
+		"libreoffice-common (>= 4:25.2.1~rc1-3~)"
 	],
 	"recommends": [
-		"libreoffice-core (>> 4:7.5.9)"
+		"libreoffice-core (>> 4:25.8.5)"
 	],
 	"suggests": [
-		"hunspell-dictionary-ko | myspell-dictionary-ko",
-		"hyphen-ko",
+		"hunspell-dictionary-ko | myspell-dictionary-ko | libreoffice-spellcheck-ko",
+		"hyphen-ko | libreoffice-hyphenation-ko",
 		"libreoffice-grammarcheck-ko",
 		"libreoffice-help-ko",
 		"mythes-ko"
 	],
-	"installedSize": 3834,
+	"installedSize": 3412,
 	"maintainer": "Ubuntu Developers <ubuntu-devel-discuss@lists.ubuntu.com>",
 	"description": "office productivity suite -- Korean language package",
 	"homepage": "http://www.libreoffice.org",
-	"filename": "pool/main/libr/libreoffice/libreoffice-l10n-ko_7.5.9-0ubuntu0.23.04.1~bpo22.04.1_all.deb",
-	"size": 740762,
-	"md5": "60df192c81baa70b1369674d724d8063",
-	"sha1": "128d544110fd1d1da40de3cbb439fa0d378f6e1e",
-	"sha256": "c7c1c806eb34a737af94046f7cceda4a76892c0a54a9392066f82486d3c97a54",
-	"sha512": "f9eb83aa08116feaad984b04e8fb071088280508eabf8273998daee16e045e691603c4b434e7ab246009a889ae072801e9be881040734cedc68e30763de7d653",
+	"filename": "pool/main/libr/libreoffice/libreoffice-l10n-ko_25.8.5-0ubuntu0.25.10.1~bpo22.04.1_all.deb",
+	"size": 721902,
+	"md5": "6b86ecf4b7e3ec60b1b000f3a56ec39e",
+	"sha1": "d23c46ef908c3268bac1119d0faa8410e4664ab7",
+	"sha256": "49f003d7c073674d3e6da18582957dbb44190bdcefa4d14c1d24e2356b8ab11a",
+	"sha512": "b463d8b3d2e15a085616db60bd2a9b6867dae842e8d5ef267126f67acdca02966ef8a728ddddd36d5c4b413bb75533648be5bbc078fdedddaf0fffafc2e69154",
 	"descriptionMd5": "959045aad72889d15ef474977f2b76c4"
 },{
 	"raw": {},

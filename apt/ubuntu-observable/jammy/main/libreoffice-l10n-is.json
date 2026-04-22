@@ -6,35 +6,37 @@
 	],
 	"package": "libreoffice-l10n-is",
 	"source": "libreoffice",
-	"version": "4:7.5.9-0ubuntu0.23.04.1~bpo22.04.1",
+	"version": "4:25.8.5-0ubuntu0.25.10.1~bpo22.04.1",
 	"section": "localization",
 	"priority": "optional",
 	"architecture": "all",
 	"depends": [
-		"libreoffice-common (>= 1:7.0.0~alpha~)",
-		"locales | locales-all",
-		"ucf"
+		"locales | locales-all"
+	],
+	"preDepends": [
+		"ucf",
+		"libreoffice-common (>= 4:25.2.1~rc1-3~)"
 	],
 	"recommends": [
-		"libreoffice-core (>> 4:7.5.9)"
+		"libreoffice-core (>> 4:25.8.5)"
 	],
 	"suggests": [
-		"hunspell-dictionary-is | myspell-dictionary-is",
-		"hyphen-is",
+		"hunspell-dictionary-is | myspell-dictionary-is | libreoffice-spellcheck-is",
+		"hyphen-is | libreoffice-hyphenation-is",
 		"libreoffice-grammarcheck-is",
 		"libreoffice-help-is",
 		"mythes-is"
 	],
-	"installedSize": 3531,
+	"installedSize": 3265,
 	"maintainer": "Ubuntu Developers <ubuntu-devel-discuss@lists.ubuntu.com>",
 	"description": "office productivity suite -- Icelandic language package",
 	"homepage": "http://www.libreoffice.org",
-	"filename": "pool/main/libr/libreoffice/libreoffice-l10n-is_7.5.9-0ubuntu0.23.04.1~bpo22.04.1_all.deb",
-	"size": 674726,
-	"md5": "e24c312da086b3165d1f3655c17cc9f8",
-	"sha1": "adf390de90999a592701f8e216ed4131c2352003",
-	"sha256": "fbca23316687308602ff6ca58cdb1aa7c2ed009aaabd3dd913e9b0afd9afc4d0",
-	"sha512": "10c40c6c5ba5053221faf05723b85a0d3970039097fbdf2ebd7c8ca82397ef50ef2b92395379cba3328dbf834ac78d546af42171565a965cf03ec8fd1726b957",
+	"filename": "pool/main/libr/libreoffice/libreoffice-l10n-is_25.8.5-0ubuntu0.25.10.1~bpo22.04.1_all.deb",
+	"size": 677372,
+	"md5": "c8a6b68019dc3bd67887f6ff4142c3cc",
+	"sha1": "a39d3f023242c32931fa16d37c51e66777b327ca",
+	"sha256": "b89edc0cb4d5e4ed6a071da141a72f3c992f4c6550c4def05fcef9a5fcc689d0",
+	"sha512": "91bfb39038e0c9642cf02e8fc372a7a755404b05922e2b742c57e5359218c2c89eb278c23063789a542bdd9bcf2b74fd03e137ebba657a65961120620172c812",
 	"descriptionMd5": "867a82757a25dc87440a74fb74e46369"
 },{
 	"raw": {},

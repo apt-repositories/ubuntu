@@ -6,35 +6,37 @@
 	],
 	"package": "libreoffice-l10n-nb",
 	"source": "libreoffice",
-	"version": "4:7.5.9-0ubuntu0.23.04.1~bpo22.04.1",
+	"version": "4:25.8.5-0ubuntu0.25.10.1~bpo22.04.1",
 	"section": "localization",
 	"priority": "optional",
 	"architecture": "all",
 	"depends": [
-		"libreoffice-common (>= 1:7.0.0~alpha~)",
-		"locales | locales-all",
-		"ucf"
+		"locales | locales-all"
+	],
+	"preDepends": [
+		"ucf",
+		"libreoffice-common (>= 4:25.2.1~rc1-3~)"
 	],
 	"recommends": [
-		"libreoffice-core (>> 4:7.5.9)"
+		"libreoffice-core (>> 4:25.8.5)"
 	],
 	"suggests": [
-		"hunspell-dictionary-nb | myspell-dictionary-nb",
-		"hyphen-nb",
+		"hunspell-dictionary-nb | myspell-dictionary-nb | libreoffice-spellcheck-nb",
+		"hyphen-nb | libreoffice-hyphenation-nb",
 		"libreoffice-grammarcheck-nb",
 		"libreoffice-help-nb",
 		"mythes-nb"
 	],
-	"installedSize": 4355,
+	"installedSize": 4257,
 	"maintainer": "Ubuntu Developers <ubuntu-devel-discuss@lists.ubuntu.com>",
 	"description": "office productivity suite -- Norwegian_bokmal language package",
 	"homepage": "http://www.libreoffice.org",
-	"filename": "pool/main/libr/libreoffice/libreoffice-l10n-nb_7.5.9-0ubuntu0.23.04.1~bpo22.04.1_all.deb",
-	"size": 855156,
-	"md5": "ca3b2c70ac4633e25ac081c836282ffe",
-	"sha1": "e42c9471b8ae72644f35598bd709a7abc6ef7843",
-	"sha256": "be809a1ba1a7735a224a309b507ff0d549740497b79e625587235886db083bda",
-	"sha512": "76802b6a1433c43d6ffed7da5751421449f6e08022f73406d6d9609d33854adfe0d1d9d020ec3d2fa89126c8a7b1b7d4229ecf83791dfa36ab68bffa332903f6",
+	"filename": "pool/main/libr/libreoffice/libreoffice-l10n-nb_25.8.5-0ubuntu0.25.10.1~bpo22.04.1_all.deb",
+	"size": 893878,
+	"md5": "2a1ef7af21f2364939e73cdb3604e0a0",
+	"sha1": "796716093ff92a6137d81a861a086b321f0834ea",
+	"sha256": "0e882ff09195d3779116c42d3588be75e58ed3eeb079a9874f9f301cb2da1f57",
+	"sha512": "ed427dc4e52d5c05a825f6a28ba2d2dd6c54676d8bdef3cafa85e53ad66d6575075cf3696576e816a2801104500335f9ac37ab98853a4a102a3a3103ec0d3dde",
 	"descriptionMd5": "9ec98f81a0201acd8a280f74f7aea258"
 },{
 	"raw": {},

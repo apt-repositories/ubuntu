@@ -6,36 +6,38 @@
 	],
 	"package": "libreoffice-l10n-bn",
 	"source": "libreoffice",
-	"version": "4:7.5.9-0ubuntu0.23.04.1~bpo22.04.1",
+	"version": "4:25.8.5-0ubuntu0.25.10.1~bpo22.04.1",
 	"section": "localization",
 	"priority": "optional",
 	"architecture": "all",
 	"depends": [
-		"libreoffice-common (>= 1:7.0.0~alpha~)",
-		"locales | locales-all",
-		"ucf"
+		"locales | locales-all"
+	],
+	"preDepends": [
+		"ucf",
+		"libreoffice-common (>= 4:25.2.1~rc1-3~)"
 	],
 	"recommends": [
 		"fonts-beng",
-		"libreoffice-core (>> 4:7.5.9)"
+		"libreoffice-core (>> 4:25.8.5)"
 	],
 	"suggests": [
-		"hunspell-dictionary-bn | myspell-dictionary-bn",
-		"hyphen-bn",
+		"hunspell-dictionary-bn | myspell-dictionary-bn | libreoffice-spellcheck-bn",
+		"hyphen-bn | libreoffice-hyphenation-bn",
 		"libreoffice-grammarcheck-bn",
 		"libreoffice-help-bn",
 		"mythes-bn"
 	],
-	"installedSize": 6691,
+	"installedSize": 5741,
 	"maintainer": "Ubuntu Developers <ubuntu-devel-discuss@lists.ubuntu.com>",
 	"description": "office productivity suite -- Bengali language package",
 	"homepage": "http://www.libreoffice.org",
-	"filename": "pool/main/libr/libreoffice/libreoffice-l10n-bn_7.5.9-0ubuntu0.23.04.1~bpo22.04.1_all.deb",
-	"size": 708822,
-	"md5": "265ff194a18b910a9d91c93f749424fa",
-	"sha1": "df6554d4e72cdb95e569e5f387998acc28fb56f0",
-	"sha256": "49eaf1f3e5bb4439d974dc74fbd1e217f11cebf8a3460270a8b3d82ebe5ad254",
-	"sha512": "92006e4db3e07e9119d3a9e38e36d25765c94abc1fd3d3d9881190f60c175ba5c4a7338c1e0f0a3ad3efcce23130094e012d2936e0eb53b9656ef29f217d05cc",
+	"filename": "pool/main/libr/libreoffice/libreoffice-l10n-bn_25.8.5-0ubuntu0.25.10.1~bpo22.04.1_all.deb",
+	"size": 679098,
+	"md5": "8103d0b7e2b6d1422f667a36467aa2e8",
+	"sha1": "d41cb18b511309521cf43cd8a57dd20e1dd05a82",
+	"sha256": "bf30ff0a8e593eedcf89e8ebdfce322e3d04e38cffe6978f4d2b65eca53ed025",
+	"sha512": "6a0fa570105d7234968eb662ee211cc3102588a9396ff95876690be1aa4565d4237a7a9dc909e1bd56bbacaa3ac4c7db6045504efae85d8a808aab96886dde5c",
 	"descriptionMd5": "00d1921e153b39622cb04e7f66795716"
 },{
 	"raw": {},

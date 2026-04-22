@@ -6,34 +6,36 @@
 	],
 	"package": "libreoffice-l10n-ca",
 	"source": "libreoffice",
-	"version": "4:7.5.9-0ubuntu0.23.04.1~bpo22.04.1",
+	"version": "4:25.8.5-0ubuntu0.25.10.1~bpo22.04.1",
 	"section": "localization",
 	"priority": "optional",
 	"architecture": "all",
 	"depends": [
-		"libreoffice-common (>= 1:7.0.0~alpha~)",
-		"locales | locales-all",
-		"ucf"
+		"locales | locales-all"
+	],
+	"preDepends": [
+		"ucf",
+		"libreoffice-common (>= 4:25.2.1~rc1-3~)"
 	],
 	"recommends": [
-		"libreoffice-core (>> 4:7.5.9)"
+		"libreoffice-core (>> 4:25.8.5)"
 	],
 	"suggests": [
-		"hunspell-dictionary-ca | myspell-dictionary-ca",
-		"hyphen-ca",
+		"hunspell-dictionary-ca | myspell-dictionary-ca | libreoffice-spellcheck-ca",
+		"hyphen-ca | libreoffice-hyphenation-ca",
 		"libreoffice-grammarcheck-ca",
 		"libreoffice-help-ca",
 		"mythes-ca"
 	],
-	"installedSize": 8791,
+	"installedSize": 8293,
 	"maintainer": "Ubuntu Developers <ubuntu-devel-discuss@lists.ubuntu.com>",
 	"description": "office productivity suite -- Catalan language package",
 	"homepage": "http://www.libreoffice.org",
-	"filename": "pool/main/libr/libreoffice/libreoffice-l10n-ca_7.5.9-0ubuntu0.23.04.1~bpo22.04.1_all.deb",
-	"size": 1055590,
-	"md5": "e5112aaa732633a81915439096d2aae5",
-	"sha1": "b2bd1a22f83c4d3cc38c48f54a348cdc80cbe794",
-	"sha256": "f54caf4a58262455fd9e0c5793373f39f1b79ad499ea9bb6d719feca123708ed",
-	"sha512": "5010d86edb879df0373a0580c1cad36e69b07c4dff6d0cad0677e7f5a2db69f5b3e25fa3c1883092dab608997d86fb792ce8cdeaf3b628834fabb7a363f1ab71",
+	"filename": "pool/main/libr/libreoffice/libreoffice-l10n-ca_25.8.5-0ubuntu0.25.10.1~bpo22.04.1_all.deb",
+	"size": 1159478,
+	"md5": "f28cb7fd9f3129b878359857483a1a9c",
+	"sha1": "e0dd819885bbc964bd0ecbbe4fcd9c846ef69d51",
+	"sha256": "c42227cf94947f13545faa41b9d0435a912d9fc39650cefe28dcd82e818eb4a8",
+	"sha512": "4fe51e09e40680cf32e407ac615d0617cbecb0d5b2c4ffd4ade68278a95e43b411815da6e7d7af6d8b0f9422da5047e2c760f6a8fa05f647974b44e3da4b69e8",
 	"descriptionMd5": "a91b06d5c0057582f16109658e9ac2f8"
 }

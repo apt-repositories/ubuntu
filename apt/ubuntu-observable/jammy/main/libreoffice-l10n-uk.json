@@ -6,35 +6,37 @@
 	],
 	"package": "libreoffice-l10n-uk",
 	"source": "libreoffice",
-	"version": "4:7.5.9-0ubuntu0.23.04.1~bpo22.04.1",
+	"version": "4:25.8.5-0ubuntu0.25.10.1~bpo22.04.1",
 	"section": "localization",
 	"priority": "optional",
 	"architecture": "all",
 	"depends": [
-		"libreoffice-common (>= 1:7.0.0~alpha~)",
-		"locales | locales-all",
-		"ucf"
+		"locales | locales-all"
+	],
+	"preDepends": [
+		"ucf",
+		"libreoffice-common (>= 4:25.2.1~rc1-3~)"
 	],
 	"recommends": [
-		"libreoffice-core (>> 4:7.5.9)"
+		"libreoffice-core (>> 4:25.8.5)"
 	],
 	"suggests": [
-		"hunspell-dictionary-uk | myspell-dictionary-uk",
-		"hyphen-uk",
+		"hunspell-dictionary-uk | myspell-dictionary-uk | libreoffice-spellcheck-uk",
+		"hyphen-uk | libreoffice-hyphenation-uk",
 		"libreoffice-grammarcheck-uk",
 		"libreoffice-help-uk",
 		"mythes-uk"
 	],
-	"installedSize": 5489,
+	"installedSize": 5053,
 	"maintainer": "Ubuntu Developers <ubuntu-devel-discuss@lists.ubuntu.com>",
 	"description": "office productivity suite -- Ukrainian language package",
 	"homepage": "http://www.libreoffice.org",
-	"filename": "pool/main/libr/libreoffice/libreoffice-l10n-uk_7.5.9-0ubuntu0.23.04.1~bpo22.04.1_all.deb",
-	"size": 909590,
-	"md5": "bcabefdda64077f44d01bd867a72ac9f",
-	"sha1": "738ed4e75740394f4503ab9c693020fad6097d9a",
-	"sha256": "e8d98829c2a357535af21546441b8670b4ce3540d23487b3de311395aab22f65",
-	"sha512": "18c6cb7407334e316e126bbf02da3cbb0ec5a762e9dac5bff340296e013f4fcf0f4cf5a85c3335c4c5c4458f169bceb33fd080771328e65859c66a61220c0285",
+	"filename": "pool/main/libr/libreoffice/libreoffice-l10n-uk_25.8.5-0ubuntu0.25.10.1~bpo22.04.1_all.deb",
+	"size": 940928,
+	"md5": "500dba0c95728527cd595fff29970d49",
+	"sha1": "b23ac30a185f416f88e8a0d381839087a6fcb2c5",
+	"sha256": "a632430c9e37983a61589bb443b9175bdb57eeab969a9e979b97a8377c02171a",
+	"sha512": "19a57e577ae594dd1d9d5d855134db2830de6b4de659958db6dbf680bb473955849ebdf9cabcf07c5258613c2015cd1ec3eebd761b092588aa2cb63b20109906",
 	"descriptionMd5": "6f386a310674737ccb0fc8c3aaefc90e"
 },{
 	"raw": {},

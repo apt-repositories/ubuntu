@@ -6,36 +6,38 @@
 	],
 	"package": "libreoffice-l10n-te",
 	"source": "libreoffice",
-	"version": "4:7.5.9-0ubuntu0.23.04.1~bpo22.04.1",
+	"version": "4:25.8.5-0ubuntu0.25.10.1~bpo22.04.1",
 	"section": "localization",
 	"priority": "optional",
 	"architecture": "all",
 	"depends": [
-		"libreoffice-common (>= 1:7.0.0~alpha~)",
-		"locales | locales-all",
-		"ucf"
+		"locales | locales-all"
+	],
+	"preDepends": [
+		"ucf",
+		"libreoffice-common (>= 4:25.2.1~rc1-3~)"
 	],
 	"recommends": [
 		"fonts-telu",
-		"libreoffice-core (>> 4:7.5.9)"
+		"libreoffice-core (>> 4:25.8.5)"
 	],
 	"suggests": [
-		"hunspell-dictionary-te | myspell-dictionary-te",
-		"hyphen-te",
+		"hunspell-dictionary-te | myspell-dictionary-te | libreoffice-spellcheck-te",
+		"hyphen-te | libreoffice-hyphenation-te",
 		"libreoffice-grammarcheck-te",
 		"libreoffice-help-te",
 		"mythes-te"
 	],
-	"installedSize": 3108,
+	"installedSize": 2617,
 	"maintainer": "Ubuntu Developers <ubuntu-devel-discuss@lists.ubuntu.com>",
 	"description": "office productivity suite -- Telugu language package",
 	"homepage": "http://www.libreoffice.org",
-	"filename": "pool/main/libr/libreoffice/libreoffice-l10n-te_7.5.9-0ubuntu0.23.04.1~bpo22.04.1_all.deb",
-	"size": 418552,
-	"md5": "b3b9137e381cc5e2b2ec8b8a5f891192",
-	"sha1": "2a38cea6a961c44a28ef1d280a02fd9994dd2833",
-	"sha256": "a48f18ff5ae859c60b668edbea977c4dbab66f1a87958a07110633bd83e6eec9",
-	"sha512": "e59345b4900e598458dd70d25172bb39438a29167ea89bcf72cb33b1ca37f9dd8ca54f7bd0b2619bd32f534aedfb65a16c0acf749bc54f3c72ae49dc3a39a476",
+	"filename": "pool/main/libr/libreoffice/libreoffice-l10n-te_25.8.5-0ubuntu0.25.10.1~bpo22.04.1_all.deb",
+	"size": 402670,
+	"md5": "f5cbd0cdaba02c288c77f612ecbe6074",
+	"sha1": "bfed132462b625e96181b94d21e2347dac5cb535",
+	"sha256": "356b59020e7462e4371da34d5d9258a4e4cb3ad85cb895152c156548c04118ab",
+	"sha512": "4d61ce1383df29f435fb3bf02eb073f8c966c81ce2283e6c102d6ca834fce0d02a50d7eac8271b22ba44ecabf4b3e97613116c138425913c37ff425334534409",
 	"descriptionMd5": "61e424cfb84420f8dc211c66f1b3a533"
 },{
 	"raw": {},

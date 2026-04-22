@@ -6,35 +6,37 @@
 	],
 	"package": "libreoffice-l10n-tn",
 	"source": "libreoffice",
-	"version": "4:7.5.9-0ubuntu0.23.04.1~bpo22.04.1",
+	"version": "4:25.8.5-0ubuntu0.25.10.1~bpo22.04.1",
 	"section": "localization",
 	"priority": "optional",
 	"architecture": "all",
 	"depends": [
-		"libreoffice-common (>= 1:7.0.0~alpha~)",
-		"locales | locales-all",
-		"ucf"
+		"locales | locales-all"
+	],
+	"preDepends": [
+		"ucf",
+		"libreoffice-common (>= 4:25.2.1~rc1-3~)"
 	],
 	"recommends": [
-		"libreoffice-core (>> 4:7.5.9)"
+		"libreoffice-core (>> 4:25.8.5)"
 	],
 	"suggests": [
-		"hunspell-dictionary-tn | myspell-dictionary-tn",
-		"hyphen-tn",
+		"hunspell-dictionary-tn | myspell-dictionary-tn | libreoffice-spellcheck-tn",
+		"hyphen-tn | libreoffice-hyphenation-tn",
 		"libreoffice-grammarcheck-tn",
 		"libreoffice-help-tn",
 		"mythes-tn"
 	],
-	"installedSize": 1794,
+	"installedSize": 1524,
 	"maintainer": "Ubuntu Developers <ubuntu-devel-discuss@lists.ubuntu.com>",
 	"description": "office productivity suite -- Tswana language package",
 	"homepage": "http://www.libreoffice.org",
-	"filename": "pool/main/libr/libreoffice/libreoffice-l10n-tn_7.5.9-0ubuntu0.23.04.1~bpo22.04.1_all.deb",
-	"size": 218812,
-	"md5": "06409baaf04f230b7e05368d8c02bdb1",
-	"sha1": "b16ba987d6bbc1d60f552a8a067584f3aabb50cb",
-	"sha256": "88589681b1548e2dcf454a1a9ab454fe551ebe3c69000adae76e01a2ae309071",
-	"sha512": "abd1e1651e569a4531eb388efce556c079e194fe12cd22bb8563da5b6effdc357b9f0b766a89089f9d1276ed50d10bdb969a3c4f29f059ed64bbe22e0c1c850b",
+	"filename": "pool/main/libr/libreoffice/libreoffice-l10n-tn_25.8.5-0ubuntu0.25.10.1~bpo22.04.1_all.deb",
+	"size": 214366,
+	"md5": "8cdea58f85c59b819f21a2acf60af668",
+	"sha1": "741afa04fd3a2aede43b4662df22e4707bed6c45",
+	"sha256": "3e60a6cfe18b16d295e20e2f5ecd5311792b76a9937fdf765b2a7a7b7e3f4803",
+	"sha512": "ea3de2b0dbf7adde7346dcf944defa8befc5a86513831c1ff487adb9adcae1c651fc51685fa7dabccb3f2499bb5a47e4da51e1b6b2e12d925f4edb2a04ac0f18",
 	"descriptionMd5": "7da81d27f41218d11fbd8aabceec792c"
 },{
 	"raw": {},

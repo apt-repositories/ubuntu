@@ -6,34 +6,36 @@
 	],
 	"package": "libreoffice-l10n-mn",
 	"source": "libreoffice",
-	"version": "4:7.5.9-0ubuntu0.23.04.1~bpo22.04.1",
+	"version": "4:25.8.5-0ubuntu0.25.10.1~bpo22.04.1",
 	"section": "localization",
 	"priority": "optional",
 	"architecture": "all",
 	"depends": [
-		"libreoffice-common (>= 1:7.0.0~alpha~)",
-		"locales | locales-all",
-		"ucf"
+		"locales | locales-all"
+	],
+	"preDepends": [
+		"ucf",
+		"libreoffice-common (>= 4:25.2.1~rc1-3~)"
 	],
 	"recommends": [
-		"libreoffice-core (>> 4:7.5.9)"
+		"libreoffice-core (>> 4:25.8.5)"
 	],
 	"suggests": [
-		"hunspell-dictionary-mn | myspell-dictionary-mn",
-		"hyphen-mn",
+		"hunspell-dictionary-mn | myspell-dictionary-mn | libreoffice-spellcheck-mn",
+		"hyphen-mn | libreoffice-hyphenation-mn",
 		"libreoffice-grammarcheck-mn",
 		"libreoffice-help-mn",
 		"mythes-mn"
 	],
-	"installedSize": 4171,
+	"installedSize": 3469,
 	"maintainer": "Ubuntu Developers <ubuntu-devel-discuss@lists.ubuntu.com>",
 	"description": "office productivity suite -- Mongolian language package",
 	"homepage": "http://www.libreoffice.org",
-	"filename": "pool/main/libr/libreoffice/libreoffice-l10n-mn_7.5.9-0ubuntu0.23.04.1~bpo22.04.1_all.deb",
-	"size": 710438,
-	"md5": "aefed812713bad072934ee296c07d296",
-	"sha1": "c8bb3be46452525f5fcb6d9b817aff206ce19641",
-	"sha256": "4db078e49452407ca97f8ea5b4df6e98ebe1c98db738e10123729f2b2c87f350",
-	"sha512": "c3a4d4f89656d181bcf6e8a651c624869c8b36eb914252580d788f76942b07beceb0c3a546c149055a6b1cf2ab2eb91e23eb76a24b4baffff900e39c997661fc",
+	"filename": "pool/main/libr/libreoffice/libreoffice-l10n-mn_25.8.5-0ubuntu0.25.10.1~bpo22.04.1_all.deb",
+	"size": 681238,
+	"md5": "e81f8e0e2651477109222820d275d28c",
+	"sha1": "536e446a6d90604c41cd1d5c832b462b98da6689",
+	"sha256": "c067405e5c0b8945b643e3cee272418ad172d6a758f8115dbebb351f022c9d3d",
+	"sha512": "ec43cc14f825851501719f23a9b5fda6be03ac75bf8ba28a34200193f988d4a53a4225806e8faaf1cf15be7286de7b5d7bc0a033f712f0a3858a746e6a9f810b",
 	"descriptionMd5": "4025564fcb7aef1ac127f7d38a7d89a3"
 }

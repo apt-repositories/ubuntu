@@ -6,35 +6,37 @@
 	],
 	"package": "libreoffice-l10n-kmr",
 	"source": "libreoffice",
-	"version": "4:7.5.9-0ubuntu0.23.04.1~bpo22.04.1",
+	"version": "4:25.8.5-0ubuntu0.25.10.1~bpo22.04.1",
 	"section": "localization",
 	"priority": "optional",
 	"architecture": "all",
 	"depends": [
-		"libreoffice-common (>= 1:7.0.0~alpha~)",
-		"locales | locales-all",
-		"ucf"
+		"locales | locales-all"
+	],
+	"preDepends": [
+		"ucf",
+		"libreoffice-common (>= 4:25.2.1~rc1-3~)"
 	],
 	"recommends": [
-		"libreoffice-core (>> 4:7.5.9)"
+		"libreoffice-core (>> 4:25.8.5)"
 	],
 	"suggests": [
-		"hunspell-dictionary-kmr | myspell-dictionary-kmr",
-		"hyphen-kmr",
+		"hunspell-dictionary-kmr | myspell-dictionary-kmr | libreoffice-spellcheck-kmr",
+		"hyphen-kmr | libreoffice-hyphenation-kmr",
 		"libreoffice-grammarcheck-kmr",
 		"libreoffice-help-kmr",
 		"mythes-kmr"
 	],
-	"installedSize": 2044,
+	"installedSize": 1787,
 	"maintainer": "Ubuntu Developers <ubuntu-devel-discuss@lists.ubuntu.com>",
 	"description": "office productivity suite -- Kurmanji language package",
 	"homepage": "http://www.libreoffice.org",
-	"filename": "pool/main/libr/libreoffice/libreoffice-l10n-kmr_7.5.9-0ubuntu0.23.04.1~bpo22.04.1_all.deb",
-	"size": 277592,
-	"md5": "6b3105a2dab21d01e35c8fe7231ce3c0",
-	"sha1": "aaf4445b5c73aac08a6d013a6fda86cab5a18816",
-	"sha256": "504aba624b9bab61ce74aa1760c2267c6eb98d7e75266ab8714e12c027c22ced",
-	"sha512": "b1a6202d2b32764eac5a96b82d41c69a479781b7ef075876d2dddf17ed46110e95857abcddd9184da8ce63156fde6af049d8b818bfd988973a2c6e424cf2e337",
+	"filename": "pool/main/libr/libreoffice/libreoffice-l10n-kmr_25.8.5-0ubuntu0.25.10.1~bpo22.04.1_all.deb",
+	"size": 279586,
+	"md5": "2570312f98223de78a705a6619787329",
+	"sha1": "5014efb4abd325a1862734414911d288d8fd7143",
+	"sha256": "b670b1a37c83ad49c6d04355a7219ac0a12d9904ee3640ee2d2ebf35c13210ab",
+	"sha512": "3bf9be9a3b162da2b80d23006cd97399dd4da379e09ac5ed23f76ca18c8cdca512e851b7106ad22dd26efa71576b57b88df11bdf455514b28be3df1e57543f7c",
 	"descriptionMd5": "b118604d13c95984ec63f0e9fea14884"
 },{
 	"raw": {},

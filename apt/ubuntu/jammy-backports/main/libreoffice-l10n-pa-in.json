@@ -6,35 +6,37 @@
 	],
 	"package": "libreoffice-l10n-pa-in",
 	"source": "libreoffice",
-	"version": "4:7.5.9-0ubuntu0.23.04.1~bpo22.04.1",
+	"version": "4:25.8.5-0ubuntu0.25.10.1~bpo22.04.1",
 	"section": "localization",
 	"priority": "optional",
 	"architecture": "all",
 	"depends": [
-		"libreoffice-common (>= 1:7.0.0~alpha~)",
-		"locales | locales-all",
-		"ucf"
+		"locales | locales-all"
+	],
+	"preDepends": [
+		"ucf",
+		"libreoffice-common (>= 4:25.2.1~rc1-3~)"
 	],
 	"recommends": [
 		"fonts-guru",
-		"libreoffice-core (>> 4:7.5.9)"
+		"libreoffice-core (>> 4:25.8.5)"
 	],
 	"suggests": [
-		"hunspell-dictionary-pa-in | myspell-dictionary-pa-in",
-		"hyphen-pa-in",
+		"hunspell-dictionary-pa-in | myspell-dictionary-pa-in | libreoffice-spellcheck-pa-in",
+		"hyphen-pa-in | libreoffice-hyphenation-pa-in",
 		"libreoffice-grammarcheck-pa-in",
 		"libreoffice-help-pa-in",
 		"mythes-pa-in"
 	],
-	"installedSize": 3061,
+	"installedSize": 2978,
 	"maintainer": "Ubuntu Developers <ubuntu-devel-discuss@lists.ubuntu.com>",
 	"description": "office productivity suite -- Punjabi language package",
 	"homepage": "http://www.libreoffice.org",
-	"filename": "pool/main/libr/libreoffice/libreoffice-l10n-pa-in_7.5.9-0ubuntu0.23.04.1~bpo22.04.1_all.deb",
-	"size": 445790,
-	"md5": "c3b0d74a7f13d2cb80bf2f7c4adc4906",
-	"sha1": "4e766ab67afe4ffe2e1fac5d04fa0719521ba7fb",
-	"sha256": "886cf302c3c213da36a36ac53712783939e7c22b738dfa476b1e14735fbafe4f",
-	"sha512": "d3307c0b0af7cec55f5a9649d0a14d179f2d63c13dad4ad8c9a1864442569714af3581709eebaf253f95c1860bd59061c37082e830f3a6abf39892bdad6d0d03",
+	"filename": "pool/main/libr/libreoffice/libreoffice-l10n-pa-in_25.8.5-0ubuntu0.25.10.1~bpo22.04.1_all.deb",
+	"size": 502288,
+	"md5": "102503504aa566edbb16b0d81696703b",
+	"sha1": "e6c958c651f8948a8d8dc9365d2572c5a58e8f3c",
+	"sha256": "91a8dbf6105e50f0204eae59aa8fbe2528797a3a6305e6a8aa80c5116460dcc1",
+	"sha512": "55b4fcaaf3c1b1554dfd9ef6b0407e692a47af7746e9e948060bf801cd6c500cc073e99afd97cee5b3e888a6f28c40ef5a9efa5aaaaa5c0976d01f43ce729824",
 	"descriptionMd5": "257cf2122f7b0d44fd1c044bf69204bb"
 }

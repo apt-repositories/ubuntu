@@ -6,34 +6,36 @@
 	],
 	"package": "libreoffice-l10n-sk",
 	"source": "libreoffice",
-	"version": "4:7.5.9-0ubuntu0.23.04.1~bpo22.04.1",
+	"version": "4:25.8.5-0ubuntu0.25.10.1~bpo22.04.1",
 	"section": "localization",
 	"priority": "optional",
 	"architecture": "all",
 	"depends": [
-		"libreoffice-common (>= 1:7.0.0~alpha~)",
-		"locales | locales-all",
-		"ucf"
+		"locales | locales-all"
+	],
+	"preDepends": [
+		"ucf",
+		"libreoffice-common (>= 4:25.2.1~rc1-3~)"
 	],
 	"recommends": [
-		"libreoffice-core (>> 4:7.5.9)"
+		"libreoffice-core (>> 4:25.8.5)"
 	],
 	"suggests": [
-		"hunspell-dictionary-sk | myspell-dictionary-sk",
-		"hyphen-sk",
+		"hunspell-dictionary-sk | myspell-dictionary-sk | libreoffice-spellcheck-sk",
+		"hyphen-sk | libreoffice-hyphenation-sk",
 		"libreoffice-grammarcheck-sk",
 		"libreoffice-help-sk",
 		"mythes-sk"
 	],
-	"installedSize": 4620,
+	"installedSize": 4456,
 	"maintainer": "Ubuntu Developers <ubuntu-devel-discuss@lists.ubuntu.com>",
 	"description": "office productivity suite -- Slovak language package",
 	"homepage": "http://www.libreoffice.org",
-	"filename": "pool/main/libr/libreoffice/libreoffice-l10n-sk_7.5.9-0ubuntu0.23.04.1~bpo22.04.1_all.deb",
-	"size": 968350,
-	"md5": "f80e670991e9a23a1311d75a42579c08",
-	"sha1": "e3a54a693013a734adbe3d9e2f2c393501fea3e7",
-	"sha256": "5d0b99e4b283e773cf7ea340e5cea4714ec0a10ad1dc2c417e7755f789ae38be",
-	"sha512": "8701ca90960399e66ee33ee29b43eaa8923a5c8147c6e97dad5408af1c3cb2d670bca5fe9395f58e6188725651b5332b3aedbde79ae1f2d9ee830657d4a3277c",
+	"filename": "pool/main/libr/libreoffice/libreoffice-l10n-sk_25.8.5-0ubuntu0.25.10.1~bpo22.04.1_all.deb",
+	"size": 999070,
+	"md5": "4125c5858ce0aa456307febf58da4603",
+	"sha1": "c92e1bffd283372071aec327c82927e48dbd7010",
+	"sha256": "97f31f982d65d15971fdc2f94693d314416f1f9ae9cd78d7fcc297acb205d90d",
+	"sha512": "31254248b344f9b334c0d49c3972922e3a209a79a7ac1d5991d3a4e864de53fdf597df6f004974572d5ff2a29c6559668180a85b50aba5cf13e1cc9622f04750",
 	"descriptionMd5": "1769b72d83c3ab6d8bc16b3fda5f0a67"
 }

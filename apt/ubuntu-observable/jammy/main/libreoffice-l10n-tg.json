@@ -6,35 +6,37 @@
 	],
 	"package": "libreoffice-l10n-tg",
 	"source": "libreoffice",
-	"version": "4:7.5.9-0ubuntu0.23.04.1~bpo22.04.1",
+	"version": "4:25.8.5-0ubuntu0.25.10.1~bpo22.04.1",
 	"section": "localization",
 	"priority": "optional",
 	"architecture": "all",
 	"depends": [
-		"libreoffice-common (>= 1:7.0.0~alpha~)",
-		"locales | locales-all",
-		"ucf"
+		"locales | locales-all"
+	],
+	"preDepends": [
+		"ucf",
+		"libreoffice-common (>= 4:25.2.1~rc1-3~)"
 	],
 	"recommends": [
-		"libreoffice-core (>> 4:7.5.9)"
+		"libreoffice-core (>> 4:25.8.5)"
 	],
 	"suggests": [
-		"hunspell-dictionary-tg | myspell-dictionary-tg",
-		"hyphen-tg",
+		"hunspell-dictionary-tg | myspell-dictionary-tg | libreoffice-spellcheck-tg",
+		"hyphen-tg | libreoffice-hyphenation-tg",
 		"libreoffice-grammarcheck-tg",
 		"libreoffice-help-tg",
 		"mythes-tg"
 	],
-	"installedSize": 2480,
+	"installedSize": 2030,
 	"maintainer": "Ubuntu Developers <ubuntu-devel-discuss@lists.ubuntu.com>",
 	"description": "office productivity suite -- Tajik language package",
 	"homepage": "http://www.libreoffice.org",
-	"filename": "pool/main/libr/libreoffice/libreoffice-l10n-tg_7.5.9-0ubuntu0.23.04.1~bpo22.04.1_all.deb",
-	"size": 312780,
-	"md5": "c4fae15805ac5d78719711b00a660758",
-	"sha1": "c183ae30f8e5744edb5bad245dcd1d4bd260eaf9",
-	"sha256": "3a65329c86a3967ce0cea8c323cd2752b57b992dcdbdec3ad16e4cce27f4b716",
-	"sha512": "a9e22e9a36bc5d881f03f658cfabddcf2326277755e0bc4edacaee30cc33521ebdd41a40300fba06f07d8617f8e305b858ade383d637391613f161ff667f191d",
+	"filename": "pool/main/libr/libreoffice/libreoffice-l10n-tg_25.8.5-0ubuntu0.25.10.1~bpo22.04.1_all.deb",
+	"size": 300940,
+	"md5": "974fc5c036cf7615b3e940670d4f1881",
+	"sha1": "9da24a371c89a6d387d5b066eaa4e4eca5e7660b",
+	"sha256": "ed50e2b7954cdad88eb968f693452205fb7d5c8a7c366bf62b8940cafeb236e6",
+	"sha512": "7ffcc54e6ee2ff4b8166a42c5199d6e6fd1a9915f8ee8631c5a9c148469438ac5a19620165a12ba4a225e54837f9b5c6020e28f1d032aa0d64b3797169200597",
 	"descriptionMd5": "20867b7b1d2eafbaca5ff6af5b2d57c9"
 },{
 	"raw": {},

@@ -5,6 +5,52 @@
 		"Size"
 	],
 	"package": "rustup",
+	"version": "1.26.0-5ubuntu0.1",
+	"section": "universe/devel",
+	"priority": "optional",
+	"architecture": "amd64",
+	"depends": [
+		"libc6 (>= 2.38)",
+		"libcurl3t64-gnutls (>= 7.16.2)",
+		"libgcc-s1 (>= 4.2)",
+		"liblzma5 (>= 5.1.1alpha+20120614)",
+		"libssl3t64 (>= 3.0.0)",
+		"libzstd1 (>= 1.5.5)"
+	],
+	"conflicts": [
+		"cargo",
+		"rust-clippy",
+		"rust-doc",
+		"rust-gdb",
+		"rust-lldb",
+		"rust-mozilla-gdb",
+		"rust-mozilla-lldb",
+		"rust-web-clippy",
+		"rust-web-gdb",
+		"rust-web-lldb",
+		"rustc",
+		"rustfmt",
+		"rustfmt-web"
+	],
+	"installedSize": 6760,
+	"maintainer": "Ubuntu Developers <ubuntu-devel-discuss@lists.ubuntu.com>",
+	"description": "The Rust toolchain installer",
+	"homepage": "https://github.com/rust-lang/rustup",
+	"builtUsing": "rust-nix (= 0.27.1-1build1), rust-retry (= 2.0.0-4), rustc (= 1.75.0+dfsg0ubuntu1-0ubuntu7.4)",
+	"filename": "pool/universe/r/rustup/rustup_1.26.0-5ubuntu0.1_amd64.deb",
+	"size": 2335980,
+	"md5": "66dfe9a022cca0baf1f20812d1ec2a3e",
+	"sha1": "c58dd83ea297fea989a48103f407ee98d82bc89e",
+	"sha256": "3b17fa4ef92924156a01ba2cbfcbab4029ecb57c062da61da6a5a3f7541ef4e1",
+	"sha512": "3b8fd13818c8f12372d727c9abe51f760b474a6334ecc342a71d0676172dfcf00c9fbb97b9e52c217139868c13eb40667df118479911cc61c4370ef329a25828",
+	"descriptionMd5": "2ba5b70628e6e63caa3bff3db0f71c2b"
+},{
+	"raw": {},
+	"required": [
+		"Filename",
+		"Size"
+	],
+	"package": "rustup",
 	"version": "1.26.0-5build1",
 	"section": "universe/devel",
 	"priority": "optional",

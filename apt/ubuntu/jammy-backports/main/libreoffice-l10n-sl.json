@@ -6,34 +6,36 @@
 	],
 	"package": "libreoffice-l10n-sl",
 	"source": "libreoffice",
-	"version": "4:7.5.9-0ubuntu0.23.04.1~bpo22.04.1",
+	"version": "4:25.8.5-0ubuntu0.25.10.1~bpo22.04.1",
 	"section": "localization",
 	"priority": "optional",
 	"architecture": "all",
 	"depends": [
-		"libreoffice-common (>= 1:7.0.0~alpha~)",
-		"locales | locales-all",
-		"ucf"
+		"locales | locales-all"
+	],
+	"preDepends": [
+		"ucf",
+		"libreoffice-common (>= 4:25.2.1~rc1-3~)"
 	],
 	"recommends": [
-		"libreoffice-core (>> 4:7.5.9)"
+		"libreoffice-core (>> 4:25.8.5)"
 	],
 	"suggests": [
-		"hunspell-dictionary-sl | myspell-dictionary-sl",
-		"hyphen-sl",
+		"hunspell-dictionary-sl | myspell-dictionary-sl | libreoffice-spellcheck-sl",
+		"hyphen-sl | libreoffice-hyphenation-sl",
 		"libreoffice-grammarcheck-sl",
 		"libreoffice-help-sl",
 		"mythes-sl"
 	],
-	"installedSize": 4541,
+	"installedSize": 4443,
 	"maintainer": "Ubuntu Developers <ubuntu-devel-discuss@lists.ubuntu.com>",
 	"description": "office productivity suite -- Slovenian language package",
 	"homepage": "http://www.libreoffice.org",
-	"filename": "pool/main/libr/libreoffice/libreoffice-l10n-sl_7.5.9-0ubuntu0.23.04.1~bpo22.04.1_all.deb",
-	"size": 946392,
-	"md5": "066d9ea7b9468ca7673f0d34cf81356e",
-	"sha1": "1b028c2b65e525002e4b58130ce5689c5f10e59e",
-	"sha256": "16507bd118eea212b646368b6408c270efca9009496f0c795ae16dfc94616b3c",
-	"sha512": "665d0ce2be874043286099c7df8e1b138de6e471952d60f3daea1ad12b787bcf174a36eece845ead397eb1c9fb1025ea291d727d1cc809f0cb5a016bad43719c",
+	"filename": "pool/main/libr/libreoffice/libreoffice-l10n-sl_25.8.5-0ubuntu0.25.10.1~bpo22.04.1_all.deb",
+	"size": 988320,
+	"md5": "d194ecaf145b0833c36ab3cbd83a14c4",
+	"sha1": "4e4902f7554d38b4df6c1b48cd3b98ea9543d1fe",
+	"sha256": "76d87a1c34d03d6b7e698338637464ee8a7b6b316ae3a4d146952cfe84bd47c5",
+	"sha512": "8e8a0c8043810892625d4579a8250bda4ed94d678771c9dd113df9e7453132c188a99550768aa3cb45bf39ea3f4c6a711dfcffbed0f93cf656b695d09b0b64a1",
 	"descriptionMd5": "cb73e143fff5a545b5d0d0878593a2f5"
 }

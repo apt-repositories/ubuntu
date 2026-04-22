@@ -6,36 +6,38 @@
 	],
 	"package": "libreoffice-l10n-km",
 	"source": "libreoffice",
-	"version": "4:7.5.9-0ubuntu0.23.04.1~bpo22.04.1",
+	"version": "4:25.8.5-0ubuntu0.25.10.1~bpo22.04.1",
 	"section": "localization",
 	"priority": "optional",
 	"architecture": "all",
 	"depends": [
-		"libreoffice-common (>= 1:7.0.0~alpha~)",
-		"locales | locales-all",
-		"ucf"
+		"locales | locales-all"
+	],
+	"preDepends": [
+		"ucf",
+		"libreoffice-common (>= 4:25.2.1~rc1-3~)"
 	],
 	"recommends": [
 		"fonts-khmeros",
-		"libreoffice-core (>> 4:7.5.9)"
+		"libreoffice-core (>> 4:25.8.5)"
 	],
 	"suggests": [
-		"hunspell-dictionary-km | myspell-dictionary-km",
-		"hyphen-km",
+		"hunspell-dictionary-km | myspell-dictionary-km | libreoffice-spellcheck-km",
+		"hyphen-km | libreoffice-hyphenation-km",
 		"libreoffice-grammarcheck-km",
 		"libreoffice-help-km",
 		"mythes-km"
 	],
-	"installedSize": 4315,
+	"installedSize": 3757,
 	"maintainer": "Ubuntu Developers <ubuntu-devel-discuss@lists.ubuntu.com>",
 	"description": "office productivity suite -- Khmer language package",
 	"homepage": "http://www.libreoffice.org",
-	"filename": "pool/main/libr/libreoffice/libreoffice-l10n-km_7.5.9-0ubuntu0.23.04.1~bpo22.04.1_all.deb",
-	"size": 639974,
-	"md5": "b72000d5b6badd90ea509769c1eeb397",
-	"sha1": "fc48e537eb7bc95c9599414e2c474e96b90c30d7",
-	"sha256": "5f3444e109cd3f621b2bfe00340f526d2cab0eb07260b95990e332163142ce24",
-	"sha512": "52e998ef497da6b85f4861c28b0f565d501abbda968edd490777bcee99b12ab3b8972b9df0d8c7e9593510edd6292cf920394c693a331ec8ca66049874c94492",
+	"filename": "pool/main/libr/libreoffice/libreoffice-l10n-km_25.8.5-0ubuntu0.25.10.1~bpo22.04.1_all.deb",
+	"size": 623726,
+	"md5": "a61919641aa7b27490e372e7d779ac16",
+	"sha1": "d13d70967ce586be03dc110007fd7af41ee4a49d",
+	"sha256": "03b052df0ab8dcf051b07d78d3ac5015e0ef63d3095ee1bfc3eaa892290901a8",
+	"sha512": "c1f975379fdf8407392cf8daa767e3b656b5fe37fd871bac5ed0be944bbf6f68342f0d77fa2964c2e8b256598dd6fcb99bc9a9d80c7ed35675778638ac813a63",
 	"descriptionMd5": "8bbe73d4befdfd439c3cbc8ee6b1fcb9"
 },{
 	"raw": {},

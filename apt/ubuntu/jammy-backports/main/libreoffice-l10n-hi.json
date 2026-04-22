@@ -6,34 +6,36 @@
 	],
 	"package": "libreoffice-l10n-hi",
 	"source": "libreoffice",
-	"version": "4:7.5.9-0ubuntu0.23.04.1~bpo22.04.1",
+	"version": "4:25.8.5-0ubuntu0.25.10.1~bpo22.04.1",
 	"section": "localization",
 	"priority": "optional",
 	"architecture": "all",
 	"depends": [
-		"libreoffice-common (>= 1:7.0.0~alpha~)",
-		"locales | locales-all",
-		"ucf"
+		"locales | locales-all"
+	],
+	"preDepends": [
+		"ucf",
+		"libreoffice-common (>= 4:25.2.1~rc1-3~)"
 	],
 	"recommends": [
-		"libreoffice-core (>> 4:7.5.9)"
+		"libreoffice-core (>> 4:25.8.5)"
 	],
 	"suggests": [
-		"hunspell-dictionary-hi | myspell-dictionary-hi",
-		"hyphen-hi",
+		"hunspell-dictionary-hi | myspell-dictionary-hi | libreoffice-spellcheck-hi",
+		"hyphen-hi | libreoffice-hyphenation-hi",
 		"libreoffice-grammarcheck-hi",
 		"libreoffice-help-hi",
 		"mythes-hi"
 	],
-	"installedSize": 2892,
+	"installedSize": 2444,
 	"maintainer": "Ubuntu Developers <ubuntu-devel-discuss@lists.ubuntu.com>",
 	"description": "office productivity suite -- Hindi language package",
 	"homepage": "http://www.libreoffice.org",
-	"filename": "pool/main/libr/libreoffice/libreoffice-l10n-hi_7.5.9-0ubuntu0.23.04.1~bpo22.04.1_all.deb",
-	"size": 385044,
-	"md5": "4a4d3acb3e972e04dd526c475cbe1d2a",
-	"sha1": "4bc1b33f4be297ca32f73c033af8f388c9275dce",
-	"sha256": "7dd9e54c07bdce40344fb4a36c54492719e34aebfc1f70d34c6e5192fa16455d",
-	"sha512": "38e049dbbb7ab382f66070a83465a5d7426140980cb9a6b13b86e81e476901a9c0ee5c656a32299e88c9905f62616ac437866c4697d4c683e8e70499321d888b",
+	"filename": "pool/main/libr/libreoffice/libreoffice-l10n-hi_25.8.5-0ubuntu0.25.10.1~bpo22.04.1_all.deb",
+	"size": 375000,
+	"md5": "ca49f4436f18e7b7940b803448f2735d",
+	"sha1": "a1f31ba51972e89993203bb595d079dfcc39d6ee",
+	"sha256": "da0f6c360651caa6761556ecc6aabe9319ba5b51d968afc838d5dfc0f8a8119f",
+	"sha512": "5d8c47e656924ffaf5c20c5c916863b460b3a04754f8ee93d2ed6fe579a2f48146b720da0ae26514115e2e3f4cd1da085dac413943b90d21c35524cb878d544a",
 	"descriptionMd5": "c0f9f00435657eaf48161db67ec8e03d"
 }

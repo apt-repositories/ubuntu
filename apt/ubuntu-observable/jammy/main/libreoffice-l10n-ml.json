@@ -6,36 +6,38 @@
 	],
 	"package": "libreoffice-l10n-ml",
 	"source": "libreoffice",
-	"version": "4:7.5.9-0ubuntu0.23.04.1~bpo22.04.1",
+	"version": "4:25.8.5-0ubuntu0.25.10.1~bpo22.04.1",
 	"section": "localization",
 	"priority": "optional",
 	"architecture": "all",
 	"depends": [
-		"libreoffice-common (>= 1:7.0.0~alpha~)",
-		"locales | locales-all",
-		"ucf"
+		"locales | locales-all"
+	],
+	"preDepends": [
+		"ucf",
+		"libreoffice-common (>= 4:25.2.1~rc1-3~)"
 	],
 	"recommends": [
 		"fonts-mlym",
-		"libreoffice-core (>> 4:7.5.9)"
+		"libreoffice-core (>> 4:25.8.5)"
 	],
 	"suggests": [
-		"hunspell-dictionary-ml | myspell-dictionary-ml",
-		"hyphen-ml",
+		"hunspell-dictionary-ml | myspell-dictionary-ml | libreoffice-spellcheck-ml",
+		"hyphen-ml | libreoffice-hyphenation-ml",
 		"libreoffice-grammarcheck-ml",
 		"libreoffice-help-ml",
 		"mythes-ml"
 	],
-	"installedSize": 3280,
+	"installedSize": 2749,
 	"maintainer": "Ubuntu Developers <ubuntu-devel-discuss@lists.ubuntu.com>",
 	"description": "office productivity suite -- Malayalam language package",
 	"homepage": "http://www.libreoffice.org",
-	"filename": "pool/main/libr/libreoffice/libreoffice-l10n-ml_7.5.9-0ubuntu0.23.04.1~bpo22.04.1_all.deb",
-	"size": 417062,
-	"md5": "e0086bc1324a36abb50d8510d9fd7294",
-	"sha1": "dc3d7b4de64138606188cdcb954921b25250e3ef",
-	"sha256": "a980b49d904d2178a77c60b7ef5e41aec6898803e442449245f965b8ec14362e",
-	"sha512": "3f6102a9e4038763a2894ffed65732bed334b554f2ce8c672f03f52d93368370fb49ef2b7a6e8532d3501a31c62cbf1b8e459e0aa1359e58d6d6e413fa0c030a",
+	"filename": "pool/main/libr/libreoffice/libreoffice-l10n-ml_25.8.5-0ubuntu0.25.10.1~bpo22.04.1_all.deb",
+	"size": 400502,
+	"md5": "ad6b3811c0cebebeee803e94412614db",
+	"sha1": "a1a4c1fd60f44ce6b638c55380d37ffeaa83e006",
+	"sha256": "08fba5bbd9ef3ca13426ab48c8c3076dfe07d30895b285ba66b39a362807e83b",
+	"sha512": "ed197ff0f700b531e7c49eaeaedd12bf03aea62d52ff9c931dc88dd2af1754b73ae07e87c315c4f1faecf1da65461a0e48d2b6e4c075718fb4470f0c07bfa14c",
 	"descriptionMd5": "60f657487ccd35990900a2b5e69a0ece"
 },{
 	"raw": {},

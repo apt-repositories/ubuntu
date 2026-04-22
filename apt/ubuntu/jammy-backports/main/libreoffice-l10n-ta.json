@@ -6,35 +6,37 @@
 	],
 	"package": "libreoffice-l10n-ta",
 	"source": "libreoffice",
-	"version": "4:7.5.9-0ubuntu0.23.04.1~bpo22.04.1",
+	"version": "4:25.8.5-0ubuntu0.25.10.1~bpo22.04.1",
 	"section": "localization",
 	"priority": "optional",
 	"architecture": "all",
 	"depends": [
-		"libreoffice-common (>= 1:7.0.0~alpha~)",
-		"locales | locales-all",
-		"ucf"
+		"locales | locales-all"
+	],
+	"preDepends": [
+		"ucf",
+		"libreoffice-common (>= 4:25.2.1~rc1-3~)"
 	],
 	"recommends": [
 		"fonts-taml",
-		"libreoffice-core (>> 4:7.5.9)"
+		"libreoffice-core (>> 4:25.8.5)"
 	],
 	"suggests": [
-		"hunspell-dictionary-ta | myspell-dictionary-ta",
-		"hyphen-ta",
+		"hunspell-dictionary-ta | myspell-dictionary-ta | libreoffice-spellcheck-ta",
+		"hyphen-ta | libreoffice-hyphenation-ta",
 		"libreoffice-grammarcheck-ta",
 		"libreoffice-help-ta",
 		"mythes-ta"
 	],
-	"installedSize": 4027,
+	"installedSize": 3490,
 	"maintainer": "Ubuntu Developers <ubuntu-devel-discuss@lists.ubuntu.com>",
 	"description": "office productivity suite -- Tamil language package",
 	"homepage": "http://www.libreoffice.org",
-	"filename": "pool/main/libr/libreoffice/libreoffice-l10n-ta_7.5.9-0ubuntu0.23.04.1~bpo22.04.1_all.deb",
-	"size": 571344,
-	"md5": "945cae79b8cf5314bed9a457e4c12b29",
-	"sha1": "49db71681b0f11d0eca57f92b805a63aa6734f9a",
-	"sha256": "ef257e81778f3604a478d6db227f8fe861a4118997fa3940373dcba09da3329b",
-	"sha512": "b571e94a0cf398f357b1b5992a4980c50a7f34cf53510bbefe15cd6c2a0b5e6ab48f268b72b65892f279b9b0c9b861985ee157b138556966fb42ae48f5e81bcf",
+	"filename": "pool/main/libr/libreoffice/libreoffice-l10n-ta_25.8.5-0ubuntu0.25.10.1~bpo22.04.1_all.deb",
+	"size": 551820,
+	"md5": "0ba0b1987586b7042d0be1124da31c06",
+	"sha1": "8f4344efc35dbb4a15e65f1e5282983ced7abe21",
+	"sha256": "c84fba847c3c91a40d6b3c6893ce86f50f9f6707a8cfcd05240e708c432fcee7",
+	"sha512": "d7be44ff166521216299c1454a41c30a48815d30babbd10cfdaca7e2575052f5dbf0be9480c3f53c5bdcb68e4869b928bc89a123dc42476bc967cd1b432fa93a",
 	"descriptionMd5": "f1a39c06a2dd67a9a2480ae41bbfcff0"
 }

@@ -6,17 +6,20 @@
 	],
 	"package": "libreoffice-report-builder",
 	"source": "libreoffice",
-	"version": "4:7.5.9-0ubuntu0.23.04.1~bpo22.04.1",
+	"version": "4:25.8.5-0ubuntu0.25.10.1~bpo22.04.1",
 	"section": "universe/misc",
 	"priority": "optional",
 	"architecture": "all",
 	"depends": [
 		"liblibreoffice-java",
-		"libreoffice-common (>= 1:7.0.0~alpha)",
 		"libreoffice-core | libreoffice-core-nogui",
-		"libreoffice-report-builder-bin (>= 4:7.5.9)",
-		"libreoffice-java-common",
-		"ucf"
+		"libreoffice-report-builder-bin (>= 4:25.8.5)",
+		"libreoffice-uiconfig-report-builder (= 4:25.8.5-0ubuntu0.25.10.1~bpo22.04.1)",
+		"libreoffice-java-common"
+	],
+	"preDepends": [
+		"ucf",
+		"libreoffice-common (>= 4:25.2.1~rc1-3~)"
 	],
 	"replaces": [
 		"libreoffice-common (<< 1:6.4.2~r~~)"
@@ -27,17 +30,17 @@
 	"breaks": [
 		"libreoffice-common (<< 1:6.4.2~rc1~)"
 	],
-	"installedSize": 3001,
+	"installedSize": 2873,
 	"maintainer": "Ubuntu Developers <ubuntu-devel-discuss@lists.ubuntu.com>",
 	"description": "LibreOffice component for building database reports",
 	"homepage": "http://www.libreoffice.org",
-	"filename": "pool/universe/libr/libreoffice/libreoffice-report-builder_7.5.9-0ubuntu0.23.04.1~bpo22.04.1_all.deb",
-	"size": 2112368,
-	"md5": "0c2996fc3e87d9639a6e0b12b28fb558",
-	"sha1": "611f427ae9978ecb1c1be19cce62cf7c00b6f829",
-	"sha256": "61bff2210679d09579f87139e66576f72d2ba05940866528d9217ff5b3137242",
-	"sha512": "39ee10ee4ce50320107a83bd330aab5da6e7e37aa24d1ac8e9eacda1646b6a9fa0990880baf5da0c58258b88f9fd43bc0242d7de629a3d31ce8aca95ad64a964",
-	"descriptionMd5": "8239ceaa4ebaf25c2b15325d48eb907c"
+	"filename": "pool/universe/libr/libreoffice/libreoffice-report-builder_25.8.5-0ubuntu0.25.10.1~bpo22.04.1_all.deb",
+	"size": 2145392,
+	"md5": "9201d44c4165c2c6f4ce97ab991ab32f",
+	"sha1": "e016b66b7b87a40c38170cc2c071f40ab626f4ea",
+	"sha256": "056235f8c0f4683c920a21043a2b9bc8b0881177e4b369b37638ac71094a08a2",
+	"sha512": "ec5a7c8ea273e2eb9281651fda67be111817ea490ef26e867abbde66e867c438e328c70e8146a1d97129c03c2185d7b1a6febe75c547cec8ac2954e2a70b1e1e",
+	"descriptionMd5": "e3c9562277895483024c6ff8e6d1dfdf"
 },{
 	"raw": {},
 	"required": [
@@ -77,7 +80,7 @@
 	"sha1": "24958160b9b880508493f5d8365b1b9437135bb8",
 	"sha256": "02db10276a5bd5febddc08e1f912c43279a99438a09fc2bd7e29d81992209678",
 	"sha512": "674b3f32c5c05094dd7498b67809e8b890ec0ce0d87b6941d2844fdee12b8da7137c0c1fe18a98e4e68ffc60889782f93673946b8266824d65e943e66cf69e27",
-	"descriptionMd5": "8239ceaa4ebaf25c2b15325d48eb907c"
+	"descriptionMd5": "e3c9562277895483024c6ff8e6d1dfdf"
 },{
 	"raw": {},
 	"required": [

@@ -6,34 +6,36 @@
 	],
 	"package": "libreoffice-l10n-sr",
 	"source": "libreoffice",
-	"version": "4:7.5.9-0ubuntu0.23.04.1~bpo22.04.1",
+	"version": "4:25.8.5-0ubuntu0.25.10.1~bpo22.04.1",
 	"section": "localization",
 	"priority": "optional",
 	"architecture": "all",
 	"depends": [
-		"libreoffice-common (>= 1:7.0.0~alpha~)",
-		"locales | locales-all",
-		"ucf"
+		"locales | locales-all"
+	],
+	"preDepends": [
+		"ucf",
+		"libreoffice-common (>= 4:25.2.1~rc1-3~)"
 	],
 	"recommends": [
-		"libreoffice-core (>> 4:7.5.9)"
+		"libreoffice-core (>> 4:25.8.5)"
 	],
 	"suggests": [
-		"hunspell-dictionary-sr | myspell-dictionary-sr",
-		"hyphen-sr",
+		"hunspell-dictionary-sr | myspell-dictionary-sr | libreoffice-spellcheck-sr",
+		"hyphen-sr | libreoffice-hyphenation-sr",
 		"libreoffice-grammarcheck-sr",
 		"libreoffice-help-sr",
 		"mythes-sr"
 	],
-	"installedSize": 5425,
+	"installedSize": 5006,
 	"maintainer": "Ubuntu Developers <ubuntu-devel-discuss@lists.ubuntu.com>",
 	"description": "office productivity suite -- Serbian language package",
 	"homepage": "http://www.libreoffice.org",
-	"filename": "pool/main/libr/libreoffice/libreoffice-l10n-sr_7.5.9-0ubuntu0.23.04.1~bpo22.04.1_all.deb",
-	"size": 720406,
-	"md5": "23f52ab3da97f9488417e82ee90352bb",
-	"sha1": "504eeadde8bcb02ae2433c909aacd7db6fbd95e7",
-	"sha256": "291bd7ec30bac92fa46f5f91d5e945a1277f55c4d45ce634ec2d7133077e4750",
-	"sha512": "ef1a45594b67f52a1e7705dfd9d73fff8156e4b46f8886b99572ad9d7918c58dd807a1d9eea726d1fe72a840a5651e1adba777be5a511172b3c67be3980f0487",
+	"filename": "pool/main/libr/libreoffice/libreoffice-l10n-sr_25.8.5-0ubuntu0.25.10.1~bpo22.04.1_all.deb",
+	"size": 793742,
+	"md5": "d39d3e53e6b21b3243bb558ae7ab648a",
+	"sha1": "497246532a5dda743f8f5e36e976331adb1a1941",
+	"sha256": "36d54973acaadec2d3fc0c9670e2a905f7dd1ee12dda63d149d41f50c7871f29",
+	"sha512": "7689364791e070f90259a941d3bb266903c5a0b6a68df1f01c9440d8d118a48e784754fcef44fd1859cdf043347bee3c773508a8f3648f0d60b36f1a329b4b47",
 	"descriptionMd5": "a5246257fe1a7bc6da50c1903b447187"
 }

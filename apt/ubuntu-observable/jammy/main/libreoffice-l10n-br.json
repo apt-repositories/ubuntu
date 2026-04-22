@@ -6,35 +6,37 @@
 	],
 	"package": "libreoffice-l10n-br",
 	"source": "libreoffice",
-	"version": "4:7.5.9-0ubuntu0.23.04.1~bpo22.04.1",
+	"version": "4:25.8.5-0ubuntu0.25.10.1~bpo22.04.1",
 	"section": "localization",
 	"priority": "optional",
 	"architecture": "all",
 	"depends": [
-		"libreoffice-common (>= 1:7.0.0~alpha~)",
-		"locales | locales-all",
-		"ucf"
+		"locales | locales-all"
+	],
+	"preDepends": [
+		"ucf",
+		"libreoffice-common (>= 4:25.2.1~rc1-3~)"
 	],
 	"recommends": [
-		"libreoffice-core (>> 4:7.5.9)"
+		"libreoffice-core (>> 4:25.8.5)"
 	],
 	"suggests": [
-		"hunspell-dictionary-br | myspell-dictionary-br",
-		"hyphen-br",
+		"hunspell-dictionary-br | myspell-dictionary-br | libreoffice-spellcheck-br",
+		"hyphen-br | libreoffice-hyphenation-br",
 		"libreoffice-grammarcheck-br",
 		"libreoffice-help-br",
 		"mythes-br"
 	],
-	"installedSize": 2899,
+	"installedSize": 2582,
 	"maintainer": "Ubuntu Developers <ubuntu-devel-discuss@lists.ubuntu.com>",
 	"description": "office productivity suite -- Breton language package",
 	"homepage": "http://www.libreoffice.org",
-	"filename": "pool/main/libr/libreoffice/libreoffice-l10n-br_7.5.9-0ubuntu0.23.04.1~bpo22.04.1_all.deb",
-	"size": 511690,
-	"md5": "d975f7a5c6e88f1ffda6c3e94dcba355",
-	"sha1": "3f15ff16e858bf5fa8a800a7b67916995766260c",
-	"sha256": "dd966240ce080576ece52cc5bb753801660c9a7d4e66c78bca923d0afbc75248",
-	"sha512": "e333544de9f0ca7ec9b8bc74d03a197c89b3ff5594b877c3e6e89f529865ea1cb5d9713b5b21b792b2653b2967b4d20e7a29bd733c188207dcbf5304fab9ed8a",
+	"filename": "pool/main/libr/libreoffice/libreoffice-l10n-br_25.8.5-0ubuntu0.25.10.1~bpo22.04.1_all.deb",
+	"size": 498936,
+	"md5": "f37f287e638a004ba275d1e9b377afd1",
+	"sha1": "180f43b04dba8c734b73df60afca83a5473b4140",
+	"sha256": "c46ac0fce7cc779b90a519649a4a7b406a32574c2b2a6c0b3978c90a4d07b974",
+	"sha512": "7b4d86cad65f580ae7729f2f73ef6828ef28d0410256350f1d46b3273d5019aea0b6c31d0e0ea19f29f19b2109393489e0da3378ecb1230b792fae2276263b37",
 	"descriptionMd5": "d16cf29a1d2c4c4ed7016afa029144be"
 },{
 	"raw": {},

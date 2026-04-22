@@ -6,35 +6,37 @@
 	],
 	"package": "libreoffice-l10n-fr",
 	"source": "libreoffice",
-	"version": "4:7.5.9-0ubuntu0.23.04.1~bpo22.04.1",
+	"version": "4:25.8.5-0ubuntu0.25.10.1~bpo22.04.1",
 	"section": "localization",
 	"priority": "optional",
 	"architecture": "all",
 	"depends": [
-		"libreoffice-common (>= 1:7.0.0~alpha~)",
-		"locales | locales-all",
-		"ucf"
+		"locales | locales-all"
+	],
+	"preDepends": [
+		"ucf",
+		"libreoffice-common (>= 4:25.2.1~rc1-3~)"
 	],
 	"recommends": [
-		"libreoffice-core (>> 4:7.5.9)"
+		"libreoffice-core (>> 4:25.8.5)"
 	],
 	"suggests": [
-		"hunspell-dictionary-fr | myspell-dictionary-fr",
-		"hyphen-fr",
+		"hunspell-dictionary-fr | myspell-dictionary-fr | libreoffice-spellcheck-fr",
+		"hyphen-fr | libreoffice-hyphenation-fr",
 		"libreoffice-grammarcheck-fr",
 		"libreoffice-help-fr",
 		"mythes-fr"
 	],
-	"installedSize": 4674,
+	"installedSize": 4582,
 	"maintainer": "Ubuntu Developers <ubuntu-devel-discuss@lists.ubuntu.com>",
 	"description": "office productivity suite -- French language package",
 	"homepage": "http://www.libreoffice.org",
-	"filename": "pool/main/libr/libreoffice/libreoffice-l10n-fr_7.5.9-0ubuntu0.23.04.1~bpo22.04.1_all.deb",
-	"size": 943022,
-	"md5": "9b9295d3e143170a86ac674fac6cae8c",
-	"sha1": "2ecd00c18812034e38fb2950514d9368b88adf88",
-	"sha256": "712e0066a9431c1c0442c5d06585f64ba5e84256881afc4502d2761cd722d856",
-	"sha512": "f9ca6f7c69c5c67d3d8d0ed43c1fa0d84fd26ec840dccd587e99c4b792b24c26b56038cc3b3dd5eead138fdebcd2fc61351890304a75bc1310daa884a3dbaec8",
+	"filename": "pool/main/libr/libreoffice/libreoffice-l10n-fr_25.8.5-0ubuntu0.25.10.1~bpo22.04.1_all.deb",
+	"size": 974952,
+	"md5": "1de6bf59d41d0511d2fe84689da31f36",
+	"sha1": "589fa4d150a5d56ca32dfd6d431e8b5a6b686a35",
+	"sha256": "e173c1565f295883582d36882b14114d2c15022c9f87565f58599c0b97f4fff9",
+	"sha512": "9dadab9c985cc33811d4ee02a325fc75e0df32b813f8f5ce48fa4f506debdeadf72c7300cb208e647a1ed99c94884c5037779364856bb4f620e65a1700dc6708",
 	"descriptionMd5": "be373ab6133f4822f55949baa3af6fb6"
 },{
 	"raw": {},

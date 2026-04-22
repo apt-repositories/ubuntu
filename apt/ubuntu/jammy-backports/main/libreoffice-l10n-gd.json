@@ -6,34 +6,36 @@
 	],
 	"package": "libreoffice-l10n-gd",
 	"source": "libreoffice",
-	"version": "4:7.5.9-0ubuntu0.23.04.1~bpo22.04.1",
+	"version": "4:25.8.5-0ubuntu0.25.10.1~bpo22.04.1",
 	"section": "localization",
 	"priority": "optional",
 	"architecture": "all",
 	"depends": [
-		"libreoffice-common (>= 1:7.0.0~alpha~)",
-		"locales | locales-all",
-		"ucf"
+		"locales | locales-all"
+	],
+	"preDepends": [
+		"ucf",
+		"libreoffice-common (>= 4:25.2.1~rc1-3~)"
 	],
 	"recommends": [
-		"libreoffice-core (>> 4:7.5.9)"
+		"libreoffice-core (>> 4:25.8.5)"
 	],
 	"suggests": [
-		"hunspell-dictionary-gd | myspell-dictionary-gd",
-		"hyphen-gd",
+		"hunspell-dictionary-gd | myspell-dictionary-gd | libreoffice-spellcheck-gd",
+		"hyphen-gd | libreoffice-hyphenation-gd",
 		"libreoffice-grammarcheck-gd",
 		"libreoffice-help-gd",
 		"mythes-gd"
 	],
-	"installedSize": 3281,
+	"installedSize": 2980,
 	"maintainer": "Ubuntu Developers <ubuntu-devel-discuss@lists.ubuntu.com>",
 	"description": "office productivity suite -- Scottish_gaelic language package",
 	"homepage": "http://www.libreoffice.org",
-	"filename": "pool/main/libr/libreoffice/libreoffice-l10n-gd_7.5.9-0ubuntu0.23.04.1~bpo22.04.1_all.deb",
-	"size": 597048,
-	"md5": "3b23170704adeb25ddd9b2da5f04968b",
-	"sha1": "c34ff249f7ce35241be1e99905d4d94cf23c24c3",
-	"sha256": "bae214e51f52f7a431df887783c8dffbfb91d5b527ec196e24365f1498698829",
-	"sha512": "24ea442950316ffcc652331df39422676e5765b40acc1b6aa2a454f7300b991a9e1d0a05298e70fb7f7d68c3a5c3f80cc63fac6376a41de55a5a0c733ae6a7fa",
+	"filename": "pool/main/libr/libreoffice/libreoffice-l10n-gd_25.8.5-0ubuntu0.25.10.1~bpo22.04.1_all.deb",
+	"size": 588316,
+	"md5": "4a515ede6b313ac6d83d54cbf0621a15",
+	"sha1": "3056d7d3a1c0e9b1dd9c85452a760109593676b5",
+	"sha256": "88892d0b7bf3aaab3bc6edacfe627de3a1a32c2354959fb694f11e6b36b2ef50",
+	"sha512": "b4013b42905d6061a252cb643095875a8f3534d6dcdff665e000527da2660dfea17c7e8cbc93c18bf1da905faaa9adecbf0ee95159e0e456c9991b7989d1a2ac",
 	"descriptionMd5": "18113968ce7e8c22cc31b05613ac922a"
 }

@@ -43,6 +43,43 @@
 	],
 	"package": "libvirt-daemon-driver-storage-gluster",
 	"source": "libvirt",
+	"version": "8.0.0-1ubuntu7.16",
+	"section": "universe/admin",
+	"priority": "optional",
+	"architecture": "amd64",
+	"depends": [
+		"libvirt-daemon (= 8.0.0-1ubuntu7.16)",
+		"libvirt0 (= 8.0.0-1ubuntu7.16)",
+		"libc6 (>= 2.4)",
+		"libgcc-s1 (>= 3.3.1)",
+		"libgfapi0 (>= 10.1)",
+		"libglib2.0-0 (>= 2.12.0)"
+	],
+	"replaces": [
+		"libvirt-daemon (<< 3.7.0-3~)"
+	],
+	"breaks": [
+		"libvirt-daemon (<< 3.7.0-3~)"
+	],
+	"installedSize": 237,
+	"maintainer": "Ubuntu Developers <ubuntu-devel-discuss@lists.ubuntu.com>",
+	"description": "Virtualization daemon glusterfs storage driver",
+	"homepage": "https://libvirt.org/",
+	"filename": "pool/universe/libv/libvirt/libvirt-daemon-driver-storage-gluster_8.0.0-1ubuntu7.16_amd64.deb",
+	"size": 14606,
+	"md5": "5085f502d8a757748414f5bc5aa6772e",
+	"sha1": "280a69734d7dcb0d25be4cc456a9706f5be1aa96",
+	"sha256": "ed45f1f08faea0a1f5e3c72ee316781860b621ba240b0dd44e570c10309f39e0",
+	"sha512": "c539a2cc473dc3d512339e853f780b7f327a1f48d1a42775da34042a6d95d55934ca2649ad8bddc3ee182d35800a9decd7e19d2384b66968816128498a06dfa9",
+	"descriptionMd5": "7c5efa2eb9f5a55e51f953e2496dc89d"
+},{
+	"raw": {},
+	"required": [
+		"Filename",
+		"Size"
+	],
+	"package": "libvirt-daemon-driver-storage-gluster",
+	"source": "libvirt",
 	"version": "8.0.0-1ubuntu7",
 	"section": "universe/admin",
 	"priority": "optional",

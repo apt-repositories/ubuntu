@@ -6,34 +6,36 @@
 	],
 	"package": "libreoffice-l10n-szl",
 	"source": "libreoffice",
-	"version": "4:7.5.9-0ubuntu0.23.04.1~bpo22.04.1",
+	"version": "4:25.8.5-0ubuntu0.25.10.1~bpo22.04.1",
 	"section": "localization",
 	"priority": "optional",
 	"architecture": "all",
 	"depends": [
-		"libreoffice-common (>= 1:7.0.0~alpha~)",
-		"locales | locales-all",
-		"ucf"
+		"locales | locales-all"
+	],
+	"preDepends": [
+		"ucf",
+		"libreoffice-common (>= 4:25.2.1~rc1-3~)"
 	],
 	"recommends": [
-		"libreoffice-core (>> 4:7.5.9)"
+		"libreoffice-core (>> 4:25.8.5)"
 	],
 	"suggests": [
-		"hunspell-dictionary-szl | myspell-dictionary-szl",
-		"hyphen-szl",
+		"hunspell-dictionary-szl | myspell-dictionary-szl | libreoffice-spellcheck-szl",
+		"hyphen-szl | libreoffice-hyphenation-szl",
 		"libreoffice-grammarcheck-szl",
 		"libreoffice-help-szl",
 		"mythes-szl"
 	],
-	"installedSize": 3216,
+	"installedSize": 2879,
 	"maintainer": "Ubuntu Developers <ubuntu-devel-discuss@lists.ubuntu.com>",
 	"description": "office productivity suite -- Upper_silesian language package",
 	"homepage": "http://www.libreoffice.org",
-	"filename": "pool/main/libr/libreoffice/libreoffice-l10n-szl_7.5.9-0ubuntu0.23.04.1~bpo22.04.1_all.deb",
-	"size": 591810,
-	"md5": "e22b6d2f6daf52686d6a3c2cbcfdbf2b",
-	"sha1": "d06ccf20924f0ecff593ffde44475173f133b788",
-	"sha256": "2dd17b61124b145255d833c24145b4cd5d63298e6203c442df2f436b698471c5",
-	"sha512": "64bb086eab97491b79e9a222ff61c9ca323494783abf26288bded0beba6ace73a7a00a7ea6cf4f057b709baa6ab4c23a8726e4e8962ef2ae2275e6b5dca2c100",
+	"filename": "pool/main/libr/libreoffice/libreoffice-l10n-szl_25.8.5-0ubuntu0.25.10.1~bpo22.04.1_all.deb",
+	"size": 573528,
+	"md5": "13b32b4bf9227eddeac5c9c5a9e70490",
+	"sha1": "5827ded2ac1d864f43d77e9860f3308a6c7128f6",
+	"sha256": "58bdb1e0f9913f80d388266c2fab718dd79df487de2df74a0e7877464949bd52",
+	"sha512": "0b82f454d07d634914761c50a7a0aad49c45fa9d22e72f0e0485656456a2e827753f8eca37287c417093022a0efab7abdddf875d1b5ef24b7521efff01a33e72",
 	"descriptionMd5": "042319a52566380faa02b485ca055ca0"
 }
