@@ -1,0 +1,46 @@
+{
+	"raw": {},
+	"required": [
+		"Filename",
+		"Size"
+	],
+	"package": "needrestart",
+	"version": "3.11-1ubuntu2",
+	"section": "admin",
+	"priority": "optional",
+	"architecture": "all",
+	"depends": [
+		"perl:any",
+		"dpkg (>= 1.16.0)",
+		"gettext-base",
+		"libintl-perl",
+		"libproc-processtable-perl",
+		"libsort-naturally-perl",
+		"libterm-readkey-perl",
+		"libmodule-find-perl",
+		"procps",
+		"xz-utils"
+	],
+	"recommends": [
+		"libpam-systemd | sysvinit-core",
+		"systemd | libimvirt-perl"
+	],
+	"suggests": [
+		"needrestart-session | libnotify-bin",
+		"iucode-tool"
+	],
+	"enhances": [
+		"intel-microcode"
+	],
+	"installedSize": 540,
+	"maintainer": "Ubuntu Developers <ubuntu-devel-discuss@lists.ubuntu.com>",
+	"description": "check which daemons need to be restarted after library upgrades",
+	"homepage": "https://github.com/liske/needrestart",
+	"filename": "pool/main/n/needrestart/needrestart_3.11-1ubuntu2_all.deb",
+	"size": 55122,
+	"md5": "6931334301f2a95f5fdc14431ba7dba8",
+	"sha1": "5fb1ba2ed83ec331054f59030e0f72159dba7c4e",
+	"sha256": "6a41835e88e715b7647c85d644a20c67bdc2956aa3aabb99a034be601d92d6f3",
+	"sha512": "edfa892194db217bb16123a051149ae252e70071b7ba28e34fd50ac41b9b99fcd3dae5ef6cce9ab5e2750bf52da7c934b899fdc8a8755ece0164f177fa84fb54",
+	"descriptionMd5": "cea5847e0000c4e1df05a271d1cb034a"
+}

@@ -1,0 +1,45 @@
+{
+	"raw": {},
+	"required": [
+		"Filename",
+		"Size"
+	],
+	"package": "libgcc-16-dev-riscv64-cross",
+	"source": "gcc-16-cross (9ubuntu1)",
+	"version": "16-20260322-1ubuntu1cross1",
+	"section": "universe/libdevel",
+	"priority": "optional",
+	"architecture": "all",
+	"depends": [
+		"gcc-16-cross-base (>= 16-20260322-1ubuntu1)",
+		"libgcc-s1-riscv64-cross (>= 16-20260322-1ubuntu1cross1)",
+		"libgomp1-riscv64-cross (>= 16-20260322-1ubuntu1cross1)",
+		"libitm1-riscv64-cross (>= 16-20260322-1ubuntu1cross1)",
+		"libatomic1-riscv64-cross (>= 16-20260322-1ubuntu1cross1)",
+		"libasan8-riscv64-cross (>= 16-20260322-1ubuntu1cross1)",
+		"liblsan0-riscv64-cross (>= 16-20260322-1ubuntu1cross1)",
+		"libtsan2-riscv64-cross (>= 16-20260322-1ubuntu1cross1)",
+		"libubsan1-riscv64-cross (>= 16-20260322-1ubuntu1cross1)"
+	],
+	"recommends": [
+		"libc6-dev-riscv64-cross (>= 2.13-0ubuntu6)"
+	],
+	"replaces": [
+		"libtsan2-riscv64-cross (<< 12-20211113-2~)"
+	],
+	"breaks": [
+		"libtsan2-riscv64-cross (<< 12-20211113-2~)"
+	],
+	"installedSize": 34972,
+	"maintainer": "Ubuntu Developers <ubuntu-devel-discuss@lists.ubuntu.com>",
+	"description": "GCC support library (development files)",
+	"homepage": "http://gcc.gnu.org/",
+	"builtUsing": "gcc-16 (= 16-20260322-1ubuntu1)",
+	"filename": "pool/universe/g/gcc-16-cross/libgcc-16-dev-riscv64-cross_16-20260322-1ubuntu1cross1_all.deb",
+	"size": 3365964,
+	"md5": "bb2ba76167d3f2081aac46261008d5f1",
+	"sha1": "1fd519b6fe81f7e5075e3dcd12e4611bf34ed9ef",
+	"sha256": "c198c5826c7a2d095f35e1f1bcf38ff107456a19ab3db5d2ae3f01b0c3e6db5e",
+	"sha512": "b1895b217fa00f1ec0c96c1ca64dd50f0858592fb42907d9e13c11a4aa31965f7aff48f5cb5c57e7b229a0707629d0020e768688ede27619715f808f6a7dcd65",
+	"descriptionMd5": "4ab7cb439b47e1d0796fbaf8447229ac"
+}

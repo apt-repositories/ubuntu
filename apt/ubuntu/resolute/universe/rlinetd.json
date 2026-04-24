@@ -1,0 +1,45 @@
+{
+	"raw": {},
+	"required": [
+		"Filename",
+		"Size"
+	],
+	"package": "rlinetd",
+	"version": "0.9.3-3build1",
+	"section": "universe/net",
+	"priority": "extra",
+	"architecture": "amd64",
+	"depends": [
+		"netbase",
+		"psmisc",
+		"ucf",
+		"debconf (>= 0.5) | debconf-2.0",
+		"perl:any",
+		"libc6 (>= 2.38)",
+		"libcap2 (>= 1:2.10)",
+		"libtirpc3t64 (>= 1.0.2)",
+		"libwrap0 (>= 7.6-4~)"
+	],
+	"preDepends": [
+		"init-system-helpers (>= 1.54~)"
+	],
+	"suggests": [
+		"portmap"
+	],
+	"conflicts": [
+		"inet-superserver",
+		"netkit-inetd",
+		"xinetd"
+	],
+	"installedSize": 248,
+	"maintainer": "Ubuntu Developers <ubuntu-devel-discuss@lists.ubuntu.com>",
+	"description": "gruesomely over-featured inetd replacement",
+	"homepage": "https://salsa.debian.org/debian/rlinetd",
+	"filename": "pool/universe/r/rlinetd/rlinetd_0.9.3-3build1_amd64.deb",
+	"size": 91184,
+	"md5": "aa7222cd784aa7090abb1aad05144e54",
+	"sha1": "e78ed237c42a9265a98c41e109562c57eec1a124",
+	"sha256": "370efe600f6de8c0babdfeb20fd91703126f71ad5063fb2d3f6e3a936b7f55c8",
+	"sha512": "fed96b381c2cab148b86df6f4ce8bd14c1cefc9a8ea05e0ea46ce9387aafc00c0116ea8961c36a7f659d6a1eaad789ee9ffeb1fae9aca9b811816f32360b62e7",
+	"descriptionMd5": "0726ce3c088a129c62f12b99d7282689"
+}

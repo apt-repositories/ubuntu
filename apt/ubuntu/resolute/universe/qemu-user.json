@@ -1,0 +1,40 @@
+{
+	"raw": {},
+	"required": [
+		"Filename",
+		"Size"
+	],
+	"package": "qemu-user",
+	"source": "qemu",
+	"version": "1:10.2.1+ds-1ubuntu3",
+	"section": "universe/misc",
+	"priority": "optional",
+	"architecture": "amd64",
+	"depends": [
+		"ubuntu-virt"
+	],
+	"recommends": [
+		"qemu-user-binfmt"
+	],
+	"replaces": [
+		"qemu-user-binfmt (<< 1:9.1.0)",
+		"qemu-user-hwe",
+		"qemu-user-static (<< 1:9.1.0)"
+	],
+	"breaks": [
+		"qemu-user-binfmt (<< 1:9.1.0)",
+		"qemu-user-static (<< 1:9.1.0)"
+	],
+	"installedSize": 133124,
+	"maintainer": "Ubuntu Developers <ubuntu-devel-discuss@lists.ubuntu.com>",
+	"description": "QEMU user mode emulation (static binaries)",
+	"homepage": "http://www.qemu.org/",
+	"builtUsing": "gcc-15 (= 15.2.0-16ubuntu1), glib2.0 (= 2.88.0-1), glibc (= 2.43-2ubuntu1), sysprof (= 50.0-1), zlib (= 1:1.3.dfsg+really1.3.1-1ubuntu3)",
+	"filename": "pool/universe/q/qemu/qemu-user_10.2.1+ds-1ubuntu3_amd64.deb",
+	"size": 14739268,
+	"md5": "3bc914f762bf9d65b27c2b03d5dc589b",
+	"sha1": "d341b74971c7f54abf7450a2798a0215618503eb",
+	"sha256": "e6bdaac070232a44b8657cad84ac0853d84b7167b55af82370af040291f55bd8",
+	"sha512": "52bdd6112d05060d83aded534ef7d181afd207683b7bd3ebc34d40711b3099a99918beae6a3d8fe4114ddc7d3cd34511a7931311da16218c718120c19d8454e5",
+	"descriptionMd5": "b5ae91329ebad9c1b179f0ba91f86d3e"
+}

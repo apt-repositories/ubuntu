@@ -1,0 +1,43 @@
+{
+	"raw": {},
+	"required": [
+		"Filename",
+		"Size"
+	],
+	"package": "libgcc-15-dev-sparc64-cross",
+	"source": "gcc-15-cross-ports (15ubuntu2)",
+	"version": "15.2.0-16ubuntu1cross2",
+	"section": "universe/libdevel",
+	"priority": "optional",
+	"architecture": "all",
+	"depends": [
+		"gcc-15-cross-base-ports (= 15.2.0-16ubuntu1cross2)",
+		"libgcc-s1-sparc64-cross (>= 15.2.0-16ubuntu1cross2)",
+		"libgomp1-sparc64-cross (>= 15.2.0-16ubuntu1cross2)",
+		"libitm1-sparc64-cross (>= 15.2.0-16ubuntu1cross2)",
+		"libatomic1-sparc64-cross (>= 15.2.0-16ubuntu1cross2)",
+		"libasan8-sparc64-cross (>= 15.2.0-16ubuntu1cross2)",
+		"libubsan1-sparc64-cross (>= 15.2.0-16ubuntu1cross2)"
+	],
+	"recommends": [
+		"libc6-dev-sparc64-cross (>= 2.13-0ubuntu6)"
+	],
+	"replaces": [
+		"libtsan2-sparc64-cross (<< 12-20211113-2~)"
+	],
+	"breaks": [
+		"libtsan2-sparc64-cross (<< 12-20211113-2~)"
+	],
+	"installedSize": 6370,
+	"maintainer": "Ubuntu Developers <ubuntu-devel-discuss@lists.ubuntu.com>",
+	"description": "GCC support library (development files)",
+	"homepage": "http://gcc.gnu.org/",
+	"builtUsing": "gcc-15 (= 15.2.0-16ubuntu1)",
+	"filename": "pool/universe/g/gcc-15-cross-ports/libgcc-15-dev-sparc64-cross_15.2.0-16ubuntu1cross2_all.deb",
+	"size": 840252,
+	"md5": "693d1a65e7c9022b054e0ebdda445e1e",
+	"sha1": "4eed94a8bf1b9fbaf0de6bfd28ab3cac1b83432d",
+	"sha256": "a0ae1c6398f08218e20202f89e366d9155d5b2f642b66192308b5dc700dd4712",
+	"sha512": "d95563316ff9a609311f935637d04c77ff30d88deeedcd0dcdbe768514999d58fe32ee7bcca286e053ac3cead6373f0dbb4f8ec2596292b184a9c914605fe9b5",
+	"descriptionMd5": "4ab7cb439b47e1d0796fbaf8447229ac"
+}

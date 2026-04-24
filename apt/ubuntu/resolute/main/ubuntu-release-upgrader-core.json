@@ -1,0 +1,41 @@
+{
+	"raw": {},
+	"required": [
+		"Filename",
+		"Size"
+	],
+	"package": "ubuntu-release-upgrader-core",
+	"source": "ubuntu-release-upgrader",
+	"version": "1:26.04.18",
+	"section": "admin",
+	"priority": "standard",
+	"architecture": "all",
+	"depends": [
+		"ca-certificates",
+		"python3-distupgrade (= 1:26.04.18)",
+		"python3:any",
+		"screen"
+	],
+	"recommends": [
+		"libpam-modules (>= 1.0.1-9ubuntu3)"
+	],
+	"replaces": [
+		"update-manager (<< 1:0.165)",
+		"update-manager-core (<< 1:0.165)"
+	],
+	"breaks": [
+		"software-properties (<< 0.9.27)",
+		"update-manager (<< 1:0.165)",
+		"update-manager-core (<< 1:0.165)"
+	],
+	"installedSize": 256,
+	"maintainer": "Ubuntu Developers <ubuntu-devel-discuss@lists.ubuntu.com>",
+	"description": "manage release upgrades",
+	"filename": "pool/main/u/ubuntu-release-upgrader/ubuntu-release-upgrader-core_26.04.18_all.deb",
+	"size": 24948,
+	"md5": "7dbb7aab838cc521f820a884dc3a9206",
+	"sha1": "0adc60c53cf02a7c632d0da0899c19a994df8297",
+	"sha256": "02513500ca052e603b1fd5b8c5646178d2ca5e9cafcb639b841f5e4f3b4941bf",
+	"sha512": "9c5c1241413cdf3f2a3103bf11c57a874a71ffed9a86fa130a318749b7237b9202fb4173510ba02ac944912b9604b75fd3c895dc732731876326afe1ceba974c",
+	"descriptionMd5": "9b6ae3ba71aff05989e4c93c17227206"
+}

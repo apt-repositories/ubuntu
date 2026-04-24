@@ -1,0 +1,43 @@
+[{
+	"raw": {},
+	"required": [
+		"Filename",
+		"Size"
+	],
+	"package": "libvirt-daemon-driver-storage-mpath-hwe",
+	"source": "libvirt-hwe",
+	"version": "12.0.0-1ubuntu5",
+	"section": "admin",
+	"priority": "optional",
+	"architecture": "amd64",
+	"depends": [
+		"libvirt-common (= 12.0.0-1ubuntu5)",
+		"libvirt-daemon (= 12.0.0-1ubuntu5)",
+		"libvirt-daemon-driver-storage (= 12.0.0-1ubuntu5)",
+		"libvirt0 (= 12.0.0-1ubuntu5)",
+		"libc6 (>= 2.4)",
+		"libdevmapper1.02.1 (>= 2:1.02.197)",
+		"libgcc-s1 (>= 3.3.1)",
+		"libglib2.0-0t64 (>= 2.16.0)",
+		"libvirt0-hwe (>= 12.0.0)",
+		"ubuntu-virt-hwe"
+	],
+	"replaces": [
+		"libvirt-daemon (<< 10.6.0-2~)",
+		"libvirt-daemon-driver-storage-mpath"
+	],
+	"breaks": [
+		"libvirt-daemon (<< 10.6.0-2~)"
+	],
+	"installedSize": 25,
+	"maintainer": "Ubuntu Developers <ubuntu-devel-discuss@lists.ubuntu.com>",
+	"description": "virtualization daemon - multipath (mpath) storage driver",
+	"homepage": "https://libvirt.org/storage.html#multipath-pool",
+	"filename": "pool/main/libv/libvirt-hwe/libvirt-daemon-driver-storage-mpath-hwe_12.0.0-1ubuntu5_amd64.deb",
+	"size": 5090,
+	"md5": "38b021170a8b1cbd6f3c5a98855d06e4",
+	"sha1": "bfbd84bc7f1825f47554dea113c2ef60a871523c",
+	"sha256": "4a15d7ef8699640bc2794800cf9fc127a49694d93b0e33f239de707b38a65ff4",
+	"sha512": "197bd3dd4fc9a145bde0431b5851092a7f5eee48f29b84e984216d2c8461f98f78b649f344a070cffd03b5464d64d0e37556c50bad8982e06db778d8d2c8d896",
+	"descriptionMd5": "734ed593a3924fd565e96eb26b7da4dc"
+}]

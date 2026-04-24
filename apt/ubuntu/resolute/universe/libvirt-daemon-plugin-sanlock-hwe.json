@@ -1,0 +1,47 @@
+{
+	"raw": {},
+	"required": [
+		"Filename",
+		"Size"
+	],
+	"package": "libvirt-daemon-plugin-sanlock-hwe",
+	"source": "libvirt-hwe",
+	"version": "12.0.0-1ubuntu5",
+	"section": "universe/admin",
+	"priority": "optional",
+	"architecture": "amd64",
+	"depends": [
+		"augeas-tools",
+		"libvirt-common (= 12.0.0-1ubuntu5)",
+		"libvirt0 (= 12.0.0-1ubuntu5)",
+		"libc6 (>= 2.34)",
+		"libgcc-s1 (>= 3.3.1)",
+		"libglib2.0-0t64 (>= 2.16.0)",
+		"libsanlock-client1 (>= 3.6.0)",
+		"libvirt0-hwe (>= 12.0.0)",
+		"ubuntu-virt-hwe"
+	],
+	"recommends": [
+		"libvirt-daemon (= 12.0.0-1ubuntu5)"
+	],
+	"replaces": [
+		"libvirt-daemon (<< 10.6.0-2~)",
+		"libvirt-daemon-plugin-sanlock",
+		"libvirt-sanlock (<< 10.6.0-2~)"
+	],
+	"breaks": [
+		"libvirt-daemon (<< 10.6.0-2~)",
+		"libvirt-sanlock (<< 10.6.0-2~)"
+	],
+	"installedSize": 83,
+	"maintainer": "Ubuntu Developers <ubuntu-devel-discuss@lists.ubuntu.com>",
+	"description": "virtualization daemon - locking plugin (sanlock)",
+	"homepage": "https://libvirt.org/kbase/locking-sanlock.html",
+	"filename": "pool/universe/libv/libvirt-hwe/libvirt-daemon-plugin-sanlock-hwe_12.0.0-1ubuntu5_amd64.deb",
+	"size": 18950,
+	"md5": "2d0b6655ce509bff10f281b935a3be97",
+	"sha1": "db42cac2622afc2eeef35865c95d9978f8e1c0d4",
+	"sha256": "a61ac302d7b91e9c9801c5c18f26fe9f387ea6c88eeaf7eeb0c2de4a8558a90b",
+	"sha512": "b47c61c8ae7d36909d1deeee559b6ef066bdea40f94e33eb7cafa260f86558059ac5795e67a3b9f2303dcd0b7fff2a60e6f7c3ad9f6e85b711c868771183f4f5",
+	"descriptionMd5": "ed0009a1a5c54f5ae922bf0f0c4c34d3"
+}

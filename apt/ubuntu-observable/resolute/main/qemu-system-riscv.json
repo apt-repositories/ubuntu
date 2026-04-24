@@ -1,0 +1,74 @@
+[{
+	"raw": {},
+	"required": [
+		"Filename",
+		"Size"
+	],
+	"package": "qemu-system-riscv",
+	"source": "qemu",
+	"version": "1:10.2.1+ds-1ubuntu3",
+	"section": "otherosfs",
+	"priority": "optional",
+	"architecture": "amd64",
+	"depends": [
+		"libaio1t64 (>= 0.3.93)",
+		"libbpf1 (>= 1:0.0.8)",
+		"libc6 (>= 2.43)",
+		"libfdt1 (>= 1.7.2)",
+		"libfuse3-4 (>= 3.17.2)",
+		"libglib2.0-0t64 (>= 2.78.0)",
+		"libgnutls30t64 (>= 3.8.6)",
+		"libibverbs1 (>= 1.1.6)",
+		"libjpeg8 (>= 8c)",
+		"libnuma1 (>= 2.0.15)",
+		"libpixman-1-0 (>= 0.19.6)",
+		"libpmem1 (>= 1.4)",
+		"libpng16-16t64 (>= 1.6.46)",
+		"librdmacm1t64 (>= 1.0.15)",
+		"libsasl2-2 (>= 2.1.28+dfsg1)",
+		"libseccomp2 (>= 2.1.0)",
+		"libslirp0 (>= 4.9.1)",
+		"libudev1 (>= 183)",
+		"liburing2 (>= 2.3)",
+		"libzstd1 (>= 1.5.5)",
+		"zlib1g (>= 1:1.2.0)",
+		"qemu-system-common (= 1:10.2.1+ds-1ubuntu3)",
+		"qemu-system-data (>> 1:10.2.1+ds~)",
+		"opensbi (>> 1.5.1-1~)",
+		"ubuntu-virt"
+	],
+	"recommends": [
+		"qemu-utils",
+		"ipxe-qemu",
+		"qemu-efi-riscv64",
+		"qemu-system-gui (= 1:10.2.1+ds-1ubuntu3)",
+		"qemu-system-modules-spice (= 1:10.2.1+ds-1ubuntu3)",
+		"qemu-system-modules-opengl (= 1:10.2.1+ds-1ubuntu3)",
+		"qemu-block-extra (= 1:10.2.1+ds-1ubuntu3)"
+	],
+	"suggests": [
+		"samba",
+		"vde2",
+		"passt"
+	],
+	"replaces": [
+		"qemu-system-data (<< 1:9.1.0+ds-4~)",
+		"qemu-system-misc (<< 1:9.1.0+ds-9~)",
+		"qemu-system-riscv-hwe"
+	],
+	"breaks": [
+		"qemu-system-data (<< 1:9.1.0+ds-4~)",
+		"qemu-system-misc (<< 1:9.1.0+ds-9~)"
+	],
+	"installedSize": 35291,
+	"maintainer": "Ubuntu Developers <ubuntu-devel-discuss@lists.ubuntu.com>",
+	"description": "QEMU full system emulation binaries (riscv)",
+	"homepage": "http://www.qemu.org/",
+	"filename": "pool/main/q/qemu/qemu-system-riscv_10.2.1+ds-1ubuntu3_amd64.deb",
+	"size": 8608008,
+	"md5": "d21a008f54cdac60512cabd2ec5f5ee7",
+	"sha1": "699790dc49638e41daefe2980222623c7d2ff3ef",
+	"sha256": "219c261747c15fe30a8f85c459df2ff823d4f911a0c402e9b31f279a41c42ac5",
+	"sha512": "08a6d670888f87f0a813305976598cf6d271bf7e92fe8c62f1b055eea2f369904c017001136c1dc2d159de6e9a762e5085a5d7f2dabe762ed1f4f24a3146f0d4",
+	"descriptionMd5": "5e5887e91389f4d68f57148b82ac7aad"
+}]

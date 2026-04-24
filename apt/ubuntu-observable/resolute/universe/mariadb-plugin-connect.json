@@ -1,0 +1,52 @@
+[{
+	"raw": {},
+	"required": [
+		"Filename",
+		"Size"
+	],
+	"package": "mariadb-plugin-connect",
+	"source": "mariadb",
+	"version": "1:11.8.6-5",
+	"section": "universe/database",
+	"priority": "optional",
+	"architecture": "amd64",
+	"depends": [
+		"mariadb-server-core (= 1:11.8.6-5)",
+		"unixodbc",
+		"libc6 (>= 2.38)",
+		"libgcc-s1 (>= 3.3.1)",
+		"libodbc2 (>= 2.3.1)",
+		"libstdc++6 (>= 13.1)",
+		"libxml2-16 (>= 2.14.1)",
+		"zlib1g (>= 1:1.2.3.4)"
+	],
+	"recommends": [
+		"curl"
+	],
+	"replaces": [
+		"mariadb-connect-engine-10.0",
+		"mariadb-connect-engine-10.1",
+		"mariadb-server-10.0",
+		"mariadb-server-10.1"
+	],
+	"breaks": [
+		"mariadb-connect-engine-10.0",
+		"mariadb-connect-engine-10.1",
+		"mariadb-server-10.0",
+		"mariadb-server-10.1"
+	],
+	"conflicts": [
+		"mariadb-connect-engine-10.0",
+		"mariadb-connect-engine-10.1"
+	],
+	"installedSize": 1741,
+	"maintainer": "Ubuntu Developers <ubuntu-devel-discuss@lists.ubuntu.com>",
+	"description": "Connect storage engine for MariaDB server",
+	"homepage": "https://mariadb.org/",
+	"filename": "pool/universe/m/mariadb/mariadb-plugin-connect_11.8.6-5_amd64.deb",
+	"size": 575532,
+	"md5": "766f4ded7c456ad1b5bed2115c950dac",
+	"sha1": "e2104ce4b10801789a871fb13e3175085df7dde5",
+	"sha256": "510027b616f518785a3f078046136da7b44a93cce5dcc27f2277ae046b0a04e4",
+	"descriptionMd5": "506802608814c7a120919c156cb40a99"
+}]

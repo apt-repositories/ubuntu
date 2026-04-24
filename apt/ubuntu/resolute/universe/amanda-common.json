@@ -1,0 +1,54 @@
+{
+	"raw": {},
+	"required": [
+		"Filename",
+		"Size"
+	],
+	"package": "amanda-common",
+	"source": "amanda",
+	"version": "1:3.5.4-2.1build1",
+	"section": "universe/utils",
+	"priority": "optional",
+	"architecture": "amd64",
+	"depends": [
+		"adduser",
+		"bsd-mailx | mailx",
+		"debconf (>= 0.5) | debconf-2.0",
+		"openbsd-inetd | inet-superserver",
+		"update-inetd",
+		"libjson-perl",
+		"perl (>= 5.40.1-6build1)",
+		"perlapi-5.40.1",
+		"libc6 (>= 2.42)",
+		"libcurl4t64 (>= 7.16.2)",
+		"libglib2.0-0t64 (>= 2.76.0)",
+		"libssl3t64 (>= 3.0.0)",
+		"libtirpc3t64 (>= 1.0.2)"
+	],
+	"suggests": [
+		"amanda-server (= 1:3.5.4-2.1build1) | amanda-client (= 1:3.5.4-2.1build1)"
+	],
+	"replaces": [
+		"amanda",
+		"amanda-client (<< 1:3.5)",
+		"amanda-server (<< 1:3.5.1-3~)"
+	],
+	"breaks": [
+		"amanda-client (<< 1:3.5)",
+		"amanda-server (<< 1:3.5.1-3~)"
+	],
+	"conflicts": [
+		"amanda"
+	],
+	"installedSize": 9859,
+	"maintainer": "Ubuntu Developers <ubuntu-devel-discuss@lists.ubuntu.com>",
+	"description": "Advanced Maryland Automatic Network Disk Archiver (Libs)",
+	"homepage": "http://www.amanda.org/",
+	"filename": "pool/universe/a/amanda/amanda-common_3.5.4-2.1build1_amd64.deb",
+	"size": 1941026,
+	"md5": "b4958a887834606d5a384cc45f295b48",
+	"sha1": "1d3c73c0b06878589a213560d57d2a81da032a6a",
+	"sha256": "4411981bcecb5d0972c1a1286447eafeb1a9ab66114cded2588d6167b20c255c",
+	"sha512": "53f7a1f977279ffffdf98c1423109dca89b177f5f491c060dcce278edb6c3588490f837eeac52387b078d2f5447f07b189649bc9ae4d27b43e2546186bca0e8f",
+	"descriptionMd5": "9be314450886c6bdecdb2064ccfdb4bd"
+}

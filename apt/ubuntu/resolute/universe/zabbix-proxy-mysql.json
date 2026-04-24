@@ -1,0 +1,57 @@
+{
+	"raw": {},
+	"required": [
+		"Filename",
+		"Size"
+	],
+	"package": "zabbix-proxy-mysql",
+	"source": "zabbix",
+	"version": "1:7.0.22+dfsg-1",
+	"section": "universe/net",
+	"priority": "optional",
+	"architecture": "amd64",
+	"depends": [
+		"libc6 (>= 2.38)",
+		"libcurl3t64-gnutls (>= 7.16.3)",
+		"libevent-core-2.1-7t64 (>= 2.1.8-stable)",
+		"libevent-extra-2.1-7t64 (>= 2.1.8-stable)",
+		"libevent-pthreads-2.1-7t64 (>= 2.1.8-stable)",
+		"libgnutls30t64 (>= 3.8.6)",
+		"libldap2 (>= 2.6.2)",
+		"libmysqlclient24 (>= 8.4.2)",
+		"libodbc2 (>= 2.3.1)",
+		"libopenipmi0t64 (>= 2.0.37)",
+		"libpcre2-8-0 (>= 10.22)",
+		"libsnmp40t64 (>= 5.9.4+dfsg)",
+		"libssh2-1t64 (>= 1.4.0)",
+		"libxml2-16 (>= 2.14.1)",
+		"zlib1g (>= 1:1.2.0)",
+		"ucf",
+		"fping",
+		"adduser",
+		"sysvinit-utils (>= 3.05-4~)"
+	],
+	"recommends": [
+		"default-mysql-server | virtual-mysql-server"
+	],
+	"suggests": [
+		"logrotate"
+	],
+	"conflicts": [
+		"zabbix-proxy-pgsql",
+		"zabbix-proxy-sqlite3",
+		"zabbix-server-mysql",
+		"zabbix-server-pgsql"
+	],
+	"installedSize": 7064,
+	"maintainer": "Ubuntu Developers <ubuntu-devel-discuss@lists.ubuntu.com>",
+	"description": "network monitoring solution - proxy (using MySQL)",
+	"homepage": "http://zabbix.com",
+	"filename": "pool/universe/z/zabbix/zabbix-proxy-mysql_7.0.22+dfsg-1_amd64.deb",
+	"size": 1845642,
+	"md5": "83ab483f89c45ce1e0eaba0b93dfb27b",
+	"sha1": "faee79036dd813d03fc0e7507463dc6f671e4ceb",
+	"sha256": "d277f52b2532dbe255dfc93c7a2f013805b91a2094c92e50b9d81e4ad4084fb7",
+	"sha512": "b53d0a14a4d5290aeb2f1f70f43ab013d18960c77baf58bf4da7d40705c7a034906cdbac209127bdb69c6ee70346d5d231bf5fd077fff7ebdd2a9a5c93fed618",
+	"descriptionMd5": "9ffe35ab9ed279c73ef0fa38aa9b1cf0"
+}

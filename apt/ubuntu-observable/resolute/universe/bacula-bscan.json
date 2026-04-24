@@ -1,0 +1,41 @@
+[{
+	"raw": {},
+	"required": [
+		"Filename",
+		"Size"
+	],
+	"package": "bacula-bscan",
+	"source": "bacula",
+	"version": "15.0.3-5",
+	"section": "universe/admin",
+	"priority": "optional",
+	"architecture": "amd64",
+	"depends": [
+		"bacula-common-pgsql (= 15.0.3-5) | bacula-common-mysql (= 15.0.3-5) | bacula-common-sqlite3 (= 15.0.3-5)",
+		"bacula-sd (= 15.0.3-5)",
+		"bacula-common (= 15.0.3-5)",
+		"libc6 (>= 2.38)",
+		"libstdc++6 (>= 5)"
+	],
+	"replaces": [
+		"bacula-sd-mysql (<< 7.4.3+dfsg-3)",
+		"bacula-sd-pgsql (<< 7.4.3+dfsg-3)",
+		"bacula-sd-sqlite3 (<< 7.4.3+dfsg-3)"
+	],
+	"breaks": [
+		"bacula-sd-mysql (<< 7.4.3+dfsg-3)",
+		"bacula-sd-pgsql (<< 7.4.3+dfsg-3)",
+		"bacula-sd-sqlite3 (<< 7.4.3+dfsg-3)"
+	],
+	"installedSize": 95,
+	"maintainer": "Ubuntu Developers <ubuntu-devel-discuss@lists.ubuntu.com>",
+	"description": "network backup service - bscan tool",
+	"homepage": "https://www.bacula.org/",
+	"filename": "pool/universe/b/bacula/bacula-bscan_15.0.3-5_amd64.deb",
+	"size": 26264,
+	"md5": "705d49f57efc5d3b97f80c7e793530ba",
+	"sha1": "55a59d53ed98723af3d6c68ee4a73c6e58891d51",
+	"sha256": "8829bb2142f9544afb90fc09e2e13285254e1e4d7bbe8df29d97d669972955a3",
+	"sha512": "6ff6bc876ec7873e3ae2f1f9e9b51e92f7737570a7ebbce0619148108bf1e78773ae279f9457569c3692b37f4a410aa9aca56b421f0afb1897cd409379877538",
+	"descriptionMd5": "44a01e27d6f81c2f40774f7989a68e8b"
+}]

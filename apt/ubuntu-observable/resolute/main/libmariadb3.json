@@ -1,0 +1,44 @@
+[{
+	"raw": {},
+	"required": [
+		"Filename",
+		"Size"
+	],
+	"package": "libmariadb3",
+	"source": "mariadb",
+	"version": "1:11.8.6-5",
+	"section": "libs",
+	"priority": "optional",
+	"architecture": "amd64",
+	"depends": [
+		"mariadb-common",
+		"libc6 (>= 2.34)",
+		"libssl3t64 (>= 3.0.0)",
+		"zlib1g (>= 1:1.1.4)"
+	],
+	"replaces": [
+		"libmariadbclient18"
+	],
+	"breaks": [
+		"libmariadbclient18"
+	],
+	"conflicts": [
+		"mariadb-galera-server-10.0",
+		"mariadb-galera-server-5.5",
+		"mariadb-server-10.0",
+		"mariadb-server-5.1",
+		"mariadb-server-5.2",
+		"mariadb-server-5.3",
+		"mariadb-server-5.5"
+	],
+	"installedSize": 587,
+	"maintainer": "Ubuntu Developers <ubuntu-devel-discuss@lists.ubuntu.com>",
+	"description": "MariaDB database client library",
+	"homepage": "https://mariadb.org/",
+	"filename": "pool/main/m/mariadb/libmariadb3_11.8.6-5_amd64.deb",
+	"size": 190778,
+	"md5": "f4f61de8ee1b02815eac27180d7cb669",
+	"sha1": "126a4e1ae5bdb31d578a064003e054106804d413",
+	"sha256": "74bd6ad6593b41d68318e12e894dbdfc6c77e0efa6c1532430e92655436c0a87",
+	"descriptionMd5": "c48685b906f3842ee48fd71db5681868"
+}]

@@ -1,0 +1,44 @@
+{
+	"raw": {},
+	"required": [
+		"Filename",
+		"Size"
+	],
+	"package": "buildah",
+	"source": "golang-github-containers-buildah",
+	"version": "1.42.1+ds1-2build1",
+	"section": "universe/devel",
+	"priority": "optional",
+	"architecture": "amd64",
+	"depends": [
+		"golang-github-containers-common (>> 0.66.0)",
+		"uidmap",
+		"libc6 (>= 2.38)",
+		"libgpgme45 (>= 1.23.2)",
+		"libseccomp2 (>= 2.5.0)",
+		"libsqlite3-0 (>= 3.36.0)",
+		"libsubid5 (>= 1:4.16.0)"
+	],
+	"recommends": [
+		"cpp",
+		"crun | runc",
+		"fuse-overlayfs (>= 0.7.1~)"
+	],
+	"suggests": [
+		"containers-storage"
+	],
+	"breaks": [
+		"fuse-overlayfs (<< 0.7.1)"
+	],
+	"installedSize": 125427,
+	"maintainer": "Ubuntu Developers <ubuntu-devel-discuss@lists.ubuntu.com>",
+	"description": "CLI tool to facilitate building OCI images",
+	"homepage": "https://github.com/containers/buildah",
+	"filename": "pool/universe/g/golang-github-containers-buildah/buildah_1.42.1+ds1-2build1_amd64.deb",
+	"size": 37958252,
+	"md5": "58839291c47f554959eb46c881682d50",
+	"sha1": "6575122e0806c0a5bf81e2c7db62bfabc1c9dafb",
+	"sha256": "a1f7e2bcfc85ce0ae33915f67c4526f29e88504dcf9f3b917540b9678024d6b2",
+	"sha512": "cb02fc8e4e7d5646f67c1fc8931d2a65eaf31130f98fcebf9624082d78bf1522bc6d6848a1f85ed2f613627f990a2f4cb502cb9e593244b46d8f7159334276d0",
+	"descriptionMd5": "4c36b6f77cd89730148a88f4375673f1"
+}

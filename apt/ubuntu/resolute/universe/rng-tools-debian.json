@@ -1,0 +1,42 @@
+{
+	"raw": {},
+	"required": [
+		"Filename",
+		"Size"
+	],
+	"package": "rng-tools-debian",
+	"version": "2.6build1",
+	"section": "universe/utils",
+	"priority": "optional",
+	"architecture": "amd64",
+	"depends": [
+		"libc6 (>= 2.38)",
+		"sysvinit-utils (>= 3.05-4~)",
+		"udev | makedev"
+	],
+	"preDepends": [
+		"init-system-helpers (>= 1.54~)"
+	],
+	"replaces": [
+		"intel-rng-tools",
+		"rng-tools"
+	],
+	"breaks": [
+		"rng-tools (>= 5migratf)",
+		"rng-tools (<< 5migrate)"
+	],
+	"conflicts": [
+		"intel-rng-tools",
+		"rng-tools5"
+	],
+	"installedSize": 133,
+	"maintainer": "Ubuntu Developers <ubuntu-devel-discuss@lists.ubuntu.com>",
+	"description": "daemon to use a Hardware RNG (classic version)",
+	"filename": "pool/universe/r/rng-tools-debian/rng-tools-debian_2.6build1_amd64.deb",
+	"size": 46140,
+	"md5": "f6116e8c561a44d01de9ae468d1ab6ef",
+	"sha1": "540202993662923b74531aed08ef2c18fdc1b363",
+	"sha256": "b180b584e8e4c015c4516fc0a3a1087cf29a280096c9580e7f20baf9cfa6d0f4",
+	"sha512": "3432f4691830d6e523267d3efad2f696ca3b7d15139ee1d5ce4aa922372930c4df3aca365ee5e04c7dd3e2f6421a5510335ca8ca2aa5b806958ebbf7ef9a0abb",
+	"descriptionMd5": "79886e724d12d4e9ccd765b7cd54dd0d"
+}

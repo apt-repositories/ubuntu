@@ -1,0 +1,69 @@
+{
+	"raw": {},
+	"required": [
+		"Filename",
+		"Size"
+	],
+	"package": "rtpengine-daemon",
+	"source": "rtpengine",
+	"version": "13.5.1.4-1",
+	"section": "universe/net",
+	"priority": "optional",
+	"architecture": "amd64",
+	"depends": [
+		"libavcodec62 (>= 7:8.0)",
+		"libavformat62 (>= 7:8.0)",
+		"libavutil60 (>= 7:8.0)",
+		"libbcg729-0 (>= 1.0.0)",
+		"libc6 (>= 2.38)",
+		"libcurl4t64 (>= 7.16.2)",
+		"libevent-2.1-7t64 (>= 2.1.8-stable)",
+		"libevent-pthreads-2.1-7t64 (>= 2.1.8-stable)",
+		"libglib2.0-0t64 (>= 2.76.0)",
+		"libhiredis1.1.0 (>= 1.2.0)",
+		"libip4tc2 (>= 1.8.3)",
+		"libip6tc2 (>= 1.8.3)",
+		"libjson-glib-1.0-0 (>= 1.5.2)",
+		"libmnl0 (>= 1.0.3-4~)",
+		"libmosquitto1 (>= 1.6)",
+		"libmysqlclient24 (>= 8.4.2)",
+		"libnftnl11 (>= 1.1.2)",
+		"libopus0 (>= 1.1)",
+		"libpcap0.8t64 (>= 0.9.8)",
+		"libpcre2-8-0 (>= 10.22)",
+		"libspandsp2t64 (>= 0.0.6)",
+		"libssl3t64 (>= 3.0.0)",
+		"libswresample6 (>= 7:8.0)",
+		"libsystemd0",
+		"liburing2 (>= 2.3)",
+		"libwebsockets19t64 (>= 2.4.1)",
+		"zlib1g (>= 1:1.1.4)"
+	],
+	"preDepends": [
+		"adduser",
+		"init-system-helpers (>= 1.54~)"
+	],
+	"recommends": [
+		"rtpengine-perftest",
+		"rtpengine-recording-daemon",
+		"rtpengine-utils"
+	],
+	"replaces": [
+		"rtpengine-iptables"
+	],
+	"conflicts": [
+		"ngcp-rtpengine-daemon",
+		"rtpengine-iptables"
+	],
+	"installedSize": 1780,
+	"maintainer": "Ubuntu Developers <ubuntu-devel-discuss@lists.ubuntu.com>",
+	"description": "proxy for RTP and media streams used in NGCP, userspace part",
+	"homepage": "https://github.com/sipwise/rtpengine/",
+	"filename": "pool/universe/r/rtpengine/rtpengine-daemon_13.5.1.4-1_amd64.deb",
+	"size": 639894,
+	"md5": "c94f31110f5d211a1ac6f479720fd4c2",
+	"sha1": "ccf99282a8fa79f18359bb47088e8728728950c6",
+	"sha256": "a9931efcc6cd7c1626c914dfb4a5e57e3ce022b33c8f2338b454127239a0677c",
+	"sha512": "b4bf330b206dcc570ff0ed9c5ecfd5e45c44640dcb8e467f58d1215b9df5cdf901205ae2823c73df5f68205434d00e49634a137309d6a2d81b91adb3dccbbbf3",
+	"descriptionMd5": "385824689e327542f7397f02667ac52d"
+}

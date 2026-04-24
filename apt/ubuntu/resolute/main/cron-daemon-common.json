@@ -1,0 +1,43 @@
+{
+	"raw": {},
+	"required": [
+		"Filename",
+		"Size"
+	],
+	"package": "cron-daemon-common",
+	"source": "cron",
+	"version": "3.0pl1-200ubuntu1",
+	"section": "admin",
+	"priority": "standard",
+	"architecture": "all",
+	"depends": [
+		"systemd | systemd-standalone-sysusers | systemd-sysusers",
+		"adduser"
+	],
+	"replaces": [
+		"bcron (<< 0.11-9.1)",
+		"cron (<< 3.0pl1-140)",
+		"cronie (<< 1.6.1-5)",
+		"systemd-cron (<< 1.15.18-1.1)"
+	],
+	"breaks": [
+		"systemd-cron (<< 1.15.19-5~)"
+	],
+	"conflicts": [
+		"bcron (<< 0.11-9.1)",
+		"cron (<< 3.0pl1-140)",
+		"cronie (<< 1.6.1-5)",
+		"systemd-cron (<< 1.15.18-1.1)"
+	],
+	"installedSize": 54,
+	"maintainer": "Ubuntu Developers <ubuntu-devel-discuss@lists.ubuntu.com>",
+	"description": "process scheduling daemon's configuration files",
+	"homepage": "https://ftp.isc.org/isc/cron/",
+	"filename": "pool/main/c/cron/cron-daemon-common_3.0pl1-200ubuntu1_all.deb",
+	"size": 15748,
+	"md5": "f06cbbec2e882693891331517c1252d1",
+	"sha1": "7698e9e4a19f8363100c5cb5fb452ec613d9531a",
+	"sha256": "1630217f880e7a6c1a689365fce3b75ce34a2f09f1688ca56d5e4063f9bd5d9c",
+	"sha512": "f29a733264203a468dff999fc62c911c209bef85cd1170f516d030a05e6e5eccf053bbf8a58122cd13f0089daac7c385f8d93051d2a13d8b2fd11cf339f59673",
+	"descriptionMd5": "356827341f19f1a10278dd3b9540ab43"
+}

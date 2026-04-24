@@ -1,0 +1,57 @@
+[{
+	"raw": {},
+	"required": [
+		"Filename",
+		"Size"
+	],
+	"package": "krb5-wallet-server",
+	"source": "krb5-wallet",
+	"version": "1.7",
+	"section": "universe/net",
+	"priority": "optional",
+	"architecture": "all",
+	"depends": [
+		"libcapture-tiny-perl",
+		"libdatetime-format-sqlite-perl | libdatetime-format-mysql-perl | libdatetime-format-pg-perl",
+		"libdatetime-perl",
+		"libdbd-sqlite3-perl | libdbd-mysql-perl | libdbd-pg-perl",
+		"libdbi-perl",
+		"libdbix-class-perl",
+		"libfile-slurp-perl",
+		"libsql-translator-perl",
+		"libtimedate-perl",
+		"remctl-server",
+		"perl:any"
+	],
+	"recommends": [
+		"krb5-user | libheimdal-kadm5-perl",
+		"remctl-server (>= 2.14)"
+	],
+	"suggests": [
+		"libauthen-sasl-perl",
+		"libcrypt-blowfish-perl",
+		"libcrypt-cbc-perl",
+		"libcrypt-generatepassword-perl",
+		"libgssapi-perl",
+		"libipc-run-perl",
+		"libjson-perl",
+		"libnet-duo-perl",
+		"libnet-ldap-perl",
+		"libnet-remctl-perl",
+		"libperl6-slurp-perl"
+	],
+	"conflicts": [
+		"wallet-server"
+	],
+	"installedSize": 774,
+	"maintainer": "Ubuntu Developers <ubuntu-devel-discuss@lists.ubuntu.com>",
+	"description": "Kerberos-authenticated secure data management server",
+	"homepage": "https://salsa.debian.org/whm/krb5-wallet/",
+	"filename": "pool/universe/k/krb5-wallet/krb5-wallet-server_1.7_all.deb",
+	"size": 240010,
+	"md5": "4a730e7bee0da3c93c6a31a17fd8b03f",
+	"sha1": "8b947d072d2c43145e1e9c5bd55dafc6b0432d5f",
+	"sha256": "ce08dd559bec9b7524b568d7ac66103544e61b13c954e0e1f243882abaa37b01",
+	"sha512": "d7f3f77880be97f4472b077d58d3300f8737045557cded821088088738b52becf7f4f1df31c49df0bee3e9a7e20826621d18bddccd308efef9c1068982d05688",
+	"descriptionMd5": "3b6f047fc531696fa40309862108ed30"
+}]

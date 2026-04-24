@@ -1,0 +1,55 @@
+{
+	"raw": {},
+	"required": [
+		"Filename",
+		"Size"
+	],
+	"package": "ntpsec",
+	"version": "1.2.3+dfsg1-8ubuntu2",
+	"section": "universe/net",
+	"priority": "optional",
+	"architecture": "amd64",
+	"depends": [
+		"adduser",
+		"netbase",
+		"python3",
+		"python3-ntp (= 1.2.3+dfsg1-8ubuntu2)",
+		"tzdata",
+		"libc6 (>= 2.42)",
+		"libcap2 (>= 1:2.10)",
+		"libssl3t64 (>= 3.0.0)"
+	],
+	"preDepends": [
+		"init-system-helpers (>= 1.54~)"
+	],
+	"recommends": [
+		"systemd | cron | cron-daemon"
+	],
+	"suggests": [
+		"apparmor",
+		"certbot",
+		"ntpsec-doc",
+		"ntpsec-ntpviz"
+	],
+	"replaces": [
+		"ntp (<< 1:4.2.8p15+dfsg-2~)",
+		"time-daemon"
+	],
+	"breaks": [
+		"ntp (<< 1:4.2.8p15+dfsg-2~)"
+	],
+	"conflicts": [
+		"time-daemon"
+	],
+	"installedSize": 889,
+	"maintainer": "Ubuntu Developers <ubuntu-devel-discuss@lists.ubuntu.com>",
+	"description": "Network Time Protocol daemon and utility programs",
+	"homepage": "https://www.ntpsec.org",
+	"filename": "pool/universe/n/ntpsec/ntpsec_1.2.3+dfsg1-8ubuntu2_amd64.deb",
+	"size": 347368,
+	"md5": "3351e73695bfb2a4eb7e7f3a8ae3ad74",
+	"sha1": "2e695fcd998217b4f5f1d5ef91ce2d9793fd69bb",
+	"sha256": "b6a4553bb2470b715b95ef0ab4f60aec87d1d96b57098e872daa091180c1a726",
+	"sha512": "f3c3cfed67c69289002e631f36e1fae5f4680d32efe83f9a3341ab1e36cc30a109cdd7b40794308824c50ebe397ee8ad19e763740b465e2eb09b48497149c52f",
+	"descriptionMd5": "c455d4fac72d8d6e46cfdbc0a5ddb7b3"
+}

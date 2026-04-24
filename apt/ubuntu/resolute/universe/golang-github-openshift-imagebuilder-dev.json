@@ -1,0 +1,38 @@
+{
+	"raw": {},
+	"required": [
+		"Filename",
+		"Size"
+	],
+	"package": "golang-github-openshift-imagebuilder-dev",
+	"source": "golang-github-openshift-imagebuilder",
+	"version": "1.2.19+ds1-3",
+	"section": "universe/devel",
+	"priority": "optional",
+	"architecture": "all",
+	"depends": [
+		"golang-github-containerd-containerd-dev",
+		"golang-github-containers-storage-dev (>= 1.61)",
+		"golang-github-docker-distribution-dev",
+		"golang-github-docker-docker-dev (>= 26.1.4+dfsg1-6)",
+		"golang-github-fsouza-go-dockerclient-dev (>= 1.11)",
+		"golang-github-opencontainers-image-spec-dev",
+		"golang-k8s-klog-dev",
+		"golang-github-ulikunitz-xz-dev",
+		"golang-glog-dev"
+	],
+	"breaks": [
+		"golang-github-containers-buildah-dev (<< 1.41.5+ds1-4)"
+	],
+	"installedSize": 945,
+	"maintainer": "Ubuntu Developers <ubuntu-devel-discuss@lists.ubuntu.com>",
+	"description": "Builds container images using Dockerfile as input (golang sources)",
+	"homepage": "https://github.com/openshift/imagebuilder",
+	"filename": "pool/universe/g/golang-github-openshift-imagebuilder/golang-github-openshift-imagebuilder-dev_1.2.19+ds1-3_all.deb",
+	"size": 146108,
+	"md5": "0e3be3f11ebdcd409ebca11f47c57917",
+	"sha1": "d06d6b658fe6a447116f56f136b27abe7289f31d",
+	"sha256": "638b36491e38a06b73611b4d55eb7b220533c0ebe9cb93060b3c969c7e6b09d7",
+	"sha512": "7dd3c85587a8e87199099af52b1714f1700a6cf1bb98524a35530e929804769b98e749484e678295bdfa8ef361ce7b3bdaa7fe1bd4ec111b660a25523be77a89",
+	"descriptionMd5": "9ba8e033a07392391716165d7388e7d1"
+}

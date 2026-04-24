@@ -1,0 +1,55 @@
+{
+	"raw": {},
+	"required": [
+		"Filename",
+		"Size"
+	],
+	"package": "ypserv",
+	"version": "4.2-3",
+	"section": "universe/net",
+	"priority": "optional",
+	"architecture": "amd64",
+	"depends": [
+		"libc6 (>= 2.38)",
+		"libcrypt1 (>= 1:4.1.0)",
+		"libgdbm6t64 (>= 1.16)",
+		"libnsl2 (>= 1.0.2)",
+		"libsystemd0",
+		"libtirpc3t64 (>= 1.0.2)",
+		"make",
+		"rpcbind | portmap",
+		"hostname (>= 2.98)",
+		"ucf",
+		"netbase"
+	],
+	"preDepends": [
+		"init-system-helpers (>= 1.54~)"
+	],
+	"recommends": [
+		"yp-tools"
+	],
+	"suggests": [
+		"ypbind-mt",
+		"krb5-kdc"
+	],
+	"replaces": [
+		"nis (<< 4)"
+	],
+	"breaks": [
+		"nis (<< 4)"
+	],
+	"conflicts": [
+		"nis (<< 4)"
+	],
+	"installedSize": 419,
+	"maintainer": "Ubuntu Developers <ubuntu-devel-discuss@lists.ubuntu.com>",
+	"description": "Server daemon for working with Network Information System (NIS)",
+	"homepage": "http://www.linux-nis.org/",
+	"filename": "pool/universe/y/ypserv/ypserv_4.2-3_amd64.deb",
+	"size": 110768,
+	"md5": "476b2de341f73221c2fc2d402e39ee5f",
+	"sha1": "d314743f1a225899d9573c01a6d9614a5c27887d",
+	"sha256": "8c4df391edb80a6e95abf0893031bbdbe3353ab4890893955c56bfbacb274973",
+	"sha512": "9ed7c8e7e53cd158766b8abf518a19c01813f194009c989e8ae5790267ede35492cda23fb0bd4d24da0f6ceb5ecb0509c830a5e349019712ff002743ea6b2a61",
+	"descriptionMd5": "fd22f18a1b86b37e50c43fad96d3f0a5"
+}

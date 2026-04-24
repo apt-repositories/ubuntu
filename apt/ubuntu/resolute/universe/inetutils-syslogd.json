@@ -1,0 +1,40 @@
+{
+	"raw": {},
+	"required": [
+		"Filename",
+		"Size"
+	],
+	"package": "inetutils-syslogd",
+	"source": "inetutils",
+	"version": "2:2.7-2ubuntu1",
+	"section": "universe/net",
+	"priority": "optional",
+	"architecture": "amd64",
+	"depends": [
+		"libc6 (>= 2.38)",
+		"libsystemd0 (>= 254)",
+		"sysvinit-utils (>= 3.05-4~)",
+		"netbase"
+	],
+	"preDepends": [
+		"init-system-helpers (>= 1.54~)"
+	],
+	"replaces": [
+		"syslogd"
+	],
+	"conflicts": [
+		"linux-kernel-log-daemon",
+		"system-log-daemon"
+	],
+	"installedSize": 179,
+	"maintainer": "Ubuntu Developers <ubuntu-devel-discuss@lists.ubuntu.com>",
+	"description": "system logging daemon",
+	"homepage": "https://www.gnu.org/software/inetutils/",
+	"filename": "pool/universe/i/inetutils/inetutils-syslogd_2.7-2ubuntu1_amd64.deb",
+	"size": 64734,
+	"md5": "d9f939b67fb0089b0f69c13c9a5384b8",
+	"sha1": "7dcc7520d5ddce78d05af93b61e10628ae53d101",
+	"sha256": "cc808e4f1b6f33d33c475181e109438d6ae7c5b148a1a49e29416a30299ff0a4",
+	"sha512": "48a3ea5803ab45b81818758156fd97da823183eacb11de6ab3e4532ba56a9319ed06097f7fae98649e52a617f0c474d8ae65e5b2eacd1a5d7b67937405088d9a",
+	"descriptionMd5": "2114d87f02896f73b904f74e7b55d1af"
+}

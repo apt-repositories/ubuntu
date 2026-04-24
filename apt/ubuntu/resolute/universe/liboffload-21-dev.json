@@ -1,0 +1,44 @@
+{
+	"raw": {},
+	"required": [
+		"Filename",
+		"Size"
+	],
+	"package": "liboffload-21-dev",
+	"source": "llvm-toolchain-21",
+	"version": "1:21.1.8-6ubuntu1",
+	"section": "universe/libdevel",
+	"priority": "optional",
+	"architecture": "amd64",
+	"depends": [
+		"liboffload-21 (= 1:21.1.8-6ubuntu1)",
+		"libc6 (>= 2.38)",
+		"libgcc-s1 (>= 3.3)",
+		"libllvm21 (>= 1:21.1.0)",
+		"libomp5 (>= 1:21.1)",
+		"libstdc++6 (>= 10.2)",
+		"libzstd1 (>= 1.5.5)",
+		"zlib1g (>= 1:1.1.4)"
+	],
+	"replaces": [
+		"liboffload-x.y-dev",
+		"libomp5 (<< 1:21.1.4-5)"
+	],
+	"breaks": [
+		"libomp5 (<< 1:21.1.4-5)"
+	],
+	"conflicts": [
+		"liboffload-x.y-dev"
+	],
+	"installedSize": 2626,
+	"maintainer": "Ubuntu Developers <ubuntu-devel-discuss@lists.ubuntu.com>",
+	"description": "Offload Library - Development Package",
+	"homepage": "https://www.llvm.org/",
+	"filename": "pool/universe/l/llvm-toolchain-21/liboffload-21-dev_21.1.8-6ubuntu1_amd64.deb",
+	"size": 667720,
+	"md5": "13f4f002791b900d8dc5fb8264c4a929",
+	"sha1": "9177d26602722ca7d93db9e58a0b10562e00bd67",
+	"sha256": "dcb6b84f0c46932b9a9510bebc7c22a4d4b7781976ad6eb59b2932710cb516ca",
+	"sha512": "bc22a44ebbd795d49d19daddb3899058d8595b724d7d4764013a817ba893304b086f307f2b6965df3da54adc31a46ae43e0ac1ab7fe167635c6739554a284ac8",
+	"descriptionMd5": "0335a80bacd1f17cc3caa43cce0c4820"
+}

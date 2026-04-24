@@ -1,0 +1,41 @@
+{
+	"raw": {},
+	"required": [
+		"Filename",
+		"Size"
+	],
+	"package": "libvirt-login-shell-hwe",
+	"source": "libvirt-hwe",
+	"version": "12.0.0-1ubuntu5",
+	"section": "universe/admin",
+	"priority": "optional",
+	"architecture": "amd64",
+	"depends": [
+		"libvirt-common (= 12.0.0-1ubuntu5)",
+		"libvirt-daemon-driver-lxc (= 12.0.0-1ubuntu5)",
+		"libvirt0 (= 12.0.0-1ubuntu5)",
+		"libc6 (>= 2.34)",
+		"libgcc-s1 (>= 3.3.1)",
+		"libglib2.0-0t64 (>= 2.12.0)",
+		"libvirt0-hwe (>= 12.0.0)",
+		"ubuntu-virt-hwe"
+	],
+	"replaces": [
+		"libvirt-clients (<< 6.9.0-2~)",
+		"libvirt-login-shell"
+	],
+	"breaks": [
+		"libvirt-clients (<< 6.9.0-2~)"
+	],
+	"installedSize": 56,
+	"maintainer": "Ubuntu Developers <ubuntu-devel-discuss@lists.ubuntu.com>",
+	"description": "isolate user sessions using LXC containers",
+	"homepage": "https://libvirt.org/",
+	"filename": "pool/universe/libv/libvirt-hwe/libvirt-login-shell-hwe_12.0.0-1ubuntu5_amd64.deb",
+	"size": 12730,
+	"md5": "b3729be6f7c4a1180646f46adbe7e4c6",
+	"sha1": "33eb8559f3f3802a8b9f66df3ad51a8104aef3fc",
+	"sha256": "bfd886e48781facbe1263f2c76b085de92d4f96d934bcb54fd80492c61f7fd57",
+	"sha512": "b87b0ee72e94f5612c3680846cf53f53241ad30be3f066fb1d1d1a882d9257593bb696b602e0cbc1d508c9483b5a9ad0977fc9450cd2144ef5521c39a4c1ab28",
+	"descriptionMd5": "e03d6c10b2702e11c95b5c0ac49f98ff"
+}

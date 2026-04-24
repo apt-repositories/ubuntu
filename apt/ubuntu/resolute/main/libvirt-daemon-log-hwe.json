@@ -1,0 +1,46 @@
+{
+	"raw": {},
+	"required": [
+		"Filename",
+		"Size"
+	],
+	"package": "libvirt-daemon-log-hwe",
+	"source": "libvirt-hwe",
+	"version": "12.0.0-1ubuntu5",
+	"section": "admin",
+	"priority": "optional",
+	"architecture": "amd64",
+	"depends": [
+		"libvirt-common (= 12.0.0-1ubuntu5)",
+		"libvirt0 (= 12.0.0-1ubuntu5)",
+		"libc6 (>= 2.34)",
+		"libgcc-s1 (>= 3.3.1)",
+		"libglib2.0-0t64 (>= 2.32.0)",
+		"libtirpc3t64 (>= 1.0.2)",
+		"libvirt0-hwe (>= 12.0.0)",
+		"ubuntu-virt-hwe"
+	],
+	"replaces": [
+		"libvirt-daemon (<< 10.6.0-2~)",
+		"libvirt-daemon-log",
+		"libvirt-daemon-system-sysv (<< 10.6.0-2~)"
+	],
+	"breaks": [
+		"libvirt-daemon (<< 10.6.0-2~)",
+		"libvirt-daemon-system-sysv (<< 10.6.0-2~)"
+	],
+	"conflicts": [
+		"libvirt-daemon-system (<< 10.6.0-2~)"
+	],
+	"installedSize": 155,
+	"maintainer": "Ubuntu Developers <ubuntu-devel-discuss@lists.ubuntu.com>",
+	"description": "virtualization daemon - logging daemon",
+	"homepage": "https://libvirt.org/daemons.html#logging-daemon",
+	"filename": "pool/main/libv/libvirt-hwe/libvirt-daemon-log-hwe_12.0.0-1ubuntu5_amd64.deb",
+	"size": 40408,
+	"md5": "774d57c7f8f70611c791120cfa1a639e",
+	"sha1": "b1831cac665ca195cfdaf76a1d745015372a11c0",
+	"sha256": "8a2bdf130eef75969840858b9d4f603a2c8929da141eae5a6448caf7500b9ab0",
+	"sha512": "c37c2f4b090000af3baed34aaa3af4dd584791932ff7beb88e902b24d024dcdbc96ecd6818346a8039a109e484a495712eca82ddff0fdc6573aaf97c90cb110c",
+	"descriptionMd5": "278e81011735017b042a3a7302e1e03e"
+}

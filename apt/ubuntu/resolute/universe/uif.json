@@ -1,0 +1,49 @@
+{
+	"raw": {},
+	"required": [
+		"Filename",
+		"Size"
+	],
+	"package": "uif",
+	"version": "1.99.0-8",
+	"section": "universe/net",
+	"priority": "optional",
+	"architecture": "all",
+	"depends": [
+		"perl:any",
+		"debconf (>= 0.5) | debconf-2.0",
+		"libdata-validate-ip-perl",
+		"libfile-which-perl",
+		"libnetaddr-ip-perl (>= 3.0)",
+		"libsocket-perl",
+		"iptables",
+		"bsdutils (>= 2.11u)",
+		"mailutils | mailx"
+	],
+	"preDepends": [
+		"init-system-helpers (>= 1.54~)"
+	],
+	"recommends": [
+		"libnet-ldap-perl"
+	],
+	"suggests": [
+		"fwlogwatch"
+	],
+	"conflicts": [
+		"fiaif",
+		"firewall-easy",
+		"knetfilter",
+		"shorewall"
+	],
+	"installedSize": 220,
+	"maintainer": "Ubuntu Developers <ubuntu-devel-discuss@lists.ubuntu.com>",
+	"description": "Advanced iptables-firewall script",
+	"homepage": "https://github.com/cajus/uif",
+	"filename": "pool/universe/u/uif/uif_1.99.0-8_all.deb",
+	"size": 52806,
+	"md5": "8261f34914f527677cc40a509780ffdd",
+	"sha1": "fa0616c8c1ff240ec8f9365e2fe84cc57fc41f65",
+	"sha256": "8c2ea856f5f76fe06b26b3c700669c793fec5a85b06c5127f6f48913ab130be1",
+	"sha512": "47c2576fc8dc2beec3d9a131d92afb152c7fc10ed695cb2ae5b10a5b0381a45d5090602a94a6574f057ae640bb9d4517224bd5ed92b5bcacb9dd2c4c65387aa7",
+	"descriptionMd5": "ef0e7a2e4f0b7809c0ae3a8e35b0d9c3"
+}

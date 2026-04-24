@@ -1,0 +1,52 @@
+[{
+	"raw": {},
+	"required": [
+		"Filename",
+		"Size"
+	],
+	"package": "podman",
+	"version": "5.7.0+ds2-3build1",
+	"section": "universe/admin",
+	"priority": "optional",
+	"architecture": "amd64",
+	"depends": [
+		"conmon",
+		"crun | runc",
+		"golang-github-containers-common",
+		"netavark",
+		"init-system-helpers (>= 1.52)",
+		"libc6 (>= 2.38)",
+		"libgpgme45 (>= 1.23.2)",
+		"libseccomp2 (>= 2.5.0)",
+		"libsqlite3-0 (>= 3.36.0)",
+		"libsubid5 (>= 1:4.16.0)"
+	],
+	"recommends": [
+		"buildah (>= 1.31)",
+		"ca-certificates",
+		"catatonit | tini | dumb-init",
+		"containers-storage",
+		"criu",
+		"dbus-user-session",
+		"libcriu2",
+		"passt",
+		"slirp4netns",
+		"uidmap"
+	],
+	"suggests": [
+		"containernetworking-plugins",
+		"docker-compose",
+		"iptables"
+	],
+	"installedSize": 82086,
+	"maintainer": "Ubuntu Developers <ubuntu-devel-discuss@lists.ubuntu.com>",
+	"description": "tool to manage containers and pods",
+	"homepage": "https://github.com/containers/podman",
+	"filename": "pool/universe/p/podman/podman_5.7.0+ds2-3build1_amd64.deb",
+	"size": 25818110,
+	"md5": "2d3134dcd8cf82b606c78d1ea0076267",
+	"sha1": "79055c70362413b8c66b7715fc3aaa13f77a3a59",
+	"sha256": "bc8fbe3c31f0904550a9e6cb32363643fd34ad9b78553fda233b50caef2e11bd",
+	"sha512": "fdd02b9d9d6032f72480d83726ff5e9851106d3e976a8c5bef6b45ee565fa4ff800b6ce67bfc72a69312871021192284fb00149c483f5a8414fa25ad33da1cd5",
+	"descriptionMd5": "fd83afbea3c3f2a1d94acbd0a2ad6d26"
+}]

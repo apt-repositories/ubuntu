@@ -1,0 +1,42 @@
+[{
+	"raw": {},
+	"required": [
+		"Filename",
+		"Size"
+	],
+	"package": "libvirt-daemon-driver-storage-scsi-hwe",
+	"source": "libvirt-hwe",
+	"version": "12.0.0-1ubuntu5",
+	"section": "admin",
+	"priority": "optional",
+	"architecture": "amd64",
+	"depends": [
+		"libvirt-common (= 12.0.0-1ubuntu5)",
+		"libvirt-daemon (= 12.0.0-1ubuntu5)",
+		"libvirt-daemon-driver-storage (= 12.0.0-1ubuntu5)",
+		"libvirt0 (= 12.0.0-1ubuntu5)",
+		"libc6 (>= 2.4)",
+		"libgcc-s1 (>= 3.3.1)",
+		"libglib2.0-0t64 (>= 2.12.0)",
+		"libvirt0-hwe (>= 12.0.0)",
+		"ubuntu-virt-hwe"
+	],
+	"replaces": [
+		"libvirt-daemon (<< 10.6.0-2~)",
+		"libvirt-daemon-driver-storage-scsi"
+	],
+	"breaks": [
+		"libvirt-daemon (<< 10.6.0-2~)"
+	],
+	"installedSize": 33,
+	"maintainer": "Ubuntu Developers <ubuntu-devel-discuss@lists.ubuntu.com>",
+	"description": "virtualization daemon - SCSI storage driver",
+	"homepage": "https://libvirt.org/storage.html#scsi-pool",
+	"filename": "pool/main/libv/libvirt-hwe/libvirt-daemon-driver-storage-scsi-hwe_12.0.0-1ubuntu5_amd64.deb",
+	"size": 7532,
+	"md5": "37aed104886797c8c4f6744c793661f6",
+	"sha1": "e1fada728a2c143910ae9838b5bb706d55132cb2",
+	"sha256": "f8211214f9ab4e21a2a97b15d398c21e24eae618c08207a629de6662a18fd3e0",
+	"sha512": "b1889d96998f0017bd4d0fc256bda355792e1f7124f72e1b88b187c722b55d0257d037aa078ae427e8d249b62fe4f503351db95858c9093f88b9226da7ee09cb",
+	"descriptionMd5": "df1c23ff76171dc655884011fa01f24e"
+}]

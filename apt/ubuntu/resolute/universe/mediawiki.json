@@ -1,0 +1,71 @@
+{
+	"raw": {},
+	"required": [
+		"Filename",
+		"Size"
+	],
+	"package": "mediawiki",
+	"version": "1:1.43.8+dfsg-2",
+	"section": "universe/web",
+	"priority": "optional",
+	"architecture": "all",
+	"depends": [
+		"apache2 | httpd",
+		"php (>= 2:8.1~)",
+		"php-gmp",
+		"php-intl",
+		"php-json",
+		"php-mysql | php-pgsql | php-sqlite3 | php-mysqlnd",
+		"php-mbstring",
+		"php-xml",
+		"mediawiki-classes (= 1:1.43.8+dfsg-2)"
+	],
+	"recommends": [
+		"default-mysql-server | virtual-mysql-server | postgresql-contrib | php-sqlite3",
+		"php-cli",
+		"php-apcu",
+		"php-curl",
+		"imagemagick | php-gd",
+		"php-readline",
+		"php-yaml",
+		"php-wikidiff2",
+		"python3-pygments",
+		"php-luasandbox | lua5.1"
+	],
+	"suggests": [
+		"memcached",
+		"clamav",
+		"firejail"
+	],
+	"replaces": [
+		"mediawiki-extensions-base",
+		"mediawiki-extensions-confirmedit",
+		"mediawiki-extensions-geshi",
+		"mediawiki-extensions-math (<= 2:1.0+git20120528-8)"
+	],
+	"breaks": [
+		"fusionforge-plugin-mediawiki (<< 5.2~rc1+1~)",
+		"mediawiki-extensions (<< 2.8~)",
+		"mediawiki-extensions-base",
+		"mediawiki-extensions-collection (<< 2.8~)",
+		"mediawiki-extensions-confirmedit",
+		"mediawiki-extensions-fckeditor",
+		"mediawiki-extensions-geshi",
+		"mediawiki-extensions-graphviz (<< 2.8~)",
+		"mediawiki-extensions-ldapauth (<< 2.8~)",
+		"mediawiki-extensions-math (<= 2:1.0+git20120528-8)",
+		"mediawiki-extensions-openid (<< 2.8~)",
+		"mediawiki-skin-greystuff (<< 1.2.5~)"
+	],
+	"installedSize": 269193,
+	"maintainer": "Ubuntu Developers <ubuntu-devel-discuss@lists.ubuntu.com>",
+	"description": "website engine for collaborative work",
+	"homepage": "https://www.mediawiki.org/",
+	"filename": "pool/universe/m/mediawiki/mediawiki_1.43.8+dfsg-2_all.deb",
+	"size": 52535800,
+	"md5": "d2c69d92b63927868d655297527269f5",
+	"sha1": "53aab2a0e43e901063911004148b6b7187f17242",
+	"sha256": "f1e1659dbd0af9b1ab5465cf83a35b5ebfbc53127e846c0cc4540c5adc996b10",
+	"sha512": "43250579df7063af6abc42ba764ad8bce2c4331237c14fcec3d6573a9be0cb30affe959cd81f731f063d01401be61b35b89aa3c6b985c2a914ec2d8bcd45fe1f",
+	"descriptionMd5": "10b0384e0585cc1980b9b8f319e0b202"
+}

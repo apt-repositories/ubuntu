@@ -1,0 +1,46 @@
+[{
+	"raw": {},
+	"required": [
+		"Filename",
+		"Size"
+	],
+	"package": "libmkl-rt",
+	"source": "intel-mkl",
+	"version": "2020.4.304-7",
+	"section": "multiverse/libs",
+	"priority": "optional",
+	"architecture": "amd64",
+	"depends": [
+		"libc6 (>= 2.2.5)",
+		"debconf (>= 0.5) | debconf-2.0",
+		"debconf",
+		"libmkl-meta-interface (= 2020.4.304-7)",
+		"libmkl-meta-threading (= 2020.4.304-7)",
+		"libmkl-meta-computational (= 2020.4.304-7)",
+		"libmkl-locale (= 2020.4.304-7)",
+		"libblas3 | libblas.so.3",
+		"liblapack3 | liblapack.so.3"
+	],
+	"recommends": [
+		"libomp-dev | libomp-18-dev | libomp-17-dev | libomp-16-dev | libomp-15-dev | libomp-14-dev | libomp-x.y-dev",
+		"libgcc-14-dev | libgcc-13-dev | libgcc-12-dev",
+		"libtbb-dev"
+	],
+	"enhances": [
+		"libblas.so.3",
+		"libblas64.so.3",
+		"liblapack.so.3",
+		"liblapack64.so.3"
+	],
+	"installedSize": 7039,
+	"maintainer": "Ubuntu Developers <ubuntu-devel-discuss@lists.ubuntu.com>",
+	"description": "Intel® MKL: Single Dynamic Library (SDL)",
+	"homepage": "https://software.intel.com/en-us/mkl",
+	"filename": "pool/multiverse/i/intel-mkl/libmkl-rt_2020.4.304-7_amd64.deb",
+	"size": 1171118,
+	"md5": "eb3e3e89d30f716550fd290b3b4a1269",
+	"sha1": "2db316194b6a6ecb7dcd1a1fbf64f96b47440f20",
+	"sha256": "1a0fd55fc12b694a1c8907951ba2dbb4e0c46a05a331c7bb379a54f629de7328",
+	"sha512": "f0e6124c76f000b7ffa0d2375ed6e3c559431df0de26406d2346331419c691c32121555e3c777e43cc583269906c36436e40bbcaabba472935f6ac6f5f25cd4d",
+	"descriptionMd5": "044b38cc68b953ba96716df3d1493bbd"
+}]

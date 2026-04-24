@@ -1,0 +1,33 @@
+{
+	"raw": {},
+	"required": [
+		"Filename",
+		"Size"
+	],
+	"package": "cloud-initramfs-rooturl",
+	"source": "cloud-initramfs-tools",
+	"version": "0.58ubuntu",
+	"section": "admin",
+	"priority": "extra",
+	"architecture": "all",
+	"depends": [
+		"dracut (>= 110) | initramfs-tools",
+		"dracut-network (>= 110) | initramfs-tools",
+		"systemd-container | initramfs-tools"
+	],
+	"breaks": [
+		"dracut-core (<< 110)",
+		"dracut-network (<< 110)"
+	],
+	"installedSize": 35,
+	"maintainer": "Scott Moser <smoser@ubuntu.com>",
+	"description": "use a tarball or squashfs image in a url as the root filesystem",
+	"homepage": "http://launchpad.net/cloud-initramfs-tools",
+	"filename": "pool/main/c/cloud-initramfs-tools/cloud-initramfs-rooturl_0.58ubuntu_all.deb",
+	"size": 6616,
+	"md5": "5fed7cf2abc5afe0e8cf2af17ee5cdd0",
+	"sha1": "44444c123b5c29cb1264e6500e04011f378f382b",
+	"sha256": "e757869c15dcf05b08ac4b6aea9791a3646f616df1765af1dc127e6cd9afcfe8",
+	"sha512": "26deb1ce2b19ebb38d94ec331af7fbb032e422258b955e1a59ba1d17f717c925b13617b70078db2e96c9b67387e4935bb96ca98b0cefbbdff10993f44feed2b3",
+	"descriptionMd5": "600f26e2a9d6f264aaac2b9ee0d3a937"
+}

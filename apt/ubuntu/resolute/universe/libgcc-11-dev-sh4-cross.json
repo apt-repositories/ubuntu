@@ -1,0 +1,41 @@
+{
+	"raw": {},
+	"required": [
+		"Filename",
+		"Size"
+	],
+	"package": "libgcc-11-dev-sh4-cross",
+	"source": "gcc-11-cross-ports (21ubuntu1)",
+	"version": "11.5.0-11ubuntu2cross1",
+	"section": "universe/libdevel",
+	"priority": "optional",
+	"architecture": "all",
+	"depends": [
+		"gcc-11-cross-base-ports (= 11.5.0-11ubuntu2cross1)",
+		"libgcc-s1-sh4-cross (>= 11.5.0-11ubuntu2cross1)",
+		"libgomp1-sh4-cross (>= 11.5.0-11ubuntu2cross1)",
+		"libitm1-sh4-cross (>= 11.5.0-11ubuntu2cross1)",
+		"libatomic1-sh4-cross (>= 11.5.0-11ubuntu2cross1)"
+	],
+	"recommends": [
+		"libc6-dev-sh4-cross (>= 2.13-0ubuntu6)"
+	],
+	"replaces": [
+		"libtsan0-sh4-cross (<< 11.2.0-11)"
+	],
+	"breaks": [
+		"libtsan0-sh4-cross (<< 11.2.0-11)"
+	],
+	"installedSize": 987,
+	"maintainer": "Ubuntu Developers <ubuntu-devel-discuss@lists.ubuntu.com>",
+	"description": "GCC support library (development files)",
+	"homepage": "http://gcc.gnu.org/",
+	"builtUsing": "gcc-11 (= 11.5.0-11ubuntu2)",
+	"filename": "pool/universe/g/gcc-11-cross-ports/libgcc-11-dev-sh4-cross_11.5.0-11ubuntu2cross1_all.deb",
+	"size": 267976,
+	"md5": "95e9e011d0c26c5f37a3ae73278fa226",
+	"sha1": "0b1148df765976f82548d24254b6a04a247d365f",
+	"sha256": "3ad8a77bc4528aa653415b7365a45365ffed3a6c0d40734270b0f72cb1ca5b06",
+	"sha512": "49a10fda88f72539c924da28f91bab4f7c3b2f7b3a558e17a04770f5d0e1b9791d9723938433b12a986df9d9d11588690345bae1ec59b7f1c11755aa1b790a4f",
+	"descriptionMd5": "4ab7cb439b47e1d0796fbaf8447229ac"
+}

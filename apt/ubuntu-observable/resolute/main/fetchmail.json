@@ -1,0 +1,53 @@
+[{
+	"raw": {},
+	"required": [
+		"Filename",
+		"Size"
+	],
+	"package": "fetchmail",
+	"version": "6.6.2-2",
+	"section": "mail",
+	"priority": "optional",
+	"architecture": "amd64",
+	"depends": [
+		"libc6 (>= 2.38)",
+		"libcom-err2 (>= 1.43.9)",
+		"libgssapi-krb5-2 (>= 1.17)",
+		"libkrb5-3 (>= 1.13~alpha1+dfsg)",
+		"libssl3t64 (>= 3.1.4)",
+		"adduser"
+	],
+	"preDepends": [
+		"init-system-helpers (>= 1.54~)"
+	],
+	"recommends": [
+		"ca-certificates"
+	],
+	"suggests": [
+		"fetchmailconf",
+		"default-mta | mail-transport-agent",
+		"resolvconf"
+	],
+	"replaces": [
+		"fetchmail-common",
+		"fetchmail-ssl"
+	],
+	"breaks": [
+		"fetchmail-ssl (<= 6.2.5-12)",
+		"logcheck (<< 1.1.1-9)"
+	],
+	"conflicts": [
+		"fetchmail-common"
+	],
+	"installedSize": 996,
+	"maintainer": "Ubuntu Developers <ubuntu-devel-discuss@lists.ubuntu.com>",
+	"description": "SSL enabled POP3, APOP, IMAP mail gatherer/forwarder",
+	"homepage": "https://www.fetchmail.info",
+	"filename": "pool/main/f/fetchmail/fetchmail_6.6.2-2_amd64.deb",
+	"size": 404724,
+	"md5": "f1f9a5bf7990ea0c853ebe2951763c30",
+	"sha1": "17250d2801a6e2ec7e9c2dfc48e96ad1d1d4e56b",
+	"sha256": "67eac267e4ef8c35ec299ff997b3a40779d4587ec287fdcb46f68192e67b3e4e",
+	"sha512": "d2f83222dff74b175b9975ee0f42729a3663adfeb40f14735e8eb4500e9f5126ef824c70feeb30464a6c97967e738aab0a46b117cc092d6e9003518b4ebd7841",
+	"descriptionMd5": "05cb6c758ac9e6de53b36438f8f52a45"
+}]

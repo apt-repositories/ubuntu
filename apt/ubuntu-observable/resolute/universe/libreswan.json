@@ -1,0 +1,58 @@
+[{
+	"raw": {},
+	"required": [
+		"Filename",
+		"Size"
+	],
+	"package": "libreswan",
+	"version": "5.2-2.2ubuntu2",
+	"section": "universe/net",
+	"priority": "optional",
+	"architecture": "amd64",
+	"depends": [
+		"dns-root-data",
+		"host",
+		"iproute2 | iproute (>= 20071016)",
+		"iptables",
+		"libnss3-tools",
+		"libaudit1 (>= 1:2.2.1)",
+		"libc6 (>= 2.34)",
+		"libcap-ng0 (>= 0.7.9)",
+		"libcrypt1 (>= 1:4.1.0)",
+		"libcurl3t64-gnutls (>= 7.16.2)",
+		"libevent-core-2.1-7t64 (>= 2.1.8-stable)",
+		"libevent-pthreads-2.1-7t64 (>= 2.1.8-stable)",
+		"libldap2 (>= 2.6.2)",
+		"libldns3t64 (>= 1.7.1)",
+		"libnspr4 (>= 2:4.9-2~)",
+		"libnss3 (>= 2:3.52)",
+		"libpam0g (>= 0.99.7.1)",
+		"libselinux1 (>= 3.1~)",
+		"libunbound8 (>= 1.8.0)"
+	],
+	"preDepends": [
+		"debconf | debconf-2.0"
+	],
+	"recommends": [
+		"python3"
+	],
+	"replaces": [
+		"ike-server"
+	],
+	"conflicts": [
+		"ike-server",
+		"strongswan-libcharon",
+		"strongswan-starter"
+	],
+	"installedSize": 7305,
+	"maintainer": "Ubuntu Developers <ubuntu-devel-discuss@lists.ubuntu.com>",
+	"description": "Internet Key Exchange daemon",
+	"homepage": "https://libreswan.org/",
+	"filename": "pool/universe/libr/libreswan/libreswan_5.2-2.2ubuntu2_amd64.deb",
+	"size": 1523990,
+	"md5": "961f686f6d37630c70427d4a950e5e56",
+	"sha1": "344e142b3a39a797045638bc3ef74576a48df20c",
+	"sha256": "3f421c1dac605ce56c6d555a9f6cd5f61f011410456c38d27262823a96df531b",
+	"sha512": "5e56368320ffa0b0e648d891bad54de283f2b9354d87011b2247fa190a6397638d220818c4c5a0156ee2e9c3e3dfdf7e98e9a39dfd474791f043cb3b9801f482",
+	"descriptionMd5": "85f11a75b91fd863b98f3e219668ec8a"
+}]

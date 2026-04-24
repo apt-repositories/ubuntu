@@ -1,0 +1,35 @@
+[{
+	"raw": {},
+	"required": [
+		"Filename",
+		"Size"
+	],
+	"package": "postgresql-18-snakeoil",
+	"source": "pg-snakeoil",
+	"version": "1.4-3",
+	"section": "universe/database",
+	"priority": "optional",
+	"architecture": "amd64",
+	"depends": [
+		"postgresql-18",
+		"libc6 (>= 2.4)",
+		"libclamav12 (>= 1.2.1)"
+	],
+	"recommends": [
+		"clamav-freshclam | clamav-data"
+	],
+	"breaks": [
+		"postgresql-18-jit-llvm (<< 21)"
+	],
+	"installedSize": 52,
+	"maintainer": "Ubuntu Developers <ubuntu-devel-discuss@lists.ubuntu.com>",
+	"description": "PostgreSQL anti-virus scanner based on ClamAV",
+	"homepage": "https://github.com/df7cb/pg_snakeoil",
+	"filename": "pool/universe/p/pg-snakeoil/postgresql-18-snakeoil_1.4-3_amd64.deb",
+	"size": 17918,
+	"md5": "82cdfc21ac1a8d8bf72d5403c1942e2a",
+	"sha1": "0c3a00dd79a535afcddef6b68402795df7654e47",
+	"sha256": "abc8a0f318040b68dea26947622e422eb802e738a4cc3967a4252895f92bcde5",
+	"sha512": "fb2d40506c2b81832d2907e7a77e8046eced26110c5cb8589200bf10aab298bff9354c6c2d74bf554e6c76be05235d4c31b511a30f872cf5cc2065e1321563f8",
+	"descriptionMd5": "8cd2fd1a5fb69b47b2ec6bc17f7dcd91"
+}]

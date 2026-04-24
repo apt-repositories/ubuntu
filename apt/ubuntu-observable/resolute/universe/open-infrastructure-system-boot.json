@@ -1,0 +1,49 @@
+[{
+	"raw": {},
+	"required": [
+		"Filename",
+		"Size"
+	],
+	"package": "open-infrastructure-system-boot",
+	"source": "open-infrastructure-system-tools",
+	"version": "20190301-lts1-5build1",
+	"section": "universe/admin",
+	"priority": "optional",
+	"architecture": "all",
+	"depends": [
+		"busybox | busybox-initramfs",
+		"initramfs-tools",
+		"udev"
+	],
+	"recommends": [
+		"rsync",
+		"uuid-runtime"
+	],
+	"suggests": [
+		"cryptsetup",
+		"curlftpfs",
+		"httpfs2",
+		"wget"
+	],
+	"replaces": [
+		"live-boot",
+		"live-boot-doc",
+		"live-boot-initramfs-tools"
+	],
+	"conflicts": [
+		"live-boot",
+		"live-boot-doc",
+		"live-boot-initramfs-tools"
+	],
+	"installedSize": 174,
+	"maintainer": "Ubuntu Developers <ubuntu-devel-discuss@lists.ubuntu.com>",
+	"description": "Boot Debian-based system images",
+	"homepage": "https://open-infrastructure.net/software/system-tools",
+	"filename": "pool/universe/o/open-infrastructure-system-tools/open-infrastructure-system-boot_20190301-lts1-5build1_all.deb",
+	"size": 67526,
+	"md5": "b8b930d58205f25f571f96a6bf85da3c",
+	"sha1": "74885621ae58b2d156a8eafa0a8a69897c6ed11d",
+	"sha256": "0eeb0a717e8a91dbc5bbb2a41fa681c8080b7b43173c9f2a7d3d29a1318df57f",
+	"sha512": "a488d5f3bd913479b425d78d582e7712db04ee8a720aa63203a5356438245628059df093729a87d869c5c90d6f4a414e69384db2acc1b2bb31b738bfa40198b2",
+	"descriptionMd5": "aa4fd71f06ecf5fe8ab1b28bf94c1d3b"
+}]

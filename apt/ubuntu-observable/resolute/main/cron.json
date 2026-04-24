@@ -1,0 +1,52 @@
+[{
+	"raw": {},
+	"required": [
+		"Filename",
+		"Size"
+	],
+	"package": "cron",
+	"version": "3.0pl1-200ubuntu1",
+	"section": "admin",
+	"priority": "standard",
+	"architecture": "amd64",
+	"depends": [
+		"libc6 (>= 2.38)",
+		"libpam0g (>= 0.99.7.1)",
+		"libselinux1 (>= 3.1~)",
+		"sensible-utils",
+		"libpam-runtime"
+	],
+	"preDepends": [
+		"init-system-helpers (>= 1.54~)",
+		"cron-daemon-common"
+	],
+	"suggests": [
+		"anacron",
+		"logrotate",
+		"checksecurity",
+		"supercat",
+		"bat",
+		"default-mta | mail-transport-agent"
+	],
+	"replaces": [
+		"bcron",
+		"cronie",
+		"systemd-cron"
+	],
+	"conflicts": [
+		"bcron",
+		"cronie",
+		"systemd-cron"
+	],
+	"installedSize": 235,
+	"maintainer": "Ubuntu Developers <ubuntu-devel-discuss@lists.ubuntu.com>",
+	"description": "process scheduling daemon",
+	"homepage": "https://ftp.isc.org/isc/cron/",
+	"filename": "pool/main/c/cron/cron_3.0pl1-200ubuntu1_amd64.deb",
+	"size": 88556,
+	"md5": "d571cecb65949ddae35bb13337a9629d",
+	"sha1": "f1a05500f133fa36eecc2dbc658a5ccd89ec15c6",
+	"sha256": "6b2b3b88313f35b30f50af59940c0b6ba82d992021585430763ffa3f71fb6b03",
+	"sha512": "195745735abba43edee4fad1210366b7c76db68c5794e8a3731cc10d40314df85f1bc74bc3ed6ac16c7a29fa1ca9776995e41d0e250286892d1de84594413214",
+	"descriptionMd5": "7384e614068d48b9ac2335cb05added3"
+}]

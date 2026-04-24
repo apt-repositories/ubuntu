@@ -1,0 +1,53 @@
+[{
+	"raw": {},
+	"required": [
+		"Filename",
+		"Size"
+	],
+	"package": "cronie",
+	"version": "1.7.2-4build1",
+	"section": "universe/admin",
+	"priority": "optional",
+	"architecture": "amd64",
+	"depends": [
+		"libc6 (>= 2.38)",
+		"libpam0g (>= 0.99.7.1)",
+		"libselinux1 (>= 3.1~)",
+		"sysvinit-utils (>= 3.07-1~)",
+		"libpam-runtime",
+		"sensible-utils"
+	],
+	"preDepends": [
+		"init-system-helpers (>= 1.54~)",
+		"cron-daemon-common"
+	],
+	"recommends": [
+		"default-mta | mail-transport-agent"
+	],
+	"suggests": [
+		"anacron",
+		"logrotate",
+		"checksecurity"
+	],
+	"replaces": [
+		"bcron",
+		"cron",
+		"systemd-cron"
+	],
+	"conflicts": [
+		"bcron",
+		"cron",
+		"systemd-cron"
+	],
+	"installedSize": 244,
+	"maintainer": "Ubuntu Developers <ubuntu-devel-discuss@lists.ubuntu.com>",
+	"description": "Process Scheduling Daemon",
+	"homepage": "https://github.com/cronie-crond/cronie",
+	"filename": "pool/universe/c/cronie/cronie_1.7.2-4build1_amd64.deb",
+	"size": 78044,
+	"md5": "f42d81f8e02dbe808ecb4c9362e83715",
+	"sha1": "0b51c059baa80cd50d2fcf7db14ac75082d4982b",
+	"sha256": "b52d8f46299fa6d517141ea8f7ad84081b8c1d969f4678c1c6c05c9c5d4cf635",
+	"sha512": "d2120d9ca48507a606c85b87831d62fb8d6b96b357f56459572b85cbad38fd61c90751e611a2c6c98c73aa1aa7a0459f84a46f89bf9cade4177659920b86cacd",
+	"descriptionMd5": "1acf5c707069f0c56f78c4de6316b58c"
+}]

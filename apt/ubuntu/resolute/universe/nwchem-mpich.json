@@ -1,0 +1,42 @@
+{
+	"raw": {},
+	"required": [
+		"Filename",
+		"Size"
+	],
+	"package": "nwchem-mpich",
+	"source": "nwchem",
+	"version": "7.3.1-1build1",
+	"section": "universe/science",
+	"priority": "optional",
+	"architecture": "amd64",
+	"depends": [
+		"mpich",
+		"nwchem-data (= 7.3.1-1build1)",
+		"libblas3 | libblas.so.3",
+		"libc6 (>= 2.38)",
+		"libgcc-s1 (>= 4.0)",
+		"libgfortran5 (>= 10)",
+		"liblapack3 | liblapack.so.3",
+		"libmpich12",
+		"libpython3.14 (>= 3.14.1)",
+		"libscalapack-mpich2.2 (>= 2.2.2)"
+	],
+	"replaces": [
+		"nwchem (<< 7.2.3-4)"
+	],
+	"breaks": [
+		"nwchem (<< 7.2.3-4)"
+	],
+	"installedSize": 71766,
+	"maintainer": "Ubuntu Developers <ubuntu-devel-discuss@lists.ubuntu.com>",
+	"description": "High-performance computational chemistry software (MPICH build)",
+	"homepage": "https://nwchemgit.github.io",
+	"filename": "pool/universe/n/nwchem/nwchem-mpich_7.3.1-1build1_amd64.deb",
+	"size": 14747604,
+	"md5": "e6db8f814fe95019689e63a0b779ce4c",
+	"sha1": "5adfa09fad35ef876f39c0311b0b2bf1d51b2ffd",
+	"sha256": "4cef32500670142d8775c2fc4f2bd3fabd1db6d77e4ed870825b911078cea2d1",
+	"sha512": "d9e418d2ed29e43bec0d2d8988a08dcde7557ec0e5632d4a32adfa0ea5667635187dcc64c9c52973904a2b369934fa318dbebfd8b96839451afb57e0ffa532a4",
+	"descriptionMd5": "925d6339530af50ed5b41b1f64e7b28c"
+}
