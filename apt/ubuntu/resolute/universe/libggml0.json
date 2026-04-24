@@ -1,0 +1,44 @@
+{
+	"raw": {},
+	"required": [
+		"Filename",
+		"Size"
+	],
+	"package": "libggml0",
+	"source": "ggml",
+	"version": "0.9.11-1",
+	"section": "universe/libs",
+	"priority": "optional",
+	"architecture": "amd64",
+	"depends": [
+		"libc6 (>= 2.43)",
+		"libgcc-s1 (>= 3.3.1)",
+		"libgomp1 (>= 4.9)",
+		"libstdc++6 (>= 11)"
+	],
+	"suggests": [
+		"libggml0-backend-blas",
+		"libggml0-backend-cuda",
+		"libggml0-backend-hip",
+		"libggml0-backend-vulkan"
+	],
+	"replaces": [
+		"libggml",
+		"libggml0-backend-cpu"
+	],
+	"breaks": [
+		"libggml",
+		"libggml0-backend-cpu"
+	],
+	"installedSize": 10960,
+	"maintainer": "Ubuntu Developers <ubuntu-devel-discuss@lists.ubuntu.com>",
+	"description": "Tensor library for machine learning - libraries",
+	"homepage": "https://github.com/ggml-org/ggml",
+	"filename": "pool/universe/g/ggml/libggml0_0.9.11-1_amd64.deb",
+	"size": 1423642,
+	"md5": "52a1d13237ef53c9108c2ae2f2a2c498",
+	"sha1": "2f8fec6f4ab122a3736743891c868ef2f7341d04",
+	"sha256": "871c666330f0597aff3a23eb60e1f29cb8aa6ea70c35f0683f30c7405cf82c9f",
+	"sha512": "efcc4266baa751dc71e670d4df8d7ae799e1353ad5ab3a915ad4a874f723a75a5d2a2e8a9fb9cfea869eb7d347b9bbdaa583c410bc45056b2cdae45aa9a25f10",
+	"descriptionMd5": "1f58644c930127621ff761994aada91b"
+}

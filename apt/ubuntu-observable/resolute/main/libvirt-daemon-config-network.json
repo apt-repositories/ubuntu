@@ -1,0 +1,43 @@
+[{
+	"raw": {},
+	"required": [
+		"Filename",
+		"Size"
+	],
+	"package": "libvirt-daemon-config-network",
+	"source": "libvirt",
+	"version": "12.0.0-1ubuntu5",
+	"section": "admin",
+	"priority": "optional",
+	"architecture": "all",
+	"depends": [
+		"adduser",
+		"libvirt-common (<< 12.0.0-1ubuntu5.1~)",
+		"libvirt-common (>= 12.0.0-1ubuntu5)",
+		"libvirt-daemon-driver-network (<< 12.0.0-1ubuntu5.1~)",
+		"libvirt-daemon-driver-network (>= 12.0.0-1ubuntu5)",
+		"libvirt0 (<< 12.0.0-1ubuntu5.1~)",
+		"libvirt0 (>= 12.0.0-1ubuntu5)",
+		"ubuntu-virt"
+	],
+	"replaces": [
+		"libvirt-daemon-config-network-hwe",
+		"libvirt-daemon-driver-qemu (<< 11.0.0-2ubuntu9~)",
+		"libvirt-daemon-system (<< 6.9.0-2~)"
+	],
+	"breaks": [
+		"libvirt-daemon-driver-qemu (<< 11.0.0-2ubuntu9~)",
+		"libvirt-daemon-system (<< 6.9.0-2~)"
+	],
+	"installedSize": 29,
+	"maintainer": "Ubuntu Developers <ubuntu-devel-discuss@lists.ubuntu.com>",
+	"description": "virtualization daemon - configuration files (default network)",
+	"homepage": "https://libvirt.org/",
+	"filename": "pool/main/libv/libvirt/libvirt-daemon-config-network_12.0.0-1ubuntu5_all.deb",
+	"size": 4590,
+	"md5": "097f77e2db1589d6b6b8c3093d71af2b",
+	"sha1": "b2fc9f415a128157b44565f49a5d84f22516fa71",
+	"sha256": "8e9c1e5d388b20cb48e65b4d65b3e2f41bee47405e4bab84e424c4d594e6a23b",
+	"sha512": "d13ec7a1cbb618b8e5963a852642e9f09278fbf5260cd1d8368521506ab89e9d79acd3d575f2cd9ff99ebb4d6f1fdd91db4c4361cc7edb6ed5e0308151a60a90",
+	"descriptionMd5": "fbab9c8484d9398cccf1c286114e62a1"
+}]

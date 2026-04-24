@@ -1,0 +1,43 @@
+{
+	"raw": {},
+	"required": [
+		"Filename",
+		"Size"
+	],
+	"package": "libvirt-daemon-driver-storage-logical-hwe",
+	"source": "libvirt-hwe",
+	"version": "12.0.0-1ubuntu5",
+	"section": "admin",
+	"priority": "optional",
+	"architecture": "amd64",
+	"depends": [
+		"libvirt-common (= 12.0.0-1ubuntu5)",
+		"libvirt-daemon (= 12.0.0-1ubuntu5)",
+		"libvirt-daemon-driver-storage (= 12.0.0-1ubuntu5)",
+		"libvirt0 (= 12.0.0-1ubuntu5)",
+		"lvm2",
+		"libc6 (>= 2.4)",
+		"libgcc-s1 (>= 3.3.1)",
+		"libglib2.0-0t64 (>= 2.30.0)",
+		"libvirt0-hwe (>= 12.0.0)",
+		"ubuntu-virt-hwe"
+	],
+	"replaces": [
+		"libvirt-daemon (<< 10.6.0-2~)",
+		"libvirt-daemon-driver-storage-logical"
+	],
+	"breaks": [
+		"libvirt-daemon (<< 10.6.0-2~)"
+	],
+	"installedSize": 41,
+	"maintainer": "Ubuntu Developers <ubuntu-devel-discuss@lists.ubuntu.com>",
+	"description": "virtualization daemon - Logical Volume Manager (LVM) storage driver",
+	"homepage": "https://libvirt.org/storage.html#logical-volume-pool",
+	"filename": "pool/main/libv/libvirt-hwe/libvirt-daemon-driver-storage-logical-hwe_12.0.0-1ubuntu5_amd64.deb",
+	"size": 11430,
+	"md5": "5c0b23f5686eecf71fb4cfe36849a4a6",
+	"sha1": "b2d46e68e0aac8187c215b004cac71a067caddf5",
+	"sha256": "952e006a1de131ab30c349d40498d379e53c3117099911c4ae1fcd2986a8b27e",
+	"sha512": "08105a57e203cb563c157a4395a879da8868431ebc0a7b7224b9314c0c365893c09287934420f46581b48ba8e41945c0d18d60d827455562a80c78142498e0de",
+	"descriptionMd5": "08b36597581a25ff57b400f4c1e56fe1"
+}

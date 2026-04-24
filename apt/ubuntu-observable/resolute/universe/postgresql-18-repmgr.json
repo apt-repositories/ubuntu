@@ -1,0 +1,38 @@
+[{
+	"raw": {},
+	"required": [
+		"Filename",
+		"Size"
+	],
+	"package": "postgresql-18-repmgr",
+	"source": "repmgr",
+	"version": "5.5.0+debpgdg-3",
+	"section": "universe/database",
+	"priority": "optional",
+	"architecture": "amd64",
+	"depends": [
+		"repmgr-common (>= 5.5.0+debpgdg-3)",
+		"postgresql-18",
+		"libc6 (>= 2.38)",
+		"libcurl4t64 (>= 7.16.2)",
+		"libjson-c5 (>= 0.15)",
+		"libpq5 (>= 9.3~)"
+	],
+	"suggests": [
+		"rsync"
+	],
+	"breaks": [
+		"postgresql-18-jit-llvm (<< 21)"
+	],
+	"installedSize": 919,
+	"maintainer": "Ubuntu Developers <ubuntu-devel-discuss@lists.ubuntu.com>",
+	"description": "replication manager for PostgreSQL 18",
+	"homepage": "https://www.repmgr.org/",
+	"filename": "pool/universe/r/repmgr/postgresql-18-repmgr_5.5.0+debpgdg-3_amd64.deb",
+	"size": 250488,
+	"md5": "1241e4a2650576ff854247121f19bc95",
+	"sha1": "e6309cb4a9aad43cb7f7ba0ed91b138eaf7ac8de",
+	"sha256": "f3e1b9211a71f76ce303684f9724716bca8e5c1c84edc5c1989c14dcc3f72e66",
+	"sha512": "e2ba06343e281a7545e26e2bc68c2e88824be79a79055971ca0f764fd076aeb5beda75fa7fc0460095c1af5a2a11db6e243cd4b7674b198a59cfc22e1c31de23",
+	"descriptionMd5": "44e7296a087b0baaa46ed6288fd2a8c3"
+}]

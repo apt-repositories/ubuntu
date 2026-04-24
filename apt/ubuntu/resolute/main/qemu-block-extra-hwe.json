@@ -1,0 +1,50 @@
+{
+	"raw": {},
+	"required": [
+		"Filename",
+		"Size"
+	],
+	"package": "qemu-block-extra-hwe",
+	"source": "qemu-hwe",
+	"version": "1:10.2.1+ds-1ubuntu4",
+	"section": "otherosfs",
+	"priority": "optional",
+	"architecture": "amd64",
+	"depends": [
+		"libbz2-1.0",
+		"libc6 (>= 2.14)",
+		"libcurl3t64-gnutls (>= 7.16.3)",
+		"libiscsi7 (>= 1.18.0)",
+		"libnfs14 (>= 4.0.0)",
+		"librados2 (>= 0.72.2)",
+		"librbd1 (>= 20.2.0-0ubuntu2)",
+		"libssh-4 (>= 0.8.4)",
+		"qemu-system-common (= 1:10.2.1+ds-1ubuntu4) | qemu-utils (= 1:10.2.1+ds-1ubuntu4)",
+		"ubuntu-virt-hwe"
+	],
+	"replaces": [
+		"qemu-block-extra"
+	],
+	"enhances": [
+		"qemu-system-arm",
+		"qemu-system-mips",
+		"qemu-system-misc",
+		"qemu-system-ppc",
+		"qemu-system-riscv",
+		"qemu-system-s390x",
+		"qemu-system-sparc",
+		"qemu-system-x86",
+		"qemu-utils"
+	],
+	"installedSize": 293,
+	"maintainer": "Ubuntu Developers <ubuntu-devel-discuss@lists.ubuntu.com>",
+	"description": "extra block backend modules for qemu-system and qemu-utils",
+	"homepage": "http://www.qemu.org/",
+	"filename": "pool/main/q/qemu-hwe/qemu-block-extra-hwe_10.2.1+ds-1ubuntu4_amd64.deb",
+	"size": 95406,
+	"md5": "1a6a51532c7a1b1e471b8c33bc3182df",
+	"sha1": "4987cd990ecfb3b4b2cda9586ee3db6ea5b39c99",
+	"sha256": "4e7ca5184e410b8dd833516190d0722ca311e423795d31a673e658811d88b4de",
+	"sha512": "d9ebd6e85585093b4f50b2b55a0b0020247611c4573c7738a45fe9b0a70aad10df8a941ddc587e504abda9121eef8421888eafa6faea236f9a182614f361c4b9",
+	"descriptionMd5": "59d8d41aabbd8202101e2ee8a9fd2075"
+}

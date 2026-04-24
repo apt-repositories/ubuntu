@@ -1,0 +1,32 @@
+{
+	"raw": {},
+	"required": [
+		"Filename",
+		"Size"
+	],
+	"package": "postgresql-18-repack",
+	"source": "pg-repack",
+	"version": "1.5.3-1",
+	"section": "universe/database",
+	"priority": "optional",
+	"architecture": "amd64",
+	"depends": [
+		"postgresql-18",
+		"libc6 (>= 2.38)",
+		"libpq5 (>= 9.0~)"
+	],
+	"breaks": [
+		"postgresql-18-jit-llvm (<< 21)"
+	],
+	"installedSize": 243,
+	"maintainer": "Ubuntu Developers <ubuntu-devel-discuss@lists.ubuntu.com>",
+	"description": "reorganize tables in PostgreSQL databases with minimal locks",
+	"homepage": "https://github.com/reorg/pg_repack",
+	"filename": "pool/universe/p/pg-repack/postgresql-18-repack_1.5.3-1_amd64.deb",
+	"size": 105378,
+	"md5": "156976fd135c04682481200709d1b2b1",
+	"sha1": "81fc280f9be75579f1c061225de9c692064f0eec",
+	"sha256": "47850129f990a53b485179ccafab967be3ff38a54e6af69bd5241429baf9b589",
+	"sha512": "a1eae4b2633aaf2dab58efb748b6ac63c33ca5a170dad561091e984b4e1e672e3017f50d868d0adf58103e79b79d81ecca6b37aaf15d4701f0d2c594fbcb048f",
+	"descriptionMd5": "e3b09561da3dc6ec6d616b915783ffd0"
+}

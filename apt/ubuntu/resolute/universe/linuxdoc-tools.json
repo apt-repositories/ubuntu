@@ -1,0 +1,52 @@
+{
+	"raw": {},
+	"required": [
+		"Filename",
+		"Size"
+	],
+	"package": "linuxdoc-tools",
+	"version": "0.9.86-1build1",
+	"section": "universe/text",
+	"priority": "optional",
+	"architecture": "amd64",
+	"depends": [
+		"libc6 (>= 2.38)",
+		"libfl2 (>= 2.5.33)",
+		"sgml-base (>= 1.28)",
+		"perl:any",
+		"opensp",
+		"sgml-data",
+		"gawk | mawk"
+	],
+	"suggests": [
+		"texinfo",
+		"info-browser",
+		"groff",
+		"texlive-latex-recommended",
+		"linuxdoc-tools-text",
+		"linuxdoc-tools-latex",
+		"linuxdoc-tools-info"
+	],
+	"replaces": [
+		"linuxdoc-sgml",
+		"sgml-tools"
+	],
+	"breaks": [
+		"linuxdoc-sgml",
+		"linuxdoc-tools-info (<< 0.9.20)",
+		"linuxdoc-tools-latex (<< 0.9.20)",
+		"linuxdoc-tools-text (<< 0.9.20)",
+		"sgml-tools"
+	],
+	"installedSize": 1053,
+	"maintainer": "Ubuntu Developers <ubuntu-devel-discuss@lists.ubuntu.com>",
+	"description": "convert LinuxDoc SGML source into other formats",
+	"homepage": "https://gitlab.com/agmartin/linuxdoc-tools",
+	"filename": "pool/universe/l/linuxdoc-tools/linuxdoc-tools_0.9.86-1build1_amd64.deb",
+	"size": 482626,
+	"md5": "0997831e5958572693c67b747f5f05ea",
+	"sha1": "1eeae7f1b67024bda5498fd0704fbd5822cece4d",
+	"sha256": "08083e128fe336c942a4a12ce30a69fff3ea823226cabaf5cf9eaad1969d9808",
+	"sha512": "7cc6d9c9bf104149b17d0157ebf6f653acb5f0d4a7f38de068c4df462206aedcb6687fdbb9021a430d8d98556b644d212fd8e1da5616e007e4d51f0d2bf84718",
+	"descriptionMd5": "fc0527f5bddaeae78d21fdee93a5f435"
+}

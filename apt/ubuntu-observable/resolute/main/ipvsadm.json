@@ -1,0 +1,43 @@
+[{
+	"raw": {},
+	"required": [
+		"Filename",
+		"Size"
+	],
+	"package": "ipvsadm",
+	"version": "1:1.31-5build1",
+	"section": "net",
+	"priority": "extra",
+	"architecture": "amd64",
+	"depends": [
+		"libc6 (>= 2.38)",
+		"libnl-3-200 (>= 3.11.0)",
+		"libnl-genl-3-200 (>= 3.11.0)",
+		"libpopt0 (>= 1.14)"
+	],
+	"preDepends": [
+		"init-system-helpers (>= 1.54~)"
+	],
+	"suggests": [
+		"heartbeat",
+		"keepalived",
+		"ldirectord"
+	],
+	"replaces": [
+		"lvs"
+	],
+	"conflicts": [
+		"lvs"
+	],
+	"installedSize": 122,
+	"maintainer": "Ubuntu Developers <ubuntu-devel-discuss@lists.ubuntu.com>",
+	"description": "Linux Virtual Server support programs",
+	"homepage": "https://git.kernel.org/pub/scm/utils/kernel/ipvsadm/ipvsadm.git",
+	"filename": "pool/main/i/ipvsadm/ipvsadm_1.31-5build1_amd64.deb",
+	"size": 42244,
+	"md5": "802a33270952b5310cb64e58293d3d94",
+	"sha1": "1cbfa8319f9c51d18fc22bb316ebb3ec86158bc3",
+	"sha256": "fbe993cc979e015f5ba72651729e7ff49bee10fa525b957accb002c54b63067d",
+	"sha512": "f6ff6b447824f4d7642b6383e4686629951535549506690a4952a170df136edf48ef79e7ab8fdf6b6044246d5e73328341512d28bb83ebd0b879e8f27b9588bb",
+	"descriptionMd5": "d34c5d442e928349e361a339b0e29561"
+}]

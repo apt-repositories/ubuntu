@@ -1,0 +1,50 @@
+[{
+	"raw": {},
+	"required": [
+		"Filename",
+		"Size"
+	],
+	"package": "plymouth",
+	"version": "24.004.60+git20250831.4a3c171d-0ubuntu8",
+	"section": "x11",
+	"priority": "standard",
+	"architecture": "amd64",
+	"depends": [
+		"init-system-helpers (>= 1.18)",
+		"sysvinit-utils (>= 3.05-4)",
+		"systemd (>= 232-8~) | elogind",
+		"udev (>= 232-8~)",
+		"libc6 (>= 2.38)",
+		"libdrm2 (>= 2.4.47)",
+		"libplymouth5 (>= 24.004.60+git20250831.4a3c171d-0ubuntu8)"
+	],
+	"recommends": [
+		"plymouth-theme-ubuntu-text | plymouth-theme"
+	],
+	"suggests": [
+		"desktop-base",
+		"plymouth-themes"
+	],
+	"replaces": [
+		"plymouth-drm (<< 0.9.0-6~)",
+		"plymouth-themes (<< 0.9.0-8~)"
+	],
+	"breaks": [
+		"plymouth-drm (<< 0.9.0-6~)",
+		"plymouth-themes (<< 0.9.0-8~)"
+	],
+	"conflicts": [
+		"console-common"
+	],
+	"installedSize": 904,
+	"maintainer": "Ubuntu Developers <ubuntu-devel-discuss@lists.ubuntu.com>",
+	"description": "boot animation, logger and I/O multiplexer",
+	"homepage": "https://www.freedesktop.org/wiki/Software/Plymouth",
+	"filename": "pool/main/p/plymouth/plymouth_24.004.60+git20250831.4a3c171d-0ubuntu8_amd64.deb",
+	"size": 134832,
+	"md5": "6e0f6a32f8a4d4032979133e6320012d",
+	"sha1": "6adc2eb7aaac82906d77f768551f7205d499c55b",
+	"sha256": "70abc40f1d4a8caeae443310e397cd8b17f2a5e9769c797d79ce479de13870b0",
+	"sha512": "54a00424f003b5082427ba85e59e6f725e08390528c715e1ce3ca3eb4c11592a51a518117f920ba918f4a552013451d93b0004c9cb3cc13cd3887a6b80e7ddfa",
+	"descriptionMd5": "3bdea2047eb9e9c5a5a0546b4dbac457"
+}]

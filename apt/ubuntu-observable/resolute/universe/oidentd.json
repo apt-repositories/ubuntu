@@ -1,0 +1,42 @@
+[{
+	"raw": {},
+	"required": [
+		"Filename",
+		"Size"
+	],
+	"package": "oidentd",
+	"version": "3.1.0-1build1",
+	"section": "universe/net",
+	"priority": "extra",
+	"architecture": "amd64",
+	"depends": [
+		"libc6 (>= 2.38)",
+		"libnetfilter-conntrack3 (>= 1.0.1)",
+		"adduser",
+		"iproute2",
+		"sysvinit-utils (>= 3.05-4~) | systemd"
+	],
+	"preDepends": [
+		"init-system-helpers (>= 1.54~)"
+	],
+	"suggests": [
+		"inet-superserver | systemd"
+	],
+	"replaces": [
+		"ident-server"
+	],
+	"conflicts": [
+		"ident-server"
+	],
+	"installedSize": 140,
+	"maintainer": "Ubuntu Developers <ubuntu-devel-discuss@lists.ubuntu.com>",
+	"description": "replacement ident daemon",
+	"homepage": "https://oidentd.janikrabe.com/",
+	"filename": "pool/universe/o/oidentd/oidentd_3.1.0-1build1_amd64.deb",
+	"size": 51008,
+	"md5": "e812c21b5a92f365f5fa4aa9e391e40b",
+	"sha1": "ba3ee67d67918bb619a5b5ca1894aae1542bce36",
+	"sha256": "b717674d0698b87068c3b6c58b989ae2237419f23efeaa3b145fdb7a3e31e569",
+	"sha512": "c49ba36491e0d8c62abd626a6b63f926452d1eaf6792bc294cb805a2f3e851a48958901728999628add71abc131b5deb241bbe50f974fc1fca76816015d6776e",
+	"descriptionMd5": "65a257a29a6dffd112177197d356192b"
+}]

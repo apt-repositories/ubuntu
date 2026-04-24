@@ -1,0 +1,45 @@
+{
+	"raw": {},
+	"required": [
+		"Filename",
+		"Size"
+	],
+	"package": "steam-installer",
+	"version": "1:1.0.0.85~ds-2build1",
+	"section": "multiverse/games",
+	"priority": "extra",
+	"architecture": "amd64",
+	"depends": [
+		"default-dbus-session-bus | dbus-session-bus",
+		"lsof",
+		"steam-libs (= 1:1.0.0.85~ds-2build1)",
+		"steam-libs-i386 (= 1:1.0.0.85~ds-2build1)",
+		"xdg-user-dirs",
+		"zenity | yad",
+		"debconf (>= 0.5) | debconf-2.0"
+	],
+	"preDepends": [
+		"debconf"
+	],
+	"replaces": [
+		"steam (<< 1:1.0.0.75+ds~)",
+		"steam-launcher"
+	],
+	"breaks": [
+		"steam (<< 1:1.0.0.75+ds~)"
+	],
+	"conflicts": [
+		"steam-launcher"
+	],
+	"installedSize": 118,
+	"maintainer": "Ubuntu Developers <ubuntu-devel-discuss@lists.ubuntu.com>",
+	"description": "Valve's Steam digital software delivery system",
+	"homepage": "https://steamcommunity.com/linux",
+	"filename": "pool/multiverse/s/steam-installer/steam-installer_1.0.0.85~ds-2build1_amd64.deb",
+	"size": 50576,
+	"md5": "a62cfc61ff82fc727b61be986d952596",
+	"sha1": "1f3c5885db9d4fc67d55bd58d9072d1968a34990",
+	"sha256": "b6a479ac6ccbf32d35d3a0ab4e41dd59bbcba7cc27268e09eb98508c0e51dc73",
+	"sha512": "c0e4550fbd4916ac8d4c970b8540772ecf63e5a88aa310cbbc5ce1ab9714d7f1e93b2ef13216d61e31725a8cfa6ddf267c68a4c4fb05af92e0724d604aa40b23",
+	"descriptionMd5": "48dca8c1babf1ad0c1fd68580ce779d7"
+}

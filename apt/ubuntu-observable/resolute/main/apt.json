@@ -1,0 +1,57 @@
+[{
+	"raw": {},
+	"required": [
+		"Filename",
+		"Size"
+	],
+	"package": "apt",
+	"version": "3.2.0",
+	"section": "admin",
+	"priority": "important",
+	"architecture": "amd64",
+	"depends": [
+		"base-passwd (>= 3.6.1) | adduser",
+		"gpgv",
+		"libapt-pkg7.0 (>= 3.2.0)",
+		"ubuntu-keyring",
+		"libc6 (>= 2.38)",
+		"libgcc-s1 (>= 3.3.1)",
+		"libseccomp2 (>= 2.4.2)",
+		"libssl3t64 (>= 3.0.0)",
+		"libstdc++6 (>= 13.1)",
+		"libsystemd0"
+	],
+	"recommends": [
+		"ca-certificates"
+	],
+	"suggests": [
+		"apt-doc",
+		"aptitude | synaptic | wajig",
+		"dpkg-dev (>= 1.17.2)",
+		"gnupg | gnupg2 | gnupg1",
+		"powermgmt-base"
+	],
+	"replaces": [
+		"apt-transport-https (<< 1.5~alpha4~)",
+		"apt-utils (<< 1.3~exp2~)"
+	],
+	"breaks": [
+		"apt-transport-https (<< 1.5~alpha4~)",
+		"apt-utils (<< 1.3~exp2~)",
+		"aptitude (<< 0.8.10)"
+	],
+	"conflicts": [
+		"apt-verify",
+		"libnettle8 (<< 3.9.1-2.2~)"
+	],
+	"installedSize": 4398,
+	"maintainer": "Ubuntu Developers <ubuntu-devel-discuss@lists.ubuntu.com>",
+	"description": "commandline package manager",
+	"filename": "pool/main/a/apt/apt_3.2.0_amd64.deb",
+	"size": 1485978,
+	"md5": "a8aeadbd3982ad6b6e9f24f19821cbb2",
+	"sha1": "7b366f87c9a4de46967243c20431f8e6c54d76bf",
+	"sha256": "c8f0ba37e66fc367f57a887fba686c67d9487b290ca83bc992baeedc994bf47a",
+	"sha512": "5b5998ada805b9ed35d3dabfd521f80fbcd3b05c5cc42601df95e3c15f18425586b8a15047f5bc37bd40d43bc2fb258d4f18e888fd287feeab56398cd405a211",
+	"descriptionMd5": "3f0b97e14afb596f4b9585c7ee559e19"
+}]

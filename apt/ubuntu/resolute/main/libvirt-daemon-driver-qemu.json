@@ -1,0 +1,63 @@
+{
+	"raw": {},
+	"required": [
+		"Filename",
+		"Size"
+	],
+	"package": "libvirt-daemon-driver-qemu",
+	"source": "libvirt",
+	"version": "12.0.0-1ubuntu5",
+	"section": "admin",
+	"priority": "optional",
+	"architecture": "amd64",
+	"depends": [
+		"libvirt-common (= 12.0.0-1ubuntu5)",
+		"libvirt-daemon-log (= 12.0.0-1ubuntu5)",
+		"libvirt0 (= 12.0.0-1ubuntu5)",
+		"logrotate",
+		"qemu-kvm | qemu-system",
+		"systemd-container | sysvinit-core",
+		"debconf (>= 0.5) | debconf-2.0",
+		"systemd | systemd-standalone-sysusers | systemd-sysusers",
+		"libc6 (>= 2.38)",
+		"libgcc-s1 (>= 3.3.1)",
+		"libglib2.0-0t64 (>= 2.64.0)",
+		"libgnutls30t64 (>= 3.7.0)",
+		"libselinux1 (>= 3.1~)",
+		"libxml2-16 (>= 2.14.1)",
+		"ubuntu-virt"
+	],
+	"recommends": [
+		"swtpm",
+		"swtpm-tools"
+	],
+	"suggests": [
+		"numad",
+		"passt"
+	],
+	"replaces": [
+		"libvirt-clients (<< 6.9.0-2~)",
+		"libvirt-daemon-driver-qemu-hwe",
+		"libvirt-daemon-system (<< 10.6.0-2~)"
+	],
+	"enhances": [
+		"qemu-kvm",
+		"qemu-system"
+	],
+	"breaks": [
+		"libvirt-clients (<< 6.9.0-2~)",
+		"libvirt-daemon-config-network (<< 11.0.0-2ubuntu9~)",
+		"libvirt-daemon-system (<< 10.6.0-2~)"
+	],
+	"installedSize": 2326,
+	"maintainer": "Ubuntu Developers <ubuntu-devel-discuss@lists.ubuntu.com>",
+	"description": "virtualization daemon - QEMU connection driver",
+	"homepage": "https://libvirt.org/drvqemu.html",
+	"filename": "pool/main/libv/libvirt/libvirt-daemon-driver-qemu_12.0.0-1ubuntu5_amd64.deb",
+	"size": 819278,
+	"md5": "142bfaeed66daefe99d2ae674e5cc264",
+	"sha1": "9a853b2d45b33ff14fccdba763b0352b45f790ea",
+	"sha256": "2ee6f51030c5f8c6740b9e86f922a0e58841c2479a55e695892a49c3904ce7a6",
+	"sha512": "86f37636c8ffb9931e7bb68b49af8320566db550ab54923bcd68c09fabb6a32ebb98c602baef771227a73cd1e7ceb28abe3cf09f3a0b4f83a14db444bcf1c802",
+	"descriptionMd5": "c2d4ef64bc876424b917fe7a09035280"
+}

@@ -1,0 +1,64 @@
+[{
+	"raw": {},
+	"required": [
+		"Filename",
+		"Size"
+	],
+	"package": "libvirt-daemon-common-hwe",
+	"source": "libvirt-hwe",
+	"version": "12.0.0-1ubuntu5",
+	"section": "admin",
+	"priority": "optional",
+	"architecture": "amd64",
+	"depends": [
+		"dmidecode",
+		"gettext-base",
+		"iproute2",
+		"kmod",
+		"libvirt-common (= 12.0.0-1ubuntu5)",
+		"libvirt0 (= 12.0.0-1ubuntu5)",
+		"polkitd (>= 121+compat0.1-2)",
+		"sensible-utils",
+		"systemd | systemd-standalone-sysusers | systemd-sysusers",
+		"libacl1 (>= 2.2.23)",
+		"libc6 (>= 2.34)",
+		"libgcc-s1 (>= 3.3.1)",
+		"libglib2.0-0t64 (>= 2.58.0)",
+		"libreadline8t64 (>= 6.0)",
+		"libvirt0-hwe (>= 12.0.0)",
+		"ubuntu-virt-hwe"
+	],
+	"recommends": [
+		"netcat-openbsd"
+	],
+	"suggests": [
+		"apparmor",
+		"auditd",
+		"systemtap"
+	],
+	"replaces": [
+		"libvirt-clients (<< 10.6.0-2~)",
+		"libvirt-daemon (<< 10.6.0-2~)",
+		"libvirt-daemon-common",
+		"libvirt-daemon-system-sysv (<< 10.6.0-2~)"
+	],
+	"breaks": [
+		"libvirt-clients (<< 10.6.0-2~)",
+		"libvirt-daemon (<< 10.6.0-2~)",
+		"libvirt-daemon-system-sysv (<< 10.6.0-2~)"
+	],
+	"conflicts": [
+		"libvirt-daemon-system (<< 10.6.0-2~)"
+	],
+	"installedSize": 539,
+	"maintainer": "Ubuntu Developers <ubuntu-devel-discuss@lists.ubuntu.com>",
+	"description": "virtualization daemon - common files",
+	"homepage": "https://libvirt.org/",
+	"filename": "pool/main/libv/libvirt-hwe/libvirt-daemon-common-hwe_12.0.0-1ubuntu5_amd64.deb",
+	"size": 117934,
+	"md5": "99cef562d779049610fbed3cd250b61a",
+	"sha1": "adcc7f7cf1a67fbd4b861d2a397be421e041811a",
+	"sha256": "0fd65a3a9933d132928362731a30e9b012d18ac22a5c1ca5066d3b716cf958f0",
+	"sha512": "e46b4e5b052d5a92e35c8c6abbfea1a8ad338237fbd82fee543a6b9eab43dcdd4bc8b949c10f557de95341dcebbac199bfe365a2390ae66187671bbd0b7a5eb2",
+	"descriptionMd5": "88b6745724f49cea3882a476a6fddf35"
+}]

@@ -1,0 +1,41 @@
+[{
+	"raw": {},
+	"required": [
+		"Filename",
+		"Size"
+	],
+	"package": "bacula-director-sqlite3",
+	"source": "bacula",
+	"version": "15.0.3-5",
+	"section": "universe/admin",
+	"priority": "optional",
+	"architecture": "all",
+	"depends": [
+		"bacula-common-sqlite3 (<< 15.0.3-5.1~)",
+		"bacula-common-sqlite3 (>= 15.0.3-5)",
+		"dbconfig-sqlite3 | dbconfig-no-thanks",
+		"file",
+		"sqlite3",
+		"debconf (>= 0.5) | debconf-2.0"
+	],
+	"suggests": [
+		"gawk"
+	],
+	"replaces": [
+		"bacula-director-database"
+	],
+	"conflicts": [
+		"bacula-director-database"
+	],
+	"installedSize": 201,
+	"maintainer": "Ubuntu Developers <ubuntu-devel-discuss@lists.ubuntu.com>",
+	"description": "network backup service - SQLite 3 storage for Director",
+	"homepage": "https://www.bacula.org/",
+	"filename": "pool/universe/b/bacula/bacula-director-sqlite3_15.0.3-5_all.deb",
+	"size": 35046,
+	"md5": "00bfcce3fe526afc7b308d6493998062",
+	"sha1": "b284be65f95a399afe3c119a0bc88eef21c5d6b6",
+	"sha256": "c3979f4853277f7bece53b6cf44f9927006b3e46fb2727577b068c699559d1a9",
+	"sha512": "b7a845454bd4ed759f2976e79d240deb9fecbde142825edf483d439fd183382bec1de887b6839b7c9454ee0ea7ec91bf335da8260e3508e97946deaf48175246",
+	"descriptionMd5": "ca500032cad106223f9840f1e7d2fcab"
+}]

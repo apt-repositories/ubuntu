@@ -1,0 +1,39 @@
+{
+	"raw": {},
+	"required": [
+		"Filename",
+		"Size"
+	],
+	"package": "qemu-user-binfmt-hwe",
+	"source": "qemu-hwe",
+	"version": "1:10.2.1+ds-1ubuntu4",
+	"section": "universe/otherosfs",
+	"priority": "optional",
+	"architecture": "amd64",
+	"depends": [
+		"qemu-user-hwe (= 1:10.2.1+ds-1ubuntu4)",
+		"qemu-user (>= 1:10.2.1+ds-1ubuntu4~)",
+		"ubuntu-virt-hwe"
+	],
+	"recommends": [
+		"systemd"
+	],
+	"replaces": [
+		"qemu-user-binfmt",
+		"qemu-user-static (<< 1:9.1.0)"
+	],
+	"breaks": [
+		"qemu-user-static"
+	],
+	"installedSize": 39,
+	"maintainer": "Ubuntu Developers <ubuntu-devel-discuss@lists.ubuntu.com>",
+	"description": "QEMU user mode binfmt registration for qemu-user",
+	"homepage": "http://www.qemu.org/",
+	"filename": "pool/universe/q/qemu-hwe/qemu-user-binfmt-hwe_10.2.1+ds-1ubuntu4_amd64.deb",
+	"size": 1964,
+	"md5": "4ffa7f796655cafa0f5dc614faba2701",
+	"sha1": "63eda3d0102f17d3e5b60920d1fca1bcea402ba4",
+	"sha256": "c2b9d7ab4205c143d92cefecfe4ae8cd8185d60e186fca68e086ef8b4ea911c7",
+	"sha512": "10e41957007b65e07b0cc270a2e5325e72b7453950a6ea477ca2af23425bf8e48aa84eaba0e8810f1ceab57c3296a4fbaf372cb8ccb3e4ec0c4c916d4b3596db",
+	"descriptionMd5": "33b3aa5ae72410c94937e13036bd73ed"
+}

@@ -1,0 +1,45 @@
+{
+	"raw": {},
+	"required": [
+		"Filename",
+		"Size"
+	],
+	"package": "solid-pop3d",
+	"version": "0.15-31build1",
+	"section": "universe/mail",
+	"priority": "extra",
+	"architecture": "amd64",
+	"depends": [
+		"adduser",
+		"libpam-runtime",
+		"lsb-base",
+		"netbase",
+		"update-inetd",
+		"debconf (>= 0.5) | debconf-2.0",
+		"libc6 (>= 2.38)",
+		"liblockfile1 (>= 1.0)",
+		"libpam0g (>= 0.99.7.1)"
+	],
+	"preDepends": [
+		"init-system-helpers (>= 1.54~)"
+	],
+	"recommends": [
+		"default-mta | mail-transport-agent"
+	],
+	"suggests": [
+		"openbsd-inetd | inet-superserver"
+	],
+	"conflicts": [
+		"pop3-server"
+	],
+	"installedSize": 166,
+	"maintainer": "Ubuntu Developers <ubuntu-devel-discuss@lists.ubuntu.com>",
+	"description": "POP3 server supporting Maildir, PAM, vhosting",
+	"filename": "pool/universe/s/solid-pop3d/solid-pop3d_0.15-31build1_amd64.deb",
+	"size": 58376,
+	"md5": "3c44faff51158139c2654b133e5309ec",
+	"sha1": "fddc7b7c964a55e2430de719df3ccf230bee5a53",
+	"sha256": "7f206f43da11954cb70662adbe5685544d0e5dced455ea9786b703085b714840",
+	"sha512": "296a34a37af60b559c5fad45dbb1427662d48a271f128ac8786f8a397c85815290f16401222cd24e9996278bd47c358af2db8785001d85cf2587969e0e142302",
+	"descriptionMd5": "084d67630dc4c22b00e055e4459a5cbe"
+}

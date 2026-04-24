@@ -1,0 +1,45 @@
+[{
+	"raw": {},
+	"required": [
+		"Filename",
+		"Size"
+	],
+	"package": "liboffload-22-dev",
+	"source": "llvm-toolchain-22",
+	"version": "1:22.1.2-1ubuntu1",
+	"section": "universe/libdevel",
+	"priority": "optional",
+	"architecture": "amd64",
+	"depends": [
+		"liboffload-22 (= 1:22.1.2-1ubuntu1)",
+		"libc6 (>= 2.38)",
+		"libgcc-s1 (>= 3.3)",
+		"libllvm22 (>= 1:22.1.0)",
+		"libomp5 (>= 0.20131209)",
+		"libstdc++6 (>= 10.2)",
+		"libz3-4 (>= 4.13.3)",
+		"libzstd1 (>= 1.5.5)",
+		"zlib1g (>= 1:1.1.4)"
+	],
+	"replaces": [
+		"liboffload-x.y-dev",
+		"libomp5 (<< 1:22~++20251023025710+3f47a7be1ae6-1~exp3)"
+	],
+	"breaks": [
+		"libomp5 (<< 1:22~++20251023025710+3f47a7be1ae6-1~exp3)"
+	],
+	"conflicts": [
+		"liboffload-x.y-dev"
+	],
+	"installedSize": 1524,
+	"maintainer": "Ubuntu Developers <ubuntu-devel-discuss@lists.ubuntu.com>",
+	"description": "Offload Library - Development Package",
+	"homepage": "https://www.llvm.org/",
+	"filename": "pool/universe/l/llvm-toolchain-22/liboffload-22-dev_22.1.2-1ubuntu1_amd64.deb",
+	"size": 481758,
+	"md5": "865d12ea4a14e744f91fa6398d4f8fc2",
+	"sha1": "efa3f67e00c7899001e2dba6612db666eb44f84c",
+	"sha256": "d639a9a381f4959c647a759fe56bb814a0344ac5286c96764f3e598e2d5a4f6f",
+	"sha512": "676022d86650c1598a03769add5295a7beceb6679dc31149d29c419646592e0a81921681f3fc579e580d698da6c2bb092cfef232df430e61a3fa9281abaee09b",
+	"descriptionMd5": "0335a80bacd1f17cc3caa43cce0c4820"
+}]

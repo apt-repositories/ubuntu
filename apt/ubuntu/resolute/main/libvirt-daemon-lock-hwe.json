@@ -1,0 +1,44 @@
+{
+	"raw": {},
+	"required": [
+		"Filename",
+		"Size"
+	],
+	"package": "libvirt-daemon-lock-hwe",
+	"source": "libvirt-hwe",
+	"version": "12.0.0-1ubuntu5",
+	"section": "admin",
+	"priority": "optional",
+	"architecture": "amd64",
+	"depends": [
+		"libvirt-common (= 12.0.0-1ubuntu5)",
+		"libvirt0 (= 12.0.0-1ubuntu5)",
+		"libc6 (>= 2.34)",
+		"libgcc-s1 (>= 3.3.1)",
+		"libglib2.0-0t64 (>= 2.32.0)",
+		"libtirpc3t64 (>= 1.0.2)",
+		"libvirt0-hwe (>= 12.0.0)",
+		"ubuntu-virt-hwe"
+	],
+	"replaces": [
+		"libvirt-daemon (<< 10.6.0-2~)",
+		"libvirt-daemon-lock"
+	],
+	"breaks": [
+		"libvirt-daemon (<< 10.6.0-2~)"
+	],
+	"conflicts": [
+		"libvirt-daemon-system (<< 10.6.0-2~)"
+	],
+	"installedSize": 140,
+	"maintainer": "Ubuntu Developers <ubuntu-devel-discuss@lists.ubuntu.com>",
+	"description": "virtualization daemon - locking daemon",
+	"homepage": "https://libvirt.org/daemons.html#locking-daemon",
+	"filename": "pool/main/libv/libvirt-hwe/libvirt-daemon-lock-hwe_12.0.0-1ubuntu5_amd64.deb",
+	"size": 35130,
+	"md5": "4c0dc9aade59c9541fe3f16fb6728803",
+	"sha1": "30981b128572617c6fb10bd7a91543240c743e42",
+	"sha256": "be193854c25ca064562c26c99eb7f713d436f83ce5d356db2c4f9da3eb530557",
+	"sha512": "54820461610211db5e6d544e20492f505c660e2e02113a4fca091cea803855252e1ad8cefdc949cbd20f8e0fac2ce6a14b7d471f200b6826cd4d4beb4f6bdbfc",
+	"descriptionMd5": "57265a7546495a0b1d334c3e93b4c530"
+}

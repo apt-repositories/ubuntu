@@ -1,0 +1,78 @@
+{
+	"raw": {},
+	"required": [
+		"Filename",
+		"Size"
+	],
+	"package": "libvirt-daemon-hwe",
+	"source": "libvirt-hwe",
+	"version": "12.0.0-1ubuntu5",
+	"section": "admin",
+	"priority": "optional",
+	"architecture": "amd64",
+	"depends": [
+		"libvirt-common (= 12.0.0-1ubuntu5)",
+		"libvirt-daemon-common (= 12.0.0-1ubuntu5)",
+		"libvirt-daemon-log (= 12.0.0-1ubuntu5)",
+		"libvirt0 (= 12.0.0-1ubuntu5)",
+		"logrotate",
+		"libc6 (>= 2.34)",
+		"libgcc-s1 (>= 3.3.1)",
+		"libglib2.0-0t64 (>= 2.26.0)",
+		"libtirpc3t64 (>= 1.0.2)",
+		"libvirt0-hwe (>= 12.0.0)",
+		"libxml2-16 (>= 2.14.1)",
+		"ubuntu-virt-hwe"
+	],
+	"recommends": [
+		"libvirt-daemon-driver-interface (= 12.0.0-1ubuntu5)",
+		"libvirt-daemon-driver-network (= 12.0.0-1ubuntu5)",
+		"libvirt-daemon-driver-nodedev (= 12.0.0-1ubuntu5)",
+		"libvirt-daemon-driver-nwfilter (= 12.0.0-1ubuntu5)",
+		"libvirt-daemon-driver-qemu (= 12.0.0-1ubuntu5)",
+		"libvirt-daemon-driver-secret (= 12.0.0-1ubuntu5)",
+		"libvirt-daemon-driver-storage (= 12.0.0-1ubuntu5)",
+		"libvirt-daemon-driver-storage-disk (= 12.0.0-1ubuntu5)",
+		"libvirt-daemon-driver-storage-iscsi (= 12.0.0-1ubuntu5)",
+		"libvirt-daemon-driver-storage-logical (= 12.0.0-1ubuntu5)",
+		"libvirt-daemon-driver-storage-mpath (= 12.0.0-1ubuntu5)",
+		"libvirt-daemon-driver-storage-scsi (= 12.0.0-1ubuntu5)",
+		"libvirt-daemon-lock (= 12.0.0-1ubuntu5)",
+		"libvirt-daemon-plugin-lockd (= 12.0.0-1ubuntu5)"
+	],
+	"suggests": [
+		"libvirt-daemon-driver-lxc (= 12.0.0-1ubuntu5)",
+		"libvirt-daemon-driver-storage-gluster (= 12.0.0-1ubuntu5)",
+		"libvirt-daemon-driver-storage-iscsi-direct (= 12.0.0-1ubuntu5)",
+		"libvirt-daemon-driver-storage-rbd (= 12.0.0-1ubuntu5)",
+		"libvirt-daemon-driver-storage-zfs (= 12.0.0-1ubuntu5)",
+		"libvirt-daemon-driver-vbox (= 12.0.0-1ubuntu5)",
+		"libvirt-daemon-driver-xen (= 12.0.0-1ubuntu5)",
+		"libvirt-daemon-plugin-sanlock (= 12.0.0-1ubuntu5)",
+		"libvirt-daemon-system (= 12.0.0-1ubuntu5)"
+	],
+	"replaces": [
+		"libvirt-daemon",
+		"libvirt-daemon-system-sysv (<< 10.6.0-2~)"
+	],
+	"breaks": [
+		"libvirt-clients (<< 6.9.0-2~)",
+		"libvirt-daemon-driver-lxc (<< 6.9.0-2~)",
+		"libvirt-daemon-system-sysv (<< 10.6.0-2~)",
+		"libvirt-sanlock (<< 6.9.0-2~)"
+	],
+	"conflicts": [
+		"libvirt-daemon-system (<< 10.6.0-2~)"
+	],
+	"installedSize": 861,
+	"maintainer": "Ubuntu Developers <ubuntu-devel-discuss@lists.ubuntu.com>",
+	"description": "virtualization daemon",
+	"homepage": "https://libvirt.org/daemons.html#monolithic-driver-daemon",
+	"filename": "pool/main/libv/libvirt-hwe/libvirt-daemon-hwe_12.0.0-1ubuntu5_amd64.deb",
+	"size": 194044,
+	"md5": "efae28fb5bd56603a293476f50b5b75e",
+	"sha1": "b48e2ced970593b63b929d2309b33ad3c2b8ca5d",
+	"sha256": "d98604297165c8da5eca624197be2cffdd606482e19a9050ceee9d3a5e64291f",
+	"sha512": "3685cb192078c6327deb090e1136d8fafe8ee970911e08d9b80d7c74570ecc1a7f2f2abc39d8044816cda840191f8417e252c2b41776fb34261c5dbab093762e",
+	"descriptionMd5": "a06cdad44c1b82685620b58736152f1b"
+}

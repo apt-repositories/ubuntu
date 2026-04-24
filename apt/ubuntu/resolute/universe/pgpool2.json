@@ -1,0 +1,47 @@
+{
+	"raw": {},
+	"required": [
+		"Filename",
+		"Size"
+	],
+	"package": "pgpool2",
+	"version": "4.7.0-1",
+	"section": "universe/database",
+	"priority": "optional",
+	"architecture": "amd64",
+	"depends": [
+		"libpgpool2 (= 4.7.0-1)",
+		"postgresql-common",
+		"ucf",
+		"libc6 (>= 2.42)",
+		"libcrypt1 (>= 1:4.1.0)",
+		"libldap2 (>= 2.6.2)",
+		"libmemcached11t64 (>= 1.1.4)",
+		"libpam0g (>= 0.99.7.1)",
+		"libpq5 (>= 9.1~)",
+		"libssl3t64 (>= 3.0.0)"
+	],
+	"preDepends": [
+		"init-system-helpers (>= 1.54~)"
+	],
+	"replaces": [
+		"pgpool"
+	],
+	"enhances": [
+		"postgresql"
+	],
+	"conflicts": [
+		"pgpool"
+	],
+	"installedSize": 7137,
+	"maintainer": "Ubuntu Developers <ubuntu-devel-discuss@lists.ubuntu.com>",
+	"description": "connection pool server and replication proxy for PostgreSQL",
+	"homepage": "https://www.pgpool.net/mediawiki/index.php/Main_Page",
+	"filename": "pool/universe/p/pgpool2/pgpool2_4.7.0-1_amd64.deb",
+	"size": 1247228,
+	"md5": "e5b296cde8b160f5d7023d4fd985c462",
+	"sha1": "ba4f5bd9de24ed8fe69af8862830cdc9bbfad435",
+	"sha256": "04116a12ff451f657cdb6dba9b2b001ead272950b0be12310474704546530f52",
+	"sha512": "a542ac2fd26f7605bdd1587424a84da067b62bbe0db041c9f138678ab4e783bee054bedf7f839c4491ed49ca7c04b674ebccfc7988d132a546ebc580738a9ca9",
+	"descriptionMd5": "468bfa32864437d3f3789c0fe937898a"
+}

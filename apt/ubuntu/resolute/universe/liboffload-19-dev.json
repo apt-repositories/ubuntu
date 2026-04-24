@@ -1,0 +1,44 @@
+{
+	"raw": {},
+	"required": [
+		"Filename",
+		"Size"
+	],
+	"package": "liboffload-19-dev",
+	"source": "llvm-toolchain-19",
+	"version": "1:19.1.7-20ubuntu4",
+	"section": "universe/libdevel",
+	"priority": "optional",
+	"architecture": "amd64",
+	"depends": [
+		"liboffload-19 (= 1:19.1.7-20ubuntu4)",
+		"libc6 (>= 2.38)",
+		"libgcc-s1 (>= 3.3)",
+		"libllvm19 (>= 1:19.1.0)",
+		"libomp5 (>= 1:19.1)",
+		"libstdc++6 (>= 10.2)",
+		"libzstd1 (>= 1.5.5)",
+		"zlib1g (>= 1:1.1.4)"
+	],
+	"replaces": [
+		"liboffload-x.y-dev",
+		"libomp-19-dev (<< 1:20241205084449+66a0a081338d)"
+	],
+	"breaks": [
+		"libomp-19-dev (<< 1:20241205084449+66a0a081338d)"
+	],
+	"conflicts": [
+		"liboffload-x.y-dev"
+	],
+	"installedSize": 34003,
+	"maintainer": "Ubuntu Developers <ubuntu-devel-discuss@lists.ubuntu.com>",
+	"description": "Offload Library - Development Package",
+	"homepage": "https://www.llvm.org/",
+	"filename": "pool/universe/l/llvm-toolchain-19/liboffload-19-dev_19.1.7-20ubuntu4_amd64.deb",
+	"size": 1068244,
+	"md5": "add6c7ec563a296898600083f1db8b17",
+	"sha1": "97d63c918bdbfa84fe6ea2506215887aa8d7950c",
+	"sha256": "08ecb391391ec422b2d4d6e18ce8773b3fe042f736e55387421b0bd7ba0b7c1d",
+	"sha512": "b2858301a25061577e99527277f075389e43e34594f158b4e49115625de0e4938eb77862d2deced9ae2d2d1718ed9bcbb5cfd85019af853dbce31fb368846ed8",
+	"descriptionMd5": "352e5b2eb6f0446d5039b547a7bc6d17"
+}

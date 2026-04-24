@@ -1,0 +1,40 @@
+[{
+	"raw": {},
+	"required": [
+		"Filename",
+		"Size"
+	],
+	"package": "quake2-server",
+	"source": "game-data-packager",
+	"version": "87",
+	"section": "multiverse/games",
+	"priority": "optional",
+	"architecture": "all",
+	"depends": [
+		"adduser",
+		"quake2-full-data | quake2-demo-data | game-data-packager",
+		"yamagi-quake2-core | quake2-engine-server",
+		"python3:any"
+	],
+	"preDepends": [
+		"init-system-helpers (>= 1.54~)"
+	],
+	"suggests": [
+		"quake2-groundzero-data",
+		"quake2-reckoning-data"
+	],
+	"breaks": [
+		"yamagi-quake2-core (<< 8.30)"
+	],
+	"installedSize": 168,
+	"maintainer": "Ubuntu Developers <ubuntu-devel-discuss@lists.ubuntu.com>",
+	"description": "dedicated server for Quake II",
+	"homepage": "https://wiki.debian.org/Games/GameDataPackager",
+	"filename": "pool/multiverse/g/game-data-packager/quake2-server_87_all.deb",
+	"size": 39476,
+	"md5": "c17f7dc613d8d99510145bcd0d9839c8",
+	"sha1": "cb56830c22dca67f578ff5fcb3c4ee3126510718",
+	"sha256": "c2c567facf564adff6883027965a24d525ec9b8f6d9a8b548ded7f7f404c88d9",
+	"sha512": "41d7187e5d9f43acca6ce5fb872ff5d3bc39581e99fa824238460e7d1db82a8d1f80c5fc550c29b3351631b1cc9a8200a96362a227ddbecfc2dac56a123b7c0e",
+	"descriptionMd5": "083b1ceafe9ac6ce848313811be0e4de"
+}]

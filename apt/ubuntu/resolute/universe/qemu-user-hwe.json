@@ -1,0 +1,40 @@
+{
+	"raw": {},
+	"required": [
+		"Filename",
+		"Size"
+	],
+	"package": "qemu-user-hwe",
+	"source": "qemu-hwe",
+	"version": "1:10.2.1+ds-1ubuntu4",
+	"section": "universe/otherosfs",
+	"priority": "optional",
+	"architecture": "amd64",
+	"depends": [
+		"ubuntu-virt-hwe"
+	],
+	"recommends": [
+		"qemu-user-binfmt"
+	],
+	"replaces": [
+		"qemu-user",
+		"qemu-user-binfmt (<< 1:9.1.0)",
+		"qemu-user-static (<< 1:9.1.0)"
+	],
+	"breaks": [
+		"qemu-user-binfmt (<< 1:9.1.0)",
+		"qemu-user-static (<< 1:9.1.0)"
+	],
+	"installedSize": 133126,
+	"maintainer": "Ubuntu Developers <ubuntu-devel-discuss@lists.ubuntu.com>",
+	"description": "QEMU user mode emulation (static binaries)",
+	"homepage": "http://www.qemu.org/",
+	"builtUsing": "gcc-15 (= 15.2.0-16ubuntu1), glib2.0 (= 2.88.0-1), glibc (= 2.43-2ubuntu1), sysprof (= 50.0-1), zlib (= 1:1.3.dfsg+really1.3.1-1ubuntu3)",
+	"filename": "pool/universe/q/qemu-hwe/qemu-user-hwe_10.2.1+ds-1ubuntu4_amd64.deb",
+	"size": 14775716,
+	"md5": "7d35dfc5816c70aa1ecae5c1ce66fde6",
+	"sha1": "f324931732200792013970a4bc13b68635340c2e",
+	"sha256": "8ade211eeed83e7d3a55d6652c254bb2b33f2cd25f8b0310374f2a99a3696f0b",
+	"sha512": "27185f2d6d8cd404d4bc76428c986d25e558565a7b1e8be6abf3ddad6028cf03b0c116f1e155ec6d0f8d681577c8bde48b4c98bf2ed4445ea149a31cf23d8c24",
+	"descriptionMd5": "9260008e7150d53f3f4bd20e5b7a1755"
+}

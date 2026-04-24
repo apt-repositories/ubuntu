@@ -1,0 +1,41 @@
+{
+	"raw": {},
+	"required": [
+		"Filename",
+		"Size"
+	],
+	"package": "libgcc-13-dev-loong64-cross",
+	"source": "gcc-13-cross-ports (25ubuntu1)",
+	"version": "13.4.0-10ubuntu1cross1",
+	"section": "universe/libdevel",
+	"priority": "optional",
+	"architecture": "all",
+	"depends": [
+		"gcc-13-cross-base-ports (= 13.4.0-10ubuntu1cross1)",
+		"libgcc-s1-loong64-cross (>= 13.4.0-10ubuntu1cross1)",
+		"libgomp1-loong64-cross (>= 13.4.0-10ubuntu1cross1)",
+		"libitm1-loong64-cross (>= 13.4.0-10ubuntu1cross1)",
+		"libatomic1-loong64-cross (>= 13.4.0-10ubuntu1cross1)"
+	],
+	"recommends": [
+		"libc6-dev-loong64-cross (>= 2.13-0ubuntu6)"
+	],
+	"replaces": [
+		"libtsan2-loong64-cross (<< 12-20211113-2~)"
+	],
+	"breaks": [
+		"libtsan2-loong64-cross (<< 12-20211113-2~)"
+	],
+	"installedSize": 10282,
+	"maintainer": "Ubuntu Developers <ubuntu-devel-discuss@lists.ubuntu.com>",
+	"description": "GCC support library (development files)",
+	"homepage": "http://gcc.gnu.org/",
+	"builtUsing": "gcc-13 (= 13.4.0-10ubuntu1)",
+	"filename": "pool/universe/g/gcc-13-cross-ports/libgcc-13-dev-loong64-cross_13.4.0-10ubuntu1cross1_all.deb",
+	"size": 977536,
+	"md5": "06140910c72addec970ba3bbf071ac17",
+	"sha1": "36818bdfb426f251665f84469b2e6856ab512bb8",
+	"sha256": "6fd1be0fdcaf79c6ff64e6581b5fd94ef9367d24c6fae7118cc75a91d82c3d98",
+	"sha512": "1a144db950dff8b2662cada4b01a9f8a12fc01356a8d8b3efd70087494494e845c2cbcdde69d400a4c324233ab20df56277548cf5d256e645e1d2d9120ed5a34",
+	"descriptionMd5": "4ab7cb439b47e1d0796fbaf8447229ac"
+}

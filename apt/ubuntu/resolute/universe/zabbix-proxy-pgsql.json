@@ -1,0 +1,57 @@
+{
+	"raw": {},
+	"required": [
+		"Filename",
+		"Size"
+	],
+	"package": "zabbix-proxy-pgsql",
+	"source": "zabbix",
+	"version": "1:7.0.22+dfsg-1",
+	"section": "universe/net",
+	"priority": "optional",
+	"architecture": "amd64",
+	"depends": [
+		"libc6 (>= 2.38)",
+		"libcurl3t64-gnutls (>= 7.16.3)",
+		"libevent-core-2.1-7t64 (>= 2.1.8-stable)",
+		"libevent-extra-2.1-7t64 (>= 2.1.8-stable)",
+		"libevent-pthreads-2.1-7t64 (>= 2.1.8-stable)",
+		"libgnutls30t64 (>= 3.8.6)",
+		"libldap2 (>= 2.6.2)",
+		"libodbc2 (>= 2.3.1)",
+		"libopenipmi0t64 (>= 2.0.37)",
+		"libpcre2-8-0 (>= 10.22)",
+		"libpq5 (>= 9.0~)",
+		"libsnmp40t64 (>= 5.9.4+dfsg)",
+		"libssh2-1t64 (>= 1.4.0)",
+		"libxml2-16 (>= 2.14.1)",
+		"zlib1g (>= 1:1.2.0)",
+		"ucf",
+		"fping",
+		"adduser",
+		"sysvinit-utils (>= 3.05-4~)"
+	],
+	"recommends": [
+		"postgresql"
+	],
+	"suggests": [
+		"logrotate"
+	],
+	"conflicts": [
+		"zabbix-proxy-mysql",
+		"zabbix-proxy-sqlite3",
+		"zabbix-server-mysql",
+		"zabbix-server-pgsql"
+	],
+	"installedSize": 7060,
+	"maintainer": "Ubuntu Developers <ubuntu-devel-discuss@lists.ubuntu.com>",
+	"description": "network monitoring solution - proxy (using PostgreSQL)",
+	"homepage": "http://zabbix.com",
+	"filename": "pool/universe/z/zabbix/zabbix-proxy-pgsql_7.0.22+dfsg-1_amd64.deb",
+	"size": 1842112,
+	"md5": "180ebed868524368017017a9b65755c9",
+	"sha1": "cc631cc9f5e0ca1018a4e5d8fc399cda9696898a",
+	"sha256": "5f9a05a29fa0672ba6821e2c74c42f0dce3d68356712c4a6775aa4900303a02c",
+	"sha512": "0b861d70436ec4e0424dc755081333c8683b2935904e2cc67857ad38204fed19ab21f598f779040f797b489d5bc570bbb9d1ee519d3fb29a8e3e0f71466efcf6",
+	"descriptionMd5": "decc74c7887a0274118def72e06c6e67"
+}

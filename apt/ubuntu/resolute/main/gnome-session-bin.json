@@ -1,0 +1,47 @@
+{
+	"raw": {},
+	"required": [
+		"Filename",
+		"Size"
+	],
+	"package": "gnome-session-bin",
+	"source": "gnome-session",
+	"version": "50.0-0ubuntu3",
+	"section": "gnome",
+	"priority": "optional",
+	"architecture": "amd64",
+	"depends": [
+		"default-dbus-session-bus | dbus-session-bus",
+		"gsettings-desktop-schemas",
+		"dconf-gsettings-backend | gsettings-backend",
+		"libc6 (>= 2.38)",
+		"libglib2.0-0t64 (>= 2.83.0)",
+		"libgnome-desktop-4-2t64 (>= 3.34.2)",
+		"libsystemd0"
+	],
+	"recommends": [
+		"default-logind | logind"
+	],
+	"replaces": [
+		"gnome-startup-applications (<< 49)"
+	],
+	"breaks": [
+		"budgie-desktop (<< 10.8.2-3~)",
+		"gdm3 (<< 50~)",
+		"gnome-initial-setup (<< 49)",
+		"gnome-shell (<< 50~rc)",
+		"gnome-startup-applications (<< 49)",
+		"phosh (<< 0.50~rc)",
+		"phrog (<< 0.46.0-3~)"
+	],
+	"installedSize": 314,
+	"maintainer": "Ubuntu Developers <ubuntu-devel-discuss@lists.ubuntu.com>",
+	"description": "GNOME Session Manager - Minimal runtime",
+	"homepage": "https://gitlab.gnome.org/GNOME/gnome-session",
+	"filename": "pool/main/g/gnome-session/gnome-session-bin_50.0-0ubuntu3_amd64.deb",
+	"size": 84810,
+	"md5": "8ce107f8a58f0dfee870d9987f0e4573",
+	"sha1": "719dddc7fc548e89140c9407f4d3139f6ae12d70",
+	"sha256": "4f31b47d934f608b6a401dc2eaf59a68ecdd143198d12a8e8a1617fe612ed889",
+	"descriptionMd5": "4c2133392307e0ef72a944d936883f7d"
+}

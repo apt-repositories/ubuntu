@@ -1,0 +1,46 @@
+[{
+	"raw": {},
+	"required": [
+		"Filename",
+		"Size"
+	],
+	"package": "tftpd-hpa",
+	"source": "tftp-hpa",
+	"version": "5.3+20251209-2",
+	"section": "net",
+	"priority": "extra",
+	"architecture": "amd64",
+	"depends": [
+		"adduser",
+		"debconf (>= 0.5) | debconf-2.0",
+		"libc6 (>= 2.38)",
+		"libwrap0 (>= 7.6-4~)"
+	],
+	"preDepends": [
+		"init-system-helpers (>= 1.54~)"
+	],
+	"suggests": [
+		"pxelinux"
+	],
+	"replaces": [
+		"atftpd",
+		"tftp-server",
+		"tftpd"
+	],
+	"conflicts": [
+		"atftpd",
+		"tftp-server",
+		"tftpd"
+	],
+	"installedSize": 125,
+	"maintainer": "Ubuntu Developers <ubuntu-devel-discuss@lists.ubuntu.com>",
+	"description": "HPA's tftp server",
+	"homepage": "https://git.kernel.org/pub/scm/network/tftp/tftp-hpa.git/",
+	"filename": "pool/main/t/tftp-hpa/tftpd-hpa_5.3+20251209-2_amd64.deb",
+	"size": 44502,
+	"md5": "68c81d5f0df34c15ee22d6e6ea0b6357",
+	"sha1": "f3990d1b4847596b4d14ebb0a19266eb3c7e3dde",
+	"sha256": "caf4b4f5ce0b9e4ba026bbcf465e4331f25cd3f1fa2603368b9c33d4912f7af2",
+	"sha512": "d532a31519f7ad70dbdcc753ad63743801d438e3df4a9bd88816bd207d3680fabfd8f4433fe7858b39e4baa9b59951e8aa3424c4c276aba7803a55fa944083e6",
+	"descriptionMd5": "d73c6815bace5ace463cb884370cdecd"
+}]

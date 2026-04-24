@@ -1,0 +1,45 @@
+[{
+	"raw": {},
+	"required": [
+		"Filename",
+		"Size"
+	],
+	"package": "libgcc-15-dev-ppc64-cross",
+	"source": "gcc-15-cross-ports (15ubuntu2)",
+	"version": "15.2.0-16ubuntu1cross2",
+	"section": "universe/libdevel",
+	"priority": "optional",
+	"architecture": "all",
+	"depends": [
+		"gcc-15-cross-base-ports (= 15.2.0-16ubuntu1cross2)",
+		"libgcc-s1-ppc64-cross (>= 15.2.0-16ubuntu1cross2)",
+		"libgomp1-ppc64-cross (>= 15.2.0-16ubuntu1cross2)",
+		"libitm1-ppc64-cross (>= 15.2.0-16ubuntu1cross2)",
+		"libatomic1-ppc64-cross (>= 15.2.0-16ubuntu1cross2)",
+		"libasan8-ppc64-cross (>= 15.2.0-16ubuntu1cross2)",
+		"liblsan0-ppc64-cross (>= 15.2.0-16ubuntu1cross2)",
+		"libtsan2-ppc64-cross (>= 15.2.0-16ubuntu1cross2)",
+		"libubsan1-ppc64-cross (>= 15.2.0-16ubuntu1cross2)"
+	],
+	"recommends": [
+		"libc6-dev-ppc64-cross (>= 2.13-0ubuntu6)"
+	],
+	"replaces": [
+		"libtsan2-ppc64-cross (<< 12-20211113-2~)"
+	],
+	"breaks": [
+		"libtsan2-ppc64-cross (<< 12-20211113-2~)"
+	],
+	"installedSize": 13517,
+	"maintainer": "Ubuntu Developers <ubuntu-devel-discuss@lists.ubuntu.com>",
+	"description": "GCC support library (development files)",
+	"homepage": "http://gcc.gnu.org/",
+	"builtUsing": "gcc-15 (= 15.2.0-16ubuntu1)",
+	"filename": "pool/universe/g/gcc-15-cross-ports/libgcc-15-dev-ppc64-cross_15.2.0-16ubuntu1cross2_all.deb",
+	"size": 1508602,
+	"md5": "faf5c1284dd259da439c790d958d9cb3",
+	"sha1": "0816b7090c32b0ab3ae22c064944564f86264962",
+	"sha256": "ed51e80267cdc0b69d7595b593f82afcba61aeb21df88a5d31a7f6ec72adaebd",
+	"sha512": "e69775a335f29fce0ed931f1a9362bf87f537a5f2e1cfaa827612587dc866d006813719ad79c8fbdb0db88d9b2ebb94a2ef7ee580072a4cee19798a91be87fce",
+	"descriptionMd5": "4ab7cb439b47e1d0796fbaf8447229ac"
+}]

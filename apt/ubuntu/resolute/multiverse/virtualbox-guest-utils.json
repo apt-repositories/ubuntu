@@ -1,0 +1,40 @@
+{
+	"raw": {},
+	"required": [
+		"Filename",
+		"Size"
+	],
+	"package": "virtualbox-guest-utils",
+	"source": "virtualbox",
+	"version": "7.2.6-dfsg-4",
+	"section": "multiverse/misc",
+	"priority": "optional",
+	"architecture": "amd64",
+	"depends": [
+		"pciutils",
+		"systemd | systemd-standalone-sysusers | systemd-sysusers",
+		"libc6 (>= 2.38)",
+		"libpam0g (>= 0.99.7.1)",
+		"zlib1g (>= 1:1.1.4)"
+	],
+	"suggests": [
+		"virtualbox-guest-x11 (= 7.2.6-dfsg-4)"
+	],
+	"replaces": [
+		"virtualbox-guest-utils-hwe (<< 7.0.16-dfsg-5)"
+	],
+	"breaks": [
+		"virtualbox-guest-utils-hwe (<< 7.0.16-dfsg-5)"
+	],
+	"installedSize": 1959,
+	"maintainer": "Ubuntu Developers <ubuntu-devel-discuss@lists.ubuntu.com>",
+	"description": "x86 virtualization solution - non-X11 guest utilities",
+	"homepage": "https://www.virtualbox.org",
+	"filename": "pool/multiverse/v/virtualbox/virtualbox-guest-utils_7.2.6-dfsg-4_amd64.deb",
+	"size": 457804,
+	"md5": "3f93d412b10a46cee1ceda7d062f28a8",
+	"sha1": "731d0a669f7ddda8eebe690e381543ae3cff16da",
+	"sha256": "6f28512dd0e6ea34e4a90286db6229b623f6e08856f71b0b6bcb936c8630f1c5",
+	"sha512": "8e78527207b3d134e8ed1da6f3f3730d8f265cf9749202b800c81d0e0a64df5afa17140b906ad9784a53a6cfae751e5b784dd3d97f051b099738f8c2c1a42b67",
+	"descriptionMd5": "0c420aa026ad03a572b15c6e38dbebf7"
+}

@@ -1,0 +1,55 @@
+{
+	"raw": {},
+	"required": [
+		"Filename",
+		"Size"
+	],
+	"package": "clamtk",
+	"version": "6.07-2",
+	"section": "universe/utils",
+	"priority": "optional",
+	"architecture": "all",
+	"depends": [
+		"perl:any",
+		"clamav (>= 0.95)",
+		"clamav-freshclam (>= 0.95) | clamav-data",
+		"libgtk3-perl",
+		"libwww-perl",
+		"liblocale-gettext-perl",
+		"libtext-csv-perl",
+		"libjson-perl",
+		"liblwp-protocol-https-perl",
+		"cron | cron-daemon | anacron"
+	],
+	"suggests": [
+		"cabextract",
+		"clamtk-gnome"
+	],
+	"replaces": [
+		"clamtk-kde",
+		"nemo-sendto-clamtk",
+		"thunar-sendto-clamtk"
+	],
+	"enhances": [
+		"dolphin",
+		"konqueror",
+		"nemo",
+		"thunar"
+	],
+	"breaks": [
+		"clamtk-kde",
+		"nemo-sendto-clamtk",
+		"thunar-sendto-clamtk"
+	],
+	"installedSize": 1015,
+	"maintainer": "Ubuntu Developers <ubuntu-devel-discuss@lists.ubuntu.com>",
+	"description": "graphical front-end for ClamAV",
+	"homepage": "https://gitlab.com/dave_m/clamtk",
+	"filename": "pool/universe/c/clamtk/clamtk_6.07-2_all.deb",
+	"size": 213830,
+	"md5": "b3074982a5837a9da4d4dc2993733011",
+	"sha1": "bbc4c1b2c862715cb7a59afacc390242edb1d932",
+	"sha256": "c17497ebf73356c4811537ddf2b8cb39b8e7ae254a76f4b70c658767f6dc3c10",
+	"sha512": "6fde2f5f03cf74ebb02ec904016ea2200b5262ffe682b96b79bd150bff50d8e4a3d10ba0e89585357bb8c3b5560dbc19dffa5f0477f038d8e48dd34fd018f8de",
+	"descriptionMd5": "8942c2da6c02354b285054fb8219c530"
+}

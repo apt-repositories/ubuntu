@@ -1,0 +1,45 @@
+{
+	"raw": {},
+	"required": [
+		"Filename",
+		"Size"
+	],
+	"package": "libgcc-16-dev-loong64-cross",
+	"source": "gcc-16-cross-ports (8ubuntu1)",
+	"version": "16-20260322-1ubuntu1cross1",
+	"section": "universe/libdevel",
+	"priority": "optional",
+	"architecture": "all",
+	"depends": [
+		"gcc-16-cross-base-ports (= 16-20260322-1ubuntu1cross1)",
+		"libgcc-s1-loong64-cross (>= 16-20260322-1ubuntu1cross1)",
+		"libgomp1-loong64-cross (>= 16-20260322-1ubuntu1cross1)",
+		"libitm1-loong64-cross (>= 16-20260322-1ubuntu1cross1)",
+		"libatomic1-loong64-cross (>= 16-20260322-1ubuntu1cross1)",
+		"libasan8-loong64-cross (>= 16-20260322-1ubuntu1cross1)",
+		"liblsan0-loong64-cross (>= 16-20260322-1ubuntu1cross1)",
+		"libtsan2-loong64-cross (>= 16-20260322-1ubuntu1cross1)",
+		"libubsan1-loong64-cross (>= 16-20260322-1ubuntu1cross1)"
+	],
+	"recommends": [
+		"libc6-dev-loong64-cross (>= 2.13-0ubuntu6)"
+	],
+	"replaces": [
+		"libtsan2-loong64-cross (<< 12-20211113-2~)"
+	],
+	"breaks": [
+		"libtsan2-loong64-cross (<< 12-20211113-2~)"
+	],
+	"installedSize": 71545,
+	"maintainer": "Ubuntu Developers <ubuntu-devel-discuss@lists.ubuntu.com>",
+	"description": "GCC support library (development files)",
+	"homepage": "http://gcc.gnu.org/",
+	"builtUsing": "gcc-16 (= 16-20260322-1ubuntu1)",
+	"filename": "pool/universe/g/gcc-16-cross-ports/libgcc-16-dev-loong64-cross_16-20260322-1ubuntu1cross1_all.deb",
+	"size": 6952524,
+	"md5": "dccebdacb84153eef5bde1deb5f537bf",
+	"sha1": "c82c0eff1c4d70fa1861e9b3637688fa60b2794d",
+	"sha256": "611d16e714b5b93c709cac68f1c63c5ce4900827c75332677bcb939b924069b6",
+	"sha512": "c82c54c1c98d73fe1b6f23fab4dcc518e953ca1365a8242fc357be2be8d319e7ecf149c94ffc09d210937c599143e816c83a57d6784a3abc2d4e6dfbd8235011",
+	"descriptionMd5": "4ab7cb439b47e1d0796fbaf8447229ac"
+}

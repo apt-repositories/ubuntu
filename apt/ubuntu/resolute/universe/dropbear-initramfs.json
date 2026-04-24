@@ -1,0 +1,39 @@
+{
+	"raw": {},
+	"required": [
+		"Filename",
+		"Size"
+	],
+	"package": "dropbear-initramfs",
+	"source": "dropbear",
+	"version": "2025.89-1",
+	"section": "universe/net",
+	"priority": "optional",
+	"architecture": "all",
+	"depends": [
+		"busybox | busybox-static",
+		"dropbear-bin (>= 2025.89-1)",
+		"initramfs-tools (>= 0.94)",
+		"udev"
+	],
+	"recommends": [
+		"cryptsetup-initramfs"
+	],
+	"replaces": [
+		"dropbear (<< 2015.68-1)"
+	],
+	"breaks": [
+		"dropbear (<< 2015.68-1)"
+	],
+	"installedSize": 54,
+	"maintainer": "Ubuntu Developers <ubuntu-devel-discuss@lists.ubuntu.com>",
+	"description": "lightweight SSH2 server and client - initramfs integration",
+	"homepage": "https://matt.ucc.asn.au/dropbear/dropbear.html",
+	"filename": "pool/universe/d/dropbear/dropbear-initramfs_2025.89-1_all.deb",
+	"size": 10172,
+	"md5": "f57b0907e0af6ba420c5c77748cba225",
+	"sha1": "7c5fb30bf003c89265b9ac55ddfb8a6d50cfdbd4",
+	"sha256": "51d0848b3cab9ba98d7997505fc604ac9c3245e39f83debcfc3efab4acd0c5d0",
+	"sha512": "a25278aadd55bf476361bc70310af01848a81f50b7fc1b41a5548f1cb7c8ce872dce7d6f8f1cd695dbafa3710f256ec9fa6963357e81a186f4b606985858e0a5",
+	"descriptionMd5": "5dd10490aa9e4ec06e1152daf8823742"
+}

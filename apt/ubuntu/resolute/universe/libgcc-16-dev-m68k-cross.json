@@ -1,0 +1,40 @@
+{
+	"raw": {},
+	"required": [
+		"Filename",
+		"Size"
+	],
+	"package": "libgcc-16-dev-m68k-cross",
+	"source": "gcc-16-cross-ports (8ubuntu1)",
+	"version": "16-20260322-1ubuntu1cross1",
+	"section": "universe/libdevel",
+	"priority": "optional",
+	"architecture": "all",
+	"depends": [
+		"gcc-16-cross-base-ports (= 16-20260322-1ubuntu1cross1)",
+		"libgcc-s2-m68k-cross (>= 16-20260322-1ubuntu1cross1)",
+		"libgomp1-m68k-cross (>= 16-20260322-1ubuntu1cross1)",
+		"libatomic1-m68k-cross (>= 16-20260322-1ubuntu1cross1)"
+	],
+	"recommends": [
+		"libc6-dev-m68k-cross (>= 2.13-0ubuntu6)"
+	],
+	"replaces": [
+		"libtsan2-m68k-cross (<< 12-20211113-2~)"
+	],
+	"breaks": [
+		"libtsan2-m68k-cross (<< 12-20211113-2~)"
+	],
+	"installedSize": 797,
+	"maintainer": "Ubuntu Developers <ubuntu-devel-discuss@lists.ubuntu.com>",
+	"description": "GCC support library (development files)",
+	"homepage": "http://gcc.gnu.org/",
+	"builtUsing": "gcc-16 (= 16-20260322-1ubuntu1)",
+	"filename": "pool/universe/g/gcc-16-cross-ports/libgcc-16-dev-m68k-cross_16-20260322-1ubuntu1cross1_all.deb",
+	"size": 209570,
+	"md5": "1e5b9e0ca484ccfebe7cefc61fa99d64",
+	"sha1": "c2c6a94d7ce472c46b6196f074993a6d4bdc081d",
+	"sha256": "2c04ca260314408be5f1d43b16da7625173ba27c92ff7959132a576bfc774f5c",
+	"sha512": "01a17ea208a129a957a3bf1dac07251672c71b336a18f9b92e58227309021219f2ece6a1d62cc01a5f6dd50c3d849e78d479a873b8e5975334b6df5d3a25efb9",
+	"descriptionMd5": "4ab7cb439b47e1d0796fbaf8447229ac"
+}

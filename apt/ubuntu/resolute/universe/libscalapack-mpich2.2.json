@@ -1,0 +1,46 @@
+{
+	"raw": {},
+	"required": [
+		"Filename",
+		"Size"
+	],
+	"package": "libscalapack-mpich2.2",
+	"source": "scalapack",
+	"version": "2.2.2-5",
+	"section": "universe/libs",
+	"priority": "optional",
+	"architecture": "amd64",
+	"depends": [
+		"mpi-default-bin",
+		"libblas3 | libblas.so.3",
+		"libc6 (>= 2.29)",
+		"libgcc-s1 (>= 4.0)",
+		"libgfortran5 (>= 8)",
+		"liblapack3 | liblapack.so.3",
+		"libmpich12"
+	],
+	"suggests": [
+		"scalapack-doc"
+	],
+	"replaces": [
+		"libscalapack-mpi1 (<< 1.8.0-9.1)",
+		"scalapack1-mpich"
+	],
+	"breaks": [
+		"libscalapack-mpi1 (<< 1.8.0-9.1)"
+	],
+	"conflicts": [
+		"scalapack2-mpich"
+	],
+	"installedSize": 5636,
+	"maintainer": "Ubuntu Developers <ubuntu-devel-discuss@lists.ubuntu.com>",
+	"description": "Scalable Linear Algebra Package - Shared libs for MPICH",
+	"homepage": "https://www.netlib.org/scalapack/",
+	"filename": "pool/universe/s/scalapack/libscalapack-mpich2.2_2.2.2-5_amd64.deb",
+	"size": 1833750,
+	"md5": "c5332ffdd014a053c5301022123c4bdd",
+	"sha1": "fa493f5db5d86198f0959b3a04b44dd29df19a1f",
+	"sha256": "0436bb63d03f7995863caa4dde5dfdf4242abf5fbce0a2760288bf97f8c6efa9",
+	"sha512": "c4a73084dfe1eeaf74790a4c7553f40b7473f4588063dca9df775e5abd6d2bf4e7d9e6fb7c33fcd88ae38786a4f70108ffcaf36fee65072647bbeac67820b3f9",
+	"descriptionMd5": "c428e63610f649ac76c7405395655644"
+}

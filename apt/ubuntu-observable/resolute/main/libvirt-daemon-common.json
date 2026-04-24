@@ -1,0 +1,63 @@
+[{
+	"raw": {},
+	"required": [
+		"Filename",
+		"Size"
+	],
+	"package": "libvirt-daemon-common",
+	"source": "libvirt",
+	"version": "12.0.0-1ubuntu5",
+	"section": "admin",
+	"priority": "optional",
+	"architecture": "amd64",
+	"depends": [
+		"dmidecode",
+		"gettext-base",
+		"iproute2",
+		"kmod",
+		"libvirt-common (= 12.0.0-1ubuntu5)",
+		"libvirt0 (= 12.0.0-1ubuntu5)",
+		"polkitd (>= 121+compat0.1-2)",
+		"sensible-utils",
+		"systemd | systemd-standalone-sysusers | systemd-sysusers",
+		"libacl1 (>= 2.2.23)",
+		"libc6 (>= 2.34)",
+		"libgcc-s1 (>= 3.3.1)",
+		"libglib2.0-0t64 (>= 2.58.0)",
+		"libreadline8t64 (>= 6.0)",
+		"ubuntu-virt"
+	],
+	"recommends": [
+		"netcat-openbsd"
+	],
+	"suggests": [
+		"apparmor",
+		"auditd",
+		"systemtap"
+	],
+	"replaces": [
+		"libvirt-clients (<< 10.6.0-2~)",
+		"libvirt-daemon (<< 10.6.0-2~)",
+		"libvirt-daemon-common-hwe",
+		"libvirt-daemon-system-sysv (<< 10.6.0-2~)"
+	],
+	"breaks": [
+		"libvirt-clients (<< 10.6.0-2~)",
+		"libvirt-daemon (<< 10.6.0-2~)",
+		"libvirt-daemon-system-sysv (<< 10.6.0-2~)"
+	],
+	"conflicts": [
+		"libvirt-daemon-system (<< 10.6.0-2~)"
+	],
+	"installedSize": 539,
+	"maintainer": "Ubuntu Developers <ubuntu-devel-discuss@lists.ubuntu.com>",
+	"description": "virtualization daemon - common files",
+	"homepage": "https://libvirt.org/",
+	"filename": "pool/main/libv/libvirt/libvirt-daemon-common_12.0.0-1ubuntu5_amd64.deb",
+	"size": 117668,
+	"md5": "3a5a75ae7298d0f71c8375de518aab2b",
+	"sha1": "ed3948718830435fcc434e86a133eb23084a534f",
+	"sha256": "871e782c08fd20c84f4824e9b10611f68a0b4da865774bc00e5887bf6436f452",
+	"sha512": "33674fe5d3f869ef4734b02f9dd6931fa7e8067966de617807fe35b6635b4cec336486fc7e56f350d086fc56bb1b284e000507ebad91a7312143ef781795c915",
+	"descriptionMd5": "bb15534ddc75f9c256177238a85ecbc0"
+}]

@@ -1,0 +1,45 @@
+{
+	"raw": {},
+	"required": [
+		"Filename",
+		"Size"
+	],
+	"package": "ostree-boot",
+	"source": "ostree",
+	"version": "2025.7-3build1",
+	"section": "universe/admin",
+	"priority": "optional",
+	"architecture": "amd64",
+	"depends": [
+		"ostree (= 2025.7-3build1)",
+		"libc6 (>= 2.34)",
+		"libcomposefs1 (>= 1.0.8)",
+		"libglib2.0-0t64 (>= 2.40.0)",
+		"libostree-1-1 (>= 2016.4)",
+		"libselinux1 (>= 3.1~)",
+		"libsystemd0"
+	],
+	"recommends": [
+		"dracut",
+		"grub-efi-amd64 | grub-pc | extlinux | syslinux | u-boot"
+	],
+	"replaces": [
+		"ostree (<< 2025.7-3build1)",
+		"ostree-grub2 (<< 2025.7-3build1)"
+	],
+	"breaks": [
+		"ostree (<< 2025.7-3build1)",
+		"ostree-grub2 (<< 2025.7-3build1)"
+	],
+	"installedSize": 159,
+	"maintainer": "Ubuntu Developers <ubuntu-devel-discuss@lists.ubuntu.com>",
+	"description": "libostree boot loader and initramfs integration",
+	"homepage": "https://github.com/ostreedev/ostree/",
+	"filename": "pool/universe/o/ostree/ostree-boot_2025.7-3build1_amd64.deb",
+	"size": 30904,
+	"md5": "cce4650f4adc7b67022072a0a725ff83",
+	"sha1": "53d929d3e7fd92c54329fb65a21faa54a9f96131",
+	"sha256": "e6edc32514fa375be9b3578e795e5323b27d7283d0303291e3baa65a8c41841e",
+	"sha512": "d71d4f0b9c8d21cdd6e59178199a60d77d772b022b45e6c7118fdef01705bea9b34cc848a66e108d8e5bf188d30567edb8cf28f005e290dd48a74dc09ffa2a40",
+	"descriptionMd5": "d4fe520f513fbbd0be923df8db15f4c1"
+}

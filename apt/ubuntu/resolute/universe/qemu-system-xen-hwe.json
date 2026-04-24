@@ -1,0 +1,60 @@
+{
+	"raw": {},
+	"required": [
+		"Filename",
+		"Size"
+	],
+	"package": "qemu-system-xen-hwe",
+	"source": "qemu-hwe",
+	"version": "1:10.2.1+ds-1ubuntu4",
+	"section": "universe/otherosfs",
+	"priority": "optional",
+	"architecture": "amd64",
+	"depends": [
+		"libc6 (>= 2.42)",
+		"libfdt1 (>= 1.7.2)",
+		"libglib2.0-0t64 (>= 2.78.0)",
+		"libgmp10 (>= 2:6.3.0+dfsg)",
+		"libhogweed6t64",
+		"libjpeg8 (>= 8c)",
+		"libnettle8t64 (>= 3.9~)",
+		"libpixman-1-0 (>= 0.19.6)",
+		"libsasl2-2 (>= 2.1.28+dfsg1)",
+		"libspice-server1 (>= 0.14.2)",
+		"libusb-1.0-0 (>= 2:1.0.23~)",
+		"libxendevicemodel1 (>= 4.20.2+7-g1badcf5035)",
+		"libxenevtchn1 (>= 4.20.2+7-g1badcf5035)",
+		"libxenforeignmemory1 (>= 4.20.2+7-g1badcf5035)",
+		"libxengnttab1 (>= 4.20.2+7-g1badcf5035)",
+		"libxenmisc4.20 (>= 4.20.2+7-g1badcf5035)",
+		"libxenstore4 (>= 4.16.0)",
+		"libxentoolcore1 (>= 4.20.2+7-g1badcf5035)",
+		"zlib1g (>= 1:1.2.0)",
+		"qemu-system-data (>> 1:10.2.1+ds~)",
+		"seabios",
+		"ipxe-qemu",
+		"ubuntu-virt-hwe"
+	],
+	"recommends": [
+		"qemu-utils",
+		"ovmf"
+	],
+	"replaces": [
+		"qemu-system-x86-xen (<< 1:7.0+dfsg-7ubuntu1)",
+		"qemu-system-xen"
+	],
+	"breaks": [
+		"qemu-system-x86-xen (<< 1:7.0+dfsg-7ubuntu1)"
+	],
+	"installedSize": 25348,
+	"maintainer": "Ubuntu Developers <ubuntu-devel-discuss@lists.ubuntu.com>",
+	"description": "QEMU full system emulation (Xen helper package)",
+	"homepage": "http://www.qemu.org/",
+	"filename": "pool/universe/q/qemu-hwe/qemu-system-xen-hwe_10.2.1+ds-1ubuntu4_amd64.deb",
+	"size": 3204466,
+	"md5": "3ae35f98d6cffefdd1628b905391702e",
+	"sha1": "cf1302496c481e77fcdcda3a60e2d99ec1ab9f52",
+	"sha256": "68d7fda5f9646e7761ecd654466916016214efa87f51c71631a5b9dd6c36b860",
+	"sha512": "58cee59196652521cccbc67af8dad9da596e07783bc6b096b7b1bb66f81c090336103d714b66e5fcb42ae2cd953e7c9a2bb65503c7ba908c9c7732b99457622e",
+	"descriptionMd5": "69c96ac98455834fb8fe2e99553de7b8"
+}

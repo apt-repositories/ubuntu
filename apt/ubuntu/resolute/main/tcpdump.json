@@ -1,0 +1,38 @@
+{
+	"raw": {},
+	"required": [
+		"Filename",
+		"Size"
+	],
+	"package": "tcpdump",
+	"version": "4.99.6-1",
+	"section": "net",
+	"priority": "standard",
+	"architecture": "amd64",
+	"depends": [
+		"systemd | systemd-standalone-sysusers | systemd-sysusers",
+		"libc6 (>= 2.38)",
+		"libpcap0.8t64 (>= 1.9.0)",
+		"libssl3t64 (>= 3.0.0)"
+	],
+	"suggests": [
+		"apparmor (>= 2.3)"
+	],
+	"replaces": [
+		"apparmor-profiles-extra (<< 1.12~)"
+	],
+	"breaks": [
+		"apparmor-profiles-extra (<< 1.12~)"
+	],
+	"installedSize": 1325,
+	"maintainer": "Ubuntu Developers <ubuntu-devel-discuss@lists.ubuntu.com>",
+	"description": "command-line network traffic analyzer",
+	"homepage": "https://www.tcpdump.org/",
+	"filename": "pool/main/t/tcpdump/tcpdump_4.99.6-1_amd64.deb",
+	"size": 476828,
+	"md5": "1929c4d1021ced85ef00445430de91b9",
+	"sha1": "d86d344e6654c9d926b8a9714440340e778e7f3a",
+	"sha256": "64998d1599a8a07fde09379e591ac67b6ed0a5246c05cfd99b5208fb003f533e",
+	"sha512": "43fe079197b3e4d18a22aa86d8caefc549d8f3839fd2104c018a75cec04178a07de7258a30073138079ab0f7342de67b894445d7b08274af3f478ddedc770026",
+	"descriptionMd5": "f01841bfda357d116d7ff7b7a47e8782"
+}

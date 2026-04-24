@@ -1,0 +1,51 @@
+{
+	"raw": {},
+	"required": [
+		"Filename",
+		"Size"
+	],
+	"package": "courier-imap",
+	"source": "courier (1.5.1-2)",
+	"version": "5.3.1+1.5.1-2",
+	"section": "universe/mail",
+	"priority": "optional",
+	"architecture": "amd64",
+	"depends": [
+		"courier-base (= 1.5.1-2)",
+		"debconf",
+		"default-mta | mail-transport-agent",
+		"courier-authlib (>= 0.71)",
+		"libc6 (>= 2.38)",
+		"libcourier-unicode10 (>= 2.4.0)",
+		"libgdbm6t64 (>= 1.16)",
+		"libidn2-0 (>= 2.0.0)"
+	],
+	"preDepends": [
+		"init-system-helpers (>= 1.54~)"
+	],
+	"suggests": [
+		"courier-doc",
+		"imap-client"
+	],
+	"replaces": [
+		"cyrus-imapd",
+		"imap-server"
+	],
+	"breaks": [
+		"cyrus-imapd"
+	],
+	"conflicts": [
+		"imap-server"
+	],
+	"installedSize": 562,
+	"maintainer": "Ubuntu Developers <ubuntu-devel-discuss@lists.ubuntu.com>",
+	"description": "Courier mail server - IMAP server",
+	"homepage": "https://www.courier-mta.org/",
+	"filename": "pool/universe/c/courier/courier-imap_5.3.1+1.5.1-2_amd64.deb",
+	"size": 198784,
+	"md5": "0dc1d9d301c409a79fbd4f9e8d69a27e",
+	"sha1": "6b55f895a2069eceb99bee670fe73e02876a077e",
+	"sha256": "79bb40a85efe502ca6778a334630904e3d1195bac09c7fdd68ce0797c59ff37d",
+	"sha512": "b187a13d6199049c9f09613bded72baaebaa43d7b3bbd97bc1214dc43b41f2f9b6328ccf9ec56086c4de72c9ea8db7d25106bee50141f702ea62b8f799af876d",
+	"descriptionMd5": "9420a3c47c7492e39b747f3102d19e41"
+}

@@ -1,0 +1,82 @@
+{
+	"raw": {},
+	"required": [
+		"Filename",
+		"Size"
+	],
+	"package": "fwupd",
+	"version": "2.1.1-1ubuntu3",
+	"section": "admin",
+	"priority": "optional",
+	"architecture": "amd64",
+	"depends": [
+		"systemd-sysusers",
+		"libblkid1 (>= 2.17.2)",
+		"libc6 (>= 2.38)",
+		"libcbor0.10 (>= 0.10.2)",
+		"libcurl3t64-gnutls (>= 7.63.0)",
+		"libdrm-amdgpu1 (>= 2.4.73)",
+		"libdrm2 (>= 2.4.3)",
+		"libflashrom1 (>= 1.6.0)",
+		"libfwupd3 (= 2.1.1-1ubuntu3)",
+		"libglib2.0-0t64 (>= 2.83.0)",
+		"libgnutls30t64 (>= 3.7.3)",
+		"libjcat1 (>= 0.2.0)",
+		"liblzma5 (>= 5.1.1alpha+20120614)",
+		"libmbim-glib4 (>= 1.28.0)",
+		"libmbim-proxy",
+		"libmm-glib0 (>= 1.22.0)",
+		"libmnl0 (>= 1.0.3-4~)",
+		"libpolkit-gobject-1-0 (>= 0.99)",
+		"libqmi-glib5 (>= 1.32.0)",
+		"libqmi-proxy",
+		"libreadline8t64 (>= 6.0)",
+		"libsqlite3-0 (>= 3.20.0)",
+		"libsystemd0",
+		"libtss2-esys-3.0.2-0t64 (>= 2.3.1)",
+		"libusb-1.0-0 (>= 2:1.0.27~rc1)",
+		"libxmlb2 (>= 0.3.22)",
+		"zlib1g (>= 1:1.2.11)",
+		"shared-mime-info"
+	],
+	"recommends": [
+		"python3",
+		"bolt",
+		"default-dbus-system-bus | dbus-system-bus",
+		"secureboot-db",
+		"udisks2",
+		"fwupd-signed",
+		"jq"
+	],
+	"suggests": [
+		"gir1.2-fwupd-2.0"
+	],
+	"replaces": [
+		"fwupdate (<< 12-7)",
+		"gir1.2-dfu-1.0 (<< 0.9.7-1)",
+		"libdfu-dev (<< 0.9.7-1)",
+		"libdfu1 (<< 0.9.7-1)"
+	],
+	"breaks": [
+		"fwupdate (<< 12-7)",
+		"libdfu-dev (<< 0.9.7-1)",
+		"libdfu1 (<< 0.9.7-1)"
+	],
+	"conflicts": [
+		"fwupdate-amd64-signed",
+		"fwupdate-arm64-signed",
+		"fwupdate-armhf-signed",
+		"fwupdate-i386-signed"
+	],
+	"installedSize": 18520,
+	"maintainer": "Ubuntu Developers <ubuntu-devel-discuss@lists.ubuntu.com>",
+	"description": "Firmware update daemon",
+	"homepage": "https://github.com/fwupd/fwupd",
+	"filename": "pool/main/f/fwupd/fwupd_2.1.1-1ubuntu3_amd64.deb",
+	"size": 12702038,
+	"md5": "5fcf33c131ff7550671b4aeb3a014ea8",
+	"sha1": "56226ef759ddb91bea6f14264d9dc3c97f5060ac",
+	"sha256": "020a33f53a56086febae4bac86cccfbd4c6dcfc943c18630e084a06e5239d0e2",
+	"sha512": "e5e3773d20f9cbb959089adef53d06185bdf866b8567d74edb7bd73bdd4cc6b8161a97000f84dcab7101f1fedd24bb2e6e7d91dbb9171411a06f1e84e0c6c121",
+	"descriptionMd5": "cdd6fee34520bc38e3f317c22bf0694b"
+}

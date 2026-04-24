@@ -1,0 +1,37 @@
+[{
+	"raw": {},
+	"required": [
+		"Filename",
+		"Size"
+	],
+	"package": "inetutils-inetd",
+	"source": "inetutils",
+	"version": "2:2.7-2ubuntu1",
+	"section": "universe/net",
+	"priority": "optional",
+	"architecture": "amd64",
+	"depends": [
+		"libc6 (>= 2.38)",
+		"inetutils-syslogd | system-log-daemon | systemd-sysv",
+		"sysvinit-utils (>= 3.05-4~)",
+		"tcpd",
+		"update-inetd"
+	],
+	"preDepends": [
+		"init-system-helpers (>= 1.54~)"
+	],
+	"conflicts": [
+		"inet-superserver"
+	],
+	"installedSize": 155,
+	"maintainer": "Ubuntu Developers <ubuntu-devel-discuss@lists.ubuntu.com>",
+	"description": "internet super server",
+	"homepage": "https://www.gnu.org/software/inetutils/",
+	"filename": "pool/universe/i/inetutils/inetutils-inetd_2.7-2ubuntu1_amd64.deb",
+	"size": 45224,
+	"md5": "04ca48dca92a247ee6f51b657f356bab",
+	"sha1": "99168e890941e90fd17057af7c7e2f3072557b61",
+	"sha256": "a698f8794bf5a8fcc650ca9bdf6a61a4ff7cc6c37ea4d33151d9fe99368773ff",
+	"sha512": "ecb56c56fa834d3529b6e2bdbdcd1b087bc197c9a81061b464eb607b415513c21b45514bdf2078953eb74319cda97e3b543d9970ee5d7f9141f4d60b6e8ffdd0",
+	"descriptionMd5": "4d6f447fb5156051840d637383dc72ad"
+}]

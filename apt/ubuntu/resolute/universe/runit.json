@@ -1,0 +1,48 @@
+{
+	"raw": {},
+	"required": [
+		"Filename",
+		"Size"
+	],
+	"package": "runit",
+	"version": "2.3.0-1ubuntu1",
+	"section": "universe/admin",
+	"priority": "optional",
+	"architecture": "amd64",
+	"depends": [
+		"sysuser-helper (>= 1.6)",
+		"libc6 (>= 2.34)"
+	],
+	"recommends": [
+		"runit-run | runit-init"
+	],
+	"suggests": [
+		"socklog",
+		"ucspi-unix",
+		"zsh",
+		"runit-services",
+		"xchpst"
+	],
+	"replaces": [
+		"runit-init (<< 2.1.2-29~)"
+	],
+	"breaks": [
+		"runit-init (<< 2.1.2-60~)",
+		"runit-run (<= 2.1.2-59)",
+		"xchpst (<< 0.5.0-1~)"
+	],
+	"conflicts": [
+		"daemontools-run"
+	],
+	"installedSize": 546,
+	"maintainer": "Ubuntu Developers <ubuntu-devel-discuss@lists.ubuntu.com>",
+	"description": "system-wide service supervision",
+	"homepage": "http://smarden.org/runit/",
+	"filename": "pool/universe/r/runit/runit_2.3.0-1ubuntu1_amd64.deb",
+	"size": 142656,
+	"md5": "c6274b9d8a546e596eb7e76abc6d2c95",
+	"sha1": "3cdf8a0000dbf5317b41b4a7d700df5875cdb9c9",
+	"sha256": "36c9878f57dcd3763da727887eccf32b744d4bf0a36613c9c00ce485773f2e8f",
+	"sha512": "3aed1a77c220b6ec457dbbb72d990678afcab509296304a5901ad511906cd745e463fd1191215ccc9adf0c44c4f1ad667964838a3d05f158d29abb51509ad348",
+	"descriptionMd5": "eb15553874e0d9d776a0d1b31885eca3"
+}

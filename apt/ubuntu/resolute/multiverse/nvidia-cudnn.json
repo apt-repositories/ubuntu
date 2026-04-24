@@ -1,0 +1,39 @@
+{
+	"raw": {},
+	"required": [
+		"Filename",
+		"Size"
+	],
+	"package": "nvidia-cudnn",
+	"version": "9.0.0.312~cuda12build1",
+	"section": "multiverse/libs",
+	"priority": "optional",
+	"architecture": "amd64",
+	"depends": [
+		"ca-certificates",
+		"curl | wget",
+		"dpkg-dev",
+		"nvidia-cuda-dev (<< 13~)",
+		"nvidia-cuda-dev (>= 12~)",
+		"debconf (>= 0.5) | debconf-2.0"
+	],
+	"recommends": [
+		"nvidia-cuda-toolkit-gcc"
+	],
+	"breaks": [
+		"libtorch-cuda-2.1",
+		"libtorch-cuda-2.4",
+		"libtorch-cuda-2.5"
+	],
+	"installedSize": 70,
+	"maintainer": "Ubuntu Developers <ubuntu-devel-discuss@lists.ubuntu.com>",
+	"description": "NVIDIA CUDA Deep Neural Network library (install script)",
+	"homepage": "https://developer.nvidia.com/cudnn",
+	"filename": "pool/multiverse/n/nvidia-cudnn/nvidia-cudnn_9.0.0.312~cuda12build1_amd64.deb",
+	"size": 19972,
+	"md5": "340e5e9bbcbb722b8b4637087b120243",
+	"sha1": "e4594450af38cf78232be86e2ec618503c8de56f",
+	"sha256": "d9f1fe3b1fd6fe4736ff2d318adcc60203f35068caf769176b5394487657acf4",
+	"sha512": "e9539d3410eb11af11b7f7f36174d76a13b05580937ed1add9bfe36565846e44f44c424fdd34bb7cbf20e63fb68b857b1fac92544de7854f4b97d5fe5431752f",
+	"descriptionMd5": "aff2caf53c29838279b63dd35dec1798"
+}

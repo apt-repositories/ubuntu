@@ -1,0 +1,45 @@
+[{
+	"raw": {},
+	"required": [
+		"Filename",
+		"Size"
+	],
+	"package": "cryptsetup-initramfs",
+	"source": "cryptsetup",
+	"version": "2:2.8.4-1ubuntu4",
+	"section": "admin",
+	"priority": "optional",
+	"architecture": "all",
+	"depends": [
+		"busybox-initramfs",
+		"cryptsetup (>= 2:2.8.4-1ubuntu4)",
+		"initramfs-tools (>= 0.137) | linux-initramfs-tool",
+		"debconf (>= 0.5) | debconf-2.0"
+	],
+	"recommends": [
+		"console-setup",
+		"kbd",
+		"plymouth"
+	],
+	"replaces": [
+		"cryptsetup (<< 2:2.0.3-1)"
+	],
+	"breaks": [
+		"cryptsetup (<< 2:2.0.3-1)",
+		"libcryptsetup12 (<< 2:2.7.2-1)"
+	],
+	"conflicts": [
+		"lvm2 (<< 2.03.15-1)"
+	],
+	"installedSize": 115,
+	"maintainer": "Ubuntu Developers <ubuntu-devel-discuss@lists.ubuntu.com>",
+	"description": "disk encryption support - initramfs integration",
+	"homepage": "https://gitlab.com/cryptsetup/cryptsetup",
+	"filename": "pool/main/c/cryptsetup/cryptsetup-initramfs_2.8.4-1ubuntu4_all.deb",
+	"size": 33924,
+	"md5": "08838fcd0650bfd0a275238a15c12183",
+	"sha1": "e8191e4b918761eaeeab9cf7a4fb4e56a5b88a49",
+	"sha256": "dc2be11014311d5822a5788040a4422525e9b079ac0b660021d48d4224353fd6",
+	"sha512": "49ef9758c031e416e00923d0819fbad0f8f95b894fae7570c6de660b0f58da5521e7cfddbd9a87f7903456b242e840169097d850b36f1c7bc3215bd0305271e1",
+	"descriptionMd5": "cac39fb1e64bce69f201398c1e1e437a"
+}]

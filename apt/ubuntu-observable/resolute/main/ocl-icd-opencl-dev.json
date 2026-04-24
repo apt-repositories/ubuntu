@@ -1,0 +1,42 @@
+[{
+	"raw": {},
+	"required": [
+		"Filename",
+		"Size"
+	],
+	"package": "ocl-icd-opencl-dev",
+	"source": "ocl-icd",
+	"version": "2.3.4-1",
+	"section": "libdevel",
+	"priority": "extra",
+	"architecture": "amd64",
+	"depends": [
+		"opencl-c-headers | opencl-headers",
+		"opencl-clhpp-headers | opencl-headers",
+		"ocl-icd-libopencl1 (= 2.3.4-1)"
+	],
+	"recommends": [
+		"libgl-dev"
+	],
+	"replaces": [
+		"amd-libopencl1 (<< 1:13.4-4~)",
+		"opencl-dev"
+	],
+	"breaks": [
+		"amd-libopencl1 (<< 1:13.4-4~)"
+	],
+	"conflicts": [
+		"opencl-dev"
+	],
+	"installedSize": 21,
+	"maintainer": "Ubuntu Developers <ubuntu-devel-discuss@lists.ubuntu.com>",
+	"description": "OpenCL development files",
+	"homepage": "https://github.com/OCL-dev/ocl-icd",
+	"filename": "pool/main/o/ocl-icd/ocl-icd-opencl-dev_2.3.4-1_amd64.deb",
+	"size": 2806,
+	"md5": "2cc1b9de53cf6d57c790e7d8285ef66f",
+	"sha1": "2132f84b46054176f90a42e2c37c88298298cc28",
+	"sha256": "8bdd722044fd4ebb81ceb302db076393dacd32ced7ba46bf0a58c6a74a1cdedb",
+	"sha512": "d60f9b85e9ee698b56c4120334d9a4aa494ab4430396e066bf112387af6f3d324d9637212a3137805fddede38e9704344f3d436deea0d5a56ad0d8fd157e8c0b",
+	"descriptionMd5": "8af8228760b2fe7855ca83f0ba976060"
+}]

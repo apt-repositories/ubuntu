@@ -1,0 +1,33 @@
+{
+	"raw": {},
+	"required": [
+		"Filename",
+		"Size"
+	],
+	"package": "prometheus-postfix-exporter",
+	"version": "0.18.0-1",
+	"section": "universe/net",
+	"priority": "optional",
+	"architecture": "amd64",
+	"depends": [
+		"adduser",
+		"daemon | systemd-sysv",
+		"postfix",
+		"rsyslog | systemd-sysv | system-log-daemon",
+		"libc6 (>= 2.34)"
+	],
+	"preDepends": [
+		"init-system-helpers (>= 1.54~)"
+	],
+	"installedSize": 14792,
+	"maintainer": "Ubuntu Developers <ubuntu-devel-discuss@lists.ubuntu.com>",
+	"description": "Prometheus exporter for Postfix mail servers",
+	"homepage": "https://github.com/hsn723/postfix_exporter",
+	"filename": "pool/universe/p/prometheus-postfix-exporter/prometheus-postfix-exporter_0.18.0-1_amd64.deb",
+	"size": 4766860,
+	"md5": "0e0d5d9c0fc6cbcef49100ba014be94b",
+	"sha1": "07f89cc93a1c01c337b9bad95b1fdb3d14298eae",
+	"sha256": "92d4546f36793bc716c49b1d8d41a5fcdbcc734b1dcd4b271a20d61edbeeb59f",
+	"sha512": "48c213ff97f0b635f4f40e25b451115cd6622fd85d96b7188505806b9295b15b56125ce589679f35caf16fabbee62761533178a301f69cc59816428cfe8ed0a0",
+	"descriptionMd5": "92f62f3099317ef85acdc460a769f51d"
+}

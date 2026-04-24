@@ -1,0 +1,43 @@
+[{
+	"raw": {},
+	"required": [
+		"Filename",
+		"Size"
+	],
+	"package": "openntpd",
+	"version": "1:6.2p3-4.2build1",
+	"section": "universe/net",
+	"priority": "optional",
+	"architecture": "amd64",
+	"depends": [
+		"libc6 (>= 2.38)",
+		"adduser",
+		"lsb-base (>= 3.0-6)",
+		"netbase"
+	],
+	"suggests": [
+		"apparmor"
+	],
+	"replaces": [
+		"ntp",
+		"time-daemon"
+	],
+	"breaks": [
+		"apparmor-profiles-extra (<< 1.8)"
+	],
+	"conflicts": [
+		"ntp",
+		"time-daemon"
+	],
+	"installedSize": 136,
+	"maintainer": "Ubuntu Developers <ubuntu-devel-discuss@lists.ubuntu.com>",
+	"description": "OpenBSD NTP daemon",
+	"homepage": "http://www.openntpd.org",
+	"filename": "pool/universe/o/openntpd/openntpd_6.2p3-4.2build1_amd64.deb",
+	"size": 47106,
+	"md5": "067f7191c4fc508d136b4f77ace7e788",
+	"sha1": "787b980d598586fa4313d0d925dfc38286c19b91",
+	"sha256": "434873e01bbf8cb167afaed71e9746043fb7720473c34bfa2ecb3a5b974ca7c7",
+	"sha512": "061f46016a886fc9d9018e03d3f0359cb4d174bebfc299f73429b6a7110f78b7328e636a0e5f14217b9022e1dde032a7656fcabccfefff45b76b648b9ca3038f",
+	"descriptionMd5": "4e4924a4bc4b10b5f382ae2c8b1824c5"
+}]

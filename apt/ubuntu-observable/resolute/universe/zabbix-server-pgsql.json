@@ -1,0 +1,63 @@
+[{
+	"raw": {},
+	"required": [
+		"Filename",
+		"Size"
+	],
+	"package": "zabbix-server-pgsql",
+	"source": "zabbix",
+	"version": "1:7.0.22+dfsg-1",
+	"section": "universe/net",
+	"priority": "optional",
+	"architecture": "amd64",
+	"depends": [
+		"libc6 (>= 2.38)",
+		"libcurl3t64-gnutls (>= 7.16.3)",
+		"libevent-core-2.1-7t64 (>= 2.1.8-stable)",
+		"libevent-extra-2.1-7t64 (>= 2.1.8-stable)",
+		"libevent-pthreads-2.1-7t64 (>= 2.1.8-stable)",
+		"libgnutls30t64 (>= 3.8.6)",
+		"libldap2 (>= 2.6.2)",
+		"libodbc2 (>= 2.3.1)",
+		"libopenipmi0t64 (>= 2.0.37)",
+		"libpcre2-8-0 (>= 10.22)",
+		"libpq5 (>= 9.0~)",
+		"libsnmp40t64 (>= 5.9.4+dfsg)",
+		"libssh2-1t64 (>= 1.4.0)",
+		"libxml2-16 (>= 2.14.1)",
+		"zlib1g (>= 1:1.2.0)",
+		"ucf",
+		"fping",
+		"adduser",
+		"sysvinit-utils (>= 3.05-4~)"
+	],
+	"recommends": [
+		"postgresql",
+		"snmpd",
+		"nmap",
+		"traceroute"
+	],
+	"suggests": [
+		"zabbix-frontend-php",
+		"logrotate",
+		"sudo",
+		"snmp-mibs-downloader"
+	],
+	"conflicts": [
+		"zabbix-proxy-mysql",
+		"zabbix-proxy-pgsql",
+		"zabbix-proxy-sqlite3",
+		"zabbix-server-mysql"
+	],
+	"installedSize": 12588,
+	"maintainer": "Ubuntu Developers <ubuntu-devel-discuss@lists.ubuntu.com>",
+	"description": "network monitoring solution - server (using PostgreSQL)",
+	"homepage": "http://zabbix.com",
+	"filename": "pool/universe/z/zabbix/zabbix-server-pgsql_7.0.22+dfsg-1_amd64.deb",
+	"size": 6274054,
+	"md5": "367a4c0df8cd2d69e2d09a616b5f4316",
+	"sha1": "652a0c5fc28cc7a0d75c072ffab72e88d2273a12",
+	"sha256": "7e06d9d7eec55fa7adb8595aacfca382d174a3ff86eacb25db1c7ac83f11ab6c",
+	"sha512": "c32eb8ec89e6e5eb8b5fba74ca8cf04a04a9c765f607111276f52d968f74d99697d08c55619a622a47a3dc5a9dfe6b0d6e499c6313bc7f8d3aaa6eebe71f4722",
+	"descriptionMd5": "a1270ac476c5a7079998e66f6314972d"
+}]

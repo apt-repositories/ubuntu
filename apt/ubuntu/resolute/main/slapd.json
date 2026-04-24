@@ -1,0 +1,53 @@
+{
+	"raw": {},
+	"required": [
+		"Filename",
+		"Size"
+	],
+	"package": "slapd",
+	"source": "openldap",
+	"version": "2.6.10+dfsg-1ubuntu5",
+	"section": "net",
+	"priority": "optional",
+	"architecture": "amd64",
+	"depends": [
+		"libargon2-1 (>= 0~20171227)",
+		"libc6 (>= 2.38)",
+		"libcrypt1 (>= 1:4.1.0)",
+		"libldap2 (= 2.6.10+dfsg-1ubuntu5)",
+		"libltdl7 (>= 2.5.4)",
+		"libodbc2 (>= 2.3.1)",
+		"libperl5.40 (>= 5.40.0)",
+		"libsasl2-2 (>= 2.1.28+dfsg1)",
+		"libwrap0 (>= 7.6-4~)",
+		"psmisc",
+		"adduser",
+		"debconf (>= 0.5) | debconf-2.0"
+	],
+	"preDepends": [
+		"debconf",
+		"init-system-helpers (>= 1.54~)"
+	],
+	"recommends": [
+		"ldap-utils"
+	],
+	"suggests": [
+		"libsasl2-modules",
+		"ufw",
+		"libsasl2-modules-gssapi-mit | libsasl2-modules-gssapi-heimdal"
+	],
+	"conflicts": [
+		"ldap-server"
+	],
+	"installedSize": 4858,
+	"maintainer": "Ubuntu Developers <ubuntu-devel-discuss@lists.ubuntu.com>",
+	"description": "OpenLDAP server (slapd)",
+	"homepage": "https://www.openldap.org/",
+	"filename": "pool/main/o/openldap/slapd_2.6.10+dfsg-1ubuntu5_amd64.deb",
+	"size": 1575900,
+	"md5": "3f640b5c8d0f13df5bbf5225152f8823",
+	"sha1": "3bea1c55fe33a2e72bff8275c984f4525dca6b09",
+	"sha256": "609e338d736bceefa3590c6ca3e5339f07d4a5f9c17d552227552c133462494f",
+	"sha512": "7eb7d78f3b825293c3b9d26e1206e41a45950fc605c8c4798d66e8a9cea1ed219cd733dd6bd580786eaf5fb5b068835c5658812ebf746739d2d879515f63dc14",
+	"descriptionMd5": "dd977840e276b3f03520c0ab1d050cf8"
+}
