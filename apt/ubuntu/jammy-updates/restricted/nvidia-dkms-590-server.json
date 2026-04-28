@@ -6,33 +6,22 @@
 	],
 	"package": "nvidia-dkms-590-server",
 	"source": "nvidia-graphics-drivers-590-server",
-	"version": "590.48.01-0ubuntu0.22.04.3",
+	"version": "590.48.01-0ubuntu0.22.04.4",
 	"section": "restricted/libs",
 	"priority": "optional",
 	"architecture": "amd64",
 	"depends": [
-		"dkms",
-		"nvidia-kernel-source-590-server (<= 590.48.01-1)",
-		"nvidia-kernel-source-590-server (>= 590.48.01)",
-		"nvidia-kernel-common-590-server (<= 590.48.01-1)",
-		"nvidia-kernel-common-590-server (>= 590.48.01)",
-		"nvidia-firmware-590-server-590.48.01"
+		"nvidia-dkms-595-server"
 	],
-	"replaces": [
-		"nvidia-dkms-kernel"
-	],
-	"conflicts": [
-		"nvidia-dkms-kernel"
-	],
-	"installedSize": 244,
+	"installedSize": 37,
 	"maintainer": "Ubuntu Kernel Team <kernel-team@lists.ubuntu.com>",
 	"description": "NVIDIA DKMS package",
 	"homepage": "http://www.nvidia.com",
-	"filename": "pool/restricted/n/nvidia-graphics-drivers-590-server/nvidia-dkms-590-server_590.48.01-0ubuntu0.22.04.3_amd64.deb",
-	"size": 51382,
-	"md5": "0854827fab5571e6e8dbb1a18a8e40c2",
-	"sha1": "1a0700ec9d9c94ff788187c0328d0929ae5fa9b8",
-	"sha256": "22dbb1cea2cc8699663e45ce9ab7372bd9b51da6588cdac2a92cfe6b8f75861d",
-	"sha512": "b479780dd68b2f4260464b5312056ddc77bd5ef74b0e5aa16a4053f6f5015094fe063ebdea6a5723efd3b4941f1ffaac0ebd7f3156674554f57cb85fdc0d4ede",
-	"descriptionMd5": "ec8c193060b5458922cc0bda62df7796"
+	"filename": "pool/restricted/n/nvidia-graphics-drivers-590-server/nvidia-dkms-590-server_590.48.01-0ubuntu0.22.04.4_amd64.deb",
+	"size": 11970,
+	"md5": "5ec4520d600f390b3212878c57deedcd",
+	"sha1": "68208ea4d8d8ebe82da6aed6b91ff15a124c5777",
+	"sha256": "fee7cec6babb8b1b89d74166eea72e8b3906cb8bd3878d0743548b4fb1ed166d",
+	"sha512": "70c638e30654d4b9b8582624848900b45199e123ea684e5d38efda8c566142f393897ad9ad37539332e3087cd17651fd7befa5a3ea5d49e87fbf215daec627c6",
+	"descriptionMd5": "a347abf1b58ca811e614eaaf299d05d7"
 }

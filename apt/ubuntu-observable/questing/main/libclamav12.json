@@ -6,6 +6,51 @@
 	],
 	"package": "libclamav12",
 	"source": "clamav",
+	"version": "1.4.4+dfsg-0ubuntu0.25.10.1",
+	"section": "libs",
+	"priority": "optional",
+	"architecture": "amd64",
+	"depends": [
+		"libbz2-1.0",
+		"libc6 (>= 2.39)",
+		"libcurl4t64 (>= 7.16.2)",
+		"libgcc-s1 (>= 4.2)",
+		"libjson-c5 (>= 0.15)",
+		"libmspack0t64 (>= 0.4)",
+		"libpcre2-8-0 (>= 10.22)",
+		"libssl3t64 (>= 3.4.0)",
+		"libxml2-16 (>= 2.14.1)",
+		"zlib1g (>= 1:1.2.3.4)"
+	],
+	"suggests": [
+		"libclamunrar",
+		"libclamunrar11"
+	],
+	"replaces": [
+		"libclamav12t64"
+	],
+	"breaks": [
+		"libclamav12t64 (<< 1.4.4+dfsg-0ubuntu0.25.10.1)"
+	],
+	"installedSize": 22378,
+	"maintainer": "Ubuntu Developers <ubuntu-devel-discuss@lists.ubuntu.com>",
+	"description": "anti-virus utility for Unix - library",
+	"homepage": "https://www.clamav.net/",
+	"filename": "pool/main/c/clamav/libclamav12_1.4.4+dfsg-0ubuntu0.25.10.1_amd64.deb",
+	"size": 7645486,
+	"md5": "dace991c3964474480171086e0ed54a3",
+	"sha1": "72d97d412041c8a3a6c9da10602c8c4f96814bf6",
+	"sha256": "9888532bf69591f11ab6f6a44ce75dffd2e228fff591bc3e2eca17c6a16528fc",
+	"sha512": "0c4440bf1ba975cd2f5bfb0bb3146be77dd3ace51e1db5d8150c74f5671d90e0db81a83151f8fc2e76a82e2956b1f35d708d2df2c12528ba7f5b9e615c73a45e",
+	"descriptionMd5": "bf2e797d0e7e410776d9200761e01bd6"
+},{
+	"raw": {},
+	"required": [
+		"Filename",
+		"Size"
+	],
+	"package": "libclamav12",
+	"source": "clamav",
 	"version": "1.4.3+dfsg-0ubuntu2",
 	"section": "libs",
 	"priority": "optional",

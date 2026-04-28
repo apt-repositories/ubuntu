@@ -42,6 +42,41 @@
 	],
 	"package": "libnvidia-decode-580",
 	"source": "nvidia-graphics-drivers-580",
+	"version": "580.142-0ubuntu0.25.10.1",
+	"section": "restricted/libs",
+	"priority": "optional",
+	"architecture": "amd64",
+	"depends": [
+		"nvidia-kernel-common-580-580.142",
+		"libnvidia-compute-580 (= 580.142-0ubuntu0.25.10.1)",
+		"libc6 (>= 2.34)",
+		"libx11-6",
+		"libxext6"
+	],
+	"replaces": [
+		"libnvidia-decode"
+	],
+	"conflicts": [
+		"libnvidia-decode"
+	],
+	"installedSize": 21047,
+	"maintainer": "Ubuntu Developers <ubuntu-devel-discuss@lists.ubuntu.com>",
+	"description": "NVIDIA Video Decoding runtime libraries",
+	"homepage": "http://www.nvidia.com",
+	"filename": "pool/restricted/n/nvidia-graphics-drivers-580/libnvidia-decode-580_580.142-0ubuntu0.25.10.1_amd64.deb",
+	"size": 3160872,
+	"md5": "106670907ca67735c7165136c66be992",
+	"sha1": "b6ee36bfc657ffd592f0d30d27af7b4c0bee9ff3",
+	"sha256": "567bb8a7240966896caa47b39143a66d093c6c0d2e2598f5006fb7ccb65d2281",
+	"descriptionMd5": "82c3a05b45f86380632898c9b339df7a"
+},{
+	"raw": {},
+	"required": [
+		"Filename",
+		"Size"
+	],
+	"package": "libnvidia-decode-580",
+	"source": "nvidia-graphics-drivers-580",
 	"version": "580.82.07-0ubuntu2",
 	"section": "restricted/libs",
 	"priority": "optional",

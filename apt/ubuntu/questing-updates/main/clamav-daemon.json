@@ -1,0 +1,52 @@
+{
+	"raw": {},
+	"required": [
+		"Filename",
+		"Size"
+	],
+	"package": "clamav-daemon",
+	"source": "clamav",
+	"version": "1.4.4+dfsg-0ubuntu0.25.10.1",
+	"section": "utils",
+	"priority": "optional",
+	"architecture": "amd64",
+	"depends": [
+		"adduser",
+		"clamav-base (= 1.4.4+dfsg-0ubuntu0.25.10.1)",
+		"clamav-freshclam (>= 1.4.4+dfsg) | clamav-data",
+		"dpkg (>= 1.16.1)",
+		"procps (>= 1:3.3.2)",
+		"ucf",
+		"debconf (>= 0.5) | debconf-2.0",
+		"libc6 (>= 2.38)",
+		"libclamav12 (>= 1.4.4)",
+		"libcurl4t64 (>= 7.18.2)",
+		"libncurses6 (>= 6)",
+		"libsystemd0",
+		"libtinfo6 (>= 6)",
+		"zlib1g (>= 1:1.2.0.2)"
+	],
+	"preDepends": [
+		"init-system-helpers (>= 1.54~)"
+	],
+	"recommends": [
+		"clamdscan"
+	],
+	"suggests": [
+		"libclamunrar",
+		"apparmor",
+		"clamav-doc",
+		"daemon"
+	],
+	"installedSize": 973,
+	"maintainer": "Ubuntu Developers <ubuntu-devel-discuss@lists.ubuntu.com>",
+	"description": "anti-virus utility for Unix - scanner daemon",
+	"homepage": "https://www.clamav.net/",
+	"filename": "pool/main/c/clamav/clamav-daemon_1.4.4+dfsg-0ubuntu0.25.10.1_amd64.deb",
+	"size": 215862,
+	"md5": "6a7a997ddc4e7cb742539eb0813c2d0f",
+	"sha1": "da26371569e712b69f29e8dd5253a77c6e97b1af",
+	"sha256": "311650c6782df006896993a570bf06e7ae769f8de0918af9a6d47aad1e2223d0",
+	"sha512": "4b95e7993ef80cdc0616540386311cc870c804c4bcc443ac36135784385d5a545b52cb8cbc690aa4dc940e363c0c09e5668b53a13df9ed53b715862fe48e58fd",
+	"descriptionMd5": "b09ae360d0c608ef12c38e894751996a"
+}

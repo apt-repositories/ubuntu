@@ -43,6 +43,44 @@
 		"Size"
 	],
 	"package": "linux-firmware",
+	"version": "20240318.git3b128b60-0ubuntu2.27",
+	"section": "misc",
+	"priority": "optional",
+	"architecture": "amd64",
+	"recommends": [
+		"firmware-sof-signed"
+	],
+	"replaces": [
+		"atmel-firmware",
+		"linux-firmware-snapdragon (<= 1.2-0ubuntu1)",
+		"linux-restricted-common"
+	],
+	"breaks": [
+		"amd64-microcode (<= 3.20220411.1ubuntu1)",
+		"initramfs-tools (<< 0.142ubuntu8~)",
+		"linux-firmware-raspi2 (<= 1.20190819-0ubuntu2)",
+		"linux-firmware-snapdragon (<= 1.2-0ubuntu1)"
+	],
+	"conflicts": [
+		"atmel-firmware"
+	],
+	"installedSize": 626006,
+	"maintainer": "Ubuntu Kernel Team <kernel-team@lists.ubuntu.com>",
+	"description": "Firmware for Linux kernel drivers",
+	"filename": "pool/main/l/linux-firmware/linux-firmware_20240318.git3b128b60-0ubuntu2.27_amd64.deb",
+	"size": 640768192,
+	"md5": "a99075f14086aa7d6231ca954221c29c",
+	"sha1": "9418d11399e47d9fbc765065b78850d0f733cd9b",
+	"sha256": "63c9db2d30f1573354f5a94d03dee1c88ddc293b4aff90a75df155597cc839f0",
+	"sha512": "2108c8a4148b74c2f63f9d9e19d8edde8e7340f57af74d259f6aa2fd8ba2e8a0253a38221bf5d64b99c248119798100244a091a20f5dfd61dee5c028b099d77f",
+	"descriptionMd5": "7a047bff9e44dce458a300976c12f9da"
+},{
+	"raw": {},
+	"required": [
+		"Filename",
+		"Size"
+	],
+	"package": "linux-firmware",
 	"version": "20240318.git3b128b60-0ubuntu2",
 	"section": "misc",
 	"priority": "optional",

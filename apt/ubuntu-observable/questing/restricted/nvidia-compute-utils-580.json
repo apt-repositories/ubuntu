@@ -42,6 +42,41 @@
 	],
 	"package": "nvidia-compute-utils-580",
 	"source": "nvidia-graphics-drivers-580",
+	"version": "580.142-0ubuntu0.25.10.1",
+	"section": "restricted/libs",
+	"priority": "optional",
+	"architecture": "amd64",
+	"depends": [
+		"libnvidia-compute-580",
+		"adduser",
+		"libc6 (>= 2.34)"
+	],
+	"replaces": [
+		"nvidia-compute-utils",
+		"nvidia-persistenced"
+	],
+	"conflicts": [
+		"nvidia-compute-utils",
+		"nvidia-persistenced"
+	],
+	"installedSize": 377,
+	"maintainer": "Ubuntu Developers <ubuntu-devel-discuss@lists.ubuntu.com>",
+	"description": "NVIDIA compute utilities",
+	"homepage": "http://www.nvidia.com",
+	"filename": "pool/restricted/n/nvidia-graphics-drivers-580/nvidia-compute-utils-580_580.142-0ubuntu0.25.10.1_amd64.deb",
+	"size": 129654,
+	"md5": "afdb0ecca9c7924fa54630e10a7860c8",
+	"sha1": "cb97b31d84c392ef93d247f868356fca48966c58",
+	"sha256": "677c9a36a305baaff2bdb16d958711d9c2b0f71645ad92554b40315268711065",
+	"descriptionMd5": "bf6fab9efc1024a52f79dd543478f871"
+},{
+	"raw": {},
+	"required": [
+		"Filename",
+		"Size"
+	],
+	"package": "nvidia-compute-utils-580",
+	"source": "nvidia-graphics-drivers-580",
 	"version": "580.82.07-0ubuntu2",
 	"section": "restricted/libs",
 	"priority": "optional",
