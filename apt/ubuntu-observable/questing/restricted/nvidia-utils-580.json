@@ -45,6 +45,44 @@
 	],
 	"package": "nvidia-utils-580",
 	"source": "nvidia-graphics-drivers-580",
+	"version": "580.142-0ubuntu0.25.10.1",
+	"section": "restricted/libs",
+	"priority": "optional",
+	"architecture": "amd64",
+	"depends": [
+		"nvidia-kernel-common-580-580.142",
+		"libc6 (>= 2.34)",
+		"libnvidia-compute-580 (>= 580.142)"
+	],
+	"suggests": [
+		"nvidia-driver-580"
+	],
+	"replaces": [
+		"nvidia-smi",
+		"nvidia-utils"
+	],
+	"conflicts": [
+		"nvidia-smi",
+		"nvidia-utils"
+	],
+	"installedSize": 1728,
+	"maintainer": "Ubuntu Developers <ubuntu-devel-discuss@lists.ubuntu.com>",
+	"description": "NVIDIA driver support binaries",
+	"homepage": "http://www.nvidia.com",
+	"filename": "pool/restricted/n/nvidia-graphics-drivers-580/nvidia-utils-580_580.142-0ubuntu0.25.10.1_amd64.deb",
+	"size": 599832,
+	"md5": "592a079971639f7f88f70f48d4ad9009",
+	"sha1": "44a0b94bfd4cadfe614a245f8ce3691fa19067ac",
+	"sha256": "c949c1a6648e379b0559a614d34018ca06ff6162294fb7a924c246b0e101bc41",
+	"descriptionMd5": "d81f3aa17f8585f803913263abcf99e2"
+},{
+	"raw": {},
+	"required": [
+		"Filename",
+		"Size"
+	],
+	"package": "nvidia-utils-580",
+	"source": "nvidia-graphics-drivers-580",
 	"version": "580.82.07-0ubuntu2",
 	"section": "restricted/libs",
 	"priority": "optional",

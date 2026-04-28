@@ -1,0 +1,42 @@
+{
+	"raw": {},
+	"required": [
+		"Filename",
+		"Size"
+	],
+	"package": "linux-image-unsigned-6.8.0-1051-nvidia-lowlatency",
+	"source": "linux-nvidia-lowlatency",
+	"version": "6.8.0-1051.54.1",
+	"section": "kernel",
+	"priority": "optional",
+	"architecture": "amd64",
+	"depends": [
+		"kmod",
+		"linux-base (>= 4.5ubuntu1~16.04.1)",
+		"linux-modules-6.8.0-1051-nvidia-lowlatency"
+	],
+	"recommends": [
+		"grub-pc | grub-efi-amd64 | grub-efi-ia32 | grub | lilo",
+		"initramfs-tools | linux-initramfs-tool"
+	],
+	"suggests": [
+		"fdutils",
+		"linux-doc | linux-nvidia-lowlatency-source-6.8.0",
+		"linux-nvidia-lowlatency-tools",
+		"linux-headers-6.8.0-1051-nvidia-lowlatency",
+		"linux-modules-extra-6.8.0-1051-nvidia-lowlatency"
+	],
+	"conflicts": [
+		"linux-image-6.8.0-1051-nvidia-lowlatency"
+	],
+	"installedSize": 15323,
+	"maintainer": "Ubuntu Kernel Team <kernel-team@lists.ubuntu.com>",
+	"description": "Linux kernel image for version 6.8.0 on 64 bit x86 SMP",
+	"filename": "pool/main/l/linux-nvidia-lowlatency/linux-image-unsigned-6.8.0-1051-nvidia-lowlatency_6.8.0-1051.54.1_amd64.deb",
+	"size": 15708352,
+	"md5": "dab5d12fd90818bb5d0d40ac79a58da3",
+	"sha1": "994d981e768fc319f6cb7889fdaec067dac5bb47",
+	"sha256": "81cd9d44958d92ec622b17946e01103c6c71b022947f7a7f57b61a88265cf843",
+	"sha512": "b29cd431a2542fc1430990efb8a71df85e15a4e03b7efdf6dc5c3e5b30eb9497c3a1d6b9c4d458fc335c1ba5d0e87c0bdad6b432b55de40519549df3ed3e4fdf",
+	"descriptionMd5": "a707c7b81e600513a2681ef025a36166"
+}

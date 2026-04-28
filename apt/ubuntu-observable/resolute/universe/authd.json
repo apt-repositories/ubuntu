@@ -5,6 +5,42 @@
 		"Size"
 	],
 	"package": "authd",
+	"version": "0.6.1ubuntu0.1",
+	"section": "universe/admin",
+	"priority": "optional",
+	"architecture": "amd64",
+	"depends": [
+		"libc6 (>= 2.34)",
+		"libgcc-s1 (>= 4.2)",
+		"libglib2.0-0t64 (>= 2.72.0)",
+		"libpam0g (>= 1.4.0)",
+		"libpwquality1 (>= 1.1.0)"
+	],
+	"recommends": [
+		"libpam-modules"
+	],
+	"breaks": [
+		"gnome-shell (<< 46.3.1-1ubuntu1~24.04.1authd6~)"
+	],
+	"installedSize": 64096,
+	"maintainer": "Ubuntu Developers <ubuntu-devel-discuss@lists.ubuntu.com>",
+	"description": "Authentication daemon for cloud-based identity provider",
+	"homepage": "https://github.com/canonical/authd",
+	"builtUsing": "golang-1.26 (= 1.26.0-1)",
+	"filename": "pool/universe/a/authd/authd_0.6.1ubuntu0.1_amd64.deb",
+	"size": 19208470,
+	"md5": "5bc5bae886501e93d150393f4b616357",
+	"sha1": "ad4d5a30c3ac0a74c1657f01ea0434ba4e45f2f4",
+	"sha256": "f7cd696f8c51d054c53e55813852ddf9e7475520101d17369e1406029df128d9",
+	"sha512": "c024dddf151b5b6b60be4cb6cb91f88adc68cd08065774903abb3de14d8fdfdce134326ff839c101009fb154a667c4d6e9570c0258f9f8215ee37dd6bc0b664d",
+	"descriptionMd5": "2243cd2bc639d808f6702d6f839638a3"
+},{
+	"raw": {},
+	"required": [
+		"Filename",
+		"Size"
+	],
+	"package": "authd",
 	"version": "0.6.1",
 	"section": "universe/admin",
 	"priority": "optional",
