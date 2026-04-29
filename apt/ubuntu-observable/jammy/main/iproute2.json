@@ -5,6 +5,54 @@
 		"Size"
 	],
 	"package": "iproute2",
+	"version": "5.15.0-1ubuntu2.1",
+	"section": "net",
+	"priority": "important",
+	"architecture": "amd64",
+	"depends": [
+		"debconf (>= 0.5) | debconf-2.0",
+		"libbpf0 (>= 1:0.2)",
+		"libbsd0 (>= 0.0)",
+		"libc6 (>= 2.34)",
+		"libcap2 (>= 1:2.10)",
+		"libdb5.3",
+		"libelf1 (>= 0.131)",
+		"libmnl0 (>= 1.0.3-4~)",
+		"libselinux1 (>= 3.1~)",
+		"libxtables12 (>= 1.6.0+snapshot20161117)",
+		"libcap2-bin"
+	],
+	"recommends": [
+		"libatm1 (>= 2.4.1-17~)"
+	],
+	"suggests": [
+		"iproute2-doc"
+	],
+	"replaces": [
+		"iproute"
+	],
+	"conflicts": [
+		"arpd",
+		"iproute (<< 20130000-1)"
+	],
+	"installedSize": 2884,
+	"maintainer": "Ubuntu Developers <ubuntu-devel-discuss@lists.ubuntu.com>",
+	"description": "networking and traffic control tools",
+	"homepage": "https://wiki.linuxfoundation.org/networking/iproute2",
+	"filename": "pool/main/i/iproute2/iproute2_5.15.0-1ubuntu2.1_amd64.deb",
+	"size": 1071924,
+	"md5": "cc8c299234e4bcefb28f41e8b047c245",
+	"sha1": "138af7076224142d1a3732ad4eed1755dde8360f",
+	"sha256": "65800a46769448fb53001f51f78ec0e0637d819df76b774e8aab624b1c9a3286",
+	"sha512": "4f1efdf2141e9a1cddddb04527632d20cfb1635d4ca4c740041c9b8a01906dbb31487dd80f9e8aea6cb786d8c1e2b53af0455457b829ba4436a9a0ae4aa1e0b2",
+	"descriptionMd5": "d10cc46ca4a9e5489b7d2c879fcfba17"
+},{
+	"raw": {},
+	"required": [
+		"Filename",
+		"Size"
+	],
+	"package": "iproute2",
 	"version": "5.15.0-1ubuntu2",
 	"section": "net",
 	"priority": "important",
