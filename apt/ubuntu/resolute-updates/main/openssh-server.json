@@ -1,0 +1,63 @@
+{
+	"raw": {},
+	"required": [
+		"Filename",
+		"Size"
+	],
+	"package": "openssh-server",
+	"source": "openssh",
+	"version": "1:10.2p1-2ubuntu3.2",
+	"section": "net",
+	"priority": "optional",
+	"architecture": "amd64",
+	"depends": [
+		"libpam-modules",
+		"libpam-runtime",
+		"lsb-base",
+		"openssh-client (= 1:10.2p1-2ubuntu3.2)",
+		"openssh-sftp-server",
+		"procps",
+		"ucf",
+		"debconf (>= 0.5) | debconf-2.0",
+		"systemd | systemd-standalone-sysusers | systemd-sysusers",
+		"libaudit1 (>= 1:2.2.1)",
+		"libc6 (>= 2.42)",
+		"libcom-err2 (>= 1.43.9)",
+		"libcrypt1 (>= 1:4.1.0)",
+		"libgssapi-krb5-2 (>= 1.17)",
+		"libkrb5-3 (>= 1.13~alpha1+dfsg)",
+		"libpam0g (>= 0.99.7.1)",
+		"libselinux1 (>= 3.1~)",
+		"libssl3t64 (>= 3.0.0)",
+		"libwrap0 (>= 7.6-4~)",
+		"zlib1g (>= 1:1.1.4)"
+	],
+	"recommends": [
+		"default-logind | logind | libpam-systemd",
+		"ncurses-term",
+		"xauth",
+		"ssh-import-id"
+	],
+	"suggests": [
+		"molly-guard",
+		"monkeysphere",
+		"ssh-askpass",
+		"ufw"
+	],
+	"replaces": [
+		"openssh-client (<< 1:7.9p1-8)",
+		"ssh",
+		"ssh-krb5"
+	],
+	"installedSize": 2831,
+	"maintainer": "Ubuntu Developers <ubuntu-devel-discuss@lists.ubuntu.com>",
+	"description": "secure shell (SSH) server, for secure access from remote machines",
+	"homepage": "https://www.openssh.com/",
+	"filename": "pool/main/o/openssh/openssh-server_10.2p1-2ubuntu3.2_amd64.deb",
+	"size": 621700,
+	"md5": "6d9602698594ae78c00613b753adb5bb",
+	"sha1": "67467ce927751b8b5ae4037fc715579cfee4526b",
+	"sha256": "6172117c87f1a28112534c393358d0f3c4d5f87909b6bb9996b301adc729530f",
+	"sha512": "849bab349ac787bc9197ecec40aff90f664183344bd8675340c115625920711e8ef7446cb8125284bf64a6930e44a46b853970806529840c2a652698e22aad94",
+	"descriptionMd5": "842cc998cae371b9d8106c1696373919"
+}
