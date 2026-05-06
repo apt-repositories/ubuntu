@@ -1,0 +1,58 @@
+{
+	"raw": {},
+	"required": [
+		"Filename",
+		"Size"
+	],
+	"package": "exim4-config",
+	"source": "exim4",
+	"version": "4.99.1-1ubuntu1.1",
+	"section": "mail",
+	"priority": "extra",
+	"architecture": "all",
+	"depends": [
+		"adduser",
+		"debconf (>= 0.5) | debconf-2.0"
+	],
+	"recommends": [
+		"ca-certificates"
+	],
+	"breaks": [
+		"exim4-daemon-heavy (<< 4.94)",
+		"exim4-daemon-light (<< 4.94)"
+	],
+	"conflicts": [
+		"citadel-server",
+		"courier-mta",
+		"dma",
+		"esmtp-run",
+		"exim",
+		"exim-tls",
+		"exim4-config",
+		"exim4-config-2",
+		"hula-mta",
+		"masqmail",
+		"msmtp-mta",
+		"mta-dummy",
+		"nullmailer",
+		"opensmtpd",
+		"postfix",
+		"qmail-run",
+		"sendmail-bin",
+		"smail",
+		"ssmtp",
+		"xmail",
+		"zmailer"
+	],
+	"installedSize": 898,
+	"maintainer": "Ubuntu Developers <ubuntu-devel-discuss@lists.ubuntu.com>",
+	"description": "configuration for the Exim MTA (v4)",
+	"homepage": "https://www.exim.org/",
+	"filename": "pool/main/e/exim4/exim4-config_4.99.1-1ubuntu1.1_all.deb",
+	"size": 247016,
+	"md5": "e2ce7919d4a57e5c7add0de081a03722",
+	"sha1": "52d4ef57c00bfc224f4fec87633e8ecdb9cf4451",
+	"sha256": "f4c60dd6a364525a6d77e2b71864113ea671a1ca5c0cc3c3410a90e2629c5250",
+	"sha512": "63a6938b52894ae94543cb6ccdb75760e7b2343af87506b8344eb63d28e5b01929ed3afc1d7432d5a43afed1a1dcebe3af57d73a327f2b8330580d14813f541b",
+	"descriptionMd5": "32395c972fcf7f5014c06bce8ee1c59a"
+}
