@@ -70,6 +70,70 @@
 	],
 	"package": "ceph-osd",
 	"source": "ceph",
+	"version": "17.2.9-0ubuntu0.22.04.3",
+	"section": "admin",
+	"priority": "optional",
+	"architecture": "amd64",
+	"depends": [
+		"ceph-base (= 17.2.9-0ubuntu0.22.04.3)",
+		"sudo",
+		"libaio1 (>= 0.3.93)",
+		"libblkid1 (>= 2.17.2)",
+		"libboost-iostreams1.74.0 (>= 1.74.0)",
+		"libboost-program-options1.74.0 (>= 1.74.0)",
+		"libboost-thread1.74.0 (>= 1.74.0)",
+		"libc6 (>= 2.34)",
+		"libfuse3-3 (>= 3.2.3)",
+		"libgcc-s1 (>= 3.4)",
+		"libgoogle-perftools4",
+		"libibverbs1 (>= 1.1.6)",
+		"liblz4-1 (>= 0.0~r130)",
+		"libnuma1 (>= 2.0.11)",
+		"libpmem1 (>= 1.4)",
+		"librados2 (>= 16.0.0)",
+		"librdmacm1 (>= 1.0.15)",
+		"libsnappy1v5 (>= 1.1.8)",
+		"libssl3 (>= 3.0.0~~alpha1)",
+		"libstdc++6 (>= 12)",
+		"libudev1 (>= 183)",
+		"libuuid1 (>= 2.16)",
+		"zlib1g (>= 1:1.1.4)"
+	],
+	"preDepends": [
+		"ceph-common (= 17.2.9-0ubuntu0.22.04.3)"
+	],
+	"recommends": [
+		"ceph-volume (= 17.2.9-0ubuntu0.22.04.3)",
+		"nvme-cli",
+		"smartmontools"
+	],
+	"replaces": [
+		"ceph (<< 10.2.2-0ubuntu2~)",
+		"ceph-test (<< 12.2.8+dfsg1-1~)"
+	],
+	"breaks": [
+		"ceph (<< 10.2.2-0ubuntu2~)",
+		"ceph-test (<< 12.2.8+dfsg1-1~)"
+	],
+	"installedSize": 63642,
+	"maintainer": "Ubuntu Developers <ubuntu-devel-discuss@lists.ubuntu.com>",
+	"description": "OSD server for the ceph storage system",
+	"homepage": "http://ceph.com/",
+	"filename": "pool/main/c/ceph/ceph-osd_17.2.9-0ubuntu0.22.04.3_amd64.deb",
+	"size": 19823810,
+	"md5": "d24230fe5c853a067ca66fcf605da810",
+	"sha1": "5bb93a6dd5a7cc5bacbc6daa34fe0daaea800161",
+	"sha256": "5e95ad7c9bb01eb4945dd347f780f3ecfb5731426d22b326941d7058a6c87bd6",
+	"sha512": "9fc3201419f1772f3d8288a80d42496ddc802cf1100caa89932b860e497405994fe82f6566ed2b2d89360bc4b1f24304ea7a8df5f1261760636e3ea9aa8af7fd",
+	"descriptionMd5": "fb08b00d788b505eb4bb23072221ce43"
+},{
+	"raw": {},
+	"required": [
+		"Filename",
+		"Size"
+	],
+	"package": "ceph-osd",
+	"source": "ceph",
 	"version": "17.1.0-0ubuntu3",
 	"section": "admin",
 	"priority": "optional",

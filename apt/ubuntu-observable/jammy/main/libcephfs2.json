@@ -45,6 +45,45 @@
 	],
 	"package": "libcephfs2",
 	"source": "ceph",
+	"version": "17.2.9-0ubuntu0.22.04.3",
+	"section": "libs",
+	"priority": "optional",
+	"architecture": "amd64",
+	"depends": [
+		"libc6 (>= 2.34)",
+		"libgcc-s1 (>= 3.0)",
+		"librados2 (>= 12.1.4)",
+		"libstdc++6 (>= 12)"
+	],
+	"replaces": [
+		"libceph",
+		"libceph1",
+		"libcephfs"
+	],
+	"conflicts": [
+		"libceph",
+		"libceph1",
+		"libcephfs"
+	],
+	"installedSize": 2206,
+	"maintainer": "Ubuntu Developers <ubuntu-devel-discuss@lists.ubuntu.com>",
+	"description": "Ceph distributed file system client library",
+	"homepage": "http://ceph.com/",
+	"filename": "pool/main/c/ceph/libcephfs2_17.2.9-0ubuntu0.22.04.3_amd64.deb",
+	"size": 752106,
+	"md5": "9f6dc46959bce302d70d548e70f747c7",
+	"sha1": "1aa055bc260e475f3c501cf0abda75618e2f5848",
+	"sha256": "5a91c2fe4242d753a50f06a1f512e3a74fe5b11cbe5ab62efa0417b756d6768f",
+	"sha512": "faf1c9ba9d89140d858d8e9e05e691820a4af876f110199942adb2cb5985e6eda3ce2992f53b850a43cdbc92a650ba62785405039807fd6ffbbc6f5a73317f8e",
+	"descriptionMd5": "02d5e7983127037e5b5e5e07dea2a6e4"
+},{
+	"raw": {},
+	"required": [
+		"Filename",
+		"Size"
+	],
+	"package": "libcephfs2",
+	"source": "ceph",
 	"version": "17.1.0-0ubuntu3",
 	"section": "libs",
 	"priority": "optional",
