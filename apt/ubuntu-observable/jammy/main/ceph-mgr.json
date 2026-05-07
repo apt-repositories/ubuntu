@@ -59,6 +59,59 @@
 	],
 	"package": "ceph-mgr",
 	"source": "ceph",
+	"version": "17.2.9-0ubuntu0.22.04.3",
+	"section": "admin",
+	"priority": "optional",
+	"architecture": "amd64",
+	"depends": [
+		"ceph-base (= 17.2.9-0ubuntu0.22.04.3)",
+		"ceph-mgr-modules-core (= 17.2.9-0ubuntu0.22.04.3)",
+		"libsqlite3-mod-ceph (= 17.2.9-0ubuntu0.22.04.3)",
+		"python3-bcrypt",
+		"python3-cherrypy3",
+		"python3-jwt",
+		"python3-pecan",
+		"python3-werkzeug",
+		"libboost-python1.74.0 (>= 1.74.0)",
+		"libc6 (>= 2.34)",
+		"libgcc-s1 (>= 3.0)",
+		"libgoogle-perftools4",
+		"libpython3.10 (>= 3.10.0)",
+		"librados2 (>= 16.0.0)",
+		"libsqlite3-0 (>= 3.5.9)",
+		"libstdc++6 (>= 12)"
+	],
+	"suggests": [
+		"ceph-mgr-cephadm",
+		"ceph-mgr-dashboard",
+		"ceph-mgr-diskprediction-local",
+		"ceph-mgr-k8sevents"
+	],
+	"replaces": [
+		"ceph (<< 0.93-417)"
+	],
+	"breaks": [
+		"ceph (<< 0.93-417)"
+	],
+	"installedSize": 5047,
+	"maintainer": "Ubuntu Developers <ubuntu-devel-discuss@lists.ubuntu.com>",
+	"description": "manager for the ceph distributed file system",
+	"homepage": "http://ceph.com/",
+	"filename": "pool/main/c/ceph/ceph-mgr_17.2.9-0ubuntu0.22.04.3_amd64.deb",
+	"size": 1571412,
+	"md5": "a42b9cbd8a188188b9e666f227ca99c8",
+	"sha1": "60d30b129aca02cfa8e1e5b1015ddb629e67a2bd",
+	"sha256": "840cf5ea658f9b63e70319ba797fa80a8ec6c1cc996c4d62163ef59cf203aa96",
+	"sha512": "f88637aeef440231fd00ced759f99c0db09a1d981218de4521968d2c0505dab927cb8511e18935b0f37a0f4738c326986935bee152120ea8d872cdcf3e8f7bd3",
+	"descriptionMd5": "749cc8e373d9ddb619b2b98fce8761a4"
+},{
+	"raw": {},
+	"required": [
+		"Filename",
+		"Size"
+	],
+	"package": "ceph-mgr",
+	"source": "ceph",
 	"version": "17.1.0-0ubuntu3",
 	"section": "admin",
 	"priority": "optional",

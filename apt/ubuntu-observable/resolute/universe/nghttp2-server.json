@@ -6,6 +6,45 @@
 	],
 	"package": "nghttp2-server",
 	"source": "nghttp2",
+	"version": "1.68.0-2ubuntu0.1",
+	"section": "universe/httpd",
+	"priority": "optional",
+	"architecture": "amd64",
+	"depends": [
+		"libnghttp2-14 (= 1.68.0-2ubuntu0.1)",
+		"libc6 (>= 2.34)",
+		"libev4t64 (>= 1:4.04)",
+		"libgcc-s1 (>= 3.3.1)",
+		"libjemalloc2 (>= 5.3.0)",
+		"libssl3t64 (>= 3.0.0)",
+		"libstdc++6 (>= 13.1)",
+		"zlib1g (>= 1:1.1.4)"
+	],
+	"replaces": [
+		"nghttp2 (<< 1.3.4-2~)"
+	],
+	"breaks": [
+		"nghttp2 (<< 1.3.4-2~)"
+	],
+	"installedSize": 164,
+	"maintainer": "Ubuntu Developers <ubuntu-devel-discuss@lists.ubuntu.com>",
+	"description": "server implementing HTTP/2 protocol",
+	"homepage": "https://nghttp2.org/",
+	"filename": "pool/universe/n/nghttp2/nghttp2-server_1.68.0-2ubuntu0.1_amd64.deb",
+	"size": 65296,
+	"md5": "2a240cc4d126754eb2a351a1aff71f57",
+	"sha1": "b137068f955ae78ec4a1b6136541095126d6776f",
+	"sha256": "e8ab7120a84be54e97dedba05c0f771942d188356b88f2ec5bf326bed53dceba",
+	"sha512": "48739f075f967d804df14bd4d7e991689e10cb8bf64cdd4cfd248e5a2bcca206d5995f2244388be74df1e603fcbd514a0cddc4f5803255d91c13e1aa620c38d6",
+	"descriptionMd5": "1d388440c4e8648708dbc32d3eda635d"
+},{
+	"raw": {},
+	"required": [
+		"Filename",
+		"Size"
+	],
+	"package": "nghttp2-server",
+	"source": "nghttp2",
 	"version": "1.68.0-2",
 	"section": "universe/httpd",
 	"priority": "optional",
