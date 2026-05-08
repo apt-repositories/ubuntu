@@ -1,0 +1,75 @@
+{
+	"raw": {},
+	"required": [
+		"Filename",
+		"Size"
+	],
+	"package": "postfix",
+	"version": "3.10.2-1ubuntu2.1",
+	"section": "mail",
+	"priority": "optional",
+	"architecture": "amd64",
+	"depends": [
+		"adduser",
+		"netbase",
+		"debconf (>= 0.5) | debconf-2.0",
+		"libc6 (>= 2.34)",
+		"libdb5.3t64",
+		"libicu76 (>= 76.1-1~)",
+		"libnsl2 (>= 1.0)",
+		"libsasl2-2 (>= 2.1.28+dfsg1)",
+		"libssl3t64 (>= 3.2.0)"
+	],
+	"preDepends": [
+		"init-system-helpers (>= 1.54~)"
+	],
+	"recommends": [
+		"ca-certificates",
+		"ssl-cert",
+		"python3"
+	],
+	"suggests": [
+		"libsasl2-modules | dovecot-common",
+		"mail-reader",
+		"postfix-cdb",
+		"postfix-doc",
+		"postfix-ldap",
+		"postfix-lmdb",
+		"postfix-mta-sts-resolver",
+		"postfix-mongodb",
+		"postfix-mysql",
+		"postfix-pcre",
+		"postfix-pgsql",
+		"postfix-sqlite",
+		"procmail",
+		"resolvconf",
+		"sasl2-bin | dovecot-common",
+		"ufw"
+	],
+	"replaces": [
+		"mail-transport-agent",
+		"postfix-doc (<< 3.9.1-3~)",
+		"postfix-ldap (<< 3.9.1-5~)",
+		"postfix-lmdb (<< 3.9.1-5~)",
+		"postfix-mongodb (<< 3.9.1-5~)",
+		"postfix-mysql (<< 3.9.1-5~)",
+		"postfix-pcre (<< 3.9.1-5~)",
+		"postfix-pgsql (<< 3.9.1-5~)",
+		"postfix-sqlite (<< 3.9.1-5~)"
+	],
+	"conflicts": [
+		"mail-transport-agent",
+		"smail"
+	],
+	"installedSize": 4053,
+	"maintainer": "Ubuntu Developers <ubuntu-devel-discuss@lists.ubuntu.com>",
+	"description": "High-performance mail transport agent",
+	"homepage": "https://www.postfix.org",
+	"filename": "pool/main/p/postfix/postfix_3.10.2-1ubuntu2.1_amd64.deb",
+	"size": 1300098,
+	"md5": "f9cdad71c36ccac3864cd22afb71cf00",
+	"sha1": "352a949d17065983dd336d4c13c81a9493ed6f92",
+	"sha256": "de0f8d9655bcf787ac3264ea7c9d49517ef4af82be7cb25fd751ad1e6ad71b94",
+	"sha512": "df215deaa5ca3297433659c01170ac818855cb7b9d8b5812f1054599d1e247dad792993c3533f5b14026ef9db7c0262afaab9941d4598653751105ea4dbc72de",
+	"descriptionMd5": "d1e5b8a8efc0139e26e8e2264b919364"
+}
