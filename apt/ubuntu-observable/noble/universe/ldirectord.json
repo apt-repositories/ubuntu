@@ -6,6 +6,55 @@
 	],
 	"package": "ldirectord",
 	"source": "resource-agents",
+	"version": "1:4.13.0-1ubuntu4.1",
+	"section": "universe/admin",
+	"priority": "optional",
+	"architecture": "all",
+	"depends": [
+		"ipvsadm",
+		"libauthen-radius-perl",
+		"libcrypt-ssleay-perl",
+		"libdbi-perl",
+		"libdigest-hmac-perl",
+		"libdigest-md5-perl",
+		"libio-socket-inet6-perl",
+		"libmail-pop3client-perl",
+		"libmailtools-perl",
+		"libnet-dns-perl",
+		"libnet-imap-simple-perl",
+		"libnet-imap-simple-ssl-perl",
+		"libnet-ldap-perl",
+		"libnet-perl",
+		"libsocket6-perl",
+		"libwww-perl",
+		"perl:any"
+	],
+	"preDepends": [
+		"init-system-helpers (>= 1.54~)"
+	],
+	"recommends": [
+		"logrotate",
+		"rsyslog | system-log-daemon"
+	],
+	"installedSize": 237,
+	"maintainer": "Ubuntu Developers <ubuntu-devel-discuss@lists.ubuntu.com>",
+	"description": "Monitors virtual services provided by LVS",
+	"homepage": "https://github.com/ClusterLabs/resource-agents",
+	"filename": "pool/universe/r/resource-agents/ldirectord_4.13.0-1ubuntu4.1_all.deb",
+	"size": 65054,
+	"md5": "420e19ead6148a870beea01697deced7",
+	"sha1": "f2fc1124b90219170657bea90b9eb5e2425231b8",
+	"sha256": "bd687bde3b45aff0f79b7167154dd232334076c56f231701c9e542378884947d",
+	"sha512": "26cbb2614401b6d2cd0b70058327b84d728557b4f128a9037407dfac5ae163dd05f4dfd1f26d97284d5349ec20cea8d0249d8ff7f139f9d65c3788248deb4581",
+	"descriptionMd5": "d72d6b56a28652bb82109ce53fb17aad"
+},{
+	"raw": {},
+	"required": [
+		"Filename",
+		"Size"
+	],
+	"package": "ldirectord",
+	"source": "resource-agents",
 	"version": "1:4.13.0-1ubuntu4",
 	"section": "universe/admin",
 	"priority": "optional",

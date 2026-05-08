@@ -5,6 +5,74 @@
 		"Size"
 	],
 	"package": "postfix",
+	"version": "3.8.6-1ubuntu0.1",
+	"section": "mail",
+	"priority": "optional",
+	"architecture": "amd64",
+	"depends": [
+		"adduser (>= 3.48)",
+		"cpio",
+		"dpkg (>= 1.8.3)",
+		"e2fsprogs",
+		"netbase",
+		"ssl-cert",
+		"debconf (>= 0.5) | debconf-2.0",
+		"libc6 (>= 2.34)",
+		"libdb5.3t64",
+		"libicu74 (>= 74.1-1~)",
+		"libnsl2 (>= 1.0)",
+		"libsasl2-2 (>= 2.1.28+dfsg1)",
+		"libssl3t64 (>= 3.0.0)"
+	],
+	"preDepends": [
+		"init-system-helpers (>= 1.54~)"
+	],
+	"recommends": [
+		"ca-certificates",
+		"python3"
+	],
+	"suggests": [
+		"libsasl2-modules | dovecot-common",
+		"mail-reader",
+		"postfix-cdb",
+		"postfix-doc",
+		"postfix-ldap",
+		"postfix-lmdb",
+		"postfix-mta-sts-resolver",
+		"postfix-mysql",
+		"postfix-pcre",
+		"postfix-pgsql",
+		"postfix-sqlite",
+		"procmail",
+		"resolvconf",
+		"sasl2-bin | dovecot-common",
+		"ufw"
+	],
+	"replaces": [
+		"mail-transport-agent"
+	],
+	"conflicts": [
+		"mail-transport-agent",
+		"smail"
+	],
+	"installedSize": 4097,
+	"maintainer": "Ubuntu Developers <ubuntu-devel-discuss@lists.ubuntu.com>",
+	"description": "High-performance mail transport agent",
+	"homepage": "https://www.postfix.org",
+	"filename": "pool/main/p/postfix/postfix_3.8.6-1ubuntu0.1_amd64.deb",
+	"size": 1254966,
+	"md5": "f0ab629c876c6573d03b6a33a51e3564",
+	"sha1": "fe91d09d3621743cd318c5f08121916d2cfbe2bb",
+	"sha256": "d672dfdcaee1c898ebac6def9de9d60e5ebf97871d10d7c3b5625094006d69fe",
+	"sha512": "c84b4543d89a6f4ac1c2f6a9f37400e4aa6967914965b5468172a899793b0c3775d5ed52859ec46905f820e4ec2fcc55d88b60d32e31dfc34d624e6ece205a0a",
+	"descriptionMd5": "98656fbf1bb45b53edd367037a2e5a90"
+},{
+	"raw": {},
+	"required": [
+		"Filename",
+		"Size"
+	],
+	"package": "postfix",
 	"version": "3.8.6-1build2",
 	"section": "mail",
 	"priority": "optional",
