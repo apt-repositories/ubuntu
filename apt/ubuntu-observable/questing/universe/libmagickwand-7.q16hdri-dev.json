@@ -6,6 +6,47 @@
 	],
 	"package": "libmagickwand-7.q16hdri-dev",
 	"source": "imagemagick",
+	"version": "8:7.1.2.3+dfsg1-1ubuntu0.1",
+	"section": "universe/libdevel",
+	"priority": "optional",
+	"architecture": "amd64",
+	"depends": [
+		"libmagickwand-7-headers (= 8:7.1.2.3+dfsg1-1ubuntu0.1)",
+		"libmagickwand-7.q16hdri-10 (= 8:7.1.2.3+dfsg1-1ubuntu0.1)",
+		"libmagickcore-7.q16hdri-10-extra (= 8:7.1.2.3+dfsg1-1ubuntu0.1)",
+		"libmagickcore-7.q16hdri-dev (= 8:7.1.2.3+dfsg1-1ubuntu0.1)",
+		"pkgconf"
+	],
+	"preDepends": [
+		"dpkg (>= 1.17.11)"
+	],
+	"replaces": [
+		"libmagickwand-6.q16hdri-dev",
+		"libmagickwand-dev (<< 8:6.8.3.10-1~)"
+	],
+	"breaks": [
+		"libmagickwand-6.q16hdri-dev",
+		"libmagickwand-dev (<< 8:6.8.3.10-1~)"
+	],
+	"installedSize": 2919,
+	"maintainer": "Ubuntu Developers <ubuntu-devel-discuss@lists.ubuntu.com>",
+	"description": "image manipulation library - development files (Q16HDRI)",
+	"homepage": "https://www.imagemagick.org/",
+	"filename": "pool/universe/i/imagemagick/libmagickwand-7.q16hdri-dev_7.1.2.3+dfsg1-1ubuntu0.1_amd64.deb",
+	"size": 383260,
+	"md5": "464adf116b603291baaeb8101c35d7b2",
+	"sha1": "3c5f38b9878416dcff05643fdcc69e29ab94e73c",
+	"sha256": "3cbc8c2f4605a1027ac29676ca223f7628bcd153d199bad0bbb31e0418943054",
+	"sha512": "50c1d8248eb5a860c63a71ec9cad89206b267c7e4b3ab2bf1d4a1781c404e8d7615f024b814cc839ddae3d7ba0dc911b5f9be27057fb5865a5e15edf202de8b1",
+	"descriptionMd5": "129fb0c8f9aeae8e8d848457773b5c4e"
+},{
+	"raw": {},
+	"required": [
+		"Filename",
+		"Size"
+	],
+	"package": "libmagickwand-7.q16hdri-dev",
+	"source": "imagemagick",
 	"version": "8:7.1.2.3+dfsg1-1",
 	"section": "universe/libdevel",
 	"priority": "optional",
