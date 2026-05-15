@@ -1,0 +1,43 @@
+[{
+	"raw": {},
+	"required": [
+		"Filename",
+		"Size"
+	],
+	"package": "linux-image-5.15.0-1103-nvidia-lowlatency",
+	"source": "linux-signed-nvidia",
+	"version": "5.15.0-1103.104",
+	"section": "kernel",
+	"priority": "optional",
+	"architecture": "amd64",
+	"depends": [
+		"kmod",
+		"linux-base (>= 4.5ubuntu1~16.04.1)",
+		"linux-modules-5.15.0-1103-nvidia-lowlatency"
+	],
+	"recommends": [
+		"grub-pc | grub-efi-amd64 | grub-efi-ia32 | grub | lilo",
+		"initramfs-tools | linux-initramfs-tool"
+	],
+	"suggests": [
+		"fdutils",
+		"linux-doc | linux-nvidia-source-5.15.0",
+		"linux-nvidia-tools",
+		"linux-headers-5.15.0-1103-nvidia-lowlatency",
+		"linux-modules-extra-5.15.0-1103-nvidia-lowlatency"
+	],
+	"conflicts": [
+		"linux-image-unsigned-5.15.0-1103-nvidia-lowlatency"
+	],
+	"installedSize": 11525,
+	"maintainer": "Canonical Kernel Team <kernel-team@lists.ubuntu.com>",
+	"description": "Signed kernel image nvidia-lowlatency",
+	"builtUsing": "linux-nvidia (= 5.15.0-1103.104)",
+	"filename": "pool/main/l/linux-signed-nvidia/linux-image-5.15.0-1103-nvidia-lowlatency_5.15.0-1103.104_amd64.deb",
+	"size": 11611912,
+	"md5": "7cf932d501c6a2a4fb885c2a67b5c430",
+	"sha1": "40df017fad81272549e366fd8cc9068e3fdf406f",
+	"sha256": "2f82f5f84094a3b3da0d61cae9814f08a35fbeeb9a788293b8dca572d68b5c09",
+	"sha512": "e2d2b045d6ce8195a7dd0a1f00aa92e9a4808892c9dbfff2cd1da8adf334d27be98fc088782262b8c867687a0654990cb7e48e85396fd6574a86cebfa8f38d66",
+	"descriptionMd5": "5d7691903f811fe70d1f1546d79cdd19"
+}]

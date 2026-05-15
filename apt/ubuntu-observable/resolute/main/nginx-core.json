@@ -6,6 +6,49 @@
 	],
 	"package": "nginx-core",
 	"source": "nginx",
+	"version": "1.28.3-2ubuntu1.1",
+	"section": "httpd",
+	"priority": "optional",
+	"architecture": "all",
+	"depends": [
+		"libnginx-mod-http-geoip2",
+		"libnginx-mod-http-image-filter (>= 1.28.3-2ubuntu1.1)",
+		"libnginx-mod-http-image-filter (<< 1.28.3-2ubuntu1.1.1~)",
+		"libnginx-mod-http-xslt-filter (>= 1.28.3-2ubuntu1.1)",
+		"libnginx-mod-http-xslt-filter (<< 1.28.3-2ubuntu1.1.1~)",
+		"libnginx-mod-mail (>= 1.28.3-2ubuntu1.1)",
+		"libnginx-mod-mail (<< 1.28.3-2ubuntu1.1.1~)",
+		"libnginx-mod-stream (>= 1.28.3-2ubuntu1.1)",
+		"libnginx-mod-stream (<< 1.28.3-2ubuntu1.1.1~)",
+		"libnginx-mod-stream-geoip2",
+		"nginx (>= 1.28.3-2ubuntu1.1)",
+		"nginx (<< 1.28.3-2ubuntu1.1.1~)"
+	],
+	"replaces": [
+		"nginx-full (<< 1.18.0-1)"
+	],
+	"breaks": [
+		"nginx-full (<< 1.18.0-1)"
+	],
+	"installedSize": 17,
+	"maintainer": "Ubuntu Developers <ubuntu-devel-discuss@lists.ubuntu.com>",
+	"description": "nginx web/proxy server (standard version)",
+	"homepage": "https://nginx.org",
+	"filename": "pool/main/n/nginx/nginx-core_1.28.3-2ubuntu1.1_all.deb",
+	"size": 3662,
+	"md5": "cceaa71c2cfb347974bc65eff65f3461",
+	"sha1": "e86a9372f868b858fbd8b99e63f288981f093899",
+	"sha256": "1cb2524718428af33d4608ed27b459153076e8d5b4863d0bdc7cf6d40ac309e1",
+	"sha512": "850cefa38ef3b06bb21c5c3a2b1f5923e7909abfbb78751bc856baef2178a020ae2111ea60ea9baaa32dad3cc82e2359f935cd2490b13bcf1c087507a276e280",
+	"descriptionMd5": "e85c58ee97847a5147d2960542e84a35"
+},{
+	"raw": {},
+	"required": [
+		"Filename",
+		"Size"
+	],
+	"package": "nginx-core",
+	"source": "nginx",
 	"version": "1.28.3-2ubuntu1",
 	"section": "httpd",
 	"priority": "optional",
