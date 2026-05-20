@@ -6,6 +6,43 @@
 	],
 	"package": "nvidia-dkms-595-server",
 	"source": "nvidia-graphics-drivers-595-server",
+	"version": "595.71.05-0ubuntu0.26.04.1",
+	"section": "restricted/libs",
+	"priority": "optional",
+	"architecture": "amd64",
+	"depends": [
+		"dkms",
+		"nvidia-kernel-source-595-server (<= 595.71.05-1)",
+		"nvidia-kernel-source-595-server (>= 595.71.05)",
+		"nvidia-kernel-common-595-server (<= 595.71.05-1)",
+		"nvidia-kernel-common-595-server (>= 595.71.05)",
+		"nvidia-firmware-595-server-595.71.05"
+	],
+	"replaces": [
+		"nvidia-dkms-kernel"
+	],
+	"conflicts": [
+		"nvidia-dkms-kernel"
+	],
+	"installedSize": 254,
+	"maintainer": "Ubuntu Kernel Team <kernel-team@lists.ubuntu.com>",
+	"description": "NVIDIA DKMS package",
+	"homepage": "http://www.nvidia.com",
+	"filename": "pool/restricted/n/nvidia-graphics-drivers-595-server/nvidia-dkms-595-server_595.71.05-0ubuntu0.26.04.1_amd64.deb",
+	"size": 53554,
+	"md5": "0957776b62d2caf48462f8371a236e00",
+	"sha1": "a8bd51e35c482d8377fa51b5d2c1593edfc8b255",
+	"sha256": "643b66dc9d7069346cb752ed70940e9dfe4d4e202f67f10e3d5b1a407081cc19",
+	"sha512": "18b22806ec83ed81b50f7e0a8054eaa613f9f120e4b350a2c7b2786b1c5e6d98ed0db3fd6f811107816ba963c46366ac0201b0be393e5a12c521bdfc2a22606f",
+	"descriptionMd5": "ec8c193060b5458922cc0bda62df7796"
+},{
+	"raw": {},
+	"required": [
+		"Filename",
+		"Size"
+	],
+	"package": "nvidia-dkms-595-server",
+	"source": "nvidia-graphics-drivers-595-server",
 	"version": "595.58.03-0ubuntu2",
 	"section": "restricted/libs",
 	"priority": "optional",

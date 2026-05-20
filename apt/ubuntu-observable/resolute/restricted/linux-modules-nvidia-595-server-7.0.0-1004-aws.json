@@ -6,6 +6,35 @@
 	],
 	"package": "linux-modules-nvidia-595-server-7.0.0-1004-aws",
 	"source": "linux-restricted-modules-aws",
+	"version": "7.0.0-1004.4+1",
+	"section": "restricted/kernel",
+	"priority": "optional",
+	"architecture": "amd64",
+	"depends": [
+		"debconf (>= 0.5) | debconf-2.0",
+		"linux-image-7.0.0-1004-aws | linux-image-unsigned-7.0.0-1004-aws",
+		"linux-signatures-nvidia-7.0.0-1004-aws (= 7.0.0-1004.4+1)",
+		"linux-objects-nvidia-595-server-7.0.0-1004-aws (= 7.0.0-1004.4+1)",
+		"nvidia-kernel-common-595-server (>= 595.71.05)"
+	],
+	"installedSize": 29,
+	"maintainer": "Canonical Kernel Team <kernel-team@lists.ubuntu.com>",
+	"description": "Linux kernel nvidia modules for version 7.0.0-1004",
+	"filename": "pool/restricted/l/linux-restricted-modules-aws/linux-modules-nvidia-595-server-7.0.0-1004-aws_7.0.0-1004.4+1_amd64.deb",
+	"size": 10250,
+	"md5": "9ca5ba8d7f9d3ae25e3072cecdeb1de3",
+	"sha1": "0c08ce5a4a82a64a72f07ac085359e6e1ea7312e",
+	"sha256": "41c87158afb1f8cbaa0b009241de4766e2e9acec6f9c6e27ac48c2307996e810",
+	"sha512": "ac0c036c3cb3f73530bafee087f01a9ad541f63ba297fbae4246cdfdf6a34c4d05224b93f153e87e408e7c3806b7615af7b3d700c635797c3f5628ec5cc6db48",
+	"descriptionMd5": "3ade7c114adab67d8572c34da06ff71b"
+},{
+	"raw": {},
+	"required": [
+		"Filename",
+		"Size"
+	],
+	"package": "linux-modules-nvidia-595-server-7.0.0-1004-aws",
+	"source": "linux-restricted-modules-aws",
 	"version": "7.0.0-1004.4",
 	"section": "restricted/kernel",
 	"priority": "optional",

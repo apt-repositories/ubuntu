@@ -6,6 +6,35 @@
 	],
 	"package": "linux-modules-nvidia-580-server-7.0.0-1003-gcp",
 	"source": "linux-restricted-modules-gcp",
+	"version": "7.0.0-1003.3+1",
+	"section": "restricted/kernel",
+	"priority": "optional",
+	"architecture": "amd64",
+	"depends": [
+		"debconf (>= 0.5) | debconf-2.0",
+		"linux-image-7.0.0-1003-gcp | linux-image-unsigned-7.0.0-1003-gcp",
+		"linux-signatures-nvidia-7.0.0-1003-gcp (= 7.0.0-1003.3+1)",
+		"linux-objects-nvidia-580-server-7.0.0-1003-gcp (= 7.0.0-1003.3+1)",
+		"nvidia-kernel-common-580-server (>= 580.159.03)"
+	],
+	"installedSize": 29,
+	"maintainer": "Canonical Kernel Team <kernel-team@lists.ubuntu.com>",
+	"description": "Linux kernel nvidia modules for version 7.0.0-1003",
+	"filename": "pool/restricted/l/linux-restricted-modules-gcp/linux-modules-nvidia-580-server-7.0.0-1003-gcp_7.0.0-1003.3+1_amd64.deb",
+	"size": 9910,
+	"md5": "ca06c830eb59b3246b451e69afbf6d4f",
+	"sha1": "52f2df65fad8fd8ff240c459e1321874127f6b2f",
+	"sha256": "c989e3dbf6aac524217fa2adbd3843b68857fc38ad54f38f46cc8958899cff48",
+	"sha512": "2d317c35388a89a3eae1cfc9c180a0afb12e37c0516edd26d556afa2c8592080f541ea6ee471f6797a3f83726f1f523a61320ff454a886f34a3dc5e5455b426b",
+	"descriptionMd5": "4e85d672864129bc8aa5be7eff64165e"
+},{
+	"raw": {},
+	"required": [
+		"Filename",
+		"Size"
+	],
+	"package": "linux-modules-nvidia-580-server-7.0.0-1003-gcp",
+	"source": "linux-restricted-modules-gcp",
 	"version": "7.0.0-1003.3",
 	"section": "restricted/kernel",
 	"priority": "optional",

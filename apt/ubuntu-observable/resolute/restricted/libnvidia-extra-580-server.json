@@ -6,6 +6,43 @@
 	],
 	"package": "libnvidia-extra-580-server",
 	"source": "nvidia-graphics-drivers-580-server",
+	"version": "580.159.03-0ubuntu0.26.04.1",
+	"section": "restricted/libs",
+	"priority": "optional",
+	"architecture": "amd64",
+	"depends": [
+		"nvidia-kernel-common-580-server-580.159.03",
+		"libc6 (>= 2.34)"
+	],
+	"replaces": [
+		"libnvidia-common-580-server (<< 440.64-0ubuntu3~)",
+		"libnvidia-extra"
+	],
+	"breaks": [
+		"libnvidia-common-580-server (<< 440.64-0ubuntu3~)"
+	],
+	"conflicts": [
+		"libnvidia-extra"
+	],
+	"installedSize": 212,
+	"maintainer": "Ubuntu Developers <ubuntu-devel-discuss@lists.ubuntu.com>",
+	"description": "Extra libraries for the NVIDIA Server Driver",
+	"homepage": "http://www.nvidia.com",
+	"filename": "pool/restricted/n/nvidia-graphics-drivers-580-server/libnvidia-extra-580-server_580.159.03-0ubuntu0.26.04.1_amd64.deb",
+	"size": 78906,
+	"md5": "251880cfa45f917392e1b7359da96367",
+	"sha1": "f79bb44a9c323ef83612f793778d6d821c38de57",
+	"sha256": "a348258ca3c2bf197b5fe27352dc5493238bca0d8e9df0a45c9ba3ad8bf73bfa",
+	"sha512": "5f72a649e9534fbdb93ef15447327ed7083f9530d48134d5b377dfa42c3813fd12998da986ee1bda8eccd31a7a222b19e6e9cd11c25fcb8a5b14ac0c3a9be78f",
+	"descriptionMd5": "d919c13960893adb9b27fa15ab4b33a4"
+},{
+	"raw": {},
+	"required": [
+		"Filename",
+		"Size"
+	],
+	"package": "libnvidia-extra-580-server",
+	"source": "nvidia-graphics-drivers-580-server",
 	"version": "580.126.20-0ubuntu3",
 	"section": "restricted/libs",
 	"priority": "optional",

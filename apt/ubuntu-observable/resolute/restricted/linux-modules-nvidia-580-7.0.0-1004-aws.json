@@ -6,6 +6,35 @@
 	],
 	"package": "linux-modules-nvidia-580-7.0.0-1004-aws",
 	"source": "linux-restricted-modules-aws",
+	"version": "7.0.0-1004.4+1",
+	"section": "restricted/kernel",
+	"priority": "optional",
+	"architecture": "amd64",
+	"depends": [
+		"debconf (>= 0.5) | debconf-2.0",
+		"linux-image-7.0.0-1004-aws | linux-image-unsigned-7.0.0-1004-aws",
+		"linux-signatures-nvidia-7.0.0-1004-aws (= 7.0.0-1004.4+1)",
+		"linux-objects-nvidia-580-7.0.0-1004-aws (= 7.0.0-1004.4+1)",
+		"nvidia-kernel-common-580 (>= 580.159.03)"
+	],
+	"installedSize": 29,
+	"maintainer": "Canonical Kernel Team <kernel-team@lists.ubuntu.com>",
+	"description": "Linux kernel nvidia modules for version 7.0.0-1004",
+	"filename": "pool/restricted/l/linux-restricted-modules-aws/linux-modules-nvidia-580-7.0.0-1004-aws_7.0.0-1004.4+1_amd64.deb",
+	"size": 10234,
+	"md5": "a13b15aa2495d5ac4d9cccb27ec6e57c",
+	"sha1": "0ed65d0dd31317fc264b1320c3660357e3670451",
+	"sha256": "11af9d5b99808b7258bcbf93c9991479f47b2b4d1cb33df1744a5d8576dc77fd",
+	"sha512": "508a5a993d1b2f654d4994b72a08b36565ba40db64babc3d632efcc9d587035d29e4db696538c064087302945bab0f680d641e86d8eb69f3af3213e194a4ce23",
+	"descriptionMd5": "78ff4d77d00ba2c5d48a2105413f4d8c"
+},{
+	"raw": {},
+	"required": [
+		"Filename",
+		"Size"
+	],
+	"package": "linux-modules-nvidia-580-7.0.0-1004-aws",
+	"source": "linux-restricted-modules-aws",
 	"version": "7.0.0-1004.4",
 	"section": "restricted/kernel",
 	"priority": "optional",
