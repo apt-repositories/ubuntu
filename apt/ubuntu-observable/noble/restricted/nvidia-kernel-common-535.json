@@ -42,6 +42,42 @@
 	],
 	"package": "nvidia-kernel-common-535",
 	"source": "nvidia-graphics-drivers-535",
+	"version": "535.309.01-0ubuntu0.24.04.1",
+	"section": "restricted/libs",
+	"priority": "optional",
+	"architecture": "amd64",
+	"depends": [
+		"libc6 (>= 2.38)",
+		"libgcc-s1 (>= 4.2)",
+		"libpciaccess0 (>= 0.10.7)",
+		"nvidia-firmware-535-535.309.01"
+	],
+	"replaces": [
+		"nvidia-dkms-535 (<< 390.48-0ubuntu3~)",
+		"nvidia-kernel-common"
+	],
+	"conflicts": [
+		"nvidia-kernel-common"
+	],
+	"installedSize": 695,
+	"maintainer": "Ubuntu Developers <ubuntu-devel-discuss@lists.ubuntu.com>",
+	"description": "Shared files used with the kernel module",
+	"homepage": "http://www.nvidia.com",
+	"filename": "pool/restricted/n/nvidia-graphics-drivers-535/nvidia-kernel-common-535_535.309.01-0ubuntu0.24.04.1_amd64.deb",
+	"size": 210268,
+	"md5": "40946d982f184477b3bb03efa31f934b",
+	"sha1": "127a417490bb3f8ace69c72fb572ddddf7d277e6",
+	"sha256": "ebda5331a87820720462b0342188da41a4c4c198c33575789db014ae9f5ee122",
+	"sha512": "8bcfdac9c0dff1e1fcb3f3347dd4aba2d15397fdc09261b5e8e9173d207cd76f780fa626c19b0ec15a424a2b8b4ee821189407d186867dcfb0ed7a6a781926f4",
+	"descriptionMd5": "caa64a2a10d329a0475baf9ebcdb40d5"
+},{
+	"raw": {},
+	"required": [
+		"Filename",
+		"Size"
+	],
+	"package": "nvidia-kernel-common-535",
+	"source": "nvidia-graphics-drivers-535",
 	"version": "535.171.04-0ubuntu2",
 	"section": "restricted/libs",
 	"priority": "optional",
