@@ -5,6 +5,60 @@
 		"Size"
 	],
 	"package": "postgresql-18",
+	"version": "18.4-0ubuntu0.26.04.1",
+	"section": "database",
+	"priority": "optional",
+	"architecture": "amd64",
+	"depends": [
+		"locales | locales-all",
+		"postgresql-client-18 (= 18.4-0ubuntu0.26.04.1)",
+		"postgresql-common (>= 275~)",
+		"ssl-cert",
+		"tzdata",
+		"debconf (>= 0.5) | debconf-2.0",
+		"libc6 (>= 2.43)",
+		"libgssapi-krb5-2 (>= 1.14+dfsg)",
+		"libicu78 (>= 78.1-1~)",
+		"libldap2 (>= 2.6.2)",
+		"liblz4-1 (>= 0.0~r130)",
+		"libnuma1 (>= 2.0.11)",
+		"libpam0g (>= 0.99.7.1)",
+		"libpq5 (>= 17~~)",
+		"libselinux1 (>= 3.1~)",
+		"libssl3t64 (>= 3.4.0)",
+		"libsystemd0",
+		"liburing2 (>= 2.5)",
+		"libuuid1 (>= 2.16)",
+		"libxml2-16 (>= 2.14.1)",
+		"libxslt1.1 (>= 1.1.25)",
+		"libzstd1 (>= 1.5.5)",
+		"zlib1g (>= 1:1.1.4)"
+	],
+	"recommends": [
+		"postgresql-18-jit",
+		"sysstat"
+	],
+	"breaks": [
+		"dbconfig-common (<< 2.0.22~)"
+	],
+	"installedSize": 20924,
+	"maintainer": "Ubuntu Developers <ubuntu-devel-discuss@lists.ubuntu.com>",
+	"description": "The World's Most Advanced Open Source Relational Database",
+	"homepage": "http://www.postgresql.org/",
+	"filename": "pool/main/p/postgresql-18/postgresql-18_18.4-0ubuntu0.26.04.1_amd64.deb",
+	"size": 5989068,
+	"md5": "78daba6ee572eec1a06f31c84a1974de",
+	"sha1": "187e67962f890446adaeaf50111852fd21a1d0fd",
+	"sha256": "832afc3a20ee71dbcf41f6b310b62fd508af2d1578404ab7492605727e5086d3",
+	"sha512": "f481b411cb154ac99f7217525d4fa0fa6406320c27ca7d17897bbbfa20a716ec4f8a8ca94e7a93d91a3e0e2d01e7015b172ca71661811fa983ca6b5340ee6737",
+	"descriptionMd5": "dcb0488ab35080ca4e8e57faa4716e66"
+},{
+	"raw": {},
+	"required": [
+		"Filename",
+		"Size"
+	],
+	"package": "postgresql-18",
 	"version": "18.3-1",
 	"section": "database",
 	"priority": "optional",
