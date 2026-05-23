@@ -5,6 +5,65 @@
 		"Size"
 	],
 	"package": "evince",
+	"version": "48.1-3ubuntu2.1",
+	"section": "universe/gnome",
+	"priority": "optional",
+	"architecture": "amd64",
+	"depends": [
+		"evince-common (>= 48.1-3ubuntu2.1)",
+		"gsettings-desktop-schemas",
+		"libevdocument3-4t64 (= 48.1-3ubuntu2.1)",
+		"libevview3-3t64 (= 48.1-3ubuntu2.1)",
+		"shared-mime-info",
+		"dconf-gsettings-backend | gsettings-backend",
+		"libatk1.0-0t64 (>= 1.12.4)",
+		"libc6 (>= 2.34)",
+		"libcairo-gobject2 (>= 1.10.0)",
+		"libcairo2 (>= 1.14.0)",
+		"libgdk-pixbuf-2.0-0 (>= 2.40)",
+		"libglib2.0-0t64 (>= 2.83.0)",
+		"libgnome-desktop-3-20t64 (>= 3.17.92)",
+		"libgtk-3-0t64 (>= 3.22.0)",
+		"libhandy-1-0 (>= 1.5.90)",
+		"libpango-1.0-0 (>= 1.44.6)",
+		"libpangocairo-1.0-0 (>= 1.14.0)",
+		"libsecret-1-0 (>= 0.7)"
+	],
+	"recommends": [
+		"default-dbus-session-bus | dbus-session-bus"
+	],
+	"suggests": [
+		"gvfs",
+		"nautilus-sendto",
+		"poppler-data"
+	],
+	"replaces": [
+		"libevdocument3-4t64 (<< 3.29.91-2~)"
+	],
+	"enhances": [
+		"nautilus"
+	],
+	"breaks": [
+		"libevdocument3-4t64 (<< 3.29.91-2~)"
+	],
+	"installedSize": 946,
+	"maintainer": "Ubuntu Developers <ubuntu-devel-discuss@lists.ubuntu.com>",
+	"description": "Document (PostScript, PDF) viewer",
+	"homepage": "https://apps.gnome.org/Evince/",
+	"filename": "pool/universe/e/evince/evince_48.1-3ubuntu2.1_amd64.deb",
+	"size": 284996,
+	"md5": "80368e747ecd072f0b3dfbdc68de8685",
+	"sha1": "0b38c6c2434f5429a534f9fb665a7e135bbf1576",
+	"sha256": "675741e058e7c5bb8c3561f067127079720df20bbf0f09263b7fa87a3fd0ee3b",
+	"sha512": "8fe8bba06f8e56aa5a0621da05d4f2630a9a54436fd87b2e93abd429ef69bdbe38e4aacd99ad9f141a4085b89528f55978d4b309f295daa507128c786c597c3e",
+	"descriptionMd5": "531974388dc5701b9dbc2f5d96f92ec6"
+},{
+	"raw": {},
+	"required": [
+		"Filename",
+		"Size"
+	],
+	"package": "evince",
 	"version": "48.1-3ubuntu2",
 	"section": "universe/gnome",
 	"priority": "optional",
