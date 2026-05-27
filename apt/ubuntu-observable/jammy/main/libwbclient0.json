@@ -6,6 +6,44 @@
 	],
 	"package": "libwbclient0",
 	"source": "samba",
+	"version": "2:4.15.13+dfsg-0ubuntu1.12",
+	"section": "libs",
+	"priority": "optional",
+	"architecture": "amd64",
+	"depends": [
+		"libbsd0 (>= 0.5.0)",
+		"libc6 (>= 2.34)",
+		"libgnutls30 (>= 3.7.0)",
+		"libicu70 (>= 70.1-1~)",
+		"libsystemd0",
+		"libtalloc2 (>= 2.3.3~)",
+		"libtevent0 (>= 0.11.0~)"
+	],
+	"preDepends": [
+		"dpkg (>= 1.15.6~)"
+	],
+	"breaks": [
+		"samba-libs (<< 2:4.11.0+dfsg-1~)"
+	],
+	"installedSize": 858,
+	"maintainer": "Ubuntu Developers <ubuntu-devel-discuss@lists.ubuntu.com>",
+	"description": "Samba winbind client library",
+	"homepage": "http://www.samba.org",
+	"filename": "pool/main/s/samba/libwbclient0_4.15.13+dfsg-0ubuntu1.12_amd64.deb",
+	"size": 271046,
+	"md5": "6593b2dce035d613d1086fd6e7a0d768",
+	"sha1": "97244733febd29b7a72e2e192f513cdb41ea45e7",
+	"sha256": "4b7e92f2733c3afb575650a05b4287cc34b61a81a1d5d5cbc68ed42240a72dc9",
+	"sha512": "10d08699045a6b83e91b248d23adbb046fd5517120ed2520ab572cc24b287a16db56473a05299597b8b580e86e09c6728189ece1b1a0b82349164ebcad5a94bb",
+	"descriptionMd5": "16c935b1d482f634b3879c2495e04db8"
+},{
+	"raw": {},
+	"required": [
+		"Filename",
+		"Size"
+	],
+	"package": "libwbclient0",
+	"source": "samba",
 	"version": "2:4.15.13+dfsg-0ubuntu1.10",
 	"section": "libs",
 	"priority": "optional",

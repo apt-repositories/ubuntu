@@ -6,6 +6,65 @@
 	],
 	"package": "samba-common-bin",
 	"source": "samba",
+	"version": "2:4.23.6+dfsg-1ubuntu2.1",
+	"section": "net",
+	"priority": "optional",
+	"architecture": "amd64",
+	"depends": [
+		"samba-common",
+		"libbsd0 (>= 0.4.0)",
+		"libc6 (>= 2.38)",
+		"libcups2t64 (>= 1.7.0)",
+		"libgnutls30t64 (>= 3.7.0)",
+		"libjansson4 (>= 2.14)",
+		"libldap2 (>= 2.6.2)",
+		"libncurses6 (>= 6)",
+		"libndr6 (>= 2:4.20.0~rc1)",
+		"libpopt0 (>= 1.14)",
+		"libreadline8t64 (>= 6.0)",
+		"libsmbldap2 (>= 2:4.16.6)",
+		"libtalloc2 (>= 2.4.0)",
+		"libtdb1 (>= 1.2.7+git20101215)",
+		"libtevent0t64 (>= 0.15.0)",
+		"libtinfo6 (>= 6)",
+		"libwbclient0 (>= 2:4.0.3+dfsg1)",
+		"samba-libs (= 2:4.23.6+dfsg-1ubuntu2.1)"
+	],
+	"recommends": [
+		"python3-samba"
+	],
+	"suggests": [
+		"heimdal-clients"
+	],
+	"replaces": [
+		"samba (<< 2:4.20.1+dfsg-2~)",
+		"samba-libs (<< 2:4.19.0~)",
+		"winexe (<< 2:4.21.1+dfsg-3~)"
+	],
+	"breaks": [
+		"samba (<< 2:4.20.1+dfsg-2~)",
+		"samba-libs (<< 2:4.19.0~)",
+		"winexe (<< 2:4.21.1+dfsg-3~)"
+	],
+	"installedSize": 5184,
+	"maintainer": "Ubuntu Developers <ubuntu-devel-discuss@lists.ubuntu.com>",
+	"description": "Samba common files used by both the server and the client",
+	"homepage": "https://www.samba.org",
+	"filename": "pool/main/s/samba/samba-common-bin_4.23.6+dfsg-1ubuntu2.1_amd64.deb",
+	"size": 1411518,
+	"md5": "315af150d00782d5b311d10dbb575fd9",
+	"sha1": "33ff4bc37d450a90e3c673a67b86ef9ea3ec3e25",
+	"sha256": "d475565591642ee3069e020a0dc343c3c8a3720490e7318e2aa51e006b98e4a9",
+	"sha512": "057d403b9faa2f1058197d7b54cc03d9ac4ae0cac65f2779feb10b656eb919a21f9dd70e9df2f20e63dfc04b14df87c670d9b9519e592ab7ef92714fbb0f0302",
+	"descriptionMd5": "ed41b644031f2092e31e4cc4802a5fe3"
+},{
+	"raw": {},
+	"required": [
+		"Filename",
+		"Size"
+	],
+	"package": "samba-common-bin",
+	"source": "samba",
 	"version": "2:4.23.6+dfsg-1ubuntu2",
 	"section": "net",
 	"priority": "optional",

@@ -6,6 +6,47 @@
 	],
 	"package": "samba-vfs-ceph",
 	"source": "samba",
+	"version": "2:4.22.3+dfsg-4ubuntu2.4",
+	"section": "universe/net",
+	"priority": "optional",
+	"architecture": "amd64",
+	"depends": [
+		"samba (= 2:4.22.3+dfsg-4ubuntu2.4)",
+		"libbsd0 (>= 0.0)",
+		"libc6 (>= 2.34)",
+		"libcephfs2 (>= 17.0.0~)",
+		"libtalloc2 (>= 2.0.4~git20101213)",
+		"libtevent0t64 (>= 0.15.0)",
+		"samba-libs (= 2:4.22.3+dfsg-4ubuntu2.4)"
+	],
+	"replaces": [
+		"samba-vfs-modules (<< 2:4.20.2+dfsg-3~)"
+	],
+	"enhances": [
+		"samba"
+	],
+	"breaks": [
+		"samba-vfs-modules (<< 2:4.20.2+dfsg-3~)"
+	],
+	"installedSize": 303,
+	"maintainer": "Ubuntu Developers <ubuntu-devel-discuss@lists.ubuntu.com>",
+	"description": "Samba Virtual FileSystem ceph modules",
+	"homepage": "https://www.samba.org",
+	"filename": "pool/universe/s/samba/samba-vfs-ceph_4.22.3+dfsg-4ubuntu2.4_amd64.deb",
+	"size": 71518,
+	"md5": "6ddc9a624ae1132eab63294f80179fcb",
+	"sha1": "35552908067e8b5b99d54385eca132bc500d1c04",
+	"sha256": "f702f48ad158091f14ff141c0130801ece37f52f545a898b72231457678f3a4f",
+	"sha512": "c34aa37aa64da6f443821340d7febf09ff4497028bb50d1f58f8940312d3d0e4b56d177ef1a9704792aad05fa32dcf654b533494bac139139af648f51f4129c4",
+	"descriptionMd5": "81c41d008c09fa58505d8e0a34d4e1fd"
+},{
+	"raw": {},
+	"required": [
+		"Filename",
+		"Size"
+	],
+	"package": "samba-vfs-ceph",
+	"source": "samba",
 	"version": "2:4.22.3+dfsg-4ubuntu2.2",
 	"section": "universe/net",
 	"priority": "optional",
