@@ -1,0 +1,62 @@
+{
+	"raw": {},
+	"required": [
+		"Filename",
+		"Size"
+	],
+	"package": "samba",
+	"version": "2:4.23.6+dfsg-1ubuntu2.1",
+	"section": "net",
+	"priority": "optional",
+	"architecture": "amd64",
+	"depends": [
+		"passwd",
+		"samba-common",
+		"samba-common-bin (= 2:4.23.6+dfsg-1ubuntu2.1)",
+		"libbsd0 (>= 0.6.0)",
+		"libc6 (>= 2.38)",
+		"libcups2t64 (>= 1.7.0)",
+		"libdbus-1-3 (>= 1.10)",
+		"libgnutls30t64 (>= 3.7.0)",
+		"libldap2 (>= 2.6.2)",
+		"libldb2 (>= 2:2.10.0)",
+		"libndr6 (>= 2:4.20.0~rc1)",
+		"libpopt0 (>= 1.14)",
+		"libtalloc2 (>= 2.4.0)",
+		"libtdb1 (>= 1.2.7+git20101215)",
+		"libtevent0t64 (>= 0.15.0)",
+		"libtirpc3t64 (>= 1.0.2)",
+		"liburing2 (>= 2.3)",
+		"samba-libs (= 2:4.23.6+dfsg-1ubuntu2.1)"
+	],
+	"suggests": [
+		"ctdb",
+		"ufw",
+		"winbind",
+		"python3-samba",
+		"samba-vfs-ceph",
+		"samba-vfs-glusterfs",
+		"attr"
+	],
+	"replaces": [
+		"samba-libs (<< 2:4.19.0~)",
+		"samba-vfs-modules (<< 2:4.20.2+dfsg-3~)"
+	],
+	"breaks": [
+		"samba-ad-dc (<< 2:4.20.1+dfsg-2~)",
+		"samba-ad-provision (<< 2:4.23.6+dfsg)",
+		"samba-libs (<< 2:4.19.0~)",
+		"samba-vfs-modules (<< 2:4.20.2+dfsg-3~)"
+	],
+	"installedSize": 5107,
+	"maintainer": "Ubuntu Developers <ubuntu-devel-discuss@lists.ubuntu.com>",
+	"description": "SMB/CIFS file, print, and login server for Unix",
+	"homepage": "https://www.samba.org",
+	"filename": "pool/main/s/samba/samba_4.23.6+dfsg-1ubuntu2.1_amd64.deb",
+	"size": 1237964,
+	"md5": "69a10719f1daebd83b9cdc01b123de20",
+	"sha1": "ae0c1d4a833cd743851fd1f0a5a52c9abadefc95",
+	"sha256": "1dc9d872a6ea4c13d5e7d719047f20395a092d76064afad56452013c81cd895c",
+	"sha512": "c7397a21222b29fba30e3c35ef23c6f403e7f96104fa813ec891b878bc5596e11266d98564df34adeb4ea6bd029836bee3df0d7754ec1dcd54568d1e461c10a0",
+	"descriptionMd5": "c9d307ae5cf3b46be12b53a9f95862f0"
+}

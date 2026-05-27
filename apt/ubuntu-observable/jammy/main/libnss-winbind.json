@@ -6,6 +6,42 @@
 	],
 	"package": "libnss-winbind",
 	"source": "samba",
+	"version": "2:4.15.13+dfsg-0ubuntu1.12",
+	"section": "net",
+	"priority": "optional",
+	"architecture": "amd64",
+	"depends": [
+		"samba-common (= 2:4.15.13+dfsg-0ubuntu1.12)",
+		"winbind:any (= 2:4.15.13+dfsg-0ubuntu1.12)",
+		"libbsd0 (>= 0.0)",
+		"libc6 (>= 2.14)",
+		"libwbclient0 (= 2:4.15.13+dfsg-0ubuntu1.12)"
+	],
+	"preDepends": [
+		"dpkg (>= 1.15.6~)"
+	],
+	"suggests": [
+		"libpam-winbind"
+	],
+	"installedSize": 190,
+	"maintainer": "Ubuntu Developers <ubuntu-devel-discuss@lists.ubuntu.com>",
+	"description": "Samba nameservice integration plugins",
+	"homepage": "http://www.samba.org",
+	"filename": "pool/main/s/samba/libnss-winbind_4.15.13+dfsg-0ubuntu1.12_amd64.deb",
+	"size": 14432,
+	"md5": "2ad06fb428063a39dbc23360f4b95fc9",
+	"sha1": "dfb11917dbc78bcffbbc31e954d16ad2a4d2aa05",
+	"sha256": "910ea402aea828665b07192b0bf790e00676279f32defecbf653e229ae5030c3",
+	"sha512": "89f03e81d8f3da53143838176ecb6f9b0ebe39c14bce56365129b97d1afd95df4891a1a78e215e4543356d66bb150cf5d1cff4bf6bda886607f9cb4b0f405756",
+	"descriptionMd5": "223d38d764a9bb35ad3be4c8d048957d"
+},{
+	"raw": {},
+	"required": [
+		"Filename",
+		"Size"
+	],
+	"package": "libnss-winbind",
+	"source": "samba",
 	"version": "2:4.15.13+dfsg-0ubuntu1.10",
 	"section": "net",
 	"priority": "optional",

@@ -6,6 +6,73 @@
 	],
 	"package": "samba-ad-dc",
 	"source": "samba",
+	"version": "2:4.22.3+dfsg-4ubuntu2.4",
+	"section": "universe/net",
+	"priority": "optional",
+	"architecture": "amd64",
+	"depends": [
+		"samba (= 2:4.22.3+dfsg-4ubuntu2.4)",
+		"python3-samba (= 2:4.22.3+dfsg-4ubuntu2.4)",
+		"python3-dnspython",
+		"samba-dsdb-modules (= 2:4.22.3+dfsg-4ubuntu2.4)",
+		"winbind (= 2:4.22.3+dfsg-4ubuntu2.4)",
+		"python3:any",
+		"libbsd0 (>= 0.6.0)",
+		"libc6 (>= 2.34)",
+		"libldb2 (>= 0.9.21)",
+		"libpopt0 (>= 1.14)",
+		"libtalloc2 (>= 2.0.4~git20101213)",
+		"libtevent0t64 (>= 0.9.16)",
+		"samba-libs (= 2:4.22.3+dfsg-4ubuntu2.4)"
+	],
+	"preDepends": [
+		"init-system-helpers (>= 1.54~)"
+	],
+	"recommends": [
+		"libnss-winbind",
+		"libpam-winbind",
+		"samba-ad-provision",
+		"python3-gpg"
+	],
+	"suggests": [
+		"bind9",
+		"bind9utils",
+		"ldb-tools",
+		"time-daemon | chrony | ntpsec"
+	],
+	"replaces": [
+		"samba-common-bin (<< 2:4.20.1+dfsg-2~)"
+	],
+	"enhances": [
+		"bind9",
+		"ntpsec"
+	],
+	"breaks": [
+		"samba-ad-provision (<< 2:4.22.3+dfsg)",
+		"samba-common-bin (<< 2:4.20.1+dfsg-2~)"
+	],
+	"conflicts": [
+		"samba (<< 2:4.20.1+dfsg-2~)"
+	],
+	"installedSize": 218,
+	"maintainer": "Ubuntu Developers <ubuntu-devel-discuss@lists.ubuntu.com>",
+	"description": "Samba control files to run AD Domain Controller",
+	"homepage": "https://www.samba.org",
+	"filename": "pool/universe/s/samba/samba-ad-dc_4.22.3+dfsg-4ubuntu2.4_amd64.deb",
+	"size": 42448,
+	"md5": "210bfc679617b7fc7c7ccc275cdd90ff",
+	"sha1": "73353055cf2fd8c741aab67c674446e3d430f740",
+	"sha256": "40643b669a2d635f4471111f68d6b461c1e67b0fad8f9d70bc3437e80aa0da6d",
+	"sha512": "ac7f19b2efaa65e19e6616324207c68bef11ba27559e2389d39a26a832d671bffde333850af526c2ebbffab59f6254027993373da3e97e8d140a9937ca5c1e08",
+	"descriptionMd5": "eba517f15cc7dff6d61d4bf8f68630b3"
+},{
+	"raw": {},
+	"required": [
+		"Filename",
+		"Size"
+	],
+	"package": "samba-ad-dc",
+	"source": "samba",
 	"version": "2:4.22.3+dfsg-4ubuntu2.2",
 	"section": "universe/net",
 	"priority": "optional",
