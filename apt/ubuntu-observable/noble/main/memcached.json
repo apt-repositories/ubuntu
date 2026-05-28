@@ -5,6 +5,48 @@
 		"Size"
 	],
 	"package": "memcached",
+	"version": "1.6.24-1ubuntu0.1",
+	"section": "web",
+	"priority": "optional",
+	"architecture": "amd64",
+	"depends": [
+		"adduser",
+		"lsb-base",
+		"perl",
+		"perl:any",
+		"libc6 (>= 2.38)",
+		"libevent-2.1-7t64 (>= 2.1.8-stable)",
+		"libsasl2-2 (>= 2.1.28+dfsg1)",
+		"libssl3t64 (>= 3.0.0)"
+	],
+	"preDepends": [
+		"init-system-helpers (>= 1.54~)"
+	],
+	"suggests": [
+		"libanyevent-perl",
+		"libcache-memcached-perl",
+		"libmemcached",
+		"libterm-readkey-perl",
+		"libyaml-perl"
+	],
+	"installedSize": 592,
+	"maintainer": "Ubuntu Developers <ubuntu-devel-discuss@lists.ubuntu.com>",
+	"description": "High-performance in-memory object caching system",
+	"homepage": "https://memcached.org/",
+	"filename": "pool/main/m/memcached/memcached_1.6.24-1ubuntu0.1_amd64.deb",
+	"size": 213150,
+	"md5": "9f5c8fac8a847bfc046b7292aaf5bd46",
+	"sha1": "81e6dd1ab55774e515d8aa9b4159c56feceea810",
+	"sha256": "bfe61835a303e29a10c512aeba759a28abbeebe9888dc2e6a5f36b41e4fa6997",
+	"sha512": "cbbe41366f432ed93c5f5a6de7a3ef60aeb18df0d82265b712245646ae8d41f082c2efa12c3b6c16b0b2062a6b41ce43b53357572d6facd677bbd54a07971174",
+	"descriptionMd5": "bce5393edad27bfe3ded536243320594"
+},{
+	"raw": {},
+	"required": [
+		"Filename",
+		"Size"
+	],
+	"package": "memcached",
 	"version": "1.6.24-1build3",
 	"section": "web",
 	"priority": "optional",
