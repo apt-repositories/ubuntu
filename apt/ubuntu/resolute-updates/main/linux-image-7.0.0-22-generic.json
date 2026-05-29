@@ -1,0 +1,42 @@
+{
+	"raw": {},
+	"required": [
+		"Filename",
+		"Size"
+	],
+	"package": "linux-image-7.0.0-22-generic",
+	"source": "linux-signed",
+	"version": "7.0.0-22.22",
+	"section": "kernel",
+	"priority": "optional",
+	"architecture": "amd64",
+	"depends": [
+		"kmod",
+		"linux-base (>= 4.5ubuntu1~16.04.1)",
+		"linux-modules-7.0.0-22-generic"
+	],
+	"recommends": [
+		"grub-pc | grub-efi-amd64 | grub-efi-ia32 | grub | lilo",
+		"dracut | linux-initramfs-tool"
+	],
+	"suggests": [
+		"bpftool",
+		"linux-perf",
+		"linux-tools",
+		"linux-headers-7.0.0-22-generic"
+	],
+	"conflicts": [
+		"linux-image-unsigned-7.0.0-22-generic"
+	],
+	"installedSize": 16892,
+	"maintainer": "Canonical Kernel Team <kernel-team@lists.ubuntu.com>",
+	"description": "Signed kernel image generic",
+	"builtUsing": "linux (= 7.0.0-22.22)",
+	"filename": "pool/main/l/linux-signed/linux-image-7.0.0-22-generic_7.0.0-22.22_amd64.deb",
+	"size": 16998154,
+	"md5": "c25b6b0051f1eb3a128bfca5f346ef43",
+	"sha1": "d2e5b82319ed4494e7fed3078d93c86dd7bffc45",
+	"sha256": "16471d94506a60a05c1e098caeeac771a4b472e2d3e9f33a177b8adbe418fc70",
+	"sha512": "0ed5ac4096b4295deecb1abb69d09572dfccfd9eb9f359d3ac6d000e18acbbcb7870f0bcb59fdfb4e0dedea1e3f390fbf6bb34b06598496387ca9e85237f3f88",
+	"descriptionMd5": "b0fd0df88b1cd31408007b00d2458952"
+}

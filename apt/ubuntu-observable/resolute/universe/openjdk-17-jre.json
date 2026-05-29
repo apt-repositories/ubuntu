@@ -6,6 +6,64 @@
 	],
 	"package": "openjdk-17-jre",
 	"source": "openjdk-17",
+	"version": "17.0.19+10-1~26.04.2",
+	"section": "universe/java",
+	"priority": "optional",
+	"architecture": "amd64",
+	"depends": [
+		"openjdk-17-jre-headless (= 17.0.19+10-1~26.04.2)",
+		"libglib2.0-0t64 (>= 2.24)",
+		"libgtk2.0-0t64 | libgtk-3-0t64",
+		"libxrandr2",
+		"libxinerama1",
+		"libgl1",
+		"libharfbuzz0b (>= 1.2.6)",
+		"libcups2t64",
+		"libfontconfig1",
+		"libc6 (>= 2.38)",
+		"libfreetype6 (>= 2.3.5)",
+		"libgcc-s1 (>= 3.0)",
+		"libstdc++6 (>= 4.1.1)",
+		"libasound2t64 (>= 1.0.16)",
+		"libgif7 (>= 5.1)",
+		"libjpeg8 (>= 8c)",
+		"libpng16-16t64 (>= 1.6.46)",
+		"libx11-6",
+		"libxext6",
+		"libxi6",
+		"libxrender1 (>= 1:0.9.12)",
+		"libxtst6 (>= 2:1.2.5)",
+		"zlib1g (>= 1:1.1.4)"
+	],
+	"recommends": [
+		"libatk-wrapper-java-jni (>= 0.30.4-0ubuntu2)",
+		"fonts-dejavu-extra"
+	],
+	"replaces": [
+		"openjdk-17-jre-headless (<< 17~10)"
+	],
+	"breaks": [
+		"openjdk-17-jre-headless (<< 17~10)"
+	],
+	"installedSize": 686,
+	"maintainer": "Ubuntu Developers <ubuntu-devel-discuss@lists.ubuntu.com>",
+	"description": "OpenJDK Java runtime, using Hotspot JIT",
+	"homepage": "https://openjdk.java.net/",
+	"filename": "pool/universe/o/openjdk-17/openjdk-17-jre_17.0.19+10-1~26.04.2_amd64.deb",
+	"size": 228002,
+	"md5": "ac726f10cfa07c98570c541c264b9740",
+	"sha1": "4db3d5496102172beceb6080234288fc379c2ff7",
+	"sha256": "bd3c6b9549bb90c39b38a9f510463ec01da80d526be53a47ea73737d17b8a650",
+	"sha512": "6fc2f1a5e0654cc7dcdf9f401e1228d3f885f4d61106de83bb1ed751dfe200837b5637f52c6576ee1ec266fda5eae0c166cdd448b82b429e7cb8bd02e932d1fd",
+	"descriptionMd5": "13097853553de1ab39cc189225a9cbaa"
+},{
+	"raw": {},
+	"required": [
+		"Filename",
+		"Size"
+	],
+	"package": "openjdk-17-jre",
+	"source": "openjdk-17",
 	"version": "17.0.18+8-1",
 	"section": "universe/java",
 	"priority": "optional",
