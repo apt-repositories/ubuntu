@@ -6,6 +6,57 @@
 	],
 	"package": "openjdk-26-jre-headless",
 	"source": "openjdk-26",
+	"version": "26.0.1+8-2~25.10.2",
+	"section": "universe/java",
+	"priority": "optional",
+	"architecture": "amd64",
+	"depends": [
+		"ca-certificates-java (>= 20190405~)",
+		"java-common (>= 0.28)",
+		"liblcms2-2 (>= 2.8)",
+		"libjpeg8 (>= 8c)",
+		"libnss3 (>= 2:3.17.1)",
+		"util-linux (>= 2.26.2-4)",
+		"libc6 (>= 2.38)",
+		"libgcc-s1 (>= 3.0)",
+		"libpcsclite1 (>= 1.3.0)",
+		"libstdc++6 (>= 5)",
+		"zlib1g (>= 1:1.2.2)"
+	],
+	"recommends": [
+		"libcups2t64",
+		"libfontconfig1",
+		"libfreetype6 (>= 2.3.5)",
+		"libharfbuzz0b (>= 2.1.1)",
+		"libasound2t64 (>= 1.0.16)"
+	],
+	"suggests": [
+		"libnss-mdns",
+		"fonts-dejavu-extra",
+		"fonts-ipafont-gothic",
+		"fonts-ipafont-mincho",
+		"fonts-wqy-microhei | fonts-wqy-zenhei",
+		"fonts-indic"
+	],
+	"installedSize": 244654,
+	"maintainer": "Ubuntu Developers <ubuntu-devel-discuss@lists.ubuntu.com>",
+	"description": "OpenJDK Java runtime, using Hotspot JIT (headless)",
+	"homepage": "https://openjdk.java.net/",
+	"filename": "pool/universe/o/openjdk-26/openjdk-26-jre-headless_26.0.1+8-2~25.10.2_amd64.deb",
+	"size": 60374250,
+	"md5": "9bf6ce97d52bdb9b9a7259f5a527a413",
+	"sha1": "65b9c0be66611f973b75a57623cfd294f203b389",
+	"sha256": "93a191f18004f4da6dae03d011a0336e85ba51f4ebfaac744db1456979806557",
+	"sha512": "5a4ead129e1a71bf4dda0d67f6d9b22858864f462ed16f3c6b9167e61ac98b779035475af08a7064d5c8101806a91dbd7caf58bd572ee9f1cfd253a6b2d9bdf5",
+	"descriptionMd5": "62c2c9689e617c48cc4480926d2ca785"
+},{
+	"raw": {},
+	"required": [
+		"Filename",
+		"Size"
+	],
+	"package": "openjdk-26-jre-headless",
+	"source": "openjdk-26",
 	"version": "26~17ea-1",
 	"section": "universe/java",
 	"priority": "optional",
