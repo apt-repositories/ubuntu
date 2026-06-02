@@ -6,6 +6,67 @@
 	],
 	"package": "libreoffice-base-nogui",
 	"source": "libreoffice",
+	"version": "4:26.2.3.2-0ubuntu0.26.04.1",
+	"section": "universe/database",
+	"priority": "optional",
+	"architecture": "amd64",
+	"depends": [
+		"libreoffice-base-core (= 4:26.2.3.2-0ubuntu0.26.04.1)",
+		"libreoffice-base-drivers (= 4:26.2.3.2-0ubuntu0.26.04.1)",
+		"libreoffice-core-nogui (= 4:26.2.3.2-0ubuntu0.26.04.1) | libreoffice-core (= 4:26.2.3.2-0ubuntu0.26.04.1)",
+		"libc6 (>= 2.32)",
+		"libgcc-s1 (>= 3.0)",
+		"libreoffice-sal-private-abi (= 26.2.3)",
+		"libstdc++6 (>= 11)",
+		"libuno-cppu3t64 (>= 4.4.0~alpha)",
+		"libuno-cppuhelpergcc3-3t64 (>= 5.3.0~alpha)",
+		"libuno-sal3t64 (>= 1:7.3.0~beta1)",
+		"libuno-salhelpergcc3-3t64 (>= 1.4.0)",
+		"uno-libs-private"
+	],
+	"preDepends": [
+		"ucf",
+		"libreoffice-common (>= 4:25.2.1~rc1-3~)"
+	],
+	"recommends": [
+		"libreoffice-writer",
+		"libreoffice-java-common (>= 4:26.2.3.2~)",
+		"default-jre (>= 2:1.8) | java-runtime (>= 8) | java8-runtime | jre"
+	],
+	"suggests": [
+		"libreoffice-report-builder",
+		"python3-uno",
+		"unixodbc"
+	],
+	"replaces": [
+		"libreoffice-base",
+		"libreoffice-common (<< 1:6.4.2~rc1~)"
+	],
+	"breaks": [
+		"libreoffice-common (<< 1:6.4.2~rc1~)"
+	],
+	"conflicts": [
+		"libreoffice-base"
+	],
+	"installedSize": 1050,
+	"maintainer": "Ubuntu Developers <ubuntu-devel-discuss@lists.ubuntu.com>",
+	"description": "office productivity suite -- database (no GUI variant)",
+	"homepage": "http://www.libreoffice.org",
+	"filename": "pool/universe/libr/libreoffice/libreoffice-base-nogui_26.2.3.2-0ubuntu0.26.04.1_amd64.deb",
+	"size": 282180,
+	"md5": "0fb0c0e380775805f04aadafbec858cb",
+	"sha1": "3dddd14be40642908e9ab3832aceeb7bdd604a9a",
+	"sha256": "42e545e4a019e702ef3d0b471d23301cb5ee11f99b59e035c80bf1fc93025f3d",
+	"sha512": "b61ad9eb2b71a3165b608116895f55e111b097b9341960a863476278e2c888e3405b1a44f2fb4c378a06afd072e77e6ee838671bad1ca7ec0c56195e16614cf8",
+	"descriptionMd5": "e83dd6cdb7c67ccb13c0407fd6a32ebc"
+},{
+	"raw": {},
+	"required": [
+		"Filename",
+		"Size"
+	],
+	"package": "libreoffice-base-nogui",
+	"source": "libreoffice",
 	"version": "4:26.2.2.2-0ubuntu1",
 	"section": "universe/database",
 	"priority": "optional",

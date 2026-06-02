@@ -6,6 +6,56 @@
 	],
 	"package": "libreoffice-math-nogui",
 	"source": "libreoffice",
+	"version": "4:26.2.3.2-0ubuntu0.26.04.1",
+	"section": "universe/editors",
+	"priority": "optional",
+	"architecture": "amd64",
+	"depends": [
+		"fonts-opensymbol (>= 2:102.11)",
+		"libreoffice-core-nogui (= 4:26.2.3.2-0ubuntu0.26.04.1) | libreoffice-core (= 4:26.2.3.2-0ubuntu0.26.04.1)",
+		"libreoffice-uiconfig-math (= 4:26.2.3.2-0ubuntu0.26.04.1)",
+		"libc6 (>= 2.32)",
+		"libgcc-s1 (>= 3.0)",
+		"libicu78 (>= 78.1-1~)",
+		"libreoffice-sal-private-abi (= 26.2.3)",
+		"libstdc++6 (>= 11)",
+		"libuno-cppu3t64 (>= 4.4.0~alpha)",
+		"libuno-cppuhelpergcc3-3t64 (>= 1:7.4.0~alpha)",
+		"libuno-sal3t64 (>= 1:7.3.0~beta1)",
+		"libuno-salhelpergcc3-3t64 (>= 1.4.0)",
+		"uno-libs-private"
+	],
+	"preDepends": [
+		"ucf",
+		"libreoffice-common (>= 4:25.2.1~rc1-3~)"
+	],
+	"replaces": [
+		"libreoffice-common (<< 1:6.4.2~rc1~)",
+		"libreoffice-math"
+	],
+	"conflicts": [
+		"libreoffice-common (<< 1:6.4.2~rc1~)",
+		"libreoffice-math"
+	],
+	"installedSize": 2038,
+	"maintainer": "Ubuntu Developers <ubuntu-devel-discuss@lists.ubuntu.com>",
+	"description": "office productivity suite -- equation editor (no GUI variant)",
+	"homepage": "http://www.libreoffice.org",
+	"filename": "pool/universe/libr/libreoffice/libreoffice-math-nogui_26.2.3.2-0ubuntu0.26.04.1_amd64.deb",
+	"size": 575504,
+	"md5": "2370713dba4bb72ad4d97ba7f9b0b676",
+	"sha1": "abe0f9f0a01e18e55e6ca40d3a28fdaf19ee22e5",
+	"sha256": "9cb2fadbcf551ae782877d504e22a8ce81dd8730736ccd6e884840be827c5a14",
+	"sha512": "5e7dae6252a9d4ef3082de5d621944ad94168089040a284875dc7fdcf0cfe8b2f7166f90fa2e48fceb7ab51ac9578d381360055dd0a9a2e2a3c620d0fc9f8fa2",
+	"descriptionMd5": "e104f51d572d2ee302d3c3550e97e6ff"
+},{
+	"raw": {},
+	"required": [
+		"Filename",
+		"Size"
+	],
+	"package": "libreoffice-math-nogui",
+	"source": "libreoffice",
 	"version": "4:26.2.2.2-0ubuntu1",
 	"section": "universe/editors",
 	"priority": "optional",
