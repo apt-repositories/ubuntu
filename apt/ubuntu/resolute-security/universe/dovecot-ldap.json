@@ -1,0 +1,36 @@
+{
+	"raw": {},
+	"required": [
+		"Filename",
+		"Size"
+	],
+	"package": "dovecot-ldap",
+	"source": "dovecot",
+	"version": "1:2.4.2+dfsg1-3ubuntu2.1",
+	"section": "universe/mail",
+	"priority": "optional",
+	"architecture": "amd64",
+	"depends": [
+		"dovecot-core (= 1:2.4.2+dfsg1-3ubuntu2.1)",
+		"ucf",
+		"libc6 (>= 2.4)",
+		"libldap2 (>= 2.6.2)"
+	],
+	"replaces": [
+		"dovecot-core (<< 1:2.2.26.0-1~)"
+	],
+	"breaks": [
+		"dovecot-core (<< 1:2.2.26.0-1~)"
+	],
+	"installedSize": 219,
+	"maintainer": "Ubuntu Developers <ubuntu-devel-discuss@lists.ubuntu.com>",
+	"description": "secure POP3/IMAP server - LDAP support",
+	"homepage": "https://dovecot.org/",
+	"filename": "pool/universe/d/dovecot/dovecot-ldap_2.4.2+dfsg1-3ubuntu2.1_amd64.deb",
+	"size": 50042,
+	"md5": "b95a93af80641d842fae9c957afde9b5",
+	"sha1": "e0f85596b128c8d3c1fcba8de18a4c45e5d093dc",
+	"sha256": "b6ce0355ccbf91be94b996723c64c062966d22f6dc9da0a228a73a17ba143f9f",
+	"sha512": "5cf84fb6aa19fe110a2c62273f9ba9f86ec515bbc0750b4e08d2a8ebef5b6070d2f15f63148d97e027a685014bc60d65e9b71ececc26c10b050d976b10fdb123",
+	"descriptionMd5": "cf9a560992c979e66145b609891e191d"
+}
