@@ -6,6 +6,40 @@
 	],
 	"package": "dovecot-submissiond",
 	"source": "dovecot",
+	"version": "1:2.4.2+dfsg1-3ubuntu2.1",
+	"section": "universe/mail",
+	"priority": "optional",
+	"architecture": "amd64",
+	"depends": [
+		"dovecot-core (= 1:2.4.2+dfsg1-3ubuntu2.1)",
+		"ucf",
+		"libc6 (>= 2.34)"
+	],
+	"replaces": [
+		"dovecot-submission (<< 1:2.3.1-2~)"
+	],
+	"breaks": [
+		"dovecot-submission (<< 1:2.3.1-2~)"
+	],
+	"installedSize": 197,
+	"maintainer": "Ubuntu Developers <ubuntu-devel-discuss@lists.ubuntu.com>",
+	"description": "secure POP3/IMAP server - mail submission agent",
+	"homepage": "https://dovecot.org/",
+	"filename": "pool/universe/d/dovecot/dovecot-submissiond_2.4.2+dfsg1-3ubuntu2.1_amd64.deb",
+	"size": 57836,
+	"md5": "00d2085747d7897236be6277721c1063",
+	"sha1": "fc30f619542e752fe06797216bc3e3284baefaad",
+	"sha256": "94733f4ca5f9096d1c17a21f3019a079510bf4d3df29cb6c1635d9ce51600627",
+	"sha512": "6d15430fba756eb3058e8f09dad57cb414b5e5c46311bcb22fa980612b57e810df696f8f26663a75d1a6f5219b8986e65dce5f750328fd2d8effc0d96217816c",
+	"descriptionMd5": "b7dc853a1d902701365098db008dcd75"
+},{
+	"raw": {},
+	"required": [
+		"Filename",
+		"Size"
+	],
+	"package": "dovecot-submissiond",
+	"source": "dovecot",
 	"version": "1:2.4.2+dfsg1-3ubuntu2",
 	"section": "universe/mail",
 	"priority": "optional",
