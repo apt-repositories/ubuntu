@@ -6,24 +6,28 @@
 	],
 	"package": "linux-image-uc-oem-24.04d",
 	"source": "linux-meta-oem-6.17",
-	"version": "6.17.0-1024.24",
+	"version": "6.17.0-1025.25",
 	"section": "kernel",
 	"priority": "optional",
 	"architecture": "amd64",
 	"depends": [
-		"linux-image-uc-6.17.0-1024-oem",
+		"linux-image-uc-6.17.0-1025-oem",
 		"linux-firmware",
 		"firmware-sof-signed",
 		"wireless-regdb"
 	],
+	"conflicts": [
+		"linux-modules-nvidia-580-open-oem-24.04d (<< 6.17.0-1025.25)",
+		"linux-modules-nvidia-595-open-oem-24.04d (<< 6.17.0-1025.25)"
+	],
 	"installedSize": 10,
 	"maintainer": "Ubuntu Kernel Team <kernel-team@lists.ubuntu.com>",
 	"description": "OEM Linux kernel image for Ubuntu Core",
-	"filename": "pool/main/l/linux-meta-oem-6.17/linux-image-uc-oem-24.04d_6.17.0-1024.24_amd64.deb",
-	"size": 2470,
-	"md5": "fcf453ccc27a356afb6157aaf7cbd38b",
-	"sha1": "13043d6e950cc8abb44f799bd6520d64b4b654dc",
-	"sha256": "a2cd2b8414074506080204cc59bb8023d096445b94db90ba7cc45a468b66bd71",
-	"sha512": "e5f9ac3c8fb17fe3bf345406df59fd309283d6b7ef6ad0f121726e20b65a87f912f9967c30fd22675301233b410fc4b929d30a2cfc9d8ce459ed38a98a2d988b",
+	"filename": "pool/main/l/linux-meta-oem-6.17/linux-image-uc-oem-24.04d_6.17.0-1025.25_amd64.deb",
+	"size": 2634,
+	"md5": "605315e3773d8512df120e5e27110321",
+	"sha1": "d7108c827962a5b28e346648d312b22412164d53",
+	"sha256": "0d787d18b1b246b9d4144359803f0d6c0d2ecd5ec3348f0598daa6d5cf26e1b7",
+	"sha512": "f5579b7d302a21bad8e638957a71f0936c05a59655e276969cc25f88254965ca5ffd8e8f33db17c4cb520d927f5f50fc9b7de2acdd10c212717148d1428ac276",
 	"descriptionMd5": "31b0f5289e523576dbd237a9d7077279"
 }
