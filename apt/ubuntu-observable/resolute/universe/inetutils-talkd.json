@@ -6,6 +6,39 @@
 	],
 	"package": "inetutils-talkd",
 	"source": "inetutils",
+	"version": "2:2.7-2ubuntu1.1",
+	"section": "universe/net",
+	"priority": "optional",
+	"architecture": "amd64",
+	"depends": [
+		"libc6 (>= 2.38)",
+		"libsystemd0 (>= 254)",
+		"inetutils-inetd | inet-superserver",
+		"inetutils-syslogd | system-log-daemon | systemd-sysv",
+		"netbase"
+	],
+	"conflicts": [
+		"talkd"
+	],
+	"installedSize": 126,
+	"maintainer": "Ubuntu Developers <ubuntu-devel-discuss@lists.ubuntu.com>",
+	"description": "remote user communication server",
+	"homepage": "https://www.gnu.org/software/inetutils/",
+	"filename": "pool/universe/i/inetutils/inetutils-talkd_2.7-2ubuntu1.1_amd64.deb",
+	"size": 36250,
+	"md5": "e333d6d557168e339c26e40914057256",
+	"sha1": "abd16079b4ccb949a4299f9ef9172acd226dfcfd",
+	"sha256": "3b13d91a7c8b8189714c97a74fec0e448ebc10911375b26d08f7ea6439c72290",
+	"sha512": "5febf4f5206d7e9608a9f35d743fb3d2a277d4f153feb6e5c43ef7daa17eb4caa509aa8cdb13685594dbe93da4d693350fe58ed4841c106a6013de947355a3b7",
+	"descriptionMd5": "0f715fd8340f3856de4f0f2f28a3ddad"
+},{
+	"raw": {},
+	"required": [
+		"Filename",
+		"Size"
+	],
+	"package": "inetutils-talkd",
+	"source": "inetutils",
 	"version": "2:2.7-2ubuntu1",
 	"section": "universe/net",
 	"priority": "optional",

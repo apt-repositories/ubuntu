@@ -6,6 +6,53 @@
 	],
 	"package": "transmission-daemon",
 	"source": "transmission",
+	"version": "4.1.0~beta2+dfsg-3ubuntu1.1",
+	"section": "universe/net",
+	"priority": "optional",
+	"architecture": "amd64",
+	"depends": [
+		"transmission-common (= 4.1.0~beta2+dfsg-3ubuntu1.1)",
+		"libc6 (>= 2.38)",
+		"libcurl4t64 (>= 7.28.0)",
+		"libdeflate0 (>= 1.0)",
+		"libevent-2.1-7t64 (>= 2.1.11-stable)",
+		"libgcc-s1 (>= 3.4)",
+		"libminiupnpc18 (>= 2.2.8)",
+		"libnatpmp1t64 (>= 20150609)",
+		"libpsl5t64 (>= 0.19.1)",
+		"libssl3t64 (>= 3.0.0)",
+		"libstdc++6 (>= 14)",
+		"libsystemd0"
+	],
+	"preDepends": [
+		"init-system-helpers (>= 1.54~)",
+		"adduser"
+	],
+	"recommends": [
+		"transmission-cli"
+	],
+	"suggests": [
+		"transmission-remote-gtk | transgui | tremotesf"
+	],
+	"installedSize": 2006,
+	"maintainer": "Ubuntu Developers <ubuntu-devel-discuss@lists.ubuntu.com>",
+	"description": "lightweight BitTorrent client (daemon)",
+	"homepage": "https://transmissionbt.com/",
+	"filename": "pool/universe/t/transmission/transmission-daemon_4.1.0~beta2+dfsg-3ubuntu1.1_amd64.deb",
+	"size": 755300,
+	"md5": "609fcc5d1987fdcb1eefa0a9d0f98769",
+	"sha1": "dfab3991e33d36f90a82eeb71da26b749922b489",
+	"sha256": "5a7065fc9692e884ecf41c35f06a08471e8fa575d5875f70918f3db691968ebe",
+	"sha512": "fd1cac328e7982e8a20341e2684b70cf456de28e1099791083fca5bbacbbcdb231b286144e0c4b89532c03e62abe7ded4f8b7f9462bfdd349245ed12ea257e07",
+	"descriptionMd5": "b7604622d41410393e6f900722d76b3c"
+},{
+	"raw": {},
+	"required": [
+		"Filename",
+		"Size"
+	],
+	"package": "transmission-daemon",
+	"source": "transmission",
 	"version": "4.1.0~beta2+dfsg-3ubuntu1",
 	"section": "universe/net",
 	"priority": "optional",

@@ -6,6 +6,40 @@
 	],
 	"package": "inetutils-ftpd",
 	"source": "inetutils",
+	"version": "2:2.7-2ubuntu1.1",
+	"section": "universe/net",
+	"priority": "optional",
+	"architecture": "amd64",
+	"depends": [
+		"libc6 (>= 2.38)",
+		"libcrypt1 (>= 1:4.1.0)",
+		"libpam0g (>= 0.99.7.1)",
+		"inetutils-inetd | inet-superserver",
+		"inetutils-syslogd | system-log-daemon | systemd-sysv",
+		"netbase"
+	],
+	"conflicts": [
+		"ftp-server"
+	],
+	"installedSize": 213,
+	"maintainer": "Ubuntu Developers <ubuntu-devel-discuss@lists.ubuntu.com>",
+	"description": "File Transfer Protocol server",
+	"homepage": "https://www.gnu.org/software/inetutils/",
+	"filename": "pool/universe/i/inetutils/inetutils-ftpd_2.7-2ubuntu1.1_amd64.deb",
+	"size": 72506,
+	"md5": "6f49b8fbe38e89ec063c683e1c71e69a",
+	"sha1": "775de1a750c8c2b7e2220dc76eff8a3420af3e4d",
+	"sha256": "07ef735d58ebb61c4c2d6c1914102aef6127e82475de436600d3b0d2bc05e4b7",
+	"sha512": "3fa4b3318f1550ea9a4f1a0037c72a875e2503d26b8a0b9a71653f67f038e76b31deeff87fc9bd628da57814c34c3a0966d785d4c923627d760bdca1b1f08898",
+	"descriptionMd5": "ab797b9be2c2043f3a1cccfcbbd951f0"
+},{
+	"raw": {},
+	"required": [
+		"Filename",
+		"Size"
+	],
+	"package": "inetutils-ftpd",
+	"source": "inetutils",
 	"version": "2:2.7-2ubuntu1",
 	"section": "universe/net",
 	"priority": "optional",

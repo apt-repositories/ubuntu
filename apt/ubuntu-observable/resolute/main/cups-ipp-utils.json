@@ -6,6 +6,45 @@
 	],
 	"package": "cups-ipp-utils",
 	"source": "cups",
+	"version": "2.4.16-1ubuntu1.2",
+	"section": "net",
+	"priority": "optional",
+	"architecture": "amd64",
+	"depends": [
+		"libcups2t64 (= 2.4.16-1ubuntu1.2)",
+		"libavahi-client3 (>= 0.6.16)",
+		"libavahi-common3 (>= 0.6.16)",
+		"libc6 (>= 2.38)",
+		"libpam0g (>= 0.99.7.1)"
+	],
+	"recommends": [
+		"avahi-daemon"
+	],
+	"replaces": [
+		"cups-client (<< 2.0.3-2~)"
+	],
+	"breaks": [
+		"cups-client (<< 2.0.3-2~)"
+	],
+	"installedSize": 994,
+	"maintainer": "Ubuntu Developers <ubuntu-devel-discuss@lists.ubuntu.com>",
+	"description": "Common UNIX Printing System(tm) - IPP developer/admin utilities",
+	"homepage": "https://github.com/OpenPrinting/cups/",
+	"filename": "pool/main/c/cups/cups-ipp-utils_2.4.16-1ubuntu1.2_amd64.deb",
+	"size": 232362,
+	"md5": "6beeac5b47d446930a2714a3acc17f8e",
+	"sha1": "661105913fcf1c6c7bc480bf90c2240bedd06e97",
+	"sha256": "897f7455793ec5a5bd3d1894cee037b24a1b3c69bb9346cfcf89a2b4c86aaeb9",
+	"sha512": "5a4aef832d4d0423fa350774b23261d516559fc522784911412eebe4943a4b838e676204fcde2413ffc7c95ac1496315119bb31e1b0d44c160c83b277b6d952c",
+	"descriptionMd5": "fc53f48bcd5c06c739e45e5b8b3087d2"
+},{
+	"raw": {},
+	"required": [
+		"Filename",
+		"Size"
+	],
+	"package": "cups-ipp-utils",
+	"source": "cups",
 	"version": "2.4.16-1ubuntu1",
 	"section": "net",
 	"priority": "optional",
