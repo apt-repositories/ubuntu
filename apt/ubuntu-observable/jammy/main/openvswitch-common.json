@@ -48,6 +48,48 @@
 	],
 	"package": "openvswitch-common",
 	"source": "openvswitch",
+	"version": "2.17.9-0ubuntu0.22.04.2",
+	"section": "net",
+	"priority": "extra",
+	"architecture": "amd64",
+	"depends": [
+		"openssl",
+		"python3-six",
+		"python3:any",
+		"libc6 (>= 2.34)",
+		"libcap-ng0 (>= 0.7.9)",
+		"libssl3 (>= 3.0.0~~alpha1)",
+		"libunbound8 (>= 1.8.0)"
+	],
+	"suggests": [
+		"ethtool",
+		"openvswitch-doc"
+	],
+	"replaces": [
+		"openvswitch-switch (<< 2.13.0~git20200212.15ae9db33-0ubuntu2~)"
+	],
+	"breaks": [
+		"openvswitch-switch (<< 2.13.0~git20200212.15ae9db33-0ubuntu2~)"
+	],
+	"installedSize": 2892,
+	"maintainer": "Ubuntu Developers <ubuntu-devel-discuss@lists.ubuntu.com>",
+	"description": "Open vSwitch common components",
+	"homepage": "http://openvswitch.org/",
+	"filename": "pool/main/o/openvswitch/openvswitch-common_2.17.9-0ubuntu0.22.04.2_amd64.deb",
+	"size": 922856,
+	"md5": "9c4ff07fa59f53c942596c10299e0617",
+	"sha1": "158f3631ffdf98d8135632e92132b6df9d2e9c75",
+	"sha256": "748280e1dd641e3e9bc7dc55a9b562400ae8622ec3fb277073fcbc284c194071",
+	"sha512": "9b7909276d97febf9e4445afc08de863b5f2cfbf0fb5444130d8bc4501bbd7e2aa11783589e2a6b2224d8f949115bd42cca8ed604299510652b5b0ab6efa058e",
+	"descriptionMd5": "592fb336c66a49b36ec2d6b8873eb66a"
+},{
+	"raw": {},
+	"required": [
+		"Filename",
+		"Size"
+	],
+	"package": "openvswitch-common",
+	"source": "openvswitch",
 	"version": "2.17.0-0ubuntu1",
 	"section": "net",
 	"priority": "extra",
