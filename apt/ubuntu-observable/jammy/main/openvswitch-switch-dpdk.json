@@ -46,6 +46,46 @@
 	],
 	"package": "openvswitch-switch-dpdk",
 	"source": "openvswitch",
+	"version": "2.17.9-0ubuntu0.22.04.2",
+	"section": "net",
+	"priority": "extra",
+	"architecture": "amd64",
+	"depends": [
+		"dpdk",
+		"openvswitch-switch (= 2.17.9-0ubuntu0.22.04.2)",
+		"libc6 (>= 2.34)",
+		"libcap-ng0 (>= 0.7.9)",
+		"librte-eal22 (>= 21.11)",
+		"librte-ethdev22 (>= 21.11)",
+		"librte-mbuf22 (>= 21.11)",
+		"librte-mempool22 (>= 21.11)",
+		"librte-meter22 (>= 21.11)",
+		"librte-vhost22 (>= 21.11)",
+		"libssl3 (>= 3.0.0~~alpha1)",
+		"libunbound8 (>= 1.8.0)"
+	],
+	"enhances": [
+		"openvswitch-switch"
+	],
+	"installedSize": 2798,
+	"maintainer": "Ubuntu Developers <ubuntu-devel-discuss@lists.ubuntu.com>",
+	"description": "DPDK enabled Open vSwitch switch implementation",
+	"homepage": "http://openvswitch.org/",
+	"filename": "pool/main/o/openvswitch/openvswitch-switch-dpdk_2.17.9-0ubuntu0.22.04.2_amd64.deb",
+	"size": 1075088,
+	"md5": "93395aa148dbc2eabfa2c3c1d13366cc",
+	"sha1": "cd7207029563c7e08e4783c19d1506f91d8a1bde",
+	"sha256": "f528ddacf847ca6ac67d3060a3c7ad9fd959d156fec5567dcbfd8a33d354279b",
+	"sha512": "a5e6d3f59de6a839bb618d640d119ad93388f01910767f12b4f33d18f9d79bfb00b75ada126139dc3557a3d4088883b2166cff1f92765f62b04e764a18d290bf",
+	"descriptionMd5": "c9a918dc998b88bacbc77b69bf99d90f"
+},{
+	"raw": {},
+	"required": [
+		"Filename",
+		"Size"
+	],
+	"package": "openvswitch-switch-dpdk",
+	"source": "openvswitch",
 	"version": "2.17.0-0ubuntu1",
 	"section": "net",
 	"priority": "extra",
