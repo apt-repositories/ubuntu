@@ -1,0 +1,47 @@
+{
+	"raw": {},
+	"required": [
+		"Filename",
+		"Size"
+	],
+	"package": "qemu-utils-hwe",
+	"source": "qemu-hwe",
+	"version": "1:10.2.1+ds-1ubuntu4.2",
+	"section": "otherosfs",
+	"priority": "optional",
+	"architecture": "amd64",
+	"depends": [
+		"libaio1t64 (>= 0.3.93)",
+		"libc6 (>= 2.42)",
+		"libfuse3-4 (>= 3.17.2)",
+		"libglib2.0-0t64 (>= 2.78.0)",
+		"libgnutls30t64 (>= 3.8.2)",
+		"libnuma1 (>= 2.0.11)",
+		"libselinux1 (>= 3.1~)",
+		"liburing2 (>= 2.3)",
+		"libzstd1 (>= 1.5.5)",
+		"zlib1g (>= 1:1.1.4)",
+		"ubuntu-virt-hwe"
+	],
+	"recommends": [
+		"qemu-block-extra (= 1:10.2.1+ds-1ubuntu4.2)"
+	],
+	"replaces": [
+		"qemu-system-common (<< 1:8.0+dfsg-5~)",
+		"qemu-utils"
+	],
+	"breaks": [
+		"qemu-system-common (<< 1:8.0+dfsg-5~)"
+	],
+	"installedSize": 12601,
+	"maintainer": "Ubuntu Developers <ubuntu-devel-discuss@lists.ubuntu.com>",
+	"description": "QEMU utilities",
+	"homepage": "http://www.qemu.org/",
+	"filename": "pool/main/q/qemu-hwe/qemu-utils-hwe_10.2.1+ds-1ubuntu4.2_amd64.deb",
+	"size": 2389126,
+	"md5": "a8f00d11d3d1a0df804089cc19415c5d",
+	"sha1": "c276f3fca34594b95e3b30f8418195edec65c9a1",
+	"sha256": "884a52986231b4d0ae88fb2667e2a050d2b8a839b52ae8813fa66a3801b9d1a0",
+	"sha512": "b842efbe6c61a2ff84c1981aab43c6e079956857bb902c1c54239b0f19d861ada044d13e021aaf3043d46fe1b76ae66a59bb1e70be2bf53de890a7e40cc633c6",
+	"descriptionMd5": "6dec2a761c07cdaed585dbd173d0777f"
+}
