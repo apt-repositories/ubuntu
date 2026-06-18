@@ -64,6 +64,64 @@
 	],
 	"package": "libreoffice-base",
 	"source": "libreoffice",
+	"version": "4:26.2.4.2-0ubuntu0.26.04.1",
+	"section": "universe/database",
+	"priority": "optional",
+	"architecture": "amd64",
+	"depends": [
+		"libreoffice-base-core (= 4:26.2.4.2-0ubuntu0.26.04.1)",
+		"libreoffice-base-drivers (= 4:26.2.4.2-0ubuntu0.26.04.1)",
+		"libreoffice-core (= 4:26.2.4.2-0ubuntu0.26.04.1)",
+		"libreoffice-uiconfig-base (= 4:26.2.4.2-0ubuntu0.26.04.1)",
+		"libc6 (>= 2.35)",
+		"libgcc-s1 (>= 3.0)",
+		"libreoffice-sal-private-abi (= 26.2.4)",
+		"libstdc++6 (>= 11)",
+		"libuno-cppu3t64 (>= 4.4.0~alpha)",
+		"libuno-cppuhelpergcc3-3t64 (>= 5.3.0~alpha)",
+		"libuno-sal3t64 (>= 1:7.3.0~beta1)",
+		"libuno-salhelpergcc3-3t64 (>= 1.4.0)",
+		"uno-libs-private"
+	],
+	"preDepends": [
+		"ucf",
+		"libreoffice-common (>= 4:25.2.1~rc1-3~)"
+	],
+	"recommends": [
+		"libreoffice-writer",
+		"libreoffice-java-common (>= 4:26.2.4.2~)",
+		"default-jre (>= 2:1.8) | java-runtime (>= 8) | java8-runtime | jre"
+	],
+	"suggests": [
+		"libreoffice-report-builder",
+		"python3-access2base",
+		"unixodbc"
+	],
+	"replaces": [
+		"libreoffice-common (<< 1:6.4.2~rc1~)"
+	],
+	"breaks": [
+		"libreoffice-common (<< 1:6.4.2~rc1~)"
+	],
+	"installedSize": 6044,
+	"maintainer": "Ubuntu Developers <ubuntu-devel-discuss@lists.ubuntu.com>",
+	"description": "office productivity suite -- database",
+	"homepage": "http://www.libreoffice.org",
+	"filename": "pool/universe/libr/libreoffice/libreoffice-base_26.2.4.2-0ubuntu0.26.04.1_amd64.deb",
+	"size": 1704984,
+	"md5": "7cfce8a3aa3dd074230556c13a71cc85",
+	"sha1": "c6a8a4e0492a3ea006698dfbceea738aa22602f5",
+	"sha256": "3bb2275c8077cd2601160a1ed5e4b182b59c726e5af008b74305d1353294d3ed",
+	"sha512": "c36b348ae88cb3745aadea23c67a13aec4c4b1655e6a87e9e250d5a0331871ccfe22f35c316fc5da2e197334d5ac47be3c0398b50c19a9d6fc4380aca9850334",
+	"descriptionMd5": "5529fff5c628ca6b70284749063daea4"
+},{
+	"raw": {},
+	"required": [
+		"Filename",
+		"Size"
+	],
+	"package": "libreoffice-base",
+	"source": "libreoffice",
 	"version": "4:26.2.2.2-0ubuntu1",
 	"section": "universe/database",
 	"priority": "optional",
