@@ -54,6 +54,54 @@
 	],
 	"package": "libreoffice-sdbc-hsqldb",
 	"source": "libreoffice",
+	"version": "4:26.2.4.2-0ubuntu0.26.04.1",
+	"section": "universe/database",
+	"priority": "optional",
+	"architecture": "amd64",
+	"depends": [
+		"libreoffice-core-nogui | libreoffice-core",
+		"libreoffice-java-common (>= 4:26.2.4.2~)",
+		"default-jre (>= 2:1.8) | java-runtime (>= 8) | java8-runtime | jre",
+		"libhsqldb1.8.0-java",
+		"libc6 (>= 2.32)",
+		"libgcc-s1 (>= 3.0)",
+		"libreoffice-sal-private-abi (= 26.2.4)",
+		"libstdc++6 (>= 11)",
+		"libuno-cppu3t64 (>= 4.4.0~alpha)",
+		"libuno-cppuhelpergcc3-3t64 (>= 1:7.4.0~alpha)",
+		"libuno-sal3t64 (>= 1:7.3.0~beta1)",
+		"libuno-salhelpergcc3-3t64 (>= 1.4.0)",
+		"uno-libs-private"
+	],
+	"preDepends": [
+		"ucf",
+		"libreoffice-common (>= 4:25.2.1~rc1-3~)"
+	],
+	"replaces": [
+		"libreoffice-common (= 4:24.8.5-1)"
+	],
+	"enhances": [
+		"libreoffice-base-drivers"
+	],
+	"installedSize": 489,
+	"maintainer": "Ubuntu Developers <ubuntu-devel-discuss@lists.ubuntu.com>",
+	"description": "embedded HSQLDB SDBC driver for LibreOffice",
+	"homepage": "http://www.libreoffice.org",
+	"filename": "pool/universe/libr/libreoffice/libreoffice-sdbc-hsqldb_26.2.4.2-0ubuntu0.26.04.1_amd64.deb",
+	"size": 135042,
+	"md5": "ff644d9c93683e8329538b84c7417d23",
+	"sha1": "040c02dcd790b37ae22d7d90dfef3f52df179c97",
+	"sha256": "50dfb141785f820e14d9aad74273296b51668703da233b8d0da6c67672cb08af",
+	"sha512": "e08b9e9b439ea0aede11bb686b2347cb8aa3f5c2915500fd01a6b6bb7b6d5bbe1755beff603a52a85972bf9cb873e73ac682cb879470869c0d7fb6ad051de30e",
+	"descriptionMd5": "6f134726a575672413c47417341a5e32"
+},{
+	"raw": {},
+	"required": [
+		"Filename",
+		"Size"
+	],
+	"package": "libreoffice-sdbc-hsqldb",
+	"source": "libreoffice",
 	"version": "4:26.2.2.2-0ubuntu1",
 	"section": "universe/database",
 	"priority": "optional",
