@@ -6,6 +6,49 @@
 	],
 	"package": "libvirt-daemon-driver-nodedev-hwe",
 	"source": "libvirt-hwe",
+	"version": "12.0.0-1ubuntu5.1",
+	"section": "admin",
+	"priority": "optional",
+	"architecture": "amd64",
+	"depends": [
+		"libvirt-common (= 12.0.0-1ubuntu5.1)",
+		"libvirt-daemon (= 12.0.0-1ubuntu5.1)",
+		"libvirt0 (= 12.0.0-1ubuntu5.1)",
+		"mdevctl",
+		"libc6 (>= 2.4)",
+		"libgcc-s1 (>= 3.3.1)",
+		"libglib2.0-0t64 (>= 2.44.0)",
+		"libpciaccess0",
+		"libudev1 (>= 183)",
+		"libvirt0-hwe (>= 12.0.0)",
+		"ubuntu-virt-hwe"
+	],
+	"replaces": [
+		"libvirt-daemon (<< 10.6.0-2~)",
+		"libvirt-daemon-driver-nodedev"
+	],
+	"breaks": [
+		"libvirt-daemon (<< 10.6.0-2~)"
+	],
+	"installedSize": 117,
+	"maintainer": "Ubuntu Developers <ubuntu-devel-discuss@lists.ubuntu.com>",
+	"description": "virtualization daemon - node device (nodedev) driver",
+	"homepage": "https://libvirt.org/drvnodedev.html",
+	"filename": "pool/main/libv/libvirt-hwe/libvirt-daemon-driver-nodedev-hwe_12.0.0-1ubuntu5.1_amd64.deb",
+	"size": 36950,
+	"md5": "99eaeff935663e30168482f3c8253938",
+	"sha1": "d75e418642feff09ed8c0716ca4e7f22ecce1ae3",
+	"sha256": "6840029ea27522abd40a4a027c9b7b14c3013339087bfbf927b29f053b31f81d",
+	"sha512": "c18a261979a2a062d281336a12b07ce720a4256b75e9db1acdfa55ab3f7ebe07b955895fcf41fcc40abf9f3e68bd5c6aa089142b5e7671f4768371186e09b68a",
+	"descriptionMd5": "f0d359a71e1d5bdc19d1c83b29b8bb39"
+},{
+	"raw": {},
+	"required": [
+		"Filename",
+		"Size"
+	],
+	"package": "libvirt-daemon-driver-nodedev-hwe",
+	"source": "libvirt-hwe",
 	"version": "12.0.0-1ubuntu5",
 	"section": "admin",
 	"priority": "optional",

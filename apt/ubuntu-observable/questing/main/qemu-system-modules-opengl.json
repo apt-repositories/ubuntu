@@ -46,6 +46,46 @@
 	],
 	"package": "qemu-system-modules-opengl",
 	"source": "qemu",
+	"version": "1:10.1.0+ds-5ubuntu2.7",
+	"section": "otherosfs",
+	"priority": "optional",
+	"architecture": "amd64",
+	"depends": [
+		"libc6 (>= 2.14)",
+		"libepoxy0 (>= 1.5.2)",
+		"libgbm1 (>= 7.11~1)",
+		"libglib2.0-0t64 (>= 2.83.0)",
+		"libpixman-1-0 (>= 0.25.2)",
+		"libvirglrenderer1 (>= 1.0.0)",
+		"qemu-system-any (= 1:10.1.0+ds-5ubuntu2.7)"
+	],
+	"replaces": [
+		"qemu-system-common (<< 1:8.1.0+ds-1~exp2~)",
+		"qemu-system-gui (<< 1:8.1.0+ds-1~exp2~)"
+	],
+	"breaks": [
+		"qemu-system-common (<< 1:8.1.0+ds-1~exp2~)",
+		"qemu-system-gui (<< 1:8.1.0+ds-1~exp2~)"
+	],
+	"installedSize": 832,
+	"maintainer": "Ubuntu Developers <ubuntu-devel-discuss@lists.ubuntu.com>",
+	"description": "QEMU full system emulation binaries (OpenGL display modules)",
+	"homepage": "http://www.qemu.org/",
+	"filename": "pool/main/q/qemu/qemu-system-modules-opengl_10.1.0+ds-5ubuntu2.7_amd64.deb",
+	"size": 210914,
+	"md5": "b65e22717599f9201c4b3064eb377601",
+	"sha1": "4be150ec36d36189cfcda416030c90f471f3920f",
+	"sha256": "216ad32489aa219dac3dbe18a82f92e82a2e764eeb993517c64a64e44a104326",
+	"sha512": "88c281582c7cb26b7d522476e05c2868c6affaac63cbae29e3a472e79170d62f010b32e6aae0d27879f2b5f84e2c4a4581241c9a41fd600eac64912cfda6f6c6",
+	"descriptionMd5": "6ef974b2d5d6675c64ce429423ab5d68"
+},{
+	"raw": {},
+	"required": [
+		"Filename",
+		"Size"
+	],
+	"package": "qemu-system-modules-opengl",
+	"source": "qemu",
 	"version": "1:10.1.0+ds-5ubuntu2",
 	"section": "otherosfs",
 	"priority": "optional",

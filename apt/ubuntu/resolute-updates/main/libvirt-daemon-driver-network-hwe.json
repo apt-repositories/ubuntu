@@ -1,0 +1,45 @@
+{
+	"raw": {},
+	"required": [
+		"Filename",
+		"Size"
+	],
+	"package": "libvirt-daemon-driver-network-hwe",
+	"source": "libvirt-hwe",
+	"version": "12.0.0-1ubuntu5.1",
+	"section": "admin",
+	"priority": "optional",
+	"architecture": "amd64",
+	"depends": [
+		"dnsmasq-base",
+		"iptables | nftables",
+		"libvirt-common (= 12.0.0-1ubuntu5.1)",
+		"libvirt-daemon (= 12.0.0-1ubuntu5.1)",
+		"libvirt0 (= 12.0.0-1ubuntu5.1)",
+		"libc6 (>= 2.38)",
+		"libgcc-s1 (>= 3.3.1)",
+		"libglib2.0-0t64 (>= 2.26.0)",
+		"libvirt0-hwe (>= 12.0.0)",
+		"ubuntu-virt-hwe"
+	],
+	"replaces": [
+		"libvirt-daemon (<< 10.6.0-2~)",
+		"libvirt-daemon-driver-network",
+		"libvirt-daemon-system (<< 10.6.0-2~)"
+	],
+	"breaks": [
+		"libvirt-daemon (<< 10.6.0-2~)",
+		"libvirt-daemon-system (<< 10.6.0-2~)"
+	],
+	"installedSize": 204,
+	"maintainer": "Ubuntu Developers <ubuntu-devel-discuss@lists.ubuntu.com>",
+	"description": "virtualization daemon - network driver",
+	"homepage": "https://libvirt.org/formatnetwork.html",
+	"filename": "pool/main/libv/libvirt-hwe/libvirt-daemon-driver-network-hwe_12.0.0-1ubuntu5.1_amd64.deb",
+	"size": 62086,
+	"md5": "9b866b2043af82dbfab2334ab61451c3",
+	"sha1": "56667246d12fdfdf301b3848916e6399be8562f4",
+	"sha256": "adcc4623ed8557a2f77bb63331ea16e5335a4d64bf48872625fe2a7d25b5438e",
+	"sha512": "05eb648d4edffec965f03b5ae0fceb850df7e4dd8b5bbf8ad2a1d1a92380d65112394c71550e0cee1b90a2a6194dbd80ba5fdd56654153c90f47ec32719b4fae",
+	"descriptionMd5": "ce49d9a3ccd1c103fede85a43a27b5a8"
+}

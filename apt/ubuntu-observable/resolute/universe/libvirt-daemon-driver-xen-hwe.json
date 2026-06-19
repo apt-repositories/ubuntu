@@ -6,6 +6,54 @@
 	],
 	"package": "libvirt-daemon-driver-xen-hwe",
 	"source": "libvirt-hwe",
+	"version": "12.0.0-1ubuntu5.1",
+	"section": "universe/admin",
+	"priority": "optional",
+	"architecture": "amd64",
+	"depends": [
+		"libvirt-common (= 12.0.0-1ubuntu5.1)",
+		"libvirt-daemon (= 12.0.0-1ubuntu5.1)",
+		"libvirt0 (= 12.0.0-1ubuntu5.1)",
+		"logrotate",
+		"libc6 (>= 2.38)",
+		"libgcc-s1 (>= 3.3.1)",
+		"libglib2.0-0t64 (>= 2.64.0)",
+		"libvirt0-hwe (>= 12.0.0)",
+		"libxenmisc4.20 (>= 4.20.2+7-g1badcf5035)",
+		"libxenstore4 (>= 4.16.0)",
+		"libxentoollog1 (>= 4.20.2+7-g1badcf5035)",
+		"libxml2-16 (>= 2.14.1)",
+		"ubuntu-virt-hwe"
+	],
+	"replaces": [
+		"libvirt-daemon-driver-xen",
+		"libvirt-daemon-system (<< 10.6.0-2~)"
+	],
+	"enhances": [
+		"xen"
+	],
+	"breaks": [
+		"libvirt-daemon-system (<< 10.6.0-2~)"
+	],
+	"installedSize": 346,
+	"maintainer": "Ubuntu Developers <ubuntu-devel-discuss@lists.ubuntu.com>",
+	"description": "virtualization daemon - Xen connection driver",
+	"homepage": "https://libvirt.org/drvxen.html",
+	"filename": "pool/universe/libv/libvirt-hwe/libvirt-daemon-driver-xen-hwe_12.0.0-1ubuntu5.1_amd64.deb",
+	"size": 118280,
+	"md5": "604ac3874c3373188afaadb33b601a0d",
+	"sha1": "cb34b2676c20895e53c971ca20ef92e7453c819f",
+	"sha256": "1aa181a35ff9b8ead56112aa54adbe0384c0a73a12f5b3a0959a7c55e5be2a20",
+	"sha512": "7a55dee41a6d8d53fedb3d8ee7afe530fd96520fb8e47d77b1db17e196add9a8b8d5f05848d0ea17d0a12631f5632424003baa1fe047a64fc5e01990f298df84",
+	"descriptionMd5": "a4ea14f219281720648e3e1bf1aec981"
+},{
+	"raw": {},
+	"required": [
+		"Filename",
+		"Size"
+	],
+	"package": "libvirt-daemon-driver-xen-hwe",
+	"source": "libvirt-hwe",
 	"version": "12.0.0-1ubuntu5",
 	"section": "universe/admin",
 	"priority": "optional",

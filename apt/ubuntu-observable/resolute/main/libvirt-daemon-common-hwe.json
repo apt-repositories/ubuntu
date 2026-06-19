@@ -6,6 +6,69 @@
 	],
 	"package": "libvirt-daemon-common-hwe",
 	"source": "libvirt-hwe",
+	"version": "12.0.0-1ubuntu5.1",
+	"section": "admin",
+	"priority": "optional",
+	"architecture": "amd64",
+	"depends": [
+		"dmidecode",
+		"gettext-base",
+		"iproute2",
+		"kmod",
+		"libvirt-common (= 12.0.0-1ubuntu5.1)",
+		"libvirt0 (= 12.0.0-1ubuntu5.1)",
+		"polkitd (>= 121+compat0.1-2)",
+		"sensible-utils",
+		"systemd | systemd-standalone-sysusers | systemd-sysusers",
+		"libacl1 (>= 2.2.23)",
+		"libc6 (>= 2.34)",
+		"libgcc-s1 (>= 3.3.1)",
+		"libglib2.0-0t64 (>= 2.58.0)",
+		"libreadline8t64 (>= 6.0)",
+		"libvirt0-hwe (>= 12.0.0)",
+		"ubuntu-virt-hwe"
+	],
+	"recommends": [
+		"netcat-openbsd"
+	],
+	"suggests": [
+		"apparmor",
+		"auditd",
+		"systemtap"
+	],
+	"replaces": [
+		"libvirt-clients (<< 10.6.0-2~)",
+		"libvirt-daemon (<< 10.6.0-2~)",
+		"libvirt-daemon-common",
+		"libvirt-daemon-system-sysv (<< 10.6.0-2~)"
+	],
+	"breaks": [
+		"libvirt-clients (<< 10.6.0-2~)",
+		"libvirt-daemon (<< 10.6.0-2~)",
+		"libvirt-daemon-system-sysv (<< 10.6.0-2~)"
+	],
+	"conflicts": [
+		"libvirt-daemon-system (<< 10.6.0-2~)"
+	],
+	"installedSize": 539,
+	"maintainer": "Ubuntu Developers <ubuntu-devel-discuss@lists.ubuntu.com>",
+	"description": "virtualization daemon - common files",
+	"homepage": "https://libvirt.org/",
+	"filename": "pool/main/libv/libvirt-hwe/libvirt-daemon-common-hwe_12.0.0-1ubuntu5.1_amd64.deb",
+	"size": 117932,
+	"md5": "6b339fb36e84a6626a9a15556381ee9c",
+	"sha1": "6b3de79de60d9ec8222d9e5cd74f47f8d5d3ecb6",
+	"sha256": "7df3395a6b4ae2789ea6cf474a080b60a26ef815ecc1754fc42a9d56cd5d7689",
+	"sha512": "feef642d8c484d51df390b307b04e6df1cde7df9540e0e2551640e39d2d0a1c4d381043562e0bcebae497d647bc964cb5636cbc5723b35c482aeafc962d799f0",
+	"descriptionMd5": "88b6745724f49cea3882a476a6fddf35"
+},{
+	"raw": {},
+	"required": [
+		"Filename",
+		"Size"
+	],
+	"package": "libvirt-daemon-common-hwe",
+	"source": "libvirt-hwe",
 	"version": "12.0.0-1ubuntu5",
 	"section": "admin",
 	"priority": "optional",

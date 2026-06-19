@@ -6,6 +6,47 @@
 	],
 	"package": "libvirt-daemon-driver-storage-iscsi-direct-hwe",
 	"source": "libvirt-hwe",
+	"version": "12.0.0-1ubuntu5.1",
+	"section": "universe/admin",
+	"priority": "optional",
+	"architecture": "amd64",
+	"depends": [
+		"libvirt-common (= 12.0.0-1ubuntu5.1)",
+		"libvirt-daemon (= 12.0.0-1ubuntu5.1)",
+		"libvirt-daemon-driver-storage (= 12.0.0-1ubuntu5.1)",
+		"libvirt0 (= 12.0.0-1ubuntu5.1)",
+		"libc6 (>= 2.4)",
+		"libgcc-s1 (>= 3.3.1)",
+		"libglib2.0-0t64 (>= 2.24.0)",
+		"libiscsi7 (>= 1.18.0)",
+		"libvirt0-hwe (>= 12.0.0)",
+		"ubuntu-virt-hwe"
+	],
+	"recommends": [
+		"qemu-block-extra"
+	],
+	"replaces": [
+		"libvirt-daemon-driver-storage-iscsi-direct"
+	],
+	"installedSize": 41,
+	"maintainer": "Ubuntu Developers <ubuntu-devel-discuss@lists.ubuntu.com>",
+	"description": "virtualization daemon - iSCSI (libiscsi) storage driver",
+	"homepage": "https://libvirt.org/storage.html#iscsi-direct-pool",
+	"filename": "pool/universe/libv/libvirt-hwe/libvirt-daemon-driver-storage-iscsi-direct-hwe_12.0.0-1ubuntu5.1_amd64.deb",
+	"size": 9736,
+	"md5": "d52858f9d3d9acc54a01bd5e455ff927",
+	"sha1": "53ea3da0bcc4878de411c2564829be4ff2aa0987",
+	"sha256": "d750894ad7dc508d6cb96c304482de0faa582454fe4d5e63d1549c2283ef7133",
+	"sha512": "a305823262e6e6a4b3a3ad85f2aa604f44335af09db4b6365c2ce85c961c4ad4f0851703a177aac798cefb70da00e35f609cb2fdf1bcb185b768b3cd62b39516",
+	"descriptionMd5": "b22d9ee1b21ea5f8a7dd03f058ce5057"
+},{
+	"raw": {},
+	"required": [
+		"Filename",
+		"Size"
+	],
+	"package": "libvirt-daemon-driver-storage-iscsi-direct-hwe",
+	"source": "libvirt-hwe",
 	"version": "12.0.0-1ubuntu5",
 	"section": "universe/admin",
 	"priority": "optional",

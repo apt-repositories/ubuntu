@@ -1,0 +1,49 @@
+{
+	"raw": {},
+	"required": [
+		"Filename",
+		"Size"
+	],
+	"package": "libvirt-daemon-driver-storage-hwe",
+	"source": "libvirt-hwe",
+	"version": "12.0.0-1ubuntu5.1",
+	"section": "admin",
+	"priority": "optional",
+	"architecture": "amd64",
+	"depends": [
+		"libvirt-common (= 12.0.0-1ubuntu5.1)",
+		"libvirt-daemon (= 12.0.0-1ubuntu5.1)",
+		"libvirt0 (= 12.0.0-1ubuntu5.1)",
+		"mount",
+		"libblkid1 (>= 2.17.2)",
+		"libc6 (>= 2.38)",
+		"libgcc-s1 (>= 3.3.1)",
+		"libglib2.0-0t64 (>= 2.24.0)",
+		"libparted2t64 (>= 3.1)",
+		"libselinux1 (>= 3.1~)",
+		"libvirt0-hwe (>= 12.0.0)",
+		"libxml2-16 (>= 2.14.1)",
+		"ubuntu-virt-hwe"
+	],
+	"suggests": [
+		"nfs-common"
+	],
+	"replaces": [
+		"libvirt-daemon (<< 10.6.0-2~)",
+		"libvirt-daemon-driver-storage"
+	],
+	"breaks": [
+		"libvirt-daemon (<< 10.6.0-2~)"
+	],
+	"installedSize": 201,
+	"maintainer": "Ubuntu Developers <ubuntu-devel-discuss@lists.ubuntu.com>",
+	"description": "virtualization daemon - storage driver",
+	"homepage": "https://libvirt.org/storage.html",
+	"filename": "pool/main/libv/libvirt-hwe/libvirt-daemon-driver-storage-hwe_12.0.0-1ubuntu5.1_amd64.deb",
+	"size": 61256,
+	"md5": "f0423fb33f59dfa2f7fbceeae552ff3f",
+	"sha1": "9187096353d0b8284652892eaf7d0870d8c654a7",
+	"sha256": "e2f94c06154d396189f8b73f7e0896f06b87d775e6c6bb611a2b23e5962417cb",
+	"sha512": "ac5d24b56e1e18dbc20967b0a489a48ec4dc67eb7df8b4899cf617d9c48c391d309306d11ae46ab8a8538705d8a8a6b84d21251bc20b51c5cd6bf4418db50682",
+	"descriptionMd5": "df2db56363a4d206f89ff096b19b509d"
+}

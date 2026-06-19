@@ -46,6 +46,46 @@
 	],
 	"package": "qemu-system-data",
 	"source": "qemu",
+	"version": "1:8.2.2+ds-0ubuntu1.17",
+	"section": "otherosfs",
+	"priority": "optional",
+	"architecture": "all",
+	"replaces": [
+		"openbios-ppc",
+		"openbios-sparc",
+		"qemu-slof",
+		"qemu-system-ppc (<< 1:6.1-4~)",
+		"sgabios"
+	],
+	"breaks": [
+		"qemu-system-ppc (<< 1:6.1-4~)"
+	],
+	"conflicts": [
+		"openbios-ppc",
+		"openbios-sparc",
+		"qemu-skiboot",
+		"qemu-slof",
+		"sgabios"
+	],
+	"installedSize": 9081,
+	"maintainer": "Ubuntu Developers <ubuntu-devel-discuss@lists.ubuntu.com>",
+	"description": "QEMU full system emulation (data files)",
+	"homepage": "http://www.qemu.org/",
+	"filename": "pool/main/q/qemu/qemu-system-data_8.2.2+ds-0ubuntu1.17_all.deb",
+	"size": 1796224,
+	"md5": "371100cd633f7063267b707297034fef",
+	"sha1": "afe05859b45f99492581e263aaeec33adb2f138a",
+	"sha256": "88ce96c466441375a299a4b643c6c6e2ff2f2d7fb7e138d09c3e03ab87edc099",
+	"sha512": "f7d915328c458a29a9cef8166825a6d1f06d4b67b8fc772a756cda26d1f2184e1a7752cf1a2fe5f3d7999df6a2fd82cce0a3faf3457b14be31236d162f1cd329",
+	"descriptionMd5": "c61105eaa5edddd1459bc7ebfd8348d6"
+},{
+	"raw": {},
+	"required": [
+		"Filename",
+		"Size"
+	],
+	"package": "qemu-system-data",
+	"source": "qemu",
 	"version": "1:8.2.2+ds-0ubuntu1",
 	"section": "otherosfs",
 	"priority": "optional",

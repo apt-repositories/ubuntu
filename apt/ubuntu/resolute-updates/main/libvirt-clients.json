@@ -1,0 +1,50 @@
+{
+	"raw": {},
+	"required": [
+		"Filename",
+		"Size"
+	],
+	"package": "libvirt-clients",
+	"source": "libvirt",
+	"version": "12.0.0-1ubuntu5.1",
+	"section": "admin",
+	"priority": "optional",
+	"architecture": "amd64",
+	"depends": [
+		"libvirt-common (= 12.0.0-1ubuntu5.1)",
+		"libvirt0 (= 12.0.0-1ubuntu5.1)",
+		"libxml2-utils",
+		"sensible-utils",
+		"libc6 (>= 2.34)",
+		"libgcc-s1 (>= 3.3.1)",
+		"libglib2.0-0t64 (>= 2.44.0)",
+		"libgnutls30t64 (>= 3.7.0)",
+		"libreadline8t64 (>= 6.0)",
+		"libxml2-16 (>= 2.14.1)",
+		"ubuntu-virt"
+	],
+	"suggests": [
+		"libvirt-clients-qemu (= 12.0.0-1ubuntu5.1)",
+		"libvirt-daemon (= 12.0.0-1ubuntu5.1)",
+		"libvirt-login-shell (= 12.0.0-1ubuntu5.1)"
+	],
+	"replaces": [
+		"libvirt-clients-hwe",
+		"libvirt-daemon (<< 6.9.0-2~)"
+	],
+	"breaks": [
+		"libvirt-daemon (<< 6.9.0-2~)",
+		"libvirt-daemon-driver-qemu (<< 6.9.0-2~)"
+	],
+	"installedSize": 1155,
+	"maintainer": "Ubuntu Developers <ubuntu-devel-discuss@lists.ubuntu.com>",
+	"description": "virtualization library - clients",
+	"homepage": "https://libvirt.org/",
+	"filename": "pool/main/libv/libvirt/libvirt-clients_12.0.0-1ubuntu5.1_amd64.deb",
+	"size": 427538,
+	"md5": "1f0fefb7cbf64e1d268de737b02c6862",
+	"sha1": "6387485ad15761c482895abdd84380eb9e78604e",
+	"sha256": "a4a70653c9f29bb17170d592fe1d139488422452307e70ca25c0a8f29de38cec",
+	"sha512": "b201aadd32b26cb7408216c2fff7f94b73960731797975bb17d37177bff58902d7267fd057af9f2580e8de5208b11f27babf25417a793c86a4969b2a36b84b7f",
+	"descriptionMd5": "ebf0adcee979a1fc0154c2925e1f6df0"
+}

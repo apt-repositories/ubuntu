@@ -6,6 +6,78 @@
 	],
 	"package": "qemu-system-x86",
 	"source": "qemu",
+	"version": "1:10.2.1+ds-1ubuntu3.1",
+	"section": "misc",
+	"priority": "optional",
+	"architecture": "amd64",
+	"depends": [
+		"libaio1t64 (>= 0.3.93)",
+		"libbpf1 (>= 1:0.0.8)",
+		"libc6 (>= 2.43)",
+		"libfdt1 (>= 1.7.2)",
+		"libfuse3-4 (>= 3.17.2)",
+		"libglib2.0-0t64 (>= 2.78.0)",
+		"libgnutls30t64 (>= 3.8.6)",
+		"libibverbs1 (>= 1.1.6)",
+		"libjpeg8 (>= 8c)",
+		"libnuma1 (>= 2.0.15)",
+		"libpixman-1-0 (>= 0.19.6)",
+		"libpmem1 (>= 1.4)",
+		"libpng16-16t64 (>= 1.6.46)",
+		"librdmacm1t64 (>= 1.0.15)",
+		"libsasl2-2 (>= 2.1.28+dfsg1)",
+		"libseccomp2 (>= 2.1.0)",
+		"libslirp0 (>= 4.9.1)",
+		"libudev1 (>= 183)",
+		"liburing2 (>= 2.3)",
+		"libzstd1 (>= 1.5.5)",
+		"zlib1g (>= 1:1.2.0)",
+		"qemu-system-common (= 1:10.2.1+ds-1ubuntu3.1)",
+		"qemu-system-data (>> 1:10.2.1+ds~)",
+		"seabios (>> 1.17.0-1~)",
+		"ipxe-qemu (>> 1.21.1+git20220113.fbbdc3926+dfsg-1~)",
+		"ubuntu-virt"
+	],
+	"recommends": [
+		"qemu-utils",
+		"ipxe-qemu-256k-compat-efi-roms",
+		"ovmf",
+		"qemu-system-gui (= 1:10.2.1+ds-1ubuntu3.1)",
+		"qemu-system-modules-spice (= 1:10.2.1+ds-1ubuntu3.1)",
+		"qemu-system-modules-opengl (= 1:10.2.1+ds-1ubuntu3.1)",
+		"qemu-block-extra (= 1:10.2.1+ds-1ubuntu3.1)",
+		"cpu-checker"
+	],
+	"suggests": [
+		"samba",
+		"vde2",
+		"passt"
+	],
+	"replaces": [
+		"qemu-system-x86-hwe"
+	],
+	"conflicts": [
+		"qemu-kvm"
+	],
+	"installedSize": 67588,
+	"maintainer": "Ubuntu Developers <ubuntu-devel-discuss@lists.ubuntu.com>",
+	"description": "QEMU full system emulation binaries (x86)",
+	"homepage": "http://www.qemu.org/",
+	"filename": "pool/main/q/qemu/qemu-system-x86_10.2.1+ds-1ubuntu3.1_amd64.deb",
+	"size": 11403564,
+	"md5": "910ffdced0f84876f6227455c65efe43",
+	"sha1": "385e0cf468961e1d74d80e3f0368391530113ffe",
+	"sha256": "dd6ebd02a056a7636ad6e5835c05b9bc37c3d86d010654c5e25b9f049d351203",
+	"sha512": "b59f956a4d5c2c99e47241e7aee676beb1a2d0e40cdf36bd48fe91172fac99b0acb8a2abf43f37acda84204ad03f7c579d460eba66b86083f1ba64fca451f0b6",
+	"descriptionMd5": "101a12e03df790d974e0f42cbdab8a73"
+},{
+	"raw": {},
+	"required": [
+		"Filename",
+		"Size"
+	],
+	"package": "qemu-system-x86",
+	"source": "qemu",
 	"version": "1:10.2.1+ds-1ubuntu3",
 	"section": "misc",
 	"priority": "optional",
