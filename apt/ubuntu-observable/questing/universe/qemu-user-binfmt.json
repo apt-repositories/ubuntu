@@ -41,6 +41,41 @@
 	],
 	"package": "qemu-user-binfmt",
 	"source": "qemu",
+	"version": "1:10.1.0+ds-5ubuntu2.7",
+	"section": "universe/otherosfs",
+	"priority": "optional",
+	"architecture": "amd64",
+	"depends": [
+		"qemu-user (= 1:10.1.0+ds-5ubuntu2.7)"
+	],
+	"recommends": [
+		"systemd"
+	],
+	"replaces": [
+		"qemu-user-static (<< 1:9.1.0)"
+	],
+	"breaks": [
+		"qemu-user-static"
+	],
+	"installedSize": 39,
+	"maintainer": "Ubuntu Developers <ubuntu-devel-discuss@lists.ubuntu.com>",
+	"description": "QEMU user mode binfmt registration for qemu-user",
+	"homepage": "http://www.qemu.org/",
+	"filename": "pool/universe/q/qemu/qemu-user-binfmt_10.1.0+ds-5ubuntu2.7_amd64.deb",
+	"size": 1660,
+	"md5": "9715275caae5a651ebb2ccb806bd13d1",
+	"sha1": "061cb46340f6b0103b291e417544746ef74a040b",
+	"sha256": "304533478101eeb6f0de288baee7fdf96a34df823f13f344f7358ed3735dabe7",
+	"sha512": "d0e51575f6056fdc7f633ff4ac205c2e67c51bb8746fa36aae03ab590c988b26cd57811591afedeb81589d964c33a410eaecd342a9d079a8e687e0a528eb48ac",
+	"descriptionMd5": "e64f16d60c78a6797d7047057c0d93fd"
+},{
+	"raw": {},
+	"required": [
+		"Filename",
+		"Size"
+	],
+	"package": "qemu-user-binfmt",
+	"source": "qemu",
 	"version": "1:10.1.0+ds-5ubuntu2",
 	"section": "universe/otherosfs",
 	"priority": "optional",

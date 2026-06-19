@@ -6,6 +6,42 @@
 	],
 	"package": "libvirt-ssh-proxy-hwe",
 	"source": "libvirt-hwe",
+	"version": "12.0.0-1ubuntu5.1",
+	"section": "universe/admin",
+	"priority": "optional",
+	"architecture": "amd64",
+	"depends": [
+		"libvirt-common (= 12.0.0-1ubuntu5.1)",
+		"libvirt0 (= 12.0.0-1ubuntu5.1)",
+		"libc6 (>= 2.34)",
+		"libgcc-s1 (>= 3.3.1)",
+		"libglib2.0-0t64 (>= 2.12.0)",
+		"libvirt0-hwe (>= 12.0.0)",
+		"libxml2-16 (>= 2.14.1)",
+		"ubuntu-virt-hwe"
+	],
+	"replaces": [
+		"libvirt-ssh-proxy"
+	],
+	"installedSize": 32,
+	"maintainer": "Ubuntu Developers <ubuntu-devel-discuss@lists.ubuntu.com>",
+	"description": "virtualization library - SSH proxy",
+	"homepage": "https://libvirt.org/ssh-proxy.html",
+	"filename": "pool/universe/libv/libvirt-hwe/libvirt-ssh-proxy-hwe_12.0.0-1ubuntu5.1_amd64.deb",
+	"size": 6614,
+	"md5": "5a1f2a23adc6f19a197841d4078cb387",
+	"sha1": "04b559a7ed8a54b35631ddd843682e2c8ee48ef7",
+	"sha256": "b6ae71aa6a4816d825381ac14c689b6f5517a08eeadcfc900d6aa8bc71806cb3",
+	"sha512": "445f0edcc4338d41ad8f573a7b6f160038bd16f93570838f1c7c7e32268b1976d18980c1d050151e6294a44a26cda6b0f59b7c3f23c9ca1b04d7e9528746ca40",
+	"descriptionMd5": "9c089f59515749d67563bb7dba4f3ecf"
+},{
+	"raw": {},
+	"required": [
+		"Filename",
+		"Size"
+	],
+	"package": "libvirt-ssh-proxy-hwe",
+	"source": "libvirt-hwe",
 	"version": "12.0.0-1ubuntu5",
 	"section": "universe/admin",
 	"priority": "optional",

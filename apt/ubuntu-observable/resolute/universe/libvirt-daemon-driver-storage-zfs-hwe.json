@@ -6,6 +6,46 @@
 	],
 	"package": "libvirt-daemon-driver-storage-zfs-hwe",
 	"source": "libvirt-hwe",
+	"version": "12.0.0-1ubuntu5.1",
+	"section": "universe/admin",
+	"priority": "optional",
+	"architecture": "amd64",
+	"depends": [
+		"libvirt-common (= 12.0.0-1ubuntu5.1)",
+		"libvirt-daemon (= 12.0.0-1ubuntu5.1)",
+		"libvirt-daemon-driver-storage (= 12.0.0-1ubuntu5.1)",
+		"libvirt0 (= 12.0.0-1ubuntu5.1)",
+		"libc6 (>= 2.4)",
+		"libgcc-s1 (>= 3.3.1)",
+		"libglib2.0-0t64 (>= 2.12.0)",
+		"libvirt0-hwe (>= 12.0.0)",
+		"ubuntu-virt-hwe"
+	],
+	"recommends": [
+		"zfsutils"
+	],
+	"replaces": [
+		"libvirt-daemon-driver-storage-zfs"
+	],
+	"installedSize": 33,
+	"maintainer": "Ubuntu Developers <ubuntu-devel-discuss@lists.ubuntu.com>",
+	"description": "virtualization daemon - ZFS storage driver",
+	"homepage": "https://libvirt.org/storage.html#zfs-pool",
+	"filename": "pool/universe/libv/libvirt-hwe/libvirt-daemon-driver-storage-zfs-hwe_12.0.0-1ubuntu5.1_amd64.deb",
+	"size": 7748,
+	"md5": "89428762d460dbb7d9092d634e661e23",
+	"sha1": "a4278d2cc1df771bffdbfe4743f55c51fc82f7e8",
+	"sha256": "d958a4052eb590e6c27518b3b17e788d684b01f07945c6f432d7a71db414e3a5",
+	"sha512": "cff6f0d8c6b689862afd941368da1fd5f2e09dac6269f76c7eeca0b96c9ea72cc807231e5d8a7401b1cfc00c36ecc2db7c0151d34cc2a6070805986eef9beb41",
+	"descriptionMd5": "3c34e26cf4d5fe81407ecfd87399cd2e"
+},{
+	"raw": {},
+	"required": [
+		"Filename",
+		"Size"
+	],
+	"package": "libvirt-daemon-driver-storage-zfs-hwe",
+	"source": "libvirt-hwe",
 	"version": "12.0.0-1ubuntu5",
 	"section": "universe/admin",
 	"priority": "optional",

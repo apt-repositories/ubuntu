@@ -6,6 +6,55 @@
 	],
 	"package": "libvirt-daemon-driver-lxc-hwe",
 	"source": "libvirt-hwe",
+	"version": "12.0.0-1ubuntu5.1",
+	"section": "universe/admin",
+	"priority": "optional",
+	"architecture": "amd64",
+	"depends": [
+		"libvirt-common (= 12.0.0-1ubuntu5.1)",
+		"libvirt-daemon (= 12.0.0-1ubuntu5.1)",
+		"libvirt-daemon-driver-network (= 12.0.0-1ubuntu5.1)",
+		"libvirt0 (= 12.0.0-1ubuntu5.1)",
+		"logrotate",
+		"systemd-container | sysvinit-core",
+		"libblkid1 (>= 2.17.2)",
+		"libc6 (>= 2.38)",
+		"libcap-ng0 (>= 0.7.9)",
+		"libfuse3-4 (>= 3.17.2)",
+		"libgcc-s1 (>= 3.3.1)",
+		"libglib2.0-0t64 (>= 2.44.0)",
+		"libtirpc3t64 (>= 1.0.2)",
+		"libvirt0-hwe (>= 12.0.0)",
+		"ubuntu-virt-hwe"
+	],
+	"replaces": [
+		"libvirt-daemon (<< 6.9.0-2~)",
+		"libvirt-daemon-driver-lxc",
+		"libvirt-daemon-system (<< 10.6.0-2~)"
+	],
+	"breaks": [
+		"libvirt-daemon (<< 6.9.0-2~)",
+		"libvirt-daemon-system (<< 10.6.0-2~)"
+	],
+	"installedSize": 443,
+	"maintainer": "Ubuntu Developers <ubuntu-devel-discuss@lists.ubuntu.com>",
+	"description": "virtualization daemon - LXC connection driver",
+	"homepage": "https://libvirt.org/drvlxc.html",
+	"filename": "pool/universe/libv/libvirt-hwe/libvirt-daemon-driver-lxc-hwe_12.0.0-1ubuntu5.1_amd64.deb",
+	"size": 129850,
+	"md5": "7ad2c40051a983730d8926fe9d0148cc",
+	"sha1": "28870b9efe711e7c0e429aa7fb58f373113fe49b",
+	"sha256": "217d1ed5f5d4d57eafd2809059d1927dec57202e8dab6785f9d54da703aa046a",
+	"sha512": "e14b73bedaf9449a7bfcd7375094595ef3786be3f5c71639da9cc8b79bf7126418813fee12296271bbb8f53dea97fbb1742ef3ac46339e9a366768e1ef5af8fe",
+	"descriptionMd5": "a416f90a3403d1285b296d57ddc55814"
+},{
+	"raw": {},
+	"required": [
+		"Filename",
+		"Size"
+	],
+	"package": "libvirt-daemon-driver-lxc-hwe",
+	"source": "libvirt-hwe",
 	"version": "12.0.0-1ubuntu5",
 	"section": "universe/admin",
 	"priority": "optional",

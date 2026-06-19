@@ -6,6 +6,50 @@
 	],
 	"package": "libvirt-daemon-plugin-lockd-hwe",
 	"source": "libvirt-hwe",
+	"version": "12.0.0-1ubuntu5.1",
+	"section": "admin",
+	"priority": "optional",
+	"architecture": "amd64",
+	"depends": [
+		"libvirt-common (= 12.0.0-1ubuntu5.1)",
+		"libvirt-daemon-lock (= 12.0.0-1ubuntu5.1)",
+		"libvirt0 (= 12.0.0-1ubuntu5.1)",
+		"libc6 (>= 2.4)",
+		"libgcc-s1 (>= 3.3.1)",
+		"libglib2.0-0t64 (>= 2.12.0)",
+		"libtirpc3t64 (>= 1.0.2)",
+		"libvirt0-hwe (>= 12.0.0)",
+		"ubuntu-virt-hwe"
+	],
+	"recommends": [
+		"libvirt-daemon (= 12.0.0-1ubuntu5.1)"
+	],
+	"replaces": [
+		"libvirt-daemon (<< 10.6.0-2~)",
+		"libvirt-daemon-plugin-lockd"
+	],
+	"breaks": [
+		"libvirt-daemon (<< 10.6.0-2~)"
+	],
+	"installedSize": 41,
+	"maintainer": "Ubuntu Developers <ubuntu-devel-discuss@lists.ubuntu.com>",
+	"description": "virtualization daemon - locking plugin (virtlockd)",
+	"homepage": "https://libvirt.org/kbase/locking-lockd.html",
+	"filename": "pool/main/libv/libvirt-hwe/libvirt-daemon-plugin-lockd-hwe_12.0.0-1ubuntu5.1_amd64.deb",
+	"size": 10754,
+	"md5": "9580a3a984d5e946df40db097836b3bb",
+	"sha1": "739bbe79122e2ba6aa0076ec0aa3b60a157b2017",
+	"sha256": "af73f9140fbe9b2a8760507fb2c4013a121ed1eef4a88ab0bd77702412b2dce5",
+	"sha512": "8195a62f8b6b8feac6e030583086c674c445639c4d51d26aa2236bc58fb6c34d5a8bed9f89a1e72fc6a1c97a68257129ff201ae7892f8322bab9a60a42dd3a02",
+	"descriptionMd5": "baf8b755ad711734318c29654e9e03ed"
+},{
+	"raw": {},
+	"required": [
+		"Filename",
+		"Size"
+	],
+	"package": "libvirt-daemon-plugin-lockd-hwe",
+	"source": "libvirt-hwe",
 	"version": "12.0.0-1ubuntu5",
 	"section": "admin",
 	"priority": "optional",

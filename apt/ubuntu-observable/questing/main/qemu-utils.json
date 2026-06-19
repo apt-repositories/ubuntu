@@ -53,6 +53,53 @@
 	],
 	"package": "qemu-utils",
 	"source": "qemu",
+	"version": "1:10.1.0+ds-5ubuntu2.7",
+	"section": "misc",
+	"priority": "optional",
+	"architecture": "amd64",
+	"depends": [
+		"libaio1t64 (>= 0.3.93)",
+		"libc6 (>= 2.42)",
+		"libfuse3-4 (>= 3.17.2)",
+		"libglib2.0-0t64 (>= 2.78.0)",
+		"libgmp10 (>= 2:6.3.0+dfsg)",
+		"libgnutls30t64 (>= 3.8.2)",
+		"libhogweed6t64",
+		"libnettle8t64 (>= 3.9~)",
+		"libnuma1 (>= 2.0.11)",
+		"libselinux1 (>= 3.1~)",
+		"liburing2 (>= 2.3)",
+		"libzstd1 (>= 1.5.5)",
+		"zlib1g (>= 1:1.1.4)"
+	],
+	"recommends": [
+		"qemu-block-extra (= 1:10.1.0+ds-5ubuntu2.7)"
+	],
+	"replaces": [
+		"qemu-system-common (<< 1:8.0+dfsg-5~)"
+	],
+	"breaks": [
+		"qemu-system-common (<< 1:8.0+dfsg-5~)"
+	],
+	"installedSize": 12676,
+	"maintainer": "Ubuntu Developers <ubuntu-devel-discuss@lists.ubuntu.com>",
+	"description": "QEMU utilities",
+	"homepage": "http://www.qemu.org/",
+	"filename": "pool/main/q/qemu/qemu-utils_10.1.0+ds-5ubuntu2.7_amd64.deb",
+	"size": 2424012,
+	"md5": "9e4aefb50bbfbb7fbea037044f4ce64f",
+	"sha1": "7541ded2b6eebf6138e5e9d42904a7d3d19a70a8",
+	"sha256": "33ef50e5d93c830f347eb02bf15bbc80af58065aafff8568d7efdda6af1827af",
+	"sha512": "7591ece4f5fd7d7fde7dc4ce92328c486b5ae15c26ed2e70728fa9e660354ac4276533dc87bb79c2ff96e4dc5fa7a0a70d14fd34b1c5a366f27e11d8fa6fdb45",
+	"descriptionMd5": "8501379a3df79c5d6318015169654c6a"
+},{
+	"raw": {},
+	"required": [
+		"Filename",
+		"Size"
+	],
+	"package": "qemu-utils",
+	"source": "qemu",
 	"version": "1:10.1.0+ds-5ubuntu2",
 	"section": "misc",
 	"priority": "optional",

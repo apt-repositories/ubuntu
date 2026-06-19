@@ -77,6 +77,77 @@
 	],
 	"package": "qemu-system-x86",
 	"source": "qemu",
+	"version": "1:6.2+dfsg-2ubuntu6.31",
+	"section": "misc",
+	"priority": "optional",
+	"architecture": "amd64",
+	"depends": [
+		"libaio1 (>= 0.3.93)",
+		"libc6 (>= 2.34)",
+		"libfdt1 (>= 1.6.1)",
+		"libfuse3-3 (>= 3.2.3)",
+		"libgcc-s1 (>= 4.7)",
+		"libglib2.0-0 (>= 2.67.3)",
+		"libgnutls30 (>= 3.7.2)",
+		"libibverbs1 (>= 28)",
+		"libjpeg8 (>= 8c)",
+		"libnettle8",
+		"libnuma1 (>= 2.0.11)",
+		"libpixman-1-0 (>= 0.19.6)",
+		"libpmem1 (>= 1.4)",
+		"libpng16-16 (>= 1.6.2-1)",
+		"librdmacm1 (>= 1.0.15)",
+		"libsasl2-2 (>= 2.1.27+dfsg2)",
+		"libseccomp2 (>= 2.1.0)",
+		"libslirp0 (>= 4.0.0)",
+		"libudev1 (>= 183)",
+		"liburing2 (>= 2.0)",
+		"libzstd1 (>= 1.4.0)",
+		"zlib1g (>= 1:1.2.0)",
+		"qemu-system-common (= 1:6.2+dfsg-2ubuntu6.31)",
+		"qemu-system-data (>> 1:6.2+dfsg-2ubuntu6.31~)",
+		"seabios",
+		"ipxe-qemu",
+		"ipxe-qemu-256k-compat-efi-roms"
+	],
+	"recommends": [
+		"qemu-system-gui (= 1:6.2+dfsg-2ubuntu6.31)",
+		"qemu-utils",
+		"ovmf",
+		"qemu-block-extra (= 1:6.2+dfsg-2ubuntu6.31)",
+		"cpu-checker"
+	],
+	"suggests": [
+		"samba",
+		"vde2"
+	],
+	"replaces": [
+		"qemu-kvm",
+		"qemu-system-x86-microvm (<< 1:5.0-5ubuntu1~)"
+	],
+	"breaks": [
+		"qemu-kvm",
+		"qemu-system-x86-microvm (<< 1:5.0-5ubuntu1~)"
+	],
+	"installedSize": 37670,
+	"maintainer": "Ubuntu Developers <ubuntu-devel-discuss@lists.ubuntu.com>",
+	"description": "QEMU full system emulation binaries (x86)",
+	"homepage": "http://www.qemu.org/",
+	"filename": "pool/main/q/qemu/qemu-system-x86_6.2+dfsg-2ubuntu6.31_amd64.deb",
+	"size": 10051570,
+	"md5": "adf808fd0b7d298cb5f0e54933df5263",
+	"sha1": "368f2a1fc22e98e2422889db7d7328c31abf36e9",
+	"sha256": "154327d064e982cd13fc26f1957f4a76054f89e5805427667d6d524af4c9fd5d",
+	"sha512": "82ae34988b37f948dfe729778b0076b897216918746455fdd78bb5e927dd41a7355621f11f287b73eb2ac174b2504aad0057ea99d498d2117fe98d81fbed1c50",
+	"descriptionMd5": "2ad3dd27a937f58ca5b2ffccbe9c63b3"
+},{
+	"raw": {},
+	"required": [
+		"Filename",
+		"Size"
+	],
+	"package": "qemu-system-x86",
+	"source": "qemu",
 	"version": "1:6.2+dfsg-2ubuntu6",
 	"section": "misc",
 	"priority": "optional",

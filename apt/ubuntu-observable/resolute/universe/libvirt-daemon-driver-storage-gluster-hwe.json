@@ -6,6 +6,44 @@
 	],
 	"package": "libvirt-daemon-driver-storage-gluster-hwe",
 	"source": "libvirt-hwe",
+	"version": "12.0.0-1ubuntu5.1",
+	"section": "universe/admin",
+	"priority": "optional",
+	"architecture": "amd64",
+	"depends": [
+		"libvirt-common (= 12.0.0-1ubuntu5.1)",
+		"libvirt-daemon (= 12.0.0-1ubuntu5.1)",
+		"libvirt-daemon-driver-storage (= 12.0.0-1ubuntu5.1)",
+		"libvirt0 (= 12.0.0-1ubuntu5.1)",
+		"libc6 (>= 2.4)",
+		"libgcc-s1 (>= 3.3.1)",
+		"libgfapi0 (>= 11.2)",
+		"libglib2.0-0t64 (>= 2.12.0)",
+		"libvirt0-hwe (>= 12.0.0)",
+		"ubuntu-virt-hwe"
+	],
+	"replaces": [
+		"libvirt-daemon-driver-storage-gluster"
+	],
+	"installedSize": 49,
+	"maintainer": "Ubuntu Developers <ubuntu-devel-discuss@lists.ubuntu.com>",
+	"description": "virtualization daemon - GlusterFS storage driver",
+	"homepage": "https://libvirt.org/storage.html#gluster-pool",
+	"filename": "pool/universe/libv/libvirt-hwe/libvirt-daemon-driver-storage-gluster-hwe_12.0.0-1ubuntu5.1_amd64.deb",
+	"size": 10970,
+	"md5": "776f241989f8c5b7bc0aed86f1cb01e4",
+	"sha1": "afe8080288090a22b63a8c75e1cfdef00e68b1d3",
+	"sha256": "672af587fee64af5038c83d686f61a0f692211b8aac24913c56f5af47b63414d",
+	"sha512": "9d1c5819eb14fa61d04bc055a244131741fcc6afe15f9d63d55696f28c2fffd40ed23aa7b37c2be68edb1809fd898207c4727b47148358329d4eb4eadf015b4a",
+	"descriptionMd5": "050e1d1aea3ecfcbaa0bd93318dadb33"
+},{
+	"raw": {},
+	"required": [
+		"Filename",
+		"Size"
+	],
+	"package": "libvirt-daemon-driver-storage-gluster-hwe",
+	"source": "libvirt-hwe",
 	"version": "12.0.0-1ubuntu5",
 	"section": "universe/admin",
 	"priority": "optional",

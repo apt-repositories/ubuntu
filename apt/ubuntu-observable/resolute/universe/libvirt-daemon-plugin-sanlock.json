@@ -6,6 +6,51 @@
 	],
 	"package": "libvirt-daemon-plugin-sanlock",
 	"source": "libvirt",
+	"version": "12.0.0-1ubuntu5.1",
+	"section": "universe/admin",
+	"priority": "optional",
+	"architecture": "amd64",
+	"depends": [
+		"augeas-tools",
+		"libvirt-common (= 12.0.0-1ubuntu5.1)",
+		"libvirt0 (= 12.0.0-1ubuntu5.1)",
+		"libc6 (>= 2.34)",
+		"libgcc-s1 (>= 3.3.1)",
+		"libglib2.0-0t64 (>= 2.16.0)",
+		"libsanlock-client1 (>= 3.6.0)",
+		"ubuntu-virt"
+	],
+	"recommends": [
+		"libvirt-daemon (= 12.0.0-1ubuntu5.1)"
+	],
+	"replaces": [
+		"libvirt-daemon (<< 10.6.0-2~)",
+		"libvirt-daemon-plugin-sanlock-hwe",
+		"libvirt-sanlock (<< 10.6.0-2~)"
+	],
+	"breaks": [
+		"libvirt-daemon (<< 10.6.0-2~)",
+		"libvirt-sanlock (<< 10.6.0-2~)"
+	],
+	"installedSize": 83,
+	"maintainer": "Ubuntu Developers <ubuntu-devel-discuss@lists.ubuntu.com>",
+	"description": "virtualization daemon - locking plugin (sanlock)",
+	"homepage": "https://libvirt.org/kbase/locking-sanlock.html",
+	"filename": "pool/universe/libv/libvirt/libvirt-daemon-plugin-sanlock_12.0.0-1ubuntu5.1_amd64.deb",
+	"size": 18668,
+	"md5": "c1bbac67aa3d59d7eabe434de58d56c8",
+	"sha1": "c06519d96d700cf81f2f9b27cecb2efa3c4c3975",
+	"sha256": "f4b7e48bcb0dcacd3b49ab8192b8bb552f923d9e11ab67757d577ff91586a1fa",
+	"sha512": "0b0be298ae13ae9958ef087595df2e606f19d94f286639a5458880ecf7ee649553d2e9a8e60e9c15bcaa3078008b08a6c22d0d7477d8519c92f45e10c6ab41c1",
+	"descriptionMd5": "f627862f19b542c7c85ec382f95e254c"
+},{
+	"raw": {},
+	"required": [
+		"Filename",
+		"Size"
+	],
+	"package": "libvirt-daemon-plugin-sanlock",
+	"source": "libvirt",
 	"version": "12.0.0-1ubuntu5",
 	"section": "universe/admin",
 	"priority": "optional",

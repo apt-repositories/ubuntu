@@ -42,6 +42,42 @@
 	],
 	"package": "qemu-user-static",
 	"source": "qemu",
+	"version": "1:6.2+dfsg-2ubuntu6.31",
+	"section": "universe/otherosfs",
+	"priority": "optional",
+	"architecture": "amd64",
+	"recommends": [
+		"binfmt-support"
+	],
+	"suggests": [
+		"sudo"
+	],
+	"breaks": [
+		"binfmt-support (<< 2.1.7~)"
+	],
+	"conflicts": [
+		"qemu-user-binfmt"
+	],
+	"installedSize": 126866,
+	"maintainer": "Ubuntu Developers <ubuntu-devel-discuss@lists.ubuntu.com>",
+	"description": "QEMU user mode emulation binaries (static version)",
+	"homepage": "http://www.qemu.org/",
+	"builtUsing": "gcc-12 (= 12.3.0-1ubuntu1~22.04.3), glib2.0 (= 2.72.4-0ubuntu2.9), glibc (= 2.35-0ubuntu3.13), gnutls28 (= 3.7.3-4ubuntu1.9), liburing (= 2.1-2build1), zlib (= 1:1.2.11.dfsg-2ubuntu9.2)",
+	"filename": "pool/universe/q/qemu/qemu-user-static_6.2+dfsg-2ubuntu6.31_amd64.deb",
+	"size": 13047942,
+	"md5": "c35316a78dbdec3cdf9595559b576405",
+	"sha1": "385ddbfeb845f550fe7fdf3db8022400a73e1384",
+	"sha256": "2d22939f98f2ee8b84c5cc53b01082a4a937cfc7b4a8aa432788b9eaf4a14a41",
+	"sha512": "a46d3f4c2482f6f6c3590632ab3c5b8c42c90cf3862a509d44568881d948f6cb74d90d55662ad2d7d9c2cd1da4041b0505b61e9b4ce0225c0c9051dbc56bc3f1",
+	"descriptionMd5": "745cf1fdce8807e14d332ae512779b8f"
+},{
+	"raw": {},
+	"required": [
+		"Filename",
+		"Size"
+	],
+	"package": "qemu-user-static",
+	"source": "qemu",
 	"version": "1:6.2+dfsg-2ubuntu6",
 	"section": "universe/otherosfs",
 	"priority": "optional",
