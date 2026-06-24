@@ -6,6 +6,44 @@
 	],
 	"package": "libvncclient1",
 	"source": "libvncserver",
+	"version": "0.9.13+dfsg-3ubuntu0.1",
+	"section": "libs",
+	"priority": "optional",
+	"architecture": "amd64",
+	"depends": [
+		"libc6 (>= 2.33)",
+		"libgcrypt20 (>= 1.9.0)",
+		"libgnutls30 (>= 3.7.2)",
+		"libjpeg8 (>= 8c)",
+		"liblzo2-2 (>= 2.02)",
+		"libsasl2-2 (>= 2.1.27+dfsg2)",
+		"zlib1g (>= 1:1.1.4)"
+	],
+	"replaces": [
+		"libvncserver0 (<< 0.9.9+dfsg-3)"
+	],
+	"breaks": [
+		"libvncserver0 (<< 0.9.9+dfsg-3)"
+	],
+	"installedSize": 194,
+	"maintainer": "Ubuntu Developers <ubuntu-devel-discuss@lists.ubuntu.com>",
+	"description": "API to write one's own VNC server - client library",
+	"homepage": "http://libvnc.github.io",
+	"filename": "pool/main/libv/libvncserver/libvncclient1_0.9.13+dfsg-3ubuntu0.1_amd64.deb",
+	"size": 71158,
+	"md5": "df9f6b8715cec0af0d16113618551fee",
+	"sha1": "cb139d2b8242bec04f3c95c14b679ca2abaac36a",
+	"sha256": "7b46970d1c67efb672975bc327a3b0198634c88ff34ccea4cfdf25e6bd603639",
+	"sha512": "dd9b2c73b46fa661fdce899f32b244262bb101cd81209c85e4ff292dc8648689155e519477781324ddf0332b49c88811faaac1863a2b680e6ed3e46ce33cf650",
+	"descriptionMd5": "de0d2f1b9e2b35d757b74d91c86a7280"
+},{
+	"raw": {},
+	"required": [
+		"Filename",
+		"Size"
+	],
+	"package": "libvncclient1",
+	"source": "libvncserver",
 	"version": "0.9.13+dfsg-3build2",
 	"section": "libs",
 	"priority": "optional",
