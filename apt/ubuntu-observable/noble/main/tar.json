@@ -5,6 +5,49 @@
 		"Size"
 	],
 	"package": "tar",
+	"version": "1.35+dfsg-3ubuntu0.1",
+	"section": "utils",
+	"priority": "required",
+	"architecture": "amd64",
+	"preDepends": [
+		"libacl1 (>= 2.2.23)",
+		"libc6 (>= 2.38)",
+		"libselinux1 (>= 3.1~)"
+	],
+	"suggests": [
+		"bzip2",
+		"ncompress",
+		"xz-utils",
+		"tar-scripts",
+		"tar-doc"
+	],
+	"replaces": [
+		"cpio (<< 2.4.2-39)"
+	],
+	"breaks": [
+		"dpkg-dev (<< 1.14.26)"
+	],
+	"conflicts": [
+		"cpio (<= 2.4.2-38)"
+	],
+	"installedSize": 708,
+	"maintainer": "Ubuntu Developers <ubuntu-devel-discuss@lists.ubuntu.com>",
+	"description": "GNU version of the tar archiving utility",
+	"homepage": "https://www.gnu.org/software/tar/",
+	"filename": "pool/main/t/tar/tar_1.35+dfsg-3ubuntu0.1_amd64.deb",
+	"size": 253840,
+	"md5": "cadf2139908235bd065d66cb8029db9e",
+	"sha1": "d5d8904fb7e7f2ea796d0acfbe6fb257b1b32659",
+	"sha256": "7476e25da66e5866a675169041264c08c37837bc29fd52923e2a4cdd7d6ee256",
+	"sha512": "55219d7a82e67f01c0332ddba15c52148a443059a407b20dc53f347a1be989581f6f6bdf953c14f2be15e8e9f9270054247864f371318641aac63317aed3bea7",
+	"descriptionMd5": "48033bf96442788d1f697785773ad9bb"
+},{
+	"raw": {},
+	"required": [
+		"Filename",
+		"Size"
+	],
+	"package": "tar",
 	"version": "1.35+dfsg-3build1",
 	"section": "utils",
 	"priority": "required",
