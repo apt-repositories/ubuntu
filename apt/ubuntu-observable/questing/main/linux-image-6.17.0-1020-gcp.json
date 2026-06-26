@@ -1,0 +1,42 @@
+[{
+	"raw": {},
+	"required": [
+		"Filename",
+		"Size"
+	],
+	"package": "linux-image-6.17.0-1020-gcp",
+	"source": "linux-signed-gcp",
+	"version": "6.17.0-1020.22",
+	"section": "kernel",
+	"priority": "optional",
+	"architecture": "amd64",
+	"depends": [
+		"kmod",
+		"linux-base (>= 4.5ubuntu1~16.04.1)",
+		"linux-modules-6.17.0-1020-gcp"
+	],
+	"recommends": [
+		"grub-pc | grub-efi-amd64 | grub-efi-ia32 | grub | lilo"
+	],
+	"suggests": [
+		"bpftool",
+		"linux-perf",
+		"linux-gcp-tools",
+		"linux-headers-6.17.0-1020-gcp",
+		"linux-modules-extra-6.17.0-1020-gcp"
+	],
+	"conflicts": [
+		"linux-image-unsigned-6.17.0-1020-gcp"
+	],
+	"installedSize": 16666,
+	"maintainer": "Canonical Kernel Team <kernel-team@lists.ubuntu.com>",
+	"description": "Signed kernel image gcp",
+	"builtUsing": "linux-gcp (= 6.17.0-1020.22)",
+	"filename": "pool/main/l/linux-signed-gcp/linux-image-6.17.0-1020-gcp_6.17.0-1020.22_amd64.deb",
+	"size": 16361084,
+	"md5": "ca3a412608af2b3a780a48a724a6b220",
+	"sha1": "679628cffd4ede459d4dd5d7f616dd15ba659cf1",
+	"sha256": "50f8e67719800443573420480f44597e1dd831d891192dff5e855a354a3ad03d",
+	"sha512": "397d7991b6fe7eccdb05f353f120493355d53acc51b3d293fb8a506aaa63ab5a094a8fddb3c127377f03bc627016ce0cfdd7cc23c39c00a22d357fe96b7dbab1",
+	"descriptionMd5": "a52bd552458b3033736aca335b4c7a2c"
+}]

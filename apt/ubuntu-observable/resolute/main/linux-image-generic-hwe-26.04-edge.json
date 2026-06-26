@@ -42,6 +42,42 @@
 	],
 	"package": "linux-image-generic-hwe-26.04-edge",
 	"source": "linux-meta",
+	"version": "7.0.0-27.27",
+	"section": "kernel",
+	"priority": "optional",
+	"architecture": "amd64",
+	"depends": [
+		"linux-image-7.0.0-27-generic",
+		"linux-modules-7.0.0-27-generic",
+		"linux-main-modules-zfs-7.0.0-27-generic",
+		"linux-firmware",
+		"intel-microcode",
+		"amd64-microcode"
+	],
+	"recommends": [
+		"thermald"
+	],
+	"conflicts": [
+		"linux-image-fb-generic-hwe-26.04-edge"
+	],
+	"installedSize": 13,
+	"maintainer": "Ubuntu Kernel Team <kernel-team@lists.ubuntu.com>",
+	"description": "Generic Linux kernel image",
+	"filename": "pool/main/l/linux-meta/linux-image-generic-hwe-26.04-edge_7.0.0-27.27_amd64.deb",
+	"size": 2500,
+	"md5": "1572d8fb86fb2724f39836ecbdae31bf",
+	"sha1": "261975709fce5378e8209b5de512142017748d3b",
+	"sha256": "0d7535f8a0f29f485781cec551407261332d12d0043719cc9c7a74472b3275e6",
+	"sha512": "e59be52d63a26a3ff0c95dcb3c712671df4c6076ef021434802eb60f1955ce88f3e4364101d53584f2660c46b18583f71e58682bf1dd5767ff9191fcb0ea3c04",
+	"descriptionMd5": "6d632579c673704f44b290b16e7dbfd1"
+},{
+	"raw": {},
+	"required": [
+		"Filename",
+		"Size"
+	],
+	"package": "linux-image-generic-hwe-26.04-edge",
+	"source": "linux-meta",
 	"version": "7.0.0-14.14",
 	"section": "kernel",
 	"priority": "optional",
