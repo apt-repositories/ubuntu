@@ -6,6 +6,48 @@
 	],
 	"package": "sbuild-qemu",
 	"source": "sbuild",
+	"version": "0.88.3ubuntu3.1",
+	"section": "universe/devel",
+	"priority": "optional",
+	"architecture": "all",
+	"depends": [
+		"autopkgtest (>= 5.17~)",
+		"python3-pexpect",
+		"python3-psutil",
+		"qemu-system-x86",
+		"qemu-utils",
+		"sbuild",
+		"vmdb2 (>= 0.22)",
+		"python3:any"
+	],
+	"recommends": [
+		"qemu-system-arm",
+		"qemu-system-ppc"
+	],
+	"replaces": [
+		"qemu-sbuild-utils (<< 0.2.1~)"
+	],
+	"breaks": [
+		"qemu-sbuild-utils (<< 0.2.1~)"
+	],
+	"installedSize": 80,
+	"maintainer": "Ubuntu Developers <ubuntu-devel-discuss@lists.ubuntu.com>",
+	"description": "Utilities for using sbuild with QEMU images",
+	"filename": "pool/universe/s/sbuild/sbuild-qemu_0.88.3ubuntu3.1_all.deb",
+	"size": 20948,
+	"md5": "80fcf5a0485c014860da8a745c6b41c1",
+	"sha1": "1ee021f0da4b024b6812891ba9593c2ff3d175c4",
+	"sha256": "c71d0c6273d2318f8dfb9e2fe571171c889419de6cb50d52c0ff4c643b024cac",
+	"sha512": "255afb3f6621b0a4f0222db0798049c65996faa22d22f4c05f99b7fc039357a6b7d43752dcfe5dbe0bc8effcaf0c6df63b157a8380ce5ed5404d11cd1f76ea1e",
+	"descriptionMd5": "abddfcc4ce10d769d5fb51216c3aef4e"
+},{
+	"raw": {},
+	"required": [
+		"Filename",
+		"Size"
+	],
+	"package": "sbuild-qemu",
+	"source": "sbuild",
 	"version": "0.88.3ubuntu3",
 	"section": "universe/devel",
 	"priority": "optional",

@@ -6,6 +6,51 @@
 	],
 	"package": "libsbuild-perl",
 	"source": "sbuild",
+	"version": "0.88.3ubuntu3.1",
+	"section": "perl",
+	"priority": "extra",
+	"architecture": "all",
+	"depends": [
+		"apt",
+		"apt-utils",
+		"dpkg-dev",
+		"gnupg (>= 2.1)",
+		"libdistro-info-perl",
+		"libdpkg-perl (>= 1.21.14)",
+		"libexception-class-perl",
+		"libfilesys-df-perl",
+		"libmime-lite-perl",
+		"perl:any"
+	],
+	"recommends": [
+		"autopkgtest (>= 4.0.4)",
+		"schroot (>= 1.6.0)"
+	],
+	"suggests": [
+		"default-mta | mail-transport-agent",
+		"libwww-perl"
+	],
+	"replaces": [
+		"sbuild (<= 0.58.4-1)"
+	],
+	"installedSize": 488,
+	"maintainer": "Ubuntu Developers <ubuntu-devel-discuss@lists.ubuntu.com>",
+	"description": "Library for building Debian binary packages from Debian sources",
+	"filename": "pool/main/s/sbuild/libsbuild-perl_0.88.3ubuntu3.1_all.deb",
+	"size": 98886,
+	"md5": "ba8b050180d4fc629c1c5f4df0e0299f",
+	"sha1": "59d832455e1bb288ad43129ca8eb63a4f90a0f95",
+	"sha256": "a8a63d78fa3f2ddb991ac83d9419b4adbf9f392d4a5364104837dc22dd769060",
+	"sha512": "0227d862c12415c98e9d64e481f8306cb2f95217ca3cf29372a7d3a571784a17275bac9233aa8e853524d121ccabf871a22395837726fbfb413e31b860ce7184",
+	"descriptionMd5": "d52c681207ccd9d9a8f4571221ebca1f"
+},{
+	"raw": {},
+	"required": [
+		"Filename",
+		"Size"
+	],
+	"package": "libsbuild-perl",
+	"source": "sbuild",
 	"version": "0.88.3ubuntu3",
 	"section": "perl",
 	"priority": "extra",

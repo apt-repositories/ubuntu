@@ -6,6 +6,52 @@
 	],
 	"package": "plasma-discover-backend-snap",
 	"source": "plasma-discover",
+	"version": "6.6.5-0ubuntu0.1",
+	"section": "universe/kde",
+	"priority": "optional",
+	"architecture": "amd64",
+	"depends": [
+		"plasma-discover (= 6.6.5-0ubuntu0.1)",
+		"xdg-desktop-portal-kde | xdg-desktop-portal-backend",
+		"libc6 (>= 2.34)",
+		"libkf6authcore6 (>= 6.22.0~)",
+		"libkf6coreaddons6 (>= 6.22.0~)",
+		"libkf6i18n6 (>= 6.22.0~)",
+		"libqt6core6t64 (>= 6.10.2)",
+		"libqt6dbus6 (>= 6.10.0~)",
+		"libqt6gui6 (>= 6.10.0~)",
+		"libqt6widgets6 (>= 6.10.0~)",
+		"libsnapd-qt-2-1 (>= 1.72)",
+		"libstdc++6 (>= 5)"
+	],
+	"recommends": [
+		"snapd"
+	],
+	"replaces": [
+		"plasma-discover (<< 5.19.4-2~)"
+	],
+	"breaks": [
+		"plasma-discover (<< 5.19.4-2~)"
+	],
+	"installedSize": 320,
+	"maintainer": "Kubuntu Developers <kubuntu-devel@lists.ubuntu.com>",
+	"description": "Discover software management suite - Snap backend",
+	"homepage": "https://invent.kde.org/plasma/discover",
+	"filename": "pool/universe/p/plasma-discover/plasma-discover-backend-snap_6.6.5-0ubuntu0.1_amd64.deb",
+	"size": 85982,
+	"md5": "48aaeefb004f17844a85b25bc5c2c608",
+	"sha1": "db14f601629ef3e22be50a2c458f74bc85c73150",
+	"sha256": "2cb99e341ab18b02dad25d3ec04e2981791f6cc6e70a6fd95d45d4a5fefd8c05",
+	"sha512": "726cc50cce326ae6a42f880b2de3029ff9402c775082bdda6493c7e6a0dc7b842e310eb1dedefe53b3a695aadf6d160a2060918dbb1daa15e67e5f1057935ab3",
+	"descriptionMd5": "f76f0631fc4193fd2037c869ac2c3802"
+},{
+	"raw": {},
+	"required": [
+		"Filename",
+		"Size"
+	],
+	"package": "plasma-discover-backend-snap",
+	"source": "plasma-discover",
 	"version": "6.6.4-0ubuntu1",
 	"section": "universe/kde",
 	"priority": "optional",

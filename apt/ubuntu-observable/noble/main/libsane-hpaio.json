@@ -6,6 +6,45 @@
 	],
 	"package": "libsane-hpaio",
 	"source": "hplip",
+	"version": "3.23.12+dfsg0-0ubuntu5.1",
+	"section": "libs",
+	"priority": "optional",
+	"architecture": "amd64",
+	"depends": [
+		"libc6 (>= 2.38)",
+		"libcups2t64 (>= 1.6.0)",
+		"libdbus-1-3 (>= 1.9.14)",
+		"libhpmud0 (>= 3.23.12+dfsg0)"
+	],
+	"recommends": [
+		"hplip (= 3.23.12+dfsg0-0ubuntu5.1)",
+		"sane-utils"
+	],
+	"replaces": [
+		"hplip (<< 3.17.10+repack0-5~)"
+	],
+	"breaks": [
+		"hplip (<< 3.17.10+repack0-5~)"
+	],
+	"installedSize": 1641,
+	"maintainer": "Ubuntu Developers <ubuntu-devel-discuss@lists.ubuntu.com>",
+	"description": "HP SANE backend for multi-function peripherals",
+	"homepage": "https://developers.hp.com/hp-linux-imaging-and-printing",
+	"filename": "pool/main/h/hplip/libsane-hpaio_3.23.12+dfsg0-0ubuntu5.1_amd64.deb",
+	"size": 134438,
+	"md5": "fdbb7bceedeb0607a72672f39b4943ff",
+	"sha1": "46732df0fb754afa6a43ba85b32660e43516bff7",
+	"sha256": "e6f994def58b4607370d2caceebe9ea4cffe38e73548799f3577611cefa4a77e",
+	"sha512": "592157470b232eae585a119e8fd142da27f9b1eb1ab82d814ad7109ce4e9e7e95064e3d054ab410ba8fc7d3446d38e0fee3804e11dfd2efcca4360fcee2ae11d",
+	"descriptionMd5": "208dafbff3569d9b6dbc7f0b94df7754"
+},{
+	"raw": {},
+	"required": [
+		"Filename",
+		"Size"
+	],
+	"package": "libsane-hpaio",
+	"source": "hplip",
 	"version": "3.23.12+dfsg0-0ubuntu5",
 	"section": "libs",
 	"priority": "optional",
