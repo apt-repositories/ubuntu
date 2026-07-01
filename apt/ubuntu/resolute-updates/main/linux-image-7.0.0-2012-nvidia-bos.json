@@ -1,0 +1,42 @@
+{
+	"raw": {},
+	"required": [
+		"Filename",
+		"Size"
+	],
+	"package": "linux-image-7.0.0-2012-nvidia-bos",
+	"source": "linux-signed-nvidia-bos",
+	"version": "7.0.0-2012.12",
+	"section": "kernel",
+	"priority": "optional",
+	"architecture": "amd64",
+	"depends": [
+		"kmod",
+		"linux-base (>= 4.5ubuntu1~16.04.1)",
+		"linux-modules-7.0.0-2012-nvidia-bos"
+	],
+	"recommends": [
+		"grub-pc | grub-efi-amd64 | grub-efi-ia32 | grub | lilo",
+		"initramfs-tools | linux-initramfs-tool"
+	],
+	"suggests": [
+		"bpftool",
+		"linux-perf",
+		"linux-nvidia-bos-tools",
+		"linux-headers-7.0.0-2012-nvidia-bos"
+	],
+	"conflicts": [
+		"linux-image-unsigned-7.0.0-2012-nvidia-bos"
+	],
+	"installedSize": 17065,
+	"maintainer": "Canonical Kernel Team <kernel-team@lists.ubuntu.com>",
+	"description": "Signed kernel image nvidia-bos",
+	"builtUsing": "linux-nvidia-bos (= 7.0.0-2012.12)",
+	"filename": "pool/main/l/linux-signed-nvidia-bos/linux-image-7.0.0-2012-nvidia-bos_7.0.0-2012.12_amd64.deb",
+	"size": 17174336,
+	"md5": "5dabbffd5814aacffa07b67d83fdca9a",
+	"sha1": "79677749e4ba63ca17fe04dcdb7d266561f75474",
+	"sha256": "a9080d1e64dbec1dee80ccdd213898f4b397d8b6f78decea28fea7fadd5d900b",
+	"sha512": "6bf019e1525fc2cb4d92c32086f38f7e96399aad7966e338c5e7fffbbba52f519bb47e71276f039a5f83d8fd2936710eaf62bd765332c72a598e41282158846a",
+	"descriptionMd5": "42da4728bb75f96f8f0f085dc203623e"
+}
