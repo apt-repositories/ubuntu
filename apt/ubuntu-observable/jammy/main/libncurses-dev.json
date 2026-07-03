@@ -6,6 +6,54 @@
 	],
 	"package": "libncurses-dev",
 	"source": "ncurses",
+	"version": "6.3-2ubuntu0.2",
+	"section": "libdevel",
+	"priority": "optional",
+	"architecture": "amd64",
+	"depends": [
+		"libtinfo6 (= 6.3-2ubuntu0.2)",
+		"libncurses6 (= 6.3-2ubuntu0.2)",
+		"libncursesw6 (= 6.3-2ubuntu0.2)",
+		"libc6-dev | libc-dev",
+		"ncurses-bin (>= 6.0+20151017)"
+	],
+	"suggests": [
+		"ncurses-doc"
+	],
+	"replaces": [
+		"libncurses5-dev (<< 6.1+20180210)",
+		"libncursesw5-dev (<< 6.1+20180210)",
+		"libtinfo-dev (<< 6.1+20180210)",
+		"ncurses-bin (<< 6.0+20151017)",
+		"ncurses-dev"
+	],
+	"breaks": [
+		"libncurses5-dev (<< 6.1+20180210)",
+		"libncursesw5-dev (<< 6.1+20180210)",
+		"libtinfo-dev (<< 6.1+20180210)"
+	],
+	"conflicts": [
+		"ncurses-dev"
+	],
+	"installedSize": 2351,
+	"maintainer": "Ubuntu Developers <ubuntu-devel-discuss@lists.ubuntu.com>",
+	"description": "developer's libraries for ncurses",
+	"homepage": "https://invisible-island.net/ncurses/",
+	"filename": "pool/main/n/ncurses/libncurses-dev_6.3-2ubuntu0.2_amd64.deb",
+	"size": 380516,
+	"md5": "56a3aba831f30e26e2fc190e9ae818c2",
+	"sha1": "1e25ea6321857607504657632e4e6ddfeb986a1d",
+	"sha256": "e328718382cc4dafc9493ec4b0cc89ebe4dff27d8e7dd200e0cbdc531814c13a",
+	"sha512": "c9fa06cec97e401f95cf0b06385686d9da429eb12ca51b20efe4bdcd84e390b2db39cd74d1fa923b854e1a773b1454fafae7326ce977e6499acaf172c0a25091",
+	"descriptionMd5": "38da502b304ea3ed5ff1e12d072d14a8"
+},{
+	"raw": {},
+	"required": [
+		"Filename",
+		"Size"
+	],
+	"package": "libncurses-dev",
+	"source": "ncurses",
 	"version": "6.3-2ubuntu0.1",
 	"section": "libdevel",
 	"priority": "optional",
