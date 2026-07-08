@@ -6,6 +6,48 @@
 	],
 	"package": "software-properties-common",
 	"source": "software-properties",
+	"version": "0.120.1",
+	"section": "admin",
+	"priority": "optional",
+	"architecture": "all",
+	"depends": [
+		"ca-certificates",
+		"gir1.2-glib-2.0",
+		"gir1.2-packagekitglib-1.0 (>= 1.1.0-2)",
+		"packagekit",
+		"python-apt-common (>= 0.9)",
+		"python3",
+		"python3-dbus",
+		"python3-gi",
+		"python3-software-properties (= 0.120.1)",
+		"python3:any"
+	],
+	"replaces": [
+		"python-software-properties (<< 0.85)",
+		"python3-software-properties (<< 0.85)"
+	],
+	"breaks": [
+		"python-software-properties (<< 0.85)",
+		"python3-software-properties (<< 0.85)"
+	],
+	"installedSize": 192,
+	"maintainer": "Ubuntu Developers <ubuntu-devel-discuss@lists.ubuntu.com>",
+	"description": "manage the repositories that you install software from (common)",
+	"filename": "pool/main/s/software-properties/software-properties-common_0.120.1_all.deb",
+	"size": 16556,
+	"md5": "5b5277bfe7912b33768077d2ef5e0247",
+	"sha1": "84f3b309171476cbef01a556fcc3eb2e56137907",
+	"sha256": "4eeb906a718dc3e708aa50821e35be1ec7d9584c33e88fc1fadb53bed9c1d7f2",
+	"sha512": "5cbf52b6a50fcfaa0611038a943e9ae4038fd9b589832450dd4b395252ce38e54d358924a19b3e63f8f3fde3578d876bee97960573265204ea4655f2bc44c5c2",
+	"descriptionMd5": "d19f432480048ad00ac5c2bfd116cd00"
+},{
+	"raw": {},
+	"required": [
+		"Filename",
+		"Size"
+	],
+	"package": "software-properties-common",
+	"source": "software-properties",
 	"version": "0.120",
 	"section": "admin",
 	"priority": "optional",
