@@ -41,6 +41,41 @@
 	],
 	"package": "sssd-krb5",
 	"source": "sssd",
+	"version": "2.10.1-2ubuntu5.3",
+	"section": "utils",
+	"priority": "extra",
+	"architecture": "amd64",
+	"depends": [
+		"sssd-common (= 2.10.1-2ubuntu5.3)",
+		"sssd-krb5-common (= 2.10.1-2ubuntu5.3)",
+		"libc6 (>= 2.4)",
+		"libtalloc2 (>= 2.0.4~git20101213)"
+	],
+	"replaces": [
+		"sssd-common (<< 2.7.0-1)"
+	],
+	"breaks": [
+		"sssd-common (<< 2.7.0-1)"
+	],
+	"installedSize": 59,
+	"maintainer": "Ubuntu Developers <ubuntu-devel-discuss@lists.ubuntu.com>",
+	"description": "System Security Services Daemon -- Kerberos back end",
+	"homepage": "https://github.com/SSSD/sssd",
+	"filename": "pool/main/s/sssd/sssd-krb5_2.10.1-2ubuntu5.3_amd64.deb",
+	"size": 14584,
+	"md5": "443c10fc739182e6fb92d7de99267a5b",
+	"sha1": "424ea6c53002d88b7fdf88493dca895808a582b8",
+	"sha256": "4c7e1961159a47aca99e57ff62caba8344e7d1c4e404fec9c5c8a39b59c3e72c",
+	"sha512": "ae236f45771579fa2f01d055f20f22655368dedf16af64909868e896b05d400559168ca0464d354182da08dd99504188c08bf1a8e515e8b5b962f99fb88fff4b",
+	"descriptionMd5": "d0051aea66e9cb824fd5a62c13ec59f8"
+},{
+	"raw": {},
+	"required": [
+		"Filename",
+		"Size"
+	],
+	"package": "sssd-krb5",
+	"source": "sssd",
 	"version": "2.10.1-2ubuntu5",
 	"section": "utils",
 	"priority": "extra",
