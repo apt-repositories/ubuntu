@@ -6,6 +6,47 @@
 	],
 	"package": "libmariadbd19t64",
 	"source": "mariadb",
+	"version": "1:11.8.6-5ubuntu0.1",
+	"section": "libs",
+	"priority": "optional",
+	"architecture": "amd64",
+	"depends": [
+		"libaio1t64 (>= 0.3.93)",
+		"libc6 (>= 2.43)",
+		"libcrypt1 (>= 1:4.1.0)",
+		"libgcc-s1 (>= 3.3.1)",
+		"libnuma1 (>= 2.0.11)",
+		"libpcre2-8-0 (>= 10.22)",
+		"libssl3t64 (>= 3.0.0)",
+		"libstdc++6 (>= 14)",
+		"liburing2 (>= 2.3)",
+		"zlib1g (>= 1:1.2.0)"
+	],
+	"replaces": [
+		"libmariadbd19"
+	],
+	"breaks": [
+		"libmariadbd19 (<< 1:11.8.6-5ubuntu0.1)"
+	],
+	"installedSize": 24320,
+	"maintainer": "Ubuntu Developers <ubuntu-devel-discuss@lists.ubuntu.com>",
+	"description": "MariaDB embedded database, shared library",
+	"homepage": "https://mariadb.org/",
+	"filename": "pool/main/m/mariadb/libmariadbd19t64_11.8.6-5ubuntu0.1_amd64.deb",
+	"size": 6051748,
+	"md5": "288c18a30064447cd1e389b53b23e6cc",
+	"sha1": "5b23ea5ec9e5ef508ca5806383b5761e52589784",
+	"sha256": "8ffaa85f1bff244fa197b5273073b62409babbc98e550cca40dc556876871de7",
+	"sha512": "95881b6aedf2b467cf2cfa8f188dd2e64fe447dbe859f1afc947fcf4b8cec98d8e955aca1ee0d74fd7b07de8cbe846f5cd1d42ff3e7b546d43de0cad3a907403",
+	"descriptionMd5": "a85241d1aa0dccaa3ede8bda094b9117"
+},{
+	"raw": {},
+	"required": [
+		"Filename",
+		"Size"
+	],
+	"package": "libmariadbd19t64",
+	"source": "mariadb",
 	"version": "1:11.8.6-5",
 	"section": "libs",
 	"priority": "optional",

@@ -6,6 +6,44 @@
 	],
 	"package": "mariadb-plugin-mroonga",
 	"source": "mariadb",
+	"version": "1:11.8.6-5ubuntu0.1",
+	"section": "universe/database",
+	"priority": "optional",
+	"architecture": "amd64",
+	"depends": [
+		"mariadb-server-core (= 1:11.8.6-5ubuntu0.1)",
+		"libc6 (>= 2.38)",
+		"libgcc-s1 (>= 3.3.1)",
+		"libstdc++6 (>= 13.1)",
+		"zlib1g (>= 1:1.2.0)"
+	],
+	"replaces": [
+		"mariadb-server-10.0",
+		"mariadb-server-10.1"
+	],
+	"breaks": [
+		"mariadb-server-10.0",
+		"mariadb-server-10.1"
+	],
+	"installedSize": 6159,
+	"maintainer": "Ubuntu Developers <ubuntu-devel-discuss@lists.ubuntu.com>",
+	"description": "Mroonga storage engine for MariaDB server",
+	"homepage": "https://mariadb.org/",
+	"filename": "pool/universe/m/mariadb/mariadb-plugin-mroonga_11.8.6-5ubuntu0.1_amd64.deb",
+	"size": 1342938,
+	"md5": "80ab9ecf6fd5513493a4d7157687875b",
+	"sha1": "396e78979b880112b7f0110840c672c408e9ffae",
+	"sha256": "db38cd71a948e2fc16623b4e18f621eeb831cfec9db2dce7361cf22063b4fb70",
+	"sha512": "ff44aea55dba055ba2136b8b076f05a4847462646f84c567a168edeb28487de08503fdadf1a0ae931dc15e0858087ca3e7240f169c62838918d59ecc98264d1c",
+	"descriptionMd5": "d9e70a91be9b718328103357cee5e31e"
+},{
+	"raw": {},
+	"required": [
+		"Filename",
+		"Size"
+	],
+	"package": "mariadb-plugin-mroonga",
+	"source": "mariadb",
 	"version": "1:11.8.6-5",
 	"section": "universe/database",
 	"priority": "optional",
