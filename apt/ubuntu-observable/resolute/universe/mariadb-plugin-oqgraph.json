@@ -6,6 +6,52 @@
 	],
 	"package": "mariadb-plugin-oqgraph",
 	"source": "mariadb",
+	"version": "1:11.8.6-5ubuntu0.1",
+	"section": "universe/database",
+	"priority": "optional",
+	"architecture": "amd64",
+	"depends": [
+		"mariadb-server-core (= 1:11.8.6-5ubuntu0.1)",
+		"libc6 (>= 2.38)",
+		"libgcc-s1 (>= 3.3.1)",
+		"libjudydebian1 (>= 1.0.5)",
+		"libstdc++6 (>= 14)"
+	],
+	"replaces": [
+		"mariadb-oqgraph-engine-10.0",
+		"mariadb-oqgraph-engine-10.1",
+		"mariadb-server-10.0",
+		"mariadb-server-10.1"
+	],
+	"breaks": [
+		"mariadb-oqgraph-engine-10.0",
+		"mariadb-oqgraph-engine-10.1",
+		"mariadb-server-10.0",
+		"mariadb-server-10.1"
+	],
+	"conflicts": [
+		"mariadb-oqgraph-engine-10.0",
+		"mariadb-oqgraph-engine-10.1"
+	],
+	"installedSize": 229,
+	"maintainer": "Ubuntu Developers <ubuntu-devel-discuss@lists.ubuntu.com>",
+	"description": "OQGraph storage engine for MariaDB server",
+	"homepage": "https://mariadb.org/",
+	"filename": "pool/universe/m/mariadb/mariadb-plugin-oqgraph_11.8.6-5ubuntu0.1_amd64.deb",
+	"size": 69548,
+	"md5": "cf9688b57dec3d87766bf2e98dd7c014",
+	"sha1": "bc5328b9a7f11bd3db7048bf6884b9ae5d64ad74",
+	"sha256": "0b02929c591cd8afb0941488ab6b7e456a6b89dea7680296fa30aa782de4751b",
+	"sha512": "4da770c9d924cd7fe161dce1170d6e91ed8c585d7b13bc493d79004ba982436c4fc7cc0a9632bbd364b4056c95aaca4a075fc8331c191aece107b5f483c1c86c",
+	"descriptionMd5": "8c8b3a58b75d0964480d8871a9fc797a"
+},{
+	"raw": {},
+	"required": [
+		"Filename",
+		"Size"
+	],
+	"package": "mariadb-plugin-oqgraph",
+	"source": "mariadb",
 	"version": "1:11.8.6-5",
 	"section": "universe/database",
 	"priority": "optional",
