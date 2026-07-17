@@ -41,6 +41,41 @@
 	],
 	"package": "linux-image-realtime-hwe-26.04",
 	"source": "linux-meta-realtime",
+	"version": "7.0.0-28.28.1",
+	"section": "kernel",
+	"priority": "optional",
+	"architecture": "amd64",
+	"depends": [
+		"linux-image-7.0.0-28-realtime",
+		"linux-modules-7.0.0-28-realtime",
+		"linux-firmware",
+		"intel-microcode",
+		"amd64-microcode"
+	],
+	"recommends": [
+		"thermald"
+	],
+	"conflicts": [
+		"linux-image-fb-realtime-hwe-26.04"
+	],
+	"installedSize": 12,
+	"maintainer": "Ubuntu Kernel Team <kernel-team@lists.ubuntu.com>",
+	"description": "Linux kernel image for real-time systems.",
+	"filename": "pool/main/l/linux-meta-realtime/linux-image-realtime-hwe-26.04_7.0.0-28.28.1_amd64.deb",
+	"size": 5542,
+	"md5": "6adfb4258d4c140bc379d1c08dc3b3c9",
+	"sha1": "3af15d0405d4389be31230140d9163454010da1b",
+	"sha256": "b81b560db694cea8b52ddf006d7407621155a7fbaf90f4ec6e9f1fa601d13180",
+	"sha512": "570f5075d9811bb54aef8865014da0226facf775d43e1bc9ad7164d7d891fb202502777f09961230c18ac6efb534c3862d6cfaabf919b19055a4a428f2024da8",
+	"descriptionMd5": "4d8e8a68a3c6fa13675164144e03fdc4"
+},{
+	"raw": {},
+	"required": [
+		"Filename",
+		"Size"
+	],
+	"package": "linux-image-realtime-hwe-26.04",
+	"source": "linux-meta-realtime",
 	"version": "7.0.0-14.14.1",
 	"section": "kernel",
 	"priority": "optional",

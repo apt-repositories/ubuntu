@@ -1,0 +1,42 @@
+{
+	"raw": {},
+	"required": [
+		"Filename",
+		"Size"
+	],
+	"package": "linux-image-5.15.0-1112-gcp",
+	"source": "linux-signed-gcp",
+	"version": "5.15.0-1112.122",
+	"section": "kernel",
+	"priority": "optional",
+	"architecture": "amd64",
+	"depends": [
+		"kmod",
+		"linux-base (>= 4.5ubuntu1~16.04.1)",
+		"linux-modules-5.15.0-1112-gcp"
+	],
+	"recommends": [
+		"grub-pc | grub-efi-amd64 | grub-efi-ia32 | grub | lilo"
+	],
+	"suggests": [
+		"fdutils",
+		"linux-gcp-doc-5.15.0 | linux-gcp-source-5.15.0",
+		"linux-gcp-tools",
+		"linux-headers-5.15.0-1112-gcp",
+		"initramfs-tools | linux-initramfs-tool"
+	],
+	"conflicts": [
+		"linux-image-unsigned-5.15.0-1112-gcp"
+	],
+	"installedSize": 11730,
+	"maintainer": "Canonical Kernel Team <kernel-team@lists.ubuntu.com>",
+	"description": "Signed kernel image gcp",
+	"builtUsing": "linux-gcp (= 5.15.0-1112.122)",
+	"filename": "pool/main/l/linux-signed-gcp/linux-image-5.15.0-1112-gcp_5.15.0-1112.122_amd64.deb",
+	"size": 11813792,
+	"md5": "fefd59073cc039bf042374940086c205",
+	"sha1": "4d240a7e00358e1e5cadfac3c243bfd4cc6380f4",
+	"sha256": "d0e0f27b0f53743476d159f2079ba953374423517facfca7588714d6003c0b14",
+	"sha512": "89d73ba6cb409d70c938bdec23600e4a878b25fd6a12dbd5051e7659d5c16b0a8bdbb1ee6b59e1ad53f467ed26847dfa0ccc46612d841edc80044c7a82887355",
+	"descriptionMd5": "a52bd552458b3033736aca335b4c7a2c"
+}

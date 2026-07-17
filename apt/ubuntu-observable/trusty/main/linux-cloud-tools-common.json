@@ -6,6 +6,45 @@
 	],
 	"package": "linux-cloud-tools-common",
 	"source": "linux",
+	"version": "3.13.0-170.220",
+	"section": "kernel",
+	"priority": "optional",
+	"architecture": "all",
+	"depends": [
+		"sysv-rc (>= 2.88dsf-24) | file-rc (>= 0.8.16)"
+	],
+	"replaces": [
+		"hv-kvp-daemon-init (<< 3.13)",
+		"linux-lts-utopic-cloud-tools-common",
+		"linux-lts-vivid-cloud-tools-common",
+		"linux-tools-common (<< 3.13.0-8.28)"
+	],
+	"breaks": [
+		"hv-kvp-daemon-init (<< 3.13)",
+		"linux-tools-common (<< 3.13.0-8.28)"
+	],
+	"conflicts": [
+		"linux-lts-utopic-cloud-tools-common",
+		"linux-lts-vivid-cloud-tools-common"
+	],
+	"installedSize": 335,
+	"maintainer": "Ubuntu Kernel Team <kernel-team@lists.ubuntu.com>",
+	"description": "Linux kernel version specific cloud tools for version 3.13.0",
+	"filename": "pool/main/l/linux/linux-cloud-tools-common_3.13.0-170.220_all.deb",
+	"size": 14160,
+	"md5": "8d8c4e9817b7f5db7e7011fcc8a824a3",
+	"sha1": "011781f61ffae3f6edfe746c5f08a958cc361b82",
+	"sha256": "08c3851889d34b08efe12ccca76bb8a2c3dddcc451abe34b8d5f8f39bfaa2ac3",
+	"sha512": "7d652fe18c2bfb878a928ef5d4937df656ff74a22e47c07e1f0ecb6c4c624d4ff57189901fea873d1cb5c4cd660278998918d0b56902f1f743decb4dbf8bcb72",
+	"descriptionMd5": "6ef597ed465f54308bcf7a3fe290492e"
+},{
+	"raw": {},
+	"required": [
+		"Filename",
+		"Size"
+	],
+	"package": "linux-cloud-tools-common",
+	"source": "linux",
 	"version": "3.13.0-98.145",
 	"section": "kernel",
 	"priority": "optional",
