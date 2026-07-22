@@ -33,4 +33,39 @@
 	"sha256": "f308bd11e290b7453be750271f8c25c25c8bd6d921f23d06287ca0a88c617df6",
 	"sha512": "c1b14aafae9354d087c0d480b9f4025950a43c942378c16d082ca5b39e9414c8634e016d8cc25af1bb8e6845e3d105875a03795331ad0951a8fe103761930f54",
 	"descriptionMd5": "3dde93b5bdac4bce49c7cb3c374d0dd5"
+},{
+	"raw": {},
+	"required": [
+		"Filename",
+		"Size"
+	],
+	"package": "linux-image-oem-24.04d",
+	"source": "linux-meta-oem-6.17",
+	"version": "6.17.0-1030.30",
+	"section": "kernel",
+	"priority": "optional",
+	"architecture": "amd64",
+	"depends": [
+		"linux-image-6.17.0-1030-oem",
+		"linux-firmware",
+		"intel-microcode",
+		"amd64-microcode"
+	],
+	"recommends": [
+		"thermald"
+	],
+	"conflicts": [
+		"linux-modules-nvidia-580-open-oem-24.04d (<< 6.17.0-1025.25)",
+		"linux-modules-nvidia-595-open-oem-24.04d (<< 6.17.0-1025.25)"
+	],
+	"installedSize": 10,
+	"maintainer": "Ubuntu Kernel Team <kernel-team@lists.ubuntu.com>",
+	"description": "OEM Linux kernel image",
+	"filename": "pool/main/l/linux-meta-oem-6.17/linux-image-oem-24.04d_6.17.0-1030.30_amd64.deb",
+	"size": 2656,
+	"md5": "d3a68e0a8b22a82299320d68543400bf",
+	"sha1": "67e9fc8fa2e45f8944f1bfd6ad1872326b532913",
+	"sha256": "d27bc1b46a3cfb412e1b106c1b5b867452b191c78264e3b1e37cfea92d20f3f2",
+	"sha512": "3062ddb4d60f012a06ecf76dbeea4073ba30c99c2c2af100f9ff3e167f6d79383eee7b691f4080f91099d12e94af5f6b0eafbf6717ab6d80dd97e3c2535ae281",
+	"descriptionMd5": "3dde93b5bdac4bce49c7cb3c374d0dd5"
 }]
