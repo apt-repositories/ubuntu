@@ -6,6 +6,47 @@
 	],
 	"package": "libkrb5-3",
 	"source": "krb5",
+	"version": "1.22.1-2ubuntu4.1",
+	"section": "libs",
+	"priority": "important",
+	"architecture": "amd64",
+	"depends": [
+		"libkrb5support0 (= 1.22.1-2ubuntu4.1)",
+		"libc6 (>= 2.38)",
+		"libcom-err2 (>= 1.43.9)",
+		"libk5crypto3 (>= 1.20)",
+		"libkeyutils1 (>= 1.5.9)",
+		"libssl3t64 (>= 3.0.0)"
+	],
+	"recommends": [
+		"krb5-locales"
+	],
+	"suggests": [
+		"krb5-doc",
+		"krb5-user"
+	],
+	"breaks": [
+		"libapache2-mod-auth-kerb (<= 5.4-2.4)"
+	],
+	"installedSize": 1050,
+	"maintainer": "Ubuntu Developers <ubuntu-devel-discuss@lists.ubuntu.com>",
+	"description": "MIT Kerberos runtime libraries",
+	"homepage": "https://web.mit.edu/kerberos/",
+	"filename": "pool/main/k/krb5/libkrb5-3_1.22.1-2ubuntu4.1_amd64.deb",
+	"size": 360714,
+	"md5": "a32e02eac4f2b23c388392083898cb9c",
+	"sha1": "466873b1fa92f637228a36e6acfe51c58cdaba80",
+	"sha256": "54612a2019863c44d80218f40d40670c3684108f4b2a760aae644ab68457e239",
+	"sha512": "dbe55f1ae99f46d5b11a9e4563514191ea0789fcb57ba62244af076e6d8291b08d4b654bed43afdff95f4a31da715d7ec46ce7e433f7da1c35c62cb0015fff47",
+	"descriptionMd5": "07bb931a85fb24c6a0ef0f62a94bb26c"
+},{
+	"raw": {},
+	"required": [
+		"Filename",
+		"Size"
+	],
+	"package": "libkrb5-3",
+	"source": "krb5",
 	"version": "1.22.1-2ubuntu4",
 	"section": "libs",
 	"priority": "important",

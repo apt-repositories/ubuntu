@@ -6,6 +6,49 @@
 	],
 	"package": "krb5-user",
 	"source": "krb5",
+	"version": "1.22.1-2ubuntu4.1",
+	"section": "universe/net",
+	"priority": "optional",
+	"architecture": "amd64",
+	"depends": [
+		"libkrb5-3 (= 1.22.1-2ubuntu4.1)",
+		"libc6 (>= 2.38)",
+		"libcom-err2 (>= 1.43.9)",
+		"libk5crypto3 (>= 1.20)",
+		"libkadm5clnt-mit12 (>= 1.22.1)",
+		"libkadm5srv-mit12 (>= 1.18.2)",
+		"libkdb5-10t64 (>= 1.22.1)",
+		"libkrb5support0 (= 1.22.1-2ubuntu4.1)",
+		"libss2 (>= 1.01)"
+	],
+	"recommends": [
+		"krb5-config"
+	],
+	"suggests": [
+		"krb5-k5tls"
+	],
+	"conflicts": [
+		"heimdal-clients (<< 1.6~rc2+dfsg-7)"
+	],
+	"installedSize": 410,
+	"maintainer": "Ubuntu Developers <ubuntu-devel-discuss@lists.ubuntu.com>",
+	"description": "basic programs to authenticate using MIT Kerberos",
+	"homepage": "https://web.mit.edu/kerberos/",
+	"filename": "pool/universe/k/krb5/krb5-user_1.22.1-2ubuntu4.1_amd64.deb",
+	"size": 109636,
+	"md5": "235a7688794c8523d4dde37189c47417",
+	"sha1": "2bc28d62d2d7a5bf08830aa094136fabccf50a06",
+	"sha256": "e6ee8a72778ac29c55b77b0d2c836c8130456b90a742b871e130a8e8e4ece4da",
+	"sha512": "d05dc35ac3d1d2578dc3f22138bcd31e615fcb307691566acc34e5402f030acf2a9029a7f0478087e585c6f1291562470c472979e4d325e5176ed084bcaf4ae7",
+	"descriptionMd5": "b10599fa748131166d0b1a01617ee6ce"
+},{
+	"raw": {},
+	"required": [
+		"Filename",
+		"Size"
+	],
+	"package": "krb5-user",
+	"source": "krb5",
 	"version": "1.22.1-2ubuntu4",
 	"section": "universe/net",
 	"priority": "optional",
