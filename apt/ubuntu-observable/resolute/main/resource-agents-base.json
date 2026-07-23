@@ -6,6 +6,47 @@
 	],
 	"package": "resource-agents-base",
 	"source": "resource-agents",
+	"version": "1:4.17.0-1ubuntu2.1",
+	"section": "admin",
+	"priority": "optional",
+	"architecture": "all",
+	"depends": [
+		"resource-agents-common (>= 1:4.17.0-1ubuntu2.1)"
+	],
+	"suggests": [
+		"open-iscsi",
+		"targetcli-fb",
+		"dmsetup",
+		"lvm2",
+		"postgresql"
+	],
+	"replaces": [
+		"resource-agents (<< 1:4.7.0-1ubuntu2)",
+		"resource-agents-extra (<< 1:4.7.0-1ubuntu7)"
+	],
+	"breaks": [
+		"resource-agents (<< 1:4.7.0-1ubuntu2)",
+		"resource-agents-extra (<< 1:4.7.0-1ubuntu7)"
+	],
+	"installedSize": 284,
+	"maintainer": "Ubuntu Developers <ubuntu-devel-discuss@lists.ubuntu.com>",
+	"description": "Cluster Resource Agents curated by Ubuntu",
+	"homepage": "https://github.com/ClusterLabs/resource-agents",
+	"filename": "pool/main/r/resource-agents/resource-agents-base_4.17.0-1ubuntu2.1_all.deb",
+	"size": 72238,
+	"md5": "555200a7aff89136fe9032f149e7d6d4",
+	"sha1": "954e339b452ca11eb20bd5dbfd6186e99bc50e5c",
+	"sha256": "b667c6da24472f4a5127d292a4f36c7a2ad1b91aa44adbac295a7831883f4a66",
+	"sha512": "67876af5f4495a201b28e0b5e303a06819d5d28536d2a7ccdda603b51f618d9305030d8124a278330c4e026cb58f5fbaba56f84d68065e1aba6786b49e05424e",
+	"descriptionMd5": "1d101f884da241376e4703a8c72d8859"
+},{
+	"raw": {},
+	"required": [
+		"Filename",
+		"Size"
+	],
+	"package": "resource-agents-base",
+	"source": "resource-agents",
 	"version": "1:4.17.0-1ubuntu2",
 	"section": "admin",
 	"priority": "optional",
