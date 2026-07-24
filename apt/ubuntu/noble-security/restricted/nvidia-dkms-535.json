@@ -6,38 +6,22 @@
 	],
 	"package": "nvidia-dkms-535",
 	"source": "nvidia-graphics-drivers-535",
-	"version": "535.309.01-0ubuntu0.24.04.1",
+	"version": "535.309.01-0ubuntu0.24.04.2",
 	"section": "restricted/libs",
 	"priority": "optional",
 	"architecture": "amd64",
 	"depends": [
-		"dkms",
-		"nvidia-kernel-source-535 (<= 535.309.01-1)",
-		"nvidia-kernel-source-535 (>= 535.309.01)",
-		"nvidia-kernel-common-535 (<= 535.309.01-1)",
-		"nvidia-kernel-common-535 (>= 535.309.01)",
-		"nvidia-firmware-535-535.309.01"
+		"nvidia-dkms-580"
 	],
-	"replaces": [
-		"nvidia-384 (<< 390.25)",
-		"nvidia-dkms-kernel",
-		"nvidia-kernel-source-535 (<< 390.25-0ubuntu2~)"
-	],
-	"breaks": [
-		"nvidia-kernel-source-535 (<< 390.25-0ubuntu2~)"
-	],
-	"conflicts": [
-		"nvidia-dkms-kernel"
-	],
-	"installedSize": 154,
+	"installedSize": 34,
 	"maintainer": "Ubuntu Developers <ubuntu-devel-discuss@lists.ubuntu.com>",
-	"description": "NVIDIA DKMS package",
+	"description": "NVIDIA DKMS package (transitional package)",
 	"homepage": "http://www.nvidia.com",
-	"filename": "pool/restricted/n/nvidia-graphics-drivers-535/nvidia-dkms-535_535.309.01-0ubuntu0.24.04.1_amd64.deb",
-	"size": 38034,
-	"md5": "8bc5e48ba624ae0b2c1018a8bad2391e",
-	"sha1": "6991346e2ad046290851bbb04ea92a798c50f747",
-	"sha256": "aa592b52a357347b307623565a77d1949fd6ca4cc94ebbb7347c0317c733b07f",
-	"sha512": "ff5220d8dd1cde5e1a45674aafe6c6d96a21407fa10c692549d8c31433f8dc26da32e73e74e92b445c2bfa65d9381a454f81b3b3ddff3221d99c0bd9c4ca2d48",
-	"descriptionMd5": "ec8c193060b5458922cc0bda62df7796"
+	"filename": "pool/restricted/n/nvidia-graphics-drivers-535/nvidia-dkms-535_535.309.01-0ubuntu0.24.04.2_amd64.deb",
+	"size": 13276,
+	"md5": "4bf628b04b024577aa2b18052bb4899c",
+	"sha1": "67421f979b5542175e86ae618a90a0012cd2e285",
+	"sha256": "6bcd203e29eb93fba238b0612294836bfeea3eb87f823944dbe70924cf20a954",
+	"sha512": "632cbeff200af6096dd48d7263cf6efed94d4c358191a75ca246b6c94afc34c6f0e80b8470fb351c8f5259adf29718e4d2438b95d2be6348bb2dcf36a6f8bfdb",
+	"descriptionMd5": "6b98bde4ce0d90e5c576c7a0d870e5d9"
 }

@@ -6,38 +6,22 @@
 	],
 	"package": "libnvidia-gl-535",
 	"source": "nvidia-graphics-drivers-535",
-	"version": "535.309.01-0ubuntu0.24.04.1",
+	"version": "535.309.01-0ubuntu0.24.04.2",
 	"section": "restricted/libs",
 	"priority": "optional",
 	"architecture": "amd64",
 	"depends": [
-		"libnvidia-common-535",
-		"libc6 (>= 2.34)",
-		"libdrm2 (>= 2.4.75)",
-		"libegl1",
-		"libgbm1 (>= 8.1~0)",
-		"libgcc-s1 (>= 4.2)",
-		"libx11-6",
-		"libxext6",
-		"libnvidia-egl-wayland1"
+		"libnvidia-gl-580"
 	],
-	"replaces": [
-		"libnvidia-gl",
-		"nvidia-384 (<< 390.25)",
-		"nvidia-390 (<< 390.25-0ubuntu1)"
-	],
-	"conflicts": [
-		"libnvidia-gl"
-	],
-	"installedSize": 460700,
+	"installedSize": 34,
 	"maintainer": "Ubuntu Developers <ubuntu-devel-discuss@lists.ubuntu.com>",
-	"description": "NVIDIA OpenGL/GLX/EGL/GLES GLVND libraries and Vulkan ICD",
+	"description": "NVIDIA OpenGL/GLX/EGL/GLES GLVND libraries and Vulkan ICD (transitional package)",
 	"homepage": "http://www.nvidia.com",
-	"filename": "pool/restricted/n/nvidia-graphics-drivers-535/libnvidia-gl-535_535.309.01-0ubuntu0.24.04.1_amd64.deb",
-	"size": 194806258,
-	"md5": "5673ac1347a8bfa205aca638b9c0032d",
-	"sha1": "6b5d1e0dc7bc3a211a11c0feea3b78c2960ac245",
-	"sha256": "fb85c426c62665e019116b98b568c733999d196cec7cdac5d7214546ac4ce568",
-	"sha512": "4b4a8c83e1b1c334070e3b39df549f198a4c76b71f03f997ac009e57c02938b5d542ecf9e9e313d795a4d5479954e78b2e20e732ae85a66f782b3cbcf7441109",
-	"descriptionMd5": "d899ab089124230e29489e7dcc9f137a"
+	"filename": "pool/restricted/n/nvidia-graphics-drivers-535/libnvidia-gl-535_535.309.01-0ubuntu0.24.04.2_amd64.deb",
+	"size": 13312,
+	"md5": "de38e49dcdd3d4ad2f1d6ac230a87fba",
+	"sha1": "ef9b05a758af9178792c54b17793c480b0bdcff5",
+	"sha256": "2090bce067cd78920d3932e47fe44d004ab70a4f293df880cdd7c3e9753c8691",
+	"sha512": "6d41f2a3622c2fb9386a9c640eae1e1ede215f263237f1a1fd08446d5d92609bf9848b97dacac6847b31941bc5806ae800eec0c176adc486abb04d73a5982c41",
+	"descriptionMd5": "72008e0e9d30fec3f0afc14a1044d133"
 }

@@ -6,32 +6,22 @@
 	],
 	"package": "nvidia-kernel-common-535-server",
 	"source": "nvidia-graphics-drivers-535-server",
-	"version": "535.309.01-0ubuntu0.22.04.1",
+	"version": "535.309.01-0ubuntu0.22.04.2",
 	"section": "restricted/libs",
 	"priority": "optional",
 	"architecture": "amd64",
 	"depends": [
-		"libc6 (>= 2.34)",
-		"libgcc-s1 (>= 4.2)",
-		"libpciaccess0 (>= 0.10.7)",
-		"nvidia-firmware-535-server-535.309.01"
+		"nvidia-kernel-common-580-server"
 	],
-	"replaces": [
-		"nvidia-dkms-535-server (<< 390.48-0ubuntu3~)",
-		"nvidia-kernel-common"
-	],
-	"conflicts": [
-		"nvidia-kernel-common"
-	],
-	"installedSize": 1031,
+	"installedSize": 33,
 	"maintainer": "Ubuntu Developers <ubuntu-devel-discuss@lists.ubuntu.com>",
-	"description": "Shared files used with the kernel module",
+	"description": "Shared files used with the kernel module (transitional package)",
 	"homepage": "http://www.nvidia.com",
-	"filename": "pool/restricted/n/nvidia-graphics-drivers-535-server/nvidia-kernel-common-535-server_535.309.01-0ubuntu0.22.04.1_amd64.deb",
-	"size": 229438,
-	"md5": "1dcc8ad7a2f2f438fba515fa776e17e7",
-	"sha1": "ef16a8c8f6d07463bd37144434111e75d7715e97",
-	"sha256": "d2ab44a8089d252d9ab40087cd8daa972db822bbbeb4acf09b1551e7454c4125",
-	"sha512": "c78876227fbf3016f480ef7b66d54f8817167bd2a5815dc23c864c8d8e49c4326112c73b7f37023ce9c98fa98f0ea2aed3da3ce6f457c805e54e1ce5e6c630e7",
-	"descriptionMd5": "caa64a2a10d329a0475baf9ebcdb40d5"
+	"filename": "pool/restricted/n/nvidia-graphics-drivers-535-server/nvidia-kernel-common-535-server_535.309.01-0ubuntu0.22.04.2_amd64.deb",
+	"size": 11994,
+	"md5": "5c70e8229bc9cbc59801132d42e7e865",
+	"sha1": "58412b139efc41082bf2cefdb65a6f3df0de0717",
+	"sha256": "971249975b95fb3eca2c8b8fcd016215d76253b57f134ddb56c3f763f897e290",
+	"sha512": "658b59103276449e1be8b401cf60648f69080e1f713102d93766676c03314046baae5ccfd752c0f50495608ae6fc30e44974e050ddb373dae182f5e79cb5e294",
+	"descriptionMd5": "a2fcad20362187322348caccef78ab9d"
 }]

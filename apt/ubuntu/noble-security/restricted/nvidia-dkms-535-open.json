@@ -6,37 +6,22 @@
 	],
 	"package": "nvidia-dkms-535-open",
 	"source": "nvidia-graphics-drivers-535",
-	"version": "535.309.01-0ubuntu0.24.04.1",
+	"version": "535.309.01-0ubuntu0.24.04.2",
 	"section": "restricted/libs",
 	"priority": "optional",
 	"architecture": "amd64",
 	"depends": [
-		"dkms",
-		"nvidia-kernel-source-535-open (<= 535.309.01-1)",
-		"nvidia-kernel-source-535-open (>= 535.309.01)",
-		"nvidia-kernel-common-535 (<= 535.309.01-1)",
-		"nvidia-kernel-common-535 (>= 535.309.01)"
+		"nvidia-dkms-580-open"
 	],
-	"replaces": [
-		"nvidia-384 (<< 390.25)",
-		"nvidia-dkms-kernel",
-		"nvidia-kernel-source-535 (<< 390.25-0ubuntu2~)"
-	],
-	"breaks": [
-		"nvidia-kernel-source-535 (<< 390.25-0ubuntu2~)"
-	],
-	"conflicts": [
-		"nvidia-dkms-kernel"
-	],
-	"installedSize": 53,
+	"installedSize": 34,
 	"maintainer": "Ubuntu Developers <ubuntu-devel-discuss@lists.ubuntu.com>",
-	"description": "NVIDIA DKMS package (open kernel module)",
+	"description": "NVIDIA DKMS package (open kernel module) (transitional package)",
 	"homepage": "http://www.nvidia.com",
-	"filename": "pool/restricted/n/nvidia-graphics-drivers-535/nvidia-dkms-535-open_535.309.01-0ubuntu0.24.04.1_amd64.deb",
-	"size": 18230,
-	"md5": "dc0604ba37c20ae33c52660a73173a9e",
-	"sha1": "0ede0066f8991ef618b5d1bdc24726dbad2882fe",
-	"sha256": "cc8bd1cd8009d73e428effa8088277bc0530590292d81981412fe03e4b2fffea",
-	"sha512": "939428071eb990e5f34331c364b71aa89c2205fc2da6a1a506a00883eb11989bad5c8d3655d42d78e72c9e21790054fab1f84414db3a212818cbc7db7914fb56",
-	"descriptionMd5": "dafa8f35853882b3010cba056bb022d0"
+	"filename": "pool/restricted/n/nvidia-graphics-drivers-535/nvidia-dkms-535-open_535.309.01-0ubuntu0.24.04.2_amd64.deb",
+	"size": 13292,
+	"md5": "5b2544aab0a427d9e27493509ada6fb8",
+	"sha1": "1a995449a5dadd4b0a95a33efa32354b661f2649",
+	"sha256": "e49e5c1b2423c591cc98ed9f1d25eb7731834178313b08895ddbfad86204b323",
+	"sha512": "8aba8af7bc4fcea02f6c1e7a5d47d54569801a86ad8b4004604b419f6d519b1590f89326e42b6d761e8dcd3c797bd45de61a112e531b252e3693105f866ade4a",
+	"descriptionMd5": "b34400b6c042c32771e7523f2faa4dbb"
 }

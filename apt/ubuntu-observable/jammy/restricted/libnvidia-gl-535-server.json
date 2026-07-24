@@ -6,38 +6,22 @@
 	],
 	"package": "libnvidia-gl-535-server",
 	"source": "nvidia-graphics-drivers-535-server",
-	"version": "535.309.01-0ubuntu0.22.04.1",
+	"version": "535.309.01-0ubuntu0.22.04.2",
 	"section": "restricted/libs",
 	"priority": "optional",
 	"architecture": "amd64",
 	"depends": [
-		"libnvidia-common-535-server",
-		"libc6 (>= 2.10)",
-		"libdrm2 (>= 2.4.75)",
-		"libegl1",
-		"libgbm1 (>= 8.1~0)",
-		"libgcc-s1 (>= 4.2)",
-		"libx11-6",
-		"libxext6",
-		"libnvidia-egl-wayland1"
+		"libnvidia-gl-580-server"
 	],
-	"replaces": [
-		"libnvidia-gl",
-		"nvidia-384 (<< 390.25)",
-		"nvidia-390 (<< 390.25-0ubuntu1)"
-	],
-	"conflicts": [
-		"libnvidia-gl"
-	],
-	"installedSize": 460699,
+	"installedSize": 33,
 	"maintainer": "Ubuntu Developers <ubuntu-devel-discuss@lists.ubuntu.com>",
-	"description": "NVIDIA OpenGL/GLX/EGL/GLES GLVND libraries and Vulkan ICD",
+	"description": "NVIDIA OpenGL/GLX/EGL/GLES GLVND libraries and Vulkan ICD (transitional package)",
 	"homepage": "http://www.nvidia.com",
-	"filename": "pool/restricted/n/nvidia-graphics-drivers-535-server/libnvidia-gl-535-server_535.309.01-0ubuntu0.22.04.1_amd64.deb",
-	"size": 195254252,
-	"md5": "219613d39f586dcceb54a5c3a266b61b",
-	"sha1": "e91e88c306dd11704dca6b6fa4689609b57016d8",
-	"sha256": "59b1dd10b72cdb3820402118c5ddd7241412753d0ee47af4f69295e5e5d17d52",
-	"sha512": "4546ba5ae561934d62930e1c28dbfcf03615c55600c2180e161e31f3e135f3f5fe6028f621dd0fb6f4dd33423f698e3dbacf379009912e652c3237e0b0f95bcc",
-	"descriptionMd5": "d899ab089124230e29489e7dcc9f137a"
+	"filename": "pool/restricted/n/nvidia-graphics-drivers-535-server/libnvidia-gl-535-server_535.309.01-0ubuntu0.22.04.2_amd64.deb",
+	"size": 12032,
+	"md5": "20005cf7291770525636e87cd00fab44",
+	"sha1": "84e9a91b9ffdca0c82b54bd32b8d81165a9e6586",
+	"sha256": "b871d14752e26b9f6c08704659481423fd9d086c52408bb1bf2c9c82183da55d",
+	"sha512": "45a1c2251939c69e919411561fdf0dd3528d3aa76c7025a3d9a77354a3f55d46e656e7f889faee3411f0925f863fdb80019750e80965cd913dc8377c8b7ae185",
+	"descriptionMd5": "72008e0e9d30fec3f0afc14a1044d133"
 }]

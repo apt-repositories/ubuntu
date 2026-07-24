@@ -6,6 +6,43 @@
 	],
 	"package": "rsyslog-mysql",
 	"source": "rsyslog",
+	"version": "8.2512.0-1ubuntu4.1",
+	"section": "universe/admin",
+	"priority": "extra",
+	"architecture": "amd64",
+	"depends": [
+		"libc6 (>= 2.4)",
+		"libmysqlclient24 (>= 8.4.2)",
+		"debconf (>= 0.5) | debconf-2.0",
+		"rsyslog (= 8.2512.0-1ubuntu4.1)",
+		"dbconfig-mysql | dbconfig-no-thanks",
+		"ucf"
+	],
+	"recommends": [
+		"default-mysql-client | virtual-mysql-client"
+	],
+	"suggests": [
+		"default-mysql-server | virtual-mysql-server"
+	],
+	"installedSize": 64,
+	"maintainer": "Ubuntu Developers <ubuntu-devel-discuss@lists.ubuntu.com>",
+	"description": "MySQL output plugin for rsyslog",
+	"homepage": "https://www.rsyslog.com/",
+	"filename": "pool/universe/r/rsyslog/rsyslog-mysql_8.2512.0-1ubuntu4.1_amd64.deb",
+	"size": 11766,
+	"md5": "1c2e3d3a39ae6c244eb62bf10610364c",
+	"sha1": "b70b387d98d10c2049f25a08bda3edaffe5d647b",
+	"sha256": "2d38232f3e35ca1cf99807f1e15422460f7fe86059b4e1596828c2ee806e693a",
+	"sha512": "81b8b7426536a8eeafd9e31827b81a426476bdb1273366907519a1499ed27e122a96dad91fdde683271f024b71bfb76735ab605b6263026f651d45612a415dbc",
+	"descriptionMd5": "73513767b35f7839dfc63fc06366fcb0"
+},{
+	"raw": {},
+	"required": [
+		"Filename",
+		"Size"
+	],
+	"package": "rsyslog-mysql",
+	"source": "rsyslog",
 	"version": "8.2512.0-1ubuntu4",
 	"section": "universe/admin",
 	"priority": "extra",

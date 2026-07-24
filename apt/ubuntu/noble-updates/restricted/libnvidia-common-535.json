@@ -6,29 +6,22 @@
 	],
 	"package": "libnvidia-common-535",
 	"source": "nvidia-graphics-drivers-535",
-	"version": "535.309.01-0ubuntu0.24.04.1",
+	"version": "535.309.01-0ubuntu0.24.04.2",
 	"section": "restricted/libs",
 	"priority": "optional",
 	"architecture": "all",
-	"replaces": [
-		"libnvidia-common",
-		"libnvidia-gl-535 (<< 390.25-0ubuntu2~)"
+	"depends": [
+		"libnvidia-common-580"
 	],
-	"breaks": [
-		"libnvidia-gl-535 (<< 390.25-0ubuntu2~)"
-	],
-	"conflicts": [
-		"libnvidia-common"
-	],
-	"installedSize": 60,
+	"installedSize": 34,
 	"maintainer": "Ubuntu Developers <ubuntu-devel-discuss@lists.ubuntu.com>",
-	"description": "Shared files used by the NVIDIA libraries",
+	"description": "Shared files used by the NVIDIA libraries (transitional package)",
 	"homepage": "http://www.nvidia.com",
-	"filename": "pool/restricted/n/nvidia-graphics-drivers-535/libnvidia-common-535_535.309.01-0ubuntu0.24.04.1_all.deb",
-	"size": 17516,
-	"md5": "b66882573fdda65cdff4da6fc64feb23",
-	"sha1": "258163704da26f4548a1d7e44ba325c9cb427b24",
-	"sha256": "4adb76a159e162df9217db84bbb63521ab4f2ec08e7a4f3377f3ce0171287fb8",
-	"sha512": "01c904d5e0129f8b940137d9db968d9abdffc8af52c33ed070d525dc0a94991a98ef7a4c587aefd1ca117ba8889f12b7a037a0b06740d397975a711a2dfd6d93",
-	"descriptionMd5": "259c61ba4e777f5a2f1e7ee2fd1957bc"
+	"filename": "pool/restricted/n/nvidia-graphics-drivers-535/libnvidia-common-535_535.309.01-0ubuntu0.24.04.2_all.deb",
+	"size": 13302,
+	"md5": "44076415f923e81330fc37d83d0c3ee5",
+	"sha1": "95a2aa32cf0638e21cf4bfff249fadf181f6bc96",
+	"sha256": "8fe5bdf8ac3df7f11ccfbc536c609ca9bc53d6aac6ff4a12d83813bb541ad086",
+	"sha512": "0a3d2e1bd4c7ad80d359a5af3f1cf735bba5c29fcc4f772c9d3fb5267862804c6acdc194c4c11eb71772eed07746e36ffdcef5293468b80ac45f4e70c1badd62",
+	"descriptionMd5": "199944b00680c01ad96667801f879894"
 }

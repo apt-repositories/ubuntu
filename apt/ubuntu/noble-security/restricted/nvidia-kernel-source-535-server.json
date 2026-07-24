@@ -6,27 +6,22 @@
 	],
 	"package": "nvidia-kernel-source-535-server",
 	"source": "nvidia-graphics-drivers-535-server",
-	"version": "535.309.01-0ubuntu0.24.04.1",
+	"version": "535.309.01-0ubuntu0.24.04.2",
 	"section": "restricted/libs",
 	"priority": "optional",
 	"architecture": "amd64",
-	"replaces": [
-		"nvidia-384 (<< 390.25)",
-		"nvidia-390 (<< 390.25-0ubuntu1)",
-		"nvidia-kernel-source"
+	"depends": [
+		"nvidia-kernel-source-580-server"
 	],
-	"conflicts": [
-		"nvidia-kernel-source"
-	],
-	"installedSize": 72297,
+	"installedSize": 34,
 	"maintainer": "Ubuntu Developers <ubuntu-devel-discuss@lists.ubuntu.com>",
-	"description": "NVIDIA kernel source package",
+	"description": "NVIDIA kernel source package (transitional package)",
 	"homepage": "http://www.nvidia.com",
-	"filename": "pool/restricted/n/nvidia-graphics-drivers-535-server/nvidia-kernel-source-535-server_535.309.01-0ubuntu0.24.04.1_amd64.deb",
-	"size": 45211900,
-	"md5": "1e30a2fe88656b20d03b3f5fd2088f8a",
-	"sha1": "3ee6d9c7c03258871f98b53e2f871df4af88ecdc",
-	"sha256": "d1bee11fe0ddb112b9de5d20ec99c2cdb0cd673efa55dcc328ceb8fef6ac1a17",
-	"sha512": "14febfd8020e7dfec877195102cd58ae14c671843b411049cddab40a93aef41fd40ce1b2dd6748218c6f31e032dd8f64963dfa1fa44e0684c3b14b5686c4e2db",
-	"descriptionMd5": "dc60d6861ca351f7cadc7d8fcc74e854"
+	"filename": "pool/restricted/n/nvidia-graphics-drivers-535-server/nvidia-kernel-source-535-server_535.309.01-0ubuntu0.24.04.2_amd64.deb",
+	"size": 12558,
+	"md5": "32cb747305cdb895e59d040d56cec43c",
+	"sha1": "1ad0d8cfbc57c0375a0151730578b70069988756",
+	"sha256": "b9ea9212fd04d7c194480508b75853b7d1c59b201e999e1f6f124dd6c927bd61",
+	"sha512": "88954097ff9ebde33ed3397cad7be0da4ec87ed15d7e4873c2e81e38ad1576444394fed536395ce454cfa0089e6b3d33d9caf9129af08d878429557d10fe1b2e",
+	"descriptionMd5": "2132505fc22258d2624a002c6d62a46e"
 }
