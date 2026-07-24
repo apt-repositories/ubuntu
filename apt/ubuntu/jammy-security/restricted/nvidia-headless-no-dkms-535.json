@@ -6,35 +6,22 @@
 	],
 	"package": "nvidia-headless-no-dkms-535",
 	"source": "nvidia-graphics-drivers-535",
-	"version": "535.309.01-0ubuntu0.22.04.1",
+	"version": "535.309.01-0ubuntu0.22.04.2",
 	"section": "restricted/libs",
 	"priority": "optional",
 	"architecture": "amd64",
 	"depends": [
-		"nvidia-kernel-common-535 (<= 535.309.01-1)",
-		"nvidia-kernel-common-535 (>= 535.309.01)",
-		"nvidia-kernel-source-535 (= 535.309.01-0ubuntu0.22.04.1)",
-		"libnvidia-compute-535 (= 535.309.01-0ubuntu0.22.04.1)",
-		"nvidia-compute-utils-535 (= 535.309.01-0ubuntu0.22.04.1)",
-		"libnvidia-cfg1-535 (= 535.309.01-0ubuntu0.22.04.1)"
-	],
-	"replaces": [
-		"nvidia-384 (<< 390.25)",
-		"nvidia-390 (<< 390.25-0ubuntu1)"
-	],
-	"conflicts": [
-		"nvidia-384 (<< 390.25)",
-		"nvidia-390 (<< 390.25-0ubuntu1)"
+		"nvidia-headless-no-dkms-580"
 	],
 	"installedSize": 34,
 	"maintainer": "Ubuntu Developers <ubuntu-devel-discuss@lists.ubuntu.com>",
-	"description": "NVIDIA headless metapackage - no DKMS",
+	"description": "NVIDIA headless metapackage - no DKMS (transitional package)",
 	"homepage": "http://www.nvidia.com",
-	"filename": "pool/restricted/n/nvidia-graphics-drivers-535/nvidia-headless-no-dkms-535_535.309.01-0ubuntu0.22.04.1_amd64.deb",
-	"size": 13088,
-	"md5": "bbe8654c2fe9bb52ce71001bb63a6657",
-	"sha1": "e2f50d795b3c6efc9864d56a45dc60be487724ba",
-	"sha256": "2b0f259868c1f71d67a58c03e85178d88f8061e65728574688938a672b5a02cf",
-	"sha512": "7766883e6bcf26f3eaea030c46f8bbaf288697c4dc5a56cee3933f3c00c7abc726f0de10c993212f9e9232681f67e4043e7b97ae0227af3f9db785ee5effba46",
-	"descriptionMd5": "52c573bafa1b747ad3a50428efea2231"
+	"filename": "pool/restricted/n/nvidia-graphics-drivers-535/nvidia-headless-no-dkms-535_535.309.01-0ubuntu0.22.04.2_amd64.deb",
+	"size": 12926,
+	"md5": "8adafac7e32c804a864906003ca3572b",
+	"sha1": "c7acaa605e4b6e977115ff8f78e83aece607b857",
+	"sha256": "9c5f5525bf19b994fec20bd1c06299ff44af747ca43d335259eb4b3f4774d59a",
+	"sha512": "df151b216236d33bd26a11376899100aeb5f545fd7d1574997f4ad51018f11c4b52ec4927c5361f633118e0cbaa931c41b0c8ac9782420eb413139e2cbdf8c52",
+	"descriptionMd5": "e3be17826869cdcc66eb993b2766e442"
 }

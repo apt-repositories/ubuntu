@@ -6,29 +6,22 @@
 	],
 	"package": "libnvidia-common-535-server",
 	"source": "nvidia-graphics-drivers-535-server",
-	"version": "535.309.01-0ubuntu0.24.04.1",
+	"version": "535.309.01-0ubuntu0.24.04.2",
 	"section": "restricted/libs",
 	"priority": "optional",
 	"architecture": "all",
-	"replaces": [
-		"libnvidia-common",
-		"libnvidia-gl-535-server (<< 390.25-0ubuntu2~)"
+	"depends": [
+		"libnvidia-common-580-server"
 	],
-	"breaks": [
-		"libnvidia-gl-535-server (<< 390.25-0ubuntu2~)"
-	],
-	"conflicts": [
-		"libnvidia-common"
-	],
-	"installedSize": 60,
+	"installedSize": 34,
 	"maintainer": "Ubuntu Developers <ubuntu-devel-discuss@lists.ubuntu.com>",
-	"description": "Shared files used by the NVIDIA libraries",
+	"description": "Shared files used by the NVIDIA libraries (transitional package)",
 	"homepage": "http://www.nvidia.com",
-	"filename": "pool/restricted/n/nvidia-graphics-drivers-535-server/libnvidia-common-535-server_535.309.01-0ubuntu0.24.04.1_all.deb",
-	"size": 16790,
-	"md5": "18f5e5379b9eda80f08d3367518414dc",
-	"sha1": "f949234b1c448ab7bb8942fe62b49afaec62278d",
-	"sha256": "a232002ec336c6f1a71728489479d909f9adbb8275666e4e655db241cbb43432",
-	"sha512": "e31662357a3d11cae738e607f502debb49dd623054e58c7d61b083e74c0b0f283acbef147bb0dce2d282a8454e6e446a07e07f16a6ffc07f5383deeb024d6b97",
-	"descriptionMd5": "259c61ba4e777f5a2f1e7ee2fd1957bc"
+	"filename": "pool/restricted/n/nvidia-graphics-drivers-535-server/libnvidia-common-535-server_535.309.01-0ubuntu0.24.04.2_all.deb",
+	"size": 12590,
+	"md5": "f210b39efd35cb475e22b4e87cd10aae",
+	"sha1": "be694b70d3d318e9dda1ae1929f8dbf058da0978",
+	"sha256": "a9f5d8b73bef1453881efda0a7a097bfeeff41ed89f4a26854c2e17c722e8d1d",
+	"sha512": "f614f1040e3e7578a505ceeaa7a9040aa2208687bd6b26ac8980ae176091910998cd14b2a402cfe6986845a07d694accfec6ef260e086aa3e88de8f3c85916c0",
+	"descriptionMd5": "199944b00680c01ad96667801f879894"
 }

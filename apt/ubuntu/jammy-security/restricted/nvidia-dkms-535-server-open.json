@@ -6,37 +6,22 @@
 	],
 	"package": "nvidia-dkms-535-server-open",
 	"source": "nvidia-graphics-drivers-535-server",
-	"version": "535.309.01-0ubuntu0.22.04.1",
+	"version": "535.309.01-0ubuntu0.22.04.2",
 	"section": "restricted/libs",
 	"priority": "optional",
 	"architecture": "amd64",
 	"depends": [
-		"dkms",
-		"nvidia-kernel-source-535-server-open (<= 535.309.01-1)",
-		"nvidia-kernel-source-535-server-open (>= 535.309.01)",
-		"nvidia-kernel-common-535-server (<= 535.309.01-1)",
-		"nvidia-kernel-common-535-server (>= 535.309.01)"
+		"nvidia-dkms-580-server-open"
 	],
-	"replaces": [
-		"nvidia-384 (<< 390.25)",
-		"nvidia-dkms-kernel",
-		"nvidia-kernel-source-535-server (<< 390.25-0ubuntu2~)"
-	],
-	"breaks": [
-		"nvidia-kernel-source-535-server (<< 390.25-0ubuntu2~)"
-	],
-	"conflicts": [
-		"nvidia-dkms-kernel"
-	],
-	"installedSize": 49,
+	"installedSize": 33,
 	"maintainer": "Ubuntu Developers <ubuntu-devel-discuss@lists.ubuntu.com>",
-	"description": "NVIDIA DKMS package (open kernel module)",
+	"description": "NVIDIA DKMS package (open kernel module) (transitional package)",
 	"homepage": "http://www.nvidia.com",
-	"filename": "pool/restricted/n/nvidia-graphics-drivers-535-server/nvidia-dkms-535-server-open_535.309.01-0ubuntu0.22.04.1_amd64.deb",
-	"size": 15838,
-	"md5": "d9dac620eb41b9e9ba1355fea0a4e859",
-	"sha1": "d3d817cd2a211069664c585062321f38e31580ad",
-	"sha256": "6dd9905edfc919af7cf20f12497d738bf14a936a08aec8f01edad9cc69c9e965",
-	"sha512": "e48bffda828b47099e6eb3f01c8af7a7c733a12af5001b618a68a7ec5518d162fe3d905caaacbef0f5b0f4accfee88091954c4410f446aee733582de8082cf59",
-	"descriptionMd5": "dafa8f35853882b3010cba056bb022d0"
+	"filename": "pool/restricted/n/nvidia-graphics-drivers-535-server/nvidia-dkms-535-server-open_535.309.01-0ubuntu0.22.04.2_amd64.deb",
+	"size": 12022,
+	"md5": "4c0a4c0d8b168029a263487c1f2bcc02",
+	"sha1": "0cad64e58d03d66c9ab9272c242feb45e2bed3dc",
+	"sha256": "cd514e3e6cb0ac1e805aa6fcef0d2a3d73fbed2355a6533a09f1a81a7be4d2ae",
+	"sha512": "65e1188c9e33ae96d5b347bb05c66906cb18950a55b26e836bf0d3183759c33ce79b819226a5c5f9334466c3e017a00842e3093aafa2f94f5887e3bbaf5f1bfc",
+	"descriptionMd5": "b34400b6c042c32771e7523f2faa4dbb"
 }

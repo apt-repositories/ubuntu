@@ -6,35 +6,22 @@
 	],
 	"package": "nvidia-headless-no-dkms-535-server",
 	"source": "nvidia-graphics-drivers-535-server",
-	"version": "535.309.01-0ubuntu0.22.04.1",
+	"version": "535.309.01-0ubuntu0.22.04.2",
 	"section": "restricted/libs",
 	"priority": "optional",
 	"architecture": "amd64",
 	"depends": [
-		"nvidia-kernel-common-535-server (<= 535.309.01-1)",
-		"nvidia-kernel-common-535-server (>= 535.309.01)",
-		"nvidia-kernel-source-535-server (= 535.309.01-0ubuntu0.22.04.1)",
-		"libnvidia-compute-535-server (= 535.309.01-0ubuntu0.22.04.1)",
-		"nvidia-compute-utils-535-server (= 535.309.01-0ubuntu0.22.04.1)",
-		"libnvidia-cfg1-535-server (= 535.309.01-0ubuntu0.22.04.1)"
-	],
-	"replaces": [
-		"nvidia-384 (<< 390.25)",
-		"nvidia-390 (<< 390.25-0ubuntu1)"
-	],
-	"conflicts": [
-		"nvidia-384 (<< 390.25)",
-		"nvidia-390 (<< 390.25-0ubuntu1)"
+		"nvidia-headless-no-dkms-580-server"
 	],
 	"installedSize": 33,
 	"maintainer": "Ubuntu Developers <ubuntu-devel-discuss@lists.ubuntu.com>",
-	"description": "NVIDIA headless metapackage - no DKMS",
+	"description": "NVIDIA headless metapackage - no DKMS (transitional package)",
 	"homepage": "http://www.nvidia.com",
-	"filename": "pool/restricted/n/nvidia-graphics-drivers-535-server/nvidia-headless-no-dkms-535-server_535.309.01-0ubuntu0.22.04.1_amd64.deb",
-	"size": 12196,
-	"md5": "357038cd1c0121676c54d0a654937c61",
-	"sha1": "5afe7fa71b4e4b4b52492ae3396ef5034eb6cc7c",
-	"sha256": "044c6ad493d796bca2afa7952ff544ab473b2d7b7c6ccff6870cb6b640ce1eb5",
-	"sha512": "cebc7c7589258cfaa60f3b2ec3b2388b0a178e0d542dd3ca56541e357ac5be939ea61b29ab0f020ffd9a797ec38d2ad349d0e41122a986f30785ac955a3025ba",
-	"descriptionMd5": "673bb0117fea4132d63048940b83be3a"
+	"filename": "pool/restricted/n/nvidia-graphics-drivers-535-server/nvidia-headless-no-dkms-535-server_535.309.01-0ubuntu0.22.04.2_amd64.deb",
+	"size": 11998,
+	"md5": "828902091689f80bf7b933a8551ebc0a",
+	"sha1": "5ed21375dca59a68f0be5995a0a33c3d4bf846ff",
+	"sha256": "ec1070b264aed917eec08ddd52cf7ee8c875dce5eca7ac45531e1cb51effc30c",
+	"sha512": "02ca91eea19d271b2c71d234ea45303dcd3fbf8303995d4f5bf918105eee975335536fa23340b06e17439f8919c270d732126b693cba6a09591bf586087e9340",
+	"descriptionMd5": "e3be17826869cdcc66eb993b2766e442"
 }

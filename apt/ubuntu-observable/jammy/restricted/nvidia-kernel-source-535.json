@@ -6,27 +6,22 @@
 	],
 	"package": "nvidia-kernel-source-535",
 	"source": "nvidia-graphics-drivers-535",
-	"version": "535.309.01-0ubuntu0.22.04.1",
+	"version": "535.309.01-0ubuntu0.22.04.2",
 	"section": "restricted/libs",
 	"priority": "optional",
 	"architecture": "amd64",
-	"replaces": [
-		"nvidia-384 (<< 390.25)",
-		"nvidia-390 (<< 390.25-0ubuntu1)",
-		"nvidia-kernel-source"
+	"depends": [
+		"nvidia-kernel-source-580"
 	],
-	"conflicts": [
-		"nvidia-kernel-source"
-	],
-	"installedSize": 72297,
+	"installedSize": 37,
 	"maintainer": "Ubuntu Developers <ubuntu-devel-discuss@lists.ubuntu.com>",
-	"description": "NVIDIA kernel source package",
+	"description": "NVIDIA kernel source package (transitional package)",
 	"homepage": "http://www.nvidia.com",
-	"filename": "pool/restricted/n/nvidia-graphics-drivers-535/nvidia-kernel-source-535_535.309.01-0ubuntu0.22.04.1_amd64.deb",
-	"size": 45282832,
-	"md5": "8cde6bf6d540abf0758072524cc84902",
-	"sha1": "280c4f1331de7a2294245100116ad4928c33317a",
-	"sha256": "44380b2725d16a04e74d4b35b6547d91a55c97d3eef2bf8e112275f63f716df0",
-	"sha512": "20cbd043e3de6fd8def6c4abc93bbec78599bf6ed5a6b84ebe58ff0d24fedbfdb105fd70145d3705be34ce52a97fee7cca189f10110250c98181bca8b8998733",
-	"descriptionMd5": "dc60d6861ca351f7cadc7d8fcc74e854"
+	"filename": "pool/restricted/n/nvidia-graphics-drivers-535/nvidia-kernel-source-535_535.309.01-0ubuntu0.22.04.2_amd64.deb",
+	"size": 13066,
+	"md5": "d17a847bad1510badcc404615158cd3c",
+	"sha1": "6f45366c3ce0212a00be33a348f508cbc6235368",
+	"sha256": "7340af5817e4ddc4288580c4918931e554649bef5b0ba5005eeceb275044b05b",
+	"sha512": "350217a1b42232cf88fc288ddf3bb047726085735bcb3b08e0599e78d04a52c94c425b832aa337cce61abdc49b44e069a6f3fbba671d041997581a7f94a1146e",
+	"descriptionMd5": "2132505fc22258d2624a002c6d62a46e"
 }]
