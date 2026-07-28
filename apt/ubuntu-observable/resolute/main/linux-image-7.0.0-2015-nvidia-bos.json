@@ -1,0 +1,42 @@
+[{
+	"raw": {},
+	"required": [
+		"Filename",
+		"Size"
+	],
+	"package": "linux-image-7.0.0-2015-nvidia-bos",
+	"source": "linux-signed-nvidia-bos",
+	"version": "7.0.0-2015.15",
+	"section": "kernel",
+	"priority": "optional",
+	"architecture": "amd64",
+	"depends": [
+		"kmod",
+		"linux-base (>= 4.5ubuntu1~16.04.1)",
+		"linux-modules-7.0.0-2015-nvidia-bos"
+	],
+	"recommends": [
+		"grub-pc | grub-efi-amd64 | grub-efi-ia32 | grub | lilo",
+		"initramfs-tools | linux-initramfs-tool"
+	],
+	"suggests": [
+		"bpftool",
+		"linux-perf",
+		"linux-nvidia-bos-tools",
+		"linux-headers-7.0.0-2015-nvidia-bos"
+	],
+	"conflicts": [
+		"linux-image-unsigned-7.0.0-2015-nvidia-bos"
+	],
+	"installedSize": 17065,
+	"maintainer": "Canonical Kernel Team <kernel-team@lists.ubuntu.com>",
+	"description": "Signed kernel image nvidia-bos",
+	"builtUsing": "linux-nvidia-bos (= 7.0.0-2015.15)",
+	"filename": "pool/main/l/linux-signed-nvidia-bos/linux-image-7.0.0-2015-nvidia-bos_7.0.0-2015.15_amd64.deb",
+	"size": 17171280,
+	"md5": "2bad55a86718b51ee277b9186ab9f045",
+	"sha1": "c0e0361cadb9cfe8c5c3e2c87a953594090b092a",
+	"sha256": "9befb29181127a73b6ac590255d5a2ea70afa42cf014b7b9171488df17602aa4",
+	"sha512": "c5c5ee098a83068c1585f940a9a0e12baca6a98be37bb8b4729c9cc50f6ca6acff15e33b021bda803f6dbf64023d25a489dab346a02ed3b7ec55a8e2f65f3b8f",
+	"descriptionMd5": "42da4728bb75f96f8f0f085dc203623e"
+}]
