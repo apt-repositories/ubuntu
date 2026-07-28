@@ -6,16 +6,17 @@
 	],
 	"package": "linux-image-nvidia-hwe-26.04",
 	"source": "linux-meta-nvidia-bos",
-	"version": "7.0.0-2012.12",
+	"version": "7.0.0-2015.15",
 	"section": "kernel",
 	"priority": "optional",
 	"architecture": "amd64",
 	"depends": [
-		"linux-image-7.0.0-2012-nvidia-bos",
-		"linux-modules-7.0.0-2012-nvidia-bos",
+		"linux-image-7.0.0-2015-nvidia-bos",
+		"linux-modules-7.0.0-2015-nvidia-bos",
 		"linux-firmware",
 		"intel-microcode",
-		"amd64-microcode"
+		"amd64-microcode",
+		"linux-modules-nvidia-fs-7.0.0-2015-nvidia-bos"
 	],
 	"recommends": [
 		"thermald"
@@ -23,11 +24,11 @@
 	"installedSize": 9,
 	"maintainer": "Ubuntu Kernel Team <kernel-team@lists.ubuntu.com>",
 	"description": "NVIDIA BOS Linux kernel image",
-	"filename": "pool/main/l/linux-meta-nvidia-bos/linux-image-nvidia-hwe-26.04_7.0.0-2012.12_amd64.deb",
-	"size": 2618,
-	"md5": "c99336188896893dcea25251d3895c1d",
-	"sha1": "323736c8d0d268b5608f95898a956ccf98bb385d",
-	"sha256": "eab3cbf397a83e2efbea6925e74066858112acdd91c9224fcb88053e19a1cfb5",
-	"sha512": "9e616219f66cabccf5b23d32b8cd4449bbdc18eec0378a478e258c703d6aeb4b040e5f2ecd513cdc4acd97c2d4177fcbd505aa522f437d5c8e7d3a4500b1d086",
+	"filename": "pool/main/l/linux-meta-nvidia-bos/linux-image-nvidia-hwe-26.04_7.0.0-2015.15_amd64.deb",
+	"size": 2712,
+	"md5": "acb0c12791a6ad28859aee67cde73942",
+	"sha1": "8bbd50e4f26ec5c97f8eda7424a0fdbe21a4ba0b",
+	"sha256": "4b5a04ae435b3d48eebbbce440af28a3f9cf0d5761dd1bbe8988609ed83bc9f2",
+	"sha512": "7978444470904348148747f4cd997444fa0b08044b57d95b6d6cf5ffe91e93a0b4380a14a64dd3089cec6702beb8f8cd8b5221eefb3a14110bad80c4e9f0dc47",
 	"descriptionMd5": "2e9abaa22b8bca3b877615943ec00df9"
 }

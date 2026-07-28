@@ -6,6 +6,66 @@
 	],
 	"package": "libc6",
 	"source": "glibc",
+	"version": "2.43-2ubuntu2.3",
+	"section": "libs",
+	"priority": "required",
+	"architecture": "amd64",
+	"depends": [
+		"libgcc-s1",
+		"libc-gconv-modules-extra (= 2.43-2ubuntu2.3)"
+	],
+	"recommends": [
+		"libidn2-0 (>= 2.0.5~)"
+	],
+	"suggests": [
+		"glibc-doc",
+		"debconf | debconf-2.0",
+		"locales",
+		"libnss-nis",
+		"libnss-nisplus"
+	],
+	"replaces": [
+		"libc6-amd64"
+	],
+	"breaks": [
+		"base-files (<< 13.3~)",
+		"dhcpcd (<< 1:10.1.0-7~)",
+		"libamdhip64-5 (<< 5.7.1-5+b1)",
+		"libhiprtc-builtins5 (<< 5.7.1-5+b1)",
+		"librccl1 (<< 5.4.3-3build1)",
+		"libswupdate0.1 (<< 2024.12.1+dfsg-1+b3)",
+		"locales (<< 2.43)",
+		"locales-all (<< 2.43)",
+		"lua-swupdate (<< 2024.12.1+dfsg-1+b3)",
+		"nscd (<< 2.43)",
+		"pd-scaf (<< 1:0.14.1+darcs20180201-6build5)",
+		"postgresql-15-pllua (<< 1:2.0.12-4)",
+		"postgresql-17-pllua (<< 1:2.0.12-3+b2)",
+		"python3-mrgingham (<< 1.25-1)",
+		"python3-onnxruntime (<< 1.20.1+dfsg-2~)",
+		"sysvinit (<< 3.09-2~)",
+		"sysvinit-core (<< 3.09-2~)",
+		"uwsgi-plugin-pypy3 (<< 0.0.2+b1)"
+	],
+	"installedSize": 5794,
+	"maintainer": "Ubuntu Developers <ubuntu-devel-discuss@lists.ubuntu.com>",
+	"description": "GNU C Library: Shared libraries",
+	"homepage": "https://www.gnu.org/software/libc/libc.html",
+	"filename": "pool/main/g/glibc/libc6_2.43-2ubuntu2.3_amd64.deb",
+	"size": 2103290,
+	"md5": "83a1edca616ead04bc2dfa4cc622af31",
+	"sha1": "78b35d5c216b17d238c6ef6e7f1f7d34d9ddbd5f",
+	"sha256": "49fc198d09ed1099070b8333c94c3801cc5b11d18b3a8ce9d0da15dc42547681",
+	"sha512": "966ebfeeb1686e4d5c09ba71ad69d240cd41e9da1dde499b8397cf071933a41272ef9fbc90d15b67bab5fbf8fb2d4342f480d6f59bdf2cbf5469865b432403ce",
+	"descriptionMd5": "fc3001b0b90a1c8e6690b283a619d57f"
+},{
+	"raw": {},
+	"required": [
+		"Filename",
+		"Size"
+	],
+	"package": "libc6",
+	"source": "glibc",
 	"version": "2.43-2ubuntu2",
 	"section": "libs",
 	"priority": "required",
