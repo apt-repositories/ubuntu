@@ -1,0 +1,57 @@
+{
+	"raw": {},
+	"required": [
+		"Filename",
+		"Size"
+	],
+	"package": "grub2-common",
+	"source": "grub2",
+	"version": "2.14-2ubuntu2.1",
+	"section": "admin",
+	"priority": "optional",
+	"architecture": "amd64",
+	"depends": [
+		"libc6 (>= 2.38)",
+		"libdevmapper1.02.1 (>= 2:1.02.197)",
+		"libefiboot1t64 (>= 39)",
+		"libefivar1t64 (>= 39)",
+		"libfreetype6 (>= 2.2.1)",
+		"libfuse3-4 (>= 3.17.2)",
+		"liblzma5 (>= 5.1.1alpha+20120614)",
+		"debconf (>= 0.5) | debconf-2.0",
+		"gettext-base",
+		"python3",
+		"python3-apt"
+	],
+	"recommends": [
+		"os-prober"
+	],
+	"suggests": [
+		"multiboot-doc",
+		"grub-emu",
+		"mtools",
+		"xorriso",
+		"desktop-base",
+		"console-setup"
+	],
+	"replaces": [
+		"grub",
+		"grub-common",
+		"grub-legacy"
+	],
+	"breaks": [
+		"grub-common (<< 2.14~)",
+		"grub-legacy (<< 0.97-83~)"
+	],
+	"installedSize": 16452,
+	"maintainer": "Ubuntu Developers <ubuntu-devel-discuss@lists.ubuntu.com>",
+	"description": "GRand Unified Bootloader (common files for version 2)",
+	"homepage": "https://www.gnu.org/software/grub/",
+	"filename": "pool/main/g/grub2/grub2-common_2.14-2ubuntu2.1_amd64.deb",
+	"size": 2585520,
+	"md5": "33a220d7257da22a54a2b86572924853",
+	"sha1": "d662847ca3bf994a1f65a5d81299b6a7f37e106d",
+	"sha256": "588adef32c4e4cb41f3cb82a0d0d24e5200e69071f4febeda91a84889217b2d1",
+	"sha512": "ba824dbc78cf79700b81ee080be80444f3a6297fdc1bf96262ed8fbdd052b0dfcde6008b06ac81da801458c8fa359040023871e8a9c806913bc370a98af660c6",
+	"descriptionMd5": "a969e6536e745e177a340b30bdb5ba3f"
+}

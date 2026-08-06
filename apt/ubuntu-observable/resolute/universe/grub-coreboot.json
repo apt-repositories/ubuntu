@@ -6,6 +6,53 @@
 	],
 	"package": "grub-coreboot",
 	"source": "grub2",
+	"version": "2.14-2ubuntu2.1",
+	"section": "universe/admin",
+	"priority": "extra",
+	"architecture": "amd64",
+	"depends": [
+		"debconf (>= 0.5) | debconf-2.0",
+		"grub2-common (= 2.14-2ubuntu2.1)",
+		"grub-coreboot-bin (= 2.14-2ubuntu2.1)",
+		"ucf"
+	],
+	"replaces": [
+		"grub-efi-amd64",
+		"grub-efi-ia32",
+		"grub-ieee1275",
+		"grub-legacy",
+		"grub-linuxbios",
+		"grub-pc",
+		"grub2 (<< 2.14-2ubuntu2.1)"
+	],
+	"conflicts": [
+		"grub-efi-amd64",
+		"grub-efi-ia32",
+		"grub-ieee1275",
+		"grub-legacy",
+		"grub-linuxbios (<< 2.14-2ubuntu2.1)",
+		"grub-pc",
+		"grub-xen"
+	],
+	"installedSize": 162,
+	"maintainer": "Ubuntu Developers <ubuntu-devel-discuss@lists.ubuntu.com>",
+	"description": "GRand Unified Bootloader, version 2 (Coreboot version)",
+	"homepage": "https://www.gnu.org/software/grub/",
+	"filename": "pool/universe/g/grub2/grub-coreboot_2.14-2ubuntu2.1_amd64.deb",
+	"size": 52116,
+	"md5": "d08229cec1b7cea6896e8fc166cc5c4d",
+	"sha1": "b63c2be61c4a63ca2200a1d84e9de2563acbaa12",
+	"sha256": "eb0dc39cbdaaa6cdda1fba2420aa67c5fe70a197b08a64548e817a1aef6edc97",
+	"sha512": "28aa847ac778790cfaf9acbdaae936e4f7f359cefc712832c85cd1d1c25ad19432096d297e2cb883324f24673a3fe682c994bfb3e2c8b590b027cc8f54979adc",
+	"descriptionMd5": "db4a244ee1058cab6f43333a109d25ab"
+},{
+	"raw": {},
+	"required": [
+		"Filename",
+		"Size"
+	],
+	"package": "grub-coreboot",
+	"source": "grub2",
 	"version": "2.14-2ubuntu2",
 	"section": "universe/admin",
 	"priority": "extra",

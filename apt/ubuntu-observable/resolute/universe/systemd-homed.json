@@ -6,6 +6,56 @@
 	],
 	"package": "systemd-homed",
 	"source": "systemd",
+	"version": "259.5-0ubuntu3.3",
+	"section": "universe/admin",
+	"priority": "optional",
+	"architecture": "amd64",
+	"depends": [
+		"libc6 (>= 2.39)",
+		"libfdisk1 (>= 2.33)",
+		"libpam0g (>= 1.1.1)",
+		"libssl3t64 (>= 3.0.0)",
+		"libsystemd-shared (= 259.5-0ubuntu3.3)",
+		"systemd-userdbd (= 259.5-0ubuntu3.3)",
+		"systemd (= 259.5-0ubuntu3.3)",
+		"libpam-runtime",
+		"polkitd"
+	],
+	"preDepends": [
+		"init-system-helpers (>= 1.64~)"
+	],
+	"recommends": [
+		"libblkid1",
+		"libmount1",
+		"libselinux1"
+	],
+	"suggests": [
+		"libcryptsetup12",
+		"libidn2-0",
+		"libp11-kit0",
+		"libtss2-esys-3.0.2-0t64",
+		"libtss2-mu-4.0.1-0t64",
+		"libtss2-rc0t64"
+	],
+	"installedSize": 1281,
+	"maintainer": "Ubuntu Developers <ubuntu-devel-discuss@lists.ubuntu.com>",
+	"description": "home area manager",
+	"homepage": "https://systemd.io",
+	"filename": "pool/universe/s/systemd/systemd-homed_259.5-0ubuntu3.3_amd64.deb",
+	"size": 451048,
+	"md5": "7a8b9e2b77de5de6a4393d99fd11b527",
+	"sha1": "31da0d8a2a8666527476b062da72802f86184cbc",
+	"sha256": "b4c3972a419ae263efc9eb2cc5c51b99e4ec83f50444c5b9b9fba225d436c7c0",
+	"sha512": "20ed0eefa5fe835a3ae93692aee1c3d4bd17e5451d24ac8ec7f335536b9287facc8368bc67bc1e3e4b294f60038408828cd2ed609ce9e02c3f1da76b792e7af1",
+	"descriptionMd5": "e71da21f82a0832ca7fcbdc41f810503"
+},{
+	"raw": {},
+	"required": [
+		"Filename",
+		"Size"
+	],
+	"package": "systemd-homed",
+	"source": "systemd",
 	"version": "259.5-0ubuntu3",
 	"section": "universe/admin",
 	"priority": "optional",

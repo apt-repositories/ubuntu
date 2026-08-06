@@ -6,6 +6,54 @@
 	],
 	"package": "grub-efi-ia32",
 	"source": "grub2",
+	"version": "2.14-2ubuntu2.1",
+	"section": "admin",
+	"priority": "extra",
+	"architecture": "amd64",
+	"depends": [
+		"debconf (>= 0.5) | debconf-2.0",
+		"grub2-common (= 2.14-2ubuntu2.1)",
+		"grub-efi-ia32-bin (= 2.14-2ubuntu2.1)",
+		"ucf"
+	],
+	"replaces": [
+		"grub",
+		"grub-coreboot",
+		"grub-efi",
+		"grub-efi-amd64",
+		"grub-ieee1275",
+		"grub-legacy",
+		"grub-pc",
+		"grub2 (<< 2.14-2ubuntu2.1)"
+	],
+	"conflicts": [
+		"elilo",
+		"grub-coreboot",
+		"grub-efi-amd64",
+		"grub-ieee1275",
+		"grub-legacy",
+		"grub-pc",
+		"grub-xen"
+	],
+	"installedSize": 162,
+	"maintainer": "Ubuntu Developers <ubuntu-devel-discuss@lists.ubuntu.com>",
+	"description": "GRand Unified Bootloader, version 2 (EFI-IA32 version)",
+	"homepage": "https://www.gnu.org/software/grub/",
+	"filename": "pool/main/g/grub2/grub-efi-ia32_2.14-2ubuntu2.1_amd64.deb",
+	"size": 52146,
+	"md5": "f85d0015584f53fe7f285e7957c666dc",
+	"sha1": "de727947591ad2b6ae2257c4a5a202eabac49cd2",
+	"sha256": "17d7277e8998d4a4912496786a9c9e89c3d8583ced1be198b298651534781e8e",
+	"sha512": "7c3184b49273b8c44aebb6330b1458bfa8e288246a0b8df4cc1d2ad71a545de7068f3e46ad5a12b7559892ba281b07444f77fb118a658d875da79d03ef56ef8f",
+	"descriptionMd5": "8c6c55e964a46f53a3966547af1394fc"
+},{
+	"raw": {},
+	"required": [
+		"Filename",
+		"Size"
+	],
+	"package": "grub-efi-ia32",
+	"source": "grub2",
 	"version": "2.14-2ubuntu2",
 	"section": "admin",
 	"priority": "extra",
