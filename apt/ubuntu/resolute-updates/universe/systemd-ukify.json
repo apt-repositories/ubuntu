@@ -1,0 +1,43 @@
+{
+	"raw": {},
+	"required": [
+		"Filename",
+		"Size"
+	],
+	"package": "systemd-ukify",
+	"source": "systemd",
+	"version": "259.5-0ubuntu3.3",
+	"section": "universe/admin",
+	"priority": "optional",
+	"architecture": "all",
+	"depends": [
+		"python3:any",
+		"python3-pefile",
+		"python3-zstandard"
+	],
+	"recommends": [
+		"systemd",
+		"systemd-boot-efi",
+		"systemd-repart",
+		"python3-cryptography",
+		"python3-lz4",
+		"sbsigntool | pesign"
+	],
+	"replaces": [
+		"systemd (<< 255.1-1~)"
+	],
+	"conflicts": [
+		"systemd (<< 255.1-1~)"
+	],
+	"installedSize": 181,
+	"maintainer": "Ubuntu Developers <ubuntu-devel-discuss@lists.ubuntu.com>",
+	"description": "tool to build Unified Kernel Images",
+	"homepage": "https://systemd.io",
+	"filename": "pool/universe/s/systemd/systemd-ukify_259.5-0ubuntu3.3_all.deb",
+	"size": 81462,
+	"md5": "6e38806d2a7f0925fbfb8de763b296f5",
+	"sha1": "677c2215332dace66b989c0c8e61b974181d818d",
+	"sha256": "358eb18eea24888b73e3b023b09b23efd059d1d9bd2e66b550df9f2600c5fd90",
+	"sha512": "ba115c0a401c7af3886b254198a0b1419030197db7b1f020c5385e3bd011e6f19c96a39c0eaf1c7946a331ac2ebcad19f466aa024b081dea173d6af2d7506983",
+	"descriptionMd5": "39e5649d00705f557e265149601a82a3"
+}

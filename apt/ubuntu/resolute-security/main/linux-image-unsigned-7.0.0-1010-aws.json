@@ -1,0 +1,42 @@
+{
+	"raw": {},
+	"required": [
+		"Filename",
+		"Size"
+	],
+	"package": "linux-image-unsigned-7.0.0-1010-aws",
+	"source": "linux-aws",
+	"version": "7.0.0-1010.10",
+	"section": "kernel",
+	"priority": "optional",
+	"architecture": "amd64",
+	"depends": [
+		"kmod",
+		"linux-base (>= 4.5ubuntu1~16.04.1)",
+		"linux-modules-7.0.0-1010-aws"
+	],
+	"recommends": [
+		"grub-pc | grub-efi-amd64 | grub-efi-ia32 | grub | lilo",
+		"initramfs-tools | linux-initramfs-tool"
+	],
+	"suggests": [
+		"bpftool",
+		"linux-perf",
+		"linux-aws-doc-7.0.0 | linux-aws-source-7.0.0",
+		"linux-aws-tools",
+		"linux-headers-7.0.0-1010-aws"
+	],
+	"conflicts": [
+		"linux-image-7.0.0-1010-aws"
+	],
+	"installedSize": 17237,
+	"maintainer": "Ubuntu Kernel Team <kernel-team@lists.ubuntu.com>",
+	"description": "Linux kernel image for version 7.0.0",
+	"filename": "pool/main/l/linux-aws/linux-image-unsigned-7.0.0-1010-aws_7.0.0-1010.10_amd64.deb",
+	"size": 17664192,
+	"md5": "af974cfcfc16f750109ac6d48148f173",
+	"sha1": "db64cf98a6dd6eb959fbb93f8c360a9da823012e",
+	"sha256": "817ba892f362a39e4de2232f178009ef6d0cc3dabc0255e105672cd76953a5cb",
+	"sha512": "f6ffcfca1d654871229d58c45432dee79df5b52bec62672889d71bd5deaf398a715fd0a15958da72101604a57495b5877780a110df697c5cd82313713a58073e",
+	"descriptionMd5": "4ac14fa0d57cff85614aca1e1ef4658f"
+}
