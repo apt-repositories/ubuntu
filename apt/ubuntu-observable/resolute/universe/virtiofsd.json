@@ -6,6 +6,42 @@
 	],
 	"package": "virtiofsd",
 	"source": "rust-virtiofsd",
+	"version": "1.13.2-6ubuntu0.1",
+	"section": "universe/otherosfs",
+	"priority": "optional",
+	"architecture": "amd64",
+	"depends": [
+		"libc6 (>= 2.39)",
+		"libcap-ng0 (>= 0.7.9)",
+		"libgcc-s1 (>= 4.2)",
+		"libseccomp2 (>= 0.0.0~20120605)",
+		"uidmap"
+	],
+	"replaces": [
+		"qemu-system-common (<< 1:8.0)"
+	],
+	"breaks": [
+		"qemu-system-common (<< 1:8.0)"
+	],
+	"installedSize": 3358,
+	"maintainer": "Ubuntu Developers <ubuntu-devel-discuss@lists.ubuntu.com>",
+	"description": "Virtio-fs vhost-user device daemon",
+	"homepage": "https://virtio-fs.gitlab.io/",
+	"filename": "pool/universe/r/rust-virtiofsd/virtiofsd_1.13.2-6ubuntu0.1_amd64.deb",
+	"size": 1146208,
+	"md5": "118eb6288d482504ac2d7d98c464dfd6",
+	"sha1": "fc65c56fe5437e39526da59696d7db35240a32c8",
+	"sha256": "724d4e3d605d0319f33f164d9469f2c4a3bf46bad29d98b0f71ae7aa9a9f6025",
+	"sha512": "5add62e19eda561a218cc96ad8078f75cce84e2014c47f09b1fa49181cae48850235862ddb9cf66436077e069a843033d9c884507bec3a5d30ad6d39986cb34d",
+	"descriptionMd5": "e96fb3b03e22bd9f7749d474cd901a23"
+},{
+	"raw": {},
+	"required": [
+		"Filename",
+		"Size"
+	],
+	"package": "virtiofsd",
+	"source": "rust-virtiofsd",
 	"version": "1.13.2-6",
 	"section": "universe/otherosfs",
 	"priority": "optional",
