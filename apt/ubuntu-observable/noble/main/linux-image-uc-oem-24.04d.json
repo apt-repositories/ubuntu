@@ -30,4 +30,36 @@
 	"sha256": "56ba1f3dfbcf763d0413e251f8f0e5546099a4d00d95b9eccb0967718438de00",
 	"sha512": "e331b80b0ee88622c81cbeefbe0e223377a4987146cab61b3cfd865f1ab4ff3e8677a3882db2dfb80c08bef4f4a170386623f9182beedabf5db7d763af95ae58",
 	"descriptionMd5": "31b0f5289e523576dbd237a9d7077279"
+},{
+	"raw": {},
+	"required": [
+		"Filename",
+		"Size"
+	],
+	"package": "linux-image-uc-oem-24.04d",
+	"source": "linux-meta-oem-6.17",
+	"version": "6.17.0-1032.32",
+	"section": "kernel",
+	"priority": "optional",
+	"architecture": "amd64",
+	"depends": [
+		"linux-image-uc-6.17.0-1032-oem",
+		"linux-firmware",
+		"firmware-sof-signed",
+		"wireless-regdb"
+	],
+	"conflicts": [
+		"linux-modules-nvidia-580-open-oem-24.04d (<< 6.17.0-1025.25)",
+		"linux-modules-nvidia-595-open-oem-24.04d (<< 6.17.0-1025.25)"
+	],
+	"installedSize": 10,
+	"maintainer": "Ubuntu Kernel Team <kernel-team@lists.ubuntu.com>",
+	"description": "OEM Linux kernel image for Ubuntu Core",
+	"filename": "pool/main/l/linux-meta-oem-6.17/linux-image-uc-oem-24.04d_6.17.0-1032.32_amd64.deb",
+	"size": 2598,
+	"md5": "9771b90887d093a4db18d191803ce09f",
+	"sha1": "c345fb8454de84905c33da9f52b7f1f4b9f7158f",
+	"sha256": "9baa7c9d1cf8d49145dfe696eec7eccba1b7173fca4affb6562605c3f6638cbe",
+	"sha512": "0d6fb455dd3d74186d3948a0d80e6f2aae6a006b940697594f5d8754046edeef7bb104e07d22d82515d4aa10ce98913025cc56504dc04f19ba799d4fc75cef14",
+	"descriptionMd5": "31b0f5289e523576dbd237a9d7077279"
 }]
