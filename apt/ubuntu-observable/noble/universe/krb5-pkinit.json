@@ -43,6 +43,43 @@
 	],
 	"package": "krb5-pkinit",
 	"source": "krb5",
+	"version": "1.20.1-6ubuntu2.8",
+	"section": "universe/net",
+	"priority": "extra",
+	"architecture": "amd64",
+	"depends": [
+		"libkrb5-3 (= 1.20.1-6ubuntu2.8)",
+		"libc6 (>= 2.38)",
+		"libcom-err2 (>= 1.43.9)",
+		"libk5crypto3 (>= 1.8+dfsg)",
+		"libkrb5support0 (= 1.20.1-6ubuntu2.8)",
+		"libssl3t64 (>= 3.0.0)"
+	],
+	"suggests": [
+		"opensc"
+	],
+	"breaks": [
+		"krb5-kdc (<< 1.14+dfsg)"
+	],
+	"installedSize": 208,
+	"maintainer": "Ubuntu Developers <ubuntu-devel-discuss@lists.ubuntu.com>",
+	"description": "PKINIT plugin for MIT Kerberos",
+	"homepage": "https://web.mit.edu/kerberos/",
+	"filename": "pool/universe/k/krb5/krb5-pkinit_1.20.1-6ubuntu2.8_amd64.deb",
+	"size": 56162,
+	"md5": "5ff53e4b4946a7081c66f54409c0c127",
+	"sha1": "387720f7f0827363bc4eabee28d3053d2ea0030d",
+	"sha256": "032a23c3121c166e48412dd228274f56d29261dfc618968b01327c1346d5e8b6",
+	"sha512": "d734f66f20fab5a42c23c64d738e4649cbd85d8090c0ba8959881984f22c8413237a1229b31e8ed8e388393f8cd2783ec7b20e37cbd27650f38bf87eceaba687",
+	"descriptionMd5": "5b95da6e663d16f53b0cdeb2712ed0f3"
+},{
+	"raw": {},
+	"required": [
+		"Filename",
+		"Size"
+	],
+	"package": "krb5-pkinit",
+	"source": "krb5",
 	"version": "1.20.1-6ubuntu2",
 	"section": "universe/net",
 	"priority": "extra",

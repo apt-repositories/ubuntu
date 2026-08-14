@@ -31,4 +31,37 @@
 	"sha256": "992f3df24ca029dd8dde6c563b7fe6760a91fa6351063cb6300f1da9ab08ac7c",
 	"sha512": "7f8eafc23fdf638cce1868e24113adb5ade4d223cfd9307427d3200985e58abe74e64a708e4d54b2bc4f36a012c5dfe6332f19ba0ce9e9a061f9bfd84c21b2b2",
 	"descriptionMd5": "6181cbac371ffef56ff1cf754cfacf1b"
+},{
+	"raw": {},
+	"required": [
+		"Filename",
+		"Size"
+	],
+	"package": "linux-image-nvidia-7.0",
+	"source": "linux-meta-nvidia",
+	"version": "7.0.0-1016.16",
+	"section": "kernel",
+	"priority": "optional",
+	"architecture": "amd64",
+	"depends": [
+		"linux-image-7.0.0-1016-nvidia",
+		"linux-modules-7.0.0-1016-nvidia",
+		"linux-firmware",
+		"intel-microcode",
+		"amd64-microcode",
+		"linux-modules-nvidia-fs-7.0.0-1016-nvidia"
+	],
+	"recommends": [
+		"thermald"
+	],
+	"installedSize": 9,
+	"maintainer": "Ubuntu Kernel Team <kernel-team@lists.ubuntu.com>",
+	"description": "NVIDIA Linux kernel image",
+	"filename": "pool/main/l/linux-meta-nvidia/linux-image-nvidia-7.0_7.0.0-1016.16_amd64.deb",
+	"size": 2750,
+	"md5": "6eaf3a7fc5edd704cdb9faac039ade94",
+	"sha1": "dbe45c42b2978d0b71e27d1710096ce9868bad66",
+	"sha256": "fc9c188e33fd96b24706086c664be5c7f8f13daa893726901551d90fe04fb5de",
+	"sha512": "802215c73807cd9b7e2ca0c35837bb1039dd8cef1f253aba805ff8afacd5e0cae386c16fecc4ff91fef65c1111112fc724fcef5807564bef985c9575b14f01a8",
+	"descriptionMd5": "6181cbac371ffef56ff1cf754cfacf1b"
 }]

@@ -1,0 +1,42 @@
+[{
+	"raw": {},
+	"required": [
+		"Filename",
+		"Size"
+	],
+	"package": "linux-image-7.0.0-2016-nvidia-bos",
+	"source": "linux-signed-nvidia-bos",
+	"version": "7.0.0-2016.16",
+	"section": "kernel",
+	"priority": "optional",
+	"architecture": "amd64",
+	"depends": [
+		"kmod",
+		"linux-base (>= 4.5ubuntu1~16.04.1)",
+		"linux-modules-7.0.0-2016-nvidia-bos"
+	],
+	"recommends": [
+		"grub-pc | grub-efi-amd64 | grub-efi-ia32 | grub | lilo",
+		"initramfs-tools | linux-initramfs-tool"
+	],
+	"suggests": [
+		"bpftool",
+		"linux-perf",
+		"linux-nvidia-bos-tools",
+		"linux-headers-7.0.0-2016-nvidia-bos"
+	],
+	"conflicts": [
+		"linux-image-unsigned-7.0.0-2016-nvidia-bos"
+	],
+	"installedSize": 17077,
+	"maintainer": "Canonical Kernel Team <kernel-team@lists.ubuntu.com>",
+	"description": "Signed kernel image nvidia-bos",
+	"builtUsing": "linux-nvidia-bos (= 7.0.0-2016.16)",
+	"filename": "pool/main/l/linux-signed-nvidia-bos/linux-image-7.0.0-2016-nvidia-bos_7.0.0-2016.16_amd64.deb",
+	"size": 17186656,
+	"md5": "2cf8448f1bda70fd081a3501494d1175",
+	"sha1": "81cc00287de12f69fc45cd877d6509c58375735d",
+	"sha256": "d78c42f5f2215508f66158b3df95737638630bd73b6e287c1d58be6b7bc5a09e",
+	"sha512": "4e2eb7be10a6a1056b119f43583253de13d6303657cdfd0b4cfaea36395142ff77e9436af55d5e0d2059bfffbbdbe12f47b6348f90ab016089e1558ddd6ae135",
+	"descriptionMd5": "42da4728bb75f96f8f0f085dc203623e"
+}]
