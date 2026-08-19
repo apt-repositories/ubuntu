@@ -1,0 +1,43 @@
+{
+	"raw": {},
+	"required": [
+		"Filename",
+		"Size"
+	],
+	"package": "linux-image-5.15.0-1109-nvidia",
+	"source": "linux-signed-nvidia",
+	"version": "5.15.0-1109.110",
+	"section": "kernel",
+	"priority": "optional",
+	"architecture": "amd64",
+	"depends": [
+		"kmod",
+		"linux-base (>= 4.5ubuntu1~16.04.1)",
+		"linux-modules-5.15.0-1109-nvidia"
+	],
+	"recommends": [
+		"grub-pc | grub-efi-amd64 | grub-efi-ia32 | grub | lilo",
+		"initramfs-tools | linux-initramfs-tool"
+	],
+	"suggests": [
+		"fdutils",
+		"linux-doc | linux-nvidia-source-5.15.0",
+		"linux-nvidia-tools",
+		"linux-headers-5.15.0-1109-nvidia",
+		"linux-modules-extra-5.15.0-1109-nvidia"
+	],
+	"conflicts": [
+		"linux-image-unsigned-5.15.0-1109-nvidia"
+	],
+	"installedSize": 11492,
+	"maintainer": "Canonical Kernel Team <kernel-team@lists.ubuntu.com>",
+	"description": "Signed kernel image nvidia",
+	"builtUsing": "linux-nvidia (= 5.15.0-1109.110)",
+	"filename": "pool/main/l/linux-signed-nvidia/linux-image-5.15.0-1109-nvidia_5.15.0-1109.110_amd64.deb",
+	"size": 11576354,
+	"md5": "5f222dc050ebd933caff6309bec5d431",
+	"sha1": "04f4411d1b812f28522b830f00394b42ed567564",
+	"sha256": "10ffecc57af85f2996631c9b06629544e0b47279c5381f3b915f39a8b67f5a3c",
+	"sha512": "3461173191f0a7e5a641beb8adb81c2e022f7465ee4a536a02f15c8a80210f8140133633688e4f144a16fc9921e47e16311ca25f8f0e54066cba376116d4c11f",
+	"descriptionMd5": "b8342c2badb6b6cc1d4c822e4f5bad97"
+}
