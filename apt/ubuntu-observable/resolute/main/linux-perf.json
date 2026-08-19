@@ -50,6 +50,50 @@
 	],
 	"package": "linux-perf",
 	"source": "linux",
+	"version": "7.0.0-30.30",
+	"section": "devel",
+	"priority": "optional",
+	"architecture": "amd64",
+	"depends": [
+		"libc6 (>= 2.39)",
+		"libdebuginfod1t64 (>= 0.180)",
+		"libdw1t64 (>= 0.161)",
+		"libelf1t64 (>= 0.144)",
+		"libgcc-s1 (>= 4.2)",
+		"libllvm21 (>= 1:21.1.0)",
+		"liblzma5 (>= 5.1.1alpha+20120614)",
+		"libnuma1 (>= 2.0.11)",
+		"libpython3.14 (>= 3.14.1)",
+		"libslang2 (>= 2.2.4)",
+		"libstdc++6 (>= 12)",
+		"libtraceevent1 (>= 1:1.3.0)",
+		"libzstd1 (>= 1.5.5)",
+		"zlib1g (>= 1:1.2.3.4)"
+	],
+	"replaces": [
+		"linux-tools-common (<< 6.14.0-8~)"
+	],
+	"breaks": [
+		"linux-tools-common (<< 6.14.0-8~)"
+	],
+	"installedSize": 35906,
+	"maintainer": "Ubuntu Kernel Team <kernel-team@lists.ubuntu.com>",
+	"description": "Performance analysis tools for Linux",
+	"filename": "pool/main/l/linux/linux-perf_7.0.0-30.30_amd64.deb",
+	"size": 7041884,
+	"md5": "05ec9af96cda57db8e63b6b245c3c31d",
+	"sha1": "da67de5b18cb0aaf8e45173608973883296c1384",
+	"sha256": "d0e5b6a6fe745e27f7d5cecc94a4c374db1a36f8eaa65b2e2e677eaad04ed8f9",
+	"sha512": "a63b3db8225e7d4736ee352493b334272ce1199cccf1a4df8a1845e198ca32ee137dd2ecf7d1a8c2bc3df0f8d74e1477bf6c35e0704f065c9acdaa331371f66f",
+	"descriptionMd5": "88635cc4c3dc02248bd53321c4237fb4"
+},{
+	"raw": {},
+	"required": [
+		"Filename",
+		"Size"
+	],
+	"package": "linux-perf",
+	"source": "linux",
 	"version": "7.0.0-14.14",
 	"section": "devel",
 	"priority": "optional",
