@@ -6,13 +6,13 @@
 	],
 	"package": "libvirt-daemon",
 	"source": "libvirt",
-	"version": "10.0.0-2ubuntu8.11",
+	"version": "10.0.0-2ubuntu8.16",
 	"section": "admin",
 	"priority": "optional",
 	"architecture": "amd64",
 	"depends": [
-		"libvirt-daemon-driver-qemu (= 10.0.0-2ubuntu8.11)",
-		"libvirt0 (= 10.0.0-2ubuntu8.11)",
+		"libvirt-daemon-driver-qemu (= 10.0.0-2ubuntu8.16)",
+		"libvirt0 (= 10.0.0-2ubuntu8.16)",
 		"libacl1 (>= 2.2.23)",
 		"libblkid1 (>= 2.17.2)",
 		"libc6 (>= 2.38)",
@@ -35,14 +35,14 @@
 		"qemu-kvm | qemu-system"
 	],
 	"suggests": [
-		"libvirt-daemon-driver-storage-gluster (= 10.0.0-2ubuntu8.11)",
-		"libvirt-daemon-driver-storage-iscsi-direct (= 10.0.0-2ubuntu8.11)",
-		"libvirt-daemon-driver-storage-rbd (= 10.0.0-2ubuntu8.11)",
-		"libvirt-daemon-driver-storage-zfs (= 10.0.0-2ubuntu8.11)",
-		"libvirt-daemon-driver-lxc (= 10.0.0-2ubuntu8.11)",
-		"libvirt-daemon-driver-vbox (= 10.0.0-2ubuntu8.11)",
-		"libvirt-daemon-driver-xen (= 10.0.0-2ubuntu8.11)",
-		"libvirt-daemon-system (= 10.0.0-2ubuntu8.11)",
+		"libvirt-daemon-driver-storage-gluster (= 10.0.0-2ubuntu8.16)",
+		"libvirt-daemon-driver-storage-iscsi-direct (= 10.0.0-2ubuntu8.16)",
+		"libvirt-daemon-driver-storage-rbd (= 10.0.0-2ubuntu8.16)",
+		"libvirt-daemon-driver-storage-zfs (= 10.0.0-2ubuntu8.16)",
+		"libvirt-daemon-driver-lxc (= 10.0.0-2ubuntu8.16)",
+		"libvirt-daemon-driver-vbox (= 10.0.0-2ubuntu8.16)",
+		"libvirt-daemon-driver-xen (= 10.0.0-2ubuntu8.16)",
+		"libvirt-daemon-system (= 10.0.0-2ubuntu8.16)",
 		"numad"
 	],
 	"replaces": [
@@ -63,84 +63,12 @@
 	"maintainer": "Ubuntu Developers <ubuntu-devel-discuss@lists.ubuntu.com>",
 	"description": "Virtualization daemon",
 	"homepage": "https://libvirt.org/",
-	"filename": "pool/main/libv/libvirt/libvirt-daemon_10.0.0-2ubuntu8.11_amd64.deb",
-	"size": 431340,
-	"md5": "7cda0edc47b1ae8ca9c91f18a1b89850",
-	"sha1": "1d492e2bd8a0c75a711b834a819a5c786327b3b7",
-	"sha256": "ca18d4e44757e62595d69a5ae11e015a0cffcffe562f9239b8f4cc4967e5c10b",
-	"sha512": "7cad225b37e7371009c256342eccbaa8831f5ab4c6ce8a871811702ba36f977ba1a1f60b9bf48074a9add1ae990553432bfe27a6841b58301c4561f323fa0cbd",
-	"descriptionMd5": "f633393919dd0d9ae0c06cf15068e5ea"
-},{
-	"raw": {},
-	"required": [
-		"Filename",
-		"Size"
-	],
-	"package": "libvirt-daemon",
-	"source": "libvirt",
-	"version": "10.0.0-2ubuntu8.15",
-	"section": "admin",
-	"priority": "optional",
-	"architecture": "amd64",
-	"depends": [
-		"libvirt-daemon-driver-qemu (= 10.0.0-2ubuntu8.15)",
-		"libvirt0 (= 10.0.0-2ubuntu8.15)",
-		"libacl1 (>= 2.2.23)",
-		"libblkid1 (>= 2.17.2)",
-		"libc6 (>= 2.38)",
-		"libdevmapper1.02.1 (>= 2:1.02.97)",
-		"libgcc-s1 (>= 3.3.1)",
-		"libglib2.0-0t64 (>= 2.44.0)",
-		"libparted2t64 (>= 3.1)",
-		"libpcap0.8t64 (>= 1.5.1)",
-		"libpciaccess0",
-		"libselinux1 (>= 3.1~)",
-		"libtirpc3t64 (>= 1.0.2)",
-		"libudev1 (>= 183)",
-		"libxml2 (>= 2.7.4)"
-	],
-	"recommends": [
-		"libxml2-utils",
-		"lvm2",
-		"mount",
-		"netcat-openbsd",
-		"qemu-kvm | qemu-system"
-	],
-	"suggests": [
-		"libvirt-daemon-driver-storage-gluster (= 10.0.0-2ubuntu8.15)",
-		"libvirt-daemon-driver-storage-iscsi-direct (= 10.0.0-2ubuntu8.15)",
-		"libvirt-daemon-driver-storage-rbd (= 10.0.0-2ubuntu8.15)",
-		"libvirt-daemon-driver-storage-zfs (= 10.0.0-2ubuntu8.15)",
-		"libvirt-daemon-driver-lxc (= 10.0.0-2ubuntu8.15)",
-		"libvirt-daemon-driver-vbox (= 10.0.0-2ubuntu8.15)",
-		"libvirt-daemon-driver-xen (= 10.0.0-2ubuntu8.15)",
-		"libvirt-daemon-system (= 10.0.0-2ubuntu8.15)",
-		"numad"
-	],
-	"replaces": [
-		"libvirt-daemon-system (<< 6.9.0-3~)"
-	],
-	"enhances": [
-		"qemu-kvm",
-		"qemu-system",
-		"xen"
-	],
-	"breaks": [
-		"libvirt-clients (<< 6.9.0-2~)",
-		"libvirt-daemon-driver-lxc (<< 6.9.0-2~)",
-		"libvirt-daemon-system (<< 6.9.0-3~)",
-		"libvirt-sanlock (<< 6.9.0-2~)"
-	],
-	"installedSize": 1726,
-	"maintainer": "Ubuntu Developers <ubuntu-devel-discuss@lists.ubuntu.com>",
-	"description": "Virtualization daemon",
-	"homepage": "https://libvirt.org/",
-	"filename": "pool/main/libv/libvirt/libvirt-daemon_10.0.0-2ubuntu8.15_amd64.deb",
-	"size": 431388,
-	"md5": "7a9433b5e9d4537dd7983375797ef7bc",
-	"sha1": "748e8b9e55ea1ce15479c6c21a69a97872aada6c",
-	"sha256": "5ae4560d43dded109cc9742b7fb13e4dc4fe38d8aa2148c250afc5b3310785a0",
-	"sha512": "18d3ec72fd8a65aecb6a53651489a50a9a72b7f592eb03046394aa1604a9703055909954a4e3b8b0a71384623658731d54fc3761288cf6f5122759918f838138",
+	"filename": "pool/main/libv/libvirt/libvirt-daemon_10.0.0-2ubuntu8.16_amd64.deb",
+	"size": 431466,
+	"md5": "26ea06b2a40db33234bea27f6855a076",
+	"sha1": "8b2f9bdb9037aeeaf6c2d6b33a1bd232f4e109d1",
+	"sha256": "674df7437e50dd8d572989026aeef3eefab9e0f401c2196d3a3fdb4ca6dfe01d",
+	"sha512": "3f911124e710f31902f3b1e80951382b4df351b7275dfa9286114860aae28716e06a304cf0c3d0bacb2c16644c1f6c2f64ea94bfb30a63074fee249ccee66938",
 	"descriptionMd5": "f633393919dd0d9ae0c06cf15068e5ea"
 },{
 	"raw": {},
