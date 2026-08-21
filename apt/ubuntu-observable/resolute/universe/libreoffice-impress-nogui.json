@@ -65,6 +65,65 @@
 	],
 	"package": "libreoffice-impress-nogui",
 	"source": "libreoffice",
+	"version": "4:26.2.5.2-0ubuntu0.26.04.1",
+	"section": "universe/editors",
+	"priority": "optional",
+	"architecture": "amd64",
+	"depends": [
+		"libreoffice-core-nogui (= 4:26.2.5.2-0ubuntu0.26.04.1) | libreoffice-core (= 4:26.2.5.2-0ubuntu0.26.04.1)",
+		"libreoffice-draw-nogui (= 4:26.2.5.2-0ubuntu0.26.04.1) | libreoffice-draw (= 4:26.2.5.2-0ubuntu0.26.04.1)",
+		"libreoffice-uiconfig-impress (= 4:26.2.5.2-0ubuntu0.26.04.1)",
+		"libc6 (>= 2.43)",
+		"libetonyek-0.1-1",
+		"libgcc-s1 (>= 3.0)",
+		"libmwaw-0.3-3 (>= 0.3.22)",
+		"libodfgen-0.1-1",
+		"libreoffice-sal-private-abi (= 26.2.5)",
+		"librevenge-0.0-0",
+		"libstdc++6 (>= 13.1)",
+		"libuno-cppu3t64 (>= 4.4.0~alpha)",
+		"libuno-cppuhelpergcc3-3t64 (>= 1:7.4.0~alpha)",
+		"libuno-sal3t64 (>= 1:7.3.0~beta1)",
+		"libuno-salhelpergcc3-3t64 (>= 1.4.0)",
+		"uno-libs-private"
+	],
+	"preDepends": [
+		"ucf",
+		"libreoffice-common (>= 4:25.2.1~rc1-3~)"
+	],
+	"suggests": [
+		"bluez"
+	],
+	"replaces": [
+		"libreoffice-common (<< 1:6.4.2~rc1~)",
+		"libreoffice-impress"
+	],
+	"breaks": [
+		"libreoffice-common (<< 1:6.4.2~rc1~)"
+	],
+	"conflicts": [
+		"libreoffice-impress",
+		"libreoffice-ogltrans (<< 1:6.1.4-2~)"
+	],
+	"installedSize": 2801,
+	"maintainer": "Ubuntu Developers <ubuntu-devel-discuss@lists.ubuntu.com>",
+	"description": "office productivity suite -- presentation (no GUI variant)",
+	"homepage": "http://www.libreoffice.org",
+	"filename": "pool/universe/libr/libreoffice/libreoffice-impress-nogui_26.2.5.2-0ubuntu0.26.04.1_amd64.deb",
+	"size": 776972,
+	"md5": "088fd38f4f1dd9f82ea1f0711c77224c",
+	"sha1": "a44e8e5dd29e29f328d1da330710ec2587ea28c4",
+	"sha256": "c88c89fecad436fd7f54bffb4f92057d22805323391ff0bf5a3e786a199207bb",
+	"sha512": "bb8dcb6e033fc2080dea99da6b3b9c34c8844c1b1b12e81e97b1051fb4db31c1ce77d64e4d427e014da60fed1789449b78f80c79127d9d6fb21b9043671be014",
+	"descriptionMd5": "10ce2c27d434135cd9308937c1bdb31c"
+},{
+	"raw": {},
+	"required": [
+		"Filename",
+		"Size"
+	],
+	"package": "libreoffice-impress-nogui",
+	"source": "libreoffice",
 	"version": "4:26.2.2.2-0ubuntu1",
 	"section": "universe/editors",
 	"priority": "optional",

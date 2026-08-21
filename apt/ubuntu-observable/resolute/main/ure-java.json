@@ -52,6 +52,52 @@
 	],
 	"package": "ure-java",
 	"source": "libreoffice",
+	"version": "4:26.2.5.2-0ubuntu0.26.04.1",
+	"section": "java",
+	"priority": "optional",
+	"architecture": "amd64",
+	"depends": [
+		"libunoloader-java",
+		"uno-libs-private (= 4:26.2.5.2-0ubuntu0.26.04.1)",
+		"ure (= 4:26.2.5.2-0ubuntu0.26.04.1)",
+		"libc6 (>= 2.34)",
+		"libgcc-s1 (>= 3.0)",
+		"libreoffice-sal-private-abi (= 26.2.5)",
+		"libstdc++6 (>= 13.1)",
+		"libuno-cppu3t64 (>= 4.4.0~alpha)",
+		"libuno-cppuhelpergcc3-3t64 (>= 1.7.0)",
+		"libuno-sal3t64 (>= 5.1.0~alpha)",
+		"libuno-salhelpergcc3-3t64 (>= 1.4.0)"
+	],
+	"recommends": [
+		"liblibreoffice-java",
+		"default-jre (>= 2:1.8) | java-runtime (>= 8) | java8-runtime | jre"
+	],
+	"replaces": [
+		"ure (<< 4:24.2.0~rc1~)"
+	],
+	"breaks": [
+		"ure (<< 4:24.2.0~rc1~)"
+	],
+	"installedSize": 424,
+	"maintainer": "Ubuntu Developers <ubuntu-devel-discuss@lists.ubuntu.com>",
+	"description": "LibreOffice UNO runtime environment -- Java support",
+	"homepage": "http://www.libreoffice.org",
+	"filename": "pool/main/libr/libreoffice/ure-java_26.2.5.2-0ubuntu0.26.04.1_amd64.deb",
+	"size": 178820,
+	"md5": "9cec6c8d1fe786111aa91fc2e2cb249a",
+	"sha1": "d665dca9a2e284dad04d7cb416cff4616ae836af",
+	"sha256": "9f87d5b8fc0dd56fe9bead1e51f7dc33de9a63762b03df68805e48196e472403",
+	"sha512": "ee23893706621583bd30d416fb7c678350e79d314f3980059c64dffc438994a775988908f2f2430e69374e2966f3a8b2c0934d4b3f850ec67233fa9db8361d1e",
+	"descriptionMd5": "3780fd4c22acb15e52acba392035d968"
+},{
+	"raw": {},
+	"required": [
+		"Filename",
+		"Size"
+	],
+	"package": "ure-java",
+	"source": "libreoffice",
 	"version": "4:26.2.2.2-0ubuntu1",
 	"section": "java",
 	"priority": "optional",
