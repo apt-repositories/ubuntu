@@ -44,6 +44,44 @@
 	],
 	"package": "libofficebean-java",
 	"source": "libreoffice",
+	"version": "4:26.2.5.2-0ubuntu0.26.04.1",
+	"section": "java",
+	"priority": "optional",
+	"architecture": "amd64",
+	"depends": [
+		"liblibreoffice-java",
+		"default-jre (>= 2:1.8) | java-runtime (>= 8) | java8-runtime | jre",
+		"ure",
+		"libc6 (>= 2.4)"
+	],
+	"recommends": [
+		"libreoffice-core-nogui | libreoffice-core"
+	],
+	"replaces": [
+		"libreoffice-officebean (<< 1:6.4.0~rc2-1)"
+	],
+	"breaks": [
+		"libreoffice-officebean (<< 1:6.4.0~rc2-1)"
+	],
+	"installedSize": 125,
+	"maintainer": "Ubuntu Developers <ubuntu-devel-discuss@lists.ubuntu.com>",
+	"description": "generic Java Bean wrapper for LibreOffice components",
+	"homepage": "http://www.libreoffice.org",
+	"filename": "pool/main/libr/libreoffice/libofficebean-java_26.2.5.2-0ubuntu0.26.04.1_amd64.deb",
+	"size": 45794,
+	"md5": "a451fd57271cb84e1be4aed605a8dd00",
+	"sha1": "8df1d8b8013384d56cedd6cd348cb651ca6fcceb",
+	"sha256": "e55392961be577599e82db8bef41ad6ff3a0d62392f6207cb6741625101422bf",
+	"sha512": "331d3675c8139da3ce91cef7d888870e8f90dd28257489bf02d732e62210772adbd27e0fd00c583d4072224092ad7aa1a57213e50c239b85cc3a9df33364c836",
+	"descriptionMd5": "e07555977ea770bba6aa36e951ee2753"
+},{
+	"raw": {},
+	"required": [
+		"Filename",
+		"Size"
+	],
+	"package": "libofficebean-java",
+	"source": "libreoffice",
 	"version": "4:26.2.2.2-0ubuntu1",
 	"section": "java",
 	"priority": "optional",

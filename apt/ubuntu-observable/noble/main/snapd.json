@@ -70,6 +70,71 @@
 		"Size"
 	],
 	"package": "snapd",
+	"version": "2.76.3+ubuntu24.04",
+	"section": "devel",
+	"priority": "optional",
+	"architecture": "amd64",
+	"depends": [
+		"adduser",
+		"apparmor (>= 2.10.95-0ubuntu2.2)",
+		"ca-certificates",
+		"fuse3 (>= 3.10.5-1) | fuse",
+		"libcap2-bin",
+		"openssh-client",
+		"squashfs-tools",
+		"systemd",
+		"udev",
+		"default-dbus-session-bus | dbus-session-bus",
+		"libblkid1 (>= 2.17.2)",
+		"libc6 (>= 2.38)",
+		"libfuse3-3 (>= 3.12.0)",
+		"liblzma5 (>= 5.1.1alpha+20120614)",
+		"liblzo2-2 (>= 2.02)",
+		"libudev1 (>= 183)",
+		"zlib1g (>= 1:1.1.4)"
+	],
+	"recommends": [
+		"gnupg"
+	],
+	"suggests": [
+		"zenity | kdialog"
+	],
+	"replaces": [
+		"snap-confine (<< 2.23)",
+		"snapd-xdg-open (<= 0.0.0)",
+		"ubuntu-core-launcher (<< 2.22)",
+		"ubuntu-snappy (<< 1.9)",
+		"ubuntu-snappy-cli (<< 1.9)"
+	],
+	"breaks": [
+		"snap-confine (<< 2.23)",
+		"snapd-xdg-open (<= 0.0.0)",
+		"ubuntu-core-launcher (<< 2.22)",
+		"ubuntu-snappy (<< 1.9)",
+		"ubuntu-snappy-cli (<< 1.9)"
+	],
+	"conflicts": [
+		"snap (<< 2013-11-29-1ubuntu1)"
+	],
+	"installedSize": 130260,
+	"maintainer": "Ubuntu Developers <ubuntu-devel-discuss@lists.ubuntu.com>",
+	"description": "Daemon and tooling that enable snap packages",
+	"homepage": "https://github.com/snapcore/snapd",
+	"builtUsing": "apparmor (= 4.0.1really4.0.1-0ubuntu0.24.04.7), libcap2 (= 1:2.66-5ubuntu2.4), libseccomp (= 2.5.5-1ubuntu3.1)",
+	"filename": "pool/main/s/snapd/snapd_2.76.3+ubuntu24.04_amd64.deb",
+	"size": 36576380,
+	"md5": "97ebfa77f8ad3cd3087004c767e71181",
+	"sha1": "e072ae8737f6836672a71f24350f08ca21b4c0ab",
+	"sha256": "9ffe7430c7769234e58c9b83a5fe6e33c7ca963976133e4a0ede4c29dcd0fa82",
+	"sha512": "fb43b8f36fc36b372faa1be4bacf4a766821ba323369adf7504c67d56995ab4957744ecee1a118e76c66385eec4b355497f64b0acdd390b2f97f8ca227267555",
+	"descriptionMd5": "4f57b9592309b3006720058df2b8dad3"
+},{
+	"raw": {},
+	"required": [
+		"Filename",
+		"Size"
+	],
+	"package": "snapd",
 	"version": "2.62+24.04build1",
 	"section": "devel",
 	"priority": "optional",

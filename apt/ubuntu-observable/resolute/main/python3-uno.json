@@ -61,6 +61,61 @@
 	],
 	"package": "python3-uno",
 	"source": "libreoffice",
+	"version": "4:26.2.5.2-0ubuntu0.26.04.1",
+	"section": "python",
+	"priority": "optional",
+	"architecture": "amd64",
+	"depends": [
+		"libreoffice-common (>= 1:7.0.0~alpha~)",
+		"libreoffice-core (= 4:26.2.5.2-0ubuntu0.26.04.1) | libreoffice-core-nogui (= 4:26.2.5.2-0ubuntu0.26.04.1)",
+		"python3:any",
+		"python3 (<< 3.15)",
+		"python3 (>= 3.14~)",
+		"python3.14",
+		"libc6 (>= 2.34)",
+		"libgcc-s1 (>= 3.0)",
+		"libpython3.14 (>= 3.14.1)",
+		"libreoffice-sal-private-abi (= 26.2.5)",
+		"libstdc++6 (>= 13)",
+		"libuno-cppu3t64 (>= 4.4.0~alpha)",
+		"libuno-cppuhelpergcc3-3t64 (>= 5.3.0~alpha)",
+		"libuno-sal3t64 (>= 5.4.0~alpha)",
+		"libuno-salhelpergcc3-3t64 (>= 3.6.0~beta)",
+		"uno-libs-private"
+	],
+	"preDepends": [
+		"ucf",
+		"awk"
+	],
+	"replaces": [
+		"libreoffice-common (<< 1:4.4.0~beta2)",
+		"libreoffice-core (= 1:4.3.0~beta1-1)"
+	],
+	"enhances": [
+		"libreoffice"
+	],
+	"conflicts": [
+		"python-uno"
+	],
+	"installedSize": 512,
+	"maintainer": "Ubuntu Developers <ubuntu-devel-discuss@lists.ubuntu.com>",
+	"description": "Python-UNO bridge",
+	"homepage": "http://udk.openoffice.org/python/python-bridge.html",
+	"filename": "pool/main/libr/libreoffice/python3-uno_26.2.5.2-0ubuntu0.26.04.1_amd64.deb",
+	"size": 149184,
+	"md5": "6f10f027f125a2605c565ef9ced1d613",
+	"sha1": "914850f6e507d76e6e8554e2cf358e416f3b18d4",
+	"sha256": "1444aac9366f765f1775fccbe87c54b41179bc8fdbfcb1b716d54efc7c2dd325",
+	"sha512": "ad49348ce7e919b1da2572ab63f342d35100783f6b3029f4642887fcf311b20251d01bb739b26fd4b8913a24c09f094ba8723f8bef18f9247aad8b8e1f5cf391",
+	"descriptionMd5": "f4a55d75b607baa049506ff436442fb6"
+},{
+	"raw": {},
+	"required": [
+		"Filename",
+		"Size"
+	],
+	"package": "python3-uno",
+	"source": "libreoffice",
 	"version": "4:26.2.2.2-0ubuntu1",
 	"section": "python",
 	"priority": "optional",

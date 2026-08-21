@@ -6,6 +6,47 @@
 	],
 	"package": "console-setup-mini",
 	"source": "console-setup",
+	"version": "1.226ubuntu1.1",
+	"section": "universe/utils",
+	"priority": "extra",
+	"architecture": "all",
+	"depends": [
+		"console-setup-linux | console-setup-freebsd",
+		"debconf (>= 0.5) | debconf-2.0",
+		"keyboard-configuration (= 1.226ubuntu1.1)"
+	],
+	"recommends": [
+		"kbd | console-tools"
+	],
+	"suggests": [
+		"lsb-base (>= 3.0-6)"
+	],
+	"breaks": [
+		"lsb (<< 2.0-6)",
+		"lsb-base (<< 3.0-6)",
+		"lsb-core (<< 2.0-6)"
+	],
+	"conflicts": [
+		"console-setup"
+	],
+	"installedSize": 1032,
+	"maintainer": "Ubuntu Developers <ubuntu-devel-discuss@lists.ubuntu.com>",
+	"description": "console font and keymap setup program - reduced version for Linux",
+	"filename": "pool/universe/c/console-setup/console-setup-mini_1.226ubuntu1.1_all.deb",
+	"size": 631386,
+	"md5": "92ce3ab96166afd8eed8659f28ea6442",
+	"sha1": "8445e85a016a2b36d78782111fafa1564ab67a44",
+	"sha256": "2237cd186ea8f9592d1484619e57cfb4ef035e37f98d182c61f4f7f65ca9d141",
+	"sha512": "bd30d861dcdce987acd953e5e6c8a59d934928acb55756bc4f89dbbf3f34818e7e774e072b95b51e57007936f9b2417e450bf76a9dc64c93d8e243966842eac0",
+	"descriptionMd5": "ea2483d2cc1b85309cba9011538d041b"
+},{
+	"raw": {},
+	"required": [
+		"Filename",
+		"Size"
+	],
+	"package": "console-setup-mini",
+	"source": "console-setup",
 	"version": "1.226ubuntu1",
 	"section": "universe/utils",
 	"priority": "extra",

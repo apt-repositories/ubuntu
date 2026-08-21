@@ -6,6 +6,45 @@
 	],
 	"package": "keyboard-configuration",
 	"source": "console-setup",
+	"version": "1.237ubuntu3.1",
+	"section": "utils",
+	"priority": "important",
+	"architecture": "all",
+	"depends": [
+		"debconf (>= 0.5) | debconf-2.0",
+		"liblocale-gettext-perl",
+		"xkb-data (>= 2.46~)",
+		"xkb-data (<< 2.46A)"
+	],
+	"preDepends": [
+		"debconf | debconf-2.0"
+	],
+	"replaces": [
+		"console-setup (<< 1.47)",
+		"console-setup-mini (<< 1.47)"
+	],
+	"breaks": [
+		"console-setup (<< 1.71)",
+		"console-setup-mini (<< 1.47)"
+	],
+	"installedSize": 813,
+	"maintainer": "Ubuntu Developers <ubuntu-devel-discuss@lists.ubuntu.com>",
+	"description": "system-wide keyboard preferences",
+	"filename": "pool/main/c/console-setup/keyboard-configuration_1.237ubuntu3.1_all.deb",
+	"size": 211372,
+	"md5": "31d0582cc353dd3ac652b9884c4bf883",
+	"sha1": "892f1b2d617b46dbd83ed00f479e839434b97b4d",
+	"sha256": "65b766338253578922435d755873baae2c4c008623181eb85ff7ddbfbfe7cf32",
+	"sha512": "fc8a82af073afb5b0e2fef05fbcc0652aa2bea538017b1dd5dfe1e93fad8e30b9ac0a2400e9f3444e21facb9e06ef03ce15f43ad45ca32a4e8c93bcc0088e36f",
+	"descriptionMd5": "85ee5b58c8d635ba9041b52f81058494"
+},{
+	"raw": {},
+	"required": [
+		"Filename",
+		"Size"
+	],
+	"package": "keyboard-configuration",
+	"source": "console-setup",
 	"version": "1.237ubuntu3",
 	"section": "utils",
 	"priority": "important",
