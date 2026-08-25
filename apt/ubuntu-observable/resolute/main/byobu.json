@@ -5,6 +5,73 @@
 		"Size"
 	],
 	"package": "byobu",
+	"version": "6.11-0ubuntu3.1",
+	"section": "misc",
+	"priority": "optional",
+	"architecture": "all",
+	"depends": [
+		"debconf (>= 0.5) | debconf-2.0",
+		"python3:any",
+		"gettext-base",
+		"iproute2",
+		"python3",
+		"python3-newt",
+		"tmux (>= 1.5)",
+		"gawk"
+	],
+	"recommends": [
+		"less",
+		"pastebinit",
+		"sensible-utils",
+		"run-one"
+	],
+	"suggests": [
+		"apport",
+		"ccze",
+		"gnome-terminal | xterm",
+		"gnupg",
+		"lsb-release",
+		"po-debconf",
+		"screen",
+		"speedometer",
+		"ttf-ubuntu-font-family (>= 0.80-0ubuntu1~medium)",
+		"update-notifier-common",
+		"vim",
+		"wireless-tools"
+	],
+	"replaces": [
+		"bikeshed (<< 1.64)",
+		"byobu-extras (<< 2.17)",
+		"screen-profiles (<< 2.0)",
+		"screen-profiles-extras (<< 2.0)"
+	],
+	"enhances": [
+		"screen"
+	],
+	"breaks": [
+		"bikeshed (<< 1.64)",
+		"byobu-extras (<< 2.17)",
+		"screen-profiles (<< 2.0)",
+		"screen-profiles-extras (<< 2.0)"
+	],
+	"installedSize": 559,
+	"maintainer": "Dustin Kirkland <kirkland@ubuntu.com>",
+	"description": "text window manager, shell multiplexer, integrated DevOps environment",
+	"homepage": "https://byobu.org",
+	"filename": "pool/main/b/byobu/byobu_6.11-0ubuntu3.1_all.deb",
+	"size": 102690,
+	"md5": "c3d9eb5e070c6a133a042547065eff4b",
+	"sha1": "a4d16d07656e660abcf59ac2ca33b516cb7e7b92",
+	"sha256": "57ac7d2ed27c90446a29986b724cd511dca32fe6dcf123ed37381343d867606c",
+	"sha512": "690c800d29a93505e8af407ba3c0f3645ddd159e804d538af942d3599d6bf9981b83b6bf9886c50039f207d6c565865a10596345cc273a3e87f12f1cf90bd758",
+	"descriptionMd5": "0d3627a1db464b5d00445f2b25b3e914"
+},{
+	"raw": {},
+	"required": [
+		"Filename",
+		"Size"
+	],
+	"package": "byobu",
 	"version": "6.11-0ubuntu3",
 	"section": "misc",
 	"priority": "optional",
