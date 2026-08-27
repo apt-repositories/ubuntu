@@ -5,6 +5,57 @@
 		"Size"
 	],
 	"package": "tor",
+	"version": "0.4.9.11-0ubuntu0.24.04.1",
+	"section": "universe/net",
+	"priority": "optional",
+	"architecture": "amd64",
+	"depends": [
+		"libc6 (>= 2.38)",
+		"libcap2 (>= 1:2.10)",
+		"libevent-2.1-7t64 (>= 2.1.8-stable)",
+		"liblzma5 (>= 5.1.1alpha+20120614)",
+		"libseccomp2 (>= 0.0.0~20120605)",
+		"libssl3t64 (>= 3.0.0)",
+		"libsystemd0",
+		"libzstd1 (>= 1.5.5)",
+		"zlib1g (>= 1:1.1.4)",
+		"adduser",
+		"lsb-base"
+	],
+	"recommends": [
+		"logrotate",
+		"tor-geoipdb",
+		"torsocks"
+	],
+	"suggests": [
+		"mixmaster",
+		"torbrowser-launcher",
+		"socat",
+		"apparmor-utils",
+		"nyx",
+		"obfs4proxy"
+	],
+	"conflicts": [
+		"libssl0.9.8 (<< 0.9.8g-9)"
+	],
+	"installedSize": 3674,
+	"maintainer": "Ubuntu Developers <ubuntu-devel-discuss@lists.ubuntu.com>",
+	"description": "anonymizing overlay network for TCP",
+	"homepage": "https://www.torproject.org/",
+	"filename": "pool/universe/t/tor/tor_0.4.9.11-0ubuntu0.24.04.1_amd64.deb",
+	"size": 1380476,
+	"md5": "7c31134094ff212cd6bc4377d1007556",
+	"sha1": "ac121fbd7fc0fd0f7c8c8f1a115b87600adf8c1f",
+	"sha256": "35818718981ab85e549c536278696f9821f84c62f9e3718dc5af174dfc37b428",
+	"sha512": "21e5061f1b600a489aa3a78445168784d5b91e6424272ade6477b528ccf3a9cbfc53ee69823aac14f44f5a30ade20284fbdb91c1a67ac887723f149203c1857e",
+	"descriptionMd5": "9106e8e4b3843ebd532ba2b89615a92e"
+},{
+	"raw": {},
+	"required": [
+		"Filename",
+		"Size"
+	],
+	"package": "tor",
 	"version": "0.4.8.10-1build2",
 	"section": "universe/net",
 	"priority": "optional",
