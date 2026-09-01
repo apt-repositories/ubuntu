@@ -6,6 +6,43 @@
 	],
 	"package": "libpam-lastlog2",
 	"source": "util-linux",
+	"version": "2.41.3-3ubuntu2.2",
+	"section": "universe/admin",
+	"priority": "optional",
+	"architecture": "amd64",
+	"depends": [
+		"libpam-runtime",
+		"libc6 (>= 2.38)",
+		"liblastlog2-2 (= 2.41.3-3ubuntu2.2)"
+	],
+	"recommends": [
+		"wtmpdb"
+	],
+	"replaces": [
+		"lastlog2 (<< 2.41.2-4~)"
+	],
+	"breaks": [
+		"lastlog2 (<< 2.41.2-4~)"
+	],
+	"installedSize": 80,
+	"maintainer": "Ubuntu Developers <ubuntu-devel-discuss@lists.ubuntu.com>",
+	"description": "lastlog2 database PAM module",
+	"homepage": "https://github.com/util-linux/util-linux",
+	"filename": "pool/universe/u/util-linux/libpam-lastlog2_2.41.3-3ubuntu2.2_amd64.deb",
+	"size": 27756,
+	"md5": "aea807205480c94f923d1a34c4533956",
+	"sha1": "64db61b6094dec18e6a0487b10021716dc7bf81c",
+	"sha256": "2068f2b98ef047b112ed2e158fe8207356634741f48cbb32020a73c70ccb799f",
+	"sha512": "064ef415821bb300344915584e8539a4158d86acc443d0d7aa4b6224a30b3c78817084b24b97a44a71668f54b584f1895046fcbe26484a5ed1ba4d319d07bd4e",
+	"descriptionMd5": "44d05a5389249ac3ace99386c8a9584d"
+},{
+	"raw": {},
+	"required": [
+		"Filename",
+		"Size"
+	],
+	"package": "libpam-lastlog2",
+	"source": "util-linux",
 	"version": "2.41.3-3ubuntu2",
 	"section": "universe/admin",
 	"priority": "optional",
