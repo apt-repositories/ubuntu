@@ -6,6 +6,48 @@
 	],
 	"package": "util-linux-extra",
 	"source": "util-linux",
+	"version": "2.41.3-3ubuntu2.2",
+	"section": "utils",
+	"priority": "optional",
+	"architecture": "amd64",
+	"depends": [
+		"libaudit1 (>= 1:2.2.1)",
+		"libc6 (>= 2.42)",
+		"libcrypt1 (>= 1:4.1.0)",
+		"liblastlog2-2 (= 2.41.3-3ubuntu2.2)",
+		"libselinux1 (>= 3.1~)",
+		"libsmartcols1 (= 2.41.3-3ubuntu2.2)",
+		"libsystemd0",
+		"zlib1g (>= 1:1.1.4)"
+	],
+	"replaces": [
+		"login (<< 1:4.16.0-2+really2.41.1-4~)",
+		"util-linux (<< 2.41.2-2~)"
+	],
+	"breaks": [
+		"initscripts (<< 3.08-2~)",
+		"login (<< 1:4.16.0-2+really2.41.1-4~)",
+		"util-linux (<< 2.41.2-2~)"
+	],
+	"installedSize": 1301,
+	"maintainer": "Ubuntu Developers <ubuntu-devel-discuss@lists.ubuntu.com>",
+	"description": "interactive login tools",
+	"homepage": "https://github.com/util-linux/util-linux",
+	"filename": "pool/main/u/util-linux/util-linux-extra_2.41.3-3ubuntu2.2_amd64.deb",
+	"size": 346766,
+	"md5": "8da2c74f69fd9c1739400efca883ce64",
+	"sha1": "71182312781404fad42e706c7631071c99eb7edb",
+	"sha256": "f44f6c7e78d6a5addc796c8ec981f9ca42a9676a02a1a488f7ce9cf59ef11313",
+	"sha512": "727ca69cefa23576a03bff5b2fbb379f51724dac245105a211c7570f0740ad12bd87e8541c09441b566e337e268e71346b3b8188ebecff59608934c4c799418e",
+	"descriptionMd5": "0b02a6ea1fc722cad188b6336f4cb9a8"
+},{
+	"raw": {},
+	"required": [
+		"Filename",
+		"Size"
+	],
+	"package": "util-linux-extra",
+	"source": "util-linux",
 	"version": "2.41.3-3ubuntu2",
 	"section": "utils",
 	"priority": "optional",
