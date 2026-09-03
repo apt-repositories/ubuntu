@@ -24,4 +24,36 @@
 	"sha256": "3293518f5bfe0d925521e1a246483cdf4de1c79bb6eecc2c20dc6a6537c8feea",
 	"sha512": "ce9dc5930d315f009f77066a573f0c8262efc7ab6fce2f02c4450befce5a263c96629168cfdaccddccfdadb8c5862d1471e678281030f98c1c9e6ec474e04609",
 	"descriptionMd5": "14354e6d7550bbd6723243a7fe604ad8"
+},{
+	"raw": {},
+	"required": [
+		"Filename",
+		"Size"
+	],
+	"package": "linux-modules-nvidia-595-open-nvidia-6.17",
+	"source": "linux-restricted-modules-nvidia-6.17",
+	"version": "6.17.0-1032.32",
+	"section": "restricted/kernel",
+	"priority": "optional",
+	"architecture": "amd64",
+	"depends": [
+		"linux-modules-nvidia-595-open-6.17.0-1032-nvidia (= 6.17.0-1032.32)",
+		"nvidia-kernel-common-595 (>= 595.84)"
+	],
+	"breaks": [
+		"linux-nvidia-6.17 (>= 6.17.0-1033~)",
+		"linux-nvidia-6.17 (<< 6.17.0-1032)",
+		"nvidia-kernel-common-595 (>> 595.84+)",
+		"nvidia-kernel-common-595 (<< 595.84)"
+	],
+	"installedSize": 27,
+	"maintainer": "Canonical Kernel Team <kernel-team@lists.ubuntu.com>",
+	"description": "Extra drivers for nvidia-595-open for the nvidia-6.17 flavour",
+	"filename": "pool/restricted/l/linux-restricted-modules-nvidia-6.17/linux-modules-nvidia-595-open-nvidia-6.17_6.17.0-1032.32_amd64.deb",
+	"size": 15774,
+	"md5": "64eb1a4098d859a2944637ff786f2a3e",
+	"sha1": "6c0c133030b67f821f8cfcb16557c0fde6d8b836",
+	"sha256": "59363e52e75590efcac9dadfb5fe869e1a2b692fac55160e9a29269ff068dea4",
+	"sha512": "1ecfd8bd821e54de4330ef033fac9abfee387dd69ed551e5adf468a470bde8913a3541f86a4e28d5fd566f062e87f7deda2484d839e75256936babf58d2c754d",
+	"descriptionMd5": "14354e6d7550bbd6723243a7fe604ad8"
 }]

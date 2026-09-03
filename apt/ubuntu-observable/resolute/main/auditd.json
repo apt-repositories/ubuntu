@@ -6,6 +6,43 @@
 	],
 	"package": "auditd",
 	"source": "audit",
+	"version": "1:4.1.2-1ubuntu0.1",
+	"section": "admin",
+	"priority": "extra",
+	"architecture": "amd64",
+	"depends": [
+		"libaudit1 (= 1:4.1.2-1ubuntu0.1)",
+		"libauparse0t64 (= 1:4.1.2-1ubuntu0.1)",
+		"mawk | gawk",
+		"libauplugin1 (>= 1:4.1.1)",
+		"libc6 (>= 2.38)",
+		"libcap-ng0 (>= 0.7.9)"
+	],
+	"suggests": [
+		"audispd-plugins"
+	],
+	"breaks": [
+		"audispd-plugins (<< 1:3.0~)"
+	],
+	"installedSize": 735,
+	"maintainer": "Ubuntu Developers <ubuntu-devel-discuss@lists.ubuntu.com>",
+	"description": "User space tools for security auditing",
+	"homepage": "https://people.redhat.com/sgrubb/audit/",
+	"filename": "pool/main/a/audit/auditd_4.1.2-1ubuntu0.1_amd64.deb",
+	"size": 224306,
+	"md5": "987653770081d0d3a2faf7b41768a000",
+	"sha1": "04ce81410931f014ea39c6a4b2b1b75aa839132e",
+	"sha256": "ecb95907d8fb6dbea5ad80bea3801ae5781794df6b8c91edf28c10463839f73e",
+	"sha512": "abfa2962c2f6654b0741b826383437ed61197528a948978b5c5e3a182d3f79c86c11153da7568b800321f40963fcb0f0e790ceacd815d4b21e43332e0451490e",
+	"descriptionMd5": "84728baf353ed864966421d9fef144de"
+},{
+	"raw": {},
+	"required": [
+		"Filename",
+		"Size"
+	],
+	"package": "auditd",
+	"source": "audit",
 	"version": "1:4.1.2-1build1",
 	"section": "admin",
 	"priority": "extra",

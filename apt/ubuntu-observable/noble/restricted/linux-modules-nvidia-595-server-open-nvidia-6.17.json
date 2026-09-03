@@ -24,4 +24,36 @@
 	"sha256": "e0e1b4f9c6e76f2ae796a0129e142f64dc0ae9232b833dbef08862be07b5f677",
 	"sha512": "a87bb4c2087c660a2bb2f308ed353ed7ee60c2214907beb0295a6999760fb001754d942daf9c508068b65f708b9291e45d97164641b6fa5c2f79ea1a436ae0e6",
 	"descriptionMd5": "4cb764e27a5d6cf08937b4ca8047fdf5"
+},{
+	"raw": {},
+	"required": [
+		"Filename",
+		"Size"
+	],
+	"package": "linux-modules-nvidia-595-server-open-nvidia-6.17",
+	"source": "linux-restricted-modules-nvidia-6.17",
+	"version": "6.17.0-1032.32",
+	"section": "restricted/kernel",
+	"priority": "optional",
+	"architecture": "amd64",
+	"depends": [
+		"linux-modules-nvidia-595-server-open-6.17.0-1032-nvidia (= 6.17.0-1032.32)",
+		"nvidia-kernel-common-595-server (>= 595.71.05)"
+	],
+	"breaks": [
+		"linux-nvidia-6.17 (>= 6.17.0-1033~)",
+		"linux-nvidia-6.17 (<< 6.17.0-1032)",
+		"nvidia-kernel-common-595-server (>> 595.71.05+)",
+		"nvidia-kernel-common-595-server (<< 595.71.05)"
+	],
+	"installedSize": 27,
+	"maintainer": "Canonical Kernel Team <kernel-team@lists.ubuntu.com>",
+	"description": "Extra drivers for nvidia-595-server-open for the nvidia-6.17 flavour",
+	"filename": "pool/restricted/l/linux-restricted-modules-nvidia-6.17/linux-modules-nvidia-595-server-open-nvidia-6.17_6.17.0-1032.32_amd64.deb",
+	"size": 15798,
+	"md5": "786978fab757c8392b6db0ea1f670767",
+	"sha1": "d2553e16f7ed7682201233ceb41bcba9b8f804ba",
+	"sha256": "1e15da0c4b284424f476662b14b80b031b511995249dd95050006906ddad463b",
+	"sha512": "04bf9a23af12837947a57e0ec21651ea2937bd15b1b96d2716a47816a2bd849b7ab5527ee5a4c2459336eb7e65b1808b62ded6271de7a8b33259853e4435e984",
+	"descriptionMd5": "4cb764e27a5d6cf08937b4ca8047fdf5"
 }]
