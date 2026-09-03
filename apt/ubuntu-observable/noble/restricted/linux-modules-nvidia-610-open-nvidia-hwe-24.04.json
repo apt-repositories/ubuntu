@@ -24,4 +24,36 @@
 	"sha256": "127f70e2a4cdd532d0bc5e9b864884d61ff7b848bbf9bddb61041066410f3126",
 	"sha512": "ead6f842fbf1eafecacf9df022af60c75dd328e6711a2ed2f337227b69f0fc3f270738b85f08b7d19648adeb97e928ccadea5272114b069e2fa76dee101455cd",
 	"descriptionMd5": "9dda9ee441be9631995391f3fbc00c72"
+},{
+	"raw": {},
+	"required": [
+		"Filename",
+		"Size"
+	],
+	"package": "linux-modules-nvidia-610-open-nvidia-hwe-24.04",
+	"source": "linux-restricted-modules-nvidia-6.17",
+	"version": "6.17.0-1032.32",
+	"section": "restricted/kernel",
+	"priority": "optional",
+	"architecture": "amd64",
+	"depends": [
+		"linux-modules-nvidia-610-open-6.17.0-1032-nvidia (= 6.17.0-1032.32)",
+		"nvidia-kernel-common-610 (>= 610.43.02)"
+	],
+	"breaks": [
+		"linux-nvidia-hwe-24.04 (>= 6.17.0-1033~)",
+		"linux-nvidia-hwe-24.04 (<< 6.17.0-1032)",
+		"nvidia-kernel-common-610 (>> 610.43.02+)",
+		"nvidia-kernel-common-610 (<< 610.43.02)"
+	],
+	"installedSize": 27,
+	"maintainer": "Canonical Kernel Team <kernel-team@lists.ubuntu.com>",
+	"description": "Extra drivers for nvidia-610-open for the nvidia-hwe-24.04 flavour",
+	"filename": "pool/restricted/l/linux-restricted-modules-nvidia-6.17/linux-modules-nvidia-610-open-nvidia-hwe-24.04_6.17.0-1032.32_amd64.deb",
+	"size": 15786,
+	"md5": "3f128b273cceb8d3c8cd6a7bb44404dd",
+	"sha1": "d47ddcfef8bcfb6385737912b1beee5f40bec8e4",
+	"sha256": "ac8bf5d6ea37680507bea23aec739b465d348d9a703e4056ba6c3877eea82e24",
+	"sha512": "a384c135a5ad56587edbe63f367951456b62cdf482f6fb33db8a4a19b39d52e2f481b4d7fd718860e6f1cbf483babbb4bcb6965fcee56a1cd75e137a8f071d15",
+	"descriptionMd5": "9dda9ee441be9631995391f3fbc00c72"
 }]

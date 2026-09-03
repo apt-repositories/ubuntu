@@ -24,4 +24,36 @@
 	"sha256": "25b0fb3989b5c87e73ab8cf6513da5cf4b6e6634f9d738dbcde15c6621885bbd",
 	"sha512": "9ababd71d02dbf7514c13ff520d682789ee6b30e6e66d8f784e4638e397afc453974f619ce8596d076811443d9f77f11960a27991f868c1f4beae263bb21af87",
 	"descriptionMd5": "c0a0be77077797e37cbe4829c3b78fa1"
+},{
+	"raw": {},
+	"required": [
+		"Filename",
+		"Size"
+	],
+	"package": "linux-modules-nvidia-580-server-open-nvidia-hwe-24.04",
+	"source": "linux-restricted-modules-nvidia-6.17",
+	"version": "6.17.0-1032.32",
+	"section": "restricted/kernel",
+	"priority": "optional",
+	"architecture": "amd64",
+	"depends": [
+		"linux-modules-nvidia-580-server-open-6.17.0-1032-nvidia (= 6.17.0-1032.32)",
+		"nvidia-kernel-common-580-server (>= 580.173.02)"
+	],
+	"breaks": [
+		"linux-nvidia-hwe-24.04 (>= 6.17.0-1033~)",
+		"linux-nvidia-hwe-24.04 (<< 6.17.0-1032)",
+		"nvidia-kernel-common-580-server (>> 580.173.02+)",
+		"nvidia-kernel-common-580-server (<< 580.173.02)"
+	],
+	"installedSize": 27,
+	"maintainer": "Canonical Kernel Team <kernel-team@lists.ubuntu.com>",
+	"description": "Extra drivers for nvidia-580-server-open for the nvidia-hwe-24.04 flavour",
+	"filename": "pool/restricted/l/linux-restricted-modules-nvidia-6.17/linux-modules-nvidia-580-server-open-nvidia-hwe-24.04_6.17.0-1032.32_amd64.deb",
+	"size": 15800,
+	"md5": "86ac07e1ba2b9227e38b514e2cc0b21f",
+	"sha1": "8fb31916973c2499c1f5d1bdf9a5b31ddd627244",
+	"sha256": "1e5f974c7f56bd0fdf8b2450c91b46d1537a7bd7b84a177e56c203edd3b79a49",
+	"sha512": "529bb743527bdc9593f8acaedb7a6acd7fd3e9e4eb92b8e8b113e9dbe9956ed1b004b6b9ae642913af135b396c58a0ff2b609b7d14696167774ebbf297432905",
+	"descriptionMd5": "c0a0be77077797e37cbe4829c3b78fa1"
 }]

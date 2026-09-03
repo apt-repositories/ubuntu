@@ -24,4 +24,36 @@
 	"sha256": "2184b6b0fffb28487e64068496f8162c40e71bee13afc6eb1f29b6e1df832ddc",
 	"sha512": "75088da5f9e0281668a54d6b86519413bf0739c8030b8427e98c27c09402a5658e403707be8acb1b95b600e643c9b73b55c8c25d1d12c25ada59f3c49faaffa8",
 	"descriptionMd5": "61fae447bafb2a2419111db988245e5a"
+},{
+	"raw": {},
+	"required": [
+		"Filename",
+		"Size"
+	],
+	"package": "linux-modules-nvidia-610-nvidia-6.17",
+	"source": "linux-restricted-modules-nvidia-6.17",
+	"version": "6.17.0-1032.32",
+	"section": "restricted/kernel",
+	"priority": "optional",
+	"architecture": "amd64",
+	"depends": [
+		"linux-modules-nvidia-610-6.17.0-1032-nvidia (= 6.17.0-1032.32)",
+		"nvidia-kernel-common-610 (>= 610.43.02)"
+	],
+	"breaks": [
+		"linux-nvidia-6.17 (>= 6.17.0-1033~)",
+		"linux-nvidia-6.17 (<< 6.17.0-1032)",
+		"nvidia-kernel-common-610 (>> 610.43.02+)",
+		"nvidia-kernel-common-610 (<< 610.43.02)"
+	],
+	"installedSize": 27,
+	"maintainer": "Canonical Kernel Team <kernel-team@lists.ubuntu.com>",
+	"description": "Extra drivers for nvidia-610 for the nvidia-6.17 flavour",
+	"filename": "pool/restricted/l/linux-restricted-modules-nvidia-6.17/linux-modules-nvidia-610-nvidia-6.17_6.17.0-1032.32_amd64.deb",
+	"size": 15760,
+	"md5": "c1b911e213d8e81d4182543ff2effbe1",
+	"sha1": "82365d954a03a434f05ac9771e8940447a23e13d",
+	"sha256": "c2ad26ec6247837f1f8bdb9d89705a1a16c0331931a01ccb07c67baae560e56d",
+	"sha512": "5f48556436c14dad96ec8c650b2108433eb78df7ab357bf8796ee8efea62fa7a0943493d5a3b38591a33ffa4c346f10c25532ff93142696f5fe3a58843eabaa3",
+	"descriptionMd5": "61fae447bafb2a2419111db988245e5a"
 }]

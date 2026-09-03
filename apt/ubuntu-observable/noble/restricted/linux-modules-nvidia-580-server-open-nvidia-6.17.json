@@ -24,4 +24,36 @@
 	"sha256": "ad63e2fdffd1d5ec9971a0d237d9b9a3e44f95c64a963aa76d001b4518a38460",
 	"sha512": "7726d5f23d79888c7c8d7bccf97389ad5773d471f5cb1075120861e995a1a3b98849936624cd90b211872454d25f43cfe29f0cd0c60332ebf71ce37a0856904b",
 	"descriptionMd5": "c7fc70da9bc1cb26e8ea4073170e04ad"
+},{
+	"raw": {},
+	"required": [
+		"Filename",
+		"Size"
+	],
+	"package": "linux-modules-nvidia-580-server-open-nvidia-6.17",
+	"source": "linux-restricted-modules-nvidia-6.17",
+	"version": "6.17.0-1032.32",
+	"section": "restricted/kernel",
+	"priority": "optional",
+	"architecture": "amd64",
+	"depends": [
+		"linux-modules-nvidia-580-server-open-6.17.0-1032-nvidia (= 6.17.0-1032.32)",
+		"nvidia-kernel-common-580-server (>= 580.173.02)"
+	],
+	"breaks": [
+		"linux-nvidia-6.17 (>= 6.17.0-1033~)",
+		"linux-nvidia-6.17 (<< 6.17.0-1032)",
+		"nvidia-kernel-common-580-server (>> 580.173.02+)",
+		"nvidia-kernel-common-580-server (<< 580.173.02)"
+	],
+	"installedSize": 27,
+	"maintainer": "Canonical Kernel Team <kernel-team@lists.ubuntu.com>",
+	"description": "Extra drivers for nvidia-580-server-open for the nvidia-6.17 flavour",
+	"filename": "pool/restricted/l/linux-restricted-modules-nvidia-6.17/linux-modules-nvidia-580-server-open-nvidia-6.17_6.17.0-1032.32_amd64.deb",
+	"size": 15790,
+	"md5": "a4fb9bbc9c8ea056679b86dad6a6210c",
+	"sha1": "6b5f8366c2ed63f2c707cf8175e78fe94fe6c7c6",
+	"sha256": "70bf37f183a49bba812b2835a0fed11edfbd4eb10c5a51f73cfda34be57858b8",
+	"sha512": "f23541fd8d0c989a0b844f874f67dd0a4bcfea83a5151d8ab8aa12640476dcde7414b906a675b307bf795ae358bd94b822449912c0e84b265ff71d14d25488bc",
+	"descriptionMd5": "c7fc70da9bc1cb26e8ea4073170e04ad"
 }]
