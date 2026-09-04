@@ -6,6 +6,66 @@
 	],
 	"package": "gnupg",
 	"source": "gnupg2",
+	"version": "2.4.8-4ubuntu3.1",
+	"section": "utils",
+	"priority": "optional",
+	"architecture": "all",
+	"depends": [
+		"dirmngr (<< 2.4.8-4ubuntu3.1.1~)",
+		"dirmngr (>= 2.4.8-4ubuntu3.1)",
+		"gpg (<< 2.4.8-4ubuntu3.1.1~)",
+		"gpg (>= 2.4.8-4ubuntu3.1)",
+		"gpg-agent (<< 2.4.8-4ubuntu3.1.1~)",
+		"gpg-agent (>= 2.4.8-4ubuntu3.1)",
+		"gpgsm (<< 2.4.8-4ubuntu3.1.1~)",
+		"gpgsm (>= 2.4.8-4ubuntu3.1)"
+	],
+	"recommends": [
+		"gnupg-l10n (= 2.4.8-4ubuntu3.1)",
+		"gnupg-utils (<< 2.4.8-4ubuntu3.1.1~)",
+		"gnupg-utils (>= 2.4.8-4ubuntu3.1)",
+		"gpg-wks-client (<< 2.4.8-4ubuntu3.1.1~)",
+		"gpg-wks-client (>= 2.4.8-4ubuntu3.1)",
+		"gpgv (<< 2.4.8-4ubuntu3.1.1~)",
+		"gpgv (>= 2.4.8-4ubuntu3.1)"
+	],
+	"suggests": [
+		"gpg-wks-server (<< 2.4.8-4ubuntu3.1.1~)",
+		"gpg-wks-server (>= 2.4.8-4ubuntu3.1)",
+		"parcimonie",
+		"xloadimage"
+	],
+	"breaks": [
+		"debsig-verify (<< 0.15)",
+		"dirmngr (<< 2.4.8-4ubuntu3.1)",
+		"libgnupg-interface-perl (<< 0.52-3)",
+		"libgnupg-perl (<= 0.19-1)",
+		"libmail-gnupg-perl (<= 0.22-1)",
+		"monkeysphere (<< 0.38~)",
+		"php-crypt-gpg (<= 1.4.1-1)",
+		"python-apt (<= 1.1.0~beta4)",
+		"python-gnupg (<< 0.3.8-3)",
+		"python3-apt (<= 1.1.0~beta4)"
+	],
+	"installedSize": 474,
+	"maintainer": "Ubuntu Developers <ubuntu-devel-discuss@lists.ubuntu.com>",
+	"description": "GNU privacy guard - a free PGP replacement",
+	"homepage": "https://www.gnupg.org/",
+	"filename": "pool/main/g/gnupg2/gnupg_2.4.8-4ubuntu3.1_all.deb",
+	"size": 310662,
+	"md5": "eb55cb95aaf143ffc99371433df5ad9e",
+	"sha1": "6b6049c696f52091f9621260423ac5bd9af663a7",
+	"sha256": "f8e4e754a843b1334e90092aac4c24433836d0756c996f37822d33905f2596e5",
+	"sha512": "592322b09ccf95a879dc89f713a6c6abea23acfb34e18af5a4a158377fadc796c5dda1e5f21c6c5b58d199ea81d3f8aefabc9c6214a6505b9fbc00f625af3235",
+	"descriptionMd5": "2421c574774486effdededa540cfb1c7"
+},{
+	"raw": {},
+	"required": [
+		"Filename",
+		"Size"
+	],
+	"package": "gnupg",
+	"source": "gnupg2",
 	"version": "2.4.8-4ubuntu3",
 	"section": "utils",
 	"priority": "optional",
