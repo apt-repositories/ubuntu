@@ -1,0 +1,42 @@
+{
+	"raw": {},
+	"required": [
+		"Filename",
+		"Size"
+	],
+	"package": "linux-image-7.0.0-31-generic",
+	"source": "linux-signed",
+	"version": "7.0.0-31.31",
+	"section": "kernel",
+	"priority": "optional",
+	"architecture": "amd64",
+	"depends": [
+		"kmod",
+		"linux-base (>= 4.5ubuntu1~16.04.1)",
+		"linux-modules-7.0.0-31-generic"
+	],
+	"recommends": [
+		"grub-pc | grub-efi-amd64 | grub-efi-ia32 | grub | lilo",
+		"dracut | linux-initramfs-tool"
+	],
+	"suggests": [
+		"bpftool",
+		"linux-perf",
+		"linux-tools",
+		"linux-headers-7.0.0-31-generic"
+	],
+	"conflicts": [
+		"linux-image-unsigned-7.0.0-31-generic"
+	],
+	"installedSize": 16920,
+	"maintainer": "Canonical Kernel Team <kernel-team@lists.ubuntu.com>",
+	"description": "Signed kernel image generic",
+	"builtUsing": "linux (= 7.0.0-31.31)",
+	"filename": "pool/main/l/linux-signed/linux-image-7.0.0-31-generic_7.0.0-31.31_amd64.deb",
+	"size": 17028944,
+	"md5": "0ab65673b51797386084c88f630ae549",
+	"sha1": "e272f0c5adfbd1f445081258e0f87794e7e26c80",
+	"sha256": "f144b113c6957c186c404f31646ca749bf30107b12d78ad30d04ff1f3beb08ef",
+	"sha512": "ae8a544244ca570a944ca34278d2f7cc7cd792c6c509566409931b7717837842a7302e46ad53345d4c3078eed719946dce2c551ebcf617aed462b4d51e781fc6",
+	"descriptionMd5": "b0fd0df88b1cd31408007b00d2458952"
+}
