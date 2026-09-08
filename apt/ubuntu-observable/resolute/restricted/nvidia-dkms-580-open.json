@@ -42,6 +42,42 @@
 	],
 	"package": "nvidia-dkms-580-open",
 	"source": "nvidia-graphics-drivers-580",
+	"version": "580.178.04-0ubuntu0.26.04.1",
+	"section": "restricted/libs",
+	"priority": "optional",
+	"architecture": "amd64",
+	"depends": [
+		"dkms",
+		"nvidia-kernel-source-580-open (<= 580.178.04-1)",
+		"nvidia-kernel-source-580-open (>= 580.178.04)",
+		"nvidia-kernel-common-580 (<= 580.178.04-1)",
+		"nvidia-kernel-common-580 (>= 580.178.04)"
+	],
+	"replaces": [
+		"nvidia-dkms-kernel"
+	],
+	"conflicts": [
+		"nvidia-dkms-kernel"
+	],
+	"installedSize": 69,
+	"maintainer": "Ubuntu Developers <ubuntu-devel-discuss@lists.ubuntu.com>",
+	"description": "NVIDIA DKMS package (open kernel module)",
+	"homepage": "http://www.nvidia.com",
+	"filename": "pool/restricted/n/nvidia-graphics-drivers-580/nvidia-dkms-580-open_580.178.04-0ubuntu0.26.04.1_amd64.deb",
+	"size": 21244,
+	"md5": "5085c5d5d3dd26443e4eed3dabe51aa8",
+	"sha1": "b4e0ecade772fa102956aea893f129c74ffcf7a7",
+	"sha256": "0a1a3ec67a5d7532b5c522613301d7185d64091840a4e68cf89d81cf381db12b",
+	"sha512": "51158a803aafec0f5a7dede1748f5ca7839aa7c558fe83196bb0a5dc639f173aefa09c266220260e85daadaf0d7ed03f9c60da2a51151ec805aa3550833850d2",
+	"descriptionMd5": "dafa8f35853882b3010cba056bb022d0"
+},{
+	"raw": {},
+	"required": [
+		"Filename",
+		"Size"
+	],
+	"package": "nvidia-dkms-580-open",
+	"source": "nvidia-graphics-drivers-580",
 	"version": "580.142-0ubuntu3",
 	"section": "restricted/libs",
 	"priority": "optional",
