@@ -43,6 +43,43 @@
 	],
 	"package": "libnvidia-extra-580",
 	"source": "nvidia-graphics-drivers-580",
+	"version": "580.178.04-0ubuntu0.26.04.1",
+	"section": "restricted/libs",
+	"priority": "optional",
+	"architecture": "amd64",
+	"depends": [
+		"nvidia-kernel-common-580-580.178.04",
+		"libc6 (>= 2.34)"
+	],
+	"replaces": [
+		"libnvidia-common-580 (<< 440.64-0ubuntu3~)",
+		"libnvidia-extra"
+	],
+	"breaks": [
+		"libnvidia-common-580 (<< 440.64-0ubuntu3~)"
+	],
+	"conflicts": [
+		"libnvidia-extra"
+	],
+	"installedSize": 212,
+	"maintainer": "Ubuntu Developers <ubuntu-devel-discuss@lists.ubuntu.com>",
+	"description": "Extra libraries for the NVIDIA driver",
+	"homepage": "http://www.nvidia.com",
+	"filename": "pool/restricted/n/nvidia-graphics-drivers-580/libnvidia-extra-580_580.178.04-0ubuntu0.26.04.1_amd64.deb",
+	"size": 79142,
+	"md5": "b39c8b43b94baa811185f2c7214f3e4d",
+	"sha1": "e1c30c610d806c27f9373ebffc3f7354d55cc5fa",
+	"sha256": "186c2bf9dbe6574303993df9635f2245ec111ef5d893e0180cfc97d6ca745827",
+	"sha512": "d92f5976cd45592ca17b6663da05311b7f565177667fa5c69bb5fcdc91fd3833a55a268c8d2dccf233de32edd9191d0a399689ea45ec6b3fad4d453d40879870",
+	"descriptionMd5": "0c26d83df4ea22dc17ba24c862fae8c7"
+},{
+	"raw": {},
+	"required": [
+		"Filename",
+		"Size"
+	],
+	"package": "libnvidia-extra-580",
+	"source": "nvidia-graphics-drivers-580",
 	"version": "580.142-0ubuntu3",
 	"section": "restricted/libs",
 	"priority": "optional",
