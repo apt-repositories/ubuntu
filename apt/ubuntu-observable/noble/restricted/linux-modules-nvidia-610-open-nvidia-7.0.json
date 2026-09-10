@@ -24,4 +24,36 @@
 	"sha256": "78e8e6b28d59eff2672eaa1aba97dc055de1385df265f3dd63bc59707f777e80",
 	"sha512": "81e7fbf1a2d51306f37ac3d29c0c59da5d0208a87e1f4a7ed7d7ac23b290f241ab16a0fa8a302299f0b59a54a5642fbfdcb01e00d0eab25c695fb628d7ff81f0",
 	"descriptionMd5": "59a0790136cc5483aa85ef78adc92165"
+},{
+	"raw": {},
+	"required": [
+		"Filename",
+		"Size"
+	],
+	"package": "linux-modules-nvidia-610-open-nvidia-7.0",
+	"source": "linux-restricted-modules-nvidia-7.0",
+	"version": "7.0.0-1018.18~24.04.1+1",
+	"section": "restricted/kernel",
+	"priority": "optional",
+	"architecture": "amd64",
+	"depends": [
+		"linux-modules-nvidia-610-open-7.0.0-1018-nvidia (= 7.0.0-1018.18~24.04.1+1)",
+		"nvidia-kernel-common-610 (>= 610.43.02)"
+	],
+	"breaks": [
+		"linux-nvidia-7.0 (>= 7.0.0-1019~)",
+		"linux-nvidia-7.0 (<< 7.0.0-1018)",
+		"nvidia-kernel-common-610 (>> 610.43.02+)",
+		"nvidia-kernel-common-610 (<< 610.43.02)"
+	],
+	"installedSize": 19,
+	"maintainer": "Canonical Kernel Team <kernel-team@lists.ubuntu.com>",
+	"description": "Extra drivers for nvidia-610-open for the nvidia-7.0 flavour",
+	"filename": "pool/restricted/l/linux-restricted-modules-nvidia-7.0/linux-modules-nvidia-610-open-nvidia-7.0_7.0.0-1018.18~24.04.1+1_amd64.deb",
+	"size": 6718,
+	"md5": "3e4ad1365e609ea53780c63fcb66a981",
+	"sha1": "98bad21efd7c53394a1d22624024ebeb6e536828",
+	"sha256": "0e8d2d515870ac14c4486f790083bd3ad9e33fb827adebe2cb72a46c6ce29792",
+	"sha512": "793b5e33b04213573b92fc0610353437bd84fbc096c1e2ba7b7f9a90ffdb96d130e250c4027070b752a258db3194adffe0d9a4dea067e7f031ea6ff9f0f21fe6",
+	"descriptionMd5": "59a0790136cc5483aa85ef78adc92165"
 }]

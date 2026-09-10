@@ -6,22 +6,28 @@
 	],
 	"package": "linux-modules-nvidia-580-server-open-nvidia-hwe-24.04-edge",
 	"source": "linux-restricted-modules-nvidia-7.0",
-	"version": "7.0.0-1016.16~24.04.1+1",
+	"version": "7.0.0-1018.18~24.04.1+1",
 	"section": "restricted/kernel",
 	"priority": "optional",
 	"architecture": "amd64",
 	"depends": [
-		"linux-modules-nvidia-580-server-open-7.0.0-1016-nvidia (= 7.0.0-1016.16~24.04.1+1)",
+		"linux-modules-nvidia-580-server-open-7.0.0-1018-nvidia (= 7.0.0-1018.18~24.04.1+1)",
 		"nvidia-kernel-common-580-server (>= 580.173.02)"
 	],
-	"installedSize": 18,
+	"breaks": [
+		"linux-nvidia-hwe-24.04-edge (>= 7.0.0-1019~)",
+		"linux-nvidia-hwe-24.04-edge (<< 7.0.0-1018)",
+		"nvidia-kernel-common-580-server (>> 580.173.02+)",
+		"nvidia-kernel-common-580-server (<< 580.173.02)"
+	],
+	"installedSize": 19,
 	"maintainer": "Canonical Kernel Team <kernel-team@lists.ubuntu.com>",
 	"description": "Extra drivers for nvidia-580-server-open for the nvidia-hwe-24.04-edge flavour",
-	"filename": "pool/restricted/l/linux-restricted-modules-nvidia-7.0/linux-modules-nvidia-580-server-open-nvidia-hwe-24.04-edge_7.0.0-1016.16~24.04.1+1_amd64.deb",
-	"size": 6612,
-	"md5": "d21a1867f6ae72a12bccd6c7cff033d1",
-	"sha1": "3cb982b59a8e79aa7315e437c480eefc937af5df",
-	"sha256": "1c0f7a09813204c3a06685a98b09a58fd064ef158f519f994d54def4ccf704b0",
-	"sha512": "380f7dd6c8dec55612a8a3be999a5844f252f42425eced1ba75668aae481011db46c24060371979f691e93bff8503efc74a6cabf6e91531f770d5d48f6d5525c",
+	"filename": "pool/restricted/l/linux-restricted-modules-nvidia-7.0/linux-modules-nvidia-580-server-open-nvidia-hwe-24.04-edge_7.0.0-1018.18~24.04.1+1_amd64.deb",
+	"size": 6740,
+	"md5": "cd31dce7ca7902442b1c1612dd80fc45",
+	"sha1": "8fb52c72d57d7e8110f630136ee9ec332e941683",
+	"sha256": "c0a593b85a7428e3e6f6ec8caf79ac024e836b1dff7c2cc54ba58e4ee2612f9e",
+	"sha512": "b9415befe228092f94f401c29356bb27487c0287c1e898fd0587b4a4a3b8cd9a11e79c6e035a67f5db106183fdbab1a864713dddbec89eb3043d742b41736959",
 	"descriptionMd5": "58fdaff66f4a6e9bd5c11d37601bcf35"
 }
