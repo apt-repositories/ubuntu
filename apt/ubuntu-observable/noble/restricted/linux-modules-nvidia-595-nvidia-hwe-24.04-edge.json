@@ -24,4 +24,36 @@
 	"sha256": "44fda5879a3d8dc75ae157a289e7c71ca048e305244d5abc4a56930cb54e5e92",
 	"sha512": "c76afd680fab8507f31050d5618f6368c01fe35912d346acdfa9bf2d6cd2e53441060b647cee2c7c612de46ac0826341fbcff7e98b746bd915ad62376c71e230",
 	"descriptionMd5": "ac5cbdb9d4e1969fb8419aa49bfe0bf6"
+},{
+	"raw": {},
+	"required": [
+		"Filename",
+		"Size"
+	],
+	"package": "linux-modules-nvidia-595-nvidia-hwe-24.04-edge",
+	"source": "linux-restricted-modules-nvidia-7.0",
+	"version": "7.0.0-1018.18~24.04.1+1",
+	"section": "restricted/kernel",
+	"priority": "optional",
+	"architecture": "amd64",
+	"depends": [
+		"linux-modules-nvidia-595-7.0.0-1018-nvidia (= 7.0.0-1018.18~24.04.1+1)",
+		"nvidia-kernel-common-595 (>= 595.84)"
+	],
+	"breaks": [
+		"linux-nvidia-hwe-24.04-edge (>= 7.0.0-1019~)",
+		"linux-nvidia-hwe-24.04-edge (<< 7.0.0-1018)",
+		"nvidia-kernel-common-595 (>> 595.84+)",
+		"nvidia-kernel-common-595 (<< 595.84)"
+	],
+	"installedSize": 19,
+	"maintainer": "Canonical Kernel Team <kernel-team@lists.ubuntu.com>",
+	"description": "Extra drivers for nvidia-595 for the nvidia-hwe-24.04-edge flavour",
+	"filename": "pool/restricted/l/linux-restricted-modules-nvidia-7.0/linux-modules-nvidia-595-nvidia-hwe-24.04-edge_7.0.0-1018.18~24.04.1+1_amd64.deb",
+	"size": 6720,
+	"md5": "ce76ff0be10159983736e2808f7b4fcf",
+	"sha1": "2c407493d3040a1f5243b034711a48169d2f7e66",
+	"sha256": "3cd87e745111a378fc3b3e16e0a76ca4395bcdaae8a70a3a7210dd1d0847cff5",
+	"sha512": "f1aa2a89d0a6a5db21e89706f681b454169485934b1fd8efe8aba29b21a7d85950e31c7deda7d29f6440343f22be52770a3b9b5e6fa07405c78a3c44dc567164",
+	"descriptionMd5": "ac5cbdb9d4e1969fb8419aa49bfe0bf6"
 }]
