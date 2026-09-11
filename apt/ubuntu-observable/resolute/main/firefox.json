@@ -5,6 +5,46 @@
 		"Size"
 	],
 	"package": "firefox",
+	"version": "1:1snap1-0ubuntu9.1",
+	"section": "web",
+	"priority": "optional",
+	"architecture": "amd64",
+	"depends": [
+		"debconf (>= 0.5) | debconf-2.0"
+	],
+	"preDepends": [
+		"debconf",
+		"snapd (>= 2.54)"
+	],
+	"replaces": [
+		"firefox-dbg (<< 1:1snap1)",
+		"firefox-dev (<< 1:1snap1)",
+		"firefox-geckodriver (<< 1:1snap1)",
+		"firefox-mozsymbols (<< 1:1snap1)"
+	],
+	"breaks": [
+		"firefox-dbg (<< 1:1snap1)",
+		"firefox-dev (<< 1:1snap1)",
+		"firefox-geckodriver (<< 1:1snap1)",
+		"firefox-mozsymbols (<< 1:1snap1)"
+	],
+	"installedSize": 113,
+	"maintainer": "Ubuntu Mozilla Team <ubuntu-mozillateam@lists.ubuntu.com>",
+	"description": "Installs Firefox snap and provides some system integration",
+	"filename": "pool/main/f/firefox/firefox_1snap1-0ubuntu9.1_amd64.deb",
+	"size": 68286,
+	"md5": "7a589661fd047184cfcccbe85a984769",
+	"sha1": "48dd7aa6c358e408c30a03a57ebb526501ef5cdf",
+	"sha256": "abd8b2c56a05c9c15f3f050713ab795e58c2ff1a868869a2bf40e9b26ee4d2ea",
+	"sha512": "ea736ae0f7c4e81cccb36aeb1acf9a4ea2cdef99c3ad1325ab3dd7b1f1400e01ed6fc5f5167370439cefc2e43123b29ebdf820f4dc4f7cebccddf671c4ccb5cf",
+	"descriptionMd5": "a6736ac76f744466196676a85e112a94"
+},{
+	"raw": {},
+	"required": [
+		"Filename",
+		"Size"
+	],
+	"package": "firefox",
 	"version": "1:1snap1-0ubuntu8",
 	"section": "web",
 	"priority": "optional",

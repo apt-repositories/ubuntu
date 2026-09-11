@@ -6,22 +6,28 @@
 	],
 	"package": "linux-modules-nvidia-580-nvidia-hwe-24.04-edge",
 	"source": "linux-restricted-modules-nvidia-7.0",
-	"version": "7.0.0-1016.16~24.04.1+1",
+	"version": "7.0.0-1018.18~24.04.1+1",
 	"section": "restricted/kernel",
 	"priority": "optional",
 	"architecture": "amd64",
 	"depends": [
-		"linux-modules-nvidia-580-7.0.0-1016-nvidia (= 7.0.0-1016.16~24.04.1+1)",
+		"linux-modules-nvidia-580-7.0.0-1018-nvidia (= 7.0.0-1018.18~24.04.1+1)",
 		"nvidia-kernel-common-580 (>= 580.173.02)"
 	],
-	"installedSize": 18,
+	"breaks": [
+		"linux-nvidia-hwe-24.04-edge (>= 7.0.0-1019~)",
+		"linux-nvidia-hwe-24.04-edge (<< 7.0.0-1018)",
+		"nvidia-kernel-common-580 (>> 580.173.02+)",
+		"nvidia-kernel-common-580 (<< 580.173.02)"
+	],
+	"installedSize": 19,
 	"maintainer": "Canonical Kernel Team <kernel-team@lists.ubuntu.com>",
 	"description": "Extra drivers for nvidia-580 for the nvidia-hwe-24.04-edge flavour",
-	"filename": "pool/restricted/l/linux-restricted-modules-nvidia-7.0/linux-modules-nvidia-580-nvidia-hwe-24.04-edge_7.0.0-1016.16~24.04.1+1_amd64.deb",
-	"size": 6592,
-	"md5": "3583a9d47bcacde43899dc7638804d00",
-	"sha1": "06ef9a9544f0d37f2fde8c1b6c090aca107f72e6",
-	"sha256": "3db27955e995d5bd4035cb32aaa000a0193da4825b66340e12a01c13c3e6eb3f",
-	"sha512": "80eb5be64b82871b9ee44e59ad6ebd7b5b1badcfc24140cffe46e36d3ad4a75e7486353bbffae01863d095ee38f56ca44d9ab7e07707dee7ce59f2f8177ca080",
+	"filename": "pool/restricted/l/linux-restricted-modules-nvidia-7.0/linux-modules-nvidia-580-nvidia-hwe-24.04-edge_7.0.0-1018.18~24.04.1+1_amd64.deb",
+	"size": 6722,
+	"md5": "ca5e9d0945d1b1a15008c0c9c299818e",
+	"sha1": "91e6616e5f9e858039991d912b0f69392bc09ad6",
+	"sha256": "74077797bc99115a89598856a119c577a76dc9dd00f4cb42b3e3c220ed637622",
+	"sha512": "f8cdbe81f249dc976e13f6fa8ee7c4e533fb34462fe4aaf57675115f96120b98f0ac25a41ee814707cf11608cf42116ce18d20cd2a2b72305e94de7024c8b4f9",
 	"descriptionMd5": "f6fe08e29df74d542873140d9c1814af"
 }

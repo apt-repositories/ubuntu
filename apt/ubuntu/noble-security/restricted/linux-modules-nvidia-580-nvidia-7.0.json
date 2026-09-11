@@ -6,22 +6,28 @@
 	],
 	"package": "linux-modules-nvidia-580-nvidia-7.0",
 	"source": "linux-restricted-modules-nvidia-7.0",
-	"version": "7.0.0-1016.16~24.04.1+1",
+	"version": "7.0.0-1018.18~24.04.1+1",
 	"section": "restricted/kernel",
 	"priority": "optional",
 	"architecture": "amd64",
 	"depends": [
-		"linux-modules-nvidia-580-7.0.0-1016-nvidia (= 7.0.0-1016.16~24.04.1+1)",
+		"linux-modules-nvidia-580-7.0.0-1018-nvidia (= 7.0.0-1018.18~24.04.1+1)",
 		"nvidia-kernel-common-580 (>= 580.173.02)"
 	],
-	"installedSize": 18,
+	"breaks": [
+		"linux-nvidia-7.0 (>= 7.0.0-1019~)",
+		"linux-nvidia-7.0 (<< 7.0.0-1018)",
+		"nvidia-kernel-common-580 (>> 580.173.02+)",
+		"nvidia-kernel-common-580 (<< 580.173.02)"
+	],
+	"installedSize": 19,
 	"maintainer": "Canonical Kernel Team <kernel-team@lists.ubuntu.com>",
 	"description": "Extra drivers for nvidia-580 for the nvidia-7.0 flavour",
-	"filename": "pool/restricted/l/linux-restricted-modules-nvidia-7.0/linux-modules-nvidia-580-nvidia-7.0_7.0.0-1016.16~24.04.1+1_amd64.deb",
-	"size": 6580,
-	"md5": "0f87bfbd9776ccd1243b159875d7e486",
-	"sha1": "42f70fb9401e4dccb32471cabd3d974b4c9dbf3e",
-	"sha256": "314e217e4d00fe47522fbec44ca55e583540d5af81a15f5d2e21c6082134dc69",
-	"sha512": "6c2c06493f53f5d66dc89b7189eb2a6538a9935fa154b02e84faf2a8214898aa75a1128b2e88e3022657869513754b997211ea178a62f8dcff953c629352a3be",
+	"filename": "pool/restricted/l/linux-restricted-modules-nvidia-7.0/linux-modules-nvidia-580-nvidia-7.0_7.0.0-1018.18~24.04.1+1_amd64.deb",
+	"size": 6704,
+	"md5": "683cc882105590eaa6778f1f75d26532",
+	"sha1": "678f66b53aaa1192c98edd831f02a7b01375ec49",
+	"sha256": "e29f373a82ffa39025469787b3d7add52672dc5e571696c4a4d13c25238a5817",
+	"sha512": "a660f75367ab6daa3085cbe1eefb664c8aa83b2306e89d485249cfe6f225ff140e2fc3eb4442d83bf6c19fd87437209dee3b235ac2d8d267e0ef7685daa0e02c",
 	"descriptionMd5": "36d03a62b11a75e72a52d7306d1b85c8"
 }
