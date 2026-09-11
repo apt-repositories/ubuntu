@@ -6,22 +6,28 @@
 	],
 	"package": "linux-modules-nvidia-610-nvidia-hwe-24.04-edge",
 	"source": "linux-restricted-modules-nvidia-7.0",
-	"version": "7.0.0-1016.16~24.04.1+1",
+	"version": "7.0.0-1018.18~24.04.1+1",
 	"section": "restricted/kernel",
 	"priority": "optional",
 	"architecture": "amd64",
 	"depends": [
-		"linux-modules-nvidia-610-7.0.0-1016-nvidia (= 7.0.0-1016.16~24.04.1+1)",
+		"linux-modules-nvidia-610-7.0.0-1018-nvidia (= 7.0.0-1018.18~24.04.1+1)",
 		"nvidia-kernel-common-610 (>= 610.43.02)"
 	],
-	"installedSize": 18,
+	"breaks": [
+		"linux-nvidia-hwe-24.04-edge (>= 7.0.0-1019~)",
+		"linux-nvidia-hwe-24.04-edge (<< 7.0.0-1018)",
+		"nvidia-kernel-common-610 (>> 610.43.02+)",
+		"nvidia-kernel-common-610 (<< 610.43.02)"
+	],
+	"installedSize": 19,
 	"maintainer": "Canonical Kernel Team <kernel-team@lists.ubuntu.com>",
 	"description": "Extra drivers for nvidia-610 for the nvidia-hwe-24.04-edge flavour",
-	"filename": "pool/restricted/l/linux-restricted-modules-nvidia-7.0/linux-modules-nvidia-610-nvidia-hwe-24.04-edge_7.0.0-1016.16~24.04.1+1_amd64.deb",
-	"size": 6594,
-	"md5": "fcfb853d89c7e9b8a3a21ff70cdcab28",
-	"sha1": "41f30e1c9c68e27440b507fd3f0984ea294e4881",
-	"sha256": "316765dd5756c16110f6e456ca22b1930512fb70b21c3144ba960be3a0ea75a0",
-	"sha512": "fa649e962e076aa4ba0e54795b7954aa3b46c212516303252a2699bd67d327fa82d1650a445db9470b4d142155ea7999fd1601b2d69d74ce7ca619095be10326",
+	"filename": "pool/restricted/l/linux-restricted-modules-nvidia-7.0/linux-modules-nvidia-610-nvidia-hwe-24.04-edge_7.0.0-1018.18~24.04.1+1_amd64.deb",
+	"size": 6722,
+	"md5": "05ec61a6455c257a0eb64c5cc596a38e",
+	"sha1": "ff083ba35eb885ad38ea0bb6ff38017cd55f6842",
+	"sha256": "b2c68d6ed2d3051600a85735b3e21da13fa166595d8a94c40b28d4be5d72ef3a",
+	"sha512": "d3187d74986c2c3bd63217fa85e7f18fe923208e087b8ab315897837b5c9c1fb0f5516010bc9ac535c9349d3da4ced95733a4bb9fe3062598fc8ac0012bab5ce",
 	"descriptionMd5": "9d59c09f68b9c393808882971f118c00"
 }
