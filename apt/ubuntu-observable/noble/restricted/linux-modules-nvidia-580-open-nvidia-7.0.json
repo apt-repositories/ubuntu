@@ -30,4 +30,36 @@
 	"sha256": "4b1a7149b0f26b551497057f542ff433f6ae4cd886b406f6b4f7a4d5b3dcbdc7",
 	"sha512": "4845c72416eab8b94c21b23bc762e091d25263cbdfdd2475387dbec1548ef3c157b2b5bbc426de0497c24639632e03f07b21e82599cf116b4a06ad44f645ae11",
 	"descriptionMd5": "4e773aed777d7c0b8a4efb3bf4bfe4bd"
+},{
+	"raw": {},
+	"required": [
+		"Filename",
+		"Size"
+	],
+	"package": "linux-modules-nvidia-580-open-nvidia-7.0",
+	"source": "linux-restricted-modules-nvidia-7.0",
+	"version": "7.0.0-1019.19~24.04.2",
+	"section": "restricted/kernel",
+	"priority": "optional",
+	"architecture": "amd64",
+	"depends": [
+		"linux-modules-nvidia-580-open-7.0.0-1019-nvidia (= 7.0.0-1019.19~24.04.2)",
+		"nvidia-kernel-common-580 (>= 580.173.02)"
+	],
+	"breaks": [
+		"linux-nvidia-7.0 (>= 7.0.0-1020~)",
+		"linux-nvidia-7.0 (<< 7.0.0-1019)",
+		"nvidia-kernel-common-580 (>> 580.173.02+)",
+		"nvidia-kernel-common-580 (<< 580.173.02)"
+	],
+	"installedSize": 19,
+	"maintainer": "Canonical Kernel Team <kernel-team@lists.ubuntu.com>",
+	"description": "Extra drivers for nvidia-580-open for the nvidia-7.0 flavour",
+	"filename": "pool/restricted/l/linux-restricted-modules-nvidia-7.0/linux-modules-nvidia-580-open-nvidia-7.0_7.0.0-1019.19~24.04.2_amd64.deb",
+	"size": 6772,
+	"md5": "ff5f2795e14c9f378a586ee4844e0dfb",
+	"sha1": "d547459d57d427e53d0013e0f381e75166ec2fa5",
+	"sha256": "95204d860de83687208be0c845f5dad949bda1f4ae58706229d59b332ac20f03",
+	"sha512": "25f847e042d60caba146007c11824aed353c0127bb9a1bfdd08f7f419a1a70a549c1cbf8a85eeb4ebe39ae8673d61d9eed2dd2ea3ac9d3e799191c25b18d3a34",
+	"descriptionMd5": "4e773aed777d7c0b8a4efb3bf4bfe4bd"
 }]
