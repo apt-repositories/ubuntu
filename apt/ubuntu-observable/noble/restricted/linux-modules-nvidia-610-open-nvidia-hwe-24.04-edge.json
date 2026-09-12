@@ -30,4 +30,36 @@
 	"sha256": "c748445cc4894e9c191656a2088b816534f517158474141a2880cba1418d4f0f",
 	"sha512": "8586e3dbe0d80a847d207edf1c068c0446d50c69e5964d6b639ed37ec65722e4b5f438d1accc5beb48b70580d49c726f288f54e9091e0c4c69033283c8def98f",
 	"descriptionMd5": "51354dd4efec244532690479532bae2c"
+},{
+	"raw": {},
+	"required": [
+		"Filename",
+		"Size"
+	],
+	"package": "linux-modules-nvidia-610-open-nvidia-hwe-24.04-edge",
+	"source": "linux-restricted-modules-nvidia-7.0",
+	"version": "7.0.0-1019.19~24.04.2",
+	"section": "restricted/kernel",
+	"priority": "optional",
+	"architecture": "amd64",
+	"depends": [
+		"linux-modules-nvidia-610-open-7.0.0-1019-nvidia (= 7.0.0-1019.19~24.04.2)",
+		"nvidia-kernel-common-610 (>= 610.43.02)"
+	],
+	"breaks": [
+		"linux-nvidia-hwe-24.04-edge (>= 7.0.0-1020~)",
+		"linux-nvidia-hwe-24.04-edge (<< 7.0.0-1019)",
+		"nvidia-kernel-common-610 (>> 610.43.02+)",
+		"nvidia-kernel-common-610 (<< 610.43.02)"
+	],
+	"installedSize": 19,
+	"maintainer": "Canonical Kernel Team <kernel-team@lists.ubuntu.com>",
+	"description": "Extra drivers for nvidia-610-open for the nvidia-hwe-24.04-edge flavour",
+	"filename": "pool/restricted/l/linux-restricted-modules-nvidia-7.0/linux-modules-nvidia-610-open-nvidia-hwe-24.04-edge_7.0.0-1019.19~24.04.2_amd64.deb",
+	"size": 6788,
+	"md5": "7ecfdca09329786e7e840481542a7a89",
+	"sha1": "d5ae6a620931ebde550ff9fcdc6713fc5d24365c",
+	"sha256": "0db21d808121af54ab1202051c1a4defac748080fc6e298ba2e08f08707fab95",
+	"sha512": "cbcfa16c23875ae4b6e79f7ce731fb36a7993a57c5585eaef46c4a55fc75a8a0c4d637137088a8af4f328bc7b8dd8da7994f0f127b273378d921ba077c097c4a",
+	"descriptionMd5": "51354dd4efec244532690479532bae2c"
 }]
