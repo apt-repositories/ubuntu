@@ -6,6 +6,45 @@
 	],
 	"package": "dracut-test",
 	"source": "dracut",
+	"version": "110-11ubuntu0.1",
+	"section": "universe/utils",
+	"priority": "optional",
+	"architecture": "amd64",
+	"depends": [
+		"dracut-core",
+		"ipxe-qemu",
+		"linux-image-generic",
+		"mount",
+		"ovmf",
+		"qemu-system-native",
+		"systemd (>= 259~rc1)",
+		"zstd"
+	],
+	"replaces": [
+		"dracut-core (<< 105)"
+	],
+	"breaks": [
+		"dracut-core (<< 105)"
+	],
+	"installedSize": 66,
+	"maintainer": "Ubuntu Developers <ubuntu-devel-discuss@lists.ubuntu.com>",
+	"description": "dracut is an event driven initramfs infrastructure (test modules)",
+	"homepage": "https://github.com/dracut-ng/dracut-ng/wiki",
+	"filename": "pool/universe/d/dracut/dracut-test_110-11ubuntu0.1_amd64.deb",
+	"size": 11358,
+	"md5": "bc555a9e3a6b0090b66af3d8e0abfc02",
+	"sha1": "460c2871706834ddaeae6c52b2b281a80da2970d",
+	"sha256": "a8ded0ffc8b6655208fa7fd77d7056751f71f97f60f332e5488075ff48b10c53",
+	"sha512": "6bdaf02845cf823cdf46b8233400f07d7adfb5075012392df4252bae9caf45e591515e919708550092717248c1c8dfd3b6762b6ffc0ff82914c24d19d8bd25bf",
+	"descriptionMd5": "8c8b1ab192cc5009f89ebfc8aa303e15"
+},{
+	"raw": {},
+	"required": [
+		"Filename",
+		"Size"
+	],
+	"package": "dracut-test",
+	"source": "dracut",
 	"version": "110-11",
 	"section": "universe/utils",
 	"priority": "optional",

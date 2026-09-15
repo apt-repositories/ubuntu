@@ -6,6 +6,40 @@
 	],
 	"package": "dracut-install",
 	"source": "dracut",
+	"version": "110-11ubuntu0.1",
+	"section": "utils",
+	"priority": "optional",
+	"architecture": "amd64",
+	"depends": [
+		"libc6 (>= 2.38)",
+		"libkmod2 (>= 33~)",
+		"libsystemd0 (>= 257~rc1)"
+	],
+	"replaces": [
+		"dracut-core (<< 060+5-7~)"
+	],
+	"breaks": [
+		"dracut-core (<< 060+5-7~)"
+	],
+	"installedSize": 108,
+	"maintainer": "Ubuntu Developers <ubuntu-devel-discuss@lists.ubuntu.com>",
+	"description": "dracut is an event driven initramfs infrastructure (dracut-install)",
+	"homepage": "https://github.com/dracut-ng/dracut-ng/wiki",
+	"filename": "pool/main/d/dracut/dracut-install_110-11ubuntu0.1_amd64.deb",
+	"size": 46256,
+	"md5": "1dc3f779902f7a89bc2146858c33f60f",
+	"sha1": "ade0d445ffdaa03b0efd051cb78db7faf1e77c53",
+	"sha256": "c4f00013b155a28c726eff14d1d00f70658ba00d5ab874246179d0bd4a72b7dd",
+	"sha512": "a47ab9e939904a4be0c3d486782bcaa3b104007783859fdd9a96830292d8a8d24e19149f9fb7fc8508d679aef9f9fc2984f5eee4db3dcce468bc765afb8e7ece",
+	"descriptionMd5": "bee7fbb3b186a4a78e8728d317c6259f"
+},{
+	"raw": {},
+	"required": [
+		"Filename",
+		"Size"
+	],
+	"package": "dracut-install",
+	"source": "dracut",
 	"version": "110-11",
 	"section": "utils",
 	"priority": "optional",

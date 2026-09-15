@@ -45,6 +45,45 @@
 	],
 	"package": "libkdb5-10",
 	"source": "krb5",
+	"version": "1.19.2-2ubuntu0.10",
+	"section": "libs",
+	"priority": "optional",
+	"architecture": "amd64",
+	"depends": [
+		"libc6 (>= 2.33)",
+		"libcom-err2 (>= 1.43.9)",
+		"libgssrpc4 (>= 1.7dfsg~alpha1)",
+		"libk5crypto3 (>= 1.7+dfsg)",
+		"libkrb5-3 (>= 1.14+dfsg)",
+		"libkrb5support0 (>= 1.15~beta1)"
+	],
+	"suggests": [
+		"krb5-doc",
+		"krb5-user"
+	],
+	"breaks": [
+		"krb5-kdc (= 1.13~alpha1+dfsg-1)",
+		"libkadm5srv-mit8 (<< 1.11+dfsg~)"
+	],
+	"installedSize": 184,
+	"maintainer": "Ubuntu Developers <ubuntu-devel-discuss@lists.ubuntu.com>",
+	"description": "MIT Kerberos runtime libraries - Kerberos database",
+	"homepage": "http://web.mit.edu/kerberos/",
+	"filename": "pool/main/k/krb5/libkdb5-10_1.19.2-2ubuntu0.10_amd64.deb",
+	"size": 40478,
+	"md5": "df512e53e4858128bae7243d69611caa",
+	"sha1": "e369925206f1ecf8eade857e2a7df491ea88622a",
+	"sha256": "80bb07a9be24d740794777c75023d328b24c722fcb1a3762d2cc88941c19fb6f",
+	"sha512": "43ecc5f7b6ab403de2e7acad0e76a89e45b3b5d580027c38065522da1e684b4841692a1aa8f914f6477010b8672258fce7c274da447e15d760b02351ce0f717b",
+	"descriptionMd5": "339dba7d5a44f05699e73cc493c3def3"
+},{
+	"raw": {},
+	"required": [
+		"Filename",
+		"Size"
+	],
+	"package": "libkdb5-10",
+	"source": "krb5",
 	"version": "1.19.2-2",
 	"section": "libs",
 	"priority": "optional",

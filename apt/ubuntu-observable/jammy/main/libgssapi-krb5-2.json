@@ -43,6 +43,43 @@
 	],
 	"package": "libgssapi-krb5-2",
 	"source": "krb5",
+	"version": "1.19.2-2ubuntu0.10",
+	"section": "libs",
+	"priority": "required",
+	"architecture": "amd64",
+	"depends": [
+		"libc6 (>= 2.33)",
+		"libcom-err2 (>= 1.43.9)",
+		"libk5crypto3 (>= 1.16)",
+		"libkrb5-3 (= 1.19.2-2ubuntu0.10)",
+		"libkrb5support0 (>= 1.15~beta1)"
+	],
+	"suggests": [
+		"krb5-doc",
+		"krb5-user"
+	],
+	"breaks": [
+		"moonshot-gss-eap (<= 1.0)"
+	],
+	"installedSize": 456,
+	"maintainer": "Ubuntu Developers <ubuntu-devel-discuss@lists.ubuntu.com>",
+	"description": "MIT Kerberos runtime libraries - krb5 GSS-API Mechanism",
+	"homepage": "http://web.mit.edu/kerberos/",
+	"filename": "pool/main/k/krb5/libgssapi-krb5-2_1.19.2-2ubuntu0.10_amd64.deb",
+	"size": 144666,
+	"md5": "e2994005ceec96d7b69c71e63ec494df",
+	"sha1": "e3de20d7b644d1391ea4eda3d1b9a41845a0e5db",
+	"sha256": "08e98a3dc74361cdb13c0d68bc73e0352552490546c1ad3ce5bff5426f6a2dfe",
+	"sha512": "f38e37ae76b93832cbdd1307ec65d73db2dc2c5c2ffa8800e9dc20272a936e9f98e8dea9bee183afdc549613737c8ce215b4cb5043ac20381365ac4c5b663f05",
+	"descriptionMd5": "2dd7fe357b29d0ba6727171c01f0301c"
+},{
+	"raw": {},
+	"required": [
+		"Filename",
+		"Size"
+	],
+	"package": "libgssapi-krb5-2",
+	"source": "krb5",
 	"version": "1.19.2-2",
 	"section": "libs",
 	"priority": "required",
