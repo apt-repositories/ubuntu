@@ -6,6 +6,52 @@
 	],
 	"package": "dracut-network",
 	"source": "dracut",
+	"version": "110-11ubuntu0.1",
+	"section": "utils",
+	"priority": "optional",
+	"architecture": "all",
+	"depends": [
+		"dracut-core",
+		"iproute2",
+		"network-manager | systemd | connman"
+	],
+	"recommends": [
+		"curl"
+	],
+	"suggests": [
+		"iscsiuio",
+		"nbd-client",
+		"nfs-common",
+		"open-iscsi",
+		"systemd-container"
+	],
+	"replaces": [
+		"dracut-core (<< 105)",
+		"dracut-live (<< 109-10~)"
+	],
+	"breaks": [
+		"dracut-core (<< 105)",
+		"dracut-live (<< 109-10~)"
+	],
+	"installedSize": 261,
+	"maintainer": "Ubuntu Developers <ubuntu-devel-discuss@lists.ubuntu.com>",
+	"description": "dracut is an event driven initramfs infrastructure (network modules)",
+	"homepage": "https://github.com/dracut-ng/dracut-ng/wiki",
+	"filename": "pool/main/d/dracut/dracut-network_110-11ubuntu0.1_all.deb",
+	"size": 45726,
+	"md5": "809cc3d59753ab741238f2aa33e186da",
+	"sha1": "9d9b9922e281c08145606d967678661326a82491",
+	"sha256": "3ba42eb51ed277a1db1c341e248cc7f1cd7e7fa4a4bff3e71ddbbe9cf6be53b0",
+	"sha512": "3efb41986aaf7f098fc8ea1d2f78cc1fd92b6231fccd5a578d3a052c6d22415fbfdb02ae9dfef180af9ab19e74c4d22262692a30dfda499c4991c7e35eaa3dc7",
+	"descriptionMd5": "8f3b59dad664d57ff068d2acc6955865"
+},{
+	"raw": {},
+	"required": [
+		"Filename",
+		"Size"
+	],
+	"package": "dracut-network",
+	"source": "dracut",
 	"version": "110-11",
 	"section": "utils",
 	"priority": "optional",
