@@ -6,6 +6,42 @@
 	],
 	"package": "ovmf-amdsev-hwe",
 	"source": "edk2-hwe",
+	"version": "2025.11-3ubuntu8.2",
+	"section": "misc",
+	"priority": "optional",
+	"architecture": "all",
+	"depends": [
+		"ubuntu-virt-hwe"
+	],
+	"suggests": [
+		"qemu-system-x86-64"
+	],
+	"replaces": [
+		"ovmf (<< 2025.11~)",
+		"ovmf-amdsev"
+	],
+	"breaks": [
+		"ovmf (<< 2025.11~)"
+	],
+	"installedSize": 4136,
+	"maintainer": "Ubuntu Developers <ubuntu-devel-discuss@lists.ubuntu.com>",
+	"description": "UEFI firmware for AMD SEV-SNP confidential virtual machines",
+	"homepage": "http://www.tianocore.org",
+	"filename": "pool/main/e/edk2-hwe/ovmf-amdsev-hwe_2025.11-3ubuntu8.2_all.deb",
+	"size": 707674,
+	"md5": "280a06ad31dee33a6d7bf7340c7c3acb",
+	"sha1": "4746af362b4ca9b52b1f4fd1449bceef39a7348b",
+	"sha256": "c38af8c8836ff73108ee449df9972381e9fcf47ab5e124ade836865f143691d6",
+	"sha512": "ba61f1c1b68f693e4cc505093277af567d3b07d4a788a0c895878e18a8235418c5a91adeb9e61b7b39863794fa708d4a81e2ce6f25dae629e898a4bd53c9cc97",
+	"descriptionMd5": "e6c2dc2d96cb7487101549ee69885f1d"
+},{
+	"raw": {},
+	"required": [
+		"Filename",
+		"Size"
+	],
+	"package": "ovmf-amdsev-hwe",
+	"source": "edk2-hwe",
 	"version": "2025.11-3ubuntu8",
 	"section": "misc",
 	"priority": "optional",
