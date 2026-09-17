@@ -6,6 +6,47 @@
 	],
 	"package": "liblxc1t64",
 	"source": "lxc",
+	"version": "1:6.0.6-1ubuntu1",
+	"section": "universe/libs",
+	"priority": "optional",
+	"architecture": "amd64",
+	"depends": [
+		"libapparmor1 (>= 2.6~devel)",
+		"libc6 (>= 2.43)",
+		"libcap2 (>= 1:2.10)",
+		"libdbus-1-3 (>= 1.10)",
+		"libgcc-s1 (>= 3.3.1)",
+		"libseccomp2 (>= 2.5.0)",
+		"libselinux1 (>= 3.1~)"
+	],
+	"suggests": [
+		"systemd"
+	],
+	"replaces": [
+		"liblxc1"
+	],
+	"breaks": [
+		"liblxc1 (<< 1:6.0.6-1ubuntu1)"
+	],
+	"installedSize": 1198,
+	"maintainer": "Ubuntu Developers <ubuntu-devel-discuss@lists.ubuntu.com>",
+	"description": "Linux Containers userspace tools (library)",
+	"homepage": "https://linuxcontainers.org/",
+	"filename": "pool/universe/l/lxc/liblxc1t64_6.0.6-1ubuntu1_amd64.deb",
+	"size": 417086,
+	"md5": "a660a7759cdd3b7082908f215aceae29",
+	"sha1": "f1ad56688ed17fcc4b81eff812aabfb2ac93716a",
+	"sha256": "d3ec9c516afb7f31a0bf42921c0a64b0c9959f3c8b53911fac3a572f80cb7927",
+	"sha512": "ce5674060552831ba20a9c81db70b160ff51159feadcd994258f65a8981b4a78c2db2e833b67520edf1f414dd4ec2d28a0ac4fb7c591ad4c5dcf91d20aa03b7e",
+	"descriptionMd5": "1e0f601ab32a2567bee52c30378f862a"
+},{
+	"raw": {},
+	"required": [
+		"Filename",
+		"Size"
+	],
+	"package": "liblxc1t64",
+	"source": "lxc",
 	"version": "1:6.0.6-1",
 	"section": "universe/libs",
 	"priority": "optional",
