@@ -6,6 +6,44 @@
 	],
 	"package": "python3-heat-dashboard",
 	"source": "heat-dashboard",
+	"version": "15.0.0-0ubuntu1.1",
+	"section": "python",
+	"priority": "extra",
+	"architecture": "all",
+	"depends": [
+		"heat-dashboard-common (= 15.0.0-0ubuntu1.1)",
+		"openstack-dashboard (>= 4:23.2.0+git2023090509.7896fd8c-0ubuntu2~)",
+		"python3-django (>= 2:2.2)",
+		"python3-django-horizon (>= 4:25.0.0)",
+		"python3-heatclient (>= 1.10.0)",
+		"python3-pbr (>= 5.5.0)",
+		"python3:any"
+	],
+	"replaces": [
+		"openstack-dashboard (<< 3:13.0.0-0ubuntu1~)"
+	],
+	"breaks": [
+		"openstack-dashboard (<< 3:13.0.0-0ubuntu1~)"
+	],
+	"installedSize": 4804,
+	"maintainer": "Ubuntu Developers <ubuntu-devel-discuss@lists.ubuntu.com>",
+	"description": "OpenStack orchestration service - Python 3 dashboard plugin",
+	"homepage": "https://opendev.org/openstack/heat-dashboard",
+	"filename": "pool/main/h/heat-dashboard/python3-heat-dashboard_15.0.0-0ubuntu1.1_all.deb",
+	"size": 642764,
+	"md5": "b60ef4af19a69ce7438dc6c74e4aee03",
+	"sha1": "43732db2d9e620e41418ff66cb53fe06d796867a",
+	"sha256": "9be659ca22394758cb5b63b43f965a8aa47842a7d043f007b51f0c472357f2c1",
+	"sha512": "68ec08a919b340383fa45cffd36ebc9d08a895940eee2dbe371abf1faa737bf803964bff16128700c769ff5370b22b374115e1540c6b45be9910990068accac0",
+	"descriptionMd5": "d96cef6d6a50f56e3fa01755b948c6f1"
+},{
+	"raw": {},
+	"required": [
+		"Filename",
+		"Size"
+	],
+	"package": "python3-heat-dashboard",
+	"source": "heat-dashboard",
 	"version": "15.0.0-0ubuntu1",
 	"section": "python",
 	"priority": "extra",
