@@ -1,0 +1,41 @@
+[{
+	"raw": {},
+	"required": [
+		"Filename",
+		"Size"
+	],
+	"package": "linux-image-6.17.0-1004-vmware",
+	"source": "linux-signed-vmware-6.17",
+	"version": "6.17.0-1004.4",
+	"section": "kernel",
+	"priority": "optional",
+	"architecture": "amd64",
+	"depends": [
+		"kmod",
+		"linux-base (>= 4.5ubuntu1~16.04.1)",
+		"linux-modules-6.17.0-1004-vmware"
+	],
+	"recommends": [
+		"grub-pc | grub-efi-amd64 | grub-efi-ia32 | grub | lilo",
+		"initramfs-tools | linux-initramfs-tool"
+	],
+	"suggests": [
+		"linux-vmware-6.17-tools",
+		"linux-headers-6.17.0-1004-vmware",
+		"linux-modules-extra-6.17.0-1004-vmware"
+	],
+	"conflicts": [
+		"linux-image-unsigned-6.17.0-1004-vmware"
+	],
+	"installedSize": 16373,
+	"maintainer": "Canonical Kernel Team <kernel-team@lists.ubuntu.com>",
+	"description": "Signed kernel image vmware",
+	"builtUsing": "linux-vmware-6.17 (= 6.17.0-1004.4)",
+	"filename": "pool/main/l/linux-signed-vmware-6.17/linux-image-6.17.0-1004-vmware_6.17.0-1004.4_amd64.deb",
+	"size": 16040548,
+	"md5": "30382aeab4ae5370a3e305950e9dd6ef",
+	"sha1": "b2020ea75c7fde5404248b16d9bbb68772f296cf",
+	"sha256": "01ae2c58a861e938ff6105018832d0ec123555c777927c0e1d8e6de61ca388bc",
+	"sha512": "3a636ae9c773d6c7f680834c664221ca3ab4919b97eddf1823d3fe96cf4792ceb8e93946ab1121ec887776ee86dcaf9d7b9e5db3b2a8c1dfb4e0e2a1c856d68e",
+	"descriptionMd5": "1a1542040494e64d2b82930c8add3d70"
+}]

@@ -49,6 +49,49 @@
 	],
 	"package": "pipewire-pulse",
 	"source": "pipewire",
+	"version": "1.6.2-1ubuntu1.2",
+	"section": "video",
+	"priority": "optional",
+	"architecture": "amd64",
+	"depends": [
+		"pipewire (= 1.6.2-1ubuntu1.2)",
+		"dconf-gsettings-backend | gsettings-backend"
+	],
+	"recommends": [
+		"wireplumber"
+	],
+	"suggests": [
+		"libspa-0.2-bluetooth",
+		"pulseaudio-utils"
+	],
+	"replaces": [
+		"pipewire-bin (<< 0.3.27-2)"
+	],
+	"breaks": [
+		"pipewire-bin (<< 0.3.27-2)"
+	],
+	"conflicts": [
+		"pulseaudio-module-gsettings"
+	],
+	"installedSize": 55,
+	"maintainer": "Ubuntu Developers <ubuntu-devel-discuss@lists.ubuntu.com>",
+	"description": "PipeWire PulseAudio daemon",
+	"homepage": "https://pipewire.org/",
+	"filename": "pool/main/p/pipewire/pipewire-pulse_1.6.2-1ubuntu1.2_amd64.deb",
+	"size": 9534,
+	"md5": "e17566dd85a06c2de6f79a63e2318612",
+	"sha1": "6cd4e0222a135a2031140b3280a5d8e7c6a77a43",
+	"sha256": "ed49953406f7d12a6d12d79405c43e47310dd9296ca7ee525c4f8e23da031d87",
+	"sha512": "b4cd2f4000f1e97979fdcf535328eb600c60b309f8516543497327216c7e04aaa61793f4f2f4dc20624fe45b6f80b68b9b3abdf89eaa3163a9e4a0b080233ce1",
+	"descriptionMd5": "1a9b52065b7be8847f2f94702dda87cc"
+},{
+	"raw": {},
+	"required": [
+		"Filename",
+		"Size"
+	],
+	"package": "pipewire-pulse",
+	"source": "pipewire",
 	"version": "1.6.2-1ubuntu1",
 	"section": "video",
 	"priority": "optional",
