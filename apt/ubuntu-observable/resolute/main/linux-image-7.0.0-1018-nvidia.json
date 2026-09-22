@@ -1,0 +1,42 @@
+[{
+	"raw": {},
+	"required": [
+		"Filename",
+		"Size"
+	],
+	"package": "linux-image-7.0.0-1018-nvidia",
+	"source": "linux-signed-nvidia",
+	"version": "7.0.0-1018.18",
+	"section": "kernel",
+	"priority": "optional",
+	"architecture": "amd64",
+	"depends": [
+		"kmod",
+		"linux-base (>= 4.5ubuntu1~16.04.1)",
+		"linux-modules-7.0.0-1018-nvidia"
+	],
+	"recommends": [
+		"grub-pc | grub-efi-amd64 | grub-efi-ia32 | grub | lilo",
+		"dracut | linux-initramfs-tool"
+	],
+	"suggests": [
+		"bpftool",
+		"linux-perf",
+		"linux-nvidia-tools",
+		"linux-headers-7.0.0-1018-nvidia"
+	],
+	"conflicts": [
+		"linux-image-unsigned-7.0.0-1018-nvidia"
+	],
+	"installedSize": 16929,
+	"maintainer": "Canonical Kernel Team <kernel-team@lists.ubuntu.com>",
+	"description": "Signed kernel image nvidia",
+	"builtUsing": "linux-nvidia (= 7.0.0-1018.18)",
+	"filename": "pool/main/l/linux-signed-nvidia/linux-image-7.0.0-1018-nvidia_7.0.0-1018.18_amd64.deb",
+	"size": 17034350,
+	"md5": "e1e68f2a4879a186f558bde74ac5c8bf",
+	"sha1": "874f670a2622f7b37ec1b70e56cc376d5acde6e6",
+	"sha256": "02a8d4ee6616ed1cb2dd05ecd1d893295ccbd767193c18a3bddb39515e9fd615",
+	"sha512": "aea13caf93835202e7ad1ff90fb97740c4b21687b0ce352f5857dd8c330c3d2921cb3d15ab4554edc3563bc38559626a60b458a83e19c9aff55ef7acbbd27d1a",
+	"descriptionMd5": "b8342c2badb6b6cc1d4c822e4f5bad97"
+}]
