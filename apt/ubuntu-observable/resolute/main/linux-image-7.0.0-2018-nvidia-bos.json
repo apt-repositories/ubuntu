@@ -1,0 +1,41 @@
+[{
+	"raw": {},
+	"required": [
+		"Filename",
+		"Size"
+	],
+	"package": "linux-image-7.0.0-2018-nvidia-bos",
+	"source": "linux-signed-nvidia-bos",
+	"version": "7.0.0-2018.18",
+	"section": "kernel",
+	"priority": "optional",
+	"architecture": "amd64",
+	"depends": [
+		"kmod",
+		"linux-base (>= 4.5ubuntu1~16.04.1)",
+		"linux-modules-7.0.0-2018-nvidia-bos"
+	],
+	"recommends": [
+		"grub-pc | grub-efi-amd64 | grub-efi-ia32 | grub | lilo",
+		"initramfs-tools | linux-initramfs-tool"
+	],
+	"suggests": [
+		"bpftool",
+		"linux-nvidia-bos-tools",
+		"linux-headers-7.0.0-2018-nvidia-bos"
+	],
+	"conflicts": [
+		"linux-image-unsigned-7.0.0-2018-nvidia-bos"
+	],
+	"installedSize": 17081,
+	"maintainer": "Canonical Kernel Team <kernel-team@lists.ubuntu.com>",
+	"description": "Signed kernel image nvidia-bos",
+	"builtUsing": "linux-nvidia-bos (= 7.0.0-2018.18)",
+	"filename": "pool/main/l/linux-signed-nvidia-bos/linux-image-7.0.0-2018-nvidia-bos_7.0.0-2018.18_amd64.deb",
+	"size": 17188286,
+	"md5": "8d765dc396294ed5a61720cd91348bf8",
+	"sha1": "9d57fb9a9a80614204b27b78cec29e6cbf863dc0",
+	"sha256": "df5076961b3ef8e6acb508827841db5734ffd4f0b6129a8efdeea3a728b17e83",
+	"sha512": "a50fb38717eedd9b99d5958dd4cdbe2dc11651f860928b98152c6a959c2ef78253779f980e0a0925fda315cd60078d3c4ae1773fe3009e1ef3d8f7e8325eab8c",
+	"descriptionMd5": "42da4728bb75f96f8f0f085dc203623e"
+}]
