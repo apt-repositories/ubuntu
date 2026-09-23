@@ -5,6 +5,50 @@
 		"Size"
 	],
 	"package": "sudo",
+	"version": "1.9.17p2-1ubuntu3.1",
+	"section": "admin",
+	"priority": "important",
+	"architecture": "amd64",
+	"depends": [
+		"libpam-modules",
+		"libapparmor1 (>= 2.7.0~beta1+bzr1772)",
+		"libaudit1 (>= 1:2.2.1)",
+		"libc6 (>= 2.42)",
+		"libpam0g (>= 0.99.7.1)",
+		"libselinux1 (>= 3.1~)",
+		"libssl3t64 (>= 3.0.0)",
+		"zlib1g (>= 1:1.2.0.2)"
+	],
+	"preDepends": [
+		"sudo-common"
+	],
+	"recommends": [
+		"sudo-rs"
+	],
+	"replaces": [
+		"sudo-ldap"
+	],
+	"conflicts": [
+		"sudo-ldap"
+	],
+	"installedSize": 3472,
+	"maintainer": "Ubuntu Developers <ubuntu-devel-discuss@lists.ubuntu.com>",
+	"description": "Provide limited super user privileges to specific users",
+	"homepage": "https://www.sudo.ws/",
+	"filename": "pool/main/s/sudo/sudo_1.9.17p2-1ubuntu3.1_amd64.deb",
+	"size": 954828,
+	"md5": "99c15f76bcfabfaf6f1eeebb11bea05e",
+	"sha1": "dcfab1c21e255e3e90033122a993086f93623fa7",
+	"sha256": "b064b79716eeb6147f4b303eb5361caae2190244898b2db9035226bba297a8f8",
+	"sha512": "7c7d957235034e0b60e9b83e511a925966fbb52b0f758ea68538cecfecf37e57f75bc4415ebba6202ac744cf8aa257e6be7a225803fa14af58cb7e2c1625484d",
+	"descriptionMd5": "b73cb2c4db765dbce361c075c621f47b"
+},{
+	"raw": {},
+	"required": [
+		"Filename",
+		"Size"
+	],
+	"package": "sudo",
 	"version": "1.9.17p2-1ubuntu3",
 	"section": "admin",
 	"priority": "important",

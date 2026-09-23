@@ -42,6 +42,42 @@
 	],
 	"package": "linux-image-generic",
 	"source": "linux-meta",
+	"version": "7.0.0-34.34",
+	"section": "kernel",
+	"priority": "optional",
+	"architecture": "amd64",
+	"depends": [
+		"linux-image-7.0.0-34-generic",
+		"linux-modules-7.0.0-34-generic",
+		"linux-main-modules-zfs-7.0.0-34-generic",
+		"linux-firmware",
+		"intel-microcode",
+		"amd64-microcode"
+	],
+	"recommends": [
+		"thermald"
+	],
+	"conflicts": [
+		"linux-image-fb-generic"
+	],
+	"installedSize": 13,
+	"maintainer": "Ubuntu Kernel Team <kernel-team@lists.ubuntu.com>",
+	"description": "Generic Linux kernel image",
+	"filename": "pool/main/l/linux-meta/linux-image-generic_7.0.0-34.34_amd64.deb",
+	"size": 2476,
+	"md5": "58218fc7773d7d261f1e17769cb321e8",
+	"sha1": "fa124c87c7c25d516b8b4b8d29332a702f3c6167",
+	"sha256": "56fdd112b08b2193d74ed965ba505c184e52e3c560e5385b46acc5d96793e78e",
+	"sha512": "7091f1b972a5afaeb3f5f03eef4d0a33864cc4438216d1132c9a18ec260b7aeb6c94a1b1abe1ff32ea51297fad23ee6534de7db1921552ca7fb385b1ed0bad67",
+	"descriptionMd5": "6d632579c673704f44b290b16e7dbfd1"
+},{
+	"raw": {},
+	"required": [
+		"Filename",
+		"Size"
+	],
+	"package": "linux-image-generic",
+	"source": "linux-meta",
 	"version": "7.0.0-14.14",
 	"section": "kernel",
 	"priority": "optional",
