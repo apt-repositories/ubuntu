@@ -38,6 +38,38 @@
 	],
 	"package": "libvirt-daemon-system-systemd",
 	"source": "libvirt",
+	"version": "10.0.0-2ubuntu8.17",
+	"section": "admin",
+	"priority": "optional",
+	"architecture": "all",
+	"depends": [
+		"libvirt0 (<< 10.0.0-2ubuntu8.17.1~)",
+		"libvirt0 (>= 10.0.0-2ubuntu8.17)",
+		"systemd-container",
+		"systemd-sysv"
+	],
+	"conflicts": [
+		"libvirt-daemon-system-sysv"
+	],
+	"installedSize": 13,
+	"maintainer": "Ubuntu Developers <ubuntu-devel-discuss@lists.ubuntu.com>",
+	"description": "Libvirt daemon configuration files (systemd)",
+	"homepage": "https://libvirt.org/",
+	"filename": "pool/main/libv/libvirt/libvirt-daemon-system-systemd_10.0.0-2ubuntu8.17_all.deb",
+	"size": 1372,
+	"md5": "d017da5777d49e6e33208ab3e974ce32",
+	"sha1": "340858e729e38c11645f7c48c0237bc7eae6592b",
+	"sha256": "9338de40c6f85dfd64e3fe07a007eb4e29c659b7ebfcbed0440acc7af3e4bec6",
+	"sha512": "6b84138bc378892d69658cb2257db3730d35d69cc6dd1a1f91d8e279165d5f7eee713da325e7c2c4184a4fc8e296cb3f189476500855f7f41b2e440546843cad",
+	"descriptionMd5": "39feb9843e742a2624599f333f4287ae"
+},{
+	"raw": {},
+	"required": [
+		"Filename",
+		"Size"
+	],
+	"package": "libvirt-daemon-system-systemd",
+	"source": "libvirt",
 	"version": "10.0.0-2ubuntu8",
 	"section": "admin",
 	"priority": "optional",

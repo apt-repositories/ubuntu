@@ -49,6 +49,49 @@
 	],
 	"package": "libvirt-daemon-driver-network",
 	"source": "libvirt",
+	"version": "12.0.0-1ubuntu5.4",
+	"section": "admin",
+	"priority": "optional",
+	"architecture": "amd64",
+	"depends": [
+		"dnsmasq-base",
+		"iptables | nftables",
+		"libvirt-common (= 12.0.0-1ubuntu5.4)",
+		"libvirt-daemon (= 12.0.0-1ubuntu5.4)",
+		"libvirt0 (= 12.0.0-1ubuntu5.4)",
+		"libc6 (>= 2.38)",
+		"libgcc-s1 (>= 3.3.1)",
+		"libglib2.0-0t64 (>= 2.26.0)",
+		"ubuntu-virt"
+	],
+	"replaces": [
+		"libvirt-daemon (<< 10.6.0-2~)",
+		"libvirt-daemon-driver-network-hwe",
+		"libvirt-daemon-system (<< 10.6.0-2~)"
+	],
+	"breaks": [
+		"libvirt-daemon (<< 10.6.0-2~)",
+		"libvirt-daemon-system (<< 10.6.0-2~)"
+	],
+	"installedSize": 204,
+	"maintainer": "Ubuntu Developers <ubuntu-devel-discuss@lists.ubuntu.com>",
+	"description": "virtualization daemon - network driver",
+	"homepage": "https://libvirt.org/formatnetwork.html",
+	"filename": "pool/main/libv/libvirt/libvirt-daemon-driver-network_12.0.0-1ubuntu5.4_amd64.deb",
+	"size": 61932,
+	"md5": "9f870d85d57c59c74d14ac17355e07de",
+	"sha1": "b8245ba87757616c8f7a69d869c97dadca7fcaf5",
+	"sha256": "835d88dad3d03818bab1db8df350d1aa63e350be11392927b0e28cef90483316",
+	"sha512": "60e2a3b7c1463a23b261d1b841eeeb3c8e54a67bfe36de1327278b8801971af182429748b86211fd6b68addf65c56a416e3dc9e6772ea5f559f79d99d97061e2",
+	"descriptionMd5": "8f63c17d339e7dc70326bc5879a130df"
+},{
+	"raw": {},
+	"required": [
+		"Filename",
+		"Size"
+	],
+	"package": "libvirt-daemon-driver-network",
+	"source": "libvirt",
 	"version": "12.0.0-1ubuntu5",
 	"section": "admin",
 	"priority": "optional",

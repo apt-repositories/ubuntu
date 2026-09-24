@@ -45,6 +45,45 @@
 	],
 	"package": "libvirt-daemon-config-nwfilter",
 	"source": "libvirt",
+	"version": "12.0.0-1ubuntu5.4",
+	"section": "admin",
+	"priority": "optional",
+	"architecture": "all",
+	"depends": [
+		"libvirt-common (<< 12.0.0-1ubuntu5.4.1~)",
+		"libvirt-common (>= 12.0.0-1ubuntu5.4)",
+		"libvirt-daemon-driver-nwfilter (<< 12.0.0-1ubuntu5.4.1~)",
+		"libvirt-daemon-driver-nwfilter (>= 12.0.0-1ubuntu5.4)",
+		"libvirt0 (<< 12.0.0-1ubuntu5.4.1~)",
+		"libvirt0 (>= 12.0.0-1ubuntu5.4)",
+		"ubuntu-virt"
+	],
+	"replaces": [
+		"libvirt-daemon-config-nwfilter-hwe",
+		"libvirt-daemon-system (<< 6.9.0-2~)"
+	],
+	"breaks": [
+		"libvirt-daemon-system (<< 6.9.0-2~)"
+	],
+	"installedSize": 45,
+	"maintainer": "Ubuntu Developers <ubuntu-devel-discuss@lists.ubuntu.com>",
+	"description": "virtualization daemon - configuration files (default network filters)",
+	"homepage": "https://libvirt.org/",
+	"filename": "pool/main/libv/libvirt/libvirt-daemon-config-nwfilter_12.0.0-1ubuntu5.4_all.deb",
+	"size": 5654,
+	"md5": "2131895eb1b1b0a99856cc5af61ae9be",
+	"sha1": "02b1fd1919e854aabf4a2cca02762fec2998038d",
+	"sha256": "3e65be63138d56d63b5339f96e8d6c8597a5be0d5c38fae731843ebd02199412",
+	"sha512": "655f95aa346315e6967af2981a2bf40df05883b5cc7d7d0dea50ffff0da3898cf2ae5f42f262e8af508d37d2661c59a81951f7de0a4dd64bf2b29f639b013ec6",
+	"descriptionMd5": "e1fb148ff3e72823568d535b573529c1"
+},{
+	"raw": {},
+	"required": [
+		"Filename",
+		"Size"
+	],
+	"package": "libvirt-daemon-config-nwfilter",
+	"source": "libvirt",
 	"version": "12.0.0-1ubuntu5",
 	"section": "admin",
 	"priority": "optional",

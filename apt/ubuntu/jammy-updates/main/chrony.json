@@ -1,0 +1,52 @@
+{
+	"raw": {},
+	"required": [
+		"Filename",
+		"Size"
+	],
+	"package": "chrony",
+	"version": "4.2-2ubuntu2.1",
+	"section": "admin",
+	"priority": "extra",
+	"architecture": "amd64",
+	"depends": [
+		"adduser",
+		"iproute2",
+		"libcap2-bin (>= 1:2.32-1)",
+		"tzdata",
+		"ucf",
+		"libc6 (>= 2.34)",
+		"libcap2 (>= 1:2.10)",
+		"libedit2 (>= 2.11-20080614-0)",
+		"libgnutls30 (>= 3.7.2)",
+		"libnettle8",
+		"libseccomp2 (>= 2.4.3-1~)"
+	],
+	"preDepends": [
+		"init-system-helpers (>= 1.54~)"
+	],
+	"suggests": [
+		"dnsutils",
+		"networkd-dispatcher"
+	],
+	"replaces": [
+		"time-daemon"
+	],
+	"breaks": [
+		"network-manager (<< 1.20.0-1~)"
+	],
+	"conflicts": [
+		"time-daemon"
+	],
+	"installedSize": 621,
+	"maintainer": "Ubuntu Developers <ubuntu-devel-discuss@lists.ubuntu.com>",
+	"description": "Versatile implementation of the Network Time Protocol",
+	"homepage": "https://chrony.tuxfamily.org",
+	"filename": "pool/main/c/chrony/chrony_4.2-2ubuntu2.1_amd64.deb",
+	"size": 289372,
+	"md5": "df8f59fb5f1db03dbfb81e9ee763949f",
+	"sha1": "b3215bb9709a0dc906ec09f117eda1351efca21b",
+	"sha256": "5b23229aca5c5c4fbb1efe2d4fc9b9438f4d4143b740bb14b885bb2d8f9adfe9",
+	"sha512": "2104c0cf2d94cb9462b67f2276fac14756664f76fb72b44696030d0c7462a1ce11706d8c0c9c79150b26ff1160ef01ce4cf734111767242a421ec2970dba93e3",
+	"descriptionMd5": "f0bbbeab28dbc2e9fe201d3d79df8c96"
+}
