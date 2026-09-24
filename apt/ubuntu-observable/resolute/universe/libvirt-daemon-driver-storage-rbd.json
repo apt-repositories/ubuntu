@@ -44,6 +44,44 @@
 	],
 	"package": "libvirt-daemon-driver-storage-rbd",
 	"source": "libvirt",
+	"version": "12.0.0-1ubuntu5.4",
+	"section": "universe/admin",
+	"priority": "optional",
+	"architecture": "amd64",
+	"depends": [
+		"libvirt-common (= 12.0.0-1ubuntu5.4)",
+		"libvirt-daemon (= 12.0.0-1ubuntu5.4)",
+		"libvirt-daemon-driver-storage (= 12.0.0-1ubuntu5.4)",
+		"libvirt0 (= 12.0.0-1ubuntu5.4)",
+		"libc6 (>= 2.4)",
+		"libgcc-s1 (>= 3.3.1)",
+		"libglib2.0-0t64 (>= 2.24.0)",
+		"librados2 (>= 14.2.0)",
+		"librbd1 (>= 14.2.0)",
+		"ubuntu-virt"
+	],
+	"replaces": [
+		"libvirt-daemon-driver-storage-rbd-hwe"
+	],
+	"installedSize": 57,
+	"maintainer": "Ubuntu Developers <ubuntu-devel-discuss@lists.ubuntu.com>",
+	"description": "virtualization daemon - RBD/RADOS/Ceph storage driver",
+	"homepage": "https://libvirt.org/storage.html#rbd-pool",
+	"filename": "pool/universe/libv/libvirt/libvirt-daemon-driver-storage-rbd_12.0.0-1ubuntu5.4_amd64.deb",
+	"size": 15904,
+	"md5": "ea023a09c4a6f4580139bab9c915f69e",
+	"sha1": "3ae220bba6557826c7f1964089b41b6e01e1cf34",
+	"sha256": "c4af2adfaab29098e79f00e65ace64f9f940e95eb09fb96fb4747d44c1caa2a7",
+	"sha512": "3ca48b640aacc0de79bc43bd0e3e28e869c0fb42aaa9376ab15bcc2b1590f552e53914fd6f229ad0917e73bff6a8193496cea656b2cbb34d11609bb0b16ce144",
+	"descriptionMd5": "9824e3e02521a6e0c03d94b6fd75e3f0"
+},{
+	"raw": {},
+	"required": [
+		"Filename",
+		"Size"
+	],
+	"package": "libvirt-daemon-driver-storage-rbd",
+	"source": "libvirt",
 	"version": "12.0.0-1ubuntu5",
 	"section": "universe/admin",
 	"priority": "optional",

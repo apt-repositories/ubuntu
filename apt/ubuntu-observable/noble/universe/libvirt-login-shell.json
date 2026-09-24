@@ -43,6 +43,43 @@
 	],
 	"package": "libvirt-login-shell",
 	"source": "libvirt",
+	"version": "10.0.0-2ubuntu8.17",
+	"section": "universe/admin",
+	"priority": "optional",
+	"architecture": "amd64",
+	"depends": [
+		"libvirt-clients (= 10.0.0-2ubuntu8.17)",
+		"libvirt-daemon-driver-lxc (= 10.0.0-2ubuntu8.17)",
+		"libvirt0 (= 10.0.0-2ubuntu8.17)",
+		"libc6 (>= 2.34)",
+		"libgcc-s1 (>= 3.3.1)",
+		"libglib2.0-0t64 (>= 2.12.0)"
+	],
+	"replaces": [
+		"libvirt-clients (<< 6.9.0-2~)"
+	],
+	"breaks": [
+		"libvirt-clients (<< 6.9.0-2~)"
+	],
+	"installedSize": 62,
+	"maintainer": "Ubuntu Developers <ubuntu-devel-discuss@lists.ubuntu.com>",
+	"description": "Isolate user sessions using LXC containers",
+	"homepage": "https://libvirt.org/",
+	"filename": "pool/universe/libv/libvirt/libvirt-login-shell_10.0.0-2ubuntu8.17_amd64.deb",
+	"size": 12998,
+	"md5": "bb537df9f194778550879f6c2d4926f3",
+	"sha1": "04f5ef6848f9edd4b4e3d04704a65c817ab597a6",
+	"sha256": "0d977c7eff91e0f5d668892ceecffcddea6cd747012e9c44982560de6211a5ee",
+	"sha512": "b7d7e121e5c3558e8e557caa9892362d94ef63991f34d07a570f9a1153d794559aba7771009761c05fd9a2fac1f07d8dae8616d13cab9570410916afee2bcf51",
+	"descriptionMd5": "b5e830e5771db93ed6a4c1c4f7927c4f"
+},{
+	"raw": {},
+	"required": [
+		"Filename",
+		"Size"
+	],
+	"package": "libvirt-login-shell",
+	"source": "libvirt",
 	"version": "10.0.0-2ubuntu8",
 	"section": "universe/admin",
 	"priority": "optional",

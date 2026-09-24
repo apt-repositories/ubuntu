@@ -51,6 +51,51 @@
 	],
 	"package": "libvirt-daemon-driver-qemu",
 	"source": "libvirt",
+	"version": "10.0.0-2ubuntu8.17",
+	"section": "admin",
+	"priority": "optional",
+	"architecture": "amd64",
+	"depends": [
+		"libvirt0 (= 10.0.0-2ubuntu8.17)",
+		"libc6 (>= 2.38)",
+		"libgcc-s1 (>= 3.3.1)",
+		"libglib2.0-0t64 (>= 2.44.0)",
+		"libgnutls30t64 (>= 3.7.0)",
+		"libselinux1 (>= 3.1~)",
+		"libxml2 (>= 2.7.4)"
+	],
+	"recommends": [
+		"swtpm",
+		"swtpm-tools"
+	],
+	"suggests": [
+		"passt"
+	],
+	"replaces": [
+		"libvirt-clients (<< 6.9.0-2~)"
+	],
+	"breaks": [
+		"libvirt-clients (<< 6.9.0-2~)"
+	],
+	"installedSize": 2083,
+	"maintainer": "Ubuntu Developers <ubuntu-devel-discuss@lists.ubuntu.com>",
+	"description": "Virtualization daemon QEMU connection driver",
+	"homepage": "https://libvirt.org/",
+	"filename": "pool/main/libv/libvirt/libvirt-daemon-driver-qemu_10.0.0-2ubuntu8.17_amd64.deb",
+	"size": 740512,
+	"md5": "037653a6b5feffac4bb3cf25e5cd39b9",
+	"sha1": "f2fbcf2809ef0507ed2dc6175a63cc0fc0e54359",
+	"sha256": "e2197bfc8832f56ad7227f645c2cbba05e47ee1f2eab4feda59dc926ab68789d",
+	"sha512": "ba6a74b0df594ae83365663f8e9a1272eedee25dd6916a46f18bf590cc701cec4fdf961f77d9fb45832f643baba2ea4660a414c1fb4683b6f93b120f68687dc0",
+	"descriptionMd5": "ccb5ee8b1a53290fdedfd923601bb4e0"
+},{
+	"raw": {},
+	"required": [
+		"Filename",
+		"Size"
+	],
+	"package": "libvirt-daemon-driver-qemu",
+	"source": "libvirt",
 	"version": "10.0.0-2ubuntu8",
 	"section": "admin",
 	"priority": "optional",
