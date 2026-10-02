@@ -34,4 +34,40 @@
 	"sha256": "26eee4ae9d043cfbe37b4c434ffa4d0fec251031d0ce61888db779eebaca914a",
 	"sha512": "76737644bd18b746bff6de1aed8927b5326d1cc7d810e54fd1b57e51039af81dd57eec0dd6a7fabe3db6ee46f79d81ec03cde924c11e289dc68667a6255d2a8a",
 	"descriptionMd5": "3dde93b5bdac4bce49c7cb3c374d0dd5"
+},{
+	"raw": {},
+	"required": [
+		"Filename",
+		"Size"
+	],
+	"package": "linux-image-oem-7.0",
+	"source": "linux-meta-oem-7.0",
+	"version": "7.0.0-1015.15",
+	"section": "kernel",
+	"priority": "optional",
+	"architecture": "amd64",
+	"depends": [
+		"linux-image-7.0.0-1015-oem",
+		"linux-modules-7.0.0-1015-oem",
+		"linux-main-modules-zfs-7.0.0-1015-oem",
+		"linux-firmware",
+		"intel-microcode",
+		"amd64-microcode"
+	],
+	"recommends": [
+		"thermald"
+	],
+	"conflicts": [
+		"linux-image-fb-oem-7.0"
+	],
+	"installedSize": 13,
+	"maintainer": "Ubuntu Kernel Team <kernel-team@lists.ubuntu.com>",
+	"description": "OEM Linux kernel image",
+	"filename": "pool/main/l/linux-meta-oem-7.0/linux-image-oem-7.0_7.0.0-1015.15_amd64.deb",
+	"size": 2410,
+	"md5": "610c40b37ba41cdaa03b02029b062279",
+	"sha1": "9d6b358779e053256dc8c7baf53fdac72f848830",
+	"sha256": "f4955b38c3f5a0e99a64f29de8e04b1266f6301cb20c0cf6e3dc7c766517138d",
+	"sha512": "696334366bdb9841ccbec1fa2cd0497469b62432fe0c82c2e1895028370668864f8cb5c2a1606e93e693ebb20f952c64951db8232e1791b0ae318ab327276391",
+	"descriptionMd5": "3dde93b5bdac4bce49c7cb3c374d0dd5"
 }]
