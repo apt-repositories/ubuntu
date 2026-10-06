@@ -5,6 +5,51 @@
 		"Size"
 	],
 	"package": "rabbitmq-server",
+	"version": "4.0.5-10ubuntu5.1",
+	"section": "net",
+	"priority": "extra",
+	"architecture": "all",
+	"depends": [
+		"adduser",
+		"erlang-base | erlang-base-hipe",
+		"erlang-crypto (>= 1:27.0)",
+		"erlang-eldap (>= 1:27.0)",
+		"erlang-inets (>= 1:27.0)",
+		"erlang-mnesia (>= 1:27.0)",
+		"erlang-os-mon (>= 1:27.0)",
+		"erlang-parsetools (>= 1:27.0)",
+		"erlang-public-key (>= 1:27.0)",
+		"erlang-runtime-tools (>= 1:27.0)",
+		"erlang-ssl (>= 1:27.0)",
+		"erlang-syntax-tools (>= 1:27.0)",
+		"erlang-tools (>= 1:27.0)",
+		"erlang-xmerl (>= 1:27.0)",
+		"iproute2",
+		"openssl",
+		"socat",
+		"python3:any"
+	],
+	"recommends": [
+		"logrotate"
+	],
+	"installedSize": 25048,
+	"maintainer": "Ubuntu Developers <ubuntu-devel-discuss@lists.ubuntu.com>",
+	"description": "AMQP server written in Erlang",
+	"homepage": "https://www.rabbitmq.com/",
+	"filename": "pool/main/r/rabbitmq-server/rabbitmq-server_4.0.5-10ubuntu5.1_all.deb",
+	"size": 16806504,
+	"md5": "b2ae59b81aae4c0ca142a36e3bb7918f",
+	"sha1": "192e32133ab6180181283fc7ebe68013cc5f1045",
+	"sha256": "bac4d5d22bd71ecebfe4493b2fde1f2dafd70322d94b246f56e57070067f165a",
+	"sha512": "e720832006aec960f126412b5250d2dc96c694dc59d1973bd015fb96631c9402972d1d011f82a764f7f112ab60d85ba5f44b15e805c6fb718c9c047b3d2cad8f",
+	"descriptionMd5": "78e91bfb996ee4ae5d16c93298f5f6e8"
+},{
+	"raw": {},
+	"required": [
+		"Filename",
+		"Size"
+	],
+	"package": "rabbitmq-server",
 	"version": "4.0.5-10ubuntu5",
 	"section": "net",
 	"priority": "extra",

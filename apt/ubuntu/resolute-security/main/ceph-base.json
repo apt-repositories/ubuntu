@@ -1,0 +1,58 @@
+{
+	"raw": {},
+	"required": [
+		"Filename",
+		"Size"
+	],
+	"package": "ceph-base",
+	"source": "ceph",
+	"version": "20.2.0-0ubuntu2.1",
+	"section": "admin",
+	"priority": "optional",
+	"architecture": "amd64",
+	"depends": [
+		"binutils",
+		"ceph-common (= 20.2.0-0ubuntu2.1)",
+		"cryptsetup-bin | cryptsetup",
+		"gdisk",
+		"hdparm | sdparm",
+		"parted",
+		"uuid-runtime",
+		"xfsprogs",
+		"python3:any",
+		"libaio1t64 (>= 0.3.93)",
+		"libc6 (>= 2.38)",
+		"libcap2 (>= 1:2.10)",
+		"libgcc-s1 (>= 3.4)",
+		"libgoogle-perftools4t64 (>= 2.18.1)",
+		"liblz4-1 (>= 0.0~r130)",
+		"libpmem1 (>= 1.4)",
+		"librados2 (>= 20.2.0-0ubuntu2.1)",
+		"libsnappy1v5 (>= 1.2.2)",
+		"libstdc++6 (>= 14)",
+		"zlib1g (>= 1:1.2.0)"
+	],
+	"recommends": [
+		"ceph-mds (= 20.2.0-0ubuntu2.1)",
+		"chrony | time-daemon | ntp",
+		"librados2 (= 20.2.0-0ubuntu2.1)",
+		"librbd1 (= 20.2.0-0ubuntu2.1)",
+		"nvme-cli",
+		"smartmontools (>= 7.0)"
+	],
+	"suggests": [
+		"btrfs-tools",
+		"logrotate"
+	],
+	"installedSize": 26429,
+	"maintainer": "Ubuntu Developers <ubuntu-devel-discuss@lists.ubuntu.com>",
+	"description": "common ceph daemon libraries and management tools",
+	"homepage": "http://ceph.com/",
+	"filename": "pool/main/c/ceph/ceph-base_20.2.0-0ubuntu2.1_amd64.deb",
+	"size": 5850102,
+	"md5": "86165dc0d67bd4b04b6c143169f8db46",
+	"sha1": "1dcf21cc9b649e992e79947b0b984c2af006331d",
+	"sha256": "bb575c2376546f33a51844ebf7b32ca94bff9c77bfafdb8dc4d727ef1b8ccc5f",
+	"sha512": "436c28a1a47b70dfcef4b0cd678057930940e60a09d8c58ac4f857eae69b2aa394ce261195c3ffae56e10906484baf7c76cd5a2a3d07bfb243695e99e895238b",
+	"descriptionMd5": "38862c56180e1d3d93a838a6386f82bc"
+}
