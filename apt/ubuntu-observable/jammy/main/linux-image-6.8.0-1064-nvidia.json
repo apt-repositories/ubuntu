@@ -1,0 +1,43 @@
+[{
+	"raw": {},
+	"required": [
+		"Filename",
+		"Size"
+	],
+	"package": "linux-image-6.8.0-1064-nvidia",
+	"source": "linux-signed-nvidia-6.8",
+	"version": "6.8.0-1064.67~22.04.1",
+	"section": "kernel",
+	"priority": "optional",
+	"architecture": "amd64",
+	"depends": [
+		"kmod",
+		"linux-base (>= 4.5ubuntu1~16.04.1)",
+		"linux-modules-6.8.0-1064-nvidia"
+	],
+	"recommends": [
+		"grub-pc | grub-efi-amd64 | grub-efi-ia32 | grub | lilo",
+		"initramfs-tools | linux-initramfs-tool"
+	],
+	"suggests": [
+		"fdutils",
+		"linux-doc | linux-nvidia-6.8-source-6.8.0",
+		"linux-nvidia-6.8-tools",
+		"linux-headers-6.8.0-1064-nvidia",
+		"linux-modules-extra-6.8.0-1064-nvidia"
+	],
+	"conflicts": [
+		"linux-image-unsigned-6.8.0-1064-nvidia"
+	],
+	"installedSize": 14671,
+	"maintainer": "Canonical Kernel Team <kernel-team@lists.ubuntu.com>",
+	"description": "Signed kernel image nvidia",
+	"builtUsing": "linux-nvidia-6.8 (= 6.8.0-1064.67~22.04.1)",
+	"filename": "pool/main/l/linux-signed-nvidia-6.8/linux-image-6.8.0-1064-nvidia_6.8.0-1064.67~22.04.1_amd64.deb",
+	"size": 14754698,
+	"md5": "1e1be5e33f6f7b55964daefc1a1388a8",
+	"sha1": "f14df539403baf71d6f9a35dfa84b5846bb533dc",
+	"sha256": "d78dbb21903496661301b24214d00b5c06e3164001ce01af88713cbbf39e391c",
+	"sha512": "1494fd3c68f4f801c298c746a95a5003c9b0ed8dc3dcafdbeb5f13a9010f80d20e9632d7050b81de2c3e41e5e4a4fdca0424b88f3bca086ea1329da17b2eaf1a",
+	"descriptionMd5": "b8342c2badb6b6cc1d4c822e4f5bad97"
+}]

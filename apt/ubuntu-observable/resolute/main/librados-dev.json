@@ -6,6 +6,44 @@
 	],
 	"package": "librados-dev",
 	"source": "ceph",
+	"version": "20.2.0-0ubuntu2.1",
+	"section": "libdevel",
+	"priority": "optional",
+	"architecture": "amd64",
+	"depends": [
+		"librados2 (= 20.2.0-0ubuntu2.1)",
+		"libboost-program-options1.90.0 (>= 1.90.0)",
+		"libc6 (>= 2.34)",
+		"libgcc-s1 (>= 3.0)",
+		"libstdc++6 (>= 13.1)"
+	],
+	"replaces": [
+		"librados1-dev",
+		"librados2-dev"
+	],
+	"conflicts": [
+		"librados1-dev",
+		"librados2-dev"
+	],
+	"installedSize": 248,
+	"maintainer": "Ubuntu Developers <ubuntu-devel-discuss@lists.ubuntu.com>",
+	"description": "RADOS distributed object store client library (development files)",
+	"homepage": "http://ceph.com/",
+	"filename": "pool/main/c/ceph/librados-dev_20.2.0-0ubuntu2.1_amd64.deb",
+	"size": 47642,
+	"md5": "844a8514d3ff611fd2f9f292db79612c",
+	"sha1": "e0b169b29c2ce3a780cecced26b0a8d634fc3d6f",
+	"sha256": "fc91940f1769a27925ab63e6369f97f92bf12a9e5ba6c3fc99e8742c161cacec",
+	"sha512": "afe57bd19adad44ddd68473a0655ad1ff75318893a2848aeb7c374bbeacd648eba78db40b801e0afc4088c7c814f9407c86e4e8cc3faffa44ce7540109afd48f",
+	"descriptionMd5": "45a1795729f9041b2c4d34b965fbaee2"
+},{
+	"raw": {},
+	"required": [
+		"Filename",
+		"Size"
+	],
+	"package": "librados-dev",
+	"source": "ceph",
 	"version": "20.2.0-0ubuntu2",
 	"section": "libdevel",
 	"priority": "optional",

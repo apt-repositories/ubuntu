@@ -6,6 +6,69 @@
 	],
 	"package": "ceph-osd",
 	"source": "ceph",
+	"version": "20.2.0-0ubuntu2.1",
+	"section": "admin",
+	"priority": "optional",
+	"architecture": "amd64",
+	"depends": [
+		"ceph-base (= 20.2.0-0ubuntu2.1)",
+		"sudo",
+		"libaio1t64 (>= 0.3.93)",
+		"libblkid1 (>= 2.17.2)",
+		"libboost-iostreams1.90.0 (>= 1.90.0)",
+		"libboost-program-options1.90.0 (>= 1.90.0)",
+		"libboost-thread1.90.0 (>= 1.90.0)",
+		"libc6 (>= 2.43)",
+		"libcap2 (>= 1:2.10)",
+		"libfuse3-4 (>= 3.17.2)",
+		"libgcc-s1 (>= 3.4)",
+		"libgoogle-perftools4t64 (>= 2.18.1)",
+		"libibverbs1 (>= 1.1.6)",
+		"liblz4-1 (>= 0.0~r130)",
+		"libpmem1 (>= 1.4)",
+		"librados2 (>= 20.2.0-0ubuntu2.1)",
+		"librdmacm1t64 (>= 1.0.15)",
+		"libsnappy1v5 (>= 1.2.2)",
+		"libssl3t64 (>= 3.0.0)",
+		"libstdc++6 (>= 14)",
+		"libudev1 (>= 183)",
+		"zlib1g (>= 1:1.2.0)"
+	],
+	"preDepends": [
+		"ceph-common (= 20.2.0-0ubuntu2.1)"
+	],
+	"recommends": [
+		"ceph-volume (= 20.2.0-0ubuntu2.1)",
+		"nvme-cli",
+		"smartmontools"
+	],
+	"replaces": [
+		"ceph (<< 10.2.2-0ubuntu2~)",
+		"ceph-test (<< 12.2.8+dfsg1-1~)"
+	],
+	"breaks": [
+		"ceph (<< 10.2.2-0ubuntu2~)",
+		"ceph-test (<< 12.2.8+dfsg1-1~)"
+	],
+	"installedSize": 66997,
+	"maintainer": "Ubuntu Developers <ubuntu-devel-discuss@lists.ubuntu.com>",
+	"description": "OSD server for the ceph storage system",
+	"homepage": "http://ceph.com/",
+	"filename": "pool/main/c/ceph/ceph-osd_20.2.0-0ubuntu2.1_amd64.deb",
+	"size": 20731754,
+	"md5": "eb2e2b55e935408aca087130f1f3ab09",
+	"sha1": "34064af7e5d692420d4ac97bf9a5a6c5af234670",
+	"sha256": "feede810ddd99af21a77ac1117330c2e3e929f0fb8f032d20d2b446e1b724ae0",
+	"sha512": "02dd2d4ede239ae1719f81a32f65bdad893e7a712559d49454bde623037f168ce4fea8c37fa979f93dd5faf097e1dc3ec5304206460bfd64eb2ca1ec86285057",
+	"descriptionMd5": "fb08b00d788b505eb4bb23072221ce43"
+},{
+	"raw": {},
+	"required": [
+		"Filename",
+		"Size"
+	],
+	"package": "ceph-osd",
+	"source": "ceph",
 	"version": "20.2.0-0ubuntu2",
 	"section": "admin",
 	"priority": "optional",
