@@ -1,0 +1,41 @@
+{
+	"raw": {},
+	"required": [
+		"Filename",
+		"Size"
+	],
+	"package": "linux-image-7.0.0-1008-gke",
+	"source": "linux-signed-gke",
+	"version": "7.0.0-1008.9",
+	"section": "kernel",
+	"priority": "optional",
+	"architecture": "amd64",
+	"depends": [
+		"kmod",
+		"linux-base (>= 4.5ubuntu1~16.04.1)",
+		"linux-modules-7.0.0-1008-gke"
+	],
+	"recommends": [
+		"grub-pc | grub-efi-amd64 | grub-efi-ia32 | grub | lilo"
+	],
+	"suggests": [
+		"bpftool",
+		"linux-perf",
+		"linux-gke-tools",
+		"linux-headers-7.0.0-1008-gke"
+	],
+	"conflicts": [
+		"linux-image-unsigned-7.0.0-1008-gke"
+	],
+	"installedSize": 17015,
+	"maintainer": "Canonical Kernel Team <kernel-team@lists.ubuntu.com>",
+	"description": "Signed kernel image gke",
+	"builtUsing": "linux-gke (= 7.0.0-1008.9)",
+	"filename": "pool/main/l/linux-signed-gke/linux-image-7.0.0-1008-gke_7.0.0-1008.9_amd64.deb",
+	"size": 17123920,
+	"md5": "530bde8b302add83fe3e59b34a223601",
+	"sha1": "026c98fbacf4131bb71c91bf986b6be6d7da927b",
+	"sha256": "0cd6f0b602e686e1452617307d835a6de437e004553783f8555d3de808ab5c3e",
+	"sha512": "df71a5291dde5a9940f7e3104de4db7c4677e8bb2368a0ad8ed446b58258592841faeb9a12d8e0098a4f1b4bb0dbb75a78e0a6c5e88b17762095ef7fd116f2a7",
+	"descriptionMd5": "c0a4c57bf94318c2d05e1f183cd82742"
+}
