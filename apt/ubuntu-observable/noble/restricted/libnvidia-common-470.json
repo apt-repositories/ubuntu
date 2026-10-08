@@ -39,24 +39,31 @@
 	],
 	"package": "libnvidia-common-470",
 	"source": "nvidia-graphics-drivers-470",
-	"version": "470.256.02-0ubuntu0.24.04.5",
+	"version": "470.256.02-0ubuntu0.24.04.6",
 	"section": "restricted/libs",
 	"priority": "optional",
 	"architecture": "all",
-	"depends": [
-		"libnvidia-common-535"
+	"replaces": [
+		"libnvidia-common",
+		"libnvidia-gl-470 (<< 390.25-0ubuntu2~)"
 	],
-	"installedSize": 21,
+	"breaks": [
+		"libnvidia-gl-470 (<< 390.25-0ubuntu2~)"
+	],
+	"conflicts": [
+		"libnvidia-common"
+	],
+	"installedSize": 38,
 	"maintainer": "Ubuntu Developers <ubuntu-devel-discuss@lists.ubuntu.com>",
 	"description": "Shared files used by the NVIDIA libraries",
 	"homepage": "http://www.nvidia.com",
-	"filename": "pool/restricted/n/nvidia-graphics-drivers-470/libnvidia-common-470_470.256.02-0ubuntu0.24.04.5_all.deb",
-	"size": 8642,
-	"md5": "8da1fa07f66751c3d005f861334d1ce9",
-	"sha1": "6de0179cee3e9392eeeb191b0d24039bc64576c1",
-	"sha256": "7502d868df9b57daac5dbc0ac9a50120efd0778fb785cfff0a977bfebe31c6ab",
-	"sha512": "56aa69f3aa9ae4945c8dad8248bf3dd4a13bcfdd3be9c7eed4a7815e03ac966415427470b227ebe8ebdc2ffa3aaa3e6fc7a381144797979fd4102b9a722d5e89",
-	"descriptionMd5": "87d43be020629e9494da1895514aa724"
+	"filename": "pool/restricted/n/nvidia-graphics-drivers-470/libnvidia-common-470_470.256.02-0ubuntu0.24.04.6_all.deb",
+	"size": 12258,
+	"md5": "1d7d9cd8bf0f169a643230e9c88e2d8f",
+	"sha1": "625c199026234c0c2ba5b7be9d94ecadeb5c60a5",
+	"sha256": "1b93bbfab8569c832ac554fb79506443dcd87dcbae25664cc924df79400f702f",
+	"sha512": "917a76ef69829b2d20bd7b96bdbc5a0a06fa6c68042ff90fbe93b32e79786937c13a7ccd142a0c3bc3cacc96af6f55021956370f39a711763cb1fe2430eaa755",
+	"descriptionMd5": "259c61ba4e777f5a2f1e7ee2fd1957bc"
 },{
 	"raw": {},
 	"required": [

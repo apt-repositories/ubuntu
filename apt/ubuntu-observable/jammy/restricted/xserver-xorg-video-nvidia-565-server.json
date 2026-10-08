@@ -6,33 +6,22 @@
 	],
 	"package": "xserver-xorg-video-nvidia-565-server",
 	"source": "nvidia-graphics-drivers-565-server",
-	"version": "565.57.01-0ubuntu0.22.04.4",
+	"version": "565.57.01-0ubuntu0.22.04.5",
 	"section": "restricted/x11",
 	"priority": "optional",
 	"architecture": "amd64",
 	"depends": [
-		"libnvidia-cfg1-565-server (= 565.57.01-0ubuntu0.22.04.4)",
-		"xorg-video-abi-25 | xorg-video-abi-24 | xorg-video-abi-23 | xorg-video-abi-20 | xorg-video-abi-19 | xorg-video-abi-18 | xorg-video-abi-15 | xorg-video-abi-14 | xorg-video-abi-13 | xorg-video-abi-12 | xorg-video-abi-11 | xorg-video-abi-10 | xorg-video-abi-8 | xorg-video-abi-6.0",
-		"xserver-xorg-core (>= 2:1.19.6-1ubuntu2~)",
-		"libc6 (>= 2.7)"
+		"xserver-xorg-video-nvidia-580-server"
 	],
-	"replaces": [
-		"nvidia-driver-binary",
-		"xorg-driver-binary"
-	],
-	"conflicts": [
-		"nvidia-driver-binary",
-		"xorg-driver-binary"
-	],
-	"installedSize": 6616,
+	"installedSize": 32,
 	"maintainer": "Ubuntu Developers <ubuntu-devel-discuss@lists.ubuntu.com>",
-	"description": "NVIDIA binary Xorg driver",
+	"description": "NVIDIA binary Xorg driver (transitional package)",
 	"homepage": "http://www.nvidia.com",
-	"filename": "pool/restricted/n/nvidia-graphics-drivers-565-server/xserver-xorg-video-nvidia-565-server_565.57.01-0ubuntu0.22.04.4_amd64.deb",
-	"size": 1710088,
-	"md5": "5720b52f588aa98c22785874e482aaed",
-	"sha1": "9ef37051321755665e3f95dc30a86f8d9c23cafe",
-	"sha256": "0710703394a26a75f1834646b53694ccbd5393414a98cdb782a7da3ef4b4adad",
-	"sha512": "7934eeadd783a5a1fe6b2da92da3b36cf39e2327a887ff405aa0536158bb20bf4df4b7043c31d36568c7ba5870e94bd866d6c4bb75f0f28d596a93d2560ebf2d",
-	"descriptionMd5": "214fcbdc202eb7ab60dde374f73cae0b"
+	"filename": "pool/restricted/n/nvidia-graphics-drivers-565-server/xserver-xorg-video-nvidia-565-server_565.57.01-0ubuntu0.22.04.5_amd64.deb",
+	"size": 10420,
+	"md5": "8593330d04ce66545f997e3b89c8033f",
+	"sha1": "92a8800024d4070335d48cb73b39af0ef373bcac",
+	"sha256": "cb29ebe3bdcfaced3d8713d594d488df04519ddf0e16eadd7a70c4b2ff09bee5",
+	"sha512": "1558ebf1d184e0f4112492af12efaa02cdb9632c487b36b0f877beb86aa7c6cd481ec2591090abdcbc2c5fae71f114d4ec5f351ba5beff98ba3fe98ad215d89a",
+	"descriptionMd5": "ebe1eb0172530983aa199dbb70f6cea0"
 }]

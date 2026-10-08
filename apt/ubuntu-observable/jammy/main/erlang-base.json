@@ -6,6 +6,76 @@
 	],
 	"package": "erlang-base",
 	"source": "erlang",
+	"version": "1:24.2.1+dfsg-1ubuntu0.8",
+	"section": "interpreters",
+	"priority": "optional",
+	"architecture": "amd64",
+	"depends": [
+		"procps",
+		"adduser",
+		"libc6 (>= 2.34)",
+		"libgcc-s1 (>= 3.4)",
+		"libstdc++6 (>= 11)",
+		"libsystemd0",
+		"libtinfo6 (>= 6)",
+		"zlib1g (>= 1:1.2.8)"
+	],
+	"recommends": [
+		"libsctp1 (>= 1.0.19+dfsg)",
+		"erlang-crypto (= 1:24.2.1+dfsg-1ubuntu0.8)",
+		"erlang-syntax-tools (= 1:24.2.1+dfsg-1ubuntu0.8)"
+	],
+	"suggests": [
+		"erlang-tools (= 1:24.2.1+dfsg-1ubuntu0.8)",
+		"erlang",
+		"erlang-manpages",
+		"erlang-doc"
+	],
+	"replaces": [
+		"erlang (<< 1:24.2.1+dfsg-1ubuntu0.8)",
+		"erlang-base-hipe",
+		"erlang-dev (<< 1:24.2.1+dfsg-1ubuntu0.8)",
+		"erlang-doc (>> 1:24.2.1+dfsg-999)",
+		"erlang-doc (<< 1:24.2.1+dfsg)",
+		"erlang-doc-html (<< 1:13.b.4)",
+		"erlang-examples (<< 1:24.2.1+dfsg-1ubuntu0.8)",
+		"erlang-manpages (<= 1:11.b.1-2)",
+		"erlang-mode (<< 1:12.b.1-dfsg-2)",
+		"erlang-nox (<< 1:24.2.1+dfsg-1ubuntu0.8)",
+		"erlang-src (<< 1:24.2.1+dfsg-1ubuntu0.8)",
+		"erlang-typer (<< 1:20.0+dfsg)",
+		"erlang-x11 (<< 1:24.2.1+dfsg-1ubuntu0.8)"
+	],
+	"breaks": [
+		"rabbitmq-server (<< 3.7.7)"
+	],
+	"conflicts": [
+		"erlang (<< 1:24.2.1+dfsg-1ubuntu0.8)",
+		"erlang-base-hipe",
+		"erlang-doc (>> 1:24.2.1+dfsg-999)",
+		"erlang-doc (<< 1:24.2.1+dfsg)",
+		"erlang-doc-html (<< 1:13.b.4)",
+		"erlang-manpages (<= 1:11.b.1-2)"
+	],
+	"installedSize": 15994,
+	"maintainer": "Ubuntu Developers <ubuntu-devel-discuss@lists.ubuntu.com>",
+	"description": "Erlang/OTP virtual machine and base applications",
+	"homepage": "http://www.erlang.org/",
+	"filename": "pool/main/e/erlang/erlang-base_24.2.1+dfsg-1ubuntu0.8_amd64.deb",
+	"size": 9845280,
+	"md5": "5db00160c1b4ee5843f95bb53aa3f8c1",
+	"sha1": "f5abd40b4bb726a12cce190ed2ba2d3db3eef1a2",
+	"sha256": "de81b786d413ea175c4d3e11354edb5f03c0dfe3699faa828c1f10ddf0957424",
+	"sha512": "889a3ede8bbc3dbe709efaaa1414e3837162b68c0f7a67cf02a1344ecce703fb3ac509ebf7f376a594bce10802afedd813ceee1a295cb6bda458a448399ef9f3",
+	"descriptionMd5": "ed45dc366354627543c3c0266c44ab71"
+},{
+	"raw": {},
+	"required": [
+		"Filename",
+		"Size"
+	],
+	"package": "erlang-base",
+	"source": "erlang",
 	"version": "1:24.2.1+dfsg-1ubuntu0.7",
 	"section": "interpreters",
 	"priority": "optional",

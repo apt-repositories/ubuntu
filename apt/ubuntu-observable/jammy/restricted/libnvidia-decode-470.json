@@ -41,24 +41,33 @@
 	],
 	"package": "libnvidia-decode-470",
 	"source": "nvidia-graphics-drivers-470",
-	"version": "470.256.02-0ubuntu0.22.04.5",
+	"version": "470.256.02-0ubuntu0.22.04.6",
 	"section": "restricted/libs",
 	"priority": "optional",
 	"architecture": "amd64",
 	"depends": [
-		"libnvidia-decode-535"
+		"libnvidia-compute-470 (= 470.256.02-0ubuntu0.22.04.6)",
+		"libc6 (>= 2.7)",
+		"libx11-6",
+		"libxext6"
 	],
-	"installedSize": 21,
+	"replaces": [
+		"libnvidia-decode"
+	],
+	"conflicts": [
+		"libnvidia-decode"
+	],
+	"installedSize": 6109,
 	"maintainer": "Ubuntu Developers <ubuntu-devel-discuss@lists.ubuntu.com>",
 	"description": "NVIDIA Video Decoding runtime libraries",
 	"homepage": "http://www.nvidia.com",
-	"filename": "pool/restricted/n/nvidia-graphics-drivers-470/libnvidia-decode-470_470.256.02-0ubuntu0.22.04.5_amd64.deb",
-	"size": 7996,
-	"md5": "ac4ad8552d8595ca0afa281bec0576eb",
-	"sha1": "ce26a3957b3b06bc2e8b0610f7785dd3f6aa47b8",
-	"sha256": "6b544032da00b2763e77f3e1524333e17ae925c0326d6d392511c6d84d087a9c",
-	"sha512": "3733693be536e3d3704279f051a808882b7c06f004f553e568bf2466a26f6d4e7d9bff5b8072545d9ef937193d624903a774cee28485e55f0b66b09fb650fc10",
-	"descriptionMd5": "bd7e0cee68fd70b951bde97ef7bfb22c"
+	"filename": "pool/restricted/n/nvidia-graphics-drivers-470/libnvidia-decode-470_470.256.02-0ubuntu0.22.04.6_amd64.deb",
+	"size": 1564484,
+	"md5": "6215bf9f68618b3eb4f9e995a19bf787",
+	"sha1": "34daa9f30901856321442f0672f2357e10b58329",
+	"sha256": "ae4a6b6714f7c6818f8b53bc82a0c0f25c6f444d76b589f4bbaa1e32053a9e16",
+	"sha512": "01d04bb3b18cf0443442721a576730c4fad0a9eaa515f062d036560137db42113e1902fc8f07337451dbbc4c67a664d860140f5f01039cc76bac066d11e65382",
+	"descriptionMd5": "82c3a05b45f86380632898c9b339df7a"
 },{
 	"raw": {},
 	"required": [

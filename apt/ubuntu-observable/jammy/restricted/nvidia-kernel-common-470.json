@@ -40,24 +40,32 @@
 	],
 	"package": "nvidia-kernel-common-470",
 	"source": "nvidia-graphics-drivers-470",
-	"version": "470.256.02-0ubuntu0.22.04.5",
+	"version": "470.256.02-0ubuntu0.22.04.6",
 	"section": "restricted/libs",
 	"priority": "optional",
 	"architecture": "amd64",
 	"depends": [
-		"nvidia-kernel-common-535"
+		"libc6 (>= 2.34)",
+		"libpciaccess0 (>= 0.10.7)"
 	],
-	"installedSize": 21,
+	"replaces": [
+		"nvidia-dkms-470 (<< 390.48-0ubuntu3~)",
+		"nvidia-kernel-common"
+	],
+	"conflicts": [
+		"nvidia-kernel-common"
+	],
+	"installedSize": 36027,
 	"maintainer": "Ubuntu Developers <ubuntu-devel-discuss@lists.ubuntu.com>",
 	"description": "Shared files used with the kernel module",
 	"homepage": "http://www.nvidia.com",
-	"filename": "pool/restricted/n/nvidia-graphics-drivers-470/nvidia-kernel-common-470_470.256.02-0ubuntu0.22.04.5_amd64.deb",
-	"size": 8000,
-	"md5": "16bbd8dd5de868f50b7a45ade2d4989c",
-	"sha1": "36f378bf91913fe6b75903d5454ee2da9613742c",
-	"sha256": "fad23fcc76112a8f126db51d9c03bac09462191d959060c9db84ee2f17a31c60",
-	"sha512": "fb21ada1fa70ab5402ddd6673a7142a9027aa3ff179513ced8d9cb4d13cf2aa2076c534fb411a9d8c6b1aab5c8799402be48cbb152e197ec19bc09edadc1b81c",
-	"descriptionMd5": "93fc57c155e0afa81f797ecaaf40d257"
+	"filename": "pool/restricted/n/nvidia-graphics-drivers-470/nvidia-kernel-common-470_470.256.02-0ubuntu0.22.04.6_amd64.deb",
+	"size": 17316778,
+	"md5": "6c27201ede9acfff0bcc355bf6c45857",
+	"sha1": "101e751d2ec1e58a9371ac0f12b85792e20500de",
+	"sha256": "fd94d12c42a57e9bd39afdff403d3a6461604aa94e3c5036b8c705579b92fc5a",
+	"sha512": "ba8d0b10023c3a8b87373614d78093a22d2e929dec41ac4fcddc669ee66cb641457e182bb20a5c76e72f9cfe02f2f76bb9707d876740b705f04b8105339da337",
+	"descriptionMd5": "caa64a2a10d329a0475baf9ebcdb40d5"
 },{
 	"raw": {},
 	"required": [

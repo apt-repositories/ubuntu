@@ -6,22 +6,31 @@
 	],
 	"package": "libnvidia-fbc1-470",
 	"source": "nvidia-graphics-drivers-470",
-	"version": "470.256.02-0ubuntu0.22.04.5",
+	"version": "470.256.02-0ubuntu0.22.04.6",
 	"section": "restricted/libs",
 	"priority": "optional",
 	"architecture": "amd64",
 	"depends": [
-		"libnvidia-fbc1-535"
+		"libc6 (>= 2.7)",
+		"libgl1",
+		"libx11-6",
+		"libxext6"
 	],
-	"installedSize": 21,
+	"replaces": [
+		"libnvidia-fbc1"
+	],
+	"conflicts": [
+		"libnvidia-fbc1"
+	],
+	"installedSize": 154,
 	"maintainer": "Ubuntu Developers <ubuntu-devel-discuss@lists.ubuntu.com>",
 	"description": "NVIDIA OpenGL-based Framebuffer Capture runtime library",
 	"homepage": "http://www.nvidia.com",
-	"filename": "pool/restricted/n/nvidia-graphics-drivers-470/libnvidia-fbc1-470_470.256.02-0ubuntu0.22.04.5_amd64.deb",
-	"size": 8020,
-	"md5": "fd1771ca66832c8c0f3930694faab367",
-	"sha1": "6e2b13543222410d01f5f0396eb19928d7907358",
-	"sha256": "704772fe86ed95bee3b464c5fd1181799d850f67e926622dc016b14e7bd9674c",
-	"sha512": "e1ccc34fe54c792be57097a78cee14d993fd09d2c4e270658e03b6e6b3ba408cbcea536a9a9bbc618171a65dbd23c002e9366a5eb0255f8c80e6d97425d41df3",
-	"descriptionMd5": "9b75f3ff568cf2ae77a95aac8b19b19b"
+	"filename": "pool/restricted/n/nvidia-graphics-drivers-470/libnvidia-fbc1-470_470.256.02-0ubuntu0.22.04.6_amd64.deb",
+	"size": 51814,
+	"md5": "27564ed7a3c437921bc223dcc5ef589a",
+	"sha1": "b067877d284ccac1b21e371e6bc0064429ebc539",
+	"sha256": "8b6f5e1f8cac27f1152a8700c0125856bb80c1731f26fd5c4310ef245a4dd72c",
+	"sha512": "93180176e6ead5f788434fba3a0a682bedb88b14f4df3c6d0cdb471dce747d32ea941c087bf3651e5185d32812d7be64d8b8afbd5ac8f517fd2b1200c53e17c7",
+	"descriptionMd5": "19123a53d351a2e540ca869d1e74f9d2"
 }

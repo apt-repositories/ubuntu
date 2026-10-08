@@ -41,24 +41,33 @@
 	],
 	"package": "libnvidia-ifr1-470",
 	"source": "nvidia-graphics-drivers-470",
-	"version": "470.256.02-0ubuntu0.24.04.5",
+	"version": "470.256.02-0ubuntu0.24.04.6",
 	"section": "restricted/libs",
 	"priority": "optional",
 	"architecture": "amd64",
 	"depends": [
-		"libnvidia-ifr1-535"
+		"libnvidia-gl-470",
+		"libx11-6",
+		"libc6 (>= 2.3.2)",
+		"libgl1"
 	],
-	"installedSize": 21,
+	"replaces": [
+		"libnvidia-ifr1"
+	],
+	"conflicts": [
+		"libnvidia-ifr1"
+	],
+	"installedSize": 242,
 	"maintainer": "Ubuntu Developers <ubuntu-devel-discuss@lists.ubuntu.com>",
 	"description": "NVIDIA OpenGL-based Inband Frame Readback runtime library",
 	"homepage": "http://www.nvidia.com",
-	"filename": "pool/restricted/n/nvidia-graphics-drivers-470/libnvidia-ifr1-470_470.256.02-0ubuntu0.24.04.5_amd64.deb",
-	"size": 8656,
-	"md5": "fed32d76cfe1b32e3dc3e80d4111405b",
-	"sha1": "e8035a98ec06f23ce183aedf8753cfb14e48cecc",
-	"sha256": "1448ce56e1c66e9fee5bc8c7ca7597270582ba57ce0044ffc8e717b4824d15af",
-	"sha512": "37662f8a617f29587caacf45d5382feba560889f7eb8206b5e2f7c845ff9b6932b80df3277bc19df5f22fe78496d19eea0dc518a8ada90c32634f4abf2bc0f72",
-	"descriptionMd5": "dcb94294d600c35f817b8795d4b8cc72"
+	"filename": "pool/restricted/n/nvidia-graphics-drivers-470/libnvidia-ifr1-470_470.256.02-0ubuntu0.24.04.6_amd64.deb",
+	"size": 75270,
+	"md5": "ef2e3c74c754a0f947daa416ab01e0c3",
+	"sha1": "bd8b45a3f4cf1f05b2effef8e4c005eb0ed639fe",
+	"sha256": "7bcb0e48806ab343e034f270270ef676cebd661f6dbe71b6ad81333ea4c341af",
+	"sha512": "a5fcb91709ae0079c172acb1b4c764aedcd6a6772637ab062ebc5c2ed1781f6e39c1030eb2f197d09aef2ab372c252b96faa19f03f8b8fda0b06b6e985bb7ce2",
+	"descriptionMd5": "ed00f275619e715136fe0176e6f7fd69"
 },{
 	"raw": {},
 	"required": [
