@@ -42,6 +42,42 @@
 	],
 	"package": "nvidia-dkms-595-open",
 	"source": "nvidia-graphics-drivers-595",
+	"version": "595.99.02-0ubuntu0.26.04.1",
+	"section": "restricted/libs",
+	"priority": "optional",
+	"architecture": "amd64",
+	"depends": [
+		"dkms",
+		"nvidia-kernel-source-595-open (<= 595.99.02-1)",
+		"nvidia-kernel-source-595-open (>= 595.99.02)",
+		"nvidia-kernel-common-595 (<= 595.99.02-1)",
+		"nvidia-kernel-common-595 (>= 595.99.02)"
+	],
+	"replaces": [
+		"nvidia-dkms-kernel"
+	],
+	"conflicts": [
+		"nvidia-dkms-kernel"
+	],
+	"installedSize": 62,
+	"maintainer": "Ubuntu Kernel Team <kernel-team@lists.ubuntu.com>",
+	"description": "NVIDIA DKMS package (open kernel module)",
+	"homepage": "http://www.nvidia.com",
+	"filename": "pool/restricted/n/nvidia-graphics-drivers-595/nvidia-dkms-595-open_595.99.02-0ubuntu0.26.04.1_amd64.deb",
+	"size": 18904,
+	"md5": "df0a266e697744311c952d83791f1f77",
+	"sha1": "015d68d99ac7d292900b4f588ce43a59a11231c1",
+	"sha256": "4217ffe16161df581c324bf7307129fb656ea85e0fcb2705b438212884941c42",
+	"sha512": "5302f53d8f01ec31f93327dfcdeddf25fe9d89df1e0c42559f16130541bad280e03159ff1effb9b152d208f69cee1875ada1be223642ede21b0fb296546e230b",
+	"descriptionMd5": "dafa8f35853882b3010cba056bb022d0"
+},{
+	"raw": {},
+	"required": [
+		"Filename",
+		"Size"
+	],
+	"package": "nvidia-dkms-595-open",
+	"source": "nvidia-graphics-drivers-595",
 	"version": "595.58.03-0ubuntu2",
 	"section": "restricted/libs",
 	"priority": "optional",

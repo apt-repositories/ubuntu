@@ -30,4 +30,36 @@
 	"sha256": "1d280286ca194c66780c6fb920e05d237f788639ddfacb3fe02228fa2a87e2e7",
 	"sha512": "b5eaf939e173085b2d091f55d05eb2c79c681bc65ca6e6352d6f211f31a1090c81af29530426d95966afeccf949055ab9b30bd07c2d096212d6f6b61fa5b3d01",
 	"descriptionMd5": "dfcc012caeb3d31ed1795a79b9b4410a"
+},{
+	"raw": {},
+	"required": [
+		"Filename",
+		"Size"
+	],
+	"package": "linux-modules-nvidia-595-nvidia-7.0",
+	"source": "linux-restricted-modules-nvidia-7.0",
+	"version": "7.0.0-1019.19~24.04.2+2",
+	"section": "restricted/kernel",
+	"priority": "optional",
+	"architecture": "amd64",
+	"depends": [
+		"linux-modules-nvidia-595-7.0.0-1019-nvidia (= 7.0.0-1019.19~24.04.2+2)",
+		"nvidia-kernel-common-595 (>= 595.99.02)"
+	],
+	"breaks": [
+		"linux-nvidia-7.0 (>= 7.0.0-1020~)",
+		"linux-nvidia-7.0 (<< 7.0.0-1019)",
+		"nvidia-kernel-common-595 (>> 595.99.02+)",
+		"nvidia-kernel-common-595 (<< 595.99.02)"
+	],
+	"installedSize": 19,
+	"maintainer": "Canonical Kernel Team <kernel-team@lists.ubuntu.com>",
+	"description": "Extra drivers for nvidia-595 for the nvidia-7.0 flavour",
+	"filename": "pool/restricted/l/linux-restricted-modules-nvidia-7.0/linux-modules-nvidia-595-nvidia-7.0_7.0.0-1019.19~24.04.2+2_amd64.deb",
+	"size": 6830,
+	"md5": "e2faf42b7f839bba25dbdbcef3d3b662",
+	"sha1": "b5c3a9ca1ef5430e7aba9f5787244607b9c63feb",
+	"sha256": "3880cdc7cefdfaf6ca5a4e4b13b08cad9f03643c69da4cb9889c7d46aab7be03",
+	"sha512": "939d4648b2c489570c4193a73bcea4f742c638458239a4419ef626620418915e4d330f0d6e29e5ac0c91e50438944f580407a98593ac327d4b9465506a02477c",
+	"descriptionMd5": "dfcc012caeb3d31ed1795a79b9b4410a"
 }]

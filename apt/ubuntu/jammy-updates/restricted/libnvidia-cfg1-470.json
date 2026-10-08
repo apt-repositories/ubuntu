@@ -6,22 +6,28 @@
 	],
 	"package": "libnvidia-cfg1-470",
 	"source": "nvidia-graphics-drivers-470",
-	"version": "470.256.02-0ubuntu0.22.04.5",
+	"version": "470.256.02-0ubuntu0.22.04.6",
 	"section": "restricted/libs",
 	"priority": "optional",
 	"architecture": "amd64",
 	"depends": [
-		"libnvidia-cfg1-535"
+		"libc6 (>= 2.7)"
 	],
-	"installedSize": 21,
+	"replaces": [
+		"libnvidia-cfg1-any"
+	],
+	"conflicts": [
+		"libnvidia-cfg1-any"
+	],
+	"installedSize": 244,
 	"maintainer": "Ubuntu Developers <ubuntu-devel-discuss@lists.ubuntu.com>",
 	"description": "NVIDIA binary OpenGL/GLX configuration library",
 	"homepage": "http://www.nvidia.com",
-	"filename": "pool/restricted/n/nvidia-graphics-drivers-470/libnvidia-cfg1-470_470.256.02-0ubuntu0.22.04.5_amd64.deb",
-	"size": 8012,
-	"md5": "902b9dd0f4177a265f46e233117409bd",
-	"sha1": "1ce7cffbbf5f41e4855750013cfd8cddca4f1a33",
-	"sha256": "4f189bf7986d82c70d2b4fefa1f39446768fb9367f07afe77fc7d0f653f7c49a",
-	"sha512": "eec9a5f2726bc761a7487558085bcf51b414bed3874a28bce5c75cea5401ee12d25fa35046d890eeb7a11f4c552249ef1646df84c49916f0bbddb1425c7a249a",
-	"descriptionMd5": "1ca15b19c42f16cb3ce86f53859bdf31"
+	"filename": "pool/restricted/n/nvidia-graphics-drivers-470/libnvidia-cfg1-470_470.256.02-0ubuntu0.22.04.6_amd64.deb",
+	"size": 89076,
+	"md5": "81834d20cf9ef2f4156f2aa1a59a4868",
+	"sha1": "05a4148a90f3bb509cc08ac80bd01f7d383cc157",
+	"sha256": "71d56bc440843cf265246944870d3d28d94cf145bc0b233cbcb49fbdfa53ab3b",
+	"sha512": "9d9cd655ace2ad3dd8c6b7558f003894f1a4ba10f5ccc9362c3daad487048320535c234c8e967ce294e4c6e8c5ced52e601001f9c63077ff3995a8052a17146d",
+	"descriptionMd5": "7dce7edcd194e980223937b38f49e8b9"
 }

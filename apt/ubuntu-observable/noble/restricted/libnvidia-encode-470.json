@@ -39,24 +39,31 @@
 	],
 	"package": "libnvidia-encode-470",
 	"source": "nvidia-graphics-drivers-470",
-	"version": "470.256.02-0ubuntu0.24.04.5",
+	"version": "470.256.02-0ubuntu0.24.04.6",
 	"section": "restricted/libs",
 	"priority": "optional",
 	"architecture": "amd64",
 	"depends": [
-		"libnvidia-encode-535"
+		"libc6 (>= 2.2.5)",
+		"libnvidia-decode-470"
 	],
-	"installedSize": 21,
+	"replaces": [
+		"libnvidia-encode"
+	],
+	"conflicts": [
+		"libnvidia-encode"
+	],
+	"installedSize": 142,
 	"maintainer": "Ubuntu Developers <ubuntu-devel-discuss@lists.ubuntu.com>",
 	"description": "NVENC Video Encoding runtime library",
 	"homepage": "http://www.nvidia.com",
-	"filename": "pool/restricted/n/nvidia-graphics-drivers-470/libnvidia-encode-470_470.256.02-0ubuntu0.24.04.5_amd64.deb",
-	"size": 8636,
-	"md5": "b20b3d6bd2fe67df4b524c675c640d0a",
-	"sha1": "a5f91a319e6de83ddb1117ed8e3effbc8de1e1f5",
-	"sha256": "571bdcba6c3bf84a02d3f5fb6435ea9714fd9851f724daadc06465e9ed0fb333",
-	"sha512": "1f9429c4addd029e3c82ebfda015d7b8bcd61f5ca53844b35537cd11b43055be2d838a33747f5aa42587457fa0cbc5ee372e4419e6afaed36493b01a66c49924",
-	"descriptionMd5": "7f9e35ab66a71a68b94b5ec30bf7d805"
+	"filename": "pool/restricted/n/nvidia-graphics-drivers-470/libnvidia-encode-470_470.256.02-0ubuntu0.24.04.6_amd64.deb",
+	"size": 46784,
+	"md5": "d07c4ddd910b2788d37304fb4201bbe0",
+	"sha1": "a23d49af2849e23a9f573a5e0d50976a7be11fe9",
+	"sha256": "569209d7d8b8f722ef61f1b703f7d90fa7d1b444845c7454d505fed61285c702",
+	"sha512": "ccec329c2f8c2557f2297af7ae923bfa50cc05653152f2a1caa435e9b0794248b5053d6d9501bfa459fefa797a3267e96aa4e177125eda9633b085c5704104e8",
+	"descriptionMd5": "21b4191ea88e49a7e948a2b89cfed901"
 },{
 	"raw": {},
 	"required": [

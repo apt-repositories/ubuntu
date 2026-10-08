@@ -47,24 +47,39 @@
 	],
 	"package": "nvidia-dkms-470",
 	"source": "nvidia-graphics-drivers-470",
-	"version": "470.256.02-0ubuntu0.22.04.5",
+	"version": "470.256.02-0ubuntu0.22.04.6",
 	"section": "restricted/libs",
 	"priority": "optional",
 	"architecture": "amd64",
 	"depends": [
-		"nvidia-dkms-535"
+		"dkms",
+		"nvidia-kernel-source-470 (<= 470.256.02-1)",
+		"nvidia-kernel-source-470 (>= 470.256.02)",
+		"nvidia-kernel-common-470 (<= 470.256.02-1)",
+		"nvidia-kernel-common-470 (>= 470.256.02)"
 	],
-	"installedSize": 21,
+	"replaces": [
+		"nvidia-384 (<< 390.25)",
+		"nvidia-dkms-kernel",
+		"nvidia-kernel-source-470 (<< 390.25-0ubuntu2~)"
+	],
+	"breaks": [
+		"nvidia-kernel-source-470 (<< 390.25-0ubuntu2~)"
+	],
+	"conflicts": [
+		"nvidia-dkms-kernel"
+	],
+	"installedSize": 37,
 	"maintainer": "Ubuntu Developers <ubuntu-devel-discuss@lists.ubuntu.com>",
 	"description": "NVIDIA DKMS package",
 	"homepage": "http://www.nvidia.com",
-	"filename": "pool/restricted/n/nvidia-graphics-drivers-470/nvidia-dkms-470_470.256.02-0ubuntu0.22.04.5_amd64.deb",
-	"size": 7970,
-	"md5": "964a0bb1729a9f1640743f7f24807d2c",
-	"sha1": "3b00684e3d73403325fe84aa88a7ec9fd0033c96",
-	"sha256": "93780ef5db3e3a25e0f38eb41b96cd32e85277e936e8aadd1a318aeabb435d2a",
-	"sha512": "e10e69b11d2e56cc66d6f0e5e4d7c664dd884fca6349cb66cb713e82fbdfb82c8b20dce2fa593cbdd6c64c33a5544a252394685b0c439f33520542f0bbf50451",
-	"descriptionMd5": "058078b0575b35c4a07104340856179a"
+	"filename": "pool/restricted/n/nvidia-graphics-drivers-470/nvidia-dkms-470_470.256.02-0ubuntu0.22.04.6_amd64.deb",
+	"size": 11918,
+	"md5": "96fc24b6c20b6c26d95961d73c6d3fdc",
+	"sha1": "7d00466c50be4604aa8dbfee72ee4270531d0a10",
+	"sha256": "73964b2bf9679505ce9743efae839dc2824970c681ddc58499fb9fd5303ab5ad",
+	"sha512": "3f93fbb1acd3d61ba87edaa4589969f4a68c416d2fb22a8cb641db38d3d259a7e70279322d52abe7304f577008595cda7da205f34481a8a0a3c5a8d6f95de685",
+	"descriptionMd5": "ec8c193060b5458922cc0bda62df7796"
 },{
 	"raw": {},
 	"required": [

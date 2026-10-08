@@ -39,24 +39,31 @@
 	],
 	"package": "nvidia-headless-470",
 	"source": "nvidia-graphics-drivers-470",
-	"version": "470.256.02-0ubuntu0.24.04.5",
+	"version": "470.256.02-0ubuntu0.24.04.6",
 	"section": "restricted/libs",
 	"priority": "optional",
 	"architecture": "amd64",
 	"depends": [
-		"nvidia-headless-535"
+		"nvidia-headless-no-dkms-470",
+		"nvidia-dkms-470"
+	],
+	"replaces": [
+		"nvidia-headless"
+	],
+	"conflicts": [
+		"nvidia-headless"
 	],
 	"installedSize": 21,
 	"maintainer": "Ubuntu Developers <ubuntu-devel-discuss@lists.ubuntu.com>",
 	"description": "NVIDIA headless metapackage",
 	"homepage": "http://www.nvidia.com",
-	"filename": "pool/restricted/n/nvidia-graphics-drivers-470/nvidia-headless-470_470.256.02-0ubuntu0.24.04.5_amd64.deb",
-	"size": 8618,
-	"md5": "2d783a1270fd8d6fe9a808767c72521b",
-	"sha1": "51bb091d2e2e30521ed4e0b16243ae50258cfe53",
-	"sha256": "e42b4d4b6a182daf4b1d8068ad02e680357f666984d7dacc787fde82d16f326c",
-	"sha512": "03a839b1e823f8e34d322b584d6fba602d04fd0ef621d2b67f5981bc8b88a13df43cdc47e8989c79dd8fe6a5ef10256cd03307353ab61fd528e36fd39f5000c2",
-	"descriptionMd5": "1010a5727114a004dd875a9e7e8e17d4"
+	"filename": "pool/restricted/n/nvidia-graphics-drivers-470/nvidia-headless-470_470.256.02-0ubuntu0.24.04.6_amd64.deb",
+	"size": 8800,
+	"md5": "2bf89fdceb4e4afa7a4c0fdab8a2d688",
+	"sha1": "f2a81e42e3a59062348d843c971e85f40a89f160",
+	"sha256": "f292c9926da66383899d4b929521dffe70000d8ef529b9c4ce28dfe6fc87910c",
+	"sha512": "85ee2367225ddfae7ce34253df43ddd775bffeee9c31d23fc679765f535b14faca7a9e9acc313be15fac3dbb04ac375ca7950c9db9dee82ff3e3f15b1100a153",
+	"descriptionMd5": "b76db062926ec54be11eda34b8dc03a5"
 },{
 	"raw": {},
 	"required": [

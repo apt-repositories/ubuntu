@@ -42,32 +42,22 @@
 	],
 	"package": "nvidia-dkms-610-open",
 	"source": "nvidia-graphics-drivers-610",
-	"version": "610.57.04-0ubuntu0.24.04.3",
+	"version": "610.57.04-0ubuntu0.24.04.4",
 	"section": "multiverse/libs",
 	"priority": "optional",
 	"architecture": "amd64",
 	"depends": [
-		"dkms",
-		"nvidia-kernel-source-610-open (<= 610.57.04-1)",
-		"nvidia-kernel-source-610-open (>= 610.57.04)",
-		"nvidia-kernel-common-610 (<= 610.57.04-1)",
-		"nvidia-kernel-common-610 (>= 610.57.04)"
+		"nvidia-dkms-615-open"
 	],
-	"replaces": [
-		"nvidia-dkms-kernel"
-	],
-	"conflicts": [
-		"nvidia-dkms-kernel"
-	],
-	"installedSize": 53,
+	"installedSize": 37,
 	"maintainer": "Ubuntu Kernel Team <kernel-team@lists.ubuntu.com>",
-	"description": "NVIDIA DKMS package (open kernel module)",
+	"description": "NVIDIA DKMS package (open kernel module) (transitional package)",
 	"homepage": "http://www.nvidia.com",
-	"filename": "pool/multiverse/n/nvidia-graphics-drivers-610/nvidia-dkms-610-open_610.57.04-0ubuntu0.24.04.3_amd64.deb",
-	"size": 15908,
-	"md5": "3f1d2556a298c13dfad0b8c45cf49b46",
-	"sha1": "a09c657f38e5bdb6e01f44fcf9702452b66c58b9",
-	"sha256": "0f52f7bb582eee85272dfd94ed6cb4e948e160f930d3c41fdf99fcff1c42d20c",
-	"sha512": "752ab6e10ff0d3a6a92f0e29bbf36f38eb8a01d2aa88c2b1320ca5435e86135658902365e6421bd438e72b3dfd8861b922210e7dd62d7565fd18a3812a6812b0",
-	"descriptionMd5": "dafa8f35853882b3010cba056bb022d0"
+	"filename": "pool/multiverse/n/nvidia-graphics-drivers-610/nvidia-dkms-610-open_610.57.04-0ubuntu0.24.04.4_amd64.deb",
+	"size": 12034,
+	"md5": "a4eabf3c6cd16d52c7b76b5d9e72cd34",
+	"sha1": "504d71ad475d825b403d101bb25a71237768a3da",
+	"sha256": "71e84476b507d66f5efb038920d70d8189fe6c55bece87c33469d9e61f4e6dc4",
+	"sha512": "33eb3a2eb81afd8dc3b68fa2174cce247719410c175a2f0fd28739a6fb1fd435733ea026ddc639ffe28bacc2dd92a5ff027ee92a621ba2325375a78907a2be72",
+	"descriptionMd5": "b34400b6c042c32771e7523f2faa4dbb"
 }]

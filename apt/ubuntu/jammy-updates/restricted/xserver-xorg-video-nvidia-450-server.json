@@ -6,33 +6,22 @@
 	],
 	"package": "xserver-xorg-video-nvidia-450-server",
 	"source": "nvidia-graphics-drivers-450-server",
-	"version": "450.248.02-0ubuntu0.22.04.1",
+	"version": "450.248.02-0ubuntu0.22.04.2",
 	"section": "restricted/x11",
 	"priority": "optional",
 	"architecture": "amd64",
 	"depends": [
-		"libnvidia-cfg1-450-server (= 450.248.02-0ubuntu0.22.04.1)",
-		"xorg-video-abi-25 | xorg-video-abi-24 | xorg-video-abi-23 | xorg-video-abi-20 | xorg-video-abi-19 | xorg-video-abi-18 | xorg-video-abi-15 | xorg-video-abi-14 | xorg-video-abi-13 | xorg-video-abi-12 | xorg-video-abi-11 | xorg-video-abi-10 | xorg-video-abi-8 | xorg-video-abi-6.0",
-		"xserver-xorg-core (>= 2:1.19.6-1ubuntu2~)",
-		"libc6 (>= 2.2.5)"
+		"xserver-xorg-video-nvidia-470"
 	],
-	"replaces": [
-		"nvidia-driver-binary",
-		"xorg-driver-binary"
-	],
-	"conflicts": [
-		"nvidia-driver-binary",
-		"xorg-driver-binary"
-	],
-	"installedSize": 6628,
+	"installedSize": 20,
 	"maintainer": "Ubuntu Developers <ubuntu-devel-discuss@lists.ubuntu.com>",
-	"description": "NVIDIA binary Xorg driver",
+	"description": "NVIDIA binary Xorg driver (transitional package)",
 	"homepage": "http://www.nvidia.com",
-	"filename": "pool/restricted/n/nvidia-graphics-drivers-450-server/xserver-xorg-video-nvidia-450-server_450.248.02-0ubuntu0.22.04.1_amd64.deb",
-	"size": 1635732,
-	"md5": "828c152f33180d658cbf98da203aad47",
-	"sha1": "c4144c6e97a885284c9743a7822f71055253b100",
-	"sha256": "da5fcd19a707910ab598ca51c3fd6df1bf9abcb8457a4b256569fd6d360cc0df",
-	"sha512": "b47762ab0098cea7d2b9fafbe2836b6d661a609776685da969c5b220a4c30901458bd615888a8c1b6816c9517d4fc1cbbe4474c9f17d60e25c5d2c604ffafeb1",
-	"descriptionMd5": "c15d3b9cef20c85a29996e1ccae7a3a4"
+	"filename": "pool/restricted/n/nvidia-graphics-drivers-450-server/xserver-xorg-video-nvidia-450-server_450.248.02-0ubuntu0.22.04.2_amd64.deb",
+	"size": 8390,
+	"md5": "59cd1bb3655837aef23bf62c4a4f2f80",
+	"sha1": "d7c89144ee03430ac6ce6dc3b6041e60cf8090d9",
+	"sha256": "31ff6dfb808ba53f19b9e4e37fa5ac80a0fc911ec7ae1e232d1788380d38a0ac",
+	"sha512": "427a33699ecafdf198a54d5db1815c0a37bc7c270bf14440ec838b10a19ae8ed5a2d312ee18a369efd8df6e137dbc9a5852fb3df721f498be75686687841fc00",
+	"descriptionMd5": "ebe1eb0172530983aa199dbb70f6cea0"
 }

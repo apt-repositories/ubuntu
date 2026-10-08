@@ -45,24 +45,37 @@
 	],
 	"package": "nvidia-headless-no-dkms-470",
 	"source": "nvidia-graphics-drivers-470",
-	"version": "470.256.02-0ubuntu0.24.04.5",
+	"version": "470.256.02-0ubuntu0.24.04.6",
 	"section": "restricted/libs",
 	"priority": "optional",
 	"architecture": "amd64",
 	"depends": [
-		"nvidia-headless-no-dkms-535"
+		"nvidia-kernel-common-470 (<= 470.256.02-1)",
+		"nvidia-kernel-common-470 (>= 470.256.02)",
+		"nvidia-kernel-source-470 (= 470.256.02-0ubuntu0.24.04.6)",
+		"libnvidia-compute-470 (= 470.256.02-0ubuntu0.24.04.6)",
+		"nvidia-compute-utils-470 (= 470.256.02-0ubuntu0.24.04.6)",
+		"libnvidia-cfg1-470 (= 470.256.02-0ubuntu0.24.04.6)"
+	],
+	"replaces": [
+		"nvidia-384 (<< 390.25)",
+		"nvidia-390 (<< 390.25-0ubuntu1)"
+	],
+	"conflicts": [
+		"nvidia-384 (<< 390.25)",
+		"nvidia-390 (<< 390.25-0ubuntu1)"
 	],
 	"installedSize": 21,
 	"maintainer": "Ubuntu Developers <ubuntu-devel-discuss@lists.ubuntu.com>",
 	"description": "NVIDIA headless metapackage - no DKMS",
 	"homepage": "http://www.nvidia.com",
-	"filename": "pool/restricted/n/nvidia-graphics-drivers-470/nvidia-headless-no-dkms-470_470.256.02-0ubuntu0.24.04.5_amd64.deb",
-	"size": 8650,
-	"md5": "cc84b5abf056edbaecbbc11fa042bf0c",
-	"sha1": "386ce8dc5fa4bb0339994f54a7cef2cb5c2c664f",
-	"sha256": "1d1385e325fc2b0472fa02ce7bcf4cf28fc164f5f34846044dc3a904f9bc87d0",
-	"sha512": "ea57f8f2fa910ceef4d2e9eb6ee61d9598016298bdfc3e5c1423702d13d81e3df28bd0ab31feb5d5d34948ea545e465846efdd2ece36f3f016ba33adf81328bb",
-	"descriptionMd5": "5dad1e3e0ce176a8c813284dfcc75f6d"
+	"filename": "pool/restricted/n/nvidia-graphics-drivers-470/nvidia-headless-no-dkms-470_470.256.02-0ubuntu0.24.04.6_amd64.deb",
+	"size": 8938,
+	"md5": "44b0a0f421d8c4b9298ca25db893e641",
+	"sha1": "d59de6dddece10b6e6cea24c0ef3cbf3f5196bb2",
+	"sha256": "fcf762a3d15a2b6d92a86c2438d0dc010a14ee09685bc47b5d35817a91b386d5",
+	"sha512": "347139210a62809d6fda63085b1f0dfa51bba675f6675dcc37607bfe11fec58ac66e189b1a72f06d9bcccc4972bd98990500f1565375b41ddd9d25bb25931a9a",
+	"descriptionMd5": "b2a4cc4ffbc9dfcd5c8b9b0f930eedef"
 },{
 	"raw": {},
 	"required": [

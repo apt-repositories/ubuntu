@@ -6,22 +6,27 @@
 	],
 	"package": "nvidia-kernel-source-470",
 	"source": "nvidia-graphics-drivers-470",
-	"version": "470.256.02-0ubuntu0.24.04.5",
+	"version": "470.256.02-0ubuntu0.24.04.6",
 	"section": "restricted/libs",
 	"priority": "optional",
 	"architecture": "amd64",
-	"depends": [
-		"nvidia-kernel-source-535"
+	"replaces": [
+		"nvidia-384 (<< 390.25)",
+		"nvidia-390 (<< 390.25-0ubuntu1)",
+		"nvidia-kernel-source"
 	],
-	"installedSize": 21,
+	"conflicts": [
+		"nvidia-kernel-source"
+	],
+	"installedSize": 48737,
 	"maintainer": "Ubuntu Developers <ubuntu-devel-discuss@lists.ubuntu.com>",
 	"description": "NVIDIA kernel source package",
 	"homepage": "http://www.nvidia.com",
-	"filename": "pool/restricted/n/nvidia-graphics-drivers-470/nvidia-kernel-source-470_470.256.02-0ubuntu0.24.04.5_amd64.deb",
-	"size": 8622,
-	"md5": "7c5ea2f639c6b411d3335224ed285f01",
-	"sha1": "6e7edfb95231890f08642f5ecdc6fc587825b8a9",
-	"sha256": "36d0d46b41df8c37c4422e92e02fd174e7818a7df4e1be0a75663e4cff7c0329",
-	"sha512": "1f6d880337bb2ec65bb50797a616adeef4ea0fb2b52be1e6e51bd890703c52a3fd5f8ec894f0f9a1dee21f4751fd40ff841c26e52441121d23aa6a011481a0ec",
-	"descriptionMd5": "38ce9678031281d75bfe88311a53d9f7"
+	"filename": "pool/restricted/n/nvidia-graphics-drivers-470/nvidia-kernel-source-470_470.256.02-0ubuntu0.24.04.6_amd64.deb",
+	"size": 25745492,
+	"md5": "c95346e2909c39bf0ede4c9a66e79400",
+	"sha1": "9c7636d0d10fb376164c5c1a8ba8ec6f671c179b",
+	"sha256": "30508f16d3e274a2884a59eb30bd94e08f7e766266cbfd3af0d2627ebe0ac071",
+	"sha512": "3da995df6efc60e75436411188069c8cf76eefbad0c761f2004284074d453fe0620a3b19595c33e8f618d4c0980ac0efa3f04146a8b4db9fb57c9852557d5337",
+	"descriptionMd5": "dc60d6861ca351f7cadc7d8fcc74e854"
 }

@@ -6,32 +6,22 @@
 	],
 	"package": "nvidia-compute-utils-565-server",
 	"source": "nvidia-graphics-drivers-565-server",
-	"version": "565.57.01-0ubuntu0.22.04.4",
+	"version": "565.57.01-0ubuntu0.22.04.5",
 	"section": "restricted/libs",
 	"priority": "optional",
 	"architecture": "amd64",
 	"depends": [
-		"libnvidia-compute-565-server",
-		"adduser",
-		"libc6 (>= 2.3.2)"
+		"nvidia-compute-utils-580-server"
 	],
-	"replaces": [
-		"nvidia-compute-utils",
-		"nvidia-persistenced"
-	],
-	"conflicts": [
-		"nvidia-compute-utils",
-		"nvidia-persistenced"
-	],
-	"installedSize": 349,
+	"installedSize": 32,
 	"maintainer": "Ubuntu Developers <ubuntu-devel-discuss@lists.ubuntu.com>",
-	"description": "NVIDIA compute utilities",
+	"description": "NVIDIA compute utilities (transitional package)",
 	"homepage": "http://www.nvidia.com",
-	"filename": "pool/restricted/n/nvidia-graphics-drivers-565-server/nvidia-compute-utils-565-server_565.57.01-0ubuntu0.22.04.4_amd64.deb",
-	"size": 125738,
-	"md5": "ffc3e944cce9970310c622d31fcc0e63",
-	"sha1": "34051c2ee68ca7e8e6dbd4bedb82e155006a2c0c",
-	"sha256": "7c4eab2388e7c54fb517d619ec7532821cbb53f0f85c4109354f15611a91d819",
-	"sha512": "2783538cc7dd276f2143ec4b65b243cd08f7eb48a2da3baafeade78f17283121667656f2a9cf6f937c60de828c92d0b2bbae11eb30da8383dd6c635b0019abf0",
-	"descriptionMd5": "22d91d0fcba51df4741637e102ab12c2"
+	"filename": "pool/restricted/n/nvidia-graphics-drivers-565-server/nvidia-compute-utils-565-server_565.57.01-0ubuntu0.22.04.5_amd64.deb",
+	"size": 10414,
+	"md5": "17e2f10e0642902d487a63c65e5e2001",
+	"sha1": "edb9c7d8f793dae33b8f303a9d0a127da63e06b7",
+	"sha256": "cbe08ecc72092d382515766e8c3381b2675b1528afe934b6e6ff118637cf29bb",
+	"sha512": "74d4a8843ea013da4aa6182a920e1489f6d0678a442cab63baf26931473cb1f945956605ea2d34e1fd291f3bfea64b0311dc3dc44fcf753d788970b49d470e8a",
+	"descriptionMd5": "70d929b039dacc87d564de1c1c43c27b"
 }
