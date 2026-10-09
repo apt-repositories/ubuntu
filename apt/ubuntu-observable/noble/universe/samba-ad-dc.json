@@ -43,6 +43,43 @@
 	],
 	"package": "samba-ad-dc",
 	"source": "samba",
+	"version": "2:4.19.5+dfsg-4ubuntu9.8",
+	"section": "universe/net",
+	"priority": "optional",
+	"architecture": "all",
+	"depends": [
+		"samba (>= 2:4.19.5+dfsg-4ubuntu9.8~)",
+		"samba-dsdb-modules",
+		"samba-vfs-modules",
+		"winbind"
+	],
+	"recommends": [
+		"libnss-winbind",
+		"libpam-winbind",
+		"samba-ad-provision"
+	],
+	"breaks": [
+		"samba-ad-provision (<< 2:4.19.5+dfsg)"
+	],
+	"installedSize": 65,
+	"maintainer": "Ubuntu Developers <ubuntu-devel-discuss@lists.ubuntu.com>",
+	"description": "Samba control files to run AD Domain Controller",
+	"homepage": "https://www.samba.org",
+	"filename": "pool/universe/s/samba/samba-ad-dc_4.19.5+dfsg-4ubuntu9.8_all.deb",
+	"size": 6914,
+	"md5": "bf20c8aa83209364ccab9f5a56a8d13f",
+	"sha1": "dda37050bdcfa07b3e5794c8286cf0e204a281cd",
+	"sha256": "35b6c8b013d930e2580a4a858dda34b608a86130e5bf5ddb144a1004e43fd6ed",
+	"sha512": "a967ca262f8075b16f8720d40f156b7bf34ed75678466636d906419598d2fb613865b7cab24ab7545a8c9ef007f99b53db6c9dd8596c3868bdb73519bb608f40",
+	"descriptionMd5": "eba517f15cc7dff6d61d4bf8f68630b3"
+},{
+	"raw": {},
+	"required": [
+		"Filename",
+		"Size"
+	],
+	"package": "samba-ad-dc",
+	"source": "samba",
 	"version": "2:4.19.5+dfsg-4ubuntu9",
 	"section": "universe/net",
 	"priority": "optional",

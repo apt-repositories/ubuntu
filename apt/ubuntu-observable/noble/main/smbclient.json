@@ -46,6 +46,46 @@
 	],
 	"package": "smbclient",
 	"source": "samba",
+	"version": "2:4.19.5+dfsg-4ubuntu9.8",
+	"section": "net",
+	"priority": "optional",
+	"architecture": "amd64",
+	"depends": [
+		"samba-common (= 2:4.19.5+dfsg-4ubuntu9.8)",
+		"samba-libs (= 2:4.19.5+dfsg-4ubuntu9.8)",
+		"libarchive13t64 (>= 3.0.4)",
+		"libc6 (>= 2.38)",
+		"libgnutls30t64 (>= 3.7.0)",
+		"libndr3 (>= 2:4.17.2)",
+		"libpopt0 (>= 1.14)",
+		"libreadline8t64 (>= 6.0)",
+		"libsmbclient0 (>= 2:4.10.0+dfsg)",
+		"libtalloc2 (>= 2.4.1~)",
+		"libtevent0t64 (>= 0.15.0)"
+	],
+	"suggests": [
+		"cifs-utils",
+		"heimdal-clients"
+	],
+	"installedSize": 2079,
+	"maintainer": "Ubuntu Developers <ubuntu-devel-discuss@lists.ubuntu.com>",
+	"description": "command-line SMB/CIFS clients for Unix",
+	"homepage": "https://www.samba.org",
+	"filename": "pool/main/s/samba/smbclient_4.19.5+dfsg-4ubuntu9.8_amd64.deb",
+	"size": 470406,
+	"md5": "6bb2a9c49b5ecd9227fa0936cbb199f1",
+	"sha1": "546460845c2579e9a2032e8e3ca97e100c63bdc3",
+	"sha256": "ab520b31809a9da1a898809e085e487248b7939278be5aa0bcec1fc06af1269c",
+	"sha512": "8134317be22f35489a30ef71405a653b3ce662c05d648dc6a666c2fc265186007822a15b6b7ed964434462d8919702367bcac4493e65313f2a71c98ab9b28fc0",
+	"descriptionMd5": "476018eed30b7f1e76b02afe22aaf008"
+},{
+	"raw": {},
+	"required": [
+		"Filename",
+		"Size"
+	],
+	"package": "smbclient",
+	"source": "samba",
 	"version": "2:4.19.5+dfsg-4ubuntu9",
 	"section": "net",
 	"priority": "optional",
