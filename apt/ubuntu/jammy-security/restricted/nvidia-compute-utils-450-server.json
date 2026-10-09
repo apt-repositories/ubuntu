@@ -6,32 +6,22 @@
 	],
 	"package": "nvidia-compute-utils-450-server",
 	"source": "nvidia-graphics-drivers-450-server",
-	"version": "450.248.02-0ubuntu0.22.04.1",
+	"version": "450.248.02-0ubuntu0.22.04.2",
 	"section": "restricted/libs",
 	"priority": "optional",
 	"architecture": "amd64",
 	"depends": [
-		"libnvidia-compute-450-server",
-		"adduser",
-		"libc6 (>= 2.7)"
+		"nvidia-compute-utils-470"
 	],
-	"replaces": [
-		"nvidia-compute-utils",
-		"nvidia-persistenced"
-	],
-	"conflicts": [
-		"nvidia-compute-utils",
-		"nvidia-persistenced"
-	],
-	"installedSize": 403,
+	"installedSize": 20,
 	"maintainer": "Ubuntu Developers <ubuntu-devel-discuss@lists.ubuntu.com>",
-	"description": "NVIDIA compute utilities",
+	"description": "NVIDIA compute utilities (transitional package)",
 	"homepage": "http://www.nvidia.com",
-	"filename": "pool/restricted/n/nvidia-graphics-drivers-450-server/nvidia-compute-utils-450-server_450.248.02-0ubuntu0.22.04.1_amd64.deb",
-	"size": 133190,
-	"md5": "3a0db4bb9a9e29162ceb9c1a6c5d9f38",
-	"sha1": "9aa62bccf38f27c2c08d0b92f232f343a3511d24",
-	"sha256": "4a96e88c8ffe4e15f658a9d35d75791be48219457e5a88beb607c123c694df80",
-	"sha512": "b43978708a990e81b5d6eb02e8c27960682bf917eacd26eb0a8523f0e6c13910989020ba386d6f84bdc4e000696008f4c1d873436faea3e2660ecb6ece528fbd",
-	"descriptionMd5": "22d91d0fcba51df4741637e102ab12c2"
+	"filename": "pool/restricted/n/nvidia-graphics-drivers-450-server/nvidia-compute-utils-450-server_450.248.02-0ubuntu0.22.04.2_amd64.deb",
+	"size": 8380,
+	"md5": "8a4184a1b7f0e70b08b91baff550375f",
+	"sha1": "b117d0b89171051db6596e47f59f1f2d2172eae3",
+	"sha256": "882e9a2c948a3e2b8fc77ffc757152bbd2c641c9005a8c42cb560ef729b39bf1",
+	"sha512": "b444f176dc50c6a1c0beee9f0e697fc920de09d18fffcf35ccd00747ac1e6081b2b34de799a4e1d669ac03fbdd729c3dc52e7031ee49df1e7c2dd43c2bc9b2cb",
+	"descriptionMd5": "70d929b039dacc87d564de1c1c43c27b"
 }

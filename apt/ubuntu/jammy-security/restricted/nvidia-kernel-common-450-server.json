@@ -6,30 +6,22 @@
 	],
 	"package": "nvidia-kernel-common-450-server",
 	"source": "nvidia-graphics-drivers-450-server",
-	"version": "450.248.02-0ubuntu0.22.04.1",
+	"version": "450.248.02-0ubuntu0.22.04.2",
 	"section": "restricted/libs",
 	"priority": "optional",
 	"architecture": "amd64",
 	"depends": [
-		"libc6 (>= 2.34)",
-		"libpciaccess0 (>= 0.10.7)"
+		"nvidia-kernel-common-470"
 	],
-	"replaces": [
-		"nvidia-dkms-450-server (<< 390.48-0ubuntu3~)",
-		"nvidia-kernel-common"
-	],
-	"conflicts": [
-		"nvidia-kernel-common"
-	],
-	"installedSize": 75,
+	"installedSize": 20,
 	"maintainer": "Ubuntu Developers <ubuntu-devel-discuss@lists.ubuntu.com>",
-	"description": "Shared files used with the kernel module",
+	"description": "Shared files used with the kernel module (transitional package)",
 	"homepage": "http://www.nvidia.com",
-	"filename": "pool/restricted/n/nvidia-graphics-drivers-450-server/nvidia-kernel-common-450-server_450.248.02-0ubuntu0.22.04.1_amd64.deb",
-	"size": 20558,
-	"md5": "456e634adf980b39a9a09d9141b276eb",
-	"sha1": "8e1bb73104e07ce51949d67ceb29163387c87567",
-	"sha256": "ae55dc86227e4aaa6a0bce6157bbb9d1950fb21e4b1d220ce991f23483fcf530",
-	"sha512": "fb5afcce95e6dc0dbb326cff21008bd8c090ac188252fba955ee5dc52afad7902b9576c620271b3dacc1bcb62c379c805d43c0dc7a8cbc9522ee6c3d94c2c1ad",
-	"descriptionMd5": "caa64a2a10d329a0475baf9ebcdb40d5"
+	"filename": "pool/restricted/n/nvidia-graphics-drivers-450-server/nvidia-kernel-common-450-server_450.248.02-0ubuntu0.22.04.2_amd64.deb",
+	"size": 8388,
+	"md5": "f60f1459baf0216ebb126a3548f4b05b",
+	"sha1": "2f1474fba435042e5270581c9b52934a6013cba8",
+	"sha256": "fcf47d58296ac6db38123c47cabca456e60ffc51d5df7dd51865996dea6aa9ff",
+	"sha512": "7a861b0dda95d91af3a7aaf050a33cf99080ca307e81a0de8941644d6e04b0dda8009a2b7fda8a7f699b357cde8126bf139af376814c6e5f7115c74c48bc5ccd",
+	"descriptionMd5": "a2fcad20362187322348caccef78ab9d"
 }

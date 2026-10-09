@@ -6,29 +6,22 @@
 	],
 	"package": "libnvidia-common-550-server",
 	"source": "nvidia-graphics-drivers-550-server",
-	"version": "550.163.01-0ubuntu0.22.04.1",
+	"version": "550.163.01-0ubuntu0.22.04.2",
 	"section": "restricted/libs",
 	"priority": "optional",
 	"architecture": "all",
-	"replaces": [
-		"libnvidia-common",
-		"libnvidia-gl-550-server (<< 390.25-0ubuntu2~)"
+	"depends": [
+		"libnvidia-common-570-server"
 	],
-	"breaks": [
-		"libnvidia-gl-550-server (<< 390.25-0ubuntu2~)"
-	],
-	"conflicts": [
-		"libnvidia-common"
-	],
-	"installedSize": 58,
+	"installedSize": 32,
 	"maintainer": "Ubuntu Developers <ubuntu-devel-discuss@lists.ubuntu.com>",
 	"description": "Shared files used by the NVIDIA libraries",
 	"homepage": "http://www.nvidia.com",
-	"filename": "pool/restricted/n/nvidia-graphics-drivers-550-server/libnvidia-common-550-server_550.163.01-0ubuntu0.22.04.1_all.deb",
-	"size": 15080,
-	"md5": "8ffc2e2f9291b8e553b532bfeebe5fe5",
-	"sha1": "9fd4afe29c6984f1400af5055ea39460a0efe6f4",
-	"sha256": "7d6508366e28438a960bedd3e2c147588582bacbcf90eebff3aecf55b3e518c3",
-	"sha512": "6141f877d5bf9bc507f3be16fce0e599f0cd0b3998b6d2ca10df81d845239513dd55dc369ba6f4fe57a5c979d4c221e907a11390a86f6d4a94d0728fd8e41acf",
-	"descriptionMd5": "259c61ba4e777f5a2f1e7ee2fd1957bc"
+	"filename": "pool/restricted/n/nvidia-graphics-drivers-550-server/libnvidia-common-550-server_550.163.01-0ubuntu0.22.04.2_all.deb",
+	"size": 10872,
+	"md5": "a981987b5e73db44ff1bd51508bed7f5",
+	"sha1": "6b35b55e5a5813127d483b2d55e18b454674b6f8",
+	"sha256": "1a322beef3c5cd62a380cef29bef7b38ce2cfdab2cb6155c414b0ea33bf1905c",
+	"sha512": "c9b9318e6a0b1fa80c3f8c373b91ce35799478607e8741cfb7668d883bd2728eb28994cd368e9a1eee4b303cc4d786ef227dac56baf40b9f3ec99e7dc8b3a295",
+	"descriptionMd5": "c222cc663eeb446e82a9725704de5c7e"
 }
