@@ -5,6 +5,40 @@
 		"Size"
 	],
 	"package": "google-guest-agent",
+	"version": "20250116.00-0ubuntu1~22.04.4",
+	"section": "devel",
+	"priority": "optional",
+	"architecture": "amd64",
+	"depends": [
+		"libc6 (>= 2.34)",
+		"google-compute-engine-oslogin (>= 20231004.00-0ubuntu1~22.04.1)"
+	],
+	"replaces": [
+		"gce-compute-image-packages (<< 20191115)"
+	],
+	"breaks": [
+		"gce-compute-image-packages (<< 20191115)",
+		"python3-google-compute-engine"
+	],
+	"installedSize": 45553,
+	"maintainer": "Ubuntu Developers <ubuntu-devel-discuss@lists.ubuntu.com>",
+	"description": "Google Compute Engine Guest Agent",
+	"homepage": "https://github.com/GoogleCloudPlatform/guest-agent",
+	"builtUsing": "golang-1.21 (= 1.21.1-1~ubuntu22.04.4)",
+	"filename": "pool/main/g/google-guest-agent/google-guest-agent_20250116.00-0ubuntu1~22.04.4_amd64.deb",
+	"size": 13681858,
+	"md5": "b5804877695764435e4cb123d7c10454",
+	"sha1": "88bbab8d6cac8b574c0897692e586e1b76ab426f",
+	"sha256": "a8cf4c07ce933009dffb22d341b141aee924b30900714513deae39a8574d4b11",
+	"sha512": "c3d65257c42d5f5430bfc4c15d79f617f880e7e1592bd38b7c3587875fc1cc299e7c49e5df8246b953f317859dc761ace0a98693697254fe54f4352bf2de4c99",
+	"descriptionMd5": "631281603d95decc0c24b058cbfb142f"
+},{
+	"raw": {},
+	"required": [
+		"Filename",
+		"Size"
+	],
+	"package": "google-guest-agent",
 	"version": "20250116.00-0ubuntu1~22.04.3",
 	"section": "devel",
 	"priority": "optional",
