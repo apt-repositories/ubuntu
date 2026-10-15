@@ -6,6 +6,46 @@
 	],
 	"package": "systemd-coredump",
 	"source": "systemd",
+	"version": "255.4-1ubuntu8.18",
+	"section": "universe/admin",
+	"priority": "optional",
+	"architecture": "amd64",
+	"depends": [
+		"libc6 (>= 2.34)",
+		"liblz4-1 (>= 0.0~r130)",
+		"liblzma5 (>= 5.1.1alpha+20120614)",
+		"libsystemd-shared (= 255.4-1ubuntu8.18)",
+		"libzstd1 (>= 1.5.5)",
+		"systemd"
+	],
+	"recommends": [
+		"libdw1"
+	],
+	"replaces": [
+		"core-dump-handler"
+	],
+	"conflicts": [
+		"core-dump-handler"
+	],
+	"installedSize": 324,
+	"maintainer": "Ubuntu Developers <ubuntu-devel-discuss@lists.ubuntu.com>",
+	"description": "tools for storing and retrieving coredumps",
+	"homepage": "https://www.freedesktop.org/wiki/Software/systemd",
+	"filename": "pool/universe/s/systemd/systemd-coredump_255.4-1ubuntu8.18_amd64.deb",
+	"size": 71696,
+	"md5": "3c642b43e1496c64de54468e3d63a43e",
+	"sha1": "68432bd92bba675366b6c4bf70d8f88ced97613d",
+	"sha256": "e45540b0bc0bfac4775d531e1b1c2bf70c6ced14057767a13bc0dbafc827cbae",
+	"sha512": "5572950a14f496bab2807c51e74e7dd781b8777f856c7a55870b309fc112cd3202710d3456b40b01e8bc8426229fff8982656147e76bf9c46004363d441d661b",
+	"descriptionMd5": "d366d36855090be1048ae8db5a78e930"
+},{
+	"raw": {},
+	"required": [
+		"Filename",
+		"Size"
+	],
+	"package": "systemd-coredump",
+	"source": "systemd",
 	"version": "255.4-1ubuntu8.17",
 	"section": "universe/admin",
 	"priority": "optional",

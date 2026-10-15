@@ -6,6 +6,38 @@
 	],
 	"package": "ssh-askpass-gnome",
 	"source": "openssh",
+	"version": "1:8.9p1-3ubuntu0.18",
+	"section": "universe/gnome",
+	"priority": "optional",
+	"architecture": "amd64",
+	"depends": [
+		"openssh-client | ssh (>= 1:1.2pre7-4)",
+		"libc6 (>= 2.34)",
+		"libglib2.0-0 (>= 2.12.0)",
+		"libgtk-3-0 (>= 3.19.12)"
+	],
+	"replaces": [
+		"ssh (<< 1:3.5p1-3)"
+	],
+	"installedSize": 169,
+	"maintainer": "Ubuntu Developers <ubuntu-devel-discuss@lists.ubuntu.com>",
+	"description": "interactive X program to prompt users for a passphrase for ssh-add",
+	"homepage": "http://www.openssh.com/",
+	"filename": "pool/universe/o/openssh/ssh-askpass-gnome_8.9p1-3ubuntu0.18_amd64.deb",
+	"size": 18002,
+	"md5": "1bb93095daa33c3f266a1c3cc321bf4d",
+	"sha1": "492bba460c348be3e53aa0b5c1c31cde9d514796",
+	"sha256": "f7ef43a53da5afb3a9dfd0974b83f149fa5873db93892c922eb1dc4985ad5d2c",
+	"sha512": "1112c89445362cc82bea88127e860029cbb4405e1552096b5fbe0677ec591580d5aaa1b7ca4601d7b498cfea8e81942669345f6d296db4ff2ef34b2ba5097d9e",
+	"descriptionMd5": "e888e7e8e5a6ee7b30f000dc22ed083f"
+},{
+	"raw": {},
+	"required": [
+		"Filename",
+		"Size"
+	],
+	"package": "ssh-askpass-gnome",
+	"source": "openssh",
 	"version": "1:8.9p1-3ubuntu0.17",
 	"section": "universe/gnome",
 	"priority": "optional",

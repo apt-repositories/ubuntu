@@ -6,6 +6,56 @@
 	],
 	"package": "libcurl4t64",
 	"source": "curl",
+	"version": "8.18.0-1ubuntu2.8",
+	"section": "libs",
+	"priority": "optional",
+	"architecture": "amd64",
+	"depends": [
+		"libbrotli1 (>= 0.6.0)",
+		"libc6 (>= 2.34)",
+		"libgssapi-krb5-2 (>= 1.17)",
+		"libidn2-0 (>= 2.0.0)",
+		"libldap2 (>= 2.6.2)",
+		"libnghttp2-14 (>= 1.50.0)",
+		"libpsl5t64 (>= 0.16.0)",
+		"librtmp1 (>= 2.3)",
+		"libssh2-1t64 (>= 1.11.1)",
+		"libssl3t64 (>= 3.2.0)",
+		"libzstd1 (>= 1.5.5)",
+		"zlib1g (>= 1:1.2.3.4)"
+	],
+	"recommends": [
+		"ca-certificates"
+	],
+	"replaces": [
+		"libcurl3",
+		"libcurl4"
+	],
+	"breaks": [
+		"libcurl4 (<< 8.18.0-1ubuntu2.8)"
+	],
+	"conflicts": [
+		"libcurl3"
+	],
+	"installedSize": 1029,
+	"maintainer": "Ubuntu Developers <ubuntu-devel-discuss@lists.ubuntu.com>",
+	"description": "easy-to-use client-side URL transfer library (OpenSSL flavour)",
+	"homepage": "https://curl.se/",
+	"filename": "pool/main/c/curl/libcurl4t64_8.18.0-1ubuntu2.8_amd64.deb",
+	"size": 429688,
+	"md5": "2c70b2e7048a11cf31448f6875de4af4",
+	"sha1": "1100984a758cbbc16d2904575c071a0594d10f95",
+	"sha256": "7c0b37592f83a629cc22f0c98effa176da9edbd6d77b3f38184a9d0ddc5e0266",
+	"sha512": "688107e8a12c9fddbfabca2c91c7688c101cbc5bca8ac1de5d6bae581f723a6e1181a1d9312bc622131b677dd6405a8df4c83166c33de48e5ad940184305764a",
+	"descriptionMd5": "f1c7f18aba2d8ab7a7e32acea1dc61e7"
+},{
+	"raw": {},
+	"required": [
+		"Filename",
+		"Size"
+	],
+	"package": "libcurl4t64",
+	"source": "curl",
 	"version": "8.18.0-1ubuntu2.7",
 	"section": "libs",
 	"priority": "optional",
