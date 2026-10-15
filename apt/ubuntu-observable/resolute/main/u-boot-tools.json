@@ -6,6 +6,49 @@
 	],
 	"package": "u-boot-tools",
 	"source": "u-boot",
+	"version": "2025.10-0ubuntu2.2",
+	"section": "admin",
+	"priority": "optional",
+	"architecture": "amd64",
+	"depends": [
+		"libc6 (>= 2.38)",
+		"libgnutls30t64 (>= 3.7.3)",
+		"libssl3t64 (>= 3.0.0)",
+		"libtinfo6 (>= 6)"
+	],
+	"recommends": [
+		"device-tree-compiler",
+		"libubootenv-tool"
+	],
+	"replaces": [
+		"u-boot (<< 2010.12-2)",
+		"uboot-envtools (<< 20081215-3~)",
+		"uboot-mkimage (<= 0.4build1)"
+	],
+	"breaks": [
+		"u-boot (<< 2010.12-2)",
+		"uboot-envtools (<< 20081215-3~)",
+		"uboot-mkimage (<= 0.4build1)"
+	],
+	"installedSize": 1641,
+	"maintainer": "Ubuntu Developers <ubuntu-devel-discuss@lists.ubuntu.com>",
+	"description": "companion tools for Das U-Boot bootloader",
+	"homepage": "https://www.denx.de/wiki/U-Boot/",
+	"filename": "pool/main/u/u-boot/u-boot-tools_2025.10-0ubuntu2.2_amd64.deb",
+	"size": 353712,
+	"md5": "dfa8994a377b9775a3e0c841b0a1a6aa",
+	"sha1": "f0db615a2b63141e63aa4c7467167625dca88d5e",
+	"sha256": "7ba0e01c0f9fd77e15966bfac6504bd37c3da13171039c21df0ecfe71635837f",
+	"sha512": "1c33ab4befd45e46bd283d81ec0cc8eb02ec81f7fe0f2a0d8a7a69fdd8f80905becb4901d3fc6405ac7945bc8626f7bf43b98e123b7839de26f952b2c67d7974",
+	"descriptionMd5": "c38231d5aa97b79ddca9c2bb0d963312"
+},{
+	"raw": {},
+	"required": [
+		"Filename",
+		"Size"
+	],
+	"package": "u-boot-tools",
+	"source": "u-boot",
 	"version": "2025.10-0ubuntu2.1",
 	"section": "admin",
 	"priority": "optional",

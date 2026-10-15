@@ -6,6 +6,78 @@
 	],
 	"package": "openssh-server",
 	"source": "openssh",
+	"version": "1:8.9p1-3ubuntu0.18",
+	"section": "net",
+	"priority": "optional",
+	"architecture": "amd64",
+	"depends": [
+		"adduser (>= 3.9)",
+		"dpkg (>= 1.9.0)",
+		"libpam-modules (>= 0.72-9)",
+		"libpam-runtime (>= 0.76-14)",
+		"lsb-base (>= 4.1+Debian3)",
+		"openssh-client (= 1:8.9p1-3ubuntu0.18)",
+		"openssh-sftp-server",
+		"procps",
+		"ucf (>= 0.28)",
+		"debconf (>= 0.5) | debconf-2.0",
+		"libaudit1 (>= 1:2.2.1)",
+		"libc6 (>= 2.34)",
+		"libcom-err2 (>= 1.43.9)",
+		"libcrypt1 (>= 1:4.1.0)",
+		"libgssapi-krb5-2 (>= 1.17)",
+		"libkrb5-3 (>= 1.13~alpha1+dfsg)",
+		"libpam0g (>= 0.99.7.1)",
+		"libselinux1 (>= 3.1~)",
+		"libssl3 (>= 3.0.2)",
+		"libsystemd0",
+		"libwrap0 (>= 7.6-4~)",
+		"zlib1g (>= 1:1.1.4)"
+	],
+	"preDepends": [
+		"init-system-helpers (>= 1.54~)"
+	],
+	"recommends": [
+		"default-logind | logind | libpam-systemd",
+		"ncurses-term",
+		"xauth",
+		"ssh-import-id"
+	],
+	"suggests": [
+		"molly-guard",
+		"monkeysphere",
+		"ssh-askpass",
+		"ufw"
+	],
+	"replaces": [
+		"openssh-client (<< 1:7.9p1-8)",
+		"ssh",
+		"ssh-krb5"
+	],
+	"conflicts": [
+		"sftp",
+		"ssh-socks",
+		"ssh2"
+	],
+	"installedSize": 1505,
+	"maintainer": "Ubuntu Developers <ubuntu-devel-discuss@lists.ubuntu.com>",
+	"description": "secure shell (SSH) server, for secure access from remote machines",
+	"homepage": "http://www.openssh.com/",
+	"filename": "pool/main/o/openssh/openssh-server_8.9p1-3ubuntu0.18_amd64.deb",
+	"size": 435938,
+	"md5": "21be7cf2c165aa142b2355ed30b385df",
+	"sha1": "426ec007f0373c3acd75c126b357c10b3c3b12e2",
+	"sha256": "c633f8518b4576680f45a1abfa5660c3c10d770fc625fda9c70f38cbb1c9519f",
+	"sha512": "6563830432318c19d866f51bcdac62c069fc65628e2bf01ccce278b90f24621628e8702782e97297cee6e24baf7fd4fe1780558971fc98d7851e67aec17d6668",
+	"descriptionMd5": "842cc998cae371b9d8106c1696373919"
+},{
+	"raw": {},
+	"required": [
+		"Filename",
+		"Size"
+	],
+	"package": "openssh-server",
+	"source": "openssh",
 	"version": "1:8.9p1-3ubuntu0.17",
 	"section": "net",
 	"priority": "optional",

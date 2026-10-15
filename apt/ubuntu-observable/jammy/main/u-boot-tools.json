@@ -6,6 +6,49 @@
 	],
 	"package": "u-boot-tools",
 	"source": "u-boot",
+	"version": "2022.01+dfsg-2ubuntu2.9",
+	"section": "admin",
+	"priority": "optional",
+	"architecture": "amd64",
+	"depends": [
+		"libc6 (>= 2.34)",
+		"libgnutls30 (>= 3.7.3)",
+		"libssl3 (>= 3.0.0~~alpha1)",
+		"libuuid1 (>= 2.16)"
+	],
+	"recommends": [
+		"device-tree-compiler",
+		"libubootenv-tool"
+	],
+	"replaces": [
+		"u-boot (<< 2010.12-2)",
+		"uboot-envtools (<< 20081215-3~)",
+		"uboot-mkimage (<= 0.4build1)"
+	],
+	"breaks": [
+		"u-boot (<< 2010.12-2)",
+		"uboot-envtools (<< 20081215-3~)",
+		"uboot-mkimage (<= 0.4build1)"
+	],
+	"installedSize": 773,
+	"maintainer": "Ubuntu Developers <ubuntu-devel-discuss@lists.ubuntu.com>",
+	"description": "companion tools for Das U-Boot bootloader",
+	"homepage": "https://www.denx.de/wiki/U-Boot/",
+	"filename": "pool/main/u/u-boot/u-boot-tools_2022.01+dfsg-2ubuntu2.9_amd64.deb",
+	"size": 200184,
+	"md5": "0d586bc73f0977e136ee441fb04d17e6",
+	"sha1": "f5dc6cfe7245704f78e6579d4359e228b0d956fd",
+	"sha256": "40d51c7770b78e9b048379545cab29f2a6fc963e44acb312dd40f8c9e57cb53a",
+	"sha512": "1973afcf39005310df00720ae9a099c084c1cf2b22555eb1fa527d4e85f7986db2cf5a7cacf24809e3a5136a2b1b7bf49a1deae1c516e46e449d3b79854cbd9b",
+	"descriptionMd5": "33fbb104fcb1ca0174bdf12a6f7c7368"
+},{
+	"raw": {},
+	"required": [
+		"Filename",
+		"Size"
+	],
+	"package": "u-boot-tools",
+	"source": "u-boot",
 	"version": "2022.01+dfsg-2ubuntu2.8",
 	"section": "admin",
 	"priority": "optional",

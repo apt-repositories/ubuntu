@@ -6,6 +6,47 @@
 	],
 	"package": "systemd-sysv",
 	"source": "systemd",
+	"version": "249.11-0ubuntu3.23",
+	"section": "admin",
+	"priority": "important",
+	"architecture": "amd64",
+	"depends": [
+		"systemd (= 249.11-0ubuntu3.23)"
+	],
+	"preDepends": [
+		"systemd"
+	],
+	"recommends": [
+		"libpam-systemd",
+		"libnss-systemd"
+	],
+	"replaces": [
+		"sysvinit-core"
+	],
+	"conflicts": [
+		"file-rc",
+		"systemd-shim",
+		"sysvinit-core"
+	],
+	"installedSize": 200,
+	"maintainer": "Ubuntu Developers <ubuntu-devel-discuss@lists.ubuntu.com>",
+	"description": "system and service manager - SysV links",
+	"homepage": "https://www.freedesktop.org/wiki/Software/systemd",
+	"filename": "pool/main/s/systemd/systemd-sysv_249.11-0ubuntu3.23_amd64.deb",
+	"size": 10468,
+	"md5": "12da3220ca071766b342798dc2d2c910",
+	"sha1": "685e5512b207390a442336e5ffb9846a342304e1",
+	"sha256": "38c59886d0de3a3ca6ed1dd94a33beccc8c88ed81038306d87bb88686ab76bd1",
+	"sha512": "0eabe4a4c8f80a440865be8a452d255434e3ec09b959c067b7bbf67f6884650d8ba04109d49f0d3a9ace420183285128a03a3bb26f56a1a378205141169bb152",
+	"descriptionMd5": "b0c2db4da8d807aa3f83a2977e491907"
+},{
+	"raw": {},
+	"required": [
+		"Filename",
+		"Size"
+	],
+	"package": "systemd-sysv",
+	"source": "systemd",
 	"version": "249.11-0ubuntu3.22",
 	"section": "admin",
 	"priority": "important",
