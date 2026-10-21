@@ -5,6 +5,50 @@
 		"Size"
 	],
 	"package": "cifs-utils",
+	"version": "2:7.4-1ubuntu0.26.04.4",
+	"section": "otherosfs",
+	"priority": "optional",
+	"architecture": "amd64",
+	"depends": [
+		"libc6 (>= 2.38)",
+		"libcap-ng0 (>= 0.7.9)",
+		"libgssapi-krb5-2 (>= 1.17)",
+		"libkeyutils1 (>= 1.4)",
+		"libkrb5-3 (>= 1.13~alpha1+dfsg)",
+		"libpam0g (>= 0.99.7.1)",
+		"libtalloc2 (>= 2.0.4~git20101213)",
+		"libwbclient0 (>= 2:4.0.3+dfsg1)",
+		"python3"
+	],
+	"recommends": [
+		"keyutils"
+	],
+	"suggests": [
+		"smbclient",
+		"winbind",
+		"bash-completion"
+	],
+	"replaces": [
+		"smbfs (<< 2:4.0~rc1-1)"
+	],
+	"installedSize": 352,
+	"maintainer": "Ubuntu Developers <ubuntu-devel-discuss@lists.ubuntu.com>",
+	"description": "Common Internet File System utilities",
+	"homepage": "https://wiki.samba.org/index.php/LinuxCIFS_utils",
+	"filename": "pool/main/c/cifs-utils/cifs-utils_7.4-1ubuntu0.26.04.4_amd64.deb",
+	"size": 105376,
+	"md5": "4dc492684feae2890b66c275be1b0c81",
+	"sha1": "a99688cb3731d888cea166d4489b3b4bc416d398",
+	"sha256": "2c53faaad9aff422f6e1e56f0df26c5cf39af06f36de7cdf721352353576ef2c",
+	"sha512": "efae0f201ada557f20e70cab23be53c6e0c3471029e54a5f145b4d191201eb2d0125683d066159931733dd50cae47ca9729e40936a019e357bc6372aa7f4d437",
+	"descriptionMd5": "935040b98485786df2e3f301255ff219"
+},{
+	"raw": {},
+	"required": [
+		"Filename",
+		"Size"
+	],
+	"package": "cifs-utils",
 	"version": "2:7.4-1ubuntu0.26.04.3",
 	"section": "otherosfs",
 	"priority": "optional",

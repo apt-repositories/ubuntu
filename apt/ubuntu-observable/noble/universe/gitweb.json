@@ -6,6 +6,46 @@
 	],
 	"package": "gitweb",
 	"source": "git",
+	"version": "1:2.43.0-1ubuntu7.4",
+	"section": "universe/devel",
+	"priority": "optional",
+	"architecture": "all",
+	"depends": [
+		"git (>> 1:2.43.0)",
+		"git (<< 1:2.43.0-.)",
+		"perl",
+		"libcgi-pm-perl"
+	],
+	"recommends": [
+		"apache2 (>= 2.4.6-4~) | lynx | httpd",
+		"libhttp-date-perl | libtime-parsedate-perl"
+	],
+	"suggests": [
+		"httpd-cgi | libcgi-fast-perl",
+		"git-doc"
+	],
+	"breaks": [
+		"apache2.2-common (<< 2.3~)"
+	],
+	"installedSize": 1034,
+	"maintainer": "Ubuntu Developers <ubuntu-devel-discuss@lists.ubuntu.com>",
+	"description": "fast, scalable, distributed revision control system (web interface)",
+	"homepage": "https://git-scm.com/",
+	"filename": "pool/universe/g/git/gitweb_2.43.0-1ubuntu7.4_all.deb",
+	"size": 10306,
+	"md5": "ae3e592a1c64a5054567976150f9d10b",
+	"sha1": "5a357ac739fa8f07f4cd3a06faeb7a806d5ef034",
+	"sha256": "269c936c082014c32e2431079020797aa657b5046f44f79947e3db164ed84360",
+	"sha512": "7b8706e7ffb94a9a4b2fdfb03af3c2e44cc602a0317ab38c8976f4a46f70f832c012ef71e580d029b0f3e25e35b67a234ac918d059c4c1631445bb9c7b034642",
+	"descriptionMd5": "2140d89702ec1cd621b41c71a95a910a"
+},{
+	"raw": {},
+	"required": [
+		"Filename",
+		"Size"
+	],
+	"package": "gitweb",
+	"source": "git",
 	"version": "1:2.43.0-1ubuntu7.3",
 	"section": "universe/devel",
 	"priority": "optional",

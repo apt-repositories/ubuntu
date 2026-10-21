@@ -6,6 +6,77 @@
 	],
 	"package": "squid-openssl",
 	"source": "squid",
+	"version": "5.9-0ubuntu0.22.04.8",
+	"section": "universe/web",
+	"priority": "optional",
+	"architecture": "amd64",
+	"depends": [
+		"libc6 (>= 2.34)",
+		"libcap2 (>= 1:2.10)",
+		"libcom-err2 (>= 1.43.9)",
+		"libcrypt1 (>= 1:4.1.0)",
+		"libecap3 (>= 1.0.1)",
+		"libexpat1 (>= 2.0.1)",
+		"libgcc-s1 (>= 3.4)",
+		"libgssapi-krb5-2 (>= 1.17)",
+		"libkrb5-3 (>= 1.10+dfsg~)",
+		"libldap-2.5-0 (>= 2.5.4)",
+		"libltdl7 (>= 2.4.6)",
+		"libnetfilter-conntrack3 (>= 1.0.1)",
+		"libnettle8",
+		"libpam0g (>= 0.99.7.1)",
+		"libsasl2-2 (>= 2.1.27+dfsg2)",
+		"libssl3 (>= 3.0.0~~alpha1)",
+		"libstdc++6 (>= 11)",
+		"libsystemd0",
+		"libtdb1 (>= 1.2.7+git20101214)",
+		"libxml2 (>= 2.7.4)",
+		"netbase",
+		"logrotate (>= 3.5.4-1)",
+		"squid-common (>= 5.9-0ubuntu0.22.04.8)",
+		"lsb-base",
+		"libdbi-perl"
+	],
+	"preDepends": [
+		"init-system-helpers (>= 1.54~)",
+		"adduser"
+	],
+	"recommends": [
+		"libcap2-bin",
+		"ca-certificates"
+	],
+	"suggests": [
+		"squidclient",
+		"squid-cgi",
+		"squid-purge",
+		"resolvconf (>= 0.40)",
+		"smbclient",
+		"ufw",
+		"winbind",
+		"apparmor"
+	],
+	"conflicts": [
+		"squid"
+	],
+	"installedSize": 8434,
+	"maintainer": "Ubuntu Developers <ubuntu-devel-discuss@lists.ubuntu.com>",
+	"description": "Full featured Web Proxy cache (HTTP proxy OpenSSL flavour)",
+	"homepage": "http://www.squid-cache.org",
+	"filename": "pool/universe/s/squid/squid-openssl_5.9-0ubuntu0.22.04.8_amd64.deb",
+	"size": 2837196,
+	"md5": "d0600339a7f118e16fbab60c2943034c",
+	"sha1": "4731c27157ec4872d789e1960df2d9586efcfc4f",
+	"sha256": "c6cc3e435f1afbc4cc5ecbf77436fb77ad35913c6363159d271a5d5dbd624fa4",
+	"sha512": "e1d76e1956f5b2e2a1ffdb83655224a9b5e3a0811670e031e552ffb489c7aa4a4596b7ae7270c419580a1795efdc2cd2903b22fab69549b30266d6f8eef0ba12",
+	"descriptionMd5": "5bf29475ec87cc2bfc40e9d99f9a2d6f"
+},{
+	"raw": {},
+	"required": [
+		"Filename",
+		"Size"
+	],
+	"package": "squid-openssl",
+	"source": "squid",
 	"version": "5.9-0ubuntu0.22.04.7",
 	"section": "universe/web",
 	"priority": "optional",

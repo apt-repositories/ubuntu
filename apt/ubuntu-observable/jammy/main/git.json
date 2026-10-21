@@ -5,6 +5,70 @@
 		"Size"
 	],
 	"package": "git",
+	"version": "1:2.34.1-1ubuntu1.18",
+	"section": "vcs",
+	"priority": "optional",
+	"architecture": "amd64",
+	"depends": [
+		"libc6 (>= 2.34)",
+		"libcurl3-gnutls (>= 7.63.0)",
+		"libexpat1 (>= 2.0.1)",
+		"libpcre2-8-0 (>= 10.34)",
+		"zlib1g (>= 1:1.2.0)",
+		"perl",
+		"liberror-perl",
+		"git-man (>> 1:2.34.1)",
+		"git-man (<< 1:2.34.1-.)"
+	],
+	"recommends": [
+		"ca-certificates",
+		"patch",
+		"less",
+		"ssh-client"
+	],
+	"suggests": [
+		"gettext-base",
+		"git-daemon-run | git-daemon-sysvinit",
+		"git-doc",
+		"git-email",
+		"git-gui",
+		"gitk",
+		"gitweb",
+		"git-cvs",
+		"git-mediawiki",
+		"git-svn"
+	],
+	"breaks": [
+		"bash-completion (<< 1:1.90-1)",
+		"cogito (<= 0.18.2+)",
+		"dgit (<< 5.1~)",
+		"git-buildpackage (<< 0.6.5)",
+		"git-el (<< 1:2.32.0~rc2-1~)",
+		"gitosis (<< 0.2+20090917-7)",
+		"gitpkg (<< 0.15)",
+		"guilt (<< 0.33)",
+		"openssh-client (<< 1:6.8)",
+		"stgit (<< 0.15)",
+		"stgit-contrib (<< 0.15)"
+	],
+	"installedSize": 18488,
+	"maintainer": "Ubuntu Developers <ubuntu-devel-discuss@lists.ubuntu.com>",
+	"description": "fast, scalable, distributed revision control system",
+	"homepage": "https://git-scm.com/",
+	"filename": "pool/main/g/git/git_2.34.1-1ubuntu1.18_amd64.deb",
+	"size": 3174390,
+	"md5": "3f3534497ba6513b17ecb21e3c62dbc2",
+	"sha1": "64cee29292b4083359287c729558a6f58fc8e5c2",
+	"sha256": "9551f894b8acd4a748ecec4a63678e359b9f05d2bbe7227584e2b9e8bb42ef88",
+	"sha512": "fcd03508c775e6ec74cffec0bc26b0a20e9e09a0350953470bcd8bf8bb6c13406fa29aebd48a6587b956252502e82f3551775ef384509c88837330ccebec3bd7",
+	"descriptionMd5": "c1f968556452a190fe359bffd151c012"
+},{
+	"raw": {},
+	"required": [
+		"Filename",
+		"Size"
+	],
+	"package": "git",
 	"version": "1:2.34.1-1ubuntu1.17",
 	"section": "vcs",
 	"priority": "optional",
