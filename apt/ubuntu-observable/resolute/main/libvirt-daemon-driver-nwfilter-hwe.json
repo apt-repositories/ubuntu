@@ -48,6 +48,48 @@
 	],
 	"package": "libvirt-daemon-driver-nwfilter-hwe",
 	"source": "libvirt-hwe",
+	"version": "12.0.0-1ubuntu5.6",
+	"section": "admin",
+	"priority": "optional",
+	"architecture": "amd64",
+	"depends": [
+		"iptables",
+		"libvirt-common (= 12.0.0-1ubuntu5.6)",
+		"libvirt-daemon (= 12.0.0-1ubuntu5.6)",
+		"libvirt0 (= 12.0.0-1ubuntu5.6)",
+		"libc6 (>= 2.38)",
+		"libgcc-s1 (>= 3.3.1)",
+		"libglib2.0-0t64 (>= 2.26.0)",
+		"libpcap0.8t64 (>= 1.5.1)",
+		"libvirt0-hwe (>= 12.0.0)",
+		"ubuntu-virt-hwe (>= 1:10.2.1+ds-1ubuntu4.4~)"
+	],
+	"replaces": [
+		"libvirt-daemon (<< 10.6.0-2~)",
+		"libvirt-daemon-driver-nwfilter"
+	],
+	"breaks": [
+		"libvirt-daemon (<< 10.6.0-2~)"
+	],
+	"installedSize": 140,
+	"maintainer": "Ubuntu Developers <ubuntu-devel-discuss@lists.ubuntu.com>",
+	"description": "virtualization daemon - network filter (nwfilter) driver",
+	"homepage": "https://libvirt.org/formatnwfilter.html",
+	"filename": "pool/main/libv/libvirt-hwe/libvirt-daemon-driver-nwfilter-hwe_12.0.0-1ubuntu5.6_amd64.deb",
+	"size": 48530,
+	"md5": "174cc6bfd15748c2e7b562839d103947",
+	"sha1": "e7dd628b7348af8510221e7db43156cea4f6f3b4",
+	"sha256": "eb81cd5eafa583e859c3395e564eb7cdb77e9d6caa0926507baec29ca8652992",
+	"sha512": "acb826b7c846b9a980236ea15e8563ff0225808c02bbcc2aa0fe9c42c12d9e9f00d9fa58507469178c997ac85bd85e6bcaa42a012187f4a2f94d3a8bdff2f15c",
+	"descriptionMd5": "fe7a68535c22e5eb6a56a0998a69f16a"
+},{
+	"raw": {},
+	"required": [
+		"Filename",
+		"Size"
+	],
+	"package": "libvirt-daemon-driver-nwfilter-hwe",
+	"source": "libvirt-hwe",
 	"version": "12.0.0-1ubuntu5",
 	"section": "admin",
 	"priority": "optional",
