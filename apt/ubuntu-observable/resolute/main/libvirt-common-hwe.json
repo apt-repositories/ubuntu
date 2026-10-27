@@ -43,6 +43,43 @@
 	],
 	"package": "libvirt-common-hwe",
 	"source": "libvirt-hwe",
+	"version": "12.0.0-1ubuntu5.6",
+	"section": "libs",
+	"priority": "optional",
+	"architecture": "amd64",
+	"depends": [
+		"ubuntu-virt-hwe (>= 1:10.2.1+ds-1ubuntu4.4~)"
+	],
+	"replaces": [
+		"libvirt-clients (<< 10.6.0-2~)",
+		"libvirt-common",
+		"libvirt-daemon-system (<< 10.6.0-2~)",
+		"libvirt0 (<< 10.6.0-2~)"
+	],
+	"breaks": [
+		"libvirt-clients (<< 10.6.0-2~)",
+		"libvirt-daemon-system (<< 10.6.0-2~)",
+		"libvirt0 (<< 10.6.0-2~)"
+	],
+	"installedSize": 1191,
+	"maintainer": "Ubuntu Developers <ubuntu-devel-discuss@lists.ubuntu.com>",
+	"description": "virtualization library - common files",
+	"homepage": "https://libvirt.org/",
+	"filename": "pool/main/libv/libvirt-hwe/libvirt-common-hwe_12.0.0-1ubuntu5.6_amd64.deb",
+	"size": 117324,
+	"md5": "2bc0915007b43a1d46105e4671c235d2",
+	"sha1": "7f588fc85626fd0f1f192a09dceb23f9816c5e14",
+	"sha256": "ce8814419dc998fc6dc0aa06eb9c0b3ea62131a44344f2625f736e09a3905b61",
+	"sha512": "20e4e0de03d08bdeae8d475aa731671f83f00ba50e8d476b5d01e2cb7206c433ac1ed01a4b57710b00e58ee4845fae8f80a93bd86137b3b1c509418a8f636599",
+	"descriptionMd5": "d0f0a44f6a022d9e75f6f3ba8cb468b5"
+},{
+	"raw": {},
+	"required": [
+		"Filename",
+		"Size"
+	],
+	"package": "libvirt-common-hwe",
+	"source": "libvirt-hwe",
 	"version": "12.0.0-1ubuntu5",
 	"section": "libs",
 	"priority": "optional",
