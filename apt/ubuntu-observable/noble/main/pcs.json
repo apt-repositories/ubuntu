@@ -5,6 +5,60 @@
 		"Size"
 	],
 	"package": "pcs",
+	"version": "0.11.7-1ubuntu1.1",
+	"section": "admin",
+	"priority": "extra",
+	"architecture": "all",
+	"depends": [
+		"libnss3-tools",
+		"psmisc",
+		"puma",
+		"python3:any",
+		"python3-dacite",
+		"python3-dateutil",
+		"python3-lxml",
+		"python3-openssl",
+		"python3-pkg-resources",
+		"python3-pycurl",
+		"python3-pyparsing",
+		"python3-tornado (>= 6.0.4)",
+		"ruby",
+		"ruby-childprocess",
+		"ruby-ethon",
+		"ruby-json",
+		"ruby-nio4r",
+		"ruby-sinatra"
+	],
+	"preDepends": [
+		"init-system-helpers (>= 1.54~)"
+	],
+	"recommends": [
+		"pacemaker (>= 2.0)"
+	],
+	"breaks": [
+		"pacemaker (<< 2.0)"
+	],
+	"conflicts": [
+		"python3-pcs"
+	],
+	"installedSize": 3379,
+	"maintainer": "Ubuntu Developers <ubuntu-devel-discuss@lists.ubuntu.com>",
+	"description": "Pacemaker Configuration System",
+	"homepage": "https://github.com/ClusterLabs/pcs",
+	"filename": "pool/main/p/pcs/pcs_0.11.7-1ubuntu1.1_all.deb",
+	"size": 498832,
+	"md5": "53ac64c3d9e32ad64b7a2b248adb4b9e",
+	"sha1": "e9ed8f3c118db8595eca1b14e3719a640e9f8b7c",
+	"sha256": "6ec63ee69d2c530ce251ea82bdf3133b81256bfde8cb812b20a26cd45743f6b1",
+	"sha512": "da6fc92d185eaf5cd2b3ff74e5f4776c6e877c8fd559d95389f700ce494cb26154e8d467d2ff211800bbcc006d02e86f5170bcd6f4e391496efaa3cb2476198d",
+	"descriptionMd5": "9591f3d4966c2a44acf5838689dcc0c6"
+},{
+	"raw": {},
+	"required": [
+		"Filename",
+		"Size"
+	],
+	"package": "pcs",
 	"version": "0.11.7-1ubuntu1",
 	"section": "admin",
 	"priority": "extra",

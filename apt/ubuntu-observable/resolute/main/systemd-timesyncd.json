@@ -41,6 +41,41 @@
 	],
 	"package": "systemd-timesyncd",
 	"source": "systemd",
+	"version": "259.9-0ubuntu0.1",
+	"section": "admin",
+	"priority": "optional",
+	"architecture": "amd64",
+	"depends": [
+		"libc6 (>= 2.34)",
+		"libsystemd-shared (= 259.9-0ubuntu0.1)",
+		"systemd"
+	],
+	"replaces": [
+		"time-daemon"
+	],
+	"conflicts": [
+		"systemd (<< 256.2-2~)",
+		"time-daemon"
+	],
+	"installedSize": 183,
+	"maintainer": "Ubuntu Developers <ubuntu-devel-discuss@lists.ubuntu.com>",
+	"description": "minimalistic service to synchronize local time with NTP servers",
+	"homepage": "https://systemd.io",
+	"filename": "pool/main/s/systemd/systemd-timesyncd_259.9-0ubuntu0.1_amd64.deb",
+	"size": 41176,
+	"md5": "73cf4d9d01dda350db059ec459732c41",
+	"sha1": "bce7336fc8709a3357fda256b5ce4c0dc45285fd",
+	"sha256": "ad0162f0f7613ab91f95fd46f95b21e7d631441e4ab7643cb29bb32f2ccbd7c7",
+	"sha512": "fbf57ad16fc3d5e4ae84b0695670c8f6fa00d292b3c92dd43a74726b24a92cf11a2e8fa2e69e5cff161c0aa0aefd2bd9d78d36608302e43f306ff1021d31a4ab",
+	"descriptionMd5": "cc67d85c248836d96a6310e58a659de0"
+},{
+	"raw": {},
+	"required": [
+		"Filename",
+		"Size"
+	],
+	"package": "systemd-timesyncd",
+	"source": "systemd",
 	"version": "259.5-0ubuntu3",
 	"section": "admin",
 	"priority": "optional",

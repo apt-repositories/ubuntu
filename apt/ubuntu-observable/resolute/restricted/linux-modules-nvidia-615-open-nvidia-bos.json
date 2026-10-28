@@ -24,4 +24,36 @@
 	"sha256": "9bbb42d3f0594a7c42a892d76d43f397e61683f23597f788beb721c6fadd2dd9",
 	"sha512": "7a6f2dc0515721ca0037e826c0286c8f5cf5d4d0b23ed1b062aa5ec5087fdac2601842150653a92d778e01a8e45cb7e8f9107c2762b2dd3fc14e10e1d1be39a5",
 	"descriptionMd5": "4f682671eb31146960a2d474802a4e0e"
+},{
+	"raw": {},
+	"required": [
+		"Filename",
+		"Size"
+	],
+	"package": "linux-modules-nvidia-615-open-nvidia-bos",
+	"source": "linux-restricted-modules-nvidia-bos",
+	"version": "7.0.0-2022.23",
+	"section": "restricted/kernel",
+	"priority": "optional",
+	"architecture": "amd64",
+	"depends": [
+		"linux-modules-nvidia-615-open-7.0.0-2022-nvidia-bos (= 7.0.0-2022.23)",
+		"nvidia-kernel-common-615 (>= 615.71.09)"
+	],
+	"breaks": [
+		"linux-nvidia-bos (>= 7.0.0-2023~)",
+		"linux-nvidia-bos (<< 7.0.0-2022)",
+		"nvidia-kernel-common-615 (>> 615.71.09+)",
+		"nvidia-kernel-common-615 (<< 615.71.09)"
+	],
+	"installedSize": 19,
+	"maintainer": "Canonical Kernel Team <kernel-team@lists.ubuntu.com>",
+	"description": "Extra drivers for nvidia-615-open for the nvidia-bos flavour",
+	"filename": "pool/restricted/l/linux-restricted-modules-nvidia-bos/linux-modules-nvidia-615-open-nvidia-bos_7.0.0-2022.23_amd64.deb",
+	"size": 6728,
+	"md5": "96c07e7fa7029c42e8eeb624ad84e86b",
+	"sha1": "aec16324429686fef67d4e42d0874400e183c9a5",
+	"sha256": "581b95d9469e5d16d65fc5d617a246a30096d0b2aa805ac1c028448ae3b158e9",
+	"sha512": "a3eb5485d0232fa03a777c3a4dcefaa532ec78374af9b2653203c92db63b099ceca6332a82b528a3f5a4bc77d2304cfbf0621c8f8d7548fe549c21fa2eff5d8d",
+	"descriptionMd5": "4f682671eb31146960a2d474802a4e0e"
 }]

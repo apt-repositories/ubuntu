@@ -6,22 +6,28 @@
 	],
 	"package": "linux-modules-nvidia-580-server-nvidia-bos",
 	"source": "linux-restricted-modules-nvidia-bos",
-	"version": "7.0.0-2018.18+2",
+	"version": "7.0.0-2022.23",
 	"section": "restricted/kernel",
 	"priority": "optional",
 	"architecture": "amd64",
 	"depends": [
-		"linux-modules-nvidia-580-server-7.0.0-2018-nvidia-bos (= 7.0.0-2018.18+2)",
+		"linux-modules-nvidia-580-server-7.0.0-2022-nvidia-bos (= 7.0.0-2022.23)",
 		"nvidia-kernel-common-580-server (>= 580.178.04)"
 	],
-	"installedSize": 18,
+	"breaks": [
+		"linux-nvidia-bos (>= 7.0.0-2023~)",
+		"linux-nvidia-bos (<< 7.0.0-2022)",
+		"nvidia-kernel-common-580-server (>> 580.178.04+)",
+		"nvidia-kernel-common-580-server (<< 580.178.04)"
+	],
+	"installedSize": 19,
 	"maintainer": "Canonical Kernel Team <kernel-team@lists.ubuntu.com>",
 	"description": "Extra drivers for nvidia-580-server for the nvidia-bos flavour",
-	"filename": "pool/restricted/l/linux-restricted-modules-nvidia-bos/linux-modules-nvidia-580-server-nvidia-bos_7.0.0-2018.18+2_amd64.deb",
-	"size": 6496,
-	"md5": "f8b53afda6ef843c27e2d28d423157f3",
-	"sha1": "d99adb4984049e30bbf5d1e5e69270ac40fc3a8b",
-	"sha256": "65300f4d6db84ad08f01ff56f242c2e73608383627d4e1358f492cff3eb0cf6a",
-	"sha512": "06802a2d85061bbb7afaeaf8540a2773a7aad04af78bb9bf6320eebbd8482a52157dabc4884c72193cdb8e125668ebf42cb0e2ff370a8a984bb63715bc0cb5b8",
+	"filename": "pool/restricted/l/linux-restricted-modules-nvidia-bos/linux-modules-nvidia-580-server-nvidia-bos_7.0.0-2022.23_amd64.deb",
+	"size": 6726,
+	"md5": "57053ad298e41ca854d0f5ef62a1f274",
+	"sha1": "a17ee66a07009cf5772e4b465be2c3bd86e6ca27",
+	"sha256": "d1d9f5599293c3d4035b8e10f21ee2a7670ad414b361be7a983dd5f86111a355",
+	"sha512": "3755137bcfd8b65d17778ded062e63753635c32f0553b287012d243179f46f70a550b449402994e71dbb16b171a41b15f85a332d102c156a9ecbc1c023e8196a",
 	"descriptionMd5": "e5440388467cd097bb677267d0f4499a"
 }
