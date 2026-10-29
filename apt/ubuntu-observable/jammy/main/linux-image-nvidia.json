@@ -31,4 +31,37 @@
 	"sha256": "a35142e6e1c136237a56ff869d0933eac606d84ed9b6acf85d9ad3f25516515b",
 	"sha512": "302d51c848e94b0cd9edca304c8b39ce0a1e06f20204e847c93865c3f37941bcab1e7ab91e9f19952335ee0c1bd5b3526bb364b121712f66d5f2f3941d8c48b0",
 	"descriptionMd5": "32f0a618356a70daa88f54cec3c31344"
+},{
+	"raw": {},
+	"required": [
+		"Filename",
+		"Size"
+	],
+	"package": "linux-image-nvidia",
+	"source": "linux-meta-nvidia",
+	"version": "5.15.0.1114.114",
+	"section": "kernel",
+	"priority": "optional",
+	"architecture": "amd64",
+	"depends": [
+		"linux-image-5.15.0-1114-nvidia",
+		"linux-modules-extra-5.15.0-1114-nvidia",
+		"linux-firmware",
+		"intel-microcode",
+		"amd64-microcode",
+		"linux-modules-nvidia-fs-5.15.0-1114-nvidia"
+	],
+	"recommends": [
+		"thermald"
+	],
+	"installedSize": 22,
+	"maintainer": "Ubuntu Kernel Team <kernel-team@lists.ubuntu.com>",
+	"description": "Linux kernel image for Nvidia systems.",
+	"filename": "pool/main/l/linux-meta-nvidia/linux-image-nvidia_5.15.0.1114.114_amd64.deb",
+	"size": 15556,
+	"md5": "746bfe48362e8492550e46ff0beb94ae",
+	"sha1": "bfcd53f019e33f3e9e69d93154dde02e216dc890",
+	"sha256": "525053d3a92c5dea9f64e785772c8a680f1d9ec2836c4c250ba03c702a684e69",
+	"sha512": "3214a3e86c5917accb306422bdeb710b473c4780f3453127ac3f43bf093c6976430ce466f6bcc8227c64b9e02d495b0e29f7da4b646138e9d04a18cdbcc8def8",
+	"descriptionMd5": "32f0a618356a70daa88f54cec3c31344"
 }]
