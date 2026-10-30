@@ -48,6 +48,48 @@
 	],
 	"package": "udev",
 	"source": "systemd",
+	"version": "259.9-0ubuntu0.1",
+	"section": "admin",
+	"priority": "important",
+	"architecture": "amd64",
+	"depends": [
+		"libc6 (>= 2.38)",
+		"libsystemd-shared (= 259.9-0ubuntu0.1)",
+		"systemd | systemd-standalone-sysusers | systemd-sysusers",
+		"libkmod2",
+		"libudev1 (= 259.9-0ubuntu0.1)"
+	],
+	"recommends": [
+		"systemd-hwe-hwdb"
+	],
+	"replaces": [
+		"systemd (<< 255~rc1-4~)"
+	],
+	"breaks": [
+		"systemd (<< 259.9-0ubuntu0.1)"
+	],
+	"conflicts": [
+		"systemd (<< 255~rc1-4~)"
+	],
+	"installedSize": 10636,
+	"maintainer": "Ubuntu Developers <ubuntu-devel-discuss@lists.ubuntu.com>",
+	"description": "/dev/ and hotplug management daemon",
+	"homepage": "https://systemd.io",
+	"filename": "pool/main/s/systemd/udev_259.9-0ubuntu0.1_amd64.deb",
+	"size": 1525236,
+	"md5": "c11092ee25165ff28152a60b93c27ef4",
+	"sha1": "2769ac90eff21e6dd185b450bec2068e18c2e251",
+	"sha256": "8b7e29109bf3d0e32199b1f2111535740c9cb81e9d4273ec6f05682459cfc3f4",
+	"sha512": "37bcb6714aa759c08366ae8847fe88c18ae085aec4a1cb2be05b593cf134f24b2f563cc0b9f787e7857ae52a33eb551548ba08a5f7e21ff28e2b3d4feca48031",
+	"descriptionMd5": "e875ddb09f46f1f7672af537f0c875ca"
+},{
+	"raw": {},
+	"required": [
+		"Filename",
+		"Size"
+	],
+	"package": "udev",
+	"source": "systemd",
 	"version": "259.5-0ubuntu3",
 	"section": "admin",
 	"priority": "important",
