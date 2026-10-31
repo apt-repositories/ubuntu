@@ -67,6 +67,68 @@
 		"Size"
 	],
 	"package": "systemd",
+	"version": "259.9-0ubuntu0.1",
+	"section": "admin",
+	"priority": "important",
+	"architecture": "amd64",
+	"depends": [
+		"libc6 (>= 2.41)",
+		"libssl3t64 (>= 3.4.0)",
+		"libsystemd0 (= 259.9-0ubuntu0.1)",
+		"mount"
+	],
+	"preDepends": [
+		"libc6 (>= 2.38)",
+		"libsystemd-shared (= 259.9-0ubuntu0.1)"
+	],
+	"recommends": [
+		"default-dbus-system-bus | dbus-system-bus",
+		"linux-sysctl-defaults",
+		"login",
+		"systemd-timesyncd | time-daemon",
+		"systemd-resolved",
+		"systemd-cryptsetup"
+	],
+	"suggests": [
+		"systemd-container",
+		"systemd-homed",
+		"systemd-userdbd",
+		"systemd-boot",
+		"systemd-repart",
+		"libtss2-tcti-device0",
+		"polkitd"
+	],
+	"breaks": [
+		"dracut-core (<< 102-2~)",
+		"less (<< 563)",
+		"sicherboot (<< 0.1.6)"
+	],
+	"conflicts": [
+		"consolekit",
+		"elogind",
+		"libpam-ck-connector",
+		"opensysusers (<< 0.7.3-4.1~)",
+		"systemctl",
+		"systemd-shim"
+	],
+	"installedSize": 11020,
+	"maintainer": "Ubuntu Developers <ubuntu-devel-discuss@lists.ubuntu.com>",
+	"description": "system and service manager",
+	"homepage": "https://systemd.io",
+	"filename": "pool/main/s/systemd/systemd_259.9-0ubuntu0.1_amd64.deb",
+	"size": 3137006,
+	"md5": "a4470ce2d7df5239c364f168d4af263f",
+	"sha1": "47789ded9e17e8175d5e6122a6c67d880f0ae858",
+	"sha256": "f4189a9737929afa8c7e9fcb3cc86ec4d93982477d272c55e67fb4e34a0a13b8",
+	"sha512": "5ac7f43990aeadbfeada317688f3cea62a37a069e1994817e210c08e8d5cf2949f1b262e9ca1feb207fd320432dc99a66947a8dbc04be10cd469ac60090b2cd1",
+	"descriptionMd5": "2728f00e9cb47f195aa39097a3afbc42"
+},{
+	"raw": {},
+	"required": [
+		"Filename",
+		"Size"
+	],
+	"package": "systemd",
 	"version": "259.5-0ubuntu3",
 	"section": "admin",
 	"priority": "important",

@@ -34,4 +34,40 @@
 	"sha256": "1d77e25f6ec48e29c4197472330243800596b7e8d31533fdc3a83fada1f6dbbf",
 	"sha512": "ff1fb2b6958a2e3c30435e7f54831a68944e56d3feab6af7b3f4da6854b7f62ad84559644b4bdf9939dff6e161f73bda7c34909275aa38a133694afa63ba68df",
 	"descriptionMd5": "cd92f3c6ee903cba116a29fca8871f4d"
+},{
+	"raw": {},
+	"required": [
+		"Filename",
+		"Size"
+	],
+	"package": "linux-nvidia-tegra-igx-tegra-igpu-jetson-defaults",
+	"source": "linux-nvidia-tegra-igx-modules-signed",
+	"version": "5.15.0-1059.59",
+	"section": "kernel",
+	"priority": "optional",
+	"architecture": "all",
+	"replaces": [
+		"linux-nvidia-tegra-igx-rt-tegra-igpu-branch-defaults-meta",
+		"linux-nvidia-tegra-igx-tegra-igpu-branch-defaults-meta",
+		"linux-nvidia-tegra-igx-tegra-igpu-defaults-virtual",
+		"linux-nvidia-tegra-igx-tegra-igpu-igx-defaults (<< 5.15.0-1059.59)"
+	],
+	"conflicts": [
+		"linux-nvidia-tegra-igx-rt-tegra-igpu-branch-defaults-meta",
+		"linux-nvidia-tegra-igx-tegra-igpu-branch-defaults-meta",
+		"linux-nvidia-tegra-igx-tegra-igpu-defaults-virtual",
+		"linux-nvidia-tegra-igx-tegra-igpu-igx-defaults (<< 5.15.0-1059.59)",
+		"nvidia-dkms-kernel",
+		"nvidia-prebuilt-kernel"
+	],
+	"installedSize": 23,
+	"maintainer": "Canonical Kernel Team <kernel-team@lists.ubuntu.com>",
+	"description": "Extra configuration required for jetson IGX Orin iGPU modules.",
+	"filename": "pool/main/l/linux-nvidia-tegra-igx-modules-signed/linux-nvidia-tegra-igx-tegra-igpu-jetson-defaults_5.15.0-1059.59_all.deb",
+	"size": 5994,
+	"md5": "c8f230f5437c094347994f3ce6442f8c",
+	"sha1": "438f9fff8718f72f9b2b99124cb721971d8fbe07",
+	"sha256": "c2ea1309729bb916e62083503ddfd536a21224e1224148acd0712a59ea05741c",
+	"sha512": "007f9e78ef08dc0da5955385a9b445d649d6919a82d4591d3d1a07d1c5df30823995cd5df4597c9b8d28c55f1533ca7f0a43621dcc38a5b2cf4049fbb872c281",
+	"descriptionMd5": "cd92f3c6ee903cba116a29fca8871f4d"
 }]
