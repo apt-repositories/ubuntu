@@ -24,4 +24,36 @@
 	"sha256": "75dac7cd06ab31be4eed2e6e7296644a6e64c587fa0d358a459e2e97fbad3736",
 	"sha512": "c900c52c7920297616abbed01578ee077f5649e225f3b4b4c0337d683ebe93bad9f6d6e7f8b051cf66089b492293f5bdcc685163df9d771829c605fe38200399",
 	"descriptionMd5": "d10158d6951f7e2fe84bb51a1a376599"
+},{
+	"raw": {},
+	"required": [
+		"Filename",
+		"Size"
+	],
+	"package": "linux-modules-nvidia-595-server-open-nvidia-bos",
+	"source": "linux-restricted-modules-nvidia-bos",
+	"version": "7.0.0-2022.23",
+	"section": "restricted/kernel",
+	"priority": "optional",
+	"architecture": "amd64",
+	"depends": [
+		"linux-modules-nvidia-595-server-open-7.0.0-2022-nvidia-bos (= 7.0.0-2022.23)",
+		"nvidia-kernel-common-595-server (>= 595.91.07)"
+	],
+	"breaks": [
+		"linux-nvidia-bos (>= 7.0.0-2023~)",
+		"linux-nvidia-bos (<< 7.0.0-2022)",
+		"nvidia-kernel-common-595-server (>> 595.91.07+)",
+		"nvidia-kernel-common-595-server (<< 595.91.07)"
+	],
+	"installedSize": 19,
+	"maintainer": "Canonical Kernel Team <kernel-team@lists.ubuntu.com>",
+	"description": "Extra drivers for nvidia-595-server-open for the nvidia-bos flavour",
+	"filename": "pool/restricted/l/linux-restricted-modules-nvidia-bos/linux-modules-nvidia-595-server-open-nvidia-bos_7.0.0-2022.23_amd64.deb",
+	"size": 6730,
+	"md5": "f6ac914589c0844db2374a315857c33e",
+	"sha1": "7288d663742dcf196bc3ede28d44c1451267cdcd",
+	"sha256": "c0e593ec8d49caa85045c74175259dba76ab7a6be0b5d2aaed534e42639c3611",
+	"sha512": "5939fd55badb48dd35657dd003d9f4fd7da1d435f358a90b2ab70a93d554b271490663208da2616375a51111c73754d03e0492be1c528ae7f39690a206cfc62a",
+	"descriptionMd5": "d10158d6951f7e2fe84bb51a1a376599"
 }]

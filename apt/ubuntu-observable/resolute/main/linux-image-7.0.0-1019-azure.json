@@ -1,0 +1,43 @@
+[{
+	"raw": {},
+	"required": [
+		"Filename",
+		"Size"
+	],
+	"package": "linux-image-7.0.0-1019-azure",
+	"source": "linux-signed-azure",
+	"version": "7.0.0-1019.20",
+	"section": "kernel",
+	"priority": "optional",
+	"architecture": "amd64",
+	"depends": [
+		"kmod",
+		"linux-base (>= 4.5ubuntu1~16.04.1)",
+		"linux-modules-7.0.0-1019-azure"
+	],
+	"recommends": [
+		"grub-pc | grub-efi-amd64 | grub-efi-ia32 | grub",
+		"dracut | linux-initramfs-tool"
+	],
+	"suggests": [
+		"fdutils",
+		"bpftool",
+		"linux-perf",
+		"linux-azure-tools",
+		"linux-headers-7.0.0-1019-azure"
+	],
+	"conflicts": [
+		"linux-image-unsigned-7.0.0-1019-azure"
+	],
+	"installedSize": 17107,
+	"maintainer": "Canonical Kernel Team <kernel-team@lists.ubuntu.com>",
+	"description": "Signed kernel image azure",
+	"builtUsing": "linux-azure (= 7.0.0-1019.20)",
+	"filename": "pool/main/l/linux-signed-azure/linux-image-7.0.0-1019-azure_7.0.0-1019.20_amd64.deb",
+	"size": 17213604,
+	"md5": "4f8cbca45f1e341cc45a69a963c63d55",
+	"sha1": "964e1ec230d2d6234d31376a63bd1560a675d210",
+	"sha256": "efd97b9689f72e4a7a2327e3875cad854a4b486a78185c5af2df0bdbcfc13358",
+	"sha512": "d68307c4520af46a05da328360bd9f9e0f249b867ce392e4f62e7fbeee09105ed03e34cd9deecd6d76afb8a9844700926d2f189d3dcb8aacf83063758e1a972e",
+	"descriptionMd5": "a97547a316dd89fcd627f217a100729f"
+}]
