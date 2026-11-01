@@ -30,4 +30,36 @@
 	"sha256": "02dca2de59c110b07f29f978ba40711428486174c13c8d1a3adbeeb2cd1ade89",
 	"sha512": "fc6d9b1956f74e53e96158ce1c5129964c066392a78387c4fd22c04cd9ad9f625982b2299d5f1558a878ab97ad904fb43b78c769f191d8ba127de5983d08c115",
 	"descriptionMd5": "0d228d86d1952c33a1d4050914d3d975"
+},{
+	"raw": {},
+	"required": [
+		"Filename",
+		"Size"
+	],
+	"package": "linux-modules-nvidia-580-server-open-nvidia-7.0",
+	"source": "linux-restricted-modules-nvidia-7.0",
+	"version": "7.0.0-1024.25~24.04.1",
+	"section": "restricted/kernel",
+	"priority": "optional",
+	"architecture": "amd64",
+	"depends": [
+		"linux-modules-nvidia-580-server-open-7.0.0-1024-nvidia (= 7.0.0-1024.25~24.04.1)",
+		"nvidia-kernel-common-580-server (>= 580.178.04)"
+	],
+	"breaks": [
+		"linux-nvidia-7.0 (>= 7.0.0-1025~)",
+		"linux-nvidia-7.0 (<< 7.0.0-1024)",
+		"nvidia-kernel-common-580-server (>> 580.178.04+)",
+		"nvidia-kernel-common-580-server (<< 580.178.04)"
+	],
+	"installedSize": 19,
+	"maintainer": "Canonical Kernel Team <kernel-team@lists.ubuntu.com>",
+	"description": "Extra drivers for nvidia-580-server-open for the nvidia-7.0 flavour",
+	"filename": "pool/restricted/l/linux-restricted-modules-nvidia-7.0/linux-modules-nvidia-580-server-open-nvidia-7.0_7.0.0-1024.25~24.04.1_amd64.deb",
+	"size": 6930,
+	"md5": "20800588d7f3c30c7892bdfcd6761bd7",
+	"sha1": "3fa50ddb6a9d0457b641a34dc16686b9a96cb234",
+	"sha256": "032093b3245ccff2b23108700d670724728f666d80375be86905957f91c4d177",
+	"sha512": "56f29b60afd267079f8f91ae81e5339e09ae2d9ca20c48b4983ab7a5e3bea122870d90e2c10a9751755db9080adc6ce436933b17213084648ceed714dce76bfb",
+	"descriptionMd5": "0d228d86d1952c33a1d4050914d3d975"
 }]

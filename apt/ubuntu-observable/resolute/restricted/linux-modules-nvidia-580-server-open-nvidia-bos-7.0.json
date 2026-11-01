@@ -24,4 +24,36 @@
 	"sha256": "394a8beeea8dc5b2265a1f5a8c6e2d751db8bea64dd8bbac93c023b11918a885",
 	"sha512": "8f896a6155e68b7488fdf18198ccfdcd00ff430fbabd3c25897988ab976bb114ae774e49e93e76fda96f3e81ea46440599ba2ea65bc249b0453b2d4216b03fda",
 	"descriptionMd5": "e843021e68d50221634cd6c17680903a"
+},{
+	"raw": {},
+	"required": [
+		"Filename",
+		"Size"
+	],
+	"package": "linux-modules-nvidia-580-server-open-nvidia-bos-7.0",
+	"source": "linux-restricted-modules-nvidia-bos",
+	"version": "7.0.0-2022.23",
+	"section": "restricted/kernel",
+	"priority": "optional",
+	"architecture": "amd64",
+	"depends": [
+		"linux-modules-nvidia-580-server-open-7.0.0-2022-nvidia-bos (= 7.0.0-2022.23)",
+		"nvidia-kernel-common-580-server (>= 580.178.04)"
+	],
+	"breaks": [
+		"linux-nvidia-bos-7.0 (>= 7.0.0-2023~)",
+		"linux-nvidia-bos-7.0 (<< 7.0.0-2022)",
+		"nvidia-kernel-common-580-server (>> 580.178.04+)",
+		"nvidia-kernel-common-580-server (<< 580.178.04)"
+	],
+	"installedSize": 19,
+	"maintainer": "Canonical Kernel Team <kernel-team@lists.ubuntu.com>",
+	"description": "Extra drivers for nvidia-580-server-open for the nvidia-bos-7.0 flavour",
+	"filename": "pool/restricted/l/linux-restricted-modules-nvidia-bos/linux-modules-nvidia-580-server-open-nvidia-bos-7.0_7.0.0-2022.23_amd64.deb",
+	"size": 6748,
+	"md5": "b10cad56b3c3d2672d6ed204fb3750b4",
+	"sha1": "de02e114c0642818728f942317211b2ac18ec906",
+	"sha256": "feab56aaf5cd7c7282e48e45449176b12237648d2f063c3ece6d1aa73494ebb5",
+	"sha512": "f3e6a059c7e6b5417b0dffd1c4863f0271abe917e0d9736db1786beeb0deb1a6096b2bd6f5b1f795641b55033048b5e85072b00662688557c7e2138a67f9c6fe",
+	"descriptionMd5": "e843021e68d50221634cd6c17680903a"
 }]
