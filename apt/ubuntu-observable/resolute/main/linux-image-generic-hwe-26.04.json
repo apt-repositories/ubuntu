@@ -42,6 +42,43 @@
 	],
 	"package": "linux-image-generic-hwe-26.04",
 	"source": "linux-meta",
+	"version": "7.0.0-42.42",
+	"section": "kernel",
+	"priority": "optional",
+	"architecture": "amd64",
+	"depends": [
+		"linux-image-7.0.0-42-generic",
+		"linux-modules-7.0.0-42-generic",
+		"linux-main-modules-zfs-7.0.0-42-generic",
+		"linux-main-modules-v4l2loopback-7.0.0-42-generic",
+		"linux-firmware",
+		"intel-microcode",
+		"amd64-microcode"
+	],
+	"recommends": [
+		"thermald"
+	],
+	"conflicts": [
+		"linux-image-fb-generic-hwe-26.04"
+	],
+	"installedSize": 13,
+	"maintainer": "Ubuntu Kernel Team <kernel-team@lists.ubuntu.com>",
+	"description": "Generic Linux kernel image",
+	"filename": "pool/main/l/linux-meta/linux-image-generic-hwe-26.04_7.0.0-42.42_amd64.deb",
+	"size": 2500,
+	"md5": "c15c5a26f8696332b1fc8eaccc8cfa42",
+	"sha1": "56c17c97e0a391d3079094d6de2a80fc38461384",
+	"sha256": "203887a8ffcbe8689252bd3e4adcdffac5d741e8dd8af5986db032897350a4f2",
+	"sha512": "b8dacd38adc47db8a2c708ba58ab0cfe49eb325d8fb4fbd0c744eeb91c9022bd38440e7e14996d4d3e282f923113a6955d1ddcb09a51cca5a3347a1bd3442f81",
+	"descriptionMd5": "6d632579c673704f44b290b16e7dbfd1"
+},{
+	"raw": {},
+	"required": [
+		"Filename",
+		"Size"
+	],
+	"package": "linux-image-generic-hwe-26.04",
+	"source": "linux-meta",
 	"version": "7.0.0-14.14",
 	"section": "kernel",
 	"priority": "optional",

@@ -24,4 +24,36 @@
 	"sha256": "5e1d77a8c73338c68b936284e1222c52d636cecfa82b35f77b883081909b3f50",
 	"sha512": "9b6c192b7d5aad3950745854ce459e35e44b00489c1ee5af8582ad45800ed2edc5cfd960c9d7ebaf2ff03f6d01c470a30a794435e4b4d09781028173a342ae67",
 	"descriptionMd5": "802864ab96917cd4e8e2bd68fd89e513"
+},{
+	"raw": {},
+	"required": [
+		"Filename",
+		"Size"
+	],
+	"package": "linux-modules-nvidia-580-nvidia-bos",
+	"source": "linux-restricted-modules-nvidia-bos",
+	"version": "7.0.0-2022.23",
+	"section": "restricted/kernel",
+	"priority": "optional",
+	"architecture": "amd64",
+	"depends": [
+		"linux-modules-nvidia-580-7.0.0-2022-nvidia-bos (= 7.0.0-2022.23)",
+		"nvidia-kernel-common-580 (>= 580.178.04)"
+	],
+	"breaks": [
+		"linux-nvidia-bos (>= 7.0.0-2023~)",
+		"linux-nvidia-bos (<< 7.0.0-2022)",
+		"nvidia-kernel-common-580 (>> 580.178.04+)",
+		"nvidia-kernel-common-580 (<< 580.178.04)"
+	],
+	"installedSize": 19,
+	"maintainer": "Canonical Kernel Team <kernel-team@lists.ubuntu.com>",
+	"description": "Extra drivers for nvidia-580 for the nvidia-bos flavour",
+	"filename": "pool/restricted/l/linux-restricted-modules-nvidia-bos/linux-modules-nvidia-580-nvidia-bos_7.0.0-2022.23_amd64.deb",
+	"size": 6716,
+	"md5": "c185fa5fece05f2e93b8350592fa06ae",
+	"sha1": "60e7eecca636875812203c9716d92a9f8d6ef1b3",
+	"sha256": "e988ea588fe34ba494b5d2bc6eed957aac78ce51ec8d77f3b31ae8c2e35c8999",
+	"sha512": "e737aea4cebd959254ab1d37734791c68e8e2eb66451bcce95cb8380dd48a12f20ce29e543c3575eeff2ee1d2ba63efcf4d878d3a721cb6f4487eba8dff767bc",
+	"descriptionMd5": "802864ab96917cd4e8e2bd68fd89e513"
 }]

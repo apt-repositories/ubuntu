@@ -31,4 +31,39 @@
 	"sha256": "2f4cf14ab1a61d8c1e43baa77af58b8667537e95955204ad50a5a12847fdd3d6",
 	"sha512": "c6422165d531baddbe29b48003ea4275087d9214cfb8d0b4167a6ad8c3a60bec00abf6e7694adf76638b7f0cf98668bf4740b34a95dd57149ea0fdc74235df1c",
 	"descriptionMd5": "2e9abaa22b8bca3b877615943ec00df9"
+},{
+	"raw": {},
+	"required": [
+		"Filename",
+		"Size"
+	],
+	"package": "linux-image-nvidia-bos-7.0",
+	"source": "linux-meta-nvidia-bos",
+	"version": "7.0.0-2022.23",
+	"section": "kernel",
+	"priority": "optional",
+	"architecture": "amd64",
+	"depends": [
+		"linux-image-7.0.0-2022-nvidia-bos",
+		"linux-modules-7.0.0-2022-nvidia-bos",
+		"linux-firmware",
+		"intel-microcode",
+		"amd64-microcode",
+		"linux-main-modules-nvidia-fs-7.0.0-2022-nvidia-bos",
+		"linux-main-modules-mstflint-7.0.0-2022-nvidia-bos",
+		"linux-main-modules-zfs-7.0.0-2022-nvidia-bos"
+	],
+	"recommends": [
+		"thermald"
+	],
+	"installedSize": 9,
+	"maintainer": "Ubuntu Kernel Team <kernel-team@lists.ubuntu.com>",
+	"description": "NVIDIA BOS Linux kernel image",
+	"filename": "pool/main/l/linux-meta-nvidia-bos/linux-image-nvidia-bos-7.0_7.0.0-2022.23_amd64.deb",
+	"size": 2956,
+	"md5": "92ec3c4afa951b354a82a0654e86020c",
+	"sha1": "78cef97527c2493b88c1d4a07842df1a2451fd40",
+	"sha256": "0386913921da2396993196b7f314726701bf9df5b7ff2f3bf949e974ebe5a065",
+	"sha512": "e9057be5928ec11f951bfc73387974178cd2fdaac550a4f75873a42a306cd6588d9c495dd31a8f9f391ad6f4d1e375211f706bafc3e2f81a7d0a3e31104e0803",
+	"descriptionMd5": "2e9abaa22b8bca3b877615943ec00df9"
 }]

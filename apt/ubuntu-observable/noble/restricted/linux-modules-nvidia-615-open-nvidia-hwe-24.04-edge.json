@@ -30,4 +30,36 @@
 	"sha256": "95af1b677b269217f771714dea5b2e273641e481fd1447794fbf19cca69c6d6f",
 	"sha512": "67959b404b1a3b37085059904327f3b401a1400fcd01fe1a5d22c9eea7ced629d866705858ffc103405c8fee7879917cdb56b7d85281c1807165fa81a3c5525f",
 	"descriptionMd5": "80a03676a8b564568e86daa17af843f4"
+},{
+	"raw": {},
+	"required": [
+		"Filename",
+		"Size"
+	],
+	"package": "linux-modules-nvidia-615-open-nvidia-hwe-24.04-edge",
+	"source": "linux-restricted-modules-nvidia-7.0",
+	"version": "7.0.0-1024.25~24.04.1",
+	"section": "restricted/kernel",
+	"priority": "optional",
+	"architecture": "amd64",
+	"depends": [
+		"linux-modules-nvidia-615-open-7.0.0-1024-nvidia (= 7.0.0-1024.25~24.04.1)",
+		"nvidia-kernel-common-615 (>= 615.71.09)"
+	],
+	"breaks": [
+		"linux-nvidia-hwe-24.04-edge (>= 7.0.0-1025~)",
+		"linux-nvidia-hwe-24.04-edge (<< 7.0.0-1024)",
+		"nvidia-kernel-common-615 (>> 615.71.09+)",
+		"nvidia-kernel-common-615 (<< 615.71.09)"
+	],
+	"installedSize": 19,
+	"maintainer": "Canonical Kernel Team <kernel-team@lists.ubuntu.com>",
+	"description": "Extra drivers for nvidia-615-open for the nvidia-hwe-24.04-edge flavour",
+	"filename": "pool/restricted/l/linux-restricted-modules-nvidia-7.0/linux-modules-nvidia-615-open-nvidia-hwe-24.04-edge_7.0.0-1024.25~24.04.1_amd64.deb",
+	"size": 6946,
+	"md5": "9edcabb6555d0cdd4bf95cdf45803ed1",
+	"sha1": "2e9342ce69d332909da9636d2cd02ea90394eaca",
+	"sha256": "51deb063ad1a8342f61f8f5eb360934ce0d7aaf3e36721995242d5c490ae18dd",
+	"sha512": "8d0e8bfc01d1ce392afad79e085a901302dc352497ea7ee4d21d01c9c0cd3c6dfe97233c69050995be8055159371f655867a99a636dd88b2a7251899787e0efd",
+	"descriptionMd5": "80a03676a8b564568e86daa17af843f4"
 }]
