@@ -48,6 +48,48 @@
 	],
 	"package": "libvirt-daemon-driver-storage-disk-hwe",
 	"source": "libvirt-hwe",
+	"version": "12.0.0-1ubuntu5.6",
+	"section": "admin",
+	"priority": "optional",
+	"architecture": "amd64",
+	"depends": [
+		"libvirt-common (= 12.0.0-1ubuntu5.6)",
+		"libvirt-daemon (= 12.0.0-1ubuntu5.6)",
+		"libvirt-daemon-driver-storage (= 12.0.0-1ubuntu5.6)",
+		"libvirt0 (= 12.0.0-1ubuntu5.6)",
+		"parted",
+		"libc6 (>= 2.4)",
+		"libgcc-s1 (>= 3.3.1)",
+		"libglib2.0-0t64 (>= 2.12.0)",
+		"libvirt0-hwe (>= 12.0.0)",
+		"ubuntu-virt-hwe (>= 1:10.2.1+ds-1ubuntu4.4~)"
+	],
+	"replaces": [
+		"libvirt-daemon (<< 10.6.0-2~)",
+		"libvirt-daemon-driver-storage-disk"
+	],
+	"breaks": [
+		"libvirt-daemon (<< 10.6.0-2~)"
+	],
+	"installedSize": 41,
+	"maintainer": "Ubuntu Developers <ubuntu-devel-discuss@lists.ubuntu.com>",
+	"description": "virtualization daemon - disk storage driver",
+	"homepage": "https://libvirt.org/storage.html#disk-pool",
+	"filename": "pool/main/libv/libvirt-hwe/libvirt-daemon-driver-storage-disk-hwe_12.0.0-1ubuntu5.6_amd64.deb",
+	"size": 10620,
+	"md5": "fe97e7696918982c7e0736ddf54460a0",
+	"sha1": "673a663ec2ed5a588b18cdd1d3230470e8d52c8e",
+	"sha256": "e150f8f17cec3de5cd22ff37c534ea817168cb4b03356b755a3beaf58d3bf46c",
+	"sha512": "e0bf2d997e993e1f35975ccd4d50b1811c255034bbfd1dd215cb0a9399960835723acd7287d7a481aac91bc057950c8135ebabc3e93e038a2dd827594c2f23a8",
+	"descriptionMd5": "b5c6a90baa3e4b4ddf54cb7feedd1ac0"
+},{
+	"raw": {},
+	"required": [
+		"Filename",
+		"Size"
+	],
+	"package": "libvirt-daemon-driver-storage-disk-hwe",
+	"source": "libvirt-hwe",
 	"version": "12.0.0-1ubuntu5",
 	"section": "admin",
 	"priority": "optional",
