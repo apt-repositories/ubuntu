@@ -6,6 +6,46 @@
 	],
 	"package": "snmptrapd",
 	"source": "net-snmp",
+	"version": "5.9.1+dfsg-1ubuntu2.10",
+	"section": "universe/net",
+	"priority": "optional",
+	"architecture": "amd64",
+	"depends": [
+		"libc6 (>= 2.34)",
+		"libnetsnmptrapd40 (>= 5.9.1+dfsg)",
+		"libsnmp40 (= 5.9.1+dfsg-1ubuntu2.10)",
+		"libwrap0 (>= 7.6-4~)",
+		"init-system-helpers (>= 1.51)",
+		"snmpd"
+	],
+	"recommends": [
+		"perl"
+	],
+	"replaces": [
+		"snmp (<< 5.7.3+dfsg-2)"
+	],
+	"breaks": [
+		"snmp (<< 5.7.3+dfsg-2)"
+	],
+	"installedSize": 90,
+	"maintainer": "Ubuntu Developers <ubuntu-devel-discuss@lists.ubuntu.com>",
+	"description": "Net-SNMP notification receiver",
+	"homepage": "http://net-snmp.sourceforge.net/",
+	"filename": "pool/universe/n/net-snmp/snmptrapd_5.9.1+dfsg-1ubuntu2.10_amd64.deb",
+	"size": 25930,
+	"md5": "b1ceb49c5bb543ac56b0f870840b7d4b",
+	"sha1": "116bb3f2312c0a7f2085dded4b543c1ecc1c1f88",
+	"sha256": "a5e938f327e73b9144f81ddf1e0c9912348417b3bdb7134a42a89b5085547fbb",
+	"sha512": "8610bbff315ebf140aa974380b13ea06f380ced013dcb41b4534c877f7e789fdba901272848bf5e51613e797645e54e7fc07e5c45fe75dcb5b98c327a6b03e80",
+	"descriptionMd5": "5813c4c7d76971aa4ce271dad1bfb061"
+},{
+	"raw": {},
+	"required": [
+		"Filename",
+		"Size"
+	],
+	"package": "snmptrapd",
+	"source": "net-snmp",
 	"version": "5.9.1+dfsg-1ubuntu2.9",
 	"section": "universe/net",
 	"priority": "optional",
