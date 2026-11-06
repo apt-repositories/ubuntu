@@ -6,22 +6,28 @@
 	],
 	"package": "linux-modules-nvidia-580-open-nvidia-bos-7.0",
 	"source": "linux-restricted-modules-nvidia-bos",
-	"version": "7.0.0-2018.18+2",
+	"version": "7.0.0-2022.23",
 	"section": "restricted/kernel",
 	"priority": "optional",
 	"architecture": "amd64",
 	"depends": [
-		"linux-modules-nvidia-580-open-7.0.0-2018-nvidia-bos (= 7.0.0-2018.18+2)",
+		"linux-modules-nvidia-580-open-7.0.0-2022-nvidia-bos (= 7.0.0-2022.23)",
 		"nvidia-kernel-common-580 (>= 580.178.04)"
 	],
-	"installedSize": 18,
+	"breaks": [
+		"linux-nvidia-bos-7.0 (>= 7.0.0-2023~)",
+		"linux-nvidia-bos-7.0 (<< 7.0.0-2022)",
+		"nvidia-kernel-common-580 (>> 580.178.04+)",
+		"nvidia-kernel-common-580 (<< 580.178.04)"
+	],
+	"installedSize": 19,
 	"maintainer": "Canonical Kernel Team <kernel-team@lists.ubuntu.com>",
 	"description": "Extra drivers for nvidia-580-open for the nvidia-bos-7.0 flavour",
-	"filename": "pool/restricted/l/linux-restricted-modules-nvidia-bos/linux-modules-nvidia-580-open-nvidia-bos-7.0_7.0.0-2018.18+2_amd64.deb",
-	"size": 6498,
-	"md5": "7ee758176a855d8a398e0a4bccde6140",
-	"sha1": "0bbb40dd8f9f9beccfc9d667aeccdcf9a9cba342",
-	"sha256": "3dd6d82d54ce2df720187c3caa70385ba665f1a0489dfade502622a79e09b4e7",
-	"sha512": "ef827432d690b7084d8b3ba5ec98f9dff88a0cf8b3d26e482a1a12ce41f0701322e28c8411693e1d35b0e6fcbbd4c54bb43fde07b3950fb7b6208e32cb738dbb",
+	"filename": "pool/restricted/l/linux-restricted-modules-nvidia-bos/linux-modules-nvidia-580-open-nvidia-bos-7.0_7.0.0-2022.23_amd64.deb",
+	"size": 6736,
+	"md5": "281dd06bd4012903932a9341719006e1",
+	"sha1": "8c684e59ebf4f9d8e7b6dc102a280380eecc6b1d",
+	"sha256": "63ce70fdde3fbaec33388995e3aef7f94bf8f5e675d0d12a84859d141dccd55f",
+	"sha512": "24499d6dfba38a5623d07475e2022efe2b6cf3a048a2089db99132bf13f5ab5b75f86ab8bc5b7c5408319a30210edb36d30d6691026828dd7b0b4b834ea49613",
 	"descriptionMd5": "04db4f442c7e34fb082ac3558e8fb3bd"
 }

@@ -24,4 +24,36 @@
 	"sha256": "84448d48feb6975e9d3bd46f109b3754649552e43f4bee2ca73d3cac4af41e3a",
 	"sha512": "09e8ff620ae1c9e64fc820c4f5adaa558b04eaf93656ae335c0b35588ebe8f68e1272f26ef1b47a670169b001d4ada75623b5a5d65712d3024ee804c3b400ff5",
 	"descriptionMd5": "92b70f6e03b2905d6651612cb90fdc74"
+},{
+	"raw": {},
+	"required": [
+		"Filename",
+		"Size"
+	],
+	"package": "linux-modules-nvidia-615-server-open-nvidia-7.0",
+	"source": "linux-restricted-modules-nvidia",
+	"version": "7.0.0-1025.26",
+	"section": "restricted/kernel",
+	"priority": "optional",
+	"architecture": "amd64",
+	"depends": [
+		"linux-modules-nvidia-615-server-open-7.0.0-1025-nvidia (= 7.0.0-1025.26)",
+		"nvidia-kernel-common-615-server (>= 615.71.09)"
+	],
+	"breaks": [
+		"linux-nvidia-7.0 (>= 7.0.0-1026~)",
+		"linux-nvidia-7.0 (<< 7.0.0-1025)",
+		"nvidia-kernel-common-615-server (>> 615.71.09+)",
+		"nvidia-kernel-common-615-server (<< 615.71.09)"
+	],
+	"installedSize": 19,
+	"maintainer": "Canonical Kernel Team <kernel-team@lists.ubuntu.com>",
+	"description": "Extra drivers for nvidia-615-server-open for the nvidia-7.0 flavour",
+	"filename": "pool/restricted/l/linux-restricted-modules-nvidia/linux-modules-nvidia-615-server-open-nvidia-7.0_7.0.0-1025.26_amd64.deb",
+	"size": 6764,
+	"md5": "82e9d276108c1a152854e086ff006813",
+	"sha1": "08f2bc7dc157481205eff1cd71cfb38188b83487",
+	"sha256": "4527d43c2c72e72411344e3b4e00752a3af75962cee720749f1a4f7421f54cde",
+	"sha512": "afd9f62e9e7d4373b0b4e9a3e02c8d9e6aa092e19a90c154529fc44db1d743b382da127cb5550334197f02585c965272262fcc2fbdf526b24ad245c22e15a12e",
+	"descriptionMd5": "92b70f6e03b2905d6651612cb90fdc74"
 }]

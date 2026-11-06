@@ -5,21 +5,24 @@
 		"Size"
 	],
 	"package": "libnvidia-nscq-470",
-	"version": "470.256.02-0ubuntu0.24.04.2",
+	"version": "470.256.02-0ubuntu0.24.04.3",
 	"section": "multiverse/libs",
 	"priority": "optional",
 	"architecture": "amd64",
-	"depends": [
-		"libnvidia-nscq-535"
+	"replaces": [
+		"libnvidia-nscq"
 	],
-	"installedSize": 16,
+	"conflicts": [
+		"libnvidia-nscq"
+	],
+	"installedSize": 1137,
 	"maintainer": "Ubuntu Developers <ubuntu-devel-discuss@lists.ubuntu.com>",
-	"description": "Transitional package for libnvidia-nscq-470",
-	"filename": "pool/multiverse/libn/libnvidia-nscq-470/libnvidia-nscq-470_470.256.02-0ubuntu0.24.04.2_amd64.deb",
-	"size": 5248,
-	"md5": "f0049332b4e02e51651d536ca51d78db",
-	"sha1": "a8844d9ddb595733c828bfa2bcec275575676c2d",
-	"sha256": "7af89185296c7d22cffdba402046163e8b00ad0285f83cb1723c6556220e30c8",
-	"sha512": "c9cdda0670ec5555ba9114d3f37b8ab370dcd18af9694d8a8406dc9031e90f329c3cbc406f83bb04e879eb201edbbe45e126a2b2c0c42054d82dacad9adbd332",
-	"descriptionMd5": "5c18da8fbc7182f2b6ef12bba5b490cb"
+	"description": "NVSwitch Configuration and Query library",
+	"filename": "pool/multiverse/libn/libnvidia-nscq-470/libnvidia-nscq-470_470.256.02-0ubuntu0.24.04.3_amd64.deb",
+	"size": 317144,
+	"md5": "9a496c695b33197cf16a3e310abc5e27",
+	"sha1": "12603bbc95e6f8a3406514ab537e05ce6fe30482",
+	"sha256": "81447d53ba5ae98cfb824c3d4ee12c21a7b089228ad089f280ddd29a4dd55bf1",
+	"sha512": "d02905e8483ef9c63027f49c6431da8c22bb6e2b7e5e4bef0fede07300e12592a55e6672317da48f73e690aacbeb8803f49a2eafbf469ffe07a0b24cd66ca313",
+	"descriptionMd5": "06d90fb68ae67655c00815a4db03a64e"
 }

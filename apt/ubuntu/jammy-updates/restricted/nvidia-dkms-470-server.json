@@ -6,22 +6,37 @@
 	],
 	"package": "nvidia-dkms-470-server",
 	"source": "nvidia-graphics-drivers-470-server",
-	"version": "470.256.02-0ubuntu0.22.04.5",
+	"version": "470.256.02-0ubuntu0.22.04.6",
 	"section": "restricted/libs",
 	"priority": "optional",
 	"architecture": "amd64",
 	"depends": [
-		"nvidia-dkms-535"
+		"dkms",
+		"nvidia-kernel-source-470-server (<= 470.256.02-1)",
+		"nvidia-kernel-source-470-server (>= 470.256.02)",
+		"nvidia-kernel-common-470-server (<= 470.256.02-1)",
+		"nvidia-kernel-common-470-server (>= 470.256.02)"
 	],
-	"installedSize": 19,
+	"replaces": [
+		"nvidia-384 (<< 390.25)",
+		"nvidia-dkms-kernel",
+		"nvidia-kernel-source-470-server (<< 390.25-0ubuntu2~)"
+	],
+	"breaks": [
+		"nvidia-kernel-source-470-server (<< 390.25-0ubuntu2~)"
+	],
+	"conflicts": [
+		"nvidia-dkms-kernel"
+	],
+	"installedSize": 35,
 	"maintainer": "Ubuntu Developers <ubuntu-devel-discuss@lists.ubuntu.com>",
 	"description": "NVIDIA DKMS package",
 	"homepage": "http://www.nvidia.com",
-	"filename": "pool/restricted/n/nvidia-graphics-drivers-470-server/nvidia-dkms-470-server_470.256.02-0ubuntu0.22.04.5_amd64.deb",
-	"size": 6874,
-	"md5": "c741d46918661ee000d0a9ad1cbefcde",
-	"sha1": "cb64c8fe1f8e67df2d7448331b4c3ee5e24b558c",
-	"sha256": "358e30b3fc1abcf2116d69f1e14f6d79a65dc0f21fedaa71b47ac6e1790ad609",
-	"sha512": "17b106d11352bc10e8f870ecab864505f6c53d07ef83ec652e1292d3a751450a28999b3e150296f72d297626b0c7b6bca8f9e6b6d208ca67bcfc2fe479cf8af4",
-	"descriptionMd5": "32fb5d23c93684cebd017988f23714be"
+	"filename": "pool/restricted/n/nvidia-graphics-drivers-470-server/nvidia-dkms-470-server_470.256.02-0ubuntu0.22.04.6_amd64.deb",
+	"size": 10860,
+	"md5": "90ee590bdaefdc450f0fc764f758a89a",
+	"sha1": "599b588b5297fc28202cf9f5404399d92afd7bf1",
+	"sha256": "d36ff0a3a1dc40e16820ae1aca361cadb8efc684d4b73cf932e1856910af143e",
+	"sha512": "26b10eb8f3956f374601fb33df6f2a903d5b997af72ec334135e3a9edbbd17e048a2a6834ce474ef893d7caffdeea1844b07f136af25a4ef225fdfd4fe8ef5e0",
+	"descriptionMd5": "ec8c193060b5458922cc0bda62df7796"
 }
