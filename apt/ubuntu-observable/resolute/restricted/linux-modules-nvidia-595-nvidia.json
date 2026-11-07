@@ -24,4 +24,36 @@
 	"sha256": "0b172f4e2fc3e7beb14bc60313d4f7bfd317c895c2d2dae9a898db0d8c525338",
 	"sha512": "49bf40bb0342215013e3184cbc494f7c6bcc49038f4645ed1cab19e868b8a31170c7ff8d1dfe419994c8eb3fda42f3543eef5777c76528956746c09d9cf96d56",
 	"descriptionMd5": "526bcacc43498614a6dd0eacb3e49cd5"
+},{
+	"raw": {},
+	"required": [
+		"Filename",
+		"Size"
+	],
+	"package": "linux-modules-nvidia-595-nvidia",
+	"source": "linux-restricted-modules-nvidia",
+	"version": "7.0.0-1025.26",
+	"section": "restricted/kernel",
+	"priority": "optional",
+	"architecture": "amd64",
+	"depends": [
+		"linux-modules-nvidia-595-7.0.0-1025-nvidia (= 7.0.0-1025.26)",
+		"nvidia-kernel-common-595 (>= 595.99.02)"
+	],
+	"breaks": [
+		"linux-nvidia (>= 7.0.0-1026~)",
+		"linux-nvidia (<< 7.0.0-1025)",
+		"nvidia-kernel-common-595 (>> 595.99.02+)",
+		"nvidia-kernel-common-595 (<< 595.99.02)"
+	],
+	"installedSize": 19,
+	"maintainer": "Canonical Kernel Team <kernel-team@lists.ubuntu.com>",
+	"description": "Extra drivers for nvidia-595 for the nvidia flavour",
+	"filename": "pool/restricted/l/linux-restricted-modules-nvidia/linux-modules-nvidia-595-nvidia_7.0.0-1025.26_amd64.deb",
+	"size": 6738,
+	"md5": "ba96eeb175351ca82fdd41f4c83284e7",
+	"sha1": "4e5be09e77bdb2547815a3ce5213742381c47dca",
+	"sha256": "53dd4ca208c32b1596664f04dd77f0898c96c72204b91555890df57e345118c4",
+	"sha512": "ccc780380948e6b60baadae4ebd7ae5952ce77b9c3a0c4600755e7819f13648624588c76f7e00e30298e9edb18ca15466b6e189b0fc5ff30d4afcb1e3b5a3c3d",
+	"descriptionMd5": "526bcacc43498614a6dd0eacb3e49cd5"
 }]

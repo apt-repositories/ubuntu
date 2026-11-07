@@ -6,6 +6,44 @@
 	],
 	"package": "pcs-snmp",
 	"source": "pcs",
+	"version": "0.11.7-1ubuntu1.1",
+	"section": "universe/admin",
+	"priority": "optional",
+	"architecture": "all",
+	"depends": [
+		"pcs",
+		"python3:any",
+		"python3-pyagentx",
+		"snmpd"
+	],
+	"preDepends": [
+		"init-system-helpers (>= 1.54~)"
+	],
+	"replaces": [
+		"pcs (<< 0.9.165-3)"
+	],
+	"breaks": [
+		"pcs (<< 0.9.165-3)"
+	],
+	"installedSize": 69,
+	"maintainer": "Ubuntu Developers <ubuntu-devel-discuss@lists.ubuntu.com>",
+	"description": "Pacemaker Configuration System SNMP agent",
+	"homepage": "https://github.com/ClusterLabs/pcs",
+	"filename": "pool/universe/p/pcs/pcs-snmp_0.11.7-1ubuntu1.1_all.deb",
+	"size": 9992,
+	"md5": "2bb6ed522da70bc265e8a936b82e8bde",
+	"sha1": "74fcd6290dba9f5acca5ef1ae739afa889121764",
+	"sha256": "22a472ac9a7748667d6270d4c7dd491afeca2af9faad663d601b0f2c9b2b5248",
+	"sha512": "0675ae7becd00acb4b85b8281eb6938aefec1547de01f9acf4545c67ab3c262c1eec3e0d725d2e5f656c46758f34c0678dcd31c3e6dd3a7946f559c8be91859f",
+	"descriptionMd5": "6fbceb85c0388ccbe279bece6a40961a"
+},{
+	"raw": {},
+	"required": [
+		"Filename",
+		"Size"
+	],
+	"package": "pcs-snmp",
+	"source": "pcs",
 	"version": "0.11.7-1ubuntu1",
 	"section": "universe/admin",
 	"priority": "optional",

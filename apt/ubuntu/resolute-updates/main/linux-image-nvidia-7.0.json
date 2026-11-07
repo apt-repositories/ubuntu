@@ -6,29 +6,31 @@
 	],
 	"package": "linux-image-nvidia-7.0",
 	"source": "linux-meta-nvidia",
-	"version": "7.0.0-1018.18",
+	"version": "7.0.0-1025.26",
 	"section": "kernel",
 	"priority": "optional",
 	"architecture": "amd64",
 	"depends": [
-		"linux-image-7.0.0-1018-nvidia",
-		"linux-modules-7.0.0-1018-nvidia",
+		"linux-image-7.0.0-1025-nvidia",
+		"linux-modules-7.0.0-1025-nvidia",
 		"linux-firmware",
 		"intel-microcode",
 		"amd64-microcode",
-		"linux-modules-nvidia-fs-7.0.0-1018-nvidia"
+		"linux-main-modules-nvidia-fs-7.0.0-1025-nvidia",
+		"linux-main-modules-mstflint-7.0.0-1025-nvidia",
+		"linux-main-modules-zfs-7.0.0-1025-nvidia"
 	],
 	"recommends": [
 		"thermald"
 	],
-	"installedSize": 9,
+	"installedSize": 10,
 	"maintainer": "Ubuntu Kernel Team <kernel-team@lists.ubuntu.com>",
 	"description": "NVIDIA Linux kernel image",
-	"filename": "pool/main/l/linux-meta-nvidia/linux-image-nvidia-7.0_7.0.0-1018.18_amd64.deb",
-	"size": 2816,
-	"md5": "bd0fa63448b0e266191f4a0e0466ef6d",
-	"sha1": "63c0ba6211d5ae725e38ff30b5cb5b3febffdb9b",
-	"sha256": "8057d467a936f1449191685cf789e4db8ad2625431ef56ff609b7d2a5190b1a1",
-	"sha512": "6dda6371f933d3eb293750a8340c23145df5bf5dd0b825d52de16f24361cd218bd58af4bcef2b7a8011ca5b28ea2c5626fe32096e3326d0606af89103ab4686d",
+	"filename": "pool/main/l/linux-meta-nvidia/linux-image-nvidia-7.0_7.0.0-1025.26_amd64.deb",
+	"size": 3018,
+	"md5": "8d8203bd9988f7f6fc1730484757cdae",
+	"sha1": "bd9abe62b1d0c1bb4bd477b0307c0be35bab5fc8",
+	"sha256": "ae5e37a46079102d5cd83a04b0b8e50d1b5d377d9b4f93d60a4a744555900560",
+	"sha512": "3ff89f4818149403c5530636efc426622f67f5c199f13d1067c51aee60fab3b69fbc6c4bbfb23c2ea7ea4081d0500c86fa022344a2ebee44f509ee264d3a61d4",
 	"descriptionMd5": "6181cbac371ffef56ff1cf754cfacf1b"
 }
