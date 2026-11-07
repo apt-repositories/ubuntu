@@ -6,24 +6,38 @@
 	],
 	"package": "libnvidia-gl-470-server",
 	"source": "nvidia-graphics-drivers-470-server",
-	"version": "470.256.02-0ubuntu0.24.04.5",
+	"version": "470.256.02-0ubuntu0.24.04.6",
 	"section": "restricted/libs",
 	"priority": "optional",
 	"architecture": "amd64",
 	"depends": [
-		"libnvidia-gl-535"
+		"libnvidia-common-470-server",
+		"libc6 (>= 2.34)",
+		"libegl1",
+		"libgcc-s1 (>= 4.2)",
+		"libnvidia-egl-wayland1 (>= 1:1.1.7)",
+		"libx11-6",
+		"libxext6"
 	],
-	"installedSize": 19,
+	"replaces": [
+		"libnvidia-gl",
+		"nvidia-384 (<< 390.25)",
+		"nvidia-390 (<< 390.25-0ubuntu1)"
+	],
+	"conflicts": [
+		"libnvidia-gl"
+	],
+	"installedSize": 344319,
 	"maintainer": "Ubuntu Developers <ubuntu-devel-discuss@lists.ubuntu.com>",
 	"description": "NVIDIA OpenGL/GLX/EGL/GLES GLVND libraries and Vulkan ICD",
 	"homepage": "http://www.nvidia.com",
-	"filename": "pool/restricted/n/nvidia-graphics-drivers-470-server/libnvidia-gl-470-server_470.256.02-0ubuntu0.24.04.5_amd64.deb",
-	"size": 7346,
-	"md5": "2351923fcc8d5c26d85433c47e984d9d",
-	"sha1": "9e0f8f78000552bd7e20cef9f04ce80827f2d167",
-	"sha256": "0a3ddec95bc56963d48150e5b368b27c34335d62cdd266c10e06f7369e6feebd",
-	"sha512": "4680b2149288ac9a41e96d14517b5e4200dae2667dba7b4fac878dbfd60f45d2f7ec9203614e6f52e7514926acc83c8afe677e59554946f8ac4c7aaa434d4808",
-	"descriptionMd5": "9757e353f33b0861b275fa4e22802a86"
+	"filename": "pool/restricted/n/nvidia-graphics-drivers-470-server/libnvidia-gl-470-server_470.256.02-0ubuntu0.24.04.6_amd64.deb",
+	"size": 151447570,
+	"md5": "a47079d6dc064d8ce419368e67a5bfaf",
+	"sha1": "c15827c588362b5cd7dc963d8a17a34312dce5ce",
+	"sha256": "368d4b8cee4326a5e5d2b672dd1ecf94b2f09a5e891402ce53affe6b859a0b5d",
+	"sha512": "2170e9b9f1eb03c02d06fb262c6d4457296140a77bb125b4111e4d443de30ca3ec0790d5abd89c21dd624da94614ff4f4f42b9010196fdfb9d13cfb43bb94212",
+	"descriptionMd5": "d899ab089124230e29489e7dcc9f137a"
 },{
 	"raw": {},
 	"required": [

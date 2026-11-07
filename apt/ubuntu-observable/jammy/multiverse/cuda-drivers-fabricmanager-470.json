@@ -6,23 +6,29 @@
 	],
 	"package": "cuda-drivers-fabricmanager-470",
 	"source": "fabric-manager-470",
-	"version": "470.256.02-0ubuntu0.22.04.3",
+	"version": "470.256.02-0ubuntu0.22.04.4",
 	"section": "multiverse/libs",
 	"priority": "optional",
 	"architecture": "amd64",
 	"depends": [
-		"nvidia-fabricmanager-535"
+		"nvidia-fabricmanager-470 (= 470.256.02-0ubuntu0.22.04.4)"
+	],
+	"replaces": [
+		"cuda-drivers-fabricmanager"
+	],
+	"conflicts": [
+		"cuda-drivers-fabricmanager"
 	],
 	"installedSize": 16,
 	"maintainer": "Ubuntu Developers <ubuntu-devel-discuss@lists.ubuntu.com>",
-	"description": "Transitional package cuda-drivers-fabricmanager-470",
-	"filename": "pool/multiverse/f/fabric-manager-470/cuda-drivers-fabricmanager-470_470.256.02-0ubuntu0.22.04.3_amd64.deb",
-	"size": 5274,
-	"md5": "92be284c7aef7d22caab2b17308fd48d",
-	"sha1": "d8ff921a82180c2eb8717c74176e8af2fd1c9212",
-	"sha256": "8d2ab74e391394d8f266742c42dc1567f7ada4aac4066f0804243796939a8723",
-	"sha512": "b99fc35712f46b9e00aebdbf9247b69ea4e46a4a4c5ac67bd2bce4f1a4c5023991a1b0052a3f1b0beb1f5f3b33e8e25efcf41ef3ceb0763a2ba7f7f19d854265",
-	"descriptionMd5": "90de5de7a10dbf7421b14c262b371c52"
+	"description": "Meta-package for FM and Driver",
+	"filename": "pool/multiverse/f/fabric-manager-470/cuda-drivers-fabricmanager-470_470.256.02-0ubuntu0.22.04.4_amd64.deb",
+	"size": 5400,
+	"md5": "54cfa11b885e3458dfb63f2333c038d8",
+	"sha1": "265b53722a1418612c98f43010b6314925836c93",
+	"sha256": "9fc2428d14f844fdb0430e9c49cada756d6892292c1aec0301c7e53a26e5913b",
+	"sha512": "42bf96b8ca692948b9af2a7c8fce38fe9aa5ca1bf753222e9c466ceac76b1708ee808e75cc3c36549bbd90b474ec7c9f519d8d09c11571088ecabd565d04b401",
+	"descriptionMd5": "6715a1a6e39ab2cdf04d9fe216556c20"
 },{
 	"raw": {},
 	"required": [
