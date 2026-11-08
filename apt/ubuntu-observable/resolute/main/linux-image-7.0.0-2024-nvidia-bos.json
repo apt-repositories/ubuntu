@@ -1,0 +1,41 @@
+[{
+	"raw": {},
+	"required": [
+		"Filename",
+		"Size"
+	],
+	"package": "linux-image-7.0.0-2024-nvidia-bos",
+	"source": "linux-signed-nvidia-bos",
+	"version": "7.0.0-2024.25",
+	"section": "kernel",
+	"priority": "optional",
+	"architecture": "amd64",
+	"depends": [
+		"kmod",
+		"linux-base (>= 4.5ubuntu1~16.04.1)",
+		"linux-modules-7.0.0-2024-nvidia-bos"
+	],
+	"recommends": [
+		"grub-pc | grub-efi-amd64 | grub-efi-ia32 | grub | lilo",
+		"initramfs-tools | linux-initramfs-tool"
+	],
+	"suggests": [
+		"bpftool",
+		"linux-nvidia-bos-tools",
+		"linux-headers-7.0.0-2024-nvidia-bos"
+	],
+	"conflicts": [
+		"linux-image-unsigned-7.0.0-2024-nvidia-bos"
+	],
+	"installedSize": 17129,
+	"maintainer": "Canonical Kernel Team <kernel-team@lists.ubuntu.com>",
+	"description": "Signed kernel image nvidia-bos",
+	"builtUsing": "linux-nvidia-bos (= 7.0.0-2024.25)",
+	"filename": "pool/main/l/linux-signed-nvidia-bos/linux-image-7.0.0-2024-nvidia-bos_7.0.0-2024.25_amd64.deb",
+	"size": 17235620,
+	"md5": "1bf73ffe15b37793e2ac04d72b0d58e9",
+	"sha1": "1615881d9b0233eae44b22e5ab2f1b2721b24bb9",
+	"sha256": "a44dfa857a123f6305eb3cdc5b707c271837eaada56ff8952761444991f37fe4",
+	"sha512": "4108f22ddd864da62281f3be7d9c3c59384f8f1c7c8bfa6f5cd354f192b0da7cdfe8d31012f52a24a52dc9cca6b08384a6c1c04839030d759e5070254b462ef2",
+	"descriptionMd5": "42da4728bb75f96f8f0f085dc203623e"
+}]

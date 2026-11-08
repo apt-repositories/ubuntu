@@ -6,14 +6,14 @@
 	],
 	"package": "libvirt-daemon-driver-qemu",
 	"source": "libvirt",
-	"version": "12.0.0-1ubuntu5.5",
+	"version": "12.0.0-1ubuntu5.6",
 	"section": "admin",
 	"priority": "optional",
 	"architecture": "amd64",
 	"depends": [
-		"libvirt-common (= 12.0.0-1ubuntu5.5)",
-		"libvirt-daemon-log (= 12.0.0-1ubuntu5.5)",
-		"libvirt0 (= 12.0.0-1ubuntu5.5)",
+		"libvirt-common (= 12.0.0-1ubuntu5.6)",
+		"libvirt-daemon-log (= 12.0.0-1ubuntu5.6)",
+		"libvirt0 (= 12.0.0-1ubuntu5.6)",
 		"logrotate",
 		"qemu-kvm | qemu-system",
 		"systemd-container | sysvinit-core",
@@ -25,7 +25,7 @@
 		"libgnutls30t64 (>= 3.7.0)",
 		"libselinux1 (>= 3.1~)",
 		"libxml2-16 (>= 2.14.1)",
-		"ubuntu-virt"
+		"ubuntu-virt (>= 1:10.2.1+ds-1ubuntu3.3~)"
 	],
 	"recommends": [
 		"swtpm",
@@ -49,15 +49,15 @@
 		"libvirt-daemon-config-network (<< 11.0.0-2ubuntu9~)",
 		"libvirt-daemon-system (<< 10.6.0-2~)"
 	],
-	"installedSize": 2327,
+	"installedSize": 2328,
 	"maintainer": "Ubuntu Developers <ubuntu-devel-discuss@lists.ubuntu.com>",
 	"description": "virtualization daemon - QEMU connection driver",
 	"homepage": "https://libvirt.org/drvqemu.html",
-	"filename": "pool/main/libv/libvirt/libvirt-daemon-driver-qemu_12.0.0-1ubuntu5.5_amd64.deb",
-	"size": 819560,
-	"md5": "501c00d7aa2ff327dc21ed9f26841ee0",
-	"sha1": "13a3319ea05ebb61530724859896a2389556d021",
-	"sha256": "4e23e0ea9d5c0038c9b44844b66ffe4a7aa8734cfde0c021ed2d6481f9406752",
-	"sha512": "507b64933492771f1d679745a28f2823838dd562c0b315a416ba4a70980006c7afe9c56969091af3fe8123eb2e4b200423e524ffb78d8d42088f229fe7ddd39a",
+	"filename": "pool/main/libv/libvirt/libvirt-daemon-driver-qemu_12.0.0-1ubuntu5.6_amd64.deb",
+	"size": 819506,
+	"md5": "769f87fb0eb8b1d4e0df2faf36fb2f7e",
+	"sha1": "ebadb392f75378c620bfce9bf86f0a2fc47f2109",
+	"sha256": "28d11489ec15d38b3463c22ea108bec869fd3d201753049d6261b4e3eb6ddf5f",
+	"sha512": "82fad53822240a0cc6b4f037c3c01509c53108222ec961b6d96a7fe46a08d50e44235c58805ad5dc811af36306b3419040ada86a0a8ff072df8043e4c4081595",
 	"descriptionMd5": "c2d4ef64bc876424b917fe7a09035280"
 }
