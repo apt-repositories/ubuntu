@@ -6,24 +6,34 @@
 	],
 	"package": "nvidia-compute-utils-470-server",
 	"source": "nvidia-graphics-drivers-470-server",
-	"version": "470.256.02-0ubuntu0.24.04.5",
+	"version": "470.256.02-0ubuntu0.24.04.6",
 	"section": "restricted/libs",
 	"priority": "optional",
 	"architecture": "amd64",
 	"depends": [
-		"nvidia-compute-utils-535"
+		"libnvidia-compute-470-server",
+		"adduser",
+		"libc6 (>= 2.34)"
 	],
-	"installedSize": 19,
+	"replaces": [
+		"nvidia-compute-utils",
+		"nvidia-persistenced"
+	],
+	"conflicts": [
+		"nvidia-compute-utils",
+		"nvidia-persistenced"
+	],
+	"installedSize": 321,
 	"maintainer": "Ubuntu Developers <ubuntu-devel-discuss@lists.ubuntu.com>",
 	"description": "NVIDIA compute utilities",
 	"homepage": "http://www.nvidia.com",
-	"filename": "pool/restricted/n/nvidia-graphics-drivers-470-server/nvidia-compute-utils-470-server_470.256.02-0ubuntu0.24.04.5_amd64.deb",
-	"size": 7320,
-	"md5": "dd5bd40b7e9a18f1939c594318a186a4",
-	"sha1": "91a464e2df5055233912666b6bf501a7fb9fbccd",
-	"sha256": "812cf739c9fca753dfd86585acdab33ebc88daa7aff764e1f65ed9a21bac59ed",
-	"sha512": "5ffb983c073d08808a91d5cabb7bbe91c5bc257b700a76a2a484fb1ffa9038003625e0b99fef2b32f2e0d493dfe404406fcec0ccbe5a368812f7b0cb3b5e13fa",
-	"descriptionMd5": "9c8d3185dbdef6b691516da46a236d15"
+	"filename": "pool/restricted/n/nvidia-graphics-drivers-470-server/nvidia-compute-utils-470-server_470.256.02-0ubuntu0.24.04.6_amd64.deb",
+	"size": 112842,
+	"md5": "d3a20746a862c1ce53b7ef2521b223dc",
+	"sha1": "c33e4951a2050430fa640b668207e0535c63a100",
+	"sha256": "73e2e8e9275fadf868a2d3f8e23e76bd75c2e468fa119005ebeeef3a65ca3ac8",
+	"sha512": "1a107ed8e896b85ce40d4fc128127d613537f6ddb5693c0fa16ce5b8406f6d1ce9b5cc028415adbe68c87e93e0f5104957947364e93d5e399d1442993c76decd",
+	"descriptionMd5": "22d91d0fcba51df4741637e102ab12c2"
 },{
 	"raw": {},
 	"required": [

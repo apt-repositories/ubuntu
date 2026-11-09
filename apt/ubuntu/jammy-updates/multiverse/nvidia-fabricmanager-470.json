@@ -6,21 +6,24 @@
 	],
 	"package": "nvidia-fabricmanager-470",
 	"source": "fabric-manager-470",
-	"version": "470.256.02-0ubuntu0.22.04.3",
+	"version": "470.256.02-0ubuntu0.22.04.4",
 	"section": "multiverse/libs",
 	"priority": "optional",
 	"architecture": "amd64",
-	"depends": [
-		"nvidia-fabricmanager-535"
+	"replaces": [
+		"nvidia-fabricmanager"
 	],
-	"installedSize": 16,
+	"conflicts": [
+		"nvidia-fabricmanager"
+	],
+	"installedSize": 5285,
 	"maintainer": "Ubuntu Developers <ubuntu-devel-discuss@lists.ubuntu.com>",
-	"description": "Transitional package nvidia-fabricmanager-470",
-	"filename": "pool/multiverse/f/fabric-manager-470/nvidia-fabricmanager-470_470.256.02-0ubuntu0.22.04.3_amd64.deb",
-	"size": 5270,
-	"md5": "8edf9a74794c06e20d7a27a0170fc420",
-	"sha1": "da79a8212b981d142c1af91c3be8bcde1ea37c8f",
-	"sha256": "813e59af86e3ac520f8bd0bd070cd5293df9b5d0b06bd69094e5d9f1f6ed9cbb",
-	"sha512": "26a1046a95d558b91c5bcce804fdc15821e4907e9583da5da62a65540d74d365ecb48bc67e89d4106c5d085b24d0d7ebc2663062130738dc8f78b0d54dd1f202",
-	"descriptionMd5": "f549b16a68ec6836fed943dbb070d299"
+	"description": "Fabric Manager for NVSwitch based systems.",
+	"filename": "pool/multiverse/f/fabric-manager-470/nvidia-fabricmanager-470_470.256.02-0ubuntu0.22.04.4_amd64.deb",
+	"size": 1192202,
+	"md5": "0aa35da9b4c8b9cd7c3595b142f7ec73",
+	"sha1": "b5e567f3522ca45fcb7100369416f8e711c679b9",
+	"sha256": "28690e45bef68f54ee6d36d7a011ac0ac28a8edb211318c31c4e1841bab334bf",
+	"sha512": "38eeba1c2d76542b3119303810148f4dab14baf6c302a3976ee9c997155333537a3052e022b41857c1dd1814e5ad5d637c1e47c6d2abadf2914280649e55c139",
+	"descriptionMd5": "3d49e1346de8fc10beaca066b0eb5df0"
 }

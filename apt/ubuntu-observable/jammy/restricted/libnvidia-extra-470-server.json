@@ -6,24 +6,34 @@
 	],
 	"package": "libnvidia-extra-470-server",
 	"source": "nvidia-graphics-drivers-470-server",
-	"version": "470.256.02-0ubuntu0.22.04.5",
+	"version": "470.256.02-0ubuntu0.22.04.6",
 	"section": "restricted/libs",
 	"priority": "optional",
 	"architecture": "amd64",
 	"depends": [
-		"libnvidia-extra-535"
+		"libc6 (>= 2.7)"
 	],
-	"installedSize": 19,
+	"replaces": [
+		"libnvidia-common-470-server (<< 440.64-0ubuntu3~)",
+		"libnvidia-extra"
+	],
+	"breaks": [
+		"libnvidia-common-470-server (<< 440.64-0ubuntu3~)"
+	],
+	"conflicts": [
+		"libnvidia-extra"
+	],
+	"installedSize": 122,
 	"maintainer": "Ubuntu Developers <ubuntu-devel-discuss@lists.ubuntu.com>",
-	"description": "Extra libraries for the NVIDIA driver",
+	"description": "Extra libraries for the NVIDIA Server Driver",
 	"homepage": "http://www.nvidia.com",
-	"filename": "pool/restricted/n/nvidia-graphics-drivers-470-server/libnvidia-extra-470-server_470.256.02-0ubuntu0.22.04.5_amd64.deb",
-	"size": 6916,
-	"md5": "b630e76d32f1979abe61a73e6852b50b",
-	"sha1": "0b03674d26af82f76f9ef399ff697632c6d736dd",
-	"sha256": "1c16fd616f5c7d44c499c055e10d899db75ae3be465ccdde95a3c3ada947da14",
-	"sha512": "49fef80484bae4f88daba9b9452a95142596efee4a7a156be88039ff68ca7a459d06ffdabcac2680749dbd7510031ea75aea9fe3d936e5b151a5c108c4b3c41b",
-	"descriptionMd5": "4b0734e225701c8ff8f486dea7df880b"
+	"filename": "pool/restricted/n/nvidia-graphics-drivers-470-server/libnvidia-extra-470-server_470.256.02-0ubuntu0.22.04.6_amd64.deb",
+	"size": 47578,
+	"md5": "5c13c6eea9e454a4153c731f00faa21f",
+	"sha1": "52ca144241818b5839f0ff1fbf1560e1b4efddfa",
+	"sha256": "766de81fc7401a0b20e01b50bcc4848f0ef65b31e7386eea8cffab0006b0381c",
+	"sha512": "ecbcc0aa911aaf52621f50f6009c2a658c104b85b04767eb291319de4ee95dc786d89a4699f02b284f5f7715efa506d777547c787a812a1c2fa24a7487007065",
+	"descriptionMd5": "d919c13960893adb9b27fa15ab4b33a4"
 },{
 	"raw": {},
 	"required": [

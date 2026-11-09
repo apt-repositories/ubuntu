@@ -1,0 +1,38 @@
+{
+	"raw": {},
+	"required": [
+		"Filename",
+		"Size"
+	],
+	"package": "libnetsnmptrapd40t64",
+	"source": "net-snmp",
+	"version": "5.9.4+dfsg-2ubuntu3.1",
+	"section": "universe/libs",
+	"priority": "optional",
+	"architecture": "amd64",
+	"depends": [
+		"libc6 (>= 2.38)",
+		"libmysqlclient24 (>= 8.4.2)",
+		"libsnmp40t64 (= 5.9.4+dfsg-2ubuntu3.1)",
+		"libsnmp-base"
+	],
+	"replaces": [
+		"libnetsnmptrapd40",
+		"libsnmp40t64 (<= 5.9+dfsg-1)"
+	],
+	"breaks": [
+		"libnetsnmptrapd40 (<< 5.9.4+dfsg-2ubuntu3.1)",
+		"libsnmp40t64 (<= 5.9+dfsg-1)"
+	],
+	"installedSize": 77,
+	"maintainer": "Ubuntu Developers <ubuntu-devel-discuss@lists.ubuntu.com>",
+	"description": "SNMP (Simple Network Management Protocol) trap library",
+	"homepage": "https://net-snmp.sourceforge.net/",
+	"filename": "pool/universe/n/net-snmp/libnetsnmptrapd40t64_5.9.4+dfsg-2ubuntu3.1_amd64.deb",
+	"size": 25214,
+	"md5": "8132745e20d422f4b76a45621d998a64",
+	"sha1": "d5cff6277920584ddddadd7fb406926c43f1b604",
+	"sha256": "8bbc72e5cfbbca3ae118a81ac41ad4a77d93dd8465fced8953eca515ab099a70",
+	"sha512": "f8e00cf875d6be1c47c8f9eb10ab192c44dcf17aa4cbb913dd948f81b7101771a7dfc8ce06aed355601960631c1dd276de78440b77cc78f3922be9bf893d3887",
+	"descriptionMd5": "da6a8feb8243410498d5be17f4bc4c36"
+}

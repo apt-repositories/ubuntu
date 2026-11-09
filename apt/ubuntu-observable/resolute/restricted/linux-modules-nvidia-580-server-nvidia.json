@@ -24,4 +24,36 @@
 	"sha256": "d9d0eb1dd1e6bbe1477dca306825d82556bf3372bccdf5585b87de51aa056854",
 	"sha512": "bfdaf7aae5d4459e28bf97a46c4a01b5402c6c15447554bd56cceb502051cb969c195938fbdda4aea66bd38ef51a03a3c37c3c62d56575ea375b627e91487a05",
 	"descriptionMd5": "8231e2cbdaa72ef16509828877777fcc"
+},{
+	"raw": {},
+	"required": [
+		"Filename",
+		"Size"
+	],
+	"package": "linux-modules-nvidia-580-server-nvidia",
+	"source": "linux-restricted-modules-nvidia",
+	"version": "7.0.0-1025.26",
+	"section": "restricted/kernel",
+	"priority": "optional",
+	"architecture": "amd64",
+	"depends": [
+		"linux-modules-nvidia-580-server-7.0.0-1025-nvidia (= 7.0.0-1025.26)",
+		"nvidia-kernel-common-580-server (>= 580.178.04)"
+	],
+	"breaks": [
+		"linux-nvidia (>= 7.0.0-1026~)",
+		"linux-nvidia (<< 7.0.0-1025)",
+		"nvidia-kernel-common-580-server (>> 580.178.04+)",
+		"nvidia-kernel-common-580-server (<< 580.178.04)"
+	],
+	"installedSize": 19,
+	"maintainer": "Canonical Kernel Team <kernel-team@lists.ubuntu.com>",
+	"description": "Extra drivers for nvidia-580-server for the nvidia flavour",
+	"filename": "pool/restricted/l/linux-restricted-modules-nvidia/linux-modules-nvidia-580-server-nvidia_7.0.0-1025.26_amd64.deb",
+	"size": 6748,
+	"md5": "303a9e3f15ebee6f4e737376d0ca2d1a",
+	"sha1": "1c8ae24f397f9063a9e7f09e3949a223373b8f68",
+	"sha256": "74c6829f7d44b38040c9f494b0ddc94aa457a03381433d7b181d829906119593",
+	"sha512": "8aabaa9d10f23c20addf623e29f4e9b8159ff95cdc53025e6e3db717c010a4d4650af7cc3ae18824d72ef6fc8ecc9d0cced7a29e62d1930550e2664b1fd8e59b",
+	"descriptionMd5": "8231e2cbdaa72ef16509828877777fcc"
 }]
