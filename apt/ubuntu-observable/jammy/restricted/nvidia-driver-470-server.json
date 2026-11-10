@@ -6,24 +6,51 @@
 	],
 	"package": "nvidia-driver-470-server",
 	"source": "nvidia-graphics-drivers-470-server",
-	"version": "470.256.02-0ubuntu0.22.04.5",
+	"version": "470.256.02-0ubuntu0.22.04.6",
 	"section": "restricted/libs",
 	"priority": "optional",
 	"architecture": "amd64",
 	"depends": [
-		"nvidia-driver-535"
+		"libnvidia-gl-470-server (= 470.256.02-0ubuntu0.22.04.6)",
+		"nvidia-dkms-470-server (<= 470.256.02-1)",
+		"nvidia-dkms-470-server (>= 470.256.02)",
+		"nvidia-kernel-common-470-server (<= 470.256.02-1)",
+		"nvidia-kernel-common-470-server (>= 470.256.02)",
+		"nvidia-kernel-source-470-server (= 470.256.02-0ubuntu0.22.04.6)",
+		"libnvidia-compute-470-server (= 470.256.02-0ubuntu0.22.04.6)",
+		"libnvidia-extra-470-server (= 470.256.02-0ubuntu0.22.04.6)",
+		"nvidia-compute-utils-470-server (= 470.256.02-0ubuntu0.22.04.6)",
+		"libnvidia-decode-470-server (= 470.256.02-0ubuntu0.22.04.6)",
+		"libnvidia-encode-470-server (= 470.256.02-0ubuntu0.22.04.6)",
+		"nvidia-utils-470-server (= 470.256.02-0ubuntu0.22.04.6)",
+		"xserver-xorg-video-nvidia-470-server (= 470.256.02-0ubuntu0.22.04.6)",
+		"libnvidia-cfg1-470-server (= 470.256.02-0ubuntu0.22.04.6)",
+		"libnvidia-ifr1-470-server (= 470.256.02-0ubuntu0.22.04.6)",
+		"libnvidia-fbc1-470-server (= 470.256.02-0ubuntu0.22.04.6)"
 	],
-	"installedSize": 19,
+	"recommends": [
+		"libnvidia-compute-470-server:i386 (= 470.256.02-0ubuntu0.22.04.6)",
+		"libnvidia-decode-470-server:i386 (= 470.256.02-0ubuntu0.22.04.6)",
+		"libnvidia-encode-470-server:i386 (= 470.256.02-0ubuntu0.22.04.6)",
+		"libnvidia-ifr1-470-server:i386 (= 470.256.02-0ubuntu0.22.04.6)",
+		"libnvidia-fbc1-470-server:i386 (= 470.256.02-0ubuntu0.22.04.6)",
+		"libnvidia-gl-470-server:i386 (= 470.256.02-0ubuntu0.22.04.6)"
+	],
+	"suggests": [
+		"nvidia-settings",
+		"nvidia-prime (>= 0.8)"
+	],
+	"installedSize": 1537,
 	"maintainer": "Ubuntu Developers <ubuntu-devel-discuss@lists.ubuntu.com>",
-	"description": "NVIDIA driver metapackage",
+	"description": "NVIDIA Server Driver metapackage",
 	"homepage": "http://www.nvidia.com",
-	"filename": "pool/restricted/n/nvidia-graphics-drivers-470-server/nvidia-driver-470-server_470.256.02-0ubuntu0.22.04.5_amd64.deb",
-	"size": 6886,
-	"md5": "12b949f67ee36c0c965edbdd9264bd15",
-	"sha1": "4c48db0071adfb27d574910a50a6417a2b4b4a4f",
-	"sha256": "c24f10d0e191abce27b260612a6194bb972a30f92d9a69330ece6ca15c0d4010",
-	"sha512": "6d9e6d1384e2db04c474df99bcadd3c2d9a6f1a09c12414008595a80bb15b38427c651cd17fcc1ec828c86553f1f9077339fb0873d0b1b2519cc5848f5f051c5",
-	"descriptionMd5": "a05572b83312d71f9c7394ae05a408c0"
+	"filename": "pool/restricted/n/nvidia-graphics-drivers-470-server/nvidia-driver-470-server_470.256.02-0ubuntu0.22.04.6_amd64.deb",
+	"size": 454214,
+	"md5": "50366af827cbccac8b535f9c324c3fe8",
+	"sha1": "654ff357f589149fc90f01cb6744f4aaa96d746a",
+	"sha256": "23e33779b7431da76d4b1e35bcfcafcf78865fabc1a094a6f2614e6e5227f7b9",
+	"sha512": "5ce30e51b1de6fd57012b18200fc3ceb87e5d0f6e8e653e2d2642d168a54d9b064ff827b45fe925db962516f94a73dcb3b252b9ab4779cfc93c6552fb3805139",
+	"descriptionMd5": "38233d125ec672f94e32a65d198ff0b8"
 },{
 	"raw": {},
 	"required": [

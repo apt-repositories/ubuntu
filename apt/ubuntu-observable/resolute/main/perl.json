@@ -5,6 +5,59 @@
 		"Size"
 	],
 	"package": "perl",
+	"version": "5.40.1-7ubuntu0.4",
+	"section": "perl",
+	"priority": "optional",
+	"architecture": "amd64",
+	"depends": [
+		"perl-base (= 5.40.1-7ubuntu0.4)",
+		"perl-modules-5.40 (>= 5.40.1-7ubuntu0.4)",
+		"libperl5.40 (= 5.40.1-7ubuntu0.4)"
+	],
+	"recommends": [
+		"netbase"
+	],
+	"suggests": [
+		"perl-doc",
+		"libterm-readline-gnu-perl | libterm-readline-perl-perl",
+		"make",
+		"libtap-harness-archive-perl"
+	],
+	"replaces": [
+		"perl-base (<< 5.36.0-2)",
+		"perl-modules (<< 5.22.0~)"
+	],
+	"breaks": [
+		"apt-show-versions (<< 0.22.10)",
+		"libdist-inkt-perl (<< 0.024-5)",
+		"libmarc-charset-perl (<< 1.35-3)",
+		"libperl-dev (<< 5.24.0~)",
+		"perl-doc (<< 5.40.1-1)",
+		"perl-modules-5.22",
+		"perl-modules-5.24",
+		"perl-modules-5.26 (<< 5.26.2-5)"
+	],
+	"conflicts": [
+		"libjson-pp-perl (<< 2.27200-2)"
+	],
+	"installedSize": 836,
+	"maintainer": "Ubuntu Developers <ubuntu-devel-discuss@lists.ubuntu.com>",
+	"description": "Larry Wall's Practical Extraction and Report Language",
+	"homepage": "https://dev.perl.org/perl5/",
+	"filename": "pool/main/p/perl/perl_5.40.1-7ubuntu0.4_amd64.deb",
+	"size": 262142,
+	"md5": "5b18d0bc874018b782481b0de041ecfe",
+	"sha1": "6b773c9cf8ff31f9b6991836148f08e411f77af2",
+	"sha256": "080d50944d3f9893a93c7e9c28ae403275b2385277640dbd7c67cb53adb2de12",
+	"sha512": "bd0a5e9336c2a44834af541a5287875e2b93e2897cf9a89f6162a0b34bbda365065e3aeaaa9feb0bd5a9d9a3b551f0d1929aec697042273a43c67db01920b522",
+	"descriptionMd5": "603cb1e5fe66da8106c364f4e9b84082"
+},{
+	"raw": {},
+	"required": [
+		"Filename",
+		"Size"
+	],
+	"package": "perl",
 	"version": "5.40.1-7ubuntu0.3",
 	"section": "perl",
 	"priority": "optional",

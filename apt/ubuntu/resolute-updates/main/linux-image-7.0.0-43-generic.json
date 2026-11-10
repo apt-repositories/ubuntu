@@ -1,0 +1,42 @@
+{
+	"raw": {},
+	"required": [
+		"Filename",
+		"Size"
+	],
+	"package": "linux-image-7.0.0-43-generic",
+	"source": "linux-signed",
+	"version": "7.0.0-43.43",
+	"section": "kernel",
+	"priority": "optional",
+	"architecture": "amd64",
+	"depends": [
+		"kmod",
+		"linux-base (>= 4.5ubuntu1~16.04.1)",
+		"linux-modules-7.0.0-43-generic"
+	],
+	"recommends": [
+		"grub-pc | grub-efi-amd64 | grub-efi-ia32 | grub | lilo",
+		"dracut | linux-initramfs-tool"
+	],
+	"suggests": [
+		"bpftool",
+		"linux-perf",
+		"linux-tools",
+		"linux-headers-7.0.0-43-generic"
+	],
+	"conflicts": [
+		"linux-image-unsigned-7.0.0-43-generic"
+	],
+	"installedSize": 16964,
+	"maintainer": "Canonical Kernel Team <kernel-team@lists.ubuntu.com>",
+	"description": "Signed kernel image generic",
+	"builtUsing": "linux (= 7.0.0-43.43)",
+	"filename": "pool/main/l/linux-signed/linux-image-7.0.0-43-generic_7.0.0-43.43_amd64.deb",
+	"size": 17075404,
+	"md5": "8baa6555e9f1dbeb144316d2f4eb19df",
+	"sha1": "b5617a037cbcf1cc6c7fab55db16d0845ba29b1c",
+	"sha256": "fb44ae94b483fb2e04aa898b92863552bea8a92a6ea9b5f4610a7bd17ac5d4a1",
+	"sha512": "f9f6648df78ca058112d5f915691d8f13aadd3548966acdb80e8645cbc7092131ea01c16c7efa9fe4c27580d496d74f38b6110e97d9a91d882f4e8a940fa19a9",
+	"descriptionMd5": "b0fd0df88b1cd31408007b00d2458952"
+}

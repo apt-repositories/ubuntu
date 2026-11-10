@@ -6,21 +6,24 @@
 	],
 	"package": "nvidia-fabricmanager-dev-470",
 	"source": "fabric-manager-470",
-	"version": "470.256.02-0ubuntu0.22.04.3",
+	"version": "470.256.02-0ubuntu0.22.04.4",
 	"section": "multiverse/libs",
 	"priority": "optional",
 	"architecture": "amd64",
-	"depends": [
-		"nvidia-fabricmanager-535"
+	"replaces": [
+		"nvidia-fabricmanager-dev"
 	],
-	"installedSize": 17,
+	"conflicts": [
+		"nvidia-fabricmanager-dev"
+	],
+	"installedSize": 1331,
 	"maintainer": "Ubuntu Developers <ubuntu-devel-discuss@lists.ubuntu.com>",
-	"description": "Transitional package nvidia-fabricmanager-dev-470",
-	"filename": "pool/multiverse/f/fabric-manager-470/nvidia-fabricmanager-dev-470_470.256.02-0ubuntu0.22.04.3_amd64.deb",
-	"size": 5326,
-	"md5": "b48a637a7a9c56bce559f32d5ffaa247",
-	"sha1": "cd61c2440a7239b98827820366bc0a076cc564c9",
-	"sha256": "6a23dfee9990470734e59316a742f929a131c2ce0a57ece83d29394c89a66143",
-	"sha512": "378e33b4e7322641ef0250f9d4a5012bfafdfde1b30c154cbe19c57e32837c1a8f84c53853af50689847957525a81b4d73f15aa3065755fc6c105e9b58297480",
-	"descriptionMd5": "6b81e2cb2c3ee908c57a89d356125607"
+	"description": "Fabric Manager API headers and associated library",
+	"filename": "pool/multiverse/f/fabric-manager-470/nvidia-fabricmanager-dev-470_470.256.02-0ubuntu0.22.04.4_amd64.deb",
+	"size": 401028,
+	"md5": "a8350d09eb9a65c1cd56ef1f6aae18de",
+	"sha1": "79da0f1bddac053b4bf9385a09976cb7f986bc0b",
+	"sha256": "18d3d025f50fd01049f273774569f0fffd2121396856531af2e6706fa19917a8",
+	"sha512": "18dba11b0bc19ccb7ece2c630e02afdc298c9d12db61a0e69282afbcd9576dd683dd08f8a1b726a1a8a123f6064c281e3268c9d15d4cd5a7bcbff4e1622defa1",
+	"descriptionMd5": "565605cc6a127d423c88c38e5c2f9a26"
 }

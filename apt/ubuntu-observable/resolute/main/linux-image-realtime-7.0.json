@@ -41,6 +41,41 @@
 	],
 	"package": "linux-image-realtime-7.0",
 	"source": "linux-meta-realtime",
+	"version": "7.0.0-43.43.1",
+	"section": "kernel",
+	"priority": "optional",
+	"architecture": "amd64",
+	"depends": [
+		"linux-image-7.0.0-43-realtime",
+		"linux-modules-7.0.0-43-realtime",
+		"linux-firmware",
+		"intel-microcode",
+		"amd64-microcode"
+	],
+	"recommends": [
+		"thermald"
+	],
+	"conflicts": [
+		"linux-image-fb-realtime-7.0"
+	],
+	"installedSize": 12,
+	"maintainer": "Ubuntu Kernel Team <kernel-team@lists.ubuntu.com>",
+	"description": "Linux kernel image for real-time systems.",
+	"filename": "pool/main/l/linux-meta-realtime/linux-image-realtime-7.0_7.0.0-43.43.1_amd64.deb",
+	"size": 5708,
+	"md5": "ba6ef9a2ef25964832a2f8dc05294b65",
+	"sha1": "fa396ed67b590ff02beae9c0261369c84112da34",
+	"sha256": "a2210ca88dd4b8558e7685c241cb363ee8326953d10a7b5cf2fa03f2357da2b7",
+	"sha512": "ca43be43ffc1652a3763da2a10832d62ddac0fd5761d52d2f6ff2215e0d4084bd3bcbc1dbfa951d4a2bcfe51f37febe1950403e651d10ab5a98729bb595d2be7",
+	"descriptionMd5": "4d8e8a68a3c6fa13675164144e03fdc4"
+},{
+	"raw": {},
+	"required": [
+		"Filename",
+		"Size"
+	],
+	"package": "linux-image-realtime-7.0",
+	"source": "linux-meta-realtime",
 	"version": "7.0.0-14.14.1",
 	"section": "kernel",
 	"priority": "optional",

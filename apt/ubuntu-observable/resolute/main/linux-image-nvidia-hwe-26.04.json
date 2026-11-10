@@ -6,29 +6,31 @@
 	],
 	"package": "linux-image-nvidia-hwe-26.04",
 	"source": "linux-meta-nvidia-bos",
-	"version": "7.0.0-2018.18",
+	"version": "7.0.0-2024.25",
 	"section": "kernel",
 	"priority": "optional",
 	"architecture": "amd64",
 	"depends": [
-		"linux-image-7.0.0-2018-nvidia-bos",
-		"linux-modules-7.0.0-2018-nvidia-bos",
+		"linux-image-7.0.0-2024-nvidia-bos",
+		"linux-modules-7.0.0-2024-nvidia-bos",
 		"linux-firmware",
 		"intel-microcode",
 		"amd64-microcode",
-		"linux-modules-nvidia-fs-7.0.0-2018-nvidia-bos"
+		"linux-main-modules-nvidia-fs-7.0.0-2024-nvidia-bos",
+		"linux-main-modules-mstflint-7.0.0-2024-nvidia-bos",
+		"linux-main-modules-zfs-7.0.0-2024-nvidia-bos"
 	],
 	"recommends": [
 		"thermald"
 	],
-	"installedSize": 9,
+	"installedSize": 10,
 	"maintainer": "Ubuntu Kernel Team <kernel-team@lists.ubuntu.com>",
 	"description": "NVIDIA BOS Linux kernel image",
-	"filename": "pool/main/l/linux-meta-nvidia-bos/linux-image-nvidia-hwe-26.04_7.0.0-2018.18_amd64.deb",
-	"size": 2800,
-	"md5": "31e40188115c5b91220ce4e78fd0a61a",
-	"sha1": "5ce3cce62b479e9f7a370b450bd97c9f741b9d9d",
-	"sha256": "b7045c92170ccbf2a399e5692f757db88ca8fbdb60807735be6f71ac319dd3d1",
-	"sha512": "41f812899a0d0c5e1ca843fefd60ca991c98f66b2aea6a35935e2038cd4e3ae07b677332f9df3dc9d05b0e8bfb210e9c2cbde2d68a020391627dcadedf129966",
+	"filename": "pool/main/l/linux-meta-nvidia-bos/linux-image-nvidia-hwe-26.04_7.0.0-2024.25_amd64.deb",
+	"size": 3024,
+	"md5": "99cf139ee73a19a28316596f8efc8e00",
+	"sha1": "ceaa538da7e4317bc612421cbf2c11ba76e4063b",
+	"sha256": "6e4424d61646f39542fbee4009159be2e6f0896a724b6767745e3c58ba717fff",
+	"sha512": "8f6e78eeff16a8d2bc9cd9904698e71e6347f9b5c7c1a00aa6f5f305cb4840eea991ee841ab3875d9ee3d4c0e41d6d96db2a39b1f7dedf6073f5650b45f57f8a",
 	"descriptionMd5": "2e9abaa22b8bca3b877615943ec00df9"
 }]

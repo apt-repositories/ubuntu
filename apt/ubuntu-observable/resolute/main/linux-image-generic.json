@@ -6,14 +6,15 @@
 	],
 	"package": "linux-image-generic",
 	"source": "linux-meta",
-	"version": "7.0.0-38.38",
+	"version": "7.0.0-42.42",
 	"section": "kernel",
 	"priority": "optional",
 	"architecture": "amd64",
 	"depends": [
-		"linux-image-7.0.0-38-generic",
-		"linux-modules-7.0.0-38-generic",
-		"linux-main-modules-zfs-7.0.0-38-generic",
+		"linux-image-7.0.0-42-generic",
+		"linux-modules-7.0.0-42-generic",
+		"linux-main-modules-zfs-7.0.0-42-generic",
+		"linux-main-modules-v4l2loopback-7.0.0-42-generic",
 		"linux-firmware",
 		"intel-microcode",
 		"amd64-microcode"
@@ -27,12 +28,49 @@
 	"installedSize": 13,
 	"maintainer": "Ubuntu Kernel Team <kernel-team@lists.ubuntu.com>",
 	"description": "Generic Linux kernel image",
-	"filename": "pool/main/l/linux-meta/linux-image-generic_7.0.0-38.38_amd64.deb",
-	"size": 2426,
-	"md5": "a7343e45d86d4174d971121ad0d3aea4",
-	"sha1": "b36f81970826ab0cf028ca76de570ced376c89d1",
-	"sha256": "359824246087bdcaf0555e0b10e24e8a0bd61e7d1f48f1cdecb240c62124bee3",
-	"sha512": "b6f357df3011652df0ae8a9568578c6e44bee96b67053851ff5e2c8bf0767ebb88b5dce20d5b1d753a79ec25cf007547e75b78a59a19923249a60c49a36d441f",
+	"filename": "pool/main/l/linux-meta/linux-image-generic_7.0.0-42.42_amd64.deb",
+	"size": 2486,
+	"md5": "a66746f1b8172d28601df8c9ae7bebfa",
+	"sha1": "58bb5e7982de67454fc939ca9b8f21fbab7f167a",
+	"sha256": "d497440edea7e4347db6f9dc76b819aa5a07f212127dbcbc4a549eb6362fbe4d",
+	"sha512": "e331f3d43b2aaffcbf003d2b3598d8560b2567c6d3bf336b7935c6ab8ca27ad1b1f529d1469d880882d3f153edf309fd3ade532cef063f974924f65f9ad7196c",
+	"descriptionMd5": "6d632579c673704f44b290b16e7dbfd1"
+},{
+	"raw": {},
+	"required": [
+		"Filename",
+		"Size"
+	],
+	"package": "linux-image-generic",
+	"source": "linux-meta",
+	"version": "7.0.0-43.43",
+	"section": "kernel",
+	"priority": "optional",
+	"architecture": "amd64",
+	"depends": [
+		"linux-image-7.0.0-43-generic",
+		"linux-modules-7.0.0-43-generic",
+		"linux-main-modules-zfs-7.0.0-43-generic",
+		"linux-main-modules-v4l2loopback-7.0.0-43-generic",
+		"linux-firmware",
+		"intel-microcode",
+		"amd64-microcode"
+	],
+	"recommends": [
+		"thermald"
+	],
+	"conflicts": [
+		"linux-image-fb-generic"
+	],
+	"installedSize": 13,
+	"maintainer": "Ubuntu Kernel Team <kernel-team@lists.ubuntu.com>",
+	"description": "Generic Linux kernel image",
+	"filename": "pool/main/l/linux-meta/linux-image-generic_7.0.0-43.43_amd64.deb",
+	"size": 2482,
+	"md5": "6d5eaf04c4a0a555c43dbb5d4f59a62d",
+	"sha1": "111af25dfc8fdc12cfefb5902857df984f169df5",
+	"sha256": "8694b654780a3f5b038256bddbd5a364eee02531c3b69a94d6ed1b8647174d24",
+	"sha512": "365b1c2b62b281ac691ef56dea8fcfa1a1080f6393cd8be7122c5b4d2e65ea96bd9c300ebd9bef7851c55a4429e02d3309ce2d5bdfceff5f7d37fa3d9eb38ba5",
 	"descriptionMd5": "6d632579c673704f44b290b16e7dbfd1"
 },{
 	"raw": {},
