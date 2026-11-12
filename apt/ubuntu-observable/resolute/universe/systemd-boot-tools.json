@@ -42,6 +42,42 @@
 	],
 	"package": "systemd-boot-tools",
 	"source": "systemd",
+	"version": "259.9-0ubuntu0.1",
+	"section": "universe/admin",
+	"priority": "optional",
+	"architecture": "amd64",
+	"depends": [
+		"libc6 (>= 2.34)",
+		"libssl3t64 (>= 3.0.0)",
+		"libsystemd-shared (= 259.9-0ubuntu0.1)"
+	],
+	"replaces": [
+		"systemd (<< 257.7-2~)",
+		"systemd-boot (<< 257.4-2~)"
+	],
+	"breaks": [
+		"systemd (<< 257.7-2~)",
+		"systemd-boot (<< 257.4-2~)"
+	],
+	"installedSize": 208,
+	"maintainer": "Ubuntu Developers <ubuntu-devel-discuss@lists.ubuntu.com>",
+	"description": "simple UEFI boot manager - tools",
+	"homepage": "https://systemd.io",
+	"filename": "pool/universe/s/systemd/systemd-boot-tools_259.9-0ubuntu0.1_amd64.deb",
+	"size": 60040,
+	"md5": "38145b45c65c1f7a02118a754ddf61cb",
+	"sha1": "cfba3e97b4bb866b758e959cbac7a112bd8c3153",
+	"sha256": "b1188bd2cbbd643ef8fab62d3a97646e072aa49564042267a0b287f9a9ef4ead",
+	"sha512": "3efade06663841845dcdf40248475d426700a871ab0a0783ccf3ae4a5a4e46ddf4aa8f9d44a1a88fe4f86c89fadcf5619ec046c5c664aa8f35a2bde511d484d5",
+	"descriptionMd5": "4729b9c85818fe3bc8df4aa7e00ee558"
+},{
+	"raw": {},
+	"required": [
+		"Filename",
+		"Size"
+	],
+	"package": "systemd-boot-tools",
+	"source": "systemd",
 	"version": "259.5-0ubuntu3",
 	"section": "universe/admin",
 	"priority": "optional",

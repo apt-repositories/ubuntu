@@ -1,0 +1,42 @@
+{
+	"raw": {},
+	"required": [
+		"Filename",
+		"Size"
+	],
+	"package": "linux-image-7.0.0-1006-vmware",
+	"source": "linux-signed-vmware",
+	"version": "7.0.0-1006.6",
+	"section": "kernel",
+	"priority": "optional",
+	"architecture": "amd64",
+	"depends": [
+		"kmod",
+		"linux-base (>= 4.5ubuntu1~16.04.1)",
+		"linux-modules-7.0.0-1006-vmware"
+	],
+	"recommends": [
+		"grub-pc | grub-efi-amd64 | grub-efi-ia32 | grub | lilo",
+		"dracut | linux-initramfs-tool"
+	],
+	"suggests": [
+		"bpftool",
+		"linux-perf",
+		"linux-vmware-tools",
+		"linux-headers-7.0.0-1006-vmware"
+	],
+	"conflicts": [
+		"linux-image-unsigned-7.0.0-1006-vmware"
+	],
+	"installedSize": 17284,
+	"maintainer": "Canonical Kernel Team <kernel-team@lists.ubuntu.com>",
+	"description": "Signed kernel image vmware",
+	"builtUsing": "linux-vmware (= 7.0.0-1006.6)",
+	"filename": "pool/main/l/linux-signed-vmware/linux-image-7.0.0-1006-vmware_7.0.0-1006.6_amd64.deb",
+	"size": 17397622,
+	"md5": "9f0fef11f797178a93684f81030d5f88",
+	"sha1": "6cd0acda1c73cf3a9a1779bb6650f65804643955",
+	"sha256": "dac2e5064e153d49c00854e6bb5c5c75c971c99ce591c9fbb38805e8f15147fd",
+	"sha512": "33e943dae334304ffb9dae84e13df7ff22074b2ba62da3d7adaa0901fc1ba302b7a4307b65e9d5baabf632724076545c8593cebde0a45ed7d6ee1212a1e4f49c",
+	"descriptionMd5": "1a1542040494e64d2b82930c8add3d70"
+}
