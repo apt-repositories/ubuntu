@@ -56,6 +56,56 @@
 	],
 	"package": "libvirt-clients-hwe",
 	"source": "libvirt-hwe",
+	"version": "12.0.0-1ubuntu5.6",
+	"section": "admin",
+	"priority": "optional",
+	"architecture": "amd64",
+	"depends": [
+		"libvirt-common (= 12.0.0-1ubuntu5.6)",
+		"libvirt0 (= 12.0.0-1ubuntu5.6)",
+		"libxml2-utils",
+		"sensible-utils",
+		"libc6 (>= 2.34)",
+		"libgcc-s1 (>= 3.3.1)",
+		"libglib2.0-0t64 (>= 2.44.0)",
+		"libgnutls30t64 (>= 3.7.0)",
+		"libreadline8t64 (>= 6.0)",
+		"libvirt0-hwe (>= 12.0.0)",
+		"libxml2-16 (>= 2.14.1)",
+		"ubuntu-virt-hwe (>= 1:10.2.1+ds-1ubuntu4.4~)"
+	],
+	"suggests": [
+		"libvirt-clients-qemu (= 12.0.0-1ubuntu5.6)",
+		"libvirt-daemon (= 12.0.0-1ubuntu5.6)",
+		"libvirt-login-shell (= 12.0.0-1ubuntu5.6)"
+	],
+	"replaces": [
+		"libvirt-clients",
+		"libvirt-daemon (<< 6.9.0-2~)"
+	],
+	"breaks": [
+		"libvirt-daemon (<< 6.9.0-2~)",
+		"libvirt-daemon-driver-qemu (<< 6.9.0-2~)"
+	],
+	"installedSize": 1150,
+	"maintainer": "Ubuntu Developers <ubuntu-devel-discuss@lists.ubuntu.com>",
+	"description": "virtualization library - clients",
+	"homepage": "https://libvirt.org/",
+	"filename": "pool/main/libv/libvirt-hwe/libvirt-clients-hwe_12.0.0-1ubuntu5.6_amd64.deb",
+	"size": 427586,
+	"md5": "9499925fa0ade34ff62204693f806d3a",
+	"sha1": "8b6f5adee2d8c306febc367663890c7fc4426a76",
+	"sha256": "b79b5409cbd3c2769b9268582903532c82f6800b2c752886f0464ea36a708a72",
+	"sha512": "f25fb0b68c6032e95f91f91e1fd179f067133850a17d743be8aa79e50d9afb827ce27e9102f43a9330d3f3566cfa43bd97d0d58fb186ec518de514883a53fb93",
+	"descriptionMd5": "34256c10f39b289984b2264f8ff3fcfc"
+},{
+	"raw": {},
+	"required": [
+		"Filename",
+		"Size"
+	],
+	"package": "libvirt-clients-hwe",
+	"source": "libvirt-hwe",
 	"version": "12.0.0-1ubuntu5",
 	"section": "admin",
 	"priority": "optional",
