@@ -1,0 +1,40 @@
+{
+	"raw": {},
+	"required": [
+		"Filename",
+		"Size"
+	],
+	"package": "linux-image-7.0.0-43-generic",
+	"source": "linux-signed-hwe-7.0",
+	"version": "7.0.0-43.43~24.04.1",
+	"section": "kernel",
+	"priority": "optional",
+	"architecture": "amd64",
+	"depends": [
+		"kmod",
+		"linux-base (>= 4.5ubuntu1~16.04.1)",
+		"linux-modules-7.0.0-43-generic"
+	],
+	"recommends": [
+		"grub-pc | grub-efi-amd64 | grub-efi-ia32 | grub | lilo",
+		"initramfs-tools | linux-initramfs-tool"
+	],
+	"suggests": [
+		"linux-hwe-7.0-tools",
+		"linux-headers-7.0.0-43-generic"
+	],
+	"conflicts": [
+		"linux-image-unsigned-7.0.0-43-generic"
+	],
+	"installedSize": 16689,
+	"maintainer": "Canonical Kernel Team <kernel-team@lists.ubuntu.com>",
+	"description": "Signed kernel image generic",
+	"builtUsing": "linux-hwe-7.0 (= 7.0.0-43.43~24.04.1)",
+	"filename": "pool/main/l/linux-signed-hwe-7.0/linux-image-7.0.0-43-generic_7.0.0-43.43~24.04.1_amd64.deb",
+	"size": 16781590,
+	"md5": "6d94bbcf6199742e8b14ae4e0522be5b",
+	"sha1": "cc85393b0436d1ab198c4f1d34345706d9aa41f2",
+	"sha256": "b38d981cab20da80b19cb84fe093a380551939cdfbdd57d85d0843e13ecd209f",
+	"sha512": "6be1b9074033a175f2a1aa9d03e42adb455f02ec1c1cf5287d2783904026f8f5b18d96da668908ec96fdfccc35de198d5572da3b050f6fbbcc2ba3aead094cd2",
+	"descriptionMd5": "b0fd0df88b1cd31408007b00d2458952"
+}

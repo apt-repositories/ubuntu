@@ -6,22 +6,28 @@
 	],
 	"package": "linux-modules-nvidia-595-server-open-nvidia-bos-7.0",
 	"source": "linux-restricted-modules-nvidia-bos",
-	"version": "7.0.0-2018.18+2",
+	"version": "7.0.0-2024.25",
 	"section": "restricted/kernel",
 	"priority": "optional",
 	"architecture": "amd64",
 	"depends": [
-		"linux-modules-nvidia-595-server-open-7.0.0-2018-nvidia-bos (= 7.0.0-2018.18+2)",
+		"linux-modules-nvidia-595-server-open-7.0.0-2024-nvidia-bos (= 7.0.0-2024.25)",
 		"nvidia-kernel-common-595-server (>= 595.91.07)"
 	],
-	"installedSize": 18,
+	"breaks": [
+		"linux-nvidia-bos-7.0 (>= 7.0.0-2025~)",
+		"linux-nvidia-bos-7.0 (<< 7.0.0-2024)",
+		"nvidia-kernel-common-595-server (>> 595.91.07+)",
+		"nvidia-kernel-common-595-server (<< 595.91.07)"
+	],
+	"installedSize": 19,
 	"maintainer": "Canonical Kernel Team <kernel-team@lists.ubuntu.com>",
 	"description": "Extra drivers for nvidia-595-server-open for the nvidia-bos-7.0 flavour",
-	"filename": "pool/restricted/l/linux-restricted-modules-nvidia-bos/linux-modules-nvidia-595-server-open-nvidia-bos-7.0_7.0.0-2018.18+2_amd64.deb",
-	"size": 6512,
-	"md5": "1ad8f5f325f7ff85a9afe2f16927dce0",
-	"sha1": "d58c05b553739bbc5c7cd24949577c8c7eae1845",
-	"sha256": "0adea99aa7278125112b6b89c6deeb95d994101d0a1e091df4a6a4de2547aa76",
-	"sha512": "d53004c7ed43babc3e4c3300505c4fabcce560fbe7afe9ea45c1339eaac4dbc140ff05cbafeeaecffb8305d365e7278a257fe3ee0448fd82970bbf474046e0b4",
+	"filename": "pool/restricted/l/linux-restricted-modules-nvidia-bos/linux-modules-nvidia-595-server-open-nvidia-bos-7.0_7.0.0-2024.25_amd64.deb",
+	"size": 6796,
+	"md5": "d9746fc2243fa5500c08d9e483ce4a9d",
+	"sha1": "3a5b057911b929234839a157c04c59865d2f5bb2",
+	"sha256": "ab080f2405026b9c4f0de9df68062b138e8e91be46584a0046cf8e2e803e0df8",
+	"sha512": "9efc60d26b8cf5893bd78c97adb0601fde3851b89c2f55928b16f95cb8455c4b2d130134989725f4a2bdd5b08858bd146abf739cb97f19506a5391b9cc38f6c7",
 	"descriptionMd5": "7b2bc4f7fe70af52f650a83e9b1d3c00"
 }

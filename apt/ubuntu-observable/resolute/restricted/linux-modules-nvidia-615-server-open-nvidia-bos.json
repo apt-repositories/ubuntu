@@ -6,22 +6,28 @@
 	],
 	"package": "linux-modules-nvidia-615-server-open-nvidia-bos",
 	"source": "linux-restricted-modules-nvidia-bos",
-	"version": "7.0.0-2018.18+2",
+	"version": "7.0.0-2024.25",
 	"section": "restricted/kernel",
 	"priority": "optional",
 	"architecture": "amd64",
 	"depends": [
-		"linux-modules-nvidia-615-server-open-7.0.0-2018-nvidia-bos (= 7.0.0-2018.18+2)",
+		"linux-modules-nvidia-615-server-open-7.0.0-2024-nvidia-bos (= 7.0.0-2024.25)",
 		"nvidia-kernel-common-615-server (>= 615.71.09)"
 	],
-	"installedSize": 18,
+	"breaks": [
+		"linux-nvidia-bos (>= 7.0.0-2025~)",
+		"linux-nvidia-bos (<< 7.0.0-2024)",
+		"nvidia-kernel-common-615-server (>> 615.71.09+)",
+		"nvidia-kernel-common-615-server (<< 615.71.09)"
+	],
+	"installedSize": 19,
 	"maintainer": "Canonical Kernel Team <kernel-team@lists.ubuntu.com>",
 	"description": "Extra drivers for nvidia-615-server-open for the nvidia-bos flavour",
-	"filename": "pool/restricted/l/linux-restricted-modules-nvidia-bos/linux-modules-nvidia-615-server-open-nvidia-bos_7.0.0-2018.18+2_amd64.deb",
-	"size": 6502,
-	"md5": "08eb65fe78c23a2138a3c4296838639a",
-	"sha1": "024affeea6cdb377815b2598e8a96f6ef154ea8e",
-	"sha256": "979ad934a2bd4e1dd3597384d8837f866b991dbd690a554196836e1f1894993f",
-	"sha512": "0f42207771753c6e9f9cb6098c41f97f797032bcab057eae921f536f4ce8b8024aff92249ca63a8dccf81c40066c05869d6432d76b9fc4c4bb31b31dbb2c5e14",
+	"filename": "pool/restricted/l/linux-restricted-modules-nvidia-bos/linux-modules-nvidia-615-server-open-nvidia-bos_7.0.0-2024.25_amd64.deb",
+	"size": 6774,
+	"md5": "da2d7d6cd1d3ca80a002d97d3ac1b03b",
+	"sha1": "46a3f3ec11711addb91388cd89dcd401b391513c",
+	"sha256": "8df012856c9fa4102a8f54318003fd5856ab490bdb7273d6ac56839a26577d14",
+	"sha512": "5f041e3c579c50864819e38ffc5940f75b7c66ea5e87f1e811f2bd66996f952ffb9916d0ebf3e7e5cab4bb0505b88c2d1ff1fd49a6823b9e8f29ec3ac68eb759",
 	"descriptionMd5": "794502ae889d84f1e5594f56d48cf873"
 }]
